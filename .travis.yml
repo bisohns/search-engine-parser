@@ -1,0 +1,29 @@
+language: python
+python:
+  - "3.6"
+
+# Branches to enbale CI.
+branches:
+  only:
+    - master
+
+# Command to install dependencies.
+install:
+  - pip install -r requirements.txt
+
+# Build script (If successfully built - no errors)
+script:
+  # - run tests
+  - ./run_tests.sh
+after_success:
+  - ./docs.sh
+  - python setup.py -q install
+
+deploy:
+  provider: pypi
+  user: "deven96"
+  password: $PYPI_PASSWORD
+  all_branches: true
+  condition: $TRAVIS_TAG =~ ^v[0-9]+\.[0-9]+\.[0-9]+
+  skip_existing: true
+

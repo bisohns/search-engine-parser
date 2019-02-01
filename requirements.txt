@@ -1,0 +1,5 @@
+pprint
+sphinx
+sphinx-rtd-theme
+lxml
+beautifulsoup4
