@@ -9,7 +9,7 @@ git config --global user.name "Travis CI"
 
 # Checkout to gh-pages
 git checkout gh-pages
-if  [ $? -eq 0] then
+if  [ $? -eq 0]; then
    echo "Checked out to existing gh-pages branch"
 else
    git checkout -b gh-pages

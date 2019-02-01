@@ -7,7 +7,7 @@ Package to query popular search engines and scrape for result titles, links and 
 - [Search Engine Parser](#search-engine-parser)
   - [Installation](#installation)
   - [Development](#development)
-  - [Documentation](#documentation)
+  - [Code Documentation](#code-documentation)
   - [Running the tests](#running-the-tests)
   - [Usage](#usage)
   - [Contribution](#contribution)
@@ -25,9 +25,9 @@ Package to query popular search engines and scrape for result titles, links and 
     git clone git@github.com:bisoncorps/search-engine-parser.git
 ```
 
-## Documentation
+## Code Documentation
 
-[Github Pages](https://bisoncorps.github.io/search-engine-parser)
+Found on [Github Pages](https://bisoncorps.github.io/search-engine-parser)
 
 ## Running the tests
 

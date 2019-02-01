@@ -41,7 +41,10 @@ def main(args):
     if args["type"] and args["rank"]:
         type_ = args["type"]
         rank = args["rank"]
-        print(results[type_][rank])
+        try:
+            print(results[type_][rank])
+        except Exception as e:
+            print(e)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='SearchEngineParser')
