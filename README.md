@@ -111,7 +111,7 @@ Full arguments shown below
 
 You are very welcome to modify and use them in your own projects.
 
-Please keep a link to the [original repository](https://github.com/bisoncorps/search-engine-parser). If you have made a fork with substantial modifications that you feel may be useful, then please [open a new issue on GitHub](https://github.com/bisoncorps/search-engine-parser/issues) with a link and short description.
+Please keep a link to the [original repository](https://github.com/bisoncorps/search-engine-parser). If you have made a fork with substantial modifications that you feel may be useful, then please [open a new issue on GitHub](https://github.com/bisoncorps/search-engine-parser/issues) with a link and short description and then make a pull request.
 
 ## License (MIT)
 
