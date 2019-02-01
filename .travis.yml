@@ -16,7 +16,6 @@ script:
   # - run tests
   - ./run_tests.sh
 after_success:
-  - ./docs.sh
   - python setup.py -q install
 
 deploy:
@@ -27,3 +26,9 @@ deploy:
   condition: $TRAVIS_TAG =~ ^v[0-9]+\.[0-9]+\.[0-9]+
   skip_existing: true
 
+after_deploy:
+  - ./docs.sh
+
+notifications:
+# slack channel notification
+    slack: bisoncorps:urrq42VfAo4zJP2r6lH2dU8Y
