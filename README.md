@@ -71,6 +71,23 @@ Query Results can be scraped from popular search engines as shown in the example
     print(bresults["descriptions"][5])
 ```
 
+Using the cli
+
+```bash
+    usage: cli.py [-h] [-e ENGINE] -q QUERY [-p PAGE]
+
+    SearchEngineParser
+
+    optional arguments:
+    -h, --help            show this help message and exit
+    -e ENGINE, --engine ENGINE
+                            Engine to use for parsing the query e.g yahoo,
+                            defaults to google
+    -q QUERY, --query QUERY
+                            Query string to search engine for
+    -p PAGE, --page PAGE  Page of the result to return details for
+```
+
 ## Contribution
 
 You are very welcome to modify and use them in your own projects.
