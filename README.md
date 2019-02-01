@@ -74,18 +74,21 @@ Query Results can be scraped from popular search engines as shown in the example
 Using the cli
 
 ```bash
-    usage: cli.py [-h] [-e ENGINE] -q QUERY [-p PAGE]
+    usage: cli.py [-h] [-e ENGINE] -q QUERY [-p PAGE] [-t TYPE] [-r RANK]
 
     SearchEngineParser
 
     optional arguments:
     -h, --help            show this help message and exit
     -e ENGINE, --engine ENGINE
-                            Engine to use for parsing the query e.g yahoo,
-                            defaults to google
+                            Engine to use for parsing the query e.g yahoo
+                            (default: google)
     -q QUERY, --query QUERY
                             Query string to search engine for
-    -p PAGE, --page PAGE  Page of the result to return details for
+    -p PAGE, --page PAGE  Page of the result to return details for (default: 1)
+    -t TYPE, --type TYPE  Type of detail to return i.e links, desciptions or
+                            titles
+    -r RANK, --rank RANK  Rank of detail to return e.g 5 (default: 1)
 ```
 
 ## Contribution
