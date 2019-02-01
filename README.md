@@ -70,9 +70,23 @@ Query Results can be scraped from popular search engines as shown in the example
     print(bresults["descriptions"][5])
 ```
 
-Using the cli
+Use python module runner to run the parser on the command line e.g
 
 ```bash
+python -m search_engine_parser.core.cli --query "Preaching to the choir" --engine bing --type descriptions
+```
+
+Result
+
+```bash
+'Preaching to the choir' originated in the USA in the 1970s. It is a variant of the earlier 'preaching to the converted', which dates from England in the late 1800s and has the same meaning. Origin - the full story 'Preaching to the choir' (also sometimes spelled quire) is of US origin.
+```
+
+
+
+Full arguments shown below
+```bash
+
     usage: cli.py [-h] [-e ENGINE] -q QUERY [-p PAGE] [-t TYPE] [-r RANK]
 
     SearchEngineParser

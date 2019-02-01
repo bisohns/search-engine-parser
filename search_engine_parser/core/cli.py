@@ -27,7 +27,7 @@ from engines import YahooSearch, GoogleSearch, BingSearch
 
 def main(args):
     """
-        Parse command line arguments
+        Executes logic from parsed arguments
     """
     if args['engine'] == 'google':
         engine = GoogleSearch()
@@ -46,7 +46,10 @@ def main(args):
         except Exception as e:
             print(e)
 
-if __name__ == '__main__':
+def runner():
+    """
+    runner that handles parsing logic
+    """
     parser = argparse.ArgumentParser(description='SearchEngineParser')
     parser.add_argument('-e','--engine', help='Engine to use for parsing the query e.g yahoo (default: google)', default='google')
     parser.add_argument('-q', '--query', help='Query string to search engine for', required=True)
@@ -54,7 +57,8 @@ if __name__ == '__main__':
     parser.add_argument('-t', '--type', help='Type of detail to return i.e links, desciptions or titles', default="links")
     parser.add_argument('-r', '--rank', type=int, help='Rank of detail to return e.g 5 (default: 1)', default=1)
 
-
-
     args = vars(parser.parse_args())
     main(args)
+
+if __name__ == '__main__':
+    runner()
