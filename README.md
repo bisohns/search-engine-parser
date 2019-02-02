@@ -22,7 +22,7 @@ Package to query popular search engines and scrape for result titles, links and 
 ## Installation
 
 ```bash
-    pip install search_engine_parser
+    pip install search-engine-parser
 ```
 
 ## Development
