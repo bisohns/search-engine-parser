@@ -1,6 +1,2 @@
-pprint
-sphinx
-sphinx-rtd-theme
 lxml
-m2r
 beautifulsoup4
