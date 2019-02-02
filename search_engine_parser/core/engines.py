@@ -60,6 +60,7 @@ class GoogleSearch(BaseSearch):
         if not results:
             raise ValueError("The result parsing was unsuccessful, flagged as unusual traffic")
         search_results = self.parse_result(results)
+        print(search_results)
         return search_results
 
     def parse_single_result(self, single_result):
@@ -105,6 +106,7 @@ class YahooSearch(BaseSearch):
         if not results:
             raise ValueError("The result parsing was unsuccessful, flagged as unusual traffic")
         search_results = self.parse_result(results)
+        print(search_results)
         return search_results 
 
     def parse_single_result(self, single_result):
@@ -148,6 +150,7 @@ class BingSearch(BaseSearch):
         if not results:
             raise ValueError("The result parsing was unsuccessful, flagged as unusual traffic")
         search_results = self.parse_result(results)
+        print(search_results)
         return search_results 
 
     def parse_single_result(self, single_result):
