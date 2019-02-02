@@ -55,7 +55,7 @@ def runner():
     parser.add_argument('-q', '--query', help='Query string to search engine for', required=True)
     parser.add_argument('-p', '--page', type=int, help='Page of the result to return details for (default: 1)', default=1)
     parser.add_argument('-t', '--type', help='Type of detail to return i.e links, desciptions or titles', default="links")
-    parser.add_argument('-r', '--rank', type=int, help='Rank of detail to return e.g 5 (default: 1)', default=1)
+    parser.add_argument('-r', '--rank', type=int, help='Rank of detail to return e.g 5 (default: 0)', default=0)
 
     args = vars(parser.parse_args())
     main(args)
