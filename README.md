@@ -23,9 +23,19 @@ Package to query popular search engines and scrape for result titles, links and 
 
 ## Development
 
+Clone the repository
+
 ```bash
     git clone git@github.com:bisoncorps/search-engine-parser.git
 ```
+
+Create virtual environment and install requirements
+
+```bash
+    mkvirtualenv search_engine_parser
+    pip install -r requirements-dev.txt
+```
+
 
 ## Code Documentation
 
