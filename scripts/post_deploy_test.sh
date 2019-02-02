@@ -4,7 +4,7 @@
 pip install search-engine-parser
 
 # run the cli version to get a result
-python -m search_engine_parser.core.cli --query "Preaching to the choir" --engine bing --type descriptions --rank 1
+python -m search_engine_parser.core.cli --query "Preaching to the choir" --engine bing --type descriptions
 
 if [ $? -eq 0 ]; then
     echo "Package works as expected"
