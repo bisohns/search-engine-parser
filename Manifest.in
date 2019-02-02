@@ -1,0 +1,4 @@
+include *.txt
+include *.md
+recursive-include search_engine_parser *.py
+prune docs/

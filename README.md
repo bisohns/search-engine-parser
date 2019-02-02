@@ -34,7 +34,7 @@ Found on [Github Pages](https://bisoncorps.github.io/search-engine-parser)
 ## Running the tests
 
 ```bash
-    cd search-engine-parser/
+    cd search_engine_parser/
 ```
 
 ```bash
