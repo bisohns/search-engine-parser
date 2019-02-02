@@ -68,6 +68,7 @@ class BaseSearch(object):
                 descs.append(desc)
             except Exception as e:
                 print(e)
+                pass
         search_results = {'titles': titles,
                           'links': links,
                           'descriptions': descs}

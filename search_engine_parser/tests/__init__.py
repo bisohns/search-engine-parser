@@ -5,16 +5,19 @@
 
 >>> engine = YahooSearch()
 >>> results = engine.search(*search_args)
+Got Results
 >>> print(len(results['titles']))
 10
 
 >>> engine = GoogleSearch()
 >>> results = engine.search(*search_args)
+Got Results
 >>> print(len(results['titles']))
 10
 
 >>> engine = BingSearch()
 >>> results = engine.search(*search_args)
+Got Results
 >>> print(len(results['titles']))
 10
 """
