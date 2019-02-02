@@ -38,7 +38,7 @@ def main(args):
     else:
         sys.exit(f'Engine <args["engine"]> does not exist')
     results = engine.search(args['query'], args['page'])
-    if args["type"] and args["rank"]:
+    if args["type"] and (0 <= args["rank"] < 10):
         type_ = args["type"]
         rank = args["rank"]
         try:
