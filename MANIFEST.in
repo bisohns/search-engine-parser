@@ -1,4 +1,4 @@
-include requirements.txt
+include *.txt
 include README.md
 recursive-include search_engine_parser *.py
-prune docs/
+prune docs/ scripts/

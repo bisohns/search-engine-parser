@@ -14,9 +14,9 @@ install:
 # Build script (If successfully built - no errors)
 script:
   # - run tests
-  - ./run_tests.sh
+  - ./scripts/pre_deploy_test.sh
 after_success:
-  - python setup.py install
+  - python setup.py version
 
 deploy:
   provider: pypi
@@ -27,7 +27,8 @@ deploy:
   skip_existing: true
 
 after_deploy:
-  - ./docs.sh
+  - ./scripts/docs.sh
+  - ./scripts/post_deploy_test.sh
 
 notifications:
 # slack channel notification
