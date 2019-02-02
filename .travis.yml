@@ -27,8 +27,8 @@ deploy:
   skip_existing: true
 
 after_deploy:
-  - ./scripts/docs.sh
   - ./scripts/post_deploy_test.sh
+  - ./scripts/docs.sh
 
 notifications:
 # slack channel notification
