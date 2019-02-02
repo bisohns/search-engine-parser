@@ -1,4 +1,5 @@
 include *.txt
 include README.md
 recursive-include search_engine_parser *.py
-prune docs/ scripts/
+prune docs/ 
+prune scripts/
