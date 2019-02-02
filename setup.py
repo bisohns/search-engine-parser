@@ -9,7 +9,7 @@ requires = [line.strip('\n') for line in open(REQUIREMENTS).readlines()]
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-VERSION = "0.2.2"
+VERSION = "0.2.3"
 
 setuptools.setup(
     name="search-engine-parser",
