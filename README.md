@@ -122,7 +122,7 @@ Full arguments shown below
     -p PAGE, --page PAGE  Page of the result to return details for (default: 1)
     -t TYPE, --type TYPE  Type of detail to return i.e links, desciptions or
                             titles
-    -r RANK, --rank RANK  Rank of detail to return e.g 5 (default: 1)
+    -r RANK, --rank RANK  Rank of detail in list to return e.g 5 (default: 0)
 ```
 
 ## Contribution
