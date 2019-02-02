@@ -14,6 +14,8 @@ Package to query popular search engines and scrape for result titles, links and 
   - [Code Documentation](#code-documentation)
   - [Running the tests](#running-the-tests)
   - [Usage](#usage)
+    - [Code](#code)
+    - [Command line](#command-line)
   - [Contribution](#contribution)
   - [License (MIT)](#license-mit)
 
@@ -55,6 +57,8 @@ Found on [Github Pages](https://bisoncorps.github.io/search-engine-parser)
 
 ## Usage
 
+### Code
+
 Query Results can be scraped from popular search engines as shown in the example snippet below
 
 ```python
@@ -84,6 +88,8 @@ Query Results can be scraped from popular search engines as shown in the example
     # print 6th description from bing search
     print(bresults["descriptions"][5])
 ```
+
+### Command line
 
 Use python module runner to run the parser on the command line e.g
 
