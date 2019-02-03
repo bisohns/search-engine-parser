@@ -1,7 +1,11 @@
 #!/bin/bash
 
+# get current version
+VERSION="$(python setup.py --version)"
+echo "${VERSION}"
+
 # install python package
-pip install search-engine-parser
+pip install search-engine-parser=="${VERSION}"
 
 # run the cli version to get a result
 python -m search_engine_parser.core.cli --query "Preaching to the choir" --engine bing --type descriptions

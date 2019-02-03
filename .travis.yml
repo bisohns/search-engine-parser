@@ -16,7 +16,7 @@ script:
   # - run tests
   - ./scripts/pre_deploy_test.sh
 after_success:
-  - python setup.py version
+  - python setup.py --version
 
 deploy:
   provider: pypi
