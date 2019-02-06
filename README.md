@@ -1,6 +1,7 @@
 # Search Engine Parser
 
 Package to query popular search engines and scrape for result titles, links and descriptions
+Made by the bisoncorps group
 
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 
