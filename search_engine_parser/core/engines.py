@@ -73,19 +73,18 @@ class GoogleSearch(BaseSearch):
         :return: parsed title, link and description of single result
         :rtype: str, str, str
         """
-        h3 = single_result.find('h3', class_='r')
-        link_tag = h3.find('a')
+        r = single_result.find('div', class_='r')
+        link_tag = r.find('a')
+        h3 = r.find('h3')
         desc = single_result.find('span', class_='st')
         ''' Get the text and link '''
         title = h3.text
 
         # raw link is of format "/url?q=REAL-LINK&sa=..."
         raw_link = link_tag.get('href')
-        dead_index = raw_link.find("&sa=")
-        link = raw_link[7:dead_index]
 
         desc = desc.text
-        return title, link, desc
+        return title, raw_link, desc
 
 class YahooSearch(BaseSearch):
     """
