@@ -4,3 +4,4 @@ sphinx-rtd-theme
 m2r
 beautifulsoup4
 lxml
+pytest

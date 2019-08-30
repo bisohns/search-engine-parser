@@ -39,7 +39,7 @@ class BingSearch(BaseSearch):
         :return: dictionary. Containing titles, links, netlocs and descriptions.
         """
         soup = BingSearch.get_soup(query, engine="Bing", page=page)
-        # find all divs
+        # find all li tags
         results = soup.find_all('li', class_='b_algo')
         if not results:
             raise ValueError("The result parsing was unsuccessful, flagged as unusual traffic")
@@ -52,7 +52,7 @@ class BingSearch(BaseSearch):
         """
         Parses the source code to return
 
-        :param single_result: single result found in <div class="Sr">
+        :param single_result: single result found in <li class="b_algo">
         :type single_result: `bs4.element.ResultSet`
         :return: parsed title, link and description of single result
         :rtype: str, str, str
