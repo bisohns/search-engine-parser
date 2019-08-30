@@ -18,7 +18,9 @@ def test_google_search():
 
 def test_bing_search():
     engine = BingSearch()
-    results = engine.search(*search_args)
+    # change search args because bing first page always includes video
+    bing_search_args = ('preaching to the choir', 2)
+    results = engine.search(*bing_search_args)
     assert len(results['titles']) == 10
 
 def test_duckduckgo_search():
