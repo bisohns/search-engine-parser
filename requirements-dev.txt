@@ -5,3 +5,4 @@ m2r
 beautifulsoup4
 lxml
 pytest
+blessed
