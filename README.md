@@ -1,4 +1,16 @@
 # Search Engine Parser
+<<<<<<< HEAD
+=======
+
+Package to query popular search engines and scrape for result titles, links and descriptions. 
+
+Supported Search Engines
+- Google
+- Yahoo
+- Bing
+- DuckDuckGo
+
+>>>>>>> A Few Docs Update
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 [![PyPI version](https://badge.fury.io/py/search-engine-parser.png)](https://badge.fury.io/py/search-engine-parser)
 [![Build Status](https://travis-ci.com/bisoncorps/search-engine-parser.svg?branch=master)](https://travis-ci.com/bisoncorps/search-engine-parser)

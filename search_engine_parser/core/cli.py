@@ -78,7 +78,6 @@ def runner():
     """
     parser = argparse.ArgumentParser(description='SearchEngineParser')
     parser.add_argument('-e','--engine', help='Engine to use for parsing the query e.g google, yahoo, bing, duckduckgo (default: google)', default='google')
-
     # add subparsers for summary mode and search mode
     subparsers = parser.add_subparsers(help='help for subcommands')
 
