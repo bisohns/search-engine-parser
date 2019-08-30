@@ -22,7 +22,44 @@
 import argparse
 import sys
 import pprint
+from blessed import Terminal
+
 from search_engine_parser.core.engines import YahooSearch, GoogleSearch, BingSearch, DuckDuckGoSearch
+
+def display(results, **args):
+    """ Displays search results 
+    """
+    term = Terminal()
+
+    def print_one(title, link, desc):
+        """ Print one result to the console """
+        # Header
+        print(f"\t{term.magenta(title)}")
+        print(f"\t{link}")
+        print("\t-----------------------------------------------------")
+        print(desc, '\n\n')
+
+    if args.get('rank') and args["rank"] > 10:
+        sys.exit("Results are only limited to 10, specify a different page number instead")
+
+    # Display full details: Header, Link, Description
+    if args["type"] == "full":
+        if not args.get('rank'):
+            for title, link, desc in zip(results['titles'], results['links'], results['descriptions']):
+                print_one(title, link, desc)
+        else:
+            rank = args["rank"]
+            print_one(results['titles'][rank], results['links'][rank], results['descriptions'][rank])
+
+    else:
+        type_ = args["type"]
+        if not args.get('rank'):
+            for i, result in enumerate(results[type_]):
+                print(i, '-->', result, '\n')
+        else:
+            rank = args["rank"]
+            print(results[type_][rank])
+
 
 
 def main(args):
@@ -40,13 +77,8 @@ def main(args):
     else:
         sys.exit(f'Engine <args["engine"]> does not exist')
     results = engine.search(args['query'], args['page'])
-    if args["type"] and (0 <= args["rank"] < 10):
-        type_ = args["type"]
-        rank = args["rank"]
-        try:
-            print(results[type_][rank])
-        except Exception as e:
-            print(e)
+    display(results, type=args.get('type'), rank=args.get('rank'))
+
 
 def runner():
     """
@@ -56,8 +88,8 @@ def runner():
     parser.add_argument('-e','--engine', help='Engine to use for parsing the query e.g yahoo (default: google)', default='google')
     parser.add_argument('-q', '--query', help='Query string to search engine for', required=True)
     parser.add_argument('-p', '--page', type=int, help='Page of the result to return details for (default: 1)', default=1)
-    parser.add_argument('-t', '--type', help='Type of detail to return i.e links, desciptions or titles', default="links")
-    parser.add_argument('-r', '--rank', type=int, help='Rank of detail in list to return e.g 5 (default: 0)', default=0)
+    parser.add_argument('-t', '--type', help='Type of detail to return i.e full, links, desciptions or titles', default="full")
+    parser.add_argument('-r', '--rank', type=int, help='ID of Detail to return e.g 5')
 
     args = vars(parser.parse_args())
     main(args)
