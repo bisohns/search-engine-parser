@@ -1,16 +1,5 @@
 # Search Engine Parser
-<<<<<<< HEAD
-=======
 
-Package to query popular search engines and scrape for result titles, links and descriptions. 
-
-Supported Search Engines
-- Google
-- Yahoo
-- Bing
-- DuckDuckGo
-
->>>>>>> A Few Docs Update
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 [![PyPI version](https://badge.fury.io/py/search-engine-parser.png)](https://badge.fury.io/py/search-engine-parser)
 [![Build Status](https://travis-ci.com/bisoncorps/search-engine-parser.svg?branch=master)](https://travis-ci.com/bisoncorps/search-engine-parser)
@@ -119,6 +108,7 @@ Result
 ```
 
 ![Demo](assets/example.gif)
+<<<<<<< HEAD
 
 There is a needed argument for the CLI i.e `-e Engine` and two subcommands in the CLI i.e `search` and `summary`
 
@@ -145,6 +135,8 @@ python -m search_engine_parser.core.cli --engine google summary
 ```
 
 Full arguments for the `search` subcommand shown below
+=======
+>>>>>>> added demo gif
 
 ```bash
 
