@@ -6,6 +6,7 @@ from setuptools.command.install import install
 CURRENT_DIR = os.getcwd()
 REQUIREMENTS = 'requirements.txt'
 requires = [line.strip('\n') for line in open(REQUIREMENTS).readlines()]
+
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
@@ -15,7 +16,7 @@ setuptools.setup(
     name="search-engine-parser",
     version=VERSION,
     author='Domnan Diretnan, Mmadu Manasseh',
-    author_email="diretnandomnan.bisoncorps@gmail.com",
+    author_email="diretnandomnan@gmail.com",
     description="scrapes search engine pages for query titles, descriptions and links",
     url="https://github.com/bisoncorps/search-engine-parser",
     packages=setuptools.find_packages(),
