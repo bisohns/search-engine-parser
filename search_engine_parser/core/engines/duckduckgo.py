@@ -1,12 +1,12 @@
 """@desc 
-		Parser for Yahoo search results
+		Parser for DuckDuckGo search results
 
  	@author 
- 		Domnan Diretnan
- 		Artificial Intelligence Enthusiast & Software Engineer.
- 		Email: diretnandomnan@gmail.com
- 		Github: https://github.com/deven96
- 		GitLab: https://gitlab.com/Deven96
+
+ 		Mmadu Manasseh
+ 		Email: mmadumanasseh@gmail.com
+ 		Github: https://github.com/mensaah
+ 		GitLab: https://gitlab.com/mensaah
 
  	@project
  		@create date 2019-01-26 23:14:22
@@ -16,17 +16,17 @@
 		MIT License
 		Copyright (c) 2018. Domnan Diretnan. All rights reserved
 
- """
+"""
+import re
 from core.base import BaseSearch
 
-
-class YahooSearch(BaseSearch):
+class DuckDuckGoSearch(BaseSearch):
     """
-    Searches Yahoo for string
+    Searches DuckDuckGo for string
     """
     def search(self, query, page=1):
         """
-        Parses Yahoo for a search query.
+        Parses DuckDuckGo for a search query.
 
         :param query: Search query sentence or term
         :type query: string
@@ -34,9 +34,9 @@ class YahooSearch(BaseSearch):
         :type page: int
         :return: dictionary. Containing titles, links, netlocs and descriptions.
         """
-        soup = YahooSearch.get_soup(query, engine="Yahoo", page=page)
-        # find all divs
-        results = soup.find_all('div', class_='Sr')
+        soup = DuckDuckGoSearch.get_soup(query, engine="DuckDuckGo", page=page)
+        # find all li tags
+        results = soup.find_all('div', class_='result')
         if not results:
             raise ValueError("The result parsing was unsuccessful, flagged as unusual traffic")
         search_results = self.parse_result(results)
@@ -48,16 +48,17 @@ class YahooSearch(BaseSearch):
         """
         Parses the source code to return
 
-        :param single_result: single result found in <div class="Sr">
+        :param single_result: single result found in <div id="r1-{id}">
         :type single_result: `bs4.element.ResultSet`
         :return: parsed title, link and description of single result
         :rtype: str, str, str
         """
-        h3 = single_result.find('h3', class_='title')
-        link_tag = h3.find('a')
-        desc = single_result.find('p', class_='lh-16')
-        ''' Get the text and link '''
-        title = h3.text
+        h2 = single_result.find('h2', class_="result__title")
+        link_tag = h2.find('a', class_="result__a")
+        desc = single_result.find(class_='result__snippet')
+
+        #Get the text and link
+        title = link_tag.text
 
         # raw link is of format "/url?q=REAL-LINK&sa=..."
         link = link_tag.get('href')

@@ -3,10 +3,10 @@
 Package to query popular search engines and scrape for result titles, links and descriptions
 
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
-
 [![PyPI version](https://badge.fury.io/py/search-engine-parser.png)](https://badge.fury.io/py/search-engine-parser)
-
-[![Build Status](https://travis-ci.com/bisoncorps/search-engine-parser.svg?branch=master)](https://travis-ci.com/bisoncorps/search-engine-parser)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.com/bisoncorps/search-engine-parser.svg?branch=master)](https://travis-ci.com/bisoncorps/search-engine-parser)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<hr/>
 
 - [Search Engine Parser](#search-engine-parser)
   - [Installation](#installation)

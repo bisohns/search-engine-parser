@@ -1,5 +1,6 @@
-from search_engine_parser.core import YahooSearch, GoogleSearch, BingSearch
-from search_engine_parser.core import cli
+from search_engine_parser.core import (
+    YahooSearch, GoogleSearch, BingSearch, DuckDuckGoSearch
+)
 
 search_args = ('preaching to the choir', 1)
 
@@ -19,3 +20,8 @@ def test_bing_search():
     engine = BingSearch()
     results = engine.search(*search_args)
     assert len(results['titles']) == 10
+
+def test_duckduckgo_search():
+    engine = DuckDuckGoSearch()
+    results = engine.search(*search_args)
+    assert len(results['titles']) >= 10

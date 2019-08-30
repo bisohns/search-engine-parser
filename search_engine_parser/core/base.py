@@ -18,9 +18,11 @@
 
  """
 from abc import ABCMeta, abstractmethod
-from bs4 import BeautifulSoup
-from consts import SEARCH_QUERY
 import requests
+from bs4 import BeautifulSoup
+
+from search_engine_parser.core.consts import SEARCH_QUERY
+
 
 class BaseSearch(object):
     
@@ -62,7 +64,7 @@ class BaseSearch(object):
             title = link = desc = " "
             try:
                 title, link, desc = self.parse_single_result(each)
-                ''' Append links and text to a list '''
+                # Append links and text to a list
                 titles.append(title)
                 links.append(link)
                 descs.append(desc)
@@ -134,5 +136,9 @@ class BaseSearch(object):
             # structure pages in terms of 
             first= (page * 10) - 9
             search_url = search_fmt_string.format(query, first)
+        if engine == "DuckDuckGo":
+            # structure pages in terms of 
+            first= (page * 10) - 9
+            search_url = search_fmt_string.format(query)
         html = BaseSearch.getSource(search_url)
         return BeautifulSoup(html, 'lxml')

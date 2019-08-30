@@ -1,4 +1,3 @@
 import sys, os
-# insert all modules here
-sys.path.insert(0, os.path.dirname(os.path.realpath(__file__)))
-from engines import YahooSearch, GoogleSearch, BingSearch
+
+from search_engine_parser.core.engines import YahooSearch, GoogleSearch, BingSearch, DuckDuckGoSearch

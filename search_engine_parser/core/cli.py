@@ -22,7 +22,7 @@
 import argparse
 import sys
 import pprint
-from engines import YahooSearch, GoogleSearch, BingSearch
+from search_engine_parser.core.engines import YahooSearch, GoogleSearch, BingSearch, DuckDuckGoSearch
 
 
 def main(args):
@@ -35,6 +35,8 @@ def main(args):
         engine = YahooSearch()
     elif args['engine'] == 'bing':
         engine = BingSearch()
+    elif args['engine'] == 'duckduckgo':
+        engine = DuckDuckGoSearch()
     else:
         sys.exit(f'Engine <args["engine"]> does not exist')
     results = engine.search(args['query'], args['page'])
