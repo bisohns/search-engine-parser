@@ -1,8 +1,13 @@
+"""@desc
+    Tests or individual search engines
+"""
+
 from search_engine_parser.core import (
     YahooSearch, GoogleSearch, BingSearch, DuckDuckGoSearch
 )
 
 search_args = ('preaching to the choir', 1)
+
 
 def test_yahoo_search():
     engine = YahooSearch()

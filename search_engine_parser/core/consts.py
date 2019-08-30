@@ -1,22 +1,6 @@
 """@desc 
 		Constants
-
- 	@author 
- 		Domnan Diretnan
- 		Artificial Intelligence Enthusiast & Software Engineer.
- 		Email: diretnandomnan@gmail.com
- 		Github: https://github.com/deven96
- 		GitLab: https://gitlab.com/Deven96
-
- 	@project
- 		@create date 2019-02-01 22:25:29
- 		@modify date 2019-02-01 22:25:29
-
-	@license
-		MIT License
-		Copyright (c) 2018. Domnan Diretnan. All rights reserved
-
- """
+"""
 
 
 # Links to search for 10 Query results

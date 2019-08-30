@@ -1,6 +1,12 @@
 # Search Engine Parser
 
-Package to query popular search engines and scrape for result titles, links and descriptions
+Package to query popular search engines and scrape for result titles, links and descriptions. 
+
+Supported Search Engines
+- Google
+- Yahoo
+- Bing
+- DuckDuckGo
 
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 [![PyPI version](https://badge.fury.io/py/search-engine-parser.png)](https://badge.fury.io/py/search-engine-parser)
@@ -48,11 +54,7 @@ Found on [Github Pages](https://bisoncorps.github.io/search-engine-parser)
 ## Running the tests
 
 ```bash
-    cd search_engine_parser/
-```
-
-```bash
-    python tests/__init__.py
+    pytest
 ```
 
 ## Usage
@@ -103,7 +105,7 @@ Result
 'Preaching to the choir' originated in the USA in the 1970s. It is a variant of the earlier 'preaching to the converted', which dates from England in the late 1800s and has the same meaning. Origin - the full story 'Preaching to the choir' (also sometimes spelled quire) is of US origin.
 ```
 
-
+![Demo](assets/example.gif)
 
 Full arguments shown below
 ```bash
