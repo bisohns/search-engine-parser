@@ -1,24 +1,8 @@
 """@desc 
 		Parser for DuckDuckGo search results
-
- 	@author 
-
- 		Mmadu Manasseh
- 		Email: mmadumanasseh@gmail.com
- 		Github: https://github.com/mensaah
- 		GitLab: https://gitlab.com/mensaah
-
- 	@project
- 		@create date 2019-01-26 23:14:22
- 		@modify date 2019-01-26 23:14:22
-
-	@license
-		MIT License
-		Copyright (c) 2018. Domnan Diretnan. All rights reserved
-
 """
 import re
-from core.base import BaseSearch
+from search_engine_parser.core.base import BaseSearch
 
 class DuckDuckGoSearch(BaseSearch):
     """

@@ -1,12 +1,19 @@
 # Search Engine Parser
-
-Package to query popular search engines and scrape for result titles, links and descriptions
-
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 [![PyPI version](https://badge.fury.io/py/search-engine-parser.png)](https://badge.fury.io/py/search-engine-parser)
 [![Build Status](https://travis-ci.com/bisoncorps/search-engine-parser.svg?branch=master)](https://travis-ci.com/bisoncorps/search-engine-parser)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 <hr/>
+
+Package to query popular search engines and scrape for result titles, links and descriptions. Aims to scrape the widest range of search engines.
+
+Supported Search Engines
+- Google
+- Yahoo
+- Bing
+- DuckDuckGo
+
+
 
 - [Search Engine Parser](#search-engine-parser)
   - [Installation](#installation)
@@ -48,11 +55,7 @@ Found on [Github Pages](https://bisoncorps.github.io/search-engine-parser)
 ## Running the tests
 
 ```bash
-    cd search_engine_parser/
-```
-
-```bash
-    python tests/__init__.py
+    pytest
 ```
 
 ## Usage
@@ -94,7 +97,7 @@ Query Results can be scraped from popular search engines as shown in the example
 Use python module runner to run the parser on the command line e.g
 
 ```bash
-python -m search_engine_parser.core.cli --query "Preaching to the choir" --engine bing --type descriptions
+python -m search_engine_parser.core.cli --engine bing search --query "Preaching to the choir" --type descriptions
 ```
 
 Result
@@ -103,26 +106,46 @@ Result
 'Preaching to the choir' originated in the USA in the 1970s. It is a variant of the earlier 'preaching to the converted', which dates from England in the late 1800s and has the same meaning. Origin - the full story 'Preaching to the choir' (also sometimes spelled quire) is of US origin.
 ```
 
+![Demo](assets/example.gif)
 
+There is a needed argument for the CLI i.e `-e Engine` and two subcommands in the CLI i.e `search` and `summary`
 
-Full arguments shown below
 ```bash
 
-    usage: cli.py [-h] [-e ENGINE] -q QUERY [-p PAGE] [-t TYPE] [-r RANK]
+SearchEngineParser
 
-    SearchEngineParser
+positional arguments:
+  {search,summary}      help for subcommands
+    search              search help
+    summary             summary help
 
-    optional arguments:
-    -h, --help            show this help message and exit
-    -e ENGINE, --engine ENGINE
-                            Engine to use for parsing the query e.g yahoo
-                            (default: google)
-    -q QUERY, --query QUERY
-                            Query string to search engine for
-    -p PAGE, --page PAGE  Page of the result to return details for (default: 1)
-    -t TYPE, --type TYPE  Type of detail to return i.e links, desciptions or
-                            titles
-    -r RANK, --rank RANK  Rank of detail in list to return e.g 5 (default: 0)
+optional arguments:
+  -h, --help            show this help message and exit
+  -e ENGINE, --engine ENGINE
+                        Engine to use for parsing the query e.g google, yahoo,
+                        bing, duckduckgo (default: google)
+```
+
+`summary` just shows the summary of each search engine added with descriptions on the return
+
+```bash
+python -m search_engine_parser.core.cli --engine google summary 
+```
+
+Full arguments for the `search` subcommand shown below
+
+```bash
+
+usage: cli.py search [-h] -q QUERY [-p PAGE] [-t TYPE] [-r RANK]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -q QUERY, --query QUERY
+                        Query string to search engine for
+  -p PAGE, --page PAGE  Page of the result to return details for (default: 1)
+  -t TYPE, --type TYPE  Type of detail to return i.e full, links, desciptions
+                        or titles (default: full)
+  -r RANK, --rank RANK  ID of Detail to return e.g 5 (default: 0)
 ```
 
 ## Contribution

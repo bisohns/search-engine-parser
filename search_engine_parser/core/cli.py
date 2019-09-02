@@ -1,35 +1,18 @@
 """@desc 
 		Making use of the parser through cli
-
- 	@author 
- 		Domnan Diretnan
- 		Artificial Intelligence Enthusiast & Software Engineer.
- 		Email: diretnandomnan@gmail.com
- 		Github: https://github.com/deven96
- 		GitLab: https://gitlab.com/Deven96
-
- 	@project
- 		@create date 2019-02-01 22:25:58
- 		@modify date 2019-02-01 22:25:58
-
-	@license
-		MIT License
-		Copyright (c) 2018. Domnan Diretnan. All rights reserved
-
  """
 
 
 import argparse
 import sys
-import pprint
 from blessed import Terminal
 
 from search_engine_parser.core.engines import YahooSearch, GoogleSearch, BingSearch, DuckDuckGoSearch
+from search_engine_parser.core.consts import ENGINE_SUMMARY
 
-def display(results, **args):
+def display(results, term, **args):
     """ Displays search results 
     """
-    term = Terminal()
 
     def print_one(title, link, desc):
         """ Print one result to the console """
@@ -66,18 +49,31 @@ def main(args):
     """
         Executes logic from parsed arguments
     """
+    term = Terminal()
     if args['engine'] == 'google':
+        engine_name = "Google"
         engine = GoogleSearch()
     elif args['engine'] == 'yahoo':
+        engine_name = "Yahoo"
         engine = YahooSearch()
     elif args['engine'] == 'bing':
+        engine_name=  "Bing"
         engine = BingSearch()
     elif args['engine'] == 'duckduckgo':
+        engine_name = "DuckDuckGo"
         engine = DuckDuckGoSearch()
     else:
         sys.exit(f'Engine <args["engine"]> does not exist')
+    
+    engine_summary = ENGINE_SUMMARY[engine_name]
+    # check if in summary mode
+    if args["show"]:
+        print(f"\t{term.magenta(engine_name)}")
+        print("\t-----------------------------------------------------")
+        print(engine_summary)
+        sys.exit(0)
     results = engine.search(args['query'], args['page'])
-    display(results, type=args.get('type'), rank=args.get('rank'))
+    display(results, term, type=args.get('type'), rank=args.get('rank'))
 
 
 def runner():
@@ -85,11 +81,21 @@ def runner():
     runner that handles parsing logic
     """
     parser = argparse.ArgumentParser(description='SearchEngineParser')
-    parser.add_argument('-e','--engine', help='Engine to use for parsing the query e.g yahoo (default: google)', default='google')
-    parser.add_argument('-q', '--query', help='Query string to search engine for', required=True)
-    parser.add_argument('-p', '--page', type=int, help='Page of the result to return details for (default: 1)', default=1)
-    parser.add_argument('-t', '--type', help='Type of detail to return i.e full, links, desciptions or titles', default="full")
-    parser.add_argument('-r', '--rank', type=int, help='ID of Detail to return e.g 5')
+    parser.add_argument('-e','--engine', help='Engine to use for parsing the query e.g google, yahoo, bing, duckduckgo (default: google)', default='google')
+
+    # add subparsers for summary mode and search mode
+    subparsers = parser.add_subparsers(help='help for subcommands')
+
+    parser_search = subparsers.add_parser('search', help='search help')
+
+    parser_search.add_argument('-q', '--query', help='Query string to search engine for', required=True)
+    parser_search.add_argument('-p', '--page', type=int, help='Page of the result to return details for (default: 1)', default=1)
+    parser_search.add_argument('-t', '--type', help='Type of detail to return i.e full, links, desciptions or titles (default: full)', default="full")
+    parser_search.add_argument('-r', '--rank', type=int, help='ID of Detail to return e.g 5 (default: 0)')
+
+    parser_summary = subparsers.add_parser('summary', help='summary help')
+    parser_summary.add_argument('-s', '--show', type=int, help='Show engine description (default: 1)', default=1)
+
 
     args = vars(parser.parse_args())
     main(args)
