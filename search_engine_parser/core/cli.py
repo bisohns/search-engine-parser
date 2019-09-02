@@ -7,8 +7,7 @@ import argparse
 import sys
 from blessed import Terminal
 
-from search_engine_parser.core.engines import YahooSearch, GoogleSearch, BingSearch, DuckDuckGoSearch
-from search_engine_parser.core.consts import ENGINE_SUMMARY
+from search_engine_parser.core.engines import *
 
 def display(results, term, **args):
     """ Displays search results 
@@ -51,27 +50,24 @@ def main(args):
     """
     term = Terminal()
     if args['engine'] == 'google':
-        engine_name = "Google"
-        engine = GoogleSearch()
+        engine_class = GoogleSearch
     elif args['engine'] == 'yahoo':
-        engine_name = "Yahoo"
-        engine = YahooSearch()
+        engine_class = YahooSearch
     elif args['engine'] == 'bing':
-        engine_name=  "Bing"
-        engine = BingSearch()
+        engine_class = BingSearch
     elif args['engine'] == 'duckduckgo':
-        engine_name = "DuckDuckGo"
-        engine = DuckDuckGoSearch()
+        engine_class = DuckDuckGoSearch
     else:
         sys.exit(f'Engine <args["engine"]> does not exist')
     
-    engine_summary = ENGINE_SUMMARY[engine_name]
     # check if in summary mode
-    if args["show"]:
-        print(f"\t{term.magenta(engine_name)}")
+    if args.get("show"):
+        print(f"\t{term.magenta(engine_class.name)}")
         print("\t-----------------------------------------------------")
-        print(engine_summary)
+        print(engine_class.summary)
         sys.exit(0)
+    # Initialize search Engine with required params
+    engine = engine_class(args['query'], page=args['page'])
     results = engine.search(args['query'], args['page'])
     display(results, term, type=args.get('type'), rank=args.get('rank'))
 

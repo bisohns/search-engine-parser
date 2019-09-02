@@ -9,6 +9,18 @@ class GoogleSearch(BaseSearch):
     """
     Searches Google for string
     """
+    name = "Google"
+    search_url = "https://www.google.com/search?q={}&start={}"
+    summary = "\tNo need for further introductions. The search engine giant holds the first place in search "\
+        "with a stunning difference of 65% from second in place Bing.\n\tAccording to the latest netmarketshare "\
+        "report (November 2018) 73% of searches were powered by Google and only 7.91% by Bing.\n\tGoogle is also "\
+        "dominating the mobile/tablet search engine market share with 81%!"
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        page = kwargs.get('page')
+        self.search_url = GoogleSearch.search_url.format(self.query, page) 
+
     def search(self, query, page=1):
         """
         Parses Google for a search query.
@@ -19,7 +31,7 @@ class GoogleSearch(BaseSearch):
         :type page: int
         :return: dictionary. Containing titles, links, netlocs and descriptions.
         """
-        soup = GoogleSearch.get_soup(query, engine="Google", page=page)
+        soup = self.get_soup()
         # # find all class_='g' => each result
         results = soup.find_all('div', class_='g')
         if not results:

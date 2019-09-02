@@ -9,6 +9,20 @@ class YahooSearch(BaseSearch):
     """
     Searches Yahoo for string
     """
+    name = "Yahoo"
+    search_url = "https://search.yahoo.com/search?p={}&b={}"
+    summary = "\tYahoo is one the most popular email providers and holds the fourth place in search with 3.90% "\
+        "market share.\n\tFrom October 2011 to October 2015, Yahoo search was powered exclusively by Bing. \n\tSince "\
+        "October 2015 Yahoo agreed with Google to provide search-related services and since then the results of Yahoo "\
+        "are powered both by Google and Bing. \n\tYahoo is also the default search engine for Firefox browsers in the "\
+        "United States (since 2014)."
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        page = kwargs.get('page')
+        first = (page * 10) - 9
+        self.search_url = YahooSearch.search_url.format(self.query, first) 
+
     def search(self, query, page=1):
         """
         Parses Yahoo for a search query.
@@ -19,7 +33,7 @@ class YahooSearch(BaseSearch):
         :type page: int
         :return: dictionary. Containing titles, links, netlocs and descriptions.
         """
-        soup = YahooSearch.get_soup(query, engine="Yahoo", page=page)
+        soup = self.get_soup()
         # find all divs
         results = soup.find_all('div', class_='Sr')
         if not results:
