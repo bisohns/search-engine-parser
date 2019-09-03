@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Rexogamer",
+      "name": "Ed Luff",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/42586271?v=4",
+      "profile": "https://github.com/Rexogamer",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "search-engine-parser",
+  "projectOwner": "bisoncorps",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
