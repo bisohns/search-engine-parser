@@ -13,6 +13,7 @@ Supported Search Engines
 - Yahoo
 - Bing
 - DuckDuckGo
+- AOL
 
 
 
