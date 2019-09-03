@@ -15,17 +15,10 @@ class BingSearch(BaseSearch):
             "10%, even though Bing is the default search engine on Windows PCs."
 
 
-    def search(self, query, page=1):
+    def parse_soup(self, soup):
         """
         Parses Bing for a search query.
-
-        :param query: Search query sentence or term
-        :type query: string
-        :param page: Page to be displayed, defaults to 1
-        :type page: int
-        :return: dictionary. Containing titles, links, netlocs and descriptions.
         """
-        soup = self.get_soup()
         # find all li tags
         return soup.find_all('li', class_='b_algo')
 

@@ -18,17 +18,10 @@ class YahooSearch(BaseSearch):
             "by Google and Bing. \n\tYahoo is also the default search engine for Firefox browsers "\
             "in the United States (since 2014)."
 
-    def search(self, query, page=1):
+    def parse_soup(self, soup):
         """
-        Parses Yahoo for a search query.
-
-        :param query: Search query sentence or term
-        :type query: string
-        :param page: Page to be displayed, defaults to 1
-        :type page: int
-        :return: dictionary. Containing titles, links, netlocs and descriptions.
+        Parses Yahoo for a search query
         """
-        soup = self.get_soup()
         # find all divs
         return soup.find_all('div', class_='Sr')
 

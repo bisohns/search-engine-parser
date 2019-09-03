@@ -17,17 +17,10 @@ class DuckDuckGoSearch(BaseSearch):
             "sites etc).\n\tAccording to DuckDuckGo traffic stats [December, 2018], they are "\
             "currently serving more than 30 million searches per day."
 
-    def search(self, query, page=1):
+    def parse_soup(self, soup):
         """
-        Parses DuckDuckGo for a search query.
-
-        :param query: Search query sentence or term
-        :type query: string
-        :param page: Page to be displayed, defaults to 1
-        :type page: int
-        :return: dictionary. Containing titles, links, netlocs and descriptions.
+        Parses DuckDuckGo Search Soup for a query results
         """
-        soup = self.get_soup()
         # find all div tags
         return soup.find_all('div', class_='result')
 

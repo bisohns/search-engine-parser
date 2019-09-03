@@ -18,17 +18,10 @@ class GoogleSearch(BaseSearch):
             "were powered by Google and only 7.91% by Bing.\n\tGoogle is also dominating the "\
             "mobile/tablet search engine market share with 81%!"
 
-    def search(self, query, page=1):
+    def parse_soup(self, soup):
         """
-        Parses Google for a search query.
-
-        :param query: Search query sentence or term
-        :type query: string
-        :param page: Page to be displayed, defaults to 1
-        :type page: int
-        :return: dictionary. Containing titles, links, netlocs and descriptions.
+        Parses Google Search Soup for results
         """
-        soup = self.get_soup()
         # find all class_='g' => each result
         return soup.find_all('div', class_='g')
 
