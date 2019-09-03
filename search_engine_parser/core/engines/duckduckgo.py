@@ -3,30 +3,26 @@
 """
 import re
 from search_engine_parser.core.base import BaseSearch
+from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 
 class DuckDuckGoSearch(BaseSearch):
     """
     Searches DuckDuckGo for string
     """
-    def search(self, query, page=1):
-        """
-        Parses DuckDuckGo for a search query.
+    name = "DuckDuckGo"
+    search_url = "https://www.duckduckgo.com/html/?q={query}"
+    summary = "\tHas a number of advantages over the other search engines. \n\tIt has a clean "\
+            "interface, it does not track users, it is not fully loaded with ads and has a number "\
+            "of very nice features (only one page of results, you can search directly other web "\
+            "sites etc).\n\tAccording to DuckDuckGo traffic stats [December, 2018], they are "\
+            "currently serving more than 30 million searches per day."
 
-        :param query: Search query sentence or term
-        :type query: string
-        :param page: Page to be displayed, defaults to 1
-        :type page: int
-        :return: dictionary. Containing titles, links, netlocs and descriptions.
+    def parse_soup(self, soup):
         """
-        soup = DuckDuckGoSearch.get_soup(query, engine="DuckDuckGo", page=page)
-        # find all li tags
-        results = soup.find_all('div', class_='result')
-        if not results:
-            raise ValueError("The result parsing was unsuccessful, flagged as unusual traffic")
-        search_results = self.parse_result(results)
-        if len(search_results) > 0:
-            print("Got Results")
-        return search_results 
+        Parses DuckDuckGo Search Soup for a query results
+        """
+        # find all div tags
+        return soup.find_all('div', class_='result')
 
     def parse_single_result(self, single_result):
         """

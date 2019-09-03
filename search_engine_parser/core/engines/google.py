@@ -3,31 +3,27 @@
 """
 
 from search_engine_parser.core.base import BaseSearch
+from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 
 
 class GoogleSearch(BaseSearch):
     """
     Searches Google for string
     """
-    def search(self, query, page=1):
-        """
-        Parses Google for a search query.
+    name = "Google"
+    search_url = "https://www.google.com/search?q={query}&start={page}"
+    summary = "\tNo need for further introductions. The search engine giant holds the first "\
+            "place in search with a stunning difference of 65% from second in place Bing.\n"\
+            "\tAccording to the latest netmarketshare report (November 2018) 73% of searches "\
+            "were powered by Google and only 7.91% by Bing.\n\tGoogle is also dominating the "\
+            "mobile/tablet search engine market share with 81%!"
 
-        :param query: Search query sentence or term
-        :type query: string
-        :param page: Page to be displayed, defaults to 1
-        :type page: int
-        :return: dictionary. Containing titles, links, netlocs and descriptions.
+    def parse_soup(self, soup):
         """
-        soup = GoogleSearch.get_soup(query, engine="Google", page=page)
-        # # find all class_='g' => each result
-        results = soup.find_all('div', class_='g')
-        if not results:
-            raise ValueError("The result parsing was unsuccessful, flagged as unusual traffic")
-        search_results = self.parse_result(results)
-        if len(search_results) > 0:
-            print("Got Results")
-        return search_results
+        Parses Google Search Soup for results
+        """
+        # find all class_='g' => each result
+        return soup.find_all('div', class_='g')
 
     def parse_single_result(self, single_result):
         """

@@ -9,25 +9,21 @@ class YahooSearch(BaseSearch):
     """
     Searches Yahoo for string
     """
-    def search(self, query, page=1):
-        """
-        Parses Yahoo for a search query.
+    name = "Yahoo"
+    search_url = "https://search.yahoo.com/search?p={query}&b={offset}"
+    summary = "\tYahoo is one the most popular email providers and holds the fourth place in "\
+            "search with 3.90% market share.\n\tFrom October 2011 to October 2015, Yahoo search "\
+            "was powered exclusively by Bing. \n\tSince October 2015 Yahoo agreed with Google to "\
+            "provide search-related services and since then the results of Yahoo are powered both "\
+            "by Google and Bing. \n\tYahoo is also the default search engine for Firefox browsers "\
+            "in the United States (since 2014)."
 
-        :param query: Search query sentence or term
-        :type query: string
-        :param page: Page to be displayed, defaults to 1
-        :type page: int
-        :return: dictionary. Containing titles, links, netlocs and descriptions.
+    def parse_soup(self, soup):
         """
-        soup = YahooSearch.get_soup(query, engine="Yahoo", page=page)
+        Parses Yahoo for a search query
+        """
         # find all divs
-        results = soup.find_all('div', class_='Sr')
-        if not results:
-            raise ValueError("The result parsing was unsuccessful, flagged as unusual traffic")
-        search_results = self.parse_result(results)
-        if len(search_results) > 0:
-            print("Got Results")
-        return search_results 
+        return soup.find_all('div', class_='Sr')
 
     def parse_single_result(self, single_result):
         """

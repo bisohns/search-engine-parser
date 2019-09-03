@@ -6,7 +6,7 @@ from abc import ABCMeta, abstractmethod
 import requests
 from bs4 import BeautifulSoup
 
-from search_engine_parser.core.consts import SEARCH_QUERY
+from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 
 
 class BaseSearch(object):
@@ -17,13 +17,19 @@ class BaseSearch(object):
     Search base to be extended by search parsers
     Every subclass must have two methods `search` amd `parse_single_result`
     """
+    # Summary of engine
+    summary = None
+    # Search Engine Name
+    name = None
+    # Search Engine unformatted URL
+    search_url = None
 
     @abstractmethod
-    def search(self, query, page=1):
+    def parse_soup(self, soup):
         """
-        Master method coordinating search parsing
+        Defines the results contained in a soup
         """
-        raise NotImplementedError("subclasses must define method <search>")
+        raise NotImplementedError("subclasses must define method <parse_soup>")
 
     @abstractmethod
     def parse_single_result(self, single_result):
@@ -55,7 +61,6 @@ class BaseSearch(object):
                 descs.append(desc)
             except Exception as e:
                 print(e)
-                pass
         search_results = {'titles': titles,
                           'links': links,
                           'descriptions': descs}
@@ -81,7 +86,6 @@ class BaseSearch(object):
         :param url: URL to pull it's source code
         :return: html source code of a given URL.
         """
-        import requests
         # headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:20.0) Gecko/20100101 Firefox/20.0'}
         # prevent caching
         headers = {
@@ -96,34 +100,44 @@ class BaseSearch(object):
             raise Exception('ERROR: {}\n'.format(e))
         return str(html)
 
-    @staticmethod
-    def get_soup(raw_query, engine="Google", page=1):
+    def get_soup(self, url):
         """
         Get the html soup of a query
 
-        :param raw_query: unprocessed query string
-        :type raw_query: str
-        :param engine: search engine to make use of, defaults to google
-        :type engine: str
-        :param page: page to return
-        :type page: int
         :rtype: `bs4.element.ResultSet`
         """
-        # replace spaces in string
-        query = BaseSearch.parse_query(raw_query)
-        search_fmt_string = SEARCH_QUERY[engine]
-        if engine == "Google":
-            search_url = search_fmt_string.format(query, page)
-        if engine == "Yahoo":
-            offset = (page * 10) - 9
-            search_url = search_fmt_string.format(query, offset)
-        if engine == "Bing":
-            # structure pages in terms of 
-            first= (page * 10) - 9
-            search_url = search_fmt_string.format(query, first)
-        if engine == "DuckDuckGo":
-            # structure pages in terms of 
-            first= (page * 10) - 9
-            search_url = search_fmt_string.format(query)
-        html = BaseSearch.getSource(search_url)
+        html = self.getSource(url)
         return BeautifulSoup(html, 'lxml')
+
+    def get_search_url(self, query=None, page=None):
+        """ 
+        Return a formatted search url
+        """
+        # Some URLs use offsets
+        offset = (page * 10) - 9
+        return  self.search_url.format(query=query, page=page, offset=offset) 
+
+    def search(self, query=None, page=None):
+        """ 
+        Query the search engine
+
+        :param query: the query to search for 
+        :type query: str
+        :param page: Page to be displayed, defaults to 1
+        :type page: int
+        :return: dictionary. Containing titles, links, netlocs and descriptions.
+        """
+        parsed_query = self.parse_query(query)
+
+        # Get search Page Results
+        soup = self.get_soup(self.get_search_url(parsed_query, page))
+
+        results = self.parse_soup(soup)
+        # TODO Check if empty results is caused by traffic or answers to query were not found
+        if not results:
+            raise NoResultsOrTrafficError(
+                "The result parsing was unsuccessful. It is either your query could not be found"
+                " or it was flagged as unusual traffic")
+        search_results = self.parse_result(results)
+        return search_results 
+
