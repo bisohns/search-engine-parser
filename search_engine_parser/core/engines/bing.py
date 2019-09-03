@@ -14,7 +14,6 @@ class BingSearch(BaseSearch):
             " an alternative to Google.\n\tTheir search engine market share is constantly below "\
             "10%, even though Bing is the default search engine on Windows PCs."
 
-
     def parse_soup(self, soup):
         """
         Parses Bing for a search query.
