@@ -13,6 +13,18 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "deven96",
+      "name": "Diretnan Domnan",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23453888?v=4",
+      "profile": "http://diretnandomnan.webnode.com",
+      "contributions": [
+        "infra",
+        "test",
+        "tool",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
