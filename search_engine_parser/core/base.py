@@ -25,7 +25,7 @@ class BaseSearch(object):
     search_url = None
 
     @abstractmethod
-    def search(self, query, page=1):
+    def search(self, soup):
         """
         Master method coordinating search parsing
         """
@@ -124,11 +124,17 @@ class BaseSearch(object):
 
         :param query: the query to search for 
         :type query: str
+        :param page: Page to be displayed, defaults to 1
+        :type page: int
+        :return: dictionary. Containing titles, links, netlocs and descriptions.
         """
         parsed_query = self.parse_query(query)
         self.search_url = self.get_search_url(parsed_query, page) 
 
-        results = self.search(parsed_query, page)
+        # Get search Page Results
+        soup = self.get_soup()
+
+        results = self.search(soup)
         # TODO Check if empty results is caused by traffic or answers to query were not found
         if not results:
             raise NoResultsOrTrafficError(
