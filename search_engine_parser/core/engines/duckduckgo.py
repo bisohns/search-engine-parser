@@ -17,7 +17,7 @@ class DuckDuckGoSearch(BaseSearch):
             "sites etc).\n\tAccording to DuckDuckGo traffic stats [December, 2018], they are "\
             "currently serving more than 30 million searches per day."
 
-    def search(self, soup):
+    def parse_soup(self, soup):
         """
         Parses DuckDuckGo Search Soup for a query results
         """

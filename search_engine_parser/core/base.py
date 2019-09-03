@@ -20,16 +20,16 @@ class BaseSearch(object):
     # Summary of engine
     summary = None
     # Search Engine Name
-    engine = None
+    name = None
     # Search Engine unformatted URL
     search_url = None
 
     @abstractmethod
-    def search(self, soup):
+    def parse_soup(self, soup):
         """
-        Master method coordinating search parsing
+        Defines the results contained in a soup
         """
-        raise NotImplementedError("subclasses must define method <search>")
+        raise NotImplementedError("subclasses must define method <parse_soup>")
 
     @abstractmethod
     def parse_single_result(self, single_result):
@@ -61,7 +61,6 @@ class BaseSearch(object):
                 descs.append(desc)
             except Exception as e:
                 print(e)
-                pass
         search_results = {'titles': titles,
                           'links': links,
                           'descriptions': descs}
@@ -101,13 +100,13 @@ class BaseSearch(object):
             raise Exception('ERROR: {}\n'.format(e))
         return str(html)
 
-    def get_soup(self):
+    def get_soup(self, url):
         """
         Get the html soup of a query
 
         :rtype: `bs4.element.ResultSet`
         """
-        html = self.getSource(self.search_url)
+        html = self.getSource(url)
         return BeautifulSoup(html, 'lxml')
 
     def get_search_url(self, query=None, page=None):
@@ -118,7 +117,7 @@ class BaseSearch(object):
         offset = (page * 10) - 9
         return  self.search_url.format(query=query, page=page, offset=offset) 
 
-    def query_engine(self, query=None, page=None):
+    def search(self, query=None, page=None):
         """ 
         Query the search engine
 
@@ -129,12 +128,11 @@ class BaseSearch(object):
         :return: dictionary. Containing titles, links, netlocs and descriptions.
         """
         parsed_query = self.parse_query(query)
-        self.search_url = self.get_search_url(parsed_query, page) 
 
         # Get search Page Results
-        soup = self.get_soup()
+        soup = self.get_soup(self.get_search_url(parsed_query, page))
 
-        results = self.search(soup)
+        results = self.parse_soup(soup)
         # TODO Check if empty results is caused by traffic or answers to query were not found
         if not results:
             raise NoResultsOrTrafficError(

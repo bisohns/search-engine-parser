@@ -18,7 +18,7 @@ class YahooSearch(BaseSearch):
             "by Google and Bing. \n\tYahoo is also the default search engine for Firefox browsers "\
             "in the United States (since 2014)."
 
-    def search(self, soup):
+    def parse_soup(self, soup):
         """
         Parses Yahoo for a search query
         """

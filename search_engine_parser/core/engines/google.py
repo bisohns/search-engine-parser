@@ -18,7 +18,7 @@ class GoogleSearch(BaseSearch):
             "were powered by Google and only 7.91% by Bing.\n\tGoogle is also dominating the "\
             "mobile/tablet search engine market share with 81%!"
 
-    def search(self, soup):
+    def parse_soup(self, soup):
         """
         Parses Google Search Soup for results
         """
