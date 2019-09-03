@@ -3,6 +3,7 @@
 """
 
 from search_engine_parser.core.base import BaseSearch
+from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 
 
 class GoogleSearch(BaseSearch):
@@ -28,14 +29,8 @@ class GoogleSearch(BaseSearch):
         :return: dictionary. Containing titles, links, netlocs and descriptions.
         """
         soup = self.get_soup()
-        # # find all class_='g' => each result
-        results = soup.find_all('div', class_='g')
-        if not results:
-            raise ValueError("The result parsing was unsuccessful, flagged as unusual traffic")
-        search_results = self.parse_result(results)
-        if len(search_results) > 0:
-            print("Got Results")
-        return search_results
+        # find all class_='g' => each result
+        return soup.find_all('div', class_='g')
 
     def parse_single_result(self, single_result):
         """

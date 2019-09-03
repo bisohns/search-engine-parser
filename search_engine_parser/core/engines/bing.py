@@ -27,13 +27,7 @@ class BingSearch(BaseSearch):
         """
         soup = self.get_soup()
         # find all li tags
-        results = soup.find_all('li', class_='b_algo')
-        if not results:
-            raise ValueError("The result parsing was unsuccessful, flagged as unusual traffic")
-        search_results = self.parse_result(results)
-        if len(search_results) > 0:
-            print("Got Results")
-        return search_results 
+        return soup.find_all('li', class_='b_algo')
 
     def parse_single_result(self, single_result):
         """

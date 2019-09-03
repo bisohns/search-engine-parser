@@ -30,13 +30,7 @@ class YahooSearch(BaseSearch):
         """
         soup = self.get_soup()
         # find all divs
-        results = soup.find_all('div', class_='Sr')
-        if not results:
-            raise ValueError("The result parsing was unsuccessful, flagged as unusual traffic")
-        search_results = self.parse_result(results)
-        if len(search_results) > 0:
-            print("Got Results")
-        return search_results 
+        return soup.find_all('div', class_='Sr')
 
     def parse_single_result(self, single_result):
         """

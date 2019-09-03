@@ -6,6 +6,8 @@ from abc import ABCMeta, abstractmethod
 import requests
 from bs4 import BeautifulSoup
 
+from search_engine_parser.core.exceptions import NoResultsOrTrafficError
+
 
 class BaseSearch(object):
     
@@ -126,5 +128,12 @@ class BaseSearch(object):
         parsed_query = self.parse_query(query)
         self.search_url = self.get_search_url(parsed_query, page) 
 
-        return self.search(parsed_query, page)
+        results = self.search(parsed_query, page)
+        # TODO Check if empty results is caused by traffic or answers to query were not found
+        if not results:
+            raise NoResultsOrTrafficError(
+                "The result parsing was unsuccessful. It is either your query could not be found"
+                " or it was flagged as unusual traffic")
+        search_results = self.parse_result(results)
+        return search_results 
 

@@ -8,6 +8,8 @@ import sys
 from blessed import Terminal
 
 from search_engine_parser.core.engines import *
+from search_engine_parser.core.exceptions import NoResultsOrTrafficError
+
 
 def display(results, term, **args):
     """ Displays search results 
@@ -68,8 +70,12 @@ def main(args):
         sys.exit(0)
     # Initialize search Engine with required params
     engine = engine_class()
-    results = engine.query_engine(args['query'], args['page'])
-    display(results, term, type=args.get('type'), rank=args.get('rank'))
+    try:
+        results = engine.query_engine(args['query'], args['page'])
+        display(results, term, type=args.get('type'), rank=args.get('rank'))
+    except NoResultsOrTrafficError as e:
+        print('\n', f'{term.red(str(e))}')
+
 
 
 def runner():
