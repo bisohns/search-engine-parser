@@ -9,15 +9,12 @@ class DuckDuckGoSearch(BaseSearch):
     Searches DuckDuckGo for string
     """
     name = "DuckDuckGo"
-    search_url = "https://www.duckduckgo.com/html/?q={}"
-    summary = "\tHas a number of advantages over the other search engines. \n\tIt has a clean interface, it "\
-        "does not track users, it is not fully loaded with ads and has a number of very nice features (only one "\
-        "page of results, you can search directly other web sites etc).\n\tAccording to DuckDuckGo traffic stats "\
-        "[December, 2018], they are currently serving more than 30 million searches per day."
-
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.search_url = DuckDuckGoSearch.search_url.format(self.query) 
+    search_url = "https://www.duckduckgo.com/html/?q={query}"
+    summary = "\tHas a number of advantages over the other search engines. \n\tIt has a clean "\
+            "interface, it does not track users, it is not fully loaded with ads and has a number "\
+            "of very nice features (only one page of results, you can search directly other web "\
+            "sites etc).\n\tAccording to DuckDuckGo traffic stats [December, 2018], they are "\
+            "currently serving more than 30 million searches per day."
 
     def search(self, query, page=1):
         """

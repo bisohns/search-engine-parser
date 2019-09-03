@@ -8,16 +8,12 @@ class BingSearch(BaseSearch):
     Searches Bing for string
     """
     name = "Bing"
-    search_url = "https://www.bing.com/search?q={}&count=10&offset=0&first={}&FORM=PERE"
-    summary = "\tBing is Microsoft’s attempt to challenge Google in search, but despite their efforts they still did not manage "\
-        "to convince users that their search engine can be an alternative to Google.\n\tTheir search engine market share is "\
-        "constantly below 10%, even though Bing is the default search engine on Windows PCs."\
+    search_url = "https://www.bing.com/search?q={query}&count=10&offset=0&first={offset}&FORM=PERE"
+    summary = "\tBing is Microsoft’s attempt to challenge Google in search, but despite their "\
+            "efforts they still did not manage to convince users that their search engine can be"\
+            " an alternative to Google.\n\tTheir search engine market share is constantly below "\
+            "10%, even though Bing is the default search engine on Windows PCs."
 
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        page = kwargs.get('page')
-        first = (page * 10) - 9
-        self.search_url = BingSearch.search_url.format(self.query, first) 
 
     def search(self, query, page=1):
         """

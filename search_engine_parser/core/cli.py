@@ -67,8 +67,8 @@ def main(args):
         print(engine_class.summary)
         sys.exit(0)
     # Initialize search Engine with required params
-    engine = engine_class(args['query'], page=args['page'])
-    results = engine.search(args['query'], args['page'])
+    engine = engine_class()
+    results = engine.query_engine(args['query'], args['page'])
     display(results, term, type=args.get('type'), rank=args.get('rank'))
 
 

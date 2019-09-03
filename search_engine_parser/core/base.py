@@ -22,19 +22,6 @@ class BaseSearch(object):
     # Search Engine unformatted URL
     search_url = None
 
-    def __init__(self, query, page=None):
-        """ Initialize the Search Engine 
-        
-        :param query: the query to search for 
-        :type query: str
-        """
-        # Clean query before storing it
-        self.query = self.parse_query(query)
-
-        # This should be redefined in every base class implementation
-        self.search_url = None
-
-
     @abstractmethod
     def search(self, query, page=1):
         """
@@ -120,3 +107,24 @@ class BaseSearch(object):
         """
         html = self.getSource(self.search_url)
         return BeautifulSoup(html, 'lxml')
+
+    def get_search_url(self, query=None, page=None):
+        """ 
+        Return a formatted search url
+        """
+        # Some URLs use offsets
+        offset = (page * 10) - 9
+        return  self.search_url.format(query=query, page=page, offset=offset) 
+
+    def query_engine(self, query=None, page=None):
+        """ 
+        Query the search engine
+
+        :param query: the query to search for 
+        :type query: str
+        """
+        parsed_query = self.parse_query(query)
+        self.search_url = self.get_search_url(parsed_query, page) 
+
+        return self.search(parsed_query, page)
+

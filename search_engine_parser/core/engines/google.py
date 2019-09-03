@@ -10,16 +10,12 @@ class GoogleSearch(BaseSearch):
     Searches Google for string
     """
     name = "Google"
-    search_url = "https://www.google.com/search?q={}&start={}"
-    summary = "\tNo need for further introductions. The search engine giant holds the first place in search "\
-        "with a stunning difference of 65% from second in place Bing.\n\tAccording to the latest netmarketshare "\
-        "report (November 2018) 73% of searches were powered by Google and only 7.91% by Bing.\n\tGoogle is also "\
-        "dominating the mobile/tablet search engine market share with 81%!"
-
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        page = kwargs.get('page')
-        self.search_url = GoogleSearch.search_url.format(self.query, page) 
+    search_url = "https://www.google.com/search?q={query}&start={page}"
+    summary = "\tNo need for further introductions. The search engine giant holds the first "\
+            "place in search with a stunning difference of 65% from second in place Bing.\n"\
+            "\tAccording to the latest netmarketshare report (November 2018) 73% of searches "\
+            "were powered by Google and only 7.91% by Bing.\n\tGoogle is also dominating the "\
+            "mobile/tablet search engine market share with 81%!"
 
     def search(self, query, page=1):
         """
