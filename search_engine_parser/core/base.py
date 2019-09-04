@@ -131,7 +131,6 @@ class BaseSearch(object):
 
         # Get search Page Results
         soup = self.get_soup(self.get_search_url(parsed_query, page))
-
         results = self.parse_soup(soup)
         # TODO Check if empty results is caused by traffic or answers to query were not found
         if not results:

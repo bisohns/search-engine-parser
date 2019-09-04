@@ -110,7 +110,6 @@ Result
 ```
 
 ![Demo](assets/example.gif)
-<<<<<<< HEAD
 
 There is a needed argument for the CLI i.e `-e Engine` and two subcommands in the CLI i.e `search` and `summary`
 
@@ -137,8 +136,6 @@ python -m search_engine_parser.core.cli --engine google summary
 ```
 
 Full arguments for the `search` subcommand shown below
-=======
->>>>>>> added demo gif
 
 ```bash
 
