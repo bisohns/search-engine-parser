@@ -22,6 +22,6 @@
  """
 
 import sys, os
-from search_engine_parser.core import BingSearch, GoogleSearch, YahooSearch
+from search_engine_parser.core import AolSearch, BingSearch, DuckDuckGoSearch, GoogleSearch, YahooSearch
 
 name = "search-engine-parser"

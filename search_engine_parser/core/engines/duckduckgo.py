@@ -22,6 +22,7 @@ class DuckDuckGoSearch(BaseSearch):
         Parses DuckDuckGo Search Soup for a query results
         """
         # find all div tags
+        print(soup)
         return soup.find_all('div', class_='result')
 
     def parse_single_result(self, single_result):
