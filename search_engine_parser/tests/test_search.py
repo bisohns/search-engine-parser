@@ -3,10 +3,10 @@
 """
 
 from search_engine_parser.core import (
-    YahooSearch, GoogleSearch, BingSearch, DuckDuckGoSearch
+    YahooSearch, GoogleSearch, BingSearch, DuckDuckGoSearch, AolSearch
 )
 
-search_args = ('preaching to the choir', 1)
+search_args = ('preaching to the choir', 2)
 
 
 def test_yahoo_search():
@@ -18,15 +18,20 @@ def test_yahoo_search():
 def test_google_search():
     engine = GoogleSearch()
     results = engine.search(*search_args)
-    assert len(results['titles']) == 10
+    assert len(results['titles']) >= 9
 
 
 def test_bing_search():
     engine = BingSearch()
-    # change search args because bing first page always includes video
-    bing_search_args = ('preaching to the choir', 2)
-    results = engine.search(*bing_search_args)
+    results = engine.search(*search_args)
     assert len(results['titles']) == 10
+
+
+def test_aol_search():
+    engine = AolSearch()
+    results = engine.search(*search_args)
+    assert len(results['titles']) == 10
+
 
 def test_duckduckgo_search():
     engine = DuckDuckGoSearch()
