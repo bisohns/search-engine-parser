@@ -135,7 +135,7 @@ class BaseSearch(object):
         # TODO Check if empty results is caused by traffic or answers to query were not found
         if not results:
             raise NoResultsOrTrafficError(
-                "The result parsing was unsuccessful. It is either your query could not be found"
+                "The result parsing was unsuccessful. It is either your query could not be found"+
                 " or it was flagged as unusual traffic")
         search_results = self.parse_result(results)
         return search_results 
