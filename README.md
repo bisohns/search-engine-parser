@@ -26,7 +26,10 @@ Supported Search Engines
   - [Usage](#usage)
     - [Code](#code)
     - [Command line](#command-line)
+  - [Code of Conduct](#code-of-conduct)
   - [Contribution](#contribution)
+  - [Bug Report](#bug-report)
+  - [Feature Request](#feature-request)
   - [License (MIT)](#license-mit)
 
 ## Installation
@@ -149,13 +152,23 @@ optional arguments:
   -t TYPE, --type TYPE  Type of detail to return i.e full, links, desciptions
                         or titles (default: full)
   -r RANK, --rank RANK  ID of Detail to return e.g 5 (default: 0)
-```
+``` 
+
+## Code of Conduct
+
+All actions performed should adhere to the [code of conduct](CODE_OF_CONDUCT.md)
+
+## Bug Report
+
+For bug reports, follow the [template](.github/ISSUE_TEMPLATE/bug_report.md) and create an issue on the [original repository](https://github.com/bisoncorps/search-engine-parser)
+
+## Feature Request
+
+For feature requests, follow the [template](.github/ISSUE_TEMPLATE/feature_request.md) and create an issue on the [original repository](https://github.com/bisoncorps/search-engine-parser)
 
 ## Contribution
 
-You are very welcome to modify and use them in your own projects.
-
-Please keep a link to the [original repository](https://github.com/bisoncorps/search-engine-parser). If you have made a fork with substantial modifications that you feel may be useful, then please [open a new issue on GitHub](https://github.com/bisoncorps/search-engine-parser/issues) with a link and short description and then make a pull request.
+Please follow the [contribution guide](#)
 
 ## License (MIT)
 
