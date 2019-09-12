@@ -37,6 +37,16 @@
         "tool",
         "code"
       ]
+    },
+    {
+      "login": "PalAditya",
+      "name": "Aditya Pal",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/25523604?v=4",
+      "profile": "https://github.com/PalAditya",
+      "contributions": [
+        "test",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
