@@ -15,7 +15,7 @@
 import os
 import sys
 sys.path.insert(0, os.path.abspath('../..'))
-
+from setup import VERSION
 
 # -- Project information -----------------------------------------------------
 
@@ -26,7 +26,7 @@ author = 'Diretnan Domnan, Mmadu Manasseh'
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = '0.0.1'
+release = VERSION
 
 
 # -- General configuration ---------------------------------------------------
