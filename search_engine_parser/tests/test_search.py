@@ -20,7 +20,6 @@ def test_google_search():
 	results = engine.search(*search_args)
 	assert len(results['titles']) >= 9
 
-
 def test_bing_search():
 	engine = BingSearch()
 	results = engine.search(*search_args)

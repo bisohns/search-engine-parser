@@ -15,7 +15,7 @@ Supported Search Engines
 - Bing
 - DuckDuckGo
 - AOL
-
+- Yandex
 
 
 - [Search Engine Parser](#search-engine-parser)
