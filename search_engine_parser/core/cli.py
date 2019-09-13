@@ -2,7 +2,7 @@
 		Making use of the parser through cli
  """
 
-
+from __future__ import print_function
 import argparse
 import sys
 from blessed import Terminal

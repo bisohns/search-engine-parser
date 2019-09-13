@@ -6,13 +6,13 @@ Subpackages
 
 .. toctree::
 
-    search_engine_parser.core
-    search_engine_parser.tests
+   search_engine_parser.core
+   search_engine_parser.tests
 
 Module contents
 ---------------
 
 .. automodule:: search_engine_parser
-    :members:
-    :undoc-members:
-    :show-inheritance:
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -11,16 +11,8 @@
 
 Package to query popular search engines and scrape for result titles, links and descriptions. Aims to scrape the widest range of search engines.
 
-Supported Search Engines
-- Google
-- Yahoo
-- Bing
-- DuckDuckGo
-- AOL
-- Yandex
-
-
 - [Search Engine Parser](#search-engine-parser)
+  - [Supported Engines](#supported-engines)
   - [Installation](#installation)
   - [Development](#development)
   - [Code Documentation](#code-documentation)
@@ -33,6 +25,15 @@ Supported Search Engines
   - [Bug Report](#bug-report)
   - [Feature Request](#feature-request)
   - [License (MIT)](#license-mit)
+
+## Supported Engines
+
+- Google
+- Yahoo
+- Bing
+- DuckDuckGo
+- AOL
+- Yandex
 
 ## Installation
 
@@ -158,15 +159,15 @@ optional arguments:
 
 ## Code of Conduct
 
-All actions performed should adhere to the [code of conduct](CODE_OF_CONDUCT.md)
+All actions performed should adhere to the [code of conduct](https://github.com/bisoncorps/search-engine-parser/blob/master/CODE_OF_CONDUCT.md)
 
 ## Bug Report
 
-For bug reports, follow the [template](.github/ISSUE_TEMPLATE/bug_report.md) and create an issue on the [original repository](https://github.com/bisoncorps/search-engine-parser)
+For bug reports, follow the [template](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/ISSUE_TEMPLATE/bug_report.md) and create an issue on the [original repository](https://github.com/bisoncorps/search-engine-parser)
 
 ## Feature Request
 
-For feature requests, follow the [template](.github/ISSUE_TEMPLATE/feature_request.md) and create an issue on the [original repository](https://github.com/bisoncorps/search-engine-parser)
+For feature requests, follow the [template](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/ISSUE_TEMPLATE/feature_request.md) and create an issue on the [original repository](https://github.com/bisoncorps/search-engine-parser)
 
 ## Contribution
 
