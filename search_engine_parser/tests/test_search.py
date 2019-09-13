@@ -41,8 +41,11 @@ def test_yandex_search():
 	engine = YandexSearch()
 	results = engine.search(*search_args)
 	assert len(results['titles']) >= 9
+<<<<<<< HEAD
 
 def test_stackoverflow_search():
 	engine = StackOverflowSearch()
 	results = engine.search(*search_args)
 	assert len(results['titles']) >= 15
+=======
+>>>>>>> master
