@@ -5,3 +5,4 @@ from .duckduckgo import DuckDuckGoSearch
 from .aol import AolSearch
 from .yandex import YandexSearch
 from .stackoverflow import StackOverflowSearch
+from .baidu import BaiduSearch
