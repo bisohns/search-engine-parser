@@ -1,5 +1,27 @@
-name = "search-engine-parser"
+"""
+ 	@author 
+ 		Domnan Diretnan
+ 		Artificial Intelligence Enthusiast & Software Engineer.
+ 		Email: diretnandomnan@gmail.com
+ 		Github: https://github.com/deven96
+ 		GitLab: https://gitlab.com/Deven96
+
+        Mmadu Manasseh 
+ 		Email: mmadumanasseh@gmail.com
+ 		Github: https://github.com/mensaah
+ 		GitLab: https://gitlab.com/mensaah
+
+ 	@project
+ 		@create date 2019-02-01 22:15:44
+ 		@modify date 2019-02-01 22:15:44
+
+	@license
+		MIT License
+		Copyright (c) 2018. Domnan Diretnan. All rights reserved
+
+ """
+
 import sys, os
-# insert all modules here
-sys.path.insert(0, os.path.dirname(os.path.realpath(__file__)))
-from core import BingSearch, GoogleSearch, YahooSearch
+from search_engine_parser.core import AolSearch, BingSearch, DuckDuckGoSearch, GoogleSearch, YahooSearch, YandexSearch
+
+name = "search-engine-parser"

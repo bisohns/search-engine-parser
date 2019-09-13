@@ -1,6 +1,14 @@
 cd ./docs
 sphinx-apidoc -f -o source/ ../search_engine_parser
+if [ $? -ne 0 ]; then
+   echo "Failed to run sphinx-apidoc"
+   exit 1
+fi
 make html
+if [ $? -ne 0 ]; then
+   echo "Failed to make html"
+   exit 1
+fi
 cd ..
 git commit -am "make html"
 git config --global push.default simple
@@ -9,7 +17,7 @@ git config --global user.name "Travis CI"
 
 # Checkout to gh-pages
 git checkout gh-pages
-if [ $? -eq 0]; then
+if [ $? -eq 1 ]; then
    echo "Checked out to existing gh-pages branch"
 else
    git checkout -b gh-pages
@@ -34,4 +42,5 @@ if [ $? -eq 0 ]; then
     echo "Docs successfully pushed to Github Pages"
 else
     echo "Failed to push docs"
+    exit 1
 fi

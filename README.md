@@ -1,14 +1,18 @@
 # Search Engine Parser
 
-Package to query popular search engines and scrape for result titles, links and descriptions
+![Demo](assets/animate.gif)
 
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 [![PyPI version](https://badge.fury.io/py/search-engine-parser.png)](https://badge.fury.io/py/search-engine-parser)
 [![Build Status](https://travis-ci.com/bisoncorps/search-engine-parser.svg?branch=master)](https://travis-ci.com/bisoncorps/search-engine-parser)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 <hr/>
 
+Package to query popular search engines and scrape for result titles, links and descriptions. Aims to scrape the widest range of search engines.
+
 - [Search Engine Parser](#search-engine-parser)
+  - [Supported Engines](#supported-engines)
   - [Installation](#installation)
   - [Development](#development)
   - [Code Documentation](#code-documentation)
@@ -16,8 +20,21 @@ Package to query popular search engines and scrape for result titles, links and 
   - [Usage](#usage)
     - [Code](#code)
     - [Command line](#command-line)
+  - [Code of Conduct](#code-of-conduct)
   - [Contribution](#contribution)
+  - [Bug Report](#bug-report)
+  - [Feature Request](#feature-request)
   - [License (MIT)](#license-mit)
+
+## Supported Engines
+
+- Google
+- Yahoo
+- Bing
+- DuckDuckGo
+- AOL
+- Yandex
+- StackOverflow
 
 ## Installation
 
@@ -48,11 +65,7 @@ Found on [Github Pages](https://bisoncorps.github.io/search-engine-parser)
 ## Running the tests
 
 ```bash
-    cd search_engine_parser/
-```
-
-```bash
-    python tests/__init__.py
+    pytest
 ```
 
 ## Usage
@@ -94,7 +107,7 @@ Query Results can be scraped from popular search engines as shown in the example
 Use python module runner to run the parser on the command line e.g
 
 ```bash
-python -m search_engine_parser.core.cli --query "Preaching to the choir" --engine bing --type descriptions
+python -m search_engine_parser.core.cli --engine bing search --query "Preaching to the choir" --type descriptions
 ```
 
 Result
@@ -103,34 +116,83 @@ Result
 'Preaching to the choir' originated in the USA in the 1970s. It is a variant of the earlier 'preaching to the converted', which dates from England in the late 1800s and has the same meaning. Origin - the full story 'Preaching to the choir' (also sometimes spelled quire) is of US origin.
 ```
 
+![Demo](assets/example.gif)
 
+There is a needed argument for the CLI i.e `-e Engine` and two subcommands in the CLI i.e `search` and `summary`
 
-Full arguments shown below
 ```bash
 
-    usage: cli.py [-h] [-e ENGINE] -q QUERY [-p PAGE] [-t TYPE] [-r RANK]
+SearchEngineParser
 
-    SearchEngineParser
+positional arguments:
+  {search,summary}      help for subcommands
+    search              search help
+    summary             summary help
 
-    optional arguments:
-    -h, --help            show this help message and exit
-    -e ENGINE, --engine ENGINE
-                            Engine to use for parsing the query e.g yahoo
-                            (default: google)
-    -q QUERY, --query QUERY
-                            Query string to search engine for
-    -p PAGE, --page PAGE  Page of the result to return details for (default: 1)
-    -t TYPE, --type TYPE  Type of detail to return i.e links, desciptions or
-                            titles
-    -r RANK, --rank RANK  Rank of detail in list to return e.g 5 (default: 0)
+optional arguments:
+  -h, --help            show this help message and exit
+  -e ENGINE, --engine ENGINE
+                        Engine to use for parsing the query e.g google, yahoo,
+                        bing, duckduckgo (default: google)
 ```
+
+`summary` just shows the summary of each search engine added with descriptions on the return
+
+```bash
+python -m search_engine_parser.core.cli --engine google summary 
+```
+
+Full arguments for the `search` subcommand shown below
+
+```bash
+
+usage: cli.py search [-h] -q QUERY [-p PAGE] [-t TYPE] [-r RANK]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -q QUERY, --query QUERY
+                        Query string to search engine for
+  -p PAGE, --page PAGE  Page of the result to return details for (default: 1)
+  -t TYPE, --type TYPE  Type of detail to return i.e full, links, desciptions
+                        or titles (default: full)
+  -r RANK, --rank RANK  ID of Detail to return e.g 5 (default: 0)
+``` 
+
+## Code of Conduct
+
+All actions performed should adhere to the [code of conduct](https://github.com/bisoncorps/search-engine-parser/blob/master/CODE_OF_CONDUCT.md)
+
+## Bug Report
+
+For bug reports, follow the [template](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/ISSUE_TEMPLATE/bug_report.md) and create an issue on the [original repository](https://github.com/bisoncorps/search-engine-parser)
+
+## Feature Request
+
+For feature requests, follow the [template](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/ISSUE_TEMPLATE/feature_request.md) and create an issue on the [original repository](https://github.com/bisoncorps/search-engine-parser)
 
 ## Contribution
 
-You are very welcome to modify and use them in your own projects.
-
-Please keep a link to the [original repository](https://github.com/bisoncorps/search-engine-parser). If you have made a fork with substantial modifications that you feel may be useful, then please [open a new issue on GitHub](https://github.com/bisoncorps/search-engine-parser/issues) with a link and short description and then make a pull request.
+Please follow the [contribution guide](#)
 
 ## License (MIT)
 
 This project is opened under the [MIT 2.0 License](https://github.com/bisoncorps/search-engine-parser/blob/master/LICENSE) which allows very broad use for both academic and commercial purposes.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Rexogamer"><img src="https://avatars0.githubusercontent.com/u/42586271?v=4" width="100px;" alt="Ed Luff"/><br /><sub><b>Ed Luff</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/commits?author=Rexogamer" title="Code">💻</a></td>
+    <td align="center"><a href="http://diretnandomnan.webnode.com"><img src="https://avatars3.githubusercontent.com/u/23453888?v=4" width="100px;" alt="Diretnan Domnan"/><br /><sub><b>Diretnan Domnan</b></sub></a><br /><a href="#infra-deven96" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/bisoncorps/search-engine-parser/commits?author=deven96" title="Tests">⚠️</a> <a href="#tool-deven96" title="Tools">🔧</a> <a href="https://github.com/bisoncorps/search-engine-parser/commits?author=deven96" title="Code">💻</a></td>
+    <td align="center"><a href="http://mensaah.github.io"><img src="https://avatars3.githubusercontent.com/u/24734308?v=4" width="100px;" alt="MeNsaaH"/><br /><sub><b>MeNsaaH</b></sub></a><br /><a href="#infra-MeNsaaH" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/bisoncorps/search-engine-parser/commits?author=MeNsaaH" title="Tests">⚠️</a> <a href="#tool-MeNsaaH" title="Tools">🔧</a> <a href="https://github.com/bisoncorps/search-engine-parser/commits?author=MeNsaaH" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/PalAditya"><img src="https://avatars2.githubusercontent.com/u/25523604?v=4" width="100px;" alt="Aditya Pal"/><br /><sub><b>Aditya Pal</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/commits?author=PalAditya" title="Tests">⚠️</a> <a href="https://github.com/bisoncorps/search-engine-parser/commits?author=PalAditya" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

@@ -1,0 +1,57 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Rexogamer",
+      "name": "Ed Luff",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/42586271?v=4",
+      "profile": "https://github.com/Rexogamer",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "deven96",
+      "name": "Diretnan Domnan",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23453888?v=4",
+      "profile": "http://diretnandomnan.webnode.com",
+      "contributions": [
+        "infra",
+        "test",
+        "tool",
+        "code"
+      ]
+    },
+    {
+      "login": "MeNsaaH",
+      "name": "MeNsaaH",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/24734308?v=4",
+      "profile": "http://mensaah.github.io",
+      "contributions": [
+        "infra",
+        "test",
+        "tool",
+        "code"
+      ]
+    },
+    {
+      "login": "PalAditya",
+      "name": "Aditya Pal",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/25523604?v=4",
+      "profile": "https://github.com/PalAditya",
+      "contributions": [
+        "test",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "search-engine-parser",
+  "projectOwner": "bisoncorps",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}

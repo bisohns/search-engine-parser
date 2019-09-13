@@ -1,52 +1,25 @@
 """@desc 
 		Parser for Bing search results
-
- 	@author 
- 		Domnan Diretnan
- 		Artificial Intelligence Enthusiast & Software Engineer.
- 		Email: diretnandomnan@gmail.com
- 		Github: https://github.com/deven96
- 		GitLab: https://gitlab.com/Deven96
-
- 		Mmadu Manasseh
- 		Email: mmadumanasseh@gmail.com
- 		Github: https://github.com/mensaah
- 		GitLab: https://gitlab.com/mensaah
-
- 	@project
- 		@create date 2019-01-26 23:14:22
- 		@modify date 2019-01-26 23:14:22
-
-	@license
-		MIT License
-		Copyright (c) 2018. Domnan Diretnan. All rights reserved
-
- """
-from core.base import BaseSearch
+"""
+from search_engine_parser.core.base import BaseSearch
 
 class BingSearch(BaseSearch):
     """
     Searches Bing for string
     """
-    def search(self, query, page=1):
+    name = "Bing"
+    search_url = "https://www.bing.com/search?q={query}&count=10&offset=0&first={offset}&FORM=PERE"
+    summary = "\tBing is Microsoft’s attempt to challenge Google in search, but despite their "\
+            "efforts they still did not manage to convince users that their search engine can be"\
+            " an alternative to Google.\n\tTheir search engine market share is constantly below "\
+            "10%, even though Bing is the default search engine on Windows PCs."
+
+    def parse_soup(self, soup):
         """
         Parses Bing for a search query.
-
-        :param query: Search query sentence or term
-        :type query: string
-        :param page: Page to be displayed, defaults to 1
-        :type page: int
-        :return: dictionary. Containing titles, links, netlocs and descriptions.
         """
-        soup = BingSearch.get_soup(query, engine="Bing", page=page)
         # find all li tags
-        results = soup.find_all('li', class_='b_algo')
-        if not results:
-            raise ValueError("The result parsing was unsuccessful, flagged as unusual traffic")
-        search_results = self.parse_result(results)
-        if len(search_results) > 0:
-            print("Got Results")
-        return search_results 
+        return soup.find_all('li', class_='b_algo')
 
     def parse_single_result(self, single_result):
         """
@@ -64,7 +37,6 @@ class BingSearch(BaseSearch):
         ''' Get the text and link '''
         title = link_tag.text
 
-        # raw link is of format "/url?q=REAL-LINK&sa=..."
         link = link_tag.get('href')
 
         desc = desc.text
