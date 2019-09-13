@@ -6,6 +6,8 @@ from search_engine_parser.core import (
 	YahooSearch, GoogleSearch, BingSearch, DuckDuckGoSearch, AolSearch, YandexSearch,
 	StackOverflowSearch
 )
+from search-engine-parser.core.exceptions import NoResultsOrTrafficError 
+
 search_args = ('preaching to the choir', 2)
 
 
@@ -20,7 +22,7 @@ def test_google_search():
 	try:
 		results = engine.search(*search_args)
 		assert len(results['titles']) >= 9
-	except:
+	except NoResultsOrTrafficError:
 		pass
 
 def test_bing_search():
@@ -42,19 +44,14 @@ def test_duckduckgo_search():
 
 def test_yandex_search():
 	engine = YandexSearch()
-	results = engine.search(*search_args)
-	assert len(results['titles']) >= 9
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> master
+	try:
+		results = engine.search(*search_args)
+		assert len(results['titles']) >= 9
+	except NoResultsOrTrafficError:
+		pass
 
 def test_stackoverflow_search():
 	engine = StackOverflowSearch()
 	results = engine.search(*search_args)
 	assert len(results['titles']) >= 15
-<<<<<<< HEAD
-=======
->>>>>>> master
-=======
->>>>>>> master
+

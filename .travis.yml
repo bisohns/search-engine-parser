@@ -29,7 +29,7 @@ deploy:
 
 after_deploy:
   - ./scripts/post_deploy_test.sh
-  - ./scripts/docs.sh
+  # - ./scripts/docs.sh
 
 notifications:
 # slack channel notification
