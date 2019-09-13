@@ -15,14 +15,6 @@ git config --global push.default simple
 git config --global user.email "travis@travis-ci.com"
 git config --global user.name "Travis CI"
 
-# Checkout to gh-pages
-git checkout gh-pages
-if [ $? -eq 1 ]; then
-   echo "Checked out to existing gh-pages branch"
-else
-   git checkout -b gh-pages
-   echo "Creating gh-pages branch"
-fi 
 
 #remove existing files except html
 shopt -s extglob
@@ -33,9 +25,20 @@ cp -R ${TRAVIS_BUILD_DIR}/docs/build/html/. ${TRAVIS_BUILD_DIR}/
 
 #remove html and accompanying docs  
 rm -r ./docs
+echo "Viewing current files in directory"
+ls -lah
+# Checkout to gh-pages
+git checkout gh-pages
+if [ $? -eq 1 ]; then
+   echo "Checked out to existing gh-pages branch"
+else
+   git checkout -b gh-pages
+   echo "Creating gh-pages branch"
+fi 
 git add .
 git commit -am "rebuilt docs"
-git push -q https://${GITHUB_TOKEN}@github.com/bisoncorps/search-engine-parser.git gh-pages --force
+git remote add origin-pages https://${GITHUB_TOKEN}@github.com/bisoncorps/search_engine_parser.git
+git push -u origin-pages gh-pages --force
 
 # echo if docs was succesfully pushed
 if [ $? -eq 0 ]; then

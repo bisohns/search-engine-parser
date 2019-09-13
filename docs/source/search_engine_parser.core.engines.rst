@@ -36,6 +36,14 @@ search\_engine\_parser.core.engines.google module
    :undoc-members:
    :show-inheritance:
 
+search\_engine\_parser.core.engines.stackoverflow module
+--------------------------------------------------------
+
+.. automodule:: search_engine_parser.core.engines.stackoverflow
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 search\_engine\_parser.core.engines.yahoo module
 ------------------------------------------------
 

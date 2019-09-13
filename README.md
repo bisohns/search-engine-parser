@@ -2,11 +2,12 @@
 
 ![Demo](assets/animate.gif)
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 [![PyPI version](https://badge.fury.io/py/search-engine-parser.png)](https://badge.fury.io/py/search-engine-parser)
 [![Build Status](https://travis-ci.com/bisoncorps/search-engine-parser.svg?branch=master)](https://travis-ci.com/bisoncorps/search-engine-parser)
+[![Documentation Status](https://readthedocs.org/projects/search-engine-parser/badge/?version=latest)](https://search-engine-parser.readthedocs.io/en/latest/?badge=latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 <hr/>
 
 Package to query popular search engines and scrape for result titles, links and descriptions. Aims to scrape the widest range of search engines.
@@ -60,7 +61,7 @@ Create virtual environment and install requirements
 
 ## Code Documentation
 
-Found on [Github Pages](https://bisoncorps.github.io/search-engine-parser)
+Found on [Read the Docs](https://search-engine-parser.readthedocs.io/en/latest)
 
 ## Running the tests
 
