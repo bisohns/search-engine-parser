@@ -40,7 +40,6 @@ class YahooSearch(BaseSearch):
         ''' Get the text and link '''
         title = h3.text
 
-        # raw link is of format "/url?q=REAL-LINK&sa=..."
         link = link_tag.get('href')
 
         desc = desc.text

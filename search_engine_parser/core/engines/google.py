@@ -44,7 +44,6 @@ class GoogleSearch(BaseSearch):
         if not title:
             title = h3.find('div', class_='ellip').text
 
-        # raw link is of format "/url?q=REAL-LINK&sa=..."
         raw_link = link_tag.get('href')
 
         desc = desc.text

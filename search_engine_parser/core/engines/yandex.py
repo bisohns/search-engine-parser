@@ -37,7 +37,6 @@ class YandexSearch(BaseSearch):
 		"""
 		h3 = single_result.find('div',class_="organic__url-text")
 		
-		# raw link is of format "/url?q=REAL-LINK&sa=..."
 		link_tag = single_result.find('a')
 		
 		desc = single_result.find('div',class_="organic__content-wrapper")

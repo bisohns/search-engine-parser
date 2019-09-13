@@ -68,7 +68,7 @@ class BaseSearch(object):
         return search_results
     
     @staticmethod
-    def parse_query(self, query):
+    def parse_query(query):
         """
         Replace spaces in query
 
@@ -79,7 +79,7 @@ class BaseSearch(object):
         return query.replace(" ", "%20")
     
     @staticmethod
-    def getSource(self, url):
+    def getSource(url):
         """
         Returns the source code of a webpage.
 

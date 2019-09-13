@@ -51,16 +51,21 @@ def main(args):
         Executes logic from parsed arguments
     """
     term = Terminal()
-    if args['engine'] == 'google':
+    engine = args['engine']
+    if engine == 'google':
         engine_class = GoogleSearch
-    elif args['engine'] == 'yahoo':
+    elif engine == 'yahoo':
         engine_class = YahooSearch
-    elif args['engine'] == 'bing':
+    elif engine == 'bing':
         engine_class = BingSearch
-    elif args['engine'] == 'duckduckgo':
+    elif engine == 'duckduckgo':
         engine_class = DuckDuckGoSearch
+    elif engine == 'yandex':
+        engine_class = YandexSearch
+    elif engine == 'stackoverflow':
+        engine_class = StackOverflowSearch
     else:
-        sys.exit(f'Engine <args["engine"]> does not exist')
+        sys.exit(f'Engine < {engine} > does not exist')
     
     # check if in summary mode
     if args.get("show"):
