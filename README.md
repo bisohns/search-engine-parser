@@ -23,8 +23,6 @@ Package to query popular search engines and scrape for result titles, links and 
     - [Command line](#command-line)
   - [Code of Conduct](#code-of-conduct)
   - [Contribution](#contribution)
-  - [Bug Report](#bug-report)
-  - [Feature Request](#feature-request)
   - [License (MIT)](#license-mit)
 
 ## Supported Engines
@@ -164,17 +162,10 @@ optional arguments:
 
 All actions performed should adhere to the [code of conduct](https://github.com/bisoncorps/search-engine-parser/blob/master/CODE_OF_CONDUCT.md)
 
-## Bug Report
-
-For bug reports, follow the [template](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/ISSUE_TEMPLATE/bug_report.md) and create an issue on the [original repository](https://github.com/bisoncorps/search-engine-parser)
-
-## Feature Request
-
-For feature requests, follow the [template](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/ISSUE_TEMPLATE/feature_request.md) and create an issue on the [original repository](https://github.com/bisoncorps/search-engine-parser)
 
 ## Contribution
 
-Please follow the [contribution guide](#)
+Before making any contribution, please follow the [contribution guide](https://github.com/bisoncorps/search-engine-parser/blob/master/CONTRIBUTING.md)
 
 ## License (MIT)
 
