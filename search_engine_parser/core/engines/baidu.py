@@ -3,12 +3,12 @@
 """
 
 from search_engine_parser.core.base import BaseSearch
+import re
 
 class BaiduSearch(BaseSearch):
 	"""
 	Searches Baidu for string
 	"""
-	offset=None
 	name = "Baidu"
 	search_url = "https://www.baidu.com/s?wd={query}&pn={offset}&oq={query}"
 	summary = "\tBaidu, Inc. is a Chinese multinational technology company specializing in"\
@@ -26,8 +26,8 @@ class BaiduSearch(BaseSearch):
 		Adding offset value to self as we would need it in parse_soup
 		"""
 		
-		self.offset = (page - 1) * 10
-		return  self.search_url.format(query=query, page=page, offset=self.offset)
+		offset = (page - 1) * 10
+		return  self.search_url.format(query=query, page=page, offset=offset)
 	
 	
 	def parse_soup(self, soup):
@@ -41,33 +41,27 @@ class BaiduSearch(BaseSearch):
 		and we loop for all div's from (10+1=11) to (10+11-1)=20 {-1 due to nature of range function}
 		to get our required results
 		"""
-		
-		soups=[]
-		for i in range(int(self.offset) + 1,int(self.offset) + 11):
-			soups.append(soup.find('div',id=i))
 
-		return soups
+		return soup.find_all('div',{'id':re.compile("^\d{1,2}")})
 
 	def parse_single_result(self, single_result):
 		"""
 		Parses the source code to return
 
-		:param single_result: single result found in <li class="serp-item">
-		:type single_result: `bs4.element.ResultSet`
+		:param single_result: single result found in div with a numeric id
+		:type single_result: `bs4.element.Tag`
 		:return: parsed title, link and description of single result
 		:rtype: str, str, str
 		"""
 		
 		h3 = single_result.find('h3')
 		link_tag = single_result.find('a')
-		
+			
 		''' Get the text and link '''
-		
-		title=h3.text
-		link=link_tag.get('href')
-		
+			
+		title = single_result.find('h3').text
+		link = link_tag.get('href')
+			
 		desc = single_result.find('div',class_='c-abstract').text
-
 		
 		return title, link, desc
-
