@@ -38,7 +38,7 @@ class BaiduSearch(BaseSearch):
 		Hence, a regex is used to match all eligible ids
 		"""
 
-		return soup.find_all('div',{'id':re.compile("^\d{1,2}")})
+		return soup.find_all('div',{'id':re.compile(r"^\d{1,2}")})
 
 	def parse_single_result(self, single_result):
 		"""
