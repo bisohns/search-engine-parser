@@ -23,7 +23,6 @@ class BaiduSearch(BaseSearch):
 		""" 
 		Return a formatted search url.
 		Offsets are of form 0,10,20, etc. So if 1 is passed, we make it 0, for 2->(2-1)*10=10. etc.
-		Adding offset value to self as we would need it in parse_soup
 		"""
 		
 		offset = (page - 1) * 10
