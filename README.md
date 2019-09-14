@@ -34,6 +34,7 @@ Package to query popular search engines and scrape for result titles, links and 
 - AOL
 - Yandex
 - StackOverflow
+- Baidu
 
 ## Installation
 

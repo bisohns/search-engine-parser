@@ -2,15 +2,10 @@
 	Tests or individual search engines
 """
 
-from search_engine_parser.core.engines import ( YahooSearch, 
-                                                GoogleSearch, 
-                                                BingSearch, 
-                                                DuckDuckGoSearch, 
-                                                AolSearch, 
-                                                YandexSearch,
-                                                StackOverflowSearch
+from search_engine_parser.core import (
+	YahooSearch, GoogleSearch, BingSearch, DuckDuckGoSearch, AolSearch, YandexSearch,
+	StackOverflowSearch, BaiduSearch
 )
-
 from search_engine_parser.core.exceptions import NoResultsOrTrafficError 
 
 search_args = ('preaching to the choir', 2)
@@ -59,3 +54,8 @@ def test_stackoverflow_search():
 	engine = StackOverflowSearch()
 	results = engine.search(*search_args)
 	assert len(results['titles']) >= 15
+	
+def test_baidu_search():
+	engine = BaiduSearch()
+	results = engine.search(*search_args)
+	assert len(results['titles']) == 10
