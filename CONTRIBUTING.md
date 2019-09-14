@@ -7,17 +7,19 @@ All Contributions to the code base or documentation must be done on a branch wit
 
 * **Ensure the bug was not already reported** by searching on GitHub under [Issues](https://github.com/bisoncorps/search-engine-parser/issues).
 
-* If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/search-engine-parser/search-engine-parser/issues/new). If possible, be sure to make use of the [bug template](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/ISSUE_TEMPLATE/bug_report.md) with label `bug`
+* If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/bisoncorps/search-engine-parser/issues/new). If possible, be sure to make use of the [bug template](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/ISSUE_TEMPLATE/bug_report.md) with label `bug`
 
 * Ensure the issue description clearly describes the bug.Include the relevant issue number if applicable.
 
 #### **Did you write a patch that fixes a bug?**
 
-* Open a new GitHub pull request with the patch using [bug fix template](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/PULL_REQUEST_TEMPLATE/bug_fix.md).
+* Ensure the bug is first reported by searching on GitHub under [Issues](https://github.com/bisoncorps/search-engine-parser/issues) using label `bug`
+
+* If issue does not exist, open an issue with the [bug report template](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/ISSUE_TEMPLATE/bug_report.md)
+
+* Open a new GitHub pull request with the patch using [bug fix template](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/PULL_REQUEST_TEMPLATE/bug_fix.md) to branch `dev`.
 
 * Ensure the PR description clearly describes the solution. Include the relevant issue number if applicable.
-
-* Before submitting, please read the [Contributing to SearchEngineParser]
 
 
 #### **Do you intend to add a new feature or change an existing one?**
@@ -28,7 +30,7 @@ All Contributions to the code base or documentation must be done on a branch wit
 
 * Do not open an issue on GitHub until you have collected positive feedback about the change.
 
-* Raise an issue using the [issue template](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/ISSUE_TEMPLATE/feature_request.md) with labels `enhancement`
+* Raise an issue using the [feature request template](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/ISSUE_TEMPLATE/feature_request.md) with labels `enhancement`
 
 * Upon implementing the feature, make a PR to branch `dev` using the [feature implementation template](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/PULL_REQUEST_TEMPLATE/feature_implementation.md)
 

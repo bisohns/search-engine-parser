@@ -23,8 +23,6 @@ Package to query popular search engines and scrape for result titles, links and 
     - [Command line](#command-line)
   - [Code of Conduct](#code-of-conduct)
   - [Contribution](#contribution)
-  - [Bug Report](#bug-report)
-  - [Feature Request](#feature-request)
   - [License (MIT)](#license-mit)
 
 ## Supported Engines
