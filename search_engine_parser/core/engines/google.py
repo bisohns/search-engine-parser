@@ -23,7 +23,6 @@ class GoogleSearch(BaseSearch):
         Parses Google Search Soup for results
         """
         # find all class_='g' => each result
-        print(len(soup.find_all('div', class_='g')))
         return soup.find_all('div', class_='g')
 
     def parse_single_result(self, single_result):
