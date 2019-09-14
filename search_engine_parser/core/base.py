@@ -147,4 +147,5 @@ class BaseSearch(object):
                 "The result parsing was unsuccessful. It is either your query could not be found"+
                 " or it was flagged as unusual traffic")
         search_results = self.parse_result(results)
-        return search_results
+        return search_results 
+

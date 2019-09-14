@@ -36,10 +36,7 @@ class BaiduSearch(BaseSearch):
 		"""
 		
 		"""Baidu search can be made deterministic via an id.
-		The id of divs are in range 1-10 for page 1, 11-20 in page 2, so that arithmetic is
-		handled by the previous calculation of offset (it transforms 1 to 0, 2 to 10, etc.)
-		and we loop for all div's from (10+1=11) to (10+11-1)=20 {-1 due to nature of range function}
-		to get our required results
+		Hence, a regex is used to match all eligible ids
 		"""
 
 		return soup.find_all('div',{'id':re.compile("^\d{1,2}")})
