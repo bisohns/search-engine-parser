@@ -20,7 +20,7 @@ from _version import VERSION
 # -- Project information -----------------------------------------------------
 
 project = 'Search Engine Parser'
-copyright = '2019, Diretnan Domnan, Mmadu Manasseh'
+copyright = '2019, BisonCorps'
 author = 'Diretnan Domnan, Mmadu Manasseh'
 
 # The short X.Y version

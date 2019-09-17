@@ -12,6 +12,14 @@ search\_engine\_parser.core.engines.aol module
    :undoc-members:
    :show-inheritance:
 
+search\_engine\_parser.core.engines.baidu module
+------------------------------------------------
+
+.. automodule:: search_engine_parser.core.engines.baidu
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 search\_engine\_parser.core.engines.bing module
 -----------------------------------------------
 
@@ -24,6 +32,14 @@ search\_engine\_parser.core.engines.duckduckgo module
 -----------------------------------------------------
 
 .. automodule:: search_engine_parser.core.engines.duckduckgo
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+search\_engine\_parser.core.engines.github module
+-------------------------------------------------
+
+.. automodule:: search_engine_parser.core.engines.github
    :members:
    :undoc-members:
    :show-inheritance:

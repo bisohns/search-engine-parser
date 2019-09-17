@@ -1,5 +1,7 @@
 # Search Engine Parser
 
+<span><i>"If it is a search engine, then it can be parsed"</i> - Some random guy</span>
+
 ![Demo](assets/animate.gif)
 
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
@@ -11,9 +13,10 @@
 <hr/>
 
 Package to query popular search engines and scrape for result titles, links and descriptions. Aims to scrape the widest range of search engines.
+View all [supported engines](https://github.com/bisoncorps/search-engine-parser/blob/master/docs/supported_engines.md)
 
 - [Search Engine Parser](#search-engine-parser)
-  - [Supported Engines](#supported-engines)
+  - [Popular Supported Engines](#popular-supported-engines)
   - [Installation](#installation)
   - [Development](#development)
   - [Code Documentation](#code-documentation)
@@ -23,20 +26,19 @@ Package to query popular search engines and scrape for result titles, links and 
     - [Command line](#command-line)
   - [Code of Conduct](#code-of-conduct)
   - [Contribution](#contribution)
-  - [Bug Report](#bug-report)
-  - [Feature Request](#feature-request)
   - [License (MIT)](#license-mit)
 
-## Supported Engines
+## Popular Supported Engines
+
+Some of the popular search engines include:
 
 - Google
-- Yahoo
-- Bing
 - DuckDuckGo
-- AOL
-- Yandex
+- GitHub
 - StackOverflow
 - Baidu
+
+View all [supported engines](https://github.com/bisoncorps/search-engine-parser/blob/master/docs/supported_engines.md)
 
 ## Installation
 
@@ -164,17 +166,10 @@ optional arguments:
 
 All actions performed should adhere to the [code of conduct](https://github.com/bisoncorps/search-engine-parser/blob/master/CODE_OF_CONDUCT.md)
 
-## Bug Report
-
-For bug reports, follow the [template](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/ISSUE_TEMPLATE/bug_report.md) and create an issue on the [original repository](https://github.com/bisoncorps/search-engine-parser)
-
-## Feature Request
-
-For feature requests, follow the [template](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/ISSUE_TEMPLATE/feature_request.md) and create an issue on the [original repository](https://github.com/bisoncorps/search-engine-parser)
 
 ## Contribution
 
-Please follow the [contribution guide](#)
+Before making any contribution, please follow the [contribution guide](https://github.com/bisoncorps/search-engine-parser/blob/master/CONTRIBUTING.md)
 
 ## License (MIT)
 
