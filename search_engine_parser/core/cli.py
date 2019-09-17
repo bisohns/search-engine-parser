@@ -64,6 +64,8 @@ def main(args):
         engine_class = YandexSearch
     elif engine == 'stackoverflow':
         engine_class = StackOverflowSearch
+    elif engine == 'github':
+        engine_class = GitHubSearch
     else:
         sys.exit(f'Engine < {engine} > does not exist')
     

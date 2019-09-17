@@ -92,8 +92,8 @@ The engine modules are in the [search_engine_parser/core/engines/](https://githu
             engine_class = FakeEngineSearch
 ```
 
-* Make sure to write code documentation by following the [documentation guide](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/OTHERS/documentation.md#documenting-an-engine)
+* Make sure to write code documentation by following the [documentation guide](https://github.com/bisoncorps/search-engine-parser/blob/master/docs/documentation.md#documenting-an-engine)
 
-* [Generate the RST file](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/OTHERS/documentation.md#generating-the-files)
+* [Generate the RST file](https://github.com/bisoncorps/search-engine-parser/blob/master/docs/documentation.md#generating-the-files)
 
-* Add Engine to Supported Engines in [README](https://github.com/bisoncorps/search-engine-parser/blob/master/README.md##supported-engines)
+* Add Engine to Supported Engines in [supported engines](https://github.com/bisoncorps/search-engine-parser/blob/master/docs/supported_engines.md)

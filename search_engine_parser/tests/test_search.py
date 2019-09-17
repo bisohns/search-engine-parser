@@ -4,7 +4,7 @@
 
 from search_engine_parser.core import (
 	YahooSearch, GoogleSearch, BingSearch, DuckDuckGoSearch, AolSearch, YandexSearch,
-	StackOverflowSearch, BaiduSearch
+	StackOverflowSearch, BaiduSearch, GitHubSearch
 )
 from search_engine_parser.core.exceptions import NoResultsOrTrafficError 
 
@@ -59,3 +59,11 @@ def test_baidu_search():
 	engine = BaiduSearch()
 	results = engine.search(*search_args)
 	assert len(results['titles']) == 10
+
+def test_github_search():
+	engine = GitHubSearch()
+	try:
+		results = engine.search(*search_args)
+		assert len(results['titles']) == 10
+	except NoResultsOrTrafficError:
+		pass

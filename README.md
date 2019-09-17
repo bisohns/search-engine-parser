@@ -1,5 +1,7 @@
 # Search Engine Parser
 
+<span><i>"If it is a search engine, then it can be parsed"</i> - Some random guy</span>
+
 ![Demo](assets/animate.gif)
 
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
@@ -11,9 +13,10 @@
 <hr/>
 
 Package to query popular search engines and scrape for result titles, links and descriptions. Aims to scrape the widest range of search engines.
+View all [supported engines](https://github.com/bisoncorps/search-engine-parser/blob/master/docs/supported_engines.md)
 
 - [Search Engine Parser](#search-engine-parser)
-  - [Supported Engines](#supported-engines)
+  - [Popular Supported Engines](#popular-supported-engines)
   - [Installation](#installation)
   - [Development](#development)
   - [Code Documentation](#code-documentation)
@@ -25,16 +28,16 @@ Package to query popular search engines and scrape for result titles, links and 
   - [Contribution](#contribution)
   - [License (MIT)](#license-mit)
 
-## Supported Engines
+## Popular Supported Engines
+
+Some of the popular search engines include:
 
 - Google
-- Yahoo
-- Bing
 - DuckDuckGo
-- AOL
-- Yandex
+- GitHub
 - StackOverflow
-- Baidu
+
+View all [supported engines](https://github.com/bisoncorps/search-engine-parser/blob/master/docs/supported_engines.md)
 
 ## Installation
 

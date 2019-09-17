@@ -36,7 +36,7 @@ All Contributions to the code base or documentation must be done on a branch wit
 
 ##### **Engines**
 
-* Refer to the [SearchEngineParser Engines Documentation](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/OTHERS/engines.md) for help on implementing Engines
+* Refer to the [SearchEngineParser Engines Documentation](https://github.com/bisoncorps/search-engine-parser/blob/master/docs/engines.md) for help on implementing Engines
 
 * If an issue for the Engine does not already exist under [Issues], suggest the engine in the [search-engine-parser mailing list](https://groups.google.com/forum/?fromgroups#!forum/searchengineparser)
 
@@ -51,7 +51,7 @@ All Contributions to the code base or documentation must be done on a branch wit
 
 #### **Do you want to contribute to the search-engine-parser documentation?**
 
-* Please read [Contributing to the SearchEngineParser Documentation](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/OTHERS/documentation.md).
+* Please read [Contributing to the SearchEngineParser Documentation](https://github.com/bisoncorps/search-engine-parser/blob/master/docs/documentation.md).
 
 
 
