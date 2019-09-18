@@ -22,7 +22,7 @@
  """
 
 import sys, os
-from search_engine_parser.core import AolSearch, BingSearch, DuckDuckGoSearch, GoogleSearch, YahooSearch, YandexSearch, BaiduSearch
+from search_engine_parser.core import AolSearch, BingSearch, DuckDuckGoSearch, GoogleSearch, YahooSearch, YandexSearch, BaiduSearch, GitHubSearch
 
 name = "search-engine-parser"
 __version__ = "0.5.1"

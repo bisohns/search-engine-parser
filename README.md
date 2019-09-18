@@ -9,7 +9,7 @@
 [![Build Status](https://travis-ci.com/bisoncorps/search-engine-parser.svg?branch=master)](https://travis-ci.com/bisoncorps/search-engine-parser)
 [![Documentation Status](https://readthedocs.org/projects/search-engine-parser/badge/?version=latest)](https://search-engine-parser.readthedocs.io/en/latest/?badge=latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
 <hr/>
 
 Package to query popular search engines and scrape for result titles, links and descriptions. Aims to scrape the widest range of search engines.
@@ -186,6 +186,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://diretnandomnan.webnode.com"><img src="https://avatars3.githubusercontent.com/u/23453888?v=4" width="100px;" alt="Diretnan Domnan"/><br /><sub><b>Diretnan Domnan</b></sub></a><br /><a href="#infra-deven96" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/bisoncorps/search-engine-parser/commits?author=deven96" title="Tests">⚠️</a> <a href="#tool-deven96" title="Tools">🔧</a> <a href="https://github.com/bisoncorps/search-engine-parser/commits?author=deven96" title="Code">💻</a></td>
     <td align="center"><a href="http://mensaah.github.io"><img src="https://avatars3.githubusercontent.com/u/24734308?v=4" width="100px;" alt="MeNsaaH"/><br /><sub><b>MeNsaaH</b></sub></a><br /><a href="#infra-MeNsaaH" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/bisoncorps/search-engine-parser/commits?author=MeNsaaH" title="Tests">⚠️</a> <a href="#tool-MeNsaaH" title="Tools">🔧</a> <a href="https://github.com/bisoncorps/search-engine-parser/commits?author=MeNsaaH" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/PalAditya"><img src="https://avatars2.githubusercontent.com/u/25523604?v=4" width="100px;" alt="Aditya Pal"/><br /><sub><b>Aditya Pal</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/commits?author=PalAditya" title="Tests">⚠️</a> <a href="https://github.com/bisoncorps/search-engine-parser/commits?author=PalAditya" title="Code">💻</a></td>
+    <td align="center"><a href="http://energized.pro"><img src="https://avatars1.githubusercontent.com/u/27774996?v=4" width="100px;" alt="Avinash Reddy"/><br /><sub><b>Avinash Reddy</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/issues?q=author%3AAvinashReddy3108" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
