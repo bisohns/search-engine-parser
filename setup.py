@@ -2,7 +2,7 @@ import os
 import sys
 import setuptools
 from setuptools.command.install import install
-from _version import VERSION
+from search_engine_parser import __version__ as VERSION
 
 CURRENT_DIR = os.getcwd()
 REQUIREMENTS = 'requirements.txt'
@@ -10,7 +10,6 @@ requires = [line.strip('\n') for line in open(REQUIREMENTS).readlines()]
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
-
 
 setuptools.setup(
     name="search-engine-parser",
@@ -31,7 +30,10 @@ setuptools.setup(
         google \
         yahoo \
         bing \
-        yandex',
+        yandex \
+        stackoverflow \
+        github \
+        baidu ' ,
     entry_points={
                     'console_scripts': 
                     [
