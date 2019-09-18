@@ -47,6 +47,15 @@
         "test",
         "code"
       ]
+    },
+    {
+      "login": "AvinashReddy3108",
+      "name": "Avinash Reddy",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/27774996?v=4",
+      "profile": "http://energized.pro",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
