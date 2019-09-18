@@ -14,7 +14,6 @@ class BingSearch(BaseSearch):
             " an alternative to Google.\n\tTheir search engine market share is constantly below "\
             "10%, even though Bing is the default search engine on Windows PCs."
 
-
     def parse_soup(self, soup):
         """
         Parses Bing for a search query.
@@ -38,7 +37,6 @@ class BingSearch(BaseSearch):
         ''' Get the text and link '''
         title = link_tag.text
 
-        # raw link is of format "/url?q=REAL-LINK&sa=..."
         link = link_tag.get('href')
 
         desc = desc.text

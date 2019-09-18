@@ -11,7 +11,7 @@ class GoogleSearch(BaseSearch):
     Searches Google for string
     """
     name = "Google"
-    search_url = "https://www.google.com/search?q={query}&start={page}"
+    search_url = "https://www.google.com/search?client=ubuntu&q={query}&num=10&start={page}"
     summary = "\tNo need for further introductions. The search engine giant holds the first "\
             "place in search with a stunning difference of 65% from second in place Bing.\n"\
             "\tAccording to the latest netmarketshare report (November 2018) 73% of searches "\
@@ -40,8 +40,9 @@ class GoogleSearch(BaseSearch):
         desc = single_result.find('span', class_='st')
         ''' Get the text and link '''
         title = h3.text
+        if not title:
+            title = h3.find('div', class_='ellip').text
 
-        # raw link is of format "/url?q=REAL-LINK&sa=..."
         raw_link = link_tag.get('href')
 
         desc = desc.text

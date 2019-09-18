@@ -37,10 +37,9 @@ class YahooSearch(BaseSearch):
         h3 = single_result.find('h3', class_='title')
         link_tag = h3.find('a')
         desc = single_result.find('p', class_='lh-16')
-        ''' Get the text and link '''
+        
         title = h3.text
 
-        # raw link is of format "/url?q=REAL-LINK&sa=..."
         link = link_tag.get('href')
 
         desc = desc.text

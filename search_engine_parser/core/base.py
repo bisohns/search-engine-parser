@@ -4,6 +4,7 @@
 
 from abc import ABCMeta, abstractmethod
 import requests
+import random
 from bs4 import BeautifulSoup
 
 from search_engine_parser.core.exceptions import NoResultsOrTrafficError
@@ -88,10 +89,18 @@ class BaseSearch(object):
         """
         # headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:20.0) Gecko/20100101 Firefox/20.0'}
         # prevent caching
+        user_agent_list = [
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0",
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36",
+            "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100 101 Firefox/22.0",
+            "Mozilla/5.0 (Windows NT 6.1; rv:11.0) Gecko/20100101 Firefox/11.0",
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.46 Safari/536.5",
+            "Mozilla/5.0 (Windows; Windows NT 6.1) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.46 Safari/536.5",
+            ]
         headers = {
             "Cache-Control": 'no-cache',
             "Connection": "keep-alive",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+            "User-Agent": random.choice(user_agent_list),
         }
         try:
             response = requests.get(url, headers=headers)
@@ -131,12 +140,11 @@ class BaseSearch(object):
 
         # Get search Page Results
         soup = self.get_soup(self.get_search_url(parsed_query, page))
-
         results = self.parse_soup(soup)
         # TODO Check if empty results is caused by traffic or answers to query were not found
         if not results:
             raise NoResultsOrTrafficError(
-                "The result parsing was unsuccessful. It is either your query could not be found"
+                "The result parsing was unsuccessful. It is either your query could not be found"+
                 " or it was flagged as unusual traffic")
         search_results = self.parse_result(results)
         return search_results 
