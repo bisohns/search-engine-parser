@@ -11,6 +11,7 @@ from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 search_args = ('preaching to the choir', 2)
 
 
+
 def test_yahoo_search():
 	engine = YahooSearch()
 	results = engine.search(*search_args)

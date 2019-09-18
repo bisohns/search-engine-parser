@@ -11,7 +11,6 @@ requires = [line.strip('\n') for line in open(REQUIREMENTS).readlines()]
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-
 setuptools.setup(
     name="search-engine-parser",
     version=VERSION,
@@ -31,7 +30,10 @@ setuptools.setup(
         google \
         yahoo \
         bing \
-        yandex',
+        yandex \
+        stackoverflow \
+        github \
+        baidu ' ,
     entry_points={
                     'console_scripts': 
                     [
