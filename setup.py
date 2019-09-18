@@ -2,7 +2,7 @@ import os
 import sys
 import setuptools
 from setuptools.command.install import install
-from _version import VERSION
+from search_engine_parser import __version__ as VERSION
 
 CURRENT_DIR = os.getcwd()
 REQUIREMENTS = 'requirements.txt'
