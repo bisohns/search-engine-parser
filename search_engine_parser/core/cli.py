@@ -64,6 +64,8 @@ def main(args):
         engine_class = StackOverflowSearch
     elif engine == 'github':
         engine_class = GitHubSearch
+    elif engine == 'youtube':
+        engine_class = YouTubeSearch
     else:
         sys.exit(f'Engine < {engine} > does not exist')
     

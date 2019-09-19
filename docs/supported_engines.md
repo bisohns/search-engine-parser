@@ -52,4 +52,9 @@ Below is the list of supported engines with their summaries
 <td>GitHub</td>
 <td>GitHub is an American company that provides hosting for software development version control using Git. It is a subsidiary of Microsoft, which acquired the company in 2018 for $7.5 billion. It offers all of the distributed version control and source code management (SCM) functionality of Git as well as adding its own features. As of May 2019, GitHub reports having over 37 million users and more than 100 million repositories (including at least 28 million public repositories), making it the largest host of source code in the world.</td>
 </tr>
+
+<tr>
+<td>YouTube</td>
+<td>YouTube is an American video-sharing website headquartered in San Bruno, California. Three former PayPal employees—Chad Hurley, Steve Chen, and Jawed Karim—created the service in February 2005. Google bought the site in November 2006 for US$1.65 billion; YouTube now operates as one of Google's subsidiaries. As of May 2019, more than 500 hours of video content are uploaded to YouTube every minute.</td>
+</tr>
 </table>

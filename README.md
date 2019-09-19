@@ -36,6 +36,7 @@ Some of the popular search engines include:
 - DuckDuckGo
 - GitHub
 - StackOverflow
+- YouTube
 
 View all [supported engines](https://github.com/bisoncorps/search-engine-parser/blob/master/docs/supported_engines.md)
 
