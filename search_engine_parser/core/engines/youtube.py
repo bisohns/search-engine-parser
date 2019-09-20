@@ -44,8 +44,10 @@ class YouTubeSearch(BaseSearch):
         views_and_upload_date = ul.find_all('li')
         upload_date = views_and_upload_date[0].text
         views = views_and_upload_date[1].text
-        
 
-        desc = "Views-{views} \tUploaded-{upload_date}\n{desc_text}".format(views, upload_date, desc_text)
-        title = "{title} \n\tChannel-{channel_name}\t{duration}".format(title, channel_name, duration)
+        try:
+            desc = "{} \tUploaded-{} \t{} \n{}".format(views, upload_date, duration, desc_text)
+        except:
+            desc = "[Playlist] \n{}".format(desc_text)
+        title = "{} \n\tChannel - {}".format(title, channel_name)
         return title, link, desc
