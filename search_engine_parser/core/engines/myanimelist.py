@@ -5,7 +5,6 @@
 from search_engine_parser.core.base import BaseSearch
 from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 import math
-import sys
 import re
 
 class MyAnimeListSearch(BaseSearch):
