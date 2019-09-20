@@ -1,14 +1,14 @@
 language: python
 python:
+  - "3.5"
   - "3.6"
+  - "3.7"
+  - "3.8-dev"
 
-# Branches to enbale CI.
-branches:
-  only:
-    - master
 
 # Command to install dependencies.
 install:
+  - pip install tox tox-travis tox-venv
   - pip install -r requirements-dev.txt
 
 # Build script (If successfully built - no errors)
@@ -23,7 +23,8 @@ deploy:
   provider: pypi
   user: "deven96"
   password: $PYPI_PASSWORD
-  all_branches: true
+  on:
+    branch: master
   condition: $TRAVIS_TAG =~ ^v[0-9]+\.[0-9]+\.[0-9]+
   skip_existing: true
 
