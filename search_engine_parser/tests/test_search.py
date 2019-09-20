@@ -4,7 +4,7 @@
 
 from search_engine_parser.core import (
 	YahooSearch, GoogleSearch, BingSearch, DuckDuckGoSearch, AolSearch, YandexSearch,
-	StackOverflowSearch, BaiduSearch, GitHubSearch
+	StackOverflowSearch, BaiduSearch, GitHubSearch, YouTubeSearch
 )
 from search_engine_parser.core.exceptions import NoResultsOrTrafficError 
 
@@ -65,5 +65,13 @@ def test_github_search():
 	try:
 		results = engine.search(*search_args)
 		assert len(results['titles']) == 10
+	except NoResultsOrTrafficError:
+		pass
+
+def test_youtube_search():
+	engine = YouTubeSearch()
+	try:
+		results = engine.search(*search_args)
+		assert len(results['titles']) >= 10
 	except NoResultsOrTrafficError:
 		pass

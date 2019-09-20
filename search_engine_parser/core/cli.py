@@ -1,7 +1,6 @@
 """@desc 
 		Making use of the parser through cli
  """
-
 from __future__ import print_function
 import argparse
 import sys
@@ -14,7 +13,6 @@ from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 def display(results, term, **args):
     """ Displays search results 
     """
-
     def print_one(title, link, desc):
         """ Print one result to the console """
         # Header
@@ -66,6 +64,12 @@ def main(args):
         engine_class = StackOverflowSearch
     elif engine == 'github':
         engine_class = GitHubSearch
+    elif engine == 'youtube':
+        engine_class = YouTubeSearch
+    elif engine == 'baidu':
+        engine_class = BaiduSearch
+    elif engine == 'aol':
+        engine_class = AolSearch
     else:
         sys.exit(f'Engine < {engine} > does not exist')
     

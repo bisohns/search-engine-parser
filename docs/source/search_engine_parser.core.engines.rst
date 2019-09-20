@@ -76,6 +76,14 @@ search\_engine\_parser.core.engines.yandex module
    :undoc-members:
    :show-inheritance:
 
+search\_engine\_parser.core.engines.youtube module
+--------------------------------------------------
+
+.. automodule:: search_engine_parser.core.engines.youtube
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 
 Module contents
 ---------------
