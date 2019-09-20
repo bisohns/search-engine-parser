@@ -46,6 +46,6 @@ class YouTubeSearch(BaseSearch):
         views = views_and_upload_date[1].text
         
 
-        desc = f"Views-{views} \tUploaded-{upload_date}\n{desc_text}"
-        title = f"{title} \n\tChannel-{channel_name}\t{duration}"
+        desc = "Views-{views} \tUploaded-{upload_date}\n{desc_text}".format(views, upload_date, desc_text)
+        title = "{title} \n\tChannel-{channel_name}\t{duration}".format(title, channel_name, duration)
         return title, link, desc

@@ -128,6 +128,18 @@ class BaseSearch(object):
         offset = (page * 10) - 9
         return  self.search_url.format(query=query, page=page, offset=offset) 
 
+    def get_results(self, soup):
+        """ Get results from soup"""
+
+        results = self.parse_soup(soup)
+        # TODO Check if empty results is caused by traffic or answers to query were not found
+        if not results:
+            raise NoResultsOrTrafficError(
+                "The result parsing was unsuccessful. It is either your query could not be found"+
+                " or it was flagged as unusual traffic")
+        search_results = self.parse_result(results)
+        return search_results 
+
     def search(self, query=None, page=None):
         """ 
         Query the search engine
@@ -144,14 +156,7 @@ class BaseSearch(object):
         loop = asyncio.get_event_loop()
         soup = loop.run_until_complete(self.get_soup(self.get_search_url(parsed_query, page)))
 
-        results = self.parse_soup(soup)
-        # TODO Check if empty results is caused by traffic or answers to query were not found
-        if not results:
-            raise NoResultsOrTrafficError(
-                "The result parsing was unsuccessful. It is either your query could not be found"+
-                " or it was flagged as unusual traffic")
-        search_results = self.parse_result(results)
-        return search_results 
+        return self.get_results(soup)
     
     async def async_search(self, query=None, page=None, callback=None):
         """ 
@@ -165,5 +170,6 @@ class BaseSearch(object):
         :type page: function
         :return: dictionary. Containing titles, links, netlocs and descriptions.
         """
-        pass
-
+        parsed_query = self.parse_query(query)
+        soup = await self.get_soup(self.get_search_url(parsed_query, page))
+        return self.get_results(soup)

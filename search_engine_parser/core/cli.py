@@ -66,6 +66,10 @@ def main(args):
         engine_class = GitHubSearch
     elif engine == 'youtube':
         engine_class = YouTubeSearch
+    elif engine == 'baidu':
+        engine_class = BaiduSearch
+    elif engine == 'aol':
+        engine_class = AolSearch
     else:
         sys.exit(f'Engine < {engine} > does not exist')
     
