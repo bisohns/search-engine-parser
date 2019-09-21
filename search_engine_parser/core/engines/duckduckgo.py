@@ -10,6 +10,7 @@ class DuckDuckGoSearch(BaseSearch):
     Searches DuckDuckGo for string
     """
     name = "DuckDuckGo"
+    base_url = "https://www.duckduckgo.com"
     search_url = "https://www.duckduckgo.com/html/?q={query}"
     summary = "\tHas a number of advantages over the other search engines. \n\tIt has a clean "\
             "interface, it does not track users, it is not fully loaded with ads and has a number "\
@@ -34,14 +35,14 @@ class DuckDuckGoSearch(BaseSearch):
         :rtype: dict
         """
         h2 = single_result.find('h2', class_="result__title")
-        link_tag = h2.find('a', class_="result__a")
+        link_tag = single_result.find('a', class_="result__url")
         desc = single_result.find(class_='result__snippet')
 
         #Get the text and link
-        title = link_tag.text
+        title = h2.text.strip()
 
         # raw link is of format "/url?q=REAL-LINK&sa=..."
-        link = link_tag.get('href')
+        link = self.base_url + link_tag.get('href')
 
         desc = desc.text
         rdict = { 
