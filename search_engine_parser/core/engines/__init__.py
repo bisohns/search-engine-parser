@@ -7,3 +7,4 @@ from .yandex import YandexSearch
 from .stackoverflow import StackOverflowSearch
 from .baidu import BaiduSearch
 from .github import GitHubSearch
+from .ask import AskSearch

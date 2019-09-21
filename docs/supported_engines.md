@@ -52,4 +52,9 @@ Below is the list of supported engines with their summaries
 <td>GitHub</td>
 <td>GitHub is an American company that provides hosting for software development version control using Git. It is a subsidiary of Microsoft, which acquired the company in 2018 for $7.5 billion. It offers all of the distributed version control and source code management (SCM) functionality of Git as well as adding its own features. As of May 2019, GitHub reports having over 37 million users and more than 100 million repositories (including at least 28 million public repositories), making it the largest host of source code in the world.</td>
 </tr>
+<tr>
+<td>Ask</td>
+<td>Formerly known as Ask Jeeves, Ask.com receives approximately 0.42% of the search share. ASK is based on a question/answer format where most questions are answered by other users or are in the form of polls. It also has the general search functionality but the results returned lack quality compared to Google or even Bing and Yahoo.
+</td>
+</tr>
 </table>
