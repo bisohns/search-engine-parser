@@ -47,26 +47,22 @@ class BaseSearch(object):
 
         :param results: Result of main search to extract individual results
         :type results: list[`bs4.element.ResultSet`]
-        :returns: dictionary. Containing titles, links and descriptions.
+        :returns: dictionary. Containing lists of titles, links, descriptions and other possible returns.
         :rtype: dict
         """
-        titles = []
-        links = []
-        descs = []
+        search_results = dict()
         for each in results:
-            title = link = desc = " "
             try:
-                title, link, desc = self.parse_single_result(each)
-                # Append links and text to a list
-                titles.append(title)
-                links.append(link)
-                descs.append(desc)
+                rdict = self.parse_single_result(each)
+                # Create a list for all keys in rdict if not exist, else
+                for key in rdict.keys():
+                    if key not in search_results.keys():
+                        search_results[key] = list([rdict[key]])
+                    else:
+                        search_results[key].append(rdict[key])
             except Exception:
                 # print(e)
                 pass
-        search_results = {'titles': titles,
-                          'links': links,
-                          'descriptions': descs}
         return search_results
     
     @staticmethod

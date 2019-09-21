@@ -30,7 +30,7 @@ class GitHubSearch(BaseSearch):
         :param single_result: single result found in <li class="repo-list-item">
         :type single_result: `bs4.element.ResultSet`
         :return: parsed title, link and description of single result
-        :rtype: str, str, str
+        :rtype: dict
         """
         h3 = single_result.find('h3')
         link_tag = h3.find('a')
@@ -47,5 +47,13 @@ class GitHubSearch(BaseSearch):
 
         desc = desc.text
         title = "{title}\t {lang}\t Stars-{stars}".format(title=title, lang=lang, stars=stars)
-        return title, link, desc
+        rdict = { 
+                "titles": title, 
+                "links": link, 
+                "descriptions": desc,
+                "stars": stars,
+                "languages": lang,
+                }
+        return rdict
+
 

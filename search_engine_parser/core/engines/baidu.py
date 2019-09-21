@@ -47,7 +47,7 @@ class BaiduSearch(BaseSearch):
 		:param single_result: single result found in div with a numeric id
 		:type single_result: `bs4.element.Tag`
 		:return: parsed title, link and description of single result
-		:rtype: str, str, str
+		:rtype: dict
 		"""
 		
 		h3 = single_result.find('h3')
@@ -55,9 +55,16 @@ class BaiduSearch(BaseSearch):
 			
 		''' Get the text and link '''
 			
-		title = single_result.find('h3').text
+		title = h3.text
 		link = link_tag.get('href')
 			
 		desc = single_result.find('div',class_='c-abstract').text
-		
-		return title, link, desc
+		rdict = dict()
+		if title and link and desc:
+			rdict = { 
+				"titles": title, 
+                "links": link, 
+                "descriptions": desc,
+                }
+		return rdict
+

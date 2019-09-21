@@ -29,7 +29,7 @@ class StackOverflowSearch(BaseSearch):
         :param single_result: single result found in <div class="summary">
         :type single_result: `bs4.element.ResultSet`
         :return: parsed title, link and description of single result
-        :rtype: str, str, str
+        :rtype: dict
         """
         h3 = single_result.find('h3')
         link_tag = h3.find('a')
@@ -41,4 +41,10 @@ class StackOverflowSearch(BaseSearch):
         link = self.base_url + ref_link
 
         desc = caption.text
-        return title, link, desc
+        rdict = { 
+                "titles": title, 
+                "links": link, 
+                "descriptions": desc, 
+                }
+        return rdict
+

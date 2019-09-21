@@ -32,7 +32,7 @@ class GoogleSearch(BaseSearch):
         :param single_result: single result found in <div class="g">
         :type single_result: `bs4.element.ResultSet`
         :return: parsed title, link and description of single result
-        :rtype: str, str, str
+        :rtype: dict
         """
         r = single_result.find('div', class_='r')
         link_tag = r.find('a')
@@ -46,5 +46,11 @@ class GoogleSearch(BaseSearch):
         raw_link = link_tag.get('href')
 
         desc = desc.text
-        return title, raw_link, desc
+        rdict = { 
+                "titles": title, 
+                "links": raw_link, 
+                "descriptions": desc, 
+                }
+        return rdict
+
 

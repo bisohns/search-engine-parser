@@ -29,7 +29,7 @@ class AolSearch(BaseSearch):
         :param single_result: single result found in <div class="algo-sr">
         :type single_result: `bs4.element.ResultSet`
         :return: parsed title, link and description of single result
-        :rtype: str, str, str
+        :rtype: dict
         """
         h3 = single_result.find('h3')
         link_tag = h3.find('a')
@@ -41,4 +41,11 @@ class AolSearch(BaseSearch):
         link = link_tag.get('href')
 
         desc = desc.text
-        return title, link, desc
+        rdict = dict()
+        if title and link and desc:
+            rdict = { 
+                "titles": title, 
+                "links": link, 
+                "descriptions": desc,
+                }
+        return rdict

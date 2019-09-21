@@ -31,7 +31,7 @@ class DuckDuckGoSearch(BaseSearch):
         :param single_result: single result found in <div id="r1-{id}">
         :type single_result: `bs4.element.ResultSet`
         :return: parsed title, link and description of single result
-        :rtype: str, str, str
+        :rtype: dict
         """
         h2 = single_result.find('h2', class_="result__title")
         link_tag = h2.find('a', class_="result__a")
@@ -44,5 +44,11 @@ class DuckDuckGoSearch(BaseSearch):
         link = link_tag.get('href')
 
         desc = desc.text
-        return title, link, desc
+        rdict = { 
+                "titles": title, 
+                "links": link, 
+                "descriptions": desc, 
+                }
+        return rdict
+
 

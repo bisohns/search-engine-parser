@@ -28,7 +28,7 @@ class BingSearch(BaseSearch):
         :param single_result: single result found in <li class="b_algo">
         :type single_result: `bs4.element.ResultSet`
         :return: parsed title, link and description of single result
-        :rtype: str, str, str
+        :rtype: dict
         """
         h2 = single_result.find('h2')
         link_tag = h2.find('a')
@@ -40,5 +40,11 @@ class BingSearch(BaseSearch):
         link = link_tag.get('href')
 
         desc = desc.text
-        return title, link, desc
+        rdict = { 
+                "titles": title, 
+                "links": link, 
+                "descriptions": desc, 
+                }
+        return rdict
+
 
