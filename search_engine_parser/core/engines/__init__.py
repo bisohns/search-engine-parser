@@ -8,3 +8,4 @@ from .stackoverflow import StackOverflowSearch
 from .baidu import BaiduSearch
 from .github import GitHubSearch
 from .youtube import YouTubeSearch
+from .myanimelist import MyAnimeListSearch

@@ -4,9 +4,10 @@
 
 from search_engine_parser.core import (
 	YahooSearch, GoogleSearch, BingSearch, DuckDuckGoSearch, AolSearch, YandexSearch,
-	StackOverflowSearch, BaiduSearch, GitHubSearch, YouTubeSearch
+	StackOverflowSearch, BaiduSearch, GitHubSearch, YouTubeSearch, MyAnimeListSearch
 )
-from search_engine_parser.core.exceptions import NoResultsOrTrafficError 
+from search_engine_parser.core.exceptions import NoResultsOrTrafficError
+import pytest
 
 search_args = ('preaching to the choir', 2)
 
@@ -75,3 +76,14 @@ def test_youtube_search():
 		assert len(results['titles']) >= 10
 	except NoResultsOrTrafficError:
 		pass
+
+def test_myanimelist_search_success():
+	search_args = ("action" , 2)
+	engine = MyAnimeListSearch()
+	results = engine.search(*search_args)
+	assert len(results['titles']) >= 10
+
+def test_myanimelist_search_fail():
+	with pytest.raises(NoResultsOrTrafficError):
+		engine = MyAnimeListSearch()
+		results = engine.search(*search_args)

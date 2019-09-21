@@ -57,4 +57,9 @@ Below is the list of supported engines with their summaries
 <td>YouTube</td>
 <td>YouTube is an American video-sharing website headquartered in San Bruno, California. Three former PayPal employees—Chad Hurley, Steve Chen, and Jawed Karim—created the service in February 2005. Google bought the site in November 2006 for US$1.65 billion; YouTube now operates as one of Google's subsidiaries. As of May 2019, more than 500 hours of video content are uploaded to YouTube every minute.</td>
 </tr>
+
+<tr>
+<td>MyAnimeList</td>
+<td>MyAnimeList, often abbreviated as MAL, is an anime and manga social networking and social cataloging application website. The site provides its users with a list-like system to organize and score anime and manga. It facilitates finding users who share similar tastes and provides a large database on anime and manga. The site claims to have 4.4 million anime and 775,000 manga entries. In 2015, the site received over 120 million visitors a month.</td>
+</tr>
 </table>
