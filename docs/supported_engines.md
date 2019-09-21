@@ -56,5 +56,9 @@ Below is the list of supported engines with their summaries
 <td>Ask</td>
 <td>Formerly known as Ask Jeeves, Ask.com receives approximately 0.42% of the search share. ASK is based on a question/answer format where most questions are answered by other users or are in the form of polls. It also has the general search functionality but the results returned lack quality compared to Google or even Bing and Yahoo.
 </td>
+
+<tr>
+<td>YouTube</td>
+<td>YouTube is an American video-sharing website headquartered in San Bruno, California. Three former PayPal employees—Chad Hurley, Steve Chen, and Jawed Karim—created the service in February 2005. Google bought the site in November 2006 for US$1.65 billion; YouTube now operates as one of Google's subsidiaries. As of May 2019, more than 500 hours of video content are uploaded to YouTube every minute.</td>
 </tr>
 </table>

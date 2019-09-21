@@ -36,6 +36,7 @@ Some of the popular search engines include:
 - DuckDuckGo
 - GitHub
 - StackOverflow
+- YouTube
 
 View all [supported engines](https://github.com/bisoncorps/search-engine-parser/blob/master/docs/supported_engines.md)
 
@@ -107,10 +108,10 @@ Query Results can be scraped from popular search engines as shown in the example
 
 ### Command line
 
-Use python module runner to run the parser on the command line e.g
+Search engine parser comes with a CLI tool known as `pysearch` e.g
 
 ```bash
-python -m search_engine_parser.core.cli --engine bing search --query "Preaching to the choir" --type descriptions
+pysearch --engine bing search --query "Preaching to the choir" --type descriptions
 ```
 
 Result
@@ -121,7 +122,7 @@ Result
 
 ![Demo](assets/example.gif)
 
-There is a needed argument for the CLI i.e `-e Engine` and two subcommands in the CLI i.e `search` and `summary`
+There is a needed argument for the CLI i.e `-e Engine` followed by either of two subcommands in the CLI i.e `search` and `summary`
 
 ```bash
 
@@ -142,14 +143,14 @@ optional arguments:
 `summary` just shows the summary of each search engine added with descriptions on the return
 
 ```bash
-python -m search_engine_parser.core.cli --engine google summary 
+pysearch --engine google summary 
 ```
 
 Full arguments for the `search` subcommand shown below
 
 ```bash
 
-usage: cli.py search [-h] -q QUERY [-p PAGE] [-t TYPE] [-r RANK]
+usage: pysearch search [-h] -q QUERY [-p PAGE] [-t TYPE] [-r RANK]
 
 optional arguments:
   -h, --help            show this help message and exit

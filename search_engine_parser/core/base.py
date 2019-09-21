@@ -3,8 +3,9 @@
 """
 
 from abc import ABCMeta, abstractmethod
-import requests
 import random
+import asyncio
+import aiohttp
 from bs4 import BeautifulSoup
 
 from search_engine_parser.core.exceptions import NoResultsOrTrafficError
@@ -60,8 +61,9 @@ class BaseSearch(object):
                 titles.append(title)
                 links.append(link)
                 descs.append(desc)
-            except Exception as e:
-                print(e)
+            except Exception:
+                # print(e)
+                pass
         search_results = {'titles': titles,
                           'links': links,
                           'descriptions': descs}
@@ -79,7 +81,7 @@ class BaseSearch(object):
         return query.replace(" ", "%20")
     
     @staticmethod
-    def getSource(url):
+    async def getSource(url):
         """
         Returns the source code of a webpage.
 
@@ -103,19 +105,20 @@ class BaseSearch(object):
             "User-Agent": random.choice(user_agent_list),
         }
         try:
-            response = requests.get(url, headers=headers)
-            html = response.text
+            async with aiohttp.ClientSession() as session:
+                async with session.get(url, headers=headers) as resp:
+                    html =  await resp.text()
         except Exception as e:
             raise Exception('ERROR: {}\n'.format(e))
         return str(html)
 
-    def get_soup(self, url):
+    async def get_soup(self, url):
         """
         Get the html soup of a query
 
         :rtype: `bs4.element.ResultSet`
         """
-        html = self.getSource(url)
+        html = await self.getSource(url)
         return BeautifulSoup(html, 'lxml')
 
     def get_search_url(self, query=None, page=None):
@@ -125,6 +128,18 @@ class BaseSearch(object):
         # Some URLs use offsets
         offset = (page * 10) - 9
         return  self.search_url.format(query=query, page=page, offset=offset) 
+
+    def get_results(self, soup):
+        """ Get results from soup"""
+
+        results = self.parse_soup(soup)
+        # TODO Check if empty results is caused by traffic or answers to query were not found
+        if not results:
+            raise NoResultsOrTrafficError(
+                "The result parsing was unsuccessful. It is either your query could not be found"+
+                " or it was flagged as unusual traffic")
+        search_results = self.parse_result(results)
+        return search_results 
 
     def search(self, query=None, page=None):
         """ 
@@ -139,13 +154,23 @@ class BaseSearch(object):
         parsed_query = self.parse_query(query)
 
         # Get search Page Results
-        soup = self.get_soup(self.get_search_url(parsed_query, page))
-        results = self.parse_soup(soup)
-        # TODO Check if empty results is caused by traffic or answers to query were not found
-        if not results:
-            raise NoResultsOrTrafficError(
-                "The result parsing was unsuccessful. It is either your query could not be found"+
-                " or it was flagged as unusual traffic")
-        search_results = self.parse_result(results)
-        return search_results 
+        loop = asyncio.get_event_loop()
+        soup = loop.run_until_complete(self.get_soup(self.get_search_url(parsed_query, page)))
 
+        return self.get_results(soup)
+    
+    async def async_search(self, query=None, page=None, callback=None):
+        """ 
+        Query the search engine but in async mode
+
+        :param query: the query to search for 
+        :type query: str
+        :param page: Page to be displayed, defaults to 1
+        :type page: int
+        :param callback: The callback function to execute when results are returned
+        :type page: function
+        :return: dictionary. Containing titles, links, netlocs and descriptions.
+        """
+        parsed_query = self.parse_query(query)
+        soup = await self.get_soup(self.get_search_url(parsed_query, page))
+        return self.get_results(soup)
