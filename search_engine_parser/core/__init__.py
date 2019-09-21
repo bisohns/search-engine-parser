@@ -12,5 +12,6 @@ from search_engine_parser.core.engines import ( YahooSearch,
                                                 BaiduSearch,
                                                 GitHubSearch,
                                                 AskSearch,
-                                                YouTubeSearch
+                                                YouTubeSearch,
+                                                MyAnimeListSearch
 )

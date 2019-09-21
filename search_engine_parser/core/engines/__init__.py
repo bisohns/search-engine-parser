@@ -9,3 +9,4 @@ from .baidu import BaiduSearch
 from .github import GitHubSearch
 from .ask import AskSearch
 from .youtube import YouTubeSearch
+from .myanimelist import MyAnimeListSearch
