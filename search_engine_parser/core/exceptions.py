@@ -1,6 +1,7 @@
 """@desc
-    Exceptions 
+    Exceptions
 """
+
 
 class NoResultsFound(Exception):
     pass
