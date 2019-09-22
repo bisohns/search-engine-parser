@@ -42,6 +42,11 @@ class AskSearch(BaseSearch):
         title = single_result.find('a').text
         link = single_result.a["href"]
         desc = single_result.find('p', class_ = "PartialSearchResults-item-abstract").text
-        
-        return title, link, desc
-
+	
+        search_results = {
+            "titles": title,
+            "links": link,
+            "descriptions": desc,
+        }
+	
+        return search_results
