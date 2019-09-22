@@ -3,9 +3,17 @@
 """
 
 from search_engine_parser.core.base import BaseSearch
-from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 import math
 import re
+
+"""MAL has lots of extra \n,\r etc. Need to remove them"""
+def style_format(text):
+	
+	text = re.sub("\n+","",text)
+	text = re.sub("\r+","",text)
+	text = re.sub(" +"," ",text)
+	text = text.strip()
+	return text
 
 class MyAnimeListSearch(BaseSearch):
 	"""
@@ -13,7 +21,7 @@ class MyAnimeListSearch(BaseSearch):
 	"""
 	name = "MyAnimeList"
 
-	search_url = "https://myanimelist.net/anime/genre/{index}/{query}?page={offset}"
+	search_url = "https://myanimelist.net/anime.php?q={query}&show={offset}"
 	summary = "\tMyAnimeList, often abbreviated as MAL, is an anime and manga social"\
 				"networking and social cataloging application website."\
 				"\n\tThe site provides its users with a list-like system to organize"\
@@ -27,32 +35,14 @@ class MyAnimeListSearch(BaseSearch):
 	def get_search_url(self, query=None, page=None):
 		""" 
 		Return a formatted search url.
-		In MAL, results 1 to 100 are in page 1, 101-200 in page 2, etc, so modify URL accordingly.
-		Also, the genre map helps in transformations such as action->1, adventure->2, and so on.
+		In MAL, results 1 to 50 are in page 1, 51-100 in page 2, etc, so modify URL accordingly.
 		"""
 		
-		genre_map = ["action","adventure","cars","comedy","dementia",
-				"demons","drama","ecchi","fantasy","game",
-				"harem","hentai","historical","horror","josei",
-				"kids","magic","martial arts","mecha","military",
-				"music","mystery","parody","police","psychological",
-				"romance","samurai","school","sci-fi","seinen",
-				"shoujo","shoujo ai","shounen","shounen ai","slice of life",
-				"space","sports","super power","supernatural","thriller",
-				"vampire","yaoi","yuri"]
+		offset = (math.ceil(page/5) - 1) * 50
 		
-		offset = math.ceil(page/10)
-		query = query.lower()
-		self.page = page
-		try:
-			index = genre_map.index(query) + 1 #Genres start from 1 in MAL
-		except ValueError:
-			index = -1
-		if index == -1:
-			raise NoResultsOrTrafficError(
-				"The result parsing was unsuccessful. It is either your query could not be found"+
-				" or it was flagged as unusual traffic")
-		return self.search_url.format(query=query, page=page, index=index, offset=offset)
+		"""Save this value so that we can return 10 results"""
+		self.page = (page - 1) % 5 
+		return self.search_url.format(query=query, offset=offset)
 	
 	
 	def parse_soup(self, soup):
@@ -60,12 +50,10 @@ class MyAnimeListSearch(BaseSearch):
 		Parses MyAnimeList for a search query
 		"""
 		
-		"""MyAnimeList search can be made deterministic via an id.
-		Hence, a regex is used to match all eligible ids
-		"""
+		"""The data is stored in table so find all table rows"""
+		return soup.find('div',class_='js-categories-seasonal js-block-list list').find_all('tr')
 
-		return soup.find_all('div', class_="seasonal-anime js-seasonal-anime")
-
+	
 	def parse_single_result(self, single_result):
 		"""
 		Parses the source code to return
@@ -76,52 +64,57 @@ class MyAnimeListSearch(BaseSearch):
 		:rtype: str, str, str
 		"""
 		
-		h3 = single_result.find('p',class_="title-text")
-		link_tag = single_result.find('a')
-			
-		''' Get the text and link '''
-			
-		title = h3.text
-		title = re.sub("\n+","",title)
-		link = link_tag.get('href')
-			
-		desc = single_result.find('div',class_='synopsis').text
-		desc = re.sub("\r+","",desc)
-		desc = re.sub("\n+","",desc)
+		data = list(single_result.find_all('td'))
 		
-		return title, link, desc
+		title = style_format(data[1].find('strong').text)
+		
+		link_tag = data[1].find('a')
+		link = link_tag.get('href')
+		
+		desc = style_format(data[1].find('div',class_='pt4').text)
+		desc=desc[0:len(desc)-13] #...Read More is always in desc
+		
+		animetype = style_format(data[2].text)
+		
+		episodes = style_format(data[3].text)
+		
+		score = style_format(data[4].text)
+		
+		rdict = {
+			"titles": title,
+			"links": link,
+			"descriptions": desc,
+			"episode_count": episodes,
+			"animetypes": animetype,
+			"ratings": score
+		}
+		return rdict
 		
 	"""Override this as we want to return only ten results"""
 	def parse_result(self, results):
 		"""
 		Runs every entry on the page through parse_single_result
-
 		:param results: Result of main search to extract individual results
 		:type results: list[`bs4.element.ResultSet`]
-		:returns: dictionary. Containing titles, links and descriptions.
+		:returns: dictionary. Containing titles, links, episodes, scores, types and descriptions.
 		:rtype: dict
 		"""
-		titles = []
-		links = []
-		descs = []
-		
-		index = 0
-		
+		search_results = dict()
+		index = -1
 		for each in results:
-			title = link = desc = " "
-			index += 1
-			"""Skip all unimportant divs"""
-			if index < ((self.page - 1) * 10 + 1) or index > (self.page) * 10:
+			index +=1
+			"""Skip the top row of table (always) and unimportant trs (Out of range)"""
+			if index <= 0 or index < self.page * 10 + 1 or index > self.page * 10 + 10:
 				continue
 			try:
-				title, link, desc = self.parse_single_result(each)
-				# Append links and text to a list
-				titles.append(title)
-				links.append(link)
-				descs.append(desc)
+				rdict = self.parse_single_result(each)
+				# Create a list for all keys in rdict if not exist, else
+				for key in rdict.keys():
+					if key not in search_results.keys():
+						search_results[key] = list([rdict[key]])
+					else:
+						search_results[key].append(rdict[key])
 			except Exception as e:
 				print(e)
-		search_results = {'titles': titles,
-						'links': links,
-						'descriptions': descs}
+				#pass
 		return search_results

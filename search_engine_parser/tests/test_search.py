@@ -12,7 +12,8 @@ from search_engine_parser.core import (
     StackOverflowSearch,
     BaiduSearch,
     GitHubSearch,
-    YouTubeSearch)
+    YouTubeSearch,
+    MyAnimeListSearch)
 from .base import EngineTestBase, EngineTests
 
 
@@ -74,3 +75,6 @@ class YoutubeSearchTest(EngineTestBase, EngineTests):
         self.assertTrue(len(self.results['titles']) >= 10)
         self.assertTrue(len(self.results['links']) >= 10)
         self.assertTrue(len(self.results['descriptions']) >= 10)
+
+class MyAnimeListSearchTest(EngineTestBase, EngineTests):
+    engine_class = MyAnimeListSearch
