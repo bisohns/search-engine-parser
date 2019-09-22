@@ -10,8 +10,6 @@ Welcome to Search Engine Parser's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-Readme
-===========
 
 .. mdinclude:: ../../README.md
 
