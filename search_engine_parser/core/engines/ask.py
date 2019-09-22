@@ -3,7 +3,6 @@
 """
 
 from search_engine_parser.core.base import BaseSearch
-from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 from bs4 import BeautifulSoup as soup
 
 
@@ -25,8 +24,7 @@ class AskSearch(BaseSearch):
         Parses Ask Search Soup for results
         """
         # find all class_='PartialSearchResults-item' => each result
-        #  
-        return soup.find_all('div', class_= "PartialSearchResults-item")
+        return soup.find_all('div', class_="PartialSearchResults-item")
         
 
     def parse_single_result(self, single_result):
@@ -41,7 +39,7 @@ class AskSearch(BaseSearch):
         
         title = single_result.find('a').text
         link = single_result.a["href"]
-        desc = single_result.find('p', class_ = "PartialSearchResults-item-abstract").text
+        desc = single_result.find('p', class_="PartialSearchResults-item-abstract").text
 	
         search_results = {
             "titles": title,
