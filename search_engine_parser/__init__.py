@@ -1,12 +1,12 @@
 """
- 	@author 
+ 	@author
  		Domnan Diretnan
  		Artificial Intelligence Enthusiast & Software Engineer.
  		Email: diretnandomnan@gmail.com
  		Github: https://github.com/deven96
  		GitLab: https://gitlab.com/Deven96
 
-        Mmadu Manasseh 
+        Mmadu Manasseh
  		Email: mmadumanasseh@gmail.com
  		Github: https://github.com/mensaah
  		GitLab: https://gitlab.com/mensaah
@@ -21,7 +21,8 @@
 
  """
 
-import sys, os
+import sys
+import os
 from search_engine_parser.core import *
 
 name = "search-engine-parser"

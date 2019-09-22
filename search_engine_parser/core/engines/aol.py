@@ -1,9 +1,8 @@
-"""@desc 
+"""@desc
 		Parser for AOL search results
 """
-import re
 from search_engine_parser.core.base import BaseSearch
-from search_engine_parser.core.exceptions import NoResultsOrTrafficError
+
 
 class AolSearch(BaseSearch):
     """
@@ -12,10 +11,10 @@ class AolSearch(BaseSearch):
     name = "AOL"
     search_url = "https://search.aol.com/aol/search?q={query}&page={page}"
     summary = "\t According to netmarketshare, the old time famous AOL is still in the top 10 "\
-	      "search engines with a market share that is close to 0.06%. "\
-	      "The AOL network includes many popular web sites like engadget.com, techchrunch.com and the huffingtonpost.com. \n"\
-              "On June 23, 2015, AOL was acquired by Verizon Communications."
-    
+        "search engines with a market share that is close to 0.06%. "\
+        "The AOL network includes many popular web sites like engadget.com, techchrunch.com and "\
+        "the huffingtonpost.com. \nOn June 23, 2015, AOL was acquired by Verizon Communications."
+
     def parse_soup(self, soup):
         """
         Parses AOL for a search query
@@ -35,7 +34,7 @@ class AolSearch(BaseSearch):
         link_tag = h3.find('a')
         caption = single_result.find('div', class_='compText aAbs')
         desc = caption.find('p', class_='lh-16')
-        ''' Get the text and link '''
+        # Get the text and link
         title = link_tag.text
 
         link = link_tag.get('href')
@@ -43,9 +42,9 @@ class AolSearch(BaseSearch):
         desc = desc.text
         rdict = dict()
         if title and link and desc:
-            rdict = { 
-                "titles": title, 
-                "links": link, 
+            rdict = {
+                "titles": title,
+                "links": link,
                 "descriptions": desc,
-                }
+            }
         return rdict

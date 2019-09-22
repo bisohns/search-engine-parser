@@ -13,6 +13,7 @@ install:
 # Build script (If successfully built - no errors)
 script:
   - pytest
+  - pylint search_engine_parser --exit-zero
   - ./scripts/pre_deploy_test.sh
 
 after_success:

@@ -1,9 +1,8 @@
-"""@desc 
+"""@desc
 		Parser for DuckDuckGo search results
 """
-import re
 from search_engine_parser.core.base import BaseSearch
-from search_engine_parser.core.exceptions import NoResultsOrTrafficError
+
 
 class DuckDuckGoSearch(BaseSearch):
     """
@@ -13,10 +12,10 @@ class DuckDuckGoSearch(BaseSearch):
     base_url = "https://www.duckduckgo.com"
     search_url = "https://www.duckduckgo.com/html/?q={query}"
     summary = "\tHas a number of advantages over the other search engines. \n\tIt has a clean "\
-            "interface, it does not track users, it is not fully loaded with ads and has a number "\
-            "of very nice features (only one page of results, you can search directly other web "\
-            "sites etc).\n\tAccording to DuckDuckGo traffic stats [December, 2018], they are "\
-            "currently serving more than 30 million searches per day."
+        "interface, it does not track users, it is not fully loaded with ads and has a number "\
+        "of very nice features (only one page of results, you can search directly other web "\
+        "sites etc).\n\tAccording to DuckDuckGo traffic stats [December, 2018], they are "\
+        "currently serving more than 30 million searches per day."
 
     def parse_soup(self, soup):
         """
@@ -38,18 +37,16 @@ class DuckDuckGoSearch(BaseSearch):
         link_tag = single_result.find('a', class_="result__url")
         desc = single_result.find(class_='result__snippet')
 
-        #Get the text and link
+        # Get the text and link
         title = h2.text.strip()
 
         # raw link is of format "/url?q=REAL-LINK&sa=..."
         link = self.base_url + link_tag.get('href')
 
         desc = desc.text
-        rdict = { 
-                "titles": title, 
-                "links": link, 
-                "descriptions": desc, 
-                }
+        rdict = {
+            "titles": title,
+            "links": link,
+            "descriptions": desc,
+        }
         return rdict
-
-

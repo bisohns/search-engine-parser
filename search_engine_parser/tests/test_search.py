@@ -2,14 +2,18 @@
 	Tests or individual search engines
 """
 
-import pytest
 from search_engine_parser.core import (
-    YahooSearch, GoogleSearch, BingSearch, DuckDuckGoSearch, AolSearch, YandexSearch,
-    StackOverflowSearch, BaiduSearch, GitHubSearch, YouTubeSearch
-)
-from search_engine_parser.core.exceptions import NoResultsOrTrafficError
+    YahooSearch,
+    GoogleSearch,
+    BingSearch,
+    DuckDuckGoSearch,
+    AolSearch,
+    YandexSearch,
+    StackOverflowSearch,
+    BaiduSearch,
+    GitHubSearch,
+    YouTubeSearch)
 from .base import EngineTestBase, EngineTests
-
 
 
 class YahooEngineTest(EngineTestBase, EngineTests):
@@ -23,6 +27,7 @@ class GoogleEngineTest(EngineTestBase, EngineTests):
         self.assertTrue(len(self.results['titles']) >= 9)
         self.assertTrue(len(self.results['links']) >= 9)
         self.assertTrue(len(self.results['descriptions']) >= 9)
+
 
 class BingEngineTest(EngineTestBase, EngineTests):
     engine_class = BingSearch
@@ -52,7 +57,7 @@ class StackOverFlowSearchTest(EngineTestBase, EngineTests):
         self.assertTrue(len(self.results['titles']) >= 15)
         self.assertTrue(len(self.results['links']) >= 15)
         self.assertTrue(len(self.results['descriptions']) >= 15)
-	
+
 
 class BaiduSearchTest(EngineTestBase, EngineTests):
     engine_class = BaiduSearch
@@ -69,5 +74,3 @@ class YoutubeSearchTest(EngineTestBase, EngineTests):
         self.assertTrue(len(self.results['titles']) >= 10)
         self.assertTrue(len(self.results['links']) >= 10)
         self.assertTrue(len(self.results['descriptions']) >= 10)
-
-

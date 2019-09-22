@@ -1,7 +1,8 @@
-"""@desc 
+"""@desc
 		Parser for Bing search results
 """
 from search_engine_parser.core.base import BaseSearch
+
 
 class BingSearch(BaseSearch):
     """
@@ -10,9 +11,9 @@ class BingSearch(BaseSearch):
     name = "Bing"
     search_url = "https://www.bing.com/search?q={query}&count=10&offset=0&first={offset}&FORM=PERE"
     summary = "\tBing is Microsoft’s attempt to challenge Google in search, but despite their "\
-            "efforts they still did not manage to convince users that their search engine can be"\
-            " an alternative to Google.\n\tTheir search engine market share is constantly below "\
-            "10%, even though Bing is the default search engine on Windows PCs."
+        "efforts they still did not manage to convince users that their search engine can be"\
+        " an alternative to Google.\n\tTheir search engine market share is constantly below "\
+        "10%, even though Bing is the default search engine on Windows PCs."
 
     def parse_soup(self, soup):
         """
@@ -34,17 +35,15 @@ class BingSearch(BaseSearch):
         link_tag = h2.find('a')
         caption = single_result.find('div', class_='b_caption')
         desc = caption.find('p')
-        ''' Get the text and link '''
+        # Get the text and link
         title = link_tag.text
 
         link = link_tag.get('href')
 
         desc = desc.text
-        rdict = { 
-                "titles": title, 
-                "links": link, 
-                "descriptions": desc, 
-                }
+        rdict = {
+            "titles": title,
+            "links": link,
+            "descriptions": desc,
+        }
         return rdict
-
-

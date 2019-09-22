@@ -5,18 +5,18 @@ from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 
 def validate_url(url):
     """ Checks if a url is valid
-    urls must contain scheme, netloc and path 
+    urls must contain scheme, netloc and path
     """
     try:
         result = urlparse(url)
         return all([result.scheme, result.netloc, result.path])
-    except Exception as e:
+    except BaseException:
         return False
 
 
 class EngineTestBase(unittest.TestCase):
-    """ Testbase for Engines 
-    
+    """ Testbase for Engines
+
     provides tests for titles, description and return urls
     """
     engine_class = None
@@ -28,14 +28,16 @@ class EngineTestBase(unittest.TestCase):
             raise Exception("engine_class not defined")
 
         search_args = ('preaching to the choir', 2)
-        cls.engine = cls.engine_class()
-        # TODO catch no traffic errors
+        cls.engine = cls.engine_class()  # pylint: disable=not-callable
         try:
             cls.results = cls.engine.search(*search_args)
         except NoResultsOrTrafficError:
-            raise unittest.SkipTest('{} failed due to traffic'.format(cls.engine))
+            raise unittest.SkipTest(
+                '{} failed due to traffic'.format(
+                    cls.engine))
 
 
+# pylint: disable=no-member
 class EngineTests:
 
     def test_returned_results(self):
@@ -46,4 +48,3 @@ class EngineTests:
     def test_links(self):
         for link in self.results['links']:
             self.assertTrue(validate_url(link))
-

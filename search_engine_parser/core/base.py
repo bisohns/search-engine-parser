@@ -1,4 +1,4 @@
-"""@desc 
+"""@desc
 		Base class inherited by every search engine
 """
 
@@ -11,8 +11,8 @@ from bs4 import BeautifulSoup
 from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 
 
-class BaseSearch(object):
-    
+class BaseSearch:
+
     __metaclass__ = ABCMeta
 
     """
@@ -39,8 +39,9 @@ class BaseSearch(object):
         Every div/span containing a result is passed here to retrieve
         `title`, `link` and `descr`
         """
-        raise NotImplementedError("subclasses must define method <parse_results>")
-    
+        raise NotImplementedError(
+            "subclasses must define method <parse_results>")
+
     def parse_result(self, results):
         """
         Runs every entry on the page through parse_single_result
@@ -64,7 +65,7 @@ class BaseSearch(object):
                 # print(e)
                 pass
         return search_results
-    
+
     @staticmethod
     def parse_query(query):
         """
@@ -75,9 +76,9 @@ class BaseSearch(object):
         :rtype: str
         """
         return query.replace(" ", "%20")
-    
+
     @staticmethod
-    async def getSource(url):
+    async def get_source(url):
         """
         Returns the source code of a webpage.
 
@@ -85,16 +86,20 @@ class BaseSearch(object):
         :param url: URL to pull it's source code
         :return: html source code of a given URL.
         """
-        # headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:20.0) Gecko/20100101 Firefox/20.0'}
+        # headers = {
+        # 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:20.0) Gecko/20100101 Firefox/20.0'}
         # prevent caching
         user_agent_list = [
             "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0",
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36",
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/72.0.3626.121 Safari/537.36",
             "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100 101 Firefox/22.0",
             "Mozilla/5.0 (Windows NT 6.1; rv:11.0) Gecko/20100101 Firefox/11.0",
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.46 Safari/536.5",
-            "Mozilla/5.0 (Windows; Windows NT 6.1) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.46 Safari/536.5",
-            ]
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) "
+            "Chrome/19.0.1084.46 Safari/536.5",
+            "Mozilla/5.0 (Windows; Windows NT 6.1) AppleWebKit/536.5 (KHTML, like Gecko) "
+            "Chrome/19.0.1084.46 Safari/536.5",
+        ]
         headers = {
             "Cache-Control": 'no-cache',
             "Connection": "keep-alive",
@@ -103,7 +108,7 @@ class BaseSearch(object):
         try:
             async with aiohttp.ClientSession() as session:
                 async with session.get(url, headers=headers) as resp:
-                    html =  await resp.text()
+                    html = await resp.text()
         except Exception as e:
             raise Exception('ERROR: {}\n'.format(e))
         return str(html)
@@ -114,34 +119,35 @@ class BaseSearch(object):
 
         :rtype: `bs4.element.ResultSet`
         """
-        html = await self.getSource(url)
+        html = await self.get_source(url)
         return BeautifulSoup(html, 'lxml')
 
     def get_search_url(self, query=None, page=None):
-        """ 
+        """
         Return a formatted search url
         """
         # Some URLs use offsets
         offset = (page * 10) - 9
-        return  self.search_url.format(query=query, page=page, offset=offset) 
+        return self.search_url.format(query=query, page=page, offset=offset)
 
     def get_results(self, soup):
         """ Get results from soup"""
 
         results = self.parse_soup(soup)
-        # TODO Check if empty results is caused by traffic or answers to query were not found
+        # TODO Check if empty results is caused by traffic or answers to query
+        # were not found
         if not results:
             raise NoResultsOrTrafficError(
-                "The result parsing was unsuccessful. It is either your query could not be found"+
+                "The result parsing was unsuccessful. It is either your query could not be found" +
                 " or it was flagged as unusual traffic")
         search_results = self.parse_result(results)
-        return search_results 
+        return search_results
 
     def search(self, query=None, page=None):
-        """ 
+        """
         Query the search engine
 
-        :param query: the query to search for 
+        :param query: the query to search for
         :type query: str
         :param page: Page to be displayed, defaults to 1
         :type page: int
@@ -151,15 +157,18 @@ class BaseSearch(object):
 
         # Get search Page Results
         loop = asyncio.get_event_loop()
-        soup = loop.run_until_complete(self.get_soup(self.get_search_url(parsed_query, page)))
+        soup = loop.run_until_complete(
+            self.get_soup(
+                self.get_search_url(
+                    parsed_query, page)))
 
         return self.get_results(soup)
-    
+
     async def async_search(self, query=None, page=None, callback=None):
-        """ 
+        """
         Query the search engine but in async mode
 
-        :param query: the query to search for 
+        :param query: the query to search for
         :type query: str
         :param page: Page to be displayed, defaults to 1
         :type page: int
@@ -167,6 +176,9 @@ class BaseSearch(object):
         :type page: function
         :return: dictionary. Containing titles, links, netlocs and descriptions.
         """
+        # TODO callback should be called
+        if callback:
+            pass
         parsed_query = self.parse_query(query)
         soup = await self.get_soup(self.get_search_url(parsed_query, page))
         return self.get_results(soup)
