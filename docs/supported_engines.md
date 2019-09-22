@@ -64,8 +64,7 @@ Below is the list of supported engines with their summaries
 </tr>
 <tr>
 <td>Ask</td>
-<td>Formerly known as Ask Jeeves, Ask.com receives approximately 0.42% of the search share. ASK is based on a question/answer format where most questions are answered by other users or are in the form of polls. It also has the general search functionality but the results returned lack quality compared to Google or even Bing and Yahoo.
-</td>
+<td> titles, links, descriptions </td>
 
 <tr>
 <td>10</td>
