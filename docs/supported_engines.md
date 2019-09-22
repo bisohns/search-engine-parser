@@ -73,8 +73,4 @@ Below is the list of supported engines with their summaries
 <td>titles, links, descriptions, channels, [single videos only: durations, views, upload_dates]</td>
 </tr>
 
-<tr>
-<td>MyAnimeList</td>
-<td>MyAnimeList, often abbreviated as MAL, is an anime and manga social networking and social cataloging application website. The site provides its users with a list-like system to organize and score anime and manga. It facilitates finding users who share similar tastes and provides a large database on anime and manga. The site claims to have 4.4 million anime and 775,000 manga entries. In 2015, the site received over 120 million visitors a month.</td>
-</tr>
 </table>
