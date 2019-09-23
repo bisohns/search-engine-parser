@@ -69,6 +69,8 @@ def main(args):  # pylint: disable=too-many-branches
         engine_class = StackOverflowSearch
     elif engine == 'github':
         engine_class = GitHubSearch
+    elif engine == 'ask':
+        engine_class = AskSearch
     elif engine == 'youtube':
         engine_class = YouTubeSearch
     elif engine == 'baidu':

@@ -13,5 +13,6 @@ from search_engine_parser.core.engines import (YahooSearch,
                                                StackOverflowSearch,
                                                BaiduSearch,
                                                GitHubSearch,
-                                               YouTubeSearch
+                                               YouTubeSearch,
+                                               AskSearch
                                                )

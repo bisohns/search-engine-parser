@@ -12,7 +12,8 @@ from search_engine_parser.core import (
     StackOverflowSearch,
     BaiduSearch,
     GitHubSearch,
-    YouTubeSearch)
+    YouTubeSearch,
+    AskSearch)
 from .base import EngineTestBase, EngineTests
 
 
@@ -74,3 +75,11 @@ class YoutubeSearchTest(EngineTestBase, EngineTests):
         self.assertTrue(len(self.results['titles']) >= 10)
         self.assertTrue(len(self.results['links']) >= 10)
         self.assertTrue(len(self.results['descriptions']) >= 10)
+
+        
+class AskSearch(EngineTestBase, EngineTests):
+    engine_class = AskSearch
+    def test_returned_results(self):	
+        self.assertTrue(len(self.results['titles']) >= 8)
+        self.assertTrue(len(self.results['links']) >= 8)
+        self.assertTrue(len(self.results['descriptions']) >= 8)
