@@ -6,15 +6,6 @@ from search_engine_parser.core.base import BaseSearch
 import math
 import re
 
-"""MAL has lots of extra \n,\r etc. Need to remove them"""
-def style_format(text):
-	
-	text = re.sub("\n+","",text)
-	text = re.sub("\r+","",text)
-	text = re.sub(" +"," ",text)
-	text = text.strip()
-	return text
-
 class MyAnimeListSearch(BaseSearch):
 	"""
 	Searches MyAnimeList for string
@@ -40,8 +31,7 @@ class MyAnimeListSearch(BaseSearch):
 		
 		offset = (math.ceil(page/5) - 1) * 50
 		
-		"""Save this value so that we can return 10 results"""
-		self.page = (page - 1) % 5 
+		self.page = (page - 1) % 5 #Save this value so that we can return 10 results
 		return self.search_url.format(query=query, offset=offset)
 	
 	
@@ -50,7 +40,7 @@ class MyAnimeListSearch(BaseSearch):
 		Parses MyAnimeList for a search query
 		"""
 		
-		"""The data is stored in table so find all table rows"""
+		#The data is stored in table so find all table rows
 		return soup.find('div',class_='js-categories-seasonal js-block-list list').find_all('tr')
 
 	
@@ -66,19 +56,19 @@ class MyAnimeListSearch(BaseSearch):
 		
 		data = list(single_result.find_all('td'))
 		
-		title = style_format(data[1].find('strong').text)
+		title = data[1].find('strong').text.strip()
 		
 		link_tag = data[1].find('a')
 		link = link_tag.get('href')
 		
-		desc = style_format(data[1].find('div',class_='pt4').text)
+		desc = data[1].find('div',class_='pt4').text.strip()
 		desc=desc[0:len(desc)-13] #...Read More is always in desc
 		
-		animetype = style_format(data[2].text)
+		animetype = data[2].text.strip()
 		
-		episodes = style_format(data[3].text)
+		episodes = data[3].text.strip()
 		
-		score = style_format(data[4].text)
+		score = data[4].text.strip()
 		
 		rdict = {
 			"titles": title,
