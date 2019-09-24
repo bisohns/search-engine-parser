@@ -103,7 +103,7 @@ class MyAnimeListSearch(BaseSearch):
 		index = -1
 		for each in results:
 			index +=1
-			"""Skip the top row of table (always) and unimportant trs (Out of range)"""
+			#Skip the top row of table (always) and unimportant trs (Out of range)
 			if index <= 0 or index < self.page * 10 + 1 or index > self.page * 10 + 10:
 				continue
 			try:
@@ -115,6 +115,5 @@ class MyAnimeListSearch(BaseSearch):
 					else:
 						search_results[key].append(rdict[key])
 			except Exception as e:
-				print(e)
-				#pass
+				pass
 		return search_results
