@@ -77,6 +77,8 @@ def main(args):  # pylint: disable=too-many-branches
         engine_class = BaiduSearch
     elif engine == 'aol':
         engine_class = AolSearch
+    elif engine == 'myanimelist':
+        engine_class = MyAnimeListSearch
     else:
         sys.exit(f'Engine < {engine} > does not exist')
 
