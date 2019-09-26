@@ -10,7 +10,7 @@ Below is the list of supported engines with their summaries
 
 <tr>
 <td>Google</td>
-<td>No need for further introductions. The search engine giant holds the first place in search with a stunning difference of 65% from second in place Bing. According to the latest netmarketshare report (November 2018) 73% of searches were powered by Google and only 7.91% by Bing.\n\tGoogle is also dominating the mobile/tablet search engine market share with 81%<td>
+<td>No need for further introductions. The search engine giant holds the first place in search with a stunning difference of 65% from second in place Bing. According to the latest netmarketshare report (November 2018) 73% of searches were powered by Google and only 7.91% by Bing. Google is also dominating the mobile/tablet search engine market share with 81%</td>
 </tr>
 
 <tr>
