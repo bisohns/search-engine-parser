@@ -33,7 +33,7 @@ class DuckDuckGoSearch(BaseSearch):
         :return: parsed title, link and description of single result
         :rtype: dict
         """
-        h2 = single_result.find('h2', class_="result__title")
+        h2 = single_result.find('h2', class_="result__title") #pylint: disable=invalid-name
         link_tag = single_result.find('a', class_="result__url")
         desc = single_result.find(class_='result__snippet')
 

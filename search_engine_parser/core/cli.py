@@ -6,8 +6,7 @@ import argparse
 import sys
 from blessed import Terminal
 
-from search_engine_parser.core.engines import *
-# pylint: disable=wildcard-import
+from search_engine_parser.core.engines import * # pylint: disable=wildcard-import
 from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 
 
@@ -94,8 +93,8 @@ def main(args):  # pylint: disable=too-many-branches
     try:
         results = engine.search(args['query'], args['page'])
         display(results, term, type=args.get('type'), rank=args.get('rank'))
-    except NoResultsOrTrafficError as e:
-        print('\n', f'{term.red(str(e))}')
+    except NoResultsOrTrafficError as exc:
+        print('\n', f'{term.red(str(exc))}')
 
 
 def runner():

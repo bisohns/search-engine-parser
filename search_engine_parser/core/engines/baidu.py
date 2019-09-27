@@ -34,9 +34,8 @@ class BaiduSearch(BaseSearch):
         Parses Baidu for a search query
         """
 
-        """Baidu search can be made deterministic via an id.
-		Hence, a regex is used to match all eligible ids
-		"""
+        # Baidu search can be made deterministic via an id
+        # Hence, a regex is used to match all eligible ids
 
         return soup.find_all('div', {'id': re.compile(r"^\d{1,2}")})
 
@@ -49,11 +48,11 @@ class BaiduSearch(BaseSearch):
                 :return: parsed title, link and description of single result
                 :rtype: dict
                 """
-        h3 = single_result.find('h3')
+        h3_tag = single_result.find('h3')
         link_tag = single_result.find('a')
 
         # Get the text and link
-        title = h3.text
+        title = h3_tag.text
         link = link_tag.get('href')
         desc = single_result.find('div', class_='c-abstract').text
         rdict = dict()

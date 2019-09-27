@@ -82,12 +82,15 @@ class YoutubeSearchTest(EngineTestBase, EngineTests):
         self.assertTrue(len(self.results['links']) >= 10)
         self.assertTrue(len(self.results['descriptions']) >= 10)
 
+
 class MyAnimeListSearchTest(EngineTestBase, EngineTests):
     engine_class = MyAnimeListSearch
-        
-class AskSearch(EngineTestBase, EngineTests):
+
+
+class AskEngineSearchTest(EngineTestBase, EngineTests):
     engine_class = AskSearch
-    def test_returned_results(self):	
+
+    def test_returned_results(self):
         self.assertTrue(len(self.results['titles']) >= 8)
         self.assertTrue(len(self.results['links']) >= 8)
         self.assertTrue(len(self.results['descriptions']) >= 8)

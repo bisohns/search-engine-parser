@@ -33,14 +33,14 @@ class GoogleSearch(BaseSearch):
         :return: parsed title, link and description of single result
         :rtype: dict
         """
-        r = single_result.find('div', class_='r')
-        link_tag = r.find('a')
-        h3 = r.find('h3')
+        r_elem = single_result.find('div', class_='r')
+        link_tag = r_elem.find('a')
+        h3_tag = r_elem.find('h3')
         desc = single_result.find('span', class_='st')
         # Get the text and link
-        title = h3.text
+        title = h3_tag.text
         if not title:
-            title = h3.find('div', class_='ellip').text
+            title = h3_tag.find('div', class_='ellip').text
 
         raw_link = link_tag.get('href')
 

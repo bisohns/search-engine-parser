@@ -35,7 +35,7 @@ class GitHubSearch(BaseSearch):
         :return: parsed title, link and description of single result
         :rtype: dict
         """
-        h3 = single_result.find('h3')
+        h3 = single_result.find('h3') #pylint: disable=invalid-name
         link_tag = h3.find('a')
         # Get the text and link
         title = link_tag.text

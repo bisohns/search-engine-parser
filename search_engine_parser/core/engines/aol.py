@@ -30,8 +30,8 @@ class AolSearch(BaseSearch):
         :return: parsed title, link and description of single result
         :rtype: dict
         """
-        h3 = single_result.find('h3')
-        link_tag = h3.find('a')
+        h3_tag = single_result.find('h3')
+        link_tag = h3_tag.find('a')
         caption = single_result.find('div', class_='compText aAbs')
         desc = caption.find('p', class_='lh-16')
         # Get the text and link

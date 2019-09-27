@@ -31,8 +31,8 @@ class BingSearch(BaseSearch):
         :return: parsed title, link and description of single result
         :rtype: dict
         """
-        h2 = single_result.find('h2')
-        link_tag = h2.find('a')
+        h2_tag = single_result.find('h2')
+        link_tag = h2_tag.find('a')
         caption = single_result.find('div', class_='b_caption')
         desc = caption.find('p')
         # Get the text and link

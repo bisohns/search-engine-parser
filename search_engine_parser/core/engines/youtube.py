@@ -33,6 +33,7 @@ class YouTubeSearch(BaseSearch):
         :return: parsed title, link and description of single result
         :rtype: dict
         """
+        # pylint: disable=too-many-locals
         title_tag = single_result.find('a', class_='yt-uix-tile-link')
         # Get the text and link
         title = title_tag.text
@@ -40,7 +41,7 @@ class YouTubeSearch(BaseSearch):
         try:
             duration = single_result.find(
                 'span', class_='accessible-description').text
-            ul = single_result.find('ul', class_='yt-lockup-meta-info')
+            ul_tag = single_result.find('ul', class_='yt-lockup-meta-info')
 
             ref_link = title_tag.get('href')
             link = self.base_url + ref_link
@@ -49,7 +50,7 @@ class YouTubeSearch(BaseSearch):
                 'div', class_="yt-lockup-description").text
             channel_name = single_result.find(
                 'a', class_='yt-uix-sessionlink spf-link').text
-            views_and_upload_date = ul.find_all('li')
+            views_and_upload_date = ul_tag.find_all('li')
             upload_date = views_and_upload_date[0].text
             views = views_and_upload_date[1].text
             desc = "{} \tUploaded-{} \t{} \n{}".format(
@@ -65,7 +66,7 @@ class YouTubeSearch(BaseSearch):
                     "views": views,
                     "upload_dates": upload_date,
                 }
-        except BaseException:
+        except BaseException: # pylint: disable=broad-except
             link_tags = single_result.find_all(
                 'a', class_='yt-uix-sessionlink spf-link')
             for i in link_tags:

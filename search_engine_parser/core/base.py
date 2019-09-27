@@ -48,7 +48,8 @@ class BaseSearch:
 
         :param results: Result of main search to extract individual results
         :type results: list[`bs4.element.ResultSet`]
-        :returns: dictionary. Containing lists of titles, links, descriptions and other possible returns.
+        :returns: dictionary. Containing lists of titles, links, descriptions and other possible\
+            returns.
         :rtype: dict
         """
         search_results = dict()
@@ -61,7 +62,7 @@ class BaseSearch:
                         search_results[key] = list([rdict[key]])
                     else:
                         search_results[key].append(rdict[key])
-            except Exception:
+            except Exception: #pylint: disable=invalid-name, broad-except
                 # print(e)
                 pass
         return search_results
@@ -109,8 +110,8 @@ class BaseSearch:
             async with aiohttp.ClientSession() as session:
                 async with session.get(url, headers=headers) as resp:
                     html = await resp.text()
-        except Exception as e:
-            raise Exception('ERROR: {}\n'.format(e))
+        except Exception as exc:
+            raise Exception('ERROR: {}\n'.format(exc))
         return str(html)
 
     async def get_soup(self, url):

@@ -25,5 +25,5 @@ import sys
 import os
 from search_engine_parser.core import *
 
-name = "search-engine-parser"
+name = "search-engine-parser"  #pylint: disable=invalid-name
 __version__ = "0.5.1"

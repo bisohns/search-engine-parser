@@ -35,14 +35,14 @@ class YandexSearch(BaseSearch):
         :return: parsed title, link and description of single result
         :rtype: str, str, str
         """
-        h3 = single_result.find('div', class_="organic__url-text")
+        h3_tag = single_result.find('div', class_="organic__url-text")
 
         link_tag = single_result.find('a')
 
         desc = single_result.find('div', class_="organic__content-wrapper")
 
         # Get the text and link
-        title = h3.text
+        title = h3_tag.text
         # Handle read more type texts
         index = title.find("Read more")
         if index >= 0:
