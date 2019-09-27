@@ -64,6 +64,11 @@ class StackOverFlowSearchTest(EngineTestBase, EngineTests):
 class BaiduSearchTest(EngineTestBase, EngineTests):
     engine_class = BaiduSearch
 
+    def test_returned_results(self):
+        self.assertTrue(len(self.results['titles']) >= 9)
+        self.assertTrue(len(self.results['links']) >= 9)
+        self.assertTrue(len(self.results['descriptions']) >= 9)
+
 
 class GithubSearchTest(EngineTestBase, EngineTests):
     engine_class = GitHubSearch
