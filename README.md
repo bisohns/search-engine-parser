@@ -9,7 +9,7 @@
 [![Build Status](https://travis-ci.com/bisoncorps/search-engine-parser.svg?branch=master)](https://travis-ci.com/bisoncorps/search-engine-parser)
 [![Documentation Status](https://readthedocs.org/projects/search-engine-parser/badge/?version=latest)](https://search-engine-parser.readthedocs.io/en/latest/?badge=latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors)
 <hr/>
 
 Package to query popular search engines and scrape for result titles, links and descriptions. Aims to scrape the widest range of search engines.
@@ -36,6 +36,8 @@ Some of the popular search engines include:
 - DuckDuckGo
 - GitHub
 - StackOverflow
+- Baidu
+- YouTube
 
 View all [supported engines](https://github.com/bisoncorps/search-engine-parser/blob/master/docs/supported_engines.md)
 
@@ -107,10 +109,10 @@ Query Results can be scraped from popular search engines as shown in the example
 
 ### Command line
 
-Use python module runner to run the parser on the command line e.g
+Search engine parser comes with a CLI tool known as `pysearch` e.g
 
 ```bash
-python -m search_engine_parser.core.cli --engine bing search --query "Preaching to the choir" --type descriptions
+pysearch --engine bing search --query "Preaching to the choir" --type descriptions
 ```
 
 Result
@@ -121,7 +123,7 @@ Result
 
 ![Demo](assets/example.gif)
 
-There is a needed argument for the CLI i.e `-e Engine` and two subcommands in the CLI i.e `search` and `summary`
+There is a needed argument for the CLI i.e `-e Engine` followed by either of two subcommands in the CLI i.e `search` and `summary`
 
 ```bash
 
@@ -142,14 +144,14 @@ optional arguments:
 `summary` just shows the summary of each search engine added with descriptions on the return
 
 ```bash
-python -m search_engine_parser.core.cli --engine google summary 
+pysearch --engine google summary 
 ```
 
 Full arguments for the `search` subcommand shown below
 
 ```bash
 
-usage: cli.py search [-h] -q QUERY [-p PAGE] [-t TYPE] [-r RANK]
+usage: pysearch search [-h] -q QUERY [-p PAGE] [-t TYPE] [-r RANK]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -187,6 +189,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://mensaah.github.io"><img src="https://avatars3.githubusercontent.com/u/24734308?v=4" width="100px;" alt="MeNsaaH"/><br /><sub><b>MeNsaaH</b></sub></a><br /><a href="#infra-MeNsaaH" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/bisoncorps/search-engine-parser/commits?author=MeNsaaH" title="Tests">⚠️</a> <a href="#tool-MeNsaaH" title="Tools">🔧</a> <a href="https://github.com/bisoncorps/search-engine-parser/commits?author=MeNsaaH" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/PalAditya"><img src="https://avatars2.githubusercontent.com/u/25523604?v=4" width="100px;" alt="Aditya Pal"/><br /><sub><b>Aditya Pal</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/commits?author=PalAditya" title="Tests">⚠️</a> <a href="https://github.com/bisoncorps/search-engine-parser/commits?author=PalAditya" title="Code">💻</a></td>
     <td align="center"><a href="http://energized.pro"><img src="https://avatars1.githubusercontent.com/u/27774996?v=4" width="100px;" alt="Avinash Reddy"/><br /><sub><b>Avinash Reddy</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/issues?q=author%3AAvinashReddy3108" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/Iamdavidonuh"><img src="https://avatars3.githubusercontent.com/u/37768509?v=4" width="100px;" alt="David Onuh"/><br /><sub><b>David Onuh</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/commits?author=Iamdavidonuh" title="Code">💻</a> <a href="https://github.com/bisoncorps/search-engine-parser/commits?author=Iamdavidonuh" title="Tests">⚠️</a></td>
   </tr>
 </table>
 

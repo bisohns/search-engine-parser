@@ -17,7 +17,7 @@ All Contributions to the code base or documentation must be done on a branch wit
 
 * If issue does not exist, open an issue with the [bug report template](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/ISSUE_TEMPLATE/bug_report.md)
 
-* Open a new GitHub pull request with the patch using [bug fix template](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/PULL_REQUEST_TEMPLATE/bug_fix.md) to branch `dev`.
+* Open a new GitHub pull request with the patch using [bug fix template](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/PULL_REQUEST_TEMPLATE/bug_fix.md).
 
 * Ensure the PR description clearly describes the solution. Include the relevant issue number if applicable.
 
@@ -32,7 +32,7 @@ All Contributions to the code base or documentation must be done on a branch wit
 
 * Raise an issue using the [feature request template](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/ISSUE_TEMPLATE/feature_request.md) with labels `enhancement`
 
-* Upon implementing the feature, make a PR to branch `dev` using the [feature implementation template](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/PULL_REQUEST_TEMPLATE/feature_implementation.md)
+* Upon implementing the feature, make a PR using the [feature implementation template](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/PULL_REQUEST_TEMPLATE/feature_implementation.md)
 
 ##### **Engines**
 
@@ -42,7 +42,7 @@ All Contributions to the code base or documentation must be done on a branch wit
 
 * If the Engine to be included is accepted, raise an issue using the [feature template](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/ISSUE_TEMPLATE/feature_request.md) and labels `enhancement` and `engine`
 
-* Upon implementing the Engine, make a PR to branch `dev` using the [engine implementation template](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/PULL_REQUEST_TEMPLATE/engine_implementation.md)
+* Upon implementing the Engine, make a PR using the [engine implementation template](https://github.com/bisoncorps/search-engine-parser/blob/master/.github/PULL_REQUEST_TEMPLATE/engine_implementation.md)
 
 
 #### **Do you have questions about the source code?**

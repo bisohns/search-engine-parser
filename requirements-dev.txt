@@ -2,7 +2,9 @@ pprint
 sphinx
 sphinx-rtd-theme
 m2r
+aiohttp
 beautifulsoup4
 lxml
 pytest
 blessed
+pylint

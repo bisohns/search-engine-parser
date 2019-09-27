@@ -59,8 +59,12 @@ The engine modules are in the [search_engine_parser/core/engines/](https://githu
             link = link_tag.get('href')
             desc_span = single_result.find('span', class_='fake-description')
             desc = desc.text
-            # return in this order
-            return title, link, desc
+            rdict = {
+                "titles": title,
+                "links": link,
+                "descriptions": desc,
+            }
+            return rdict
 ```
 
 * Import the engine by adding to the following files

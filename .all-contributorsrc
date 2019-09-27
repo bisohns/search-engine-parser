@@ -56,6 +56,16 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "Iamdavidonuh",
+      "name": "David Onuh",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/37768509?v=4",
+      "profile": "https://github.com/Iamdavidonuh",
+      "contributions": [
+        "code",
+        "test"
+      ]
     }
   ],
   "contributorsPerLine": 7,

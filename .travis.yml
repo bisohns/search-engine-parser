@@ -1,11 +1,10 @@
 language: python
 python:
+  - "3.5"
   - "3.6"
+  - "3.7"
+  - "3.8-dev"
 
-# Branches to enbale CI.
-branches:
-  only:
-    - master
 
 # Command to install dependencies.
 install:
@@ -14,6 +13,7 @@ install:
 # Build script (If successfully built - no errors)
 script:
   - pytest
+  - pylint search_engine_parser --exit-zero
   - ./scripts/pre_deploy_test.sh
 
 after_success:
@@ -23,7 +23,8 @@ deploy:
   provider: pypi
   user: "deven96"
   password: $PYPI_PASSWORD
-  all_branches: true
+  on:
+    branch: master
   condition: $TRAVIS_TAG =~ ^v[0-9]+\.[0-9]+\.[0-9]+
   skip_existing: true
 

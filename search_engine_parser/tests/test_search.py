@@ -3,67 +3,94 @@
 """
 
 from search_engine_parser.core import (
-	YahooSearch, GoogleSearch, BingSearch, DuckDuckGoSearch, AolSearch, YandexSearch,
-	StackOverflowSearch, BaiduSearch, GitHubSearch
-)
-from search_engine_parser.core.exceptions import NoResultsOrTrafficError 
-
-search_args = ('preaching to the choir', 2)
-
-
-def test_yahoo_search():
-	engine = YahooSearch()
-	results = engine.search(*search_args)
-	assert len(results['titles']) == 10
-
-
-def test_google_search():
-	engine = GoogleSearch()
-	try:
-		results = engine.search(*search_args)
-		assert len(results['titles']) >= 9
-	except NoResultsOrTrafficError:
-		pass
-
-def test_bing_search():
-	engine = BingSearch()
-	results = engine.search(*search_args)
-	assert len(results['titles']) == 10
+    YahooSearch,
+    GoogleSearch,
+    BingSearch,
+    DuckDuckGoSearch,
+    AolSearch,
+    YandexSearch,
+    StackOverflowSearch,
+    BaiduSearch,
+    GitHubSearch,
+    YouTubeSearch,
+    MyAnimeListSearch,
+    AskSearch)
+from .base import EngineTestBase, EngineTests
 
 
-def test_aol_search():
-	engine = AolSearch()
-	results = engine.search(*search_args)
-	assert len(results['titles']) == 10
+class YahooEngineTest(EngineTestBase, EngineTests):
+    engine_class = YahooSearch
 
 
-def test_duckduckgo_search():
-	engine = DuckDuckGoSearch()
-	results = engine.search(*search_args)
-	assert len(results['titles']) >= 10
+class GoogleEngineTest(EngineTestBase, EngineTests):
+    engine_class = GoogleSearch
 
-def test_yandex_search():
-	engine = YandexSearch()
-	try:
-		results = engine.search(*search_args)
-		assert len(results['titles']) >= 9
-	except NoResultsOrTrafficError:
-		pass
+    def test_returned_results(self):
+        self.assertTrue(len(self.results['titles']) >= 9)
+        self.assertTrue(len(self.results['links']) >= 9)
+        self.assertTrue(len(self.results['descriptions']) >= 9)
 
-def test_stackoverflow_search():
-	engine = StackOverflowSearch()
-	results = engine.search(*search_args)
-	assert len(results['titles']) >= 15
-	
-def test_baidu_search():
-	engine = BaiduSearch()
-	results = engine.search(*search_args)
-	assert len(results['titles']) == 10
 
-def test_github_search():
-	engine = GitHubSearch()
-	try:
-		results = engine.search(*search_args)
-		assert len(results['titles']) == 10
-	except NoResultsOrTrafficError:
-		pass
+class BingEngineTest(EngineTestBase, EngineTests):
+    engine_class = BingSearch
+
+
+class AolSearchTest(EngineTestBase, EngineTests):
+    engine_class = AolSearch
+
+
+class DuckDuckGoSearchTest(EngineTestBase, EngineTests):
+    engine_class = DuckDuckGoSearch
+
+    def test_returned_results(self):
+        self.assertTrue(len(self.results['titles']) >= 10)
+        self.assertTrue(len(self.results['links']) >= 10)
+        self.assertTrue(len(self.results['descriptions']) >= 10)
+
+
+class YandexSearchTest(EngineTestBase, EngineTests):
+    engine_class = YandexSearch
+
+
+class StackOverFlowSearchTest(EngineTestBase, EngineTests):
+    engine_class = StackOverflowSearch
+
+    def test_returned_results(self):
+        self.assertTrue(len(self.results['titles']) >= 15)
+        self.assertTrue(len(self.results['links']) >= 15)
+        self.assertTrue(len(self.results['descriptions']) >= 15)
+
+
+class BaiduSearchTest(EngineTestBase, EngineTests):
+    engine_class = BaiduSearch
+
+    def test_returned_results(self):
+        self.assertTrue(len(self.results['titles']) >= 9)
+        self.assertTrue(len(self.results['links']) >= 9)
+        self.assertTrue(len(self.results['descriptions']) >= 9)
+
+
+class GithubSearchTest(EngineTestBase, EngineTests):
+    engine_class = GitHubSearch
+
+
+class YoutubeSearchTest(EngineTestBase, EngineTests):
+    engine_class = YouTubeSearch
+
+    def test_returned_results(self):
+        self.assertTrue(len(self.results['titles']) >= 10)
+        self.assertTrue(len(self.results['links']) >= 10)
+        self.assertTrue(len(self.results['descriptions']) >= 10)
+
+
+class MyAnimeListSearchTest(EngineTestBase, EngineTests):
+    engine_class = MyAnimeListSearch
+
+
+class AskEngineSearchTest(EngineTestBase, EngineTests):
+    engine_class = AskSearch
+
+    def test_returned_results(self):
+        self.assertTrue(len(self.results['titles']) >= 8)
+        self.assertTrue(len(self.results['links']) >= 8)
+        self.assertTrue(len(self.results['descriptions']) >= 8)
