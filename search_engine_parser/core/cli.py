@@ -16,8 +16,8 @@ def display(results, term, **args):
     def print_one(title, link, desc):
         """ Print one result to the console """
         # Header
-        print(f"\t{term.magenta(title)}")
-        print(f"\t{link}")
+        print("\t{}".format(term.magenta(title)))
+        print("\t{}".format(link))
         print("\t-----------------------------------------------------")
         print(desc, '\n\n')
 
@@ -79,11 +79,11 @@ def main(args):  # pylint: disable=too-many-branches
     elif engine == 'myanimelist':
         engine_class = MyAnimeListSearch
     else:
-        sys.exit(f'Engine < {engine} > does not exist')
+        sys.exit('Engine < {} > does not exist'.format(engine))
 
     # check if in summary mode
     if args.get("show"):
-        print(f"\t{term.magenta(engine_class.name)}")
+        print("\t{}".format(term.magenta(engine_class.name)))
         print("\t-----------------------------------------------------")
         print(engine_class.summary)
         sys.exit(0)
@@ -94,7 +94,7 @@ def main(args):  # pylint: disable=too-many-branches
         results = engine.search(args['query'], args['page'])
         display(results, term, type=args.get('type'), rank=args.get('rank'))
     except NoResultsOrTrafficError as exc:
-        print('\n', f'{term.red(str(exc))}')
+        print('\n', '{}'.format(term.red(str(exc))))
 
 
 def runner():
