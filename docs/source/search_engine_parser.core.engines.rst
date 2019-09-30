@@ -12,6 +12,14 @@ search\_engine\_parser.core.engines.aol module
    :undoc-members:
    :show-inheritance:
 
+search\_engine\_parser.core.engines.ask module
+----------------------------------------------
+
+.. automodule:: search_engine_parser.core.engines.ask
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 search\_engine\_parser.core.engines.baidu module
 ------------------------------------------------
 
@@ -48,6 +56,22 @@ search\_engine\_parser.core.engines.google module
 -------------------------------------------------
 
 .. automodule:: search_engine_parser.core.engines.google
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+search\_engine\_parser.core.engines.googlescholar module
+--------------------------------------------------------
+
+.. automodule:: search_engine_parser.core.engines.googlescholar
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+search\_engine\_parser.core.engines.myanimelist module
+------------------------------------------------------
+
+.. automodule:: search_engine_parser.core.engines.myanimelist
    :members:
    :undoc-members:
    :show-inheritance:

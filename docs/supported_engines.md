@@ -81,4 +81,10 @@ Below is the list of supported engines with their summaries
 <td>MyAnimeList</td>
 <td>titles, links, descriptions, number of episodes, type of result (OVA, series, movie, etc.), number of episodes</td>
 </tr>
+
+<tr>
+<td>13</td>
+<td>GoogleScholar</td>
+<td>titles, links, descriptions, type of results ([BOOK], [CITATION], etc.), links of files, </td>
+</tr>
 </table>
