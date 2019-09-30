@@ -44,7 +44,11 @@ View all [supported engines](https://github.com/bisoncorps/search-engine-parser/
 ## Installation
 
 ```bash
+    # install only package dependencies
     pip install search-engine-parser
+
+    # install with command line interface dependencies
+    pip install "search-engine-parser[pysearch]"
 ```
 
 ## Development
@@ -59,7 +63,7 @@ Create virtual environment and install requirements
 
 ```bash
     mkvirtualenv search_engine_parser
-    pip install -r requirements-dev.txt
+    pip install -r requirements/dev.txt
 ```
 
 

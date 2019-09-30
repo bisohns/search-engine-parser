@@ -5,10 +5,12 @@ VERSION="$(python setup.py --version)"
 echo "${VERSION}"
 
 # install python package
-pip install search-engine-parser=="${VERSION}"
+pip install 'search-engine-parser[pysearch]=="${VERSION}"'
 
 # run the cli version to get a result
 python -m search_engine_parser.core.cli --engine bing search --query "Preaching to the choir" --type descriptions
+
+pysearch -e youtube search -q "NoCopyrightSounds"
 
 if [ $? -eq 0 ]; then
     echo "Package works as expected"
