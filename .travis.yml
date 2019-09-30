@@ -8,7 +8,7 @@ python:
 
 # Command to install dependencies.
 install:
-  - pip install -r requirements-dev.txt
+  - pip install -r requirements/dev.txt
 
 # Build script (If successfully built - no errors)
 script:

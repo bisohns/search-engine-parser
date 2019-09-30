@@ -5,11 +5,13 @@ from setuptools.command.install import install
 from search_engine_parser import __version__ as VERSION
 
 CURRENT_DIR = os.getcwd()
-REQUIREMENTS = 'requirements.txt'
-requires = [line.strip('\n') for line in open(REQUIREMENTS).readlines()]
+REQUIREMENTS = 'requirements/main.txt'
+CLI_REQUIREMENTS = 'requirements/cli.txt'
+REQUIREMENTS = [line.strip('\n') for line in open(REQUIREMENTS).readlines()]
+CLI_REQUIREMENTS = [line.strip('\n') for line in open(CLI_REQUIREMENTS).readlines()]
 
 with open("README.md", "r") as fh:
-    long_description = fh.read()
+    LONG_DESCRIPTION = fh.read()
 
 setuptools.setup(
     name="search-engine-parser",
@@ -19,8 +21,11 @@ setuptools.setup(
     description="scrapes search engine pages for query titles, descriptions and links",
     url="https://github.com/bisoncorps/search-engine-parser",
     packages=setuptools.find_packages(),
-    install_requires=requires,
-    long_description=long_description,
+    install_requires=REQUIREMENTS,
+    extra_requires={
+        "pysearch": CLI_REQUIREMENTS,
+    },
+    long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
     license="MIT",
     keywords='\
@@ -35,11 +40,11 @@ setuptools.setup(
         github \
         baidu ' ,
     entry_points={
-                    'console_scripts': 
-                    [
-                         'pysearch=search_engine_parser.core.cli:runner'
-                    ]
-                  },
+        'console_scripts':
+            [
+                'pysearch=search_engine_parser.core.cli:runner'
+            ]
+        },
     classifiers=(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
