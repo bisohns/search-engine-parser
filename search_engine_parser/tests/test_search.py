@@ -5,6 +5,7 @@
 from search_engine_parser.core import (
     YahooSearch,
     GoogleSearch,
+    GoogleScholarSearch,
     BingSearch,
     DuckDuckGoSearch,
     AolSearch,
@@ -29,6 +30,16 @@ class GoogleEngineTest(EngineTestBase, EngineTests):
         self.assertTrue(len(self.results['titles']) >= 9)
         self.assertTrue(len(self.results['links']) >= 9)
         self.assertTrue(len(self.results['descriptions']) >= 9)
+
+class GoogleScholarEngineTest(EngineTestBase, EngineTests):
+    engine_class = GoogleScholarSearch
+
+    def test_returned_results(self):
+        self.assertTrue(len(self.results['titles']) >= 10)
+        self.assertTrue(len(self.results['links']) >= 10)
+        self.assertTrue(len(self.results['descriptions']) >= 10)
+        self.assertTrue(len(self.results['result_types']) >= 10)
+        self.assertTrue(len(self.results['files_links']) >= 10)
 
 
 class BingEngineTest(EngineTestBase, EngineTests):
