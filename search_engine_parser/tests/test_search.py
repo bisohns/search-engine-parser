@@ -38,6 +38,11 @@ class BingEngineTest(EngineTestBase, EngineTests):
 class AolSearchTest(EngineTestBase, EngineTests):
     engine_class = AolSearch
 
+    def test_returned_results(self):
+        self.assertTrue(len(self.results['titles']) >= 9)
+        self.assertTrue(len(self.results['links']) >= 9)
+        self.assertTrue(len(self.results['descriptions']) >= 9)
+
 
 class DuckDuckGoSearchTest(EngineTestBase, EngineTests):
     engine_class = DuckDuckGoSearch
@@ -65,9 +70,9 @@ class BaiduSearchTest(EngineTestBase, EngineTests):
     engine_class = BaiduSearch
 
     def test_returned_results(self):
-        self.assertTrue(len(self.results['titles']) >= 9)
-        self.assertTrue(len(self.results['links']) >= 9)
-        self.assertTrue(len(self.results['descriptions']) >= 9)
+        self.assertTrue(len(self.results['titles']) >= 8)
+        self.assertTrue(len(self.results['links']) >= 8)
+        self.assertTrue(len(self.results['descriptions']) >= 8)
 
 
 class GithubSearchTest(EngineTestBase, EngineTests):

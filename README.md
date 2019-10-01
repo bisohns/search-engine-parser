@@ -26,8 +26,7 @@ View all [supported engines](https://github.com/bisoncorps/search-engine-parser/
     - [Command line](#command-line)
   - [Code of Conduct](#code-of-conduct)
   - [Contribution](#contribution)
-  - [License (MIT)](#license-mit)
-
+  - [License (MIT)](#license-mit) 
 ## Popular Supported Engines
 
 Some of the popular search engines include:
@@ -45,6 +44,8 @@ View all [supported engines](https://github.com/bisoncorps/search-engine-parser/
 
 ```bash
     pip install search-engine-parser
+    # Installs `pysearch` cli  tool
+    pip install "search-engine-parser[cli]"
 ```
 
 ## Development
@@ -59,7 +60,7 @@ Create virtual environment and install requirements
 
 ```bash
     mkvirtualenv search_engine_parser
-    pip install -r requirements-dev.txt
+    pip install -r requirements/dev.txt
 ```
 
 

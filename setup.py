@@ -1,16 +1,16 @@
 import re
 import setuptools
 
-REQUIREMENTS = 'requirements/main.txt'
-CLI_REQUIREMENTS = 'requirements/cli.txt'
-
 REQUIRED_PYTHON = (3, 5)
 
-requires = [line.strip('\n') for line in open(REQUIREMENTS).readlines()]
-requires_cli = [line.strip('\n') for line in open(CLI_REQUIREMENTS).readlines()]
+# Load requirements
+REQUIREMENTS = 'requirements/main.txt'
+CLI_REQUIREMENTS = 'requirements/cli.txt'
+REQUIREMENTS = [line.strip('\n') for line in open(REQUIREMENTS).readlines()]
+CLI_REQUIREMENTS = [line.strip('\n') for line in open(CLI_REQUIREMENTS).readlines()]
 
 with open("README.md", "r") as fh:
-    long_description = fh.read()
+    LONG_DESCRIPTION = fh.read()
 
 # Trying to load version directly from `search-engine-parser` module attempts
 # to load __init__.py which will try to load other libraries not yet installed
@@ -25,12 +25,12 @@ setuptools.setup(
     description="scrapes search engine pages for query titles, descriptions and links",
     url="https://github.com/bisoncorps/search-engine-parser",
     project_urls={
-        "documentation":"https://search-engine-parser.readthedocs.io/en/latest",
-        "source": "https://github.com/bisoncorps/search-engine-parser",
+        "Documentation":"https://search-engine-parser.readthedocs.io/en/latest",
+        "Source": "https://github.com/bisoncorps/search-engine-parser",
     },
     packages=setuptools.find_packages(),
-    install_requires=requires,
-    long_description=long_description,
+    install_requires=REQUIREMENTS,
+    long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
     license="MIT",
     keywords='\
@@ -54,10 +54,11 @@ setuptools.setup(
     ],
     package_data={
         '': ['*.*'],
+        'requirements': ['*.*'],
     },
     include_package_data=True,
     extras_require={
-        'cli': requires_cli
+        'cli': CLI_REQUIREMENTS
     },
     python_requires='>={}.{}'.format(*REQUIRED_PYTHON),
 )
