@@ -23,10 +23,10 @@ deploy:
   provider: pypi
   user: "deven96"
   password: $PYPI_PASSWORD
-  on:
-    branch: master
   condition: $TRAVIS_TAG =~ ^v[0-9]+\.[0-9]+\.[0-9]+
   skip_existing: true
+  on:
+    branch: master
 
 after_deploy:
   - ./scripts/post_deploy_test.sh

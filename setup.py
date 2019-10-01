@@ -22,7 +22,7 @@ setuptools.setup(
     url="https://github.com/bisoncorps/search-engine-parser",
     packages=setuptools.find_packages(),
     install_requires=REQUIREMENTS,
-    extra_requires={
+    extras_require={
         "pysearch": CLI_REQUIREMENTS,
     },
     long_description=LONG_DESCRIPTION,
