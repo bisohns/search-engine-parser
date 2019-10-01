@@ -1,8 +1,8 @@
 -r main.txt
--r cli.txt
-pprint==0.1
-sphinx==2.2.0
-sphinx-rtd-theme==0.4.3
-m2r==0.2.1
-pytest==5.1.1
-pylint==2.3.1
+pprint
+sphinx
+sphinx-rtd-theme
+m2r
+pytest
+blessed
+pylint

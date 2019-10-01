@@ -43,7 +43,6 @@ class AolSearchTest(EngineTestBase, EngineTests):
         self.assertTrue(len(self.results['links']) >= 9)
         self.assertTrue(len(self.results['descriptions']) >= 9)
 
-
 class DuckDuckGoSearchTest(EngineTestBase, EngineTests):
     engine_class = DuckDuckGoSearch
 
