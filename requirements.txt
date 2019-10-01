@@ -1,4 +1,0 @@
-lxml
-aiohttp
-beautifulsoup4
-blessed
