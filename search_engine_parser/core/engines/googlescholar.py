@@ -36,13 +36,13 @@ class GoogleScholarSearch(BaseSearch):
         if link_tag:
             raw_link = link_tag.get('href')
         else:
-            raw_link = None
+            raw_link = ''
 
         desc = single_result.find('div', class_='gs_rs')
         if desc:
             desc = desc.text
         else:
-            desc = None
+            desc = ''
 
         title = r_elem.text
 
@@ -50,7 +50,7 @@ class GoogleScholarSearch(BaseSearch):
         if t_elem:
             result_type = t_elem.text
         else:
-            result_type = None
+            result_type = ''
 
         f_elem = single_result.find('div', class_='gs_or_ggsm')
         if f_elem:
@@ -58,9 +58,9 @@ class GoogleScholarSearch(BaseSearch):
             if flink_tag:
                 file_link = flink_tag.get('href')
             else:
-                file_link = None
+                file_link = ''
         else:
-            file_link = None
+            file_link = ''
 
         title = re.sub(r'^[\[\w+\]]+ ', '', title)
 
