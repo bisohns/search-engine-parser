@@ -26,7 +26,8 @@ If applicable, add screenshots to help explain your problem.
 **Desktop (please complete the following information):**
  - OS: [e.g. Windows]
  - Python Version [e.g. 3.6.5]
- - Search-engine-parser Version  [e.g 0.5.1]
+ - Search-engine-parser version [e.g. 0.5.1]
+
 
 **Additional context**
 Add any other context about the problem here.
