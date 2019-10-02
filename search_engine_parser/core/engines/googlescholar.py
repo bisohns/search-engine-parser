@@ -2,8 +2,8 @@
 		Parser for google scholar search results
 """
 
-import re
 from search_engine_parser.core.base import BaseSearch
+import re
 
 class GoogleScholarSearch(BaseSearch):
     """
