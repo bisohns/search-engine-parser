@@ -97,6 +97,7 @@ class YoutubeSearchTest(EngineTestBase, EngineTests):
         self.assertTrue(len(self.results['links']) >= 10)
         self.assertTrue(len(self.results['descriptions']) >= 10)
 
+
 class MyAnimeListSearchTest(EngineTestBase, EngineTests):
     engine_class = MyAnimeListSearch
 
