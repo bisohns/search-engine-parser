@@ -9,7 +9,7 @@
 [![Build Status](https://travis-ci.com/bisoncorps/search-engine-parser.svg?branch=master)](https://travis-ci.com/bisoncorps/search-engine-parser)
 [![Documentation Status](https://readthedocs.org/projects/search-engine-parser/badge/?version=latest)](https://search-engine-parser.readthedocs.io/en/latest/?badge=latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors)
 <hr/>
 
 Package to query popular search engines and scrape for result titles, links and descriptions. Aims to scrape the widest range of search engines.
@@ -192,6 +192,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/PalAditya"><img src="https://avatars2.githubusercontent.com/u/25523604?v=4" width="100px;" alt="Aditya Pal"/><br /><sub><b>Aditya Pal</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/commits?author=PalAditya" title="Tests">⚠️</a> <a href="https://github.com/bisoncorps/search-engine-parser/commits?author=PalAditya" title="Code">💻</a> <a href="https://github.com/bisoncorps/search-engine-parser/commits?author=PalAditya" title="Documentation">📖</a></td>
     <td align="center"><a href="http://energized.pro"><img src="https://avatars1.githubusercontent.com/u/27774996?v=4" width="100px;" alt="Avinash Reddy"/><br /><sub><b>Avinash Reddy</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/issues?q=author%3AAvinashReddy3108" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/Iamdavidonuh"><img src="https://avatars3.githubusercontent.com/u/37768509?v=4" width="100px;" alt="David Onuh"/><br /><sub><b>David Onuh</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/commits?author=Iamdavidonuh" title="Code">💻</a> <a href="https://github.com/bisoncorps/search-engine-parser/commits?author=Iamdavidonuh" title="Tests">⚠️</a></td>
+    <td align="center"><a href="http://simakis.me"><img src="https://avatars2.githubusercontent.com/u/8322266?v=4" width="100px;" alt="Panagiotis Simakis"/><br /><sub><b>Panagiotis Simakis</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/commits?author=sp1thas" title="Code">💻</a> <a href="https://github.com/bisoncorps/search-engine-parser/commits?author=sp1thas" title="Tests">⚠️</a></td>
   </tr>
 </table>
 
