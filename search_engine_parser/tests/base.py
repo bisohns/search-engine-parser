@@ -48,3 +48,14 @@ class EngineTests:
     def test_links(self):
         for link in self.results['links']:
             self.assertTrue(validate_url(link))
+
+    def test_results_length_are_the_same(self):
+        """ Tests if returned result items are equal. 
+        :param args: a list/tuple of other keys returned
+
+        This should be overwritten for Engine that return more items
+        """
+        items = self.results.keys()
+        items_set = set(map(lambda x: len(self.results[x]), items))
+
+        self.assertTrue(len(items_set) == 1)
