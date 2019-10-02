@@ -5,6 +5,7 @@
 from search_engine_parser.core.base import BaseSearch
 import re
 
+
 class GoogleScholarSearch(BaseSearch):
     """
     Searches Google Scholar for string
