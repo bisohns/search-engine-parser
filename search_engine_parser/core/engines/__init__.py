@@ -1,4 +1,5 @@
 from .google import GoogleSearch
+from .googlescholar import GoogleScholarSearch
 from .yahoo import YahooSearch
 from .bing import BingSearch
 from .duckduckgo import DuckDuckGoSearch
