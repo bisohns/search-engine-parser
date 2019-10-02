@@ -67,6 +67,16 @@
         "code",
         "test"
       ]
+    },
+    {
+      "login": "sp1thas",
+      "name": "Panagiotis Simakis",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/8322266?v=4",
+      "profile": "http://simakis.me",
+      "contributions": [
+        "code",
+        "test"
+      ]
     }
   ],
   "contributorsPerLine": 7,
