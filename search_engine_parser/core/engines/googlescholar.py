@@ -2,8 +2,8 @@
 		Parser for google scholar search results
 """
 
-from search_engine_parser.core.base import BaseSearch
 import re
+from search_engine_parser.core.base import BaseSearch
 
 
 class GoogleScholarSearch(BaseSearch):
@@ -12,8 +12,9 @@ class GoogleScholarSearch(BaseSearch):
     """
     name = "GoogleScholar"
     search_url = "https://scholar.google.gr/scholar?start={page}&q={query}&hl=en"
-    summary = "\tGoogle Scholar is a freely accessible web search engine that indexes the full text" \
-              " or metadata of scholarly literature across an array of publishing formats and disciplines."
+    summary = "\tGoogle Scholar is a freely accessible web search engine that indexes the full "\
+            "text or metadata of scholarly literature across an array of publishing formats and "\
+            "disciplines."
 
     def parse_soup(self, soup):
         """
