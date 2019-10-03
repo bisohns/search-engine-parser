@@ -48,7 +48,7 @@ class GitHubSearch(BaseSearch):
         lang = stars_and_lang_div.find(
             'span', itemprop="programmingLanguage").text
         stars = stars_and_lang_div.find('a', class_='muted-link').text.strip()
-
+        
         desc = desc.text
         title = "{title}\t {lang}\t Stars-{stars}".format(
             title=title, lang=lang, stars=stars)

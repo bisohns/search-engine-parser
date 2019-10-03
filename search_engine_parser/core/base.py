@@ -76,7 +76,7 @@ class BaseSearch:
         :type query: str
         :rtype: str
         """
-        return query.replace(" ", "%20")
+        return query.replace(" ", "%20").replace(":", "%3A")
 
     @staticmethod
     async def get_source(url):
@@ -123,13 +123,17 @@ class BaseSearch:
         html = await self.get_source(url)
         return BeautifulSoup(html, 'lxml')
 
-    def get_search_url(self, query=None, page=None):
+    def get_search_url(self, query=None, page=None, **kwargs):
         """
         Return a formatted search url
         """
         # Some URLs use offsets
         offset = (page * 10) - 9
-        return self.search_url.format(query=query, page=page, offset=offset)
+        for key, value in kwargs.items():
+            query += f" {key}:{value}"
+        parsed_query = self.parse_query(query)
+        print(self.search_url.format(query=parsed_query, page=page, offset=offset))
+        return self.search_url.format(query=parsed_query, page=page, offset=offset)
 
     def get_results(self, soup):
         """ Get results from soup"""
@@ -144,7 +148,7 @@ class BaseSearch:
         search_results = self.parse_result(results)
         return search_results
 
-    def search(self, query=None, page=None):
+    def search(self, query=None, page=None, **kwargs):
         """
         Query the search engine
 
@@ -154,15 +158,13 @@ class BaseSearch:
         :type page: int
         :return: dictionary. Containing titles, links, netlocs and descriptions.
         """
-        parsed_query = self.parse_query(query)
 
         # Get search Page Results
         loop = asyncio.get_event_loop()
         soup = loop.run_until_complete(
             self.get_soup(
                 self.get_search_url(
-                    parsed_query, page)))
-
+                    query, page, **kwargs)))
         return self.get_results(soup)
 
     async def async_search(self, query=None, page=None, callback=None):
