@@ -25,6 +25,7 @@ class AolSearch(BaseSearch):
     def parse_single_result(self, single_result):
         """
         Parses the source code to return
+        
         :param single_result: single result found in <div class="algo-sr">
         :type single_result: `bs4.element.ResultSet`
         :return: parsed title, link and description of single result
