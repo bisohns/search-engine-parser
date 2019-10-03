@@ -6,17 +6,17 @@ from search_engine_parser.core.base import BaseSearch
 
 class StackOverflowSearch(BaseSearch):
     """
-    Searches Aol for string
+    Searches StackOverflow for string
     """
     name = "StackOverflow"
     base_url = "https://stackoverflow.com"
     search_url = base_url + "/search?q={query}&page={page}&pagesize=15"
-    summary = "\t GitHub is an American company that provides hosting for software development"\
-        "version control using Git. It is a subsidiary of Microsoft, which acquired the company"\
-        " in 2018 for $7.5 billion. It offers all of the distributed version control and source "\
-        "code management (SCM) functionality of Git as well as adding its own features "\
-        "As of January 2019 Stack Overflow has over 10 million registered users, and it exceeded "\
-        "16 million questions in mid 2018."
+    summary = "\tStack Overflow is a question and answer site for professional and enthusiast "\
+              "programmers.\n\tIt is a privately held website, the flagship site of the Stack "\
+              "Exchange Network, created in 2008 by Jeff Atwood and Joel Spolsky.\n\tIt features "
+              "questions and answers on a wide range of topics in computer programming. It was "\
+              "created to be a more open alternative to earlier question and answer sites "\
+              "such as Experts-Exchange"
 
     def parse_soup(self, soup):
         """
@@ -28,6 +28,7 @@ class StackOverflowSearch(BaseSearch):
     def parse_single_result(self, single_result):
         """
         Parses the source code to return
+        
         :param single_result: single result found in <div class="summary">
         :type single_result: `bs4.element.ResultSet`
         :return: parsed title, link and description of single result
