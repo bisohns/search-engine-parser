@@ -77,6 +77,15 @@
         "code",
         "test"
       ]
+    },
+    {
+      "login": "reiarthur",
+      "name": "reiarthur",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/20190646?v=4",
+      "profile": "https://github.com/reiarthur",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
