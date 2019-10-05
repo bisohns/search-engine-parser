@@ -80,6 +80,8 @@ def main(args):  # pylint: disable=too-many-branches
         engine_class = MyAnimeListSearch
     elif engine == 'googlescholar':
         engine_class = GoogleScholarSearch
+    elif engine == 'coursera':
+        engine_class = CourseraSearch
     else:
         sys.exit('Engine < {} > does not exist'.format(engine))
 

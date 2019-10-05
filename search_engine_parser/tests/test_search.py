@@ -15,7 +15,9 @@ from search_engine_parser.core import (
     GitHubSearch,
     YouTubeSearch,
     MyAnimeListSearch,
-    AskSearch)
+    AskSearch,
+    CourseraSearch
+)
 from .base import EngineTestBase, EngineTests
 
 
@@ -109,3 +111,16 @@ class AskEngineSearchTest(EngineTestBase, EngineTests):
         self.assertTrue(len(self.results['titles']) >= 8)
         self.assertTrue(len(self.results['links']) >= 8)
         self.assertTrue(len(self.results['descriptions']) >= 8)
+
+
+class CourseraEngineSearchTest(EngineTestBase, EngineTests):
+    engine_class = CourseraSearch
+
+    def test_returned_results(self):
+        self.assertTrue(len(self.results['titles']) >= 8)
+        self.assertTrue(len(self.results['links']) >= 8)
+        self.assertTrue(len(self.results['ratings_avg']) >= 8)
+        self.assertTrue(len(self.results['ratings_count']) >= 8)
+        self.assertTrue(len(self.results['partners']) >= 8)
+        self.assertTrue(len(self.results['enrolments_numbers']) >= 8)
+        self.assertTrue(len(self.results['difficulties']) >= 8)
