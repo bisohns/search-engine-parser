@@ -46,16 +46,13 @@ class YouTubeSearch(BaseSearch):
             ref_link = title_tag.get('href')
             link = self.base_url + ref_link
 
-            desc_text = single_result.find(
+            desc = single_result.find(
                 'div', class_="yt-lockup-description").text
             channel_name = single_result.find(
                 'a', class_='yt-uix-sessionlink spf-link').text
             views_and_upload_date = ul_tag.find_all('li')
             upload_date = views_and_upload_date[0].text
             views = views_and_upload_date[1].text
-            desc = "{} \tUploaded-{} \t{} \n{}".format(
-                views, upload_date, duration, desc_text)
-            title = "{} \n\tChannel - {}".format(title, channel_name)
             if title and link and desc:
                 rdict = {
                     "titles": title,
@@ -74,7 +71,6 @@ class YouTubeSearch(BaseSearch):
                     ref_link = i.get("href")
                 elif i.get("href").startswith("/user"):
                     channel_name = i.text
-            title = "{} \n\tChannel - {}".format(title, channel_name)
             link = self.base_url + ref_link
             desc = single_result.find(
                 'span', class_='accessible-description').text
@@ -85,5 +81,8 @@ class YouTubeSearch(BaseSearch):
                     "links": link,
                     "descriptions": desc,
                     "channels": channel_name,
+                    "durations": None,
+                    "views": None,
+                    "upload_dates": None,
                 }
         return rdict
