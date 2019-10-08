@@ -13,7 +13,7 @@ class StackOverflowSearch(BaseSearch):
     search_url = base_url + "/search?q={query}&page={page}&pagesize=15"
     summary = "\tStack Overflow is a question and answer site for professional and enthusiast "\
               "programmers.\n\tIt is a privately held website, the flagship site of the Stack "\
-              "Exchange Network, created in 2008 by Jeff Atwood and Joel Spolsky.\n\tIt features "
+              "Exchange Network, created in 2008 by Jeff Atwood and Joel Spolsky.\n\tIt features "\
               "questions and answers on a wide range of topics in computer programming. It was "\
               "created to be a more open alternative to earlier question and answer sites "\
               "such as Experts-Exchange"

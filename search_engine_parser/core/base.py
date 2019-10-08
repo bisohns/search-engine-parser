@@ -63,7 +63,6 @@ class BaseSearch:
                     else:
                         search_results[key].append(rdict[key])
             except Exception: #pylint: disable=invalid-name, broad-except
-                # print(e)
                 pass
         return search_results
 
@@ -129,11 +128,14 @@ class BaseSearch:
         """
         # Some URLs use offsets
         offset = (page * 10) - 9
-        for key, value in kwargs.items():
-            query += f" {key}:{value}"
-        parsed_query = self.parse_query(query)
-        print(self.search_url.format(query=parsed_query, page=page, offset=offset))
-        return self.search_url.format(query=parsed_query, page=page, offset=offset)
+        type_ = self.keywords.get("type", None)
+
+        return self.search_url.format(
+            query=query,
+            page=page,
+            offset=offset,
+            type_=type_,
+            )
 
     def get_results(self, soup):
         """ Get results from soup"""
@@ -158,7 +160,9 @@ class BaseSearch:
         :type page: int
         :return: dictionary. Containing titles, links, netlocs and descriptions.
         """
-
+        parsed_query = self.parse_query(query)
+        # save kwargs as self variable
+        self.keywords = kwargs
         # Get search Page Results
         loop = asyncio.get_event_loop()
         soup = loop.run_until_complete(
@@ -167,7 +171,7 @@ class BaseSearch:
                     query, page, **kwargs)))
         return self.get_results(soup)
 
-    async def async_search(self, query=None, page=None, callback=None):
+    async def async_search(self, query=None, page=None, callback=None, **kwargs):
         """
         Query the search engine but in async mode
 
@@ -182,6 +186,7 @@ class BaseSearch:
         # TODO callback should be called
         if callback:
             pass
+        self.keywords = kwargs        
         parsed_query = self.parse_query(query)
         soup = await self.get_soup(self.get_search_url(parsed_query, page))
         return self.get_results(soup)
