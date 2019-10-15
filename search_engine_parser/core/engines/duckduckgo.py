@@ -10,7 +10,7 @@ class DuckDuckGoSearch(BaseSearch):
     """
     name = "DuckDuckGo"
     base_url = "https://www.duckduckgo.com"
-    search_url = "https://www.duckduckgo.com/html/?q={query}"
+    search_url = "https://www.duckduckgo.com/html/?q={query}&s={start}&dc={offset}&v=l&o=json&api=/d.js"
     summary = "\tHas a number of advantages over the other search engines. \n\tIt has a clean "\
         "interface, it does not track users, it is not fully loaded with ads and has a number "\
         "of very nice features (only one page of results, you can search directly other web "\
@@ -50,3 +50,21 @@ class DuckDuckGoSearch(BaseSearch):
             "descriptions": desc,
         }
         return rdict
+
+    def get_search_url(self, query=None, page=None, **kwargs):
+        """
+        Return a formatted search url
+        """
+        # Start value for the page
+        start = 0 if (page < 2) else (((page-1) * 50) - 20)
+
+        type_ = self.keywords.get("type", None)
+
+        print("\t----Ashok----"+str(start))
+
+        return self.search_url.format(
+            query=query,
+            start=start,
+            offset=start-1,
+            type_=type_,
+            )
