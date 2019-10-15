@@ -60,8 +60,6 @@ class DuckDuckGoSearch(BaseSearch):
 
         type_ = self.keywords.get("type", None)
 
-        print("\t----Ashok----"+str(start))
-
         return self.search_url.format(
             query=query,
             start=start,
