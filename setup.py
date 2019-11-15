@@ -9,7 +9,7 @@ CLI_REQUIREMENTS = 'requirements/cli.txt'
 REQUIREMENTS = [line.strip('\n') for line in open(REQUIREMENTS).readlines()]
 CLI_REQUIREMENTS = [line.strip('\n') for line in open(CLI_REQUIREMENTS).readlines()]
 
-with open("README.md", "r") as fh:
+with open("README.md", "r", encoding="utf8") as fh:
     LONG_DESCRIPTION = fh.read()
 
 # Trying to load version directly from `search-engine-parser` module attempts
