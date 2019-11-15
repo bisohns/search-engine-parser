@@ -9,7 +9,7 @@
 [![Build Status](https://travis-ci.com/bisoncorps/search-engine-parser.svg?branch=master)](https://travis-ci.com/bisoncorps/search-engine-parser)
 [![Documentation Status](https://readthedocs.org/projects/search-engine-parser/badge/?version=latest)](https://search-engine-parser.readthedocs.io/en/latest/?badge=latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors)
 <hr/>
 
 Package to query popular search engines and scrape for result titles, links and descriptions. Aims to scrape the widest range of search engines.
@@ -197,6 +197,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/reiarthur"><img src="https://avatars2.githubusercontent.com/u/20190646?v=4" width="100px;" alt="reiarthur"/><br /><sub><b>reiarthur</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/commits?author=reiarthur" title="Code">💻</a></td>
     <td align="center"><a href="http://ashokkumarta.blogspot.com/"><img src="https://avatars0.githubusercontent.com/u/5450267?v=4" width="100px;" alt="Ashokkumar TA"/><br /><sub><b>Ashokkumar TA</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/commits?author=ashokkumarta" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ateuber"><img src="https://avatars2.githubusercontent.com/u/44349054?v=4" width="100px;" alt="Andreas Teuber"/><br /><sub><b>Andreas Teuber</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/commits?author=ateuber" title="Code">💻</a></td>
   </tr>
 </table>
 
