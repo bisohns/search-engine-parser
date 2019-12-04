@@ -11,3 +11,20 @@ from .github import GitHubSearch
 from .ask import AskSearch
 from .youtube import YouTubeSearch
 from .myanimelist import MyAnimeListSearch
+
+
+ENGINE_DICT = {
+    'google': GoogleSearch,
+    'yahoo': YahooSearch,
+    'bing': BingSearch,
+    'duckduckgo': DuckDuckGoSearch,
+    'yandex': YandexSearch,
+    'stackoverflow': StackOverflowSearch,
+    'github': GitHubSearch,
+    'ask': AskSearch,
+    'youtube': YouTubeSearch,
+    'baidu': BaiduSearch,
+    'aol': AolSearch,
+    'myanimelist': MyAnimeListSearch,
+    'googlescholar': GoogleScholarSearch,
+}

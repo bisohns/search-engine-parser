@@ -6,7 +6,7 @@ import argparse
 import sys
 from blessed import Terminal
 
-from search_engine_parser.core.engines import * # pylint: disable=wildcard-import
+from search_engine_parser.core.engines import ENGINE_DICT
 from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 
 
@@ -54,33 +54,9 @@ def main(args):  # pylint: disable=too-many-branches
     """
     term = Terminal()
     engine = args['engine']
-    if engine == 'google':
-        engine_class = GoogleSearch
-    elif engine == 'yahoo':
-        engine_class = YahooSearch
-    elif engine == 'bing':
-        engine_class = BingSearch
-    elif engine == 'duckduckgo':
-        engine_class = DuckDuckGoSearch
-    elif engine == 'yandex':
-        engine_class = YandexSearch
-    elif engine == 'stackoverflow':
-        engine_class = StackOverflowSearch
-    elif engine == 'github':
-        engine_class = GitHubSearch
-    elif engine == 'ask':
-        engine_class = AskSearch
-    elif engine == 'youtube':
-        engine_class = YouTubeSearch
-    elif engine == 'baidu':
-        engine_class = BaiduSearch
-    elif engine == 'aol':
-        engine_class = AolSearch
-    elif engine == 'myanimelist':
-        engine_class = MyAnimeListSearch
-    elif engine == 'googlescholar':
-        engine_class = GoogleScholarSearch
-    else:
+    try:
+        engine_class = ENGINE_DICT[engine]
+    except KeyError:
         sys.exit('Engine < {} > does not exist'.format(engine))
 
     # check if in summary mode
