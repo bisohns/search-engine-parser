@@ -45,6 +45,10 @@ class GoogleScholarEngineTest(EngineTestBase, EngineTests):
 class BingEngineTest(EngineTestBase, EngineTests):
     engine_class = BingSearch
 
+    def test_returned_results(self):
+        self.assertTrue(len(self.results['titles']) >= 8)
+        self.assertTrue(len(self.results['links']) >= 8)
+        self.assertTrue(len(self.results['descriptions']) >= 8)
 
 class AolSearchTest(EngineTestBase, EngineTests):
     engine_class = AolSearch

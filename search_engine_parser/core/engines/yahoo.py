@@ -1,7 +1,7 @@
 """@desc
 		Parser for Yahoo search results
 """
-
+import re
 from search_engine_parser.core.base import BaseSearch
 
 
@@ -40,7 +40,10 @@ class YahooSearch(BaseSearch):
 
         title = h3_tag.text
 
-        link = link_tag.get('href')
+        raw_link = link_tag.get('href')
+        re_str = re.findall("/RU=(.+)/RK", raw_link)[0]
+        re_str = re_str.replace("%3a", ":")
+        link = re_str.replace("%2f", "/")
 
         desc = desc.text
         rdict = {
