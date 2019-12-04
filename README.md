@@ -183,7 +183,8 @@ This project is opened under the [MIT 2.0 License](https://github.com/bisoncorps
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
 <table>
   <tr>
     <td align="center"><a href="https://github.com/Rexogamer"><img src="https://avatars0.githubusercontent.com/u/42586271?v=4" width="100px;" alt="Ed Luff"/><br /><sub><b>Ed Luff</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/commits?author=Rexogamer" title="Code">💻</a></td>
@@ -198,9 +199,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/reiarthur"><img src="https://avatars2.githubusercontent.com/u/20190646?v=4" width="100px;" alt="reiarthur"/><br /><sub><b>reiarthur</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/commits?author=reiarthur" title="Code">💻</a></td>
     <td align="center"><a href="http://ashokkumarta.blogspot.com/"><img src="https://avatars0.githubusercontent.com/u/5450267?v=4" width="100px;" alt="Ashokkumar TA"/><br /><sub><b>Ashokkumar TA</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/commits?author=ashokkumarta" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/ateuber"><img src="https://avatars2.githubusercontent.com/u/44349054?v=4" width="100px;" alt="Andreas Teuber"/><br /><sub><b>Andreas Teuber</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/commits?author=ateuber" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/mi096684"><img src="https://avatars3.githubusercontent.com/u/22032932?v=4" width="100px;" alt="mi096684"/><br /><sub><b>mi096684</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/issues?q=author%3Ami096684" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
