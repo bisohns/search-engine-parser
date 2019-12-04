@@ -41,9 +41,9 @@ class EngineTestBase(unittest.TestCase):
 class EngineTests:
 
     def test_returned_results(self):
-        self.assertEqual(len(self.results['titles']), 8)
-        self.assertEqual(len(self.results['links']), 8)
-        self.assertEqual(len(self.results['descriptions']), 8)
+        self.assertTrue(len(self.results['titles']) >= 8)
+        self.assertTrue(len(self.results['links']) >= 8)
+        self.assertTrue(len(self.results['descriptions']) >= 8)
 
     def test_links(self):
         for link in self.results['links']:

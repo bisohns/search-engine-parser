@@ -104,11 +104,21 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "mi096684",
+      "name": "mi096684",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/22032932?v=4",
+      "profile": "https://github.com/mi096684",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
   "projectName": "search-engine-parser",
   "projectOwner": "bisoncorps",
   "repoType": "github",
-  "repoHost": "https://github.com"
+  "repoHost": "https://github.com",
+  "skipCi": true
 }
