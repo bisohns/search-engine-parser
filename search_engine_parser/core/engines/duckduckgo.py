@@ -1,6 +1,7 @@
 """@desc
 		Parser for DuckDuckGo search results
 """
+import re
 from search_engine_parser.core.base import BaseSearch
 
 
@@ -41,7 +42,12 @@ class DuckDuckGoSearch(BaseSearch):
         title = h2.text.strip()
 
         # raw link is of format "/url?q=REAL-LINK&sa=..."
-        link = self.base_url + link_tag.get('href')
+        raw_link = self.base_url + link_tag.get('href')
+        
+        re_str = re.findall("uddg=(.+)", raw_link)[0]
+        re_str = re_str.replace("%3A", ":")
+        link = re_str.replace("%2F", "/")
+        link = link.replace("%2D", "-")
 
         desc = desc.text
         rdict = {
