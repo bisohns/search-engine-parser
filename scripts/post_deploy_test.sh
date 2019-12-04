@@ -5,10 +5,11 @@ VERSION="$(python setup.py --version)"
 echo "${VERSION}"
 
 # install python package
+pip uninstall search-engine-parser -y
 pip install search-engine-parser=="${VERSION}"
 python -c "import search_engine_parser"
 
-pip uninstall search-engine-parser 
+pip uninstall search-engine-parser -y
 
 pip install 'search-engine-parser[cli]=="${VERSION}"'
 
