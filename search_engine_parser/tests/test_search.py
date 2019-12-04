@@ -61,12 +61,6 @@ class AolSearchTest(EngineTestBase, EngineTests):
 class DuckDuckGoSearchTest(EngineTestBase, EngineTests):
     engine_class = DuckDuckGoSearch
 
-    def test_returned_results(self):
-        self.assertTrue(len(self.results['titles']) >= 10)
-        self.assertTrue(len(self.results['links']) >= 10)
-        self.assertTrue(len(self.results['descriptions']) >= 10)
-
-
 class YandexSearchTest(EngineTestBase, EngineTests):
     engine_class = YandexSearch
 
@@ -74,20 +68,8 @@ class YandexSearchTest(EngineTestBase, EngineTests):
 class StackOverFlowSearchTest(EngineTestBase, EngineTests):
     engine_class = StackOverflowSearch
 
-    def test_returned_results(self):
-        self.assertTrue(len(self.results['titles']) >= 15)
-        self.assertTrue(len(self.results['links']) >= 15)
-        self.assertTrue(len(self.results['descriptions']) >= 15)
-
-
 class BaiduSearchTest(EngineTestBase, EngineTests):
     engine_class = BaiduSearch
-
-    def test_returned_results(self):
-        self.assertTrue(len(self.results['titles']) >= 8)
-        self.assertTrue(len(self.results['links']) >= 8)
-        self.assertTrue(len(self.results['descriptions']) >= 8)
-
 
 class GithubSearchTest(EngineTestBase, EngineTests):
     engine_class = GitHubSearch
@@ -96,19 +78,9 @@ class GithubSearchTest(EngineTestBase, EngineTests):
 class YoutubeSearchTest(EngineTestBase, EngineTests):
     engine_class = YouTubeSearch
 
-    def test_returned_results(self):
-        self.assertTrue(len(self.results['titles']) >= 10)
-        self.assertTrue(len(self.results['links']) >= 10)
-        self.assertTrue(len(self.results['descriptions']) >= 10)
-
 class MyAnimeListSearchTest(EngineTestBase, EngineTests):
     engine_class = MyAnimeListSearch
 
 
 class AskEngineSearchTest(EngineTestBase, EngineTests):
     engine_class = AskSearch
-
-    def test_returned_results(self):
-        self.assertTrue(len(self.results['titles']) >= 8)
-        self.assertTrue(len(self.results['links']) >= 8)
-        self.assertTrue(len(self.results['descriptions']) >= 8)
