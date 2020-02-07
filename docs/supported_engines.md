@@ -22,3 +22,4 @@ Below is the list of supported engines with their summaries
 12|MyAnimeList|titles, links, descriptions, number of episodes, type of result (OVA, series, movie, etc.), ratings
 13|GoogleScholar|titles, links, descriptions, type of results ([BOOK], [CITATION], etc.), links of files
 14|GoogleNews|titles, links, descriptions, image links, date, news source
+15|Coursera|titles,links,ratings count, ratings average, partners, difficulties, enrolments numbers

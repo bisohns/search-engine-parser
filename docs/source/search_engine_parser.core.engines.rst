@@ -36,6 +36,14 @@ search\_engine\_parser.core.engines.bing module
    :undoc-members:
    :show-inheritance:
 
+search\_engine\_parser.core.engines.coursera module
+---------------------------------------------------
+
+.. automodule:: search_engine_parser.core.engines.coursera
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 search\_engine\_parser.core.engines.duckduckgo module
 -----------------------------------------------------
 
