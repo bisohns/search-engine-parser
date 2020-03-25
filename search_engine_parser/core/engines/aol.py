@@ -1,7 +1,7 @@
 """@desc
 		Parser for AOL search results
 """
-from search_engine_parser.core.base import BaseSearch
+from search_engine_parser.core.base import BaseSearch, ReturnType
 
 
 class AolSearch(BaseSearch):
@@ -22,7 +22,7 @@ class AolSearch(BaseSearch):
         # find all divs
         return soup.find_all('div', class_='algo-sr')
 
-    def parse_single_result(self, single_result):
+    def parse_single_result(self, single_result, return_type=ReturnType.FULL):
         """
         Parses the source code to return
         
@@ -31,21 +31,19 @@ class AolSearch(BaseSearch):
         :return: parsed title, link and description of single result
         :rtype: dict
         """
+        rdict = {}
         h3_tag = single_result.find('h3')
         link_tag = h3_tag.find('a')
-        caption = single_result.find('div', class_='compText aAbs')
-        desc = caption.find('p', class_='lh-16')
-        # Get the text and link
-        title = link_tag.text
+        if return_type in (ReturnType.FULL, return_type.TITLE):
+            # Get the text and link
+            rdict["titles"] = link_tag.text
 
-        link = link_tag.get('href')
+        if return_type in (ReturnType.FULL, ReturnType.LINK):
+            rdict["links"] = link_tag.get("href")
 
-        desc = desc.text
-        rdict = dict()
-        if title and link and desc:
-            rdict = {
-                "titles": title,
-                "links": link,
-                "descriptions": desc,
-            }
+        if return_type in (ReturnType.FULL, return_type.DESCRIPTION):
+            caption = single_result.find('div', class_='compText aAbs')
+            desc = caption.find('p', class_='lh-16')
+            rdict["descriptions"] = desc.text
+
         return rdict

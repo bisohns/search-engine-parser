@@ -1,7 +1,7 @@
 """@desc
 		Parser for Bing search results
 """
-from search_engine_parser.core.base import BaseSearch
+from search_engine_parser.core.base import BaseSearch, ReturnType
 
 
 class BingSearch(BaseSearch):
@@ -22,7 +22,7 @@ class BingSearch(BaseSearch):
         # find all li tags
         return soup.find_all('li', class_='b_algo')
 
-    def parse_single_result(self, single_result):
+    def parse_single_result(self, single_result, return_type=ReturnType.FULL):
         """
         Parses the source code to return
 
@@ -31,19 +31,20 @@ class BingSearch(BaseSearch):
         :return: parsed title, link and description of single result
         :rtype: dict
         """
+        rdict = {}
         h2_tag = single_result.find('h2')
         link_tag = h2_tag.find('a')
-        caption = single_result.find('div', class_='b_caption')
-        desc = caption.find('p')
-        # Get the text and link
-        title = link_tag.text
 
-        link = link_tag.get('href')
+        if return_type in (ReturnType.FULL, return_type.TITLE):
+            rdict["titles"] = link_tag.text
 
-        desc = desc.text
-        rdict = {
-            "titles": title,
-            "links": link,
-            "descriptions": desc,
-        }
+        if return_type in (ReturnType.FULL, return_type.LINK):
+            link = link_tag.get('href')
+            rdict["links"] = link
+
+        if return_type in (ReturnType.FULL, return_type.DESCRIPTIONS):
+            caption = single_result.find('div', class_='b_caption')
+            desc = caption.find('p')
+            rdict["descriptions"] = desc.text
+
         return rdict

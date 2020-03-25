@@ -13,14 +13,14 @@ class MyAnimeListSearch(BaseSearch):
     name = "MyAnimeList"
 
     search_url = "https://myanimelist.net/anime.php?q={query}&show={offset}"
-    summary = "\tMyAnimeList, often abbreviated as MAL, is an anime and manga social"\ "networking and social cataloging application website."\
+    summary = "\tMyAnimeList, often abbreviated as MAL, is an anime and manga social"\
+        "networking and social cataloging application website."\
         "\n\tThe site provides its users with a list-like system to organize"\
         "and score anime and manga.\n\tIt facilitates finding users who share"\
         "similar tastes and provides a large database on anime and manga.\n\tThe"\
         "site claims to have 4.4 million anime and 775,000 manga entries."\
         "\n\tIn 2015, the site received over 120 million visitors a month."
 
-    """Override get_search_url"""
 
     def get_search_url(self, query=None, page=None):
         """

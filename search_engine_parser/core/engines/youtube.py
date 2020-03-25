@@ -1,7 +1,7 @@
 """@desc
 		Parser for YouTube search results
 """
-from search_engine_parser.core.base import BaseSearch
+from search_engine_parser.core.base import BaseSearch, ReturnType
 
 
 class YouTubeSearch(BaseSearch):
@@ -24,7 +24,7 @@ class YouTubeSearch(BaseSearch):
         # find all ytd-video-renderer tags
         return soup.find_all('div', class_='yt-lockup-content')
 
-    def parse_single_result(self, single_result):
+    def parse_single_result(self, single_result, return_type=ReturnType.FULL):
         """
         Parses the source code to return
 
@@ -33,56 +33,63 @@ class YouTubeSearch(BaseSearch):
         :return: parsed title, link and description of single result
         :rtype: dict
         """
+        rdict = {}
         # pylint: disable=too-many-locals
         title_tag = single_result.find('a', class_='yt-uix-tile-link')
-        # Get the text and link
-        title = title_tag.text
+
+        if return_type in (ReturnType.FULL, return_type.TITLE):
+            # Get the text and link
+            rdict["titles"] = title_tag.text
+            
         # try for single videos
         try:
-            duration = single_result.find(
-                'span', class_='accessible-description').text
-            ul_tag = single_result.find('ul', class_='yt-lockup-meta-info')
+            if return_type in (ReturnType.FULL, ReturnType.LINK):
+                ref_link = title_tag.get('href')
+                link = self.base_url + ref_link
+                rdict["links"] = link
 
-            ref_link = title_tag.get('href')
-            link = self.base_url + ref_link
+            if return_type in (ReturnType.FULL, return_type.DESCRIPTION):
+                desc = single_result.find(
+                    'div', class_="yt-lockup-description").text
+                rdict["descriptions"] = desc
 
-            desc = single_result.find(
-                'div', class_="yt-lockup-description").text
-            channel_name = single_result.find(
-                'a', class_='yt-uix-sessionlink spf-link').text
-            views_and_upload_date = ul_tag.find_all('li')
-            upload_date = views_and_upload_date[0].text
-            views = views_and_upload_date[1].text
-            if title and link and desc:
-                rdict = {
-                    "titles": title,
-                    "links": link,
-                    "descriptions": desc,
+            if return_type in (ReturnType.FULL, ):
+                duration = single_result.find(
+                    'span', class_='accessible-description').text
+                ul_tag = single_result.find('ul', class_='yt-lockup-meta-info')
+
+
+                channel_name = single_result.find(
+                    'a', class_='yt-uix-sessionlink spf-link').text
+                views_and_upload_date = ul_tag.find_all('li')
+                upload_date = views_and_upload_date[0].text
+                views = views_and_upload_date[1].text
+                rdict.update({
                     "channels": channel_name,
                     "durations": duration,
                     "views": views,
                     "upload_dates": upload_date,
-                }
+                })
         except BaseException: # pylint: disable=broad-except
             link_tags = single_result.find_all(
                 'a', class_='yt-uix-sessionlink spf-link')
+            # TODO Optimize calls here so that we don't assign ref_link and channel_name
+            # when we don't need them
             for i in link_tags:
                 if i.get("href").startswith("/playlist"):
                     ref_link = i.get("href")
                 elif i.get("href").startswith("/user"):
                     channel_name = i.text
-            link = self.base_url + ref_link
-            desc = single_result.find(
-                'span', class_='accessible-description').text
-            rdict = dict()
-            if title and link and desc:
-                rdict = {
-                    "titles": title,
-                    "links": link,
-                    "descriptions": desc,
+            if return_type in (ReturnType.FULL, ReturnType.LINK):
+                link = self.base_url + ref_link
+                rdict["links"] = link
+
+            if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):
+                desc = single_result.find(
+                    'span', class_='accessible-description').text
+                rdict["descriptions"] = desc
+            if return_type in (ReturnType.FULL,):
+                rdict.update({
                     "channels": channel_name,
-                    "durations": None,
-                    "views": None,
-                    "upload_dates": None,
-                }
+                })
         return rdict

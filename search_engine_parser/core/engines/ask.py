@@ -1,7 +1,7 @@
 """@desc
 		Parser for ask search results
 """
-from search_engine_parser.core.base import BaseSearch
+from search_engine_parser.core.base import BaseSearch, ReturnType
 
 
 class AskSearch(BaseSearch):
@@ -24,7 +24,7 @@ class AskSearch(BaseSearch):
         # find all class_='PartialSearchResults-item' => each result
         return soup.find_all('div', class_="PartialSearchResults-item")
 
-    def parse_single_result(self, single_result):
+    def parse_single_result(self, single_result, return_type=ReturnType.FULL):
         """
         Parses the source code to return
 
@@ -34,14 +34,16 @@ class AskSearch(BaseSearch):
         :rtype: str, str, str
         """
 
-        title = single_result.find('a').text
-        link = single_result.a["href"]
-        desc = single_result.find(
-            'p', class_="PartialSearchResults-item-abstract").text
-        search_results = {
-            "titles": title,
-            "links": link,
-            "descriptions": desc,
-        }
+        rdict = {}
+        if return_type in (ReturnType.FULL, return_type.TITLE):
+            rdict["titles"] = single_result.find('a').text
 
-        return search_results
+        if return_type in (ReturnType.FULL, return_type.TITLE):
+            rdict["links"] = single_result.a["href"]
+
+        if return_type in (ReturnType.FULL, return_type.TITLE):
+            rdict["descriptions"] = single_result.find(
+                'p', class_="PartialSearchResults-item-abstract").text
+
+
+        return rdict

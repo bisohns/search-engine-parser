@@ -2,7 +2,7 @@
 		Parser for Yahoo search results
 """
 import re
-from search_engine_parser.core.base import BaseSearch
+from search_engine_parser.core.base import BaseSearch, ReturnType
 
 
 class YahooSearch(BaseSearch):
@@ -25,7 +25,7 @@ class YahooSearch(BaseSearch):
         # find all divs
         return soup.find_all('div', class_='Sr')
 
-    def parse_single_result(self, single_result):
+    def parse_single_result(self, single_result, return_type=ReturnType.FULL):
         """
         Parses the source code to return
 
@@ -34,21 +34,23 @@ class YahooSearch(BaseSearch):
         :return: parsed title, link and description of single result
         :rtype: dict
         """
+        rdict = {}
         h3_tag = single_result.find('h3', class_='title')
-        link_tag = h3_tag.find('a')
-        desc = single_result.find('p', class_='lh-16')
 
-        title = h3_tag.text
+        if return_type in (ReturnType.FULL, return_type.TITLE):
+            title = h3_tag.text
+            rdict["titles"] = title
 
-        raw_link = link_tag.get('href')
-        re_str = re.findall("/RU=(.+)/RK", raw_link)[0]
-        re_str = re_str.replace("%3a", ":")
-        link = re_str.replace("%2f", "/")
+        if return_type in (ReturnType.FULL, ReturnType.LINK):
+            link_tag = h3_tag.find('a')
+            raw_link = link_tag.get('href')
+            re_str = re.findall("/RU=(.+)/RK", raw_link)[0]
+            re_str = re_str.replace("%3a", ":")
+            link = re_str.replace("%2f", "/")
+            rdict["links"] = link
 
-        desc = desc.text
-        rdict = {
-            "titles": title,
-            "links": link,
-            "descriptions": desc,
-        }
+        if return_type in (ReturnType.FULL, return_type.DESCRIPTION):
+            desc = single_result.find('p', class_='lh-16')
+            rdict["descriptions"] = desc.text
+
         return rdict

@@ -2,7 +2,7 @@
 		Parser for Yandex search results
 """
 
-from search_engine_parser.core.base import BaseSearch
+from search_engine_parser.core.base import BaseSearch, ReturnType
 
 
 class YandexSearch(BaseSearch):
@@ -26,7 +26,7 @@ class YandexSearch(BaseSearch):
         # find all divs
         return soup.find_all('li', class_="serp-item")
 
-    def parse_single_result(self, single_result):
+    def parse_single_result(self, single_result, return_type=ReturnType.FULL):
         """
         Parses the source code to return
 
@@ -35,23 +35,25 @@ class YandexSearch(BaseSearch):
         :return: parsed title, link and description of single result
         :rtype: str, str, str
         """
+        rdict = {}
         h3_tag = single_result.find('div', class_="organic__url-text")
 
-        link_tag = single_result.find('a')
+        if return_type in (ReturnType.FULL, return_type.TITLE):
+            # Get the text and link
+            title = h3_tag.text
+            # Handle read more type texts
+            index = title.find("Read more")
+            if index >= 0:
+                title = title[0:int(index)]
+            rdict["titles"] = title
 
-        desc = single_result.find('div', class_="organic__content-wrapper")
+        if return_type in (ReturnType.FULL, ReturnType.LINK):
+            link_tag = single_result.find('a')
+            link = link_tag.get('href')
+            rdict["links"] = link
 
-        # Get the text and link
-        title = h3_tag.text
-        # Handle read more type texts
-        index = title.find("Read more")
-        if index >= 0:
-            title = title[0:int(index)]
-        link = link_tag.get('href')
-        desc = desc.text
-        rdict = {
-            "titles": title,
-            "links": link,
-            "descriptions": desc,
-        }
+        if return_type in (ReturnType.FULL, return_type.DESCRIPTION):
+            desc = single_result.find('div', class_="organic__content-wrapper")
+            desc = desc.text
+            rdict["descriptions"] = desc
         return rdict

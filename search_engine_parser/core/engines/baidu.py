@@ -3,7 +3,7 @@
 """
 
 import re
-from search_engine_parser.core.base import BaseSearch
+from search_engine_parser.core.base import BaseSearch, ReturnType
 
 
 class BaiduSearch(BaseSearch):
@@ -39,27 +39,25 @@ class BaiduSearch(BaseSearch):
 
         return soup.find_all('div', {'id': re.compile(r"^\d{1,2}")})
 
-    def parse_single_result(self, single_result):
+    def parse_single_result(self, single_result, return_type=ReturnType.FULL):
         """
         Parses the source code to return
 
-                :param single_result: single result found in div with a numeric id
-                :type single_result: `bs4.element.Tag`
-                :return: parsed title, link and description of single result
-                :rtype: dict
-                """
-        h3_tag = single_result.find('h3')
-        link_tag = single_result.find('a')
+        :param single_result: single result found in div with a numeric id
+        :type single_result: `bs4.element.Tag`
+        :return: parsed title, link and description of single result
+        :rtype: dict
+        """
+        rdict = {}
+        if return_type in (ReturnType.FULL, return_type.TITLE):
+            h3_tag = single_result.find('h3')
+            rdict["title"] = h3_tag.text
 
-        # Get the text and link
-        title = h3_tag.text
-        link = link_tag.get('href')
-        desc = single_result.find('div', class_='c-abstract').text
-        rdict = dict()
-        if title and link and desc:
-            rdict = {
-                "titles": title,
-                "links": link,
-                "descriptions": desc,
-            }
+        if return_type in (ReturnType.FULL, ReturnType.LINK):
+            link_tag = single_result.find('a')
+            # Get the text and link
+            rdict["links"] = link_tag.get('href')
+
+        if return_type in (ReturnType.FULL, return_type.DESCRIPTION):
+            rdict["descriptions"] = single_result.find('div', class_='c-abstract').text
         return rdict

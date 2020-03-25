@@ -1,7 +1,7 @@
 """@desc
 		Parser for AOL search results
 """
-from search_engine_parser.core.base import BaseSearch
+from search_engine_parser.core.base import BaseSearch, ReturnType
 
 
 class StackOverflowSearch(BaseSearch):
@@ -25,7 +25,7 @@ class StackOverflowSearch(BaseSearch):
         # find all divs
         return soup.find_all('div', class_='summary')
 
-    def parse_single_result(self, single_result):
+    def parse_single_result(self, single_result, return_type=ReturnType.FULL):
         """
         Parses the source code to return
         
@@ -34,19 +34,19 @@ class StackOverflowSearch(BaseSearch):
         :return: parsed title, link and description of single result
         :rtype: dict
         """
+        rdict = {}
         h3 = single_result.find('h3') #pylint: disable=invalid-name
         link_tag = h3.find('a')
-        caption = single_result.find('div', class_='excerpt')
-        # Get the text and link
-        title = link_tag.text
+        if return_type in (ReturnType.FULL, return_type.TITLE):
+            # Get the text and link
+            rdict["titles"] = link_tag.text
 
-        ref_link = link_tag.get('href')
-        link = self.base_url + ref_link
+        if return_type in (ReturnType.FULL, return_type.LINK):
+            ref_link = link_tag.get('href')
+            link = self.base_url + ref_link
+            rdict["links"] = link
 
-        desc = caption.text
-        rdict = {
-            "titles": title,
-            "links": link,
-            "descriptions": desc,
-        }
+        if return_type in (ReturnType.FULL, return_type.DESCRIPTIONS):
+            caption = single_result.find('div', class_='excerpt')
+            rdict["descriptions"] = caption.text
         return rdict

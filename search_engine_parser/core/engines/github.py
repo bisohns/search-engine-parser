@@ -1,7 +1,7 @@
 """@desc
 		Parser for GitHub search results
 """
-from search_engine_parser.core.base import BaseSearch
+from search_engine_parser.core.base import BaseSearch, ReturnType
 from search_engine_parser.core.exceptions import IncorrectKeyWord
 
 
@@ -19,7 +19,8 @@ class GitHubSearch(BaseSearch):
         "\n\tAs of May 2019, GitHub reports having over 37 million users and more than 100 million"\
         " repositories (including at least 28 million public repositories), making it the largest "\
         "host of source code in the world."
-    def parse_soup(self, soup):
+
+    def parse_soup(self, soup, **kwargs):
         """
         Parses GitHub for a search query.
         """
@@ -34,7 +35,7 @@ class GitHubSearch(BaseSearch):
             "Issues",
             "Commits",
             "Code")
-        self.type = self.keywords.get("type", None)
+        self.type = kwargs.get("type", None)
         if self.type not in allowed_types:
             raise IncorrectKeyWord("No type <{type_}> exists".format(type_=self.type))
         # find all li tags
@@ -52,7 +53,7 @@ class GitHubSearch(BaseSearch):
         elif self.type == "Commits":
             return soup.find_all('div', class_='commits-list-item')
 
-    def parse_single_result(self, single_result):
+    def parse_single_result(self, single_result, return_type=ReturnType.FULL):
         """
         Parses the source code to return
 

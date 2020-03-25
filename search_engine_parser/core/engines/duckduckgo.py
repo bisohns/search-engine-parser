@@ -2,7 +2,7 @@
 		Parser for DuckDuckGo search results
 """
 import re
-from search_engine_parser.core.base import BaseSearch
+from search_engine_parser.core.base import BaseSearch, ReturnType
 
 
 class DuckDuckGoSearch(BaseSearch):
@@ -25,7 +25,7 @@ class DuckDuckGoSearch(BaseSearch):
         # find all div tags
         return soup.find_all('div', class_='result')
 
-    def parse_single_result(self, single_result):
+    def parse_single_result(self, single_result, return_type=ReturnType.FULL):
         """
         Parses the source code to return
 
@@ -34,27 +34,28 @@ class DuckDuckGoSearch(BaseSearch):
         :return: parsed title, link and description of single result
         :rtype: dict
         """
-        h2 = single_result.find('h2', class_="result__title") #pylint: disable=invalid-name
-        link_tag = single_result.find('a', class_="result__url")
-        desc = single_result.find(class_='result__snippet')
 
-        # Get the text and link
-        title = h2.text.strip()
+        rdict = {}
 
-        # raw link is of format "/url?q=REAL-LINK&sa=..."
-        raw_link = self.base_url + link_tag.get('href')
-        
-        re_str = re.findall("uddg=(.+)", raw_link)[0]
-        re_str = re_str.replace("%3A", ":")
-        link = re_str.replace("%2F", "/")
-        link = link.replace("%2D", "-")
+        if return_type in (ReturnType.FULL, return_type.TITLE):
+            h2 = single_result.find('h2', class_="result__title") #pylint: disable=invalid-name
+            # Get the text and link
+            rdict["titles"] = h2.text.strip()
 
-        desc = desc.text
-        rdict = {
-            "titles": title,
-            "links": link,
-            "descriptions": desc,
-        }
+        if return_type in (ReturnType.FULL, ReturnType.LINK):
+            link_tag = single_result.find('a', class_="result__url")
+            # raw link is of format "/url?q=REAL-LINK&sa=..."
+            raw_link = self.base_url + link_tag.get('href')
+            re_str = re.findall("uddg=(.+)", raw_link)[0]
+            re_str = re_str.replace("%3A", ":")
+            link = re_str.replace("%2F", "/")
+            link = link.replace("%2D", "-")
+            rdict["links"] = link
+
+        if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):
+            desc = single_result.find(class_='result__snippet')
+            rdict["descriptions"] = desc.text
+
         return rdict
 
     def get_search_url(self, query=None, page=None, **kwargs):
@@ -64,7 +65,7 @@ class DuckDuckGoSearch(BaseSearch):
         # Start value for the page
         start = 0 if (page < 2) else (((page-1) * 50) - 20)
 
-        type_ = self.keywords.get("type", None)
+        type_ = kwargs.get("type", None)
 
         return self.search_url.format(
             query=query,
