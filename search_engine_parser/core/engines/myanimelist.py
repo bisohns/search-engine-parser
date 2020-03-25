@@ -3,7 +3,7 @@
 """
 
 import math
-from search_engine_parser.core.base import BaseSearch
+from search_engine_parser.core.base import BaseSearch, ReturnType
 
 
 class MyAnimeListSearch(BaseSearch):
@@ -13,8 +13,7 @@ class MyAnimeListSearch(BaseSearch):
     name = "MyAnimeList"
 
     search_url = "https://myanimelist.net/anime.php?q={query}&show={offset}"
-    summary = "\tMyAnimeList, often abbreviated as MAL, is an anime and manga social"\
-        "networking and social cataloging application website."\
+    summary = "\tMyAnimeList, often abbreviated as MAL, is an anime and manga social"\ "networking and social cataloging application website."\
         "\n\tThe site provides its users with a list-like system to organize"\
         "and score anime and manga.\n\tIt facilitates finding users who share"\
         "similar tastes and provides a large database on anime and manga.\n\tThe"\
@@ -45,7 +44,7 @@ class MyAnimeListSearch(BaseSearch):
             'div',
             class_='js-categories-seasonal js-block-list list').find_all('tr')
 
-    def parse_single_result(self, single_result):
+    def parse_single_result(self, single_result, return_type=ReturnType.FULL):
         """
         Parses the source code to return
 
@@ -56,29 +55,34 @@ class MyAnimeListSearch(BaseSearch):
         """
 
         data = list(single_result.find_all('td'))
+        rdict = {}
 
-        title = data[1].find('strong').text.strip()
+        if return_type in (ReturnType.FULL, return_type.TITLE):
+            title = data[1].find('strong').text.strip()
+            rdict["titles"] = title 
 
-        link_tag = data[1].find('a')
-        link = link_tag.get('href')
+        if return_type in (ReturnType.FULL, ReturnType.LINK):
+            link_tag = data[1].find('a')
+            link = link_tag.get('href')
+            rdict["links"] = title 
 
-        desc = data[1].find('div', class_='pt4').text.strip()
-        desc = desc[0:len(desc) - 13]  # ...Read More is always in desc
+        if return_type in (ReturnType.FULL, return_type.DESCRIPTION):
+            desc = data[1].find('div', class_='pt4').text.strip()
+            desc = desc[0:len(desc) - 13]  # ...Read More is always in desc
+            rdict["descriptions"] = desc
 
-        animetype = data[2].text.strip()
+        if return_type == ReturnType.FULL:
+            animetype = data[2].text.strip()
 
-        episodes = data[3].text.strip()
+            episodes = data[3].text.strip()
 
-        score = data[4].text.strip()
+            score = data[4].text.strip()
 
-        rdict = {
-            "titles": title,
-            "links": link,
-            "descriptions": desc,
-            "episode_count": episodes,
-            "animetypes": animetype,
-            "ratings": score
-        }
+            rdict.update({
+                "episode_count": episodes,
+                "animetypes": animetype,
+                "ratings": score
+            })
         return rdict
 
     def parse_result(self, results):

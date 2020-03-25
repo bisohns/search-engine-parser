@@ -7,45 +7,48 @@ import sys
 from blessed import Terminal
 
 from search_engine_parser.core.engines import ENGINE_DICT
+from search_engine_parser.core.base import ReturnType
 from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 
 
 def display(results, term, **args):
     """ Displays search results
     """
-    def print_one(title, link, desc):
+    def print_one(kwargs):
         """ Print one result to the console """
         # Header
-        print("\t{}".format(term.magenta(title)))
-        print("\t{}".format(link))
-        print("\t-----------------------------------------------------")
-        print(desc, '\n\n')
+        if kwargs.get("titles"):
+            print("\t{}".format(term.magenta(kwargs.pop("titles"))))
+        if kwargs.get("links"):
+            print("\t{}".format(kwargs.pop("links")))
+            print("\t-----------------------------------------------------")
+        if kwargs.get("descriptions"):
+            print(kwargs.pop("descriptions"), "\n")
+        if kwargs.values():
+            for k, v in kwargs.items():
+                if v:
+                    print(k, " : ", v, '\n')
+        print("\n")
+
 
     if args.get('rank') and args["rank"] > 10:
         sys.exit(
             "Results are only limited to 10, specify a different page number instead")
 
-    # Display full details: Header, Link, Description
-    if args["type"] == "full":
-        if not args.get('rank'):
-            for title, link, desc in zip(
-                    results['titles'], results['links'], results['descriptions']):
-                print_one(title, link, desc)
-        else:
-            rank = args["rank"]
-            print_one(
-                results['titles'][rank],
-                results['links'][rank],
-                results['descriptions'][rank])
-
+    if not args.get('rank'):
+        # TODO Some more optimization might be need
+        len_results = 0
+        for i in results:
+            len_results = len(results[i])
+            break
+        for i in range(len_results):
+            result = {k: results[k][i] for k in results}
+            print_one(result)
     else:
-        type_ = args["type"]
-        if not args.get('rank'):
-            for i, result in enumerate(results[type_]):
-                print(i, '-->', result, '\n')
-        else:
-            rank = args["rank"]
-            print(results[type_][rank])
+        rank = args["rank"]
+        result = {k: results[k][rank] for k in results}
+        print_one(result)
+            
 
 
 def main(args):  # pylint: disable=too-many-branches
@@ -69,7 +72,8 @@ def main(args):  # pylint: disable=too-many-branches
     # Initialize search Engine with required params
     engine = engine_class()
     try:
-        results = engine.search(args['query'], args['page'])
+        # Display full details: Header, Link, Description
+        results = engine.search(args['query'], args['page'], return_type=ReturnType(args["type"]))
         display(results, term, type=args.get('type'), rank=args.get('rank'))
     except NoResultsOrTrafficError as exc:
         print('\n', '{}'.format(term.red(str(exc))))

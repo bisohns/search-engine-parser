@@ -3,7 +3,7 @@
 """
 
 import re
-from search_engine_parser.core.base import BaseSearch
+from search_engine_parser.core.base import BaseSearch, ReturnType
 
 
 class GoogleScholarSearch(BaseSearch):
@@ -23,7 +23,7 @@ class GoogleScholarSearch(BaseSearch):
         # find all class_='gs_r gs_or gs_scl' => each result
         return soup.find_all('div', class_='gs_r gs_or gs_scl')
 
-    def parse_single_result(self, single_result):
+    def parse_single_result(self, single_result, return_type=ReturnType.FULL):
         """
         Parses the source code to return
 
@@ -32,44 +32,49 @@ class GoogleScholarSearch(BaseSearch):
         :return: parsed title, link, description, file link, result type of single result
         :rtype: dict
         """
+        rdict = {}
         r_elem = single_result.find('h3', class_='gs_rt')
-        link_tag = r_elem.find('a')
-        if link_tag:
-            raw_link = link_tag.get('href')
-        else:
-            raw_link = ''
+        if return_type in (ReturnType.FULL, ReturnType.LINK):
+            link_tag = r_elem.find('a')
+            if link_tag:
+                raw_link = link_tag.get('href')
+            else:
+                raw_link = ''
+            rdict["links"] = raw_link
 
-        desc = single_result.find('div', class_='gs_rs')
-        if desc:
-            desc = desc.text
-        else:
-            desc = ''
+        if return_type in (ReturnType.FULL, return_type.DESCRIPTION):
+            desc = single_result.find('div', class_='gs_rs')
+            if desc:
+                desc = desc.text
+            else:
+                desc = ''
+            rdict["descriptions"] = desc
 
-        title = r_elem.text
+        if return_type in (ReturnType.FULL, return_type.TITLE):
+            title = r_elem.text
+            title = re.sub(r'^[\[\w+\]]+ ', '', title)
+            rdict["titles"] = title 
 
-        t_elem = single_result.find('span', class_='gs_ct1')
-        if t_elem:
-            result_type = t_elem.text
-        else:
-            result_type = ''
+        if return_type == ReturnType.FULL:
+            t_elem = single_result.find('span', class_='gs_ct1')
+            if t_elem:
+                result_type = t_elem.text
+            else:
+                result_type = ''
 
-        f_elem = single_result.find('div', class_='gs_or_ggsm')
-        if f_elem:
-            flink_tag = r_elem.find('a')
-            if flink_tag:
-                file_link = flink_tag.get('href')
+            f_elem = single_result.find('div', class_='gs_or_ggsm')
+            if f_elem:
+                flink_tag = r_elem.find('a')
+                if flink_tag:
+                    file_link = flink_tag.get('href')
+                else:
+                    file_link = ''
             else:
                 file_link = ''
-        else:
-            file_link = ''
 
-        title = re.sub(r'^[\[\w+\]]+ ', '', title)
+            rdict.update({ 
+                "result_types": result_type,
+                "files_links": file_link
+            })
 
-        rdict = {
-            "titles": title,
-            "links": raw_link,
-            "descriptions": desc,
-            "result_types": result_type,
-            "files_links": file_link
-        }
         return rdict

@@ -5,10 +5,19 @@
 from abc import ABCMeta, abstractmethod
 import random
 import asyncio
+from enum import Enum, unique
 import aiohttp
 from bs4 import BeautifulSoup
 
 from search_engine_parser.core.exceptions import NoResultsOrTrafficError
+
+
+@unique
+class ReturnType(Enum):
+    FULL = "full"
+    TITLE = "titles"
+    DESCRIPTION = "descriptions"
+    LINK = "links"
 
 
 class BaseSearch:
@@ -27,7 +36,7 @@ class BaseSearch:
     search_url = None
 
     @abstractmethod
-    def parse_soup(self, soup):
+    def parse_soup(self, soup, **kwargs):
         """
         Defines the results contained in a soup
         """
@@ -42,7 +51,7 @@ class BaseSearch:
         raise NotImplementedError(
             "subclasses must define method <parse_results>")
 
-    def parse_result(self, results):
+    def parse_result(self, results, **kwargs):
         """
         Runs every entry on the page through parse_single_result
 
@@ -55,7 +64,7 @@ class BaseSearch:
         search_results = dict()
         for each in results:
             try:
-                rdict = self.parse_single_result(each)
+                rdict = self.parse_single_result(each, **kwargs)
                 # Create a list for all keys in rdict if not exist, else
                 for key in rdict.keys():
                     if key not in search_results.keys():
@@ -128,26 +137,24 @@ class BaseSearch:
         """
         # Some URLs use offsets
         offset = (page * 10) - 9
-        type_ = self.keywords.get("type", None)
 
         return self.search_url.format(
             query=query,
             page=page,
             offset=offset,
-            type_=type_,
             )
 
-    def get_results(self, soup):
+    def get_results(self, soup, **kwargs):
         """ Get results from soup"""
 
-        results = self.parse_soup(soup)
+        results = self.parse_soup(soup, **kwargs)
         # TODO Check if empty results is caused by traffic or answers to query
         # were not found
         if not results:
             raise NoResultsOrTrafficError(
                 "The result parsing was unsuccessful. It is either your query could not be found" +
                 " or it was flagged as unusual traffic")
-        search_results = self.parse_result(results)
+        search_results = self.parse_result(results, **kwargs)
         return search_results
 
     def search(self, query=None, page=None, **kwargs):
@@ -161,15 +168,13 @@ class BaseSearch:
         :return: dictionary. Containing titles, links, netlocs and descriptions.
         """
         parsed_query = self.parse_query(query)
-        # save kwargs as self variable
-        self.keywords = kwargs
         # Get search Page Results
         loop = asyncio.get_event_loop()
         soup = loop.run_until_complete(
             self.get_soup(
                 self.get_search_url(
                     query, page, **kwargs)))
-        return self.get_results(soup)
+        return self.get_results(soup, **kwargs)
 
     async def async_search(self, query=None, page=None, callback=None, **kwargs):
         """
@@ -186,7 +191,6 @@ class BaseSearch:
         # TODO callback should be called
         if callback:
             pass
-        self.keywords = kwargs        
         parsed_query = self.parse_query(query)
         soup = await self.get_soup(self.get_search_url(parsed_query, page))
-        return self.get_results(soup)
+        return self.get_results(soup, **kwargs)
