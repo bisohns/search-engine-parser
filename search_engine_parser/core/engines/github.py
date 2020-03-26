@@ -62,148 +62,197 @@ class GitHubSearch(BaseSearch):
         :return: parsed title, link and description of single result
         :rtype: dict
         """
+        rdict = {}
         if self.type in (None, "Repositories"):
             h3 = single_result.find('h3') #pylint: disable=invalid-name
             link_tag = h3.find('a')
             # Get the text and link
-            title = link_tag.text
+            if return_type in (ReturnType.FULL, ReturnType.TITLE):
+                title = link_tag.text
+                rdict["titles"] = title
 
-            ref_link = link_tag.get('href')
-            link = self.base_url + ref_link
+            if return_type in (ReturnType.FULL, ReturnType.LINK):
+                ref_link = link_tag.get('href')
+                link = self.base_url + ref_link
+                rdict["links"] = link
 
-            desc = single_result.find('p', class_="col-12")
-            stars_and_lang_div = single_result.find('div', class_='flex-shrink-0')
-            lang = stars_and_lang_div.find(
-                'span', itemprop="programmingLanguage").text
-            stars = stars_and_lang_div.find('a', class_='muted-link').text.strip()
+            if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):
+                desc = single_result.find('p', class_="col-12")
+                rdict["descriptions"] = desc.text
 
-            desc = desc.text
-            return {
-                "titles": title,
-                "links": link,
-                "descriptions": desc,
-                "stars": stars,
-                "languages": lang,
-            }
+            if return_type in (ReturnType.FULL,):
+                stars_and_lang_div = single_result.find('div', class_='flex-shrink-0')
+                lang = stars_and_lang_div.find(
+                    'span', itemprop="programmingLanguage").text
+                stars = stars_and_lang_div.find('a', class_='muted-link').text.strip()
+                rdict.update({
+                    "stars": stars,
+                    "languages": lang,
+                })
+
         if self.type == "Users":
             title_tag = single_result.find('a', class_=None)
-            title = title_tag.text
-            ref_link = title_tag.get('href')
-            link = self.base_url + ref_link
-            desc_tag = single_result.find('p', class_='f5 mt-2')
-            location_tag = single_result.find('li', class_='mt-1')
-            desc = None
-            location = None
-            if desc_tag:
-                desc = desc_tag.text.strip(' \n')
-            if location_tag:
-                location = location_tag.text.strip(' \n')
-            return {
-                "titles": title,
-                "links": link,
-                "descriptions": desc,
-                "locations": location,
-            }
+            if return_type in (ReturnType.FULL, ReturnType.TITLE):
+                title = title_tag.text
+                rdict["titles"] = title
+
+            if return_type in (ReturnType.FULL, ReturnType.LINK):
+                ref_link = title_tag.get('href')
+                link = self.base_url + ref_link
+                rdict["links"] = link
+
+            if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):
+                desc_tag = single_result.find('p', class_='f5 mt-2')
+                desc = None
+                if desc_tag:
+                    desc = desc_tag.text.strip(' \n')
+                rdict["descriptions"] = desc
+
+            if return_type in (ReturnType.FULL, ):
+                location_tag = single_result.find('li', class_='mt-1')
+                location = None
+                if location_tag:
+                    location = location_tag.text.strip(' \n')
+                rdict.update({
+                    "locations": location,
+                })
+
         if self.type == "Wikis":
-            repository = single_result.find('a', class_='h5').text
             title_tag = single_result.find('a', class_=None)
-            title = title_tag.get('title')
-            ref_link = title_tag.get('href')
-            link = self.base_url + ref_link
-            desc = single_result.find('p', class_=None).text
-            last_updated = single_result.find('div', class_='updated-at').find('relative-time').text
-            return {
-                "titles": title,
-                "links": link,
-                "descriptions": desc,
-                "repositories": repository,
-                "last_updated": last_updated,
-            }
+
+            if return_type in (ReturnType.FULL, ReturnType.TITLE):
+                title = title_tag.get('title')
+                rdict["title"] = title
+
+            if return_type in (ReturnType.FULL, ReturnType.LINK):
+                ref_link = title_tag.get('href')
+                link = self.base_url + ref_link
+                rdict["links"] = link
+
+            if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):
+                desc = single_result.find('p', class_=None).text
+                rdict["descriptions"] = desc
+
+            if return_type in (ReturnType.FULL, ):
+                last_updated = single_result.find(
+                    'div', class_='updated-at').find('relative-time').text
+                repository = single_result.find('a', class_='h5').text
+                rdict.update({
+                    "repositories": repository,
+                    "last_updated": last_updated,
+                })
+
         if self.type == "Topics":
             title_div = single_result.find('h3')
             title_tag = title_div.find('a', class_=None)
-            title = title_tag.text
-            ref_link = title_tag.get('href')
-            desc = None
-            desc_tag = single_result.find('p', class_=None)
-            if desc_tag:
-                desc = desc_tag.text
-            link = self.base_url + ref_link
-            return {
-                "titles": title,
-                "links": link,
-                "descriptions": desc,
-            }
+            if return_type in (ReturnType.FULL, ReturnType.TITLE):
+                rdict["titles"] = title_tag.text
+            if return_type in (ReturnType.FULL, ReturnType.LINK):
+                ref_link = title_tag.get('href')
+                link = self.base_url + ref_link
+                rdict["links"] = link
+            if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):
+                desc = None
+                desc_tag = single_result.find('p', class_=None)
+                if desc_tag:
+                    desc = desc_tag.text
+                rdict["descriptions"] = desc
+
         if self.type == "Marketplace":
             title_tag = single_result.find('a', class_=None)
-            title = title_tag.get('title')
-            link = title_tag.get('href')
-            desc = None
-            categories = list()
-            desc_tag = single_result.find('text-gray-light')
-            if desc_tag:
-                desc = desc_tag.text
-            categories_tags = single_result.find('a', class_='topic-tag')
-            if categories_tags:
-                for i in categories_tags:
-                    categories.append(str(i).strip('\n '))
-            return {
-                "titles": title,
-                "links": link,
-                "descriptions": desc,
-                "categories": categories,
-            }
+            if return_type in (ReturnType.FULL, ReturnType.TITLE):
+                title = title_tag.get('title')
+                rdict["titles"] = title_tag.text
+            if return_type in (ReturnType.FULL, ReturnType.LINK):
+                link = title_tag.get('href')
+                rdict["links"] = link
+
+            if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):
+                desc = None
+                desc_tag = single_result.find('text-gray-light')
+                if desc_tag:
+                    desc = desc_tag.text
+                rdict["descriptions"] = desc
+
+            if return_type in (ReturnType.FULL, ):
+                categories = list()
+                categories_tags = single_result.find('a', class_='topic-tag')
+                if categories_tags:
+                    for i in categories_tags:
+                        categories.append(str(i).strip('\n '))
+            rdict["categories"] = categories
+
         if self.type == "Packages":
             title_tag = single_result.find('a', class_='v-align-middle')
-            title = title_tag.text
-            ref_link = title_tag.get('href')
-            link = self.base_url + ref_link
-            desc = single_result.find('p', class_='col-12').text.strip('\n ')
-            return {
-                "titles": title,
-                "links": link,
-                "descriptions": desc,
-            }
+            if return_type in (ReturnType.FULL, ReturnType.TITLE):
+                title = title_tag.text
+                rdict["titles"] = title_tag.text
+
+            if return_type in (ReturnType.FULL, ReturnType.LINK):
+                ref_link = title_tag.get('href')
+                link = self.base_url + ref_link
+                rdict["links"] = link
+
+            if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):
+                desc = single_result.find('p', class_='col-12').text.strip('\n ')
+                rdict["descriptions"] = desc
+
         if self.type == "Issues":
             title_tag = single_result.find('a', class_=None)
-            title = title_tag.text
-            ref_link = title_tag.get('href')
-            link = self.base_url + ref_link
-            desc = single_result.find('p', class_=None).text
-            span = single_result.find('span', class_='flex-auto')
-            opened_by = self.base_url + span.find('a').get('href')
-            opened_on = span.find('relative-time').text
-            return {
-                "titles": title,
-                "links": link,
-                "descriptions": desc,
-                "opened_by": opened_by,
-                "opened_on": opened_on,
-            }
+            if return_type in (ReturnType.FULL, ReturnType.TITLE):
+                title = title_tag.text
+                rdict["titles"] = title_tag.text
+
+            if return_type in (ReturnType.FULL, ReturnType.LINK):
+                ref_link = title_tag.get('href')
+                link = self.base_url + ref_link
+                rdict["links"] = link
+
+            if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):
+                desc = single_result.find('p', class_=None).text
+                rdict["descriptions"] = desc
+
+            if return_type in (ReturnType.FULL, ):
+                span = single_result.find('span', class_='flex-auto')
+                opened_by = self.base_url + span.find('a').get('href')
+                opened_on = span.find('relative-time').text
+                rdict.update({
+                    "opened_by": opened_by,
+                    "opened_on": opened_on,
+                })
+
         if self.type == "Commits":
             title_p = single_result.find('p', class_="commit-title")
             title_tag = title_p.find('a')
-            title = title_tag.get('aria-label').strip("\n ")
-            ref_link = title_tag.get('href')
-            if ref_link.startswith("http"):
-                link = ref_link
-            else:
-                link = self.base_url + ref_link
-            opened_on = None
-            author = None
-            if single_result.find('relative-time'):
-                opened_on = single_result.find('relative-time').text
-            desc = None
-            if single_result.find('a', class_='commit-author'):
-                author_tag = single_result.find('a', class_='commit-author')
-                author = author_tag.text
-                div = single_result.find('div', class_='min-width-0')
-                repo = div.find('a', class_=None).text
-                desc = "Committed to {}".format(repo)
-            return {
-                "titles": title,
-                "links": link,
-                "descriptions": desc,
-                "authors": author,
-                "opened_on": opened_on,
-            }
+
+            if return_type in (ReturnType.FULL, ReturnType.TITLE):
+                title = title_tag.get('aria-label').strip("\n ")
+                rdict["titles"] = title_tag.text
+
+            if return_type in (ReturnType.FULL, ReturnType.LINK):
+                ref_link = title_tag.get('href')
+                if ref_link.startswith("http"):
+                    link = ref_link
+                else:
+                    link = self.base_url + ref_link
+                rdict["links"] = link
+
+            if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):
+                opened_on = None
+                author = None
+                if single_result.find('relative-time'):
+                    opened_on = single_result.find('relative-time').text
+                desc = None
+                if single_result.find('a', class_='commit-author'):
+                    author_tag = single_result.find('a', class_='commit-author')
+                    author = author_tag.text
+                    div = single_result.find('div', class_='min-width-0')
+                    repo = div.find('a', class_=None).text
+                    desc = "Committed to {}".format(repo)
+                rdict["descriptions"] = desc
+                if return_type == ReturnType.FULL:
+                    rdict.update({
+                        "authors": author,
+                        "opened_on": opened_on,
+                    })
+        return rdict
