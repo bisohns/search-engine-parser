@@ -2,21 +2,20 @@
 	Tests or individual search engines
 """
 
-from search_engine_parser.core import (
-    YahooSearch,
-    GoogleSearch,
-    GoogleScholarSearch,
-    BingSearch,
-    DuckDuckGoSearch,
-    AolSearch,
-    YandexSearch,
-    StackOverflowSearch,
-    BaiduSearch,
-    GitHubSearch,
-    YouTubeSearch,
-    MyAnimeListSearch,
-    AskSearch)
-from .base import EngineTestBase, EngineTests
+from search_engine_parser.base import EngineTestBase, EngineTests
+from search_engine_parser.core.engines.aol import Search as AolSearch
+from search_engine_parser.core.engines.ask import Search as AskSearch
+from search_engine_parser.core.engines.baidu import Search as BaiduSearch
+from search_engine_parser.core.engines.bing import Search as BingSearch
+from search_engine_parser.core.engines.duckduckgo import \
+    Search as DuckDuckGoSearch
+from search_engine_parser.core.engines.github import Search as GithubSearch
+from search_engine_parser.core.engines.google import Search as GoogleSearch
+from search_engine_parser.core.engines.googlescholar import \
+    Search as GoogleScholarSearch
+from search_engine_parser.core.engines.stackoverflow import \
+    Search as StackOverflowSearch
+from search_engine_parser.core.engines.yahoo import Search as YahooSearch
 
 
 class YahooEngineTest(EngineTestBase, EngineTests):

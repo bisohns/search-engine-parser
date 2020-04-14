@@ -4,7 +4,7 @@
 from search_engine_parser.core.base import BaseSearch, ReturnType
 
 
-class AolSearch(BaseSearch):
+class Search(BaseSearch):
     """
     Searches Aol for string
     """

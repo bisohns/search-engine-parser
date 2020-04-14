@@ -5,7 +5,7 @@ from search_engine_parser.core.base import BaseSearch, ReturnType
 from search_engine_parser.core.exceptions import IncorrectKeyWord
 
 
-class GitHubSearch(BaseSearch):
+class Search(BaseSearch):
     """
     Searches GitHub for string
     """

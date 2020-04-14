@@ -65,17 +65,13 @@ class BaseSearch:
             returns.
         :rtype: dict
         """
-        search_results = dict()
+        search_results = list()
         for each in results:
             try:
                 rdict = self.parse_single_result(each, **kwargs)
-                # Create a list for all keys in rdict if not exist, else
-                for key in rdict.keys():
-                    if key not in search_results.keys():
-                        search_results[key] = list([rdict[key]])
-                    else:
-                        search_results[key].append(rdict[key])
-            except Exception: #pylint: disable=invalid-name, broad-except
+                search_results.append(rdict)
+            except Exception as e: #pylint: disable=invalid-name, broad-except
+                print("Exception: %s" % str(e))
                 pass
         return search_results
 

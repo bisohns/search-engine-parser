@@ -6,7 +6,7 @@ import re
 from search_engine_parser.core.base import BaseSearch, ReturnType
 
 
-class DuckDuckGoSearch(BaseSearch):
+class Search(BaseSearch):
     """
     Searches DuckDuckGo for string
     """
