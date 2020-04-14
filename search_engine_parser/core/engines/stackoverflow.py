@@ -10,13 +10,20 @@ class StackOverflowSearch(BaseSearch):
     """
     name = "StackOverflow"
     base_url = "https://stackoverflow.com"
-    search_url = base_url + "/search?q={query}&page={page}&pagesize=15"
+    search_url = base_url + "/search?"
     summary = "\tStack Overflow is a question and answer site for professional and enthusiast "\
               "programmers.\n\tIt is a privately held website, the flagship site of the Stack "\
               "Exchange Network, created in 2008 by Jeff Atwood and Joel Spolsky.\n\tIt features "\
               "questions and answers on a wide range of topics in computer programming. It was "\
               "created to be a more open alternative to earlier question and answer sites "\
               "such as Experts-Exchange"
+
+    def get_params(self, query=None, offset=None, page=None, **kwargs):
+        params = {}
+        params["page"] = page
+        params["q"] = query
+        params["pagesize"] = 15
+        return params
 
     def parse_soup(self, soup):
         """

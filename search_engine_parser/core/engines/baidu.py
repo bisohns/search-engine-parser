@@ -3,6 +3,7 @@
 """
 
 import re
+
 from search_engine_parser.core.base import BaseSearch, ReturnType
 
 
@@ -11,7 +12,7 @@ class BaiduSearch(BaseSearch):
     Searches Baidu for string
     """
     name = "Baidu"
-    search_url = "https://www.baidu.com/s?wd={query}&pn={offset}&oq={query}"
+    search_url = "https://www.baidu.com/s?"
     summary = "\tBaidu, Inc. is a Chinese multinational technology company specializing in"\
         " Internet-related services and products and artificial intelligence (AI), headquartered"\
         " in Beijing's Haidian District.\n\tIt is one of the largest AI and internet"\
@@ -20,12 +21,18 @@ class BaiduSearch(BaseSearch):
 
     """Override get_search_url"""
 
+    def get_params(self, query=None, page=None, offset=None, **kwargs):
+        params = {}
+        params["wd"] = query
+        params["pn"] = offset
+        params["oq"] = query
+        return params
+
     def get_search_url(self, query=None, page=None):
         """
         Return a formatted search url.
         Offsets are of form 0,10,20, etc. So if 1 is passed, we make it 0, for 2->(2-1)*10=10. etc.
-        """
-
+        """ 
         offset = (page - 1) * 10
         return self.search_url.format(query=query, page=page, offset=offset)
 

@@ -2,6 +2,7 @@
 		Parser for DuckDuckGo search results
 """
 import re
+
 from search_engine_parser.core.base import BaseSearch, ReturnType
 
 
@@ -11,12 +12,22 @@ class DuckDuckGoSearch(BaseSearch):
     """
     name = "DuckDuckGo"
     base_url = "https://www.duckduckgo.com"
-    search_url = "https://www.duckduckgo.com/html/?q={query}&s={start}&dc={offset}&v=l&o=json&api=/d.js"
+    search_url = "https://www.duckduckgo.com/html/?"
     summary = "\tHas a number of advantages over the other search engines. \n\tIt has a clean "\
         "interface, it does not track users, it is not fully loaded with ads and has a number "\
         "of very nice features (only one page of results, you can search directly other web "\
         "sites etc).\n\tAccording to DuckDuckGo traffic stats [December, 2018], they are "\
         "currently serving more than 30 million searches per day."
+
+    def get_params(self, query=None, page=None, offset=None, **kwargs):
+        params = {}
+        params["q"] = query
+        params["s"] = kwargs.get("start", 0)
+        params["dc"] = offset
+        params["v"] = "l"
+        params["o"] = "json"
+        params["api"] = "/d.js"
+        return params
 
     def parse_soup(self, soup):
         """

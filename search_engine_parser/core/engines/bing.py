@@ -9,11 +9,20 @@ class BingSearch(BaseSearch):
     Searches Bing for string
     """
     name = "Bing"
-    search_url = "https://www.bing.com/search?q={query}&count=10&offset=0&first={offset}&FORM=PERE"
+    search_url = "https://www.bing.com/search?"
     summary = "\tBing is Microsoft’s attempt to challenge Google in search, but despite their "\
         "efforts they still did not manage to convince users that their search engine can be"\
         " an alternative to Google.\n\tTheir search engine market share is constantly below "\
         "10%, even though Bing is the default search engine on Windows PCs."
+
+    def get_params(self, query=None, page=None, offset=None, **kwargs):
+        params = {}
+        params["q"] = query
+        params["offset"] = 0
+        params["first"] = offset
+        params["count"] = 10
+        params["FORM"] = "PERE"
+        return params
 
     def parse_soup(self, soup):
         """

@@ -11,7 +11,7 @@ class GitHubSearch(BaseSearch):
     """
     name = "GitHub"
     base_url = "https://github.com"
-    search_url = base_url + "/search?q={query}&p={page}&type={type_}"
+    search_url = base_url + "/search?"
     summary = "\tGitHub is an American company that provides hosting for software development "\
         "version control using Git. It is a subsidiary of Microsoft, which acquired the company "\
         "in 2018 for $7.5 billion.\n\tIt offers all of the distributed version control and source"\
@@ -20,7 +20,15 @@ class GitHubSearch(BaseSearch):
         " repositories (including at least 28 million public repositories), making it the largest "\
         "host of source code in the world."
 
-    def parse_soup(self, soup, **kwargs):
+    def get_params(self, query=None, page=None, offset=None, **kwargs):
+        params = {}
+        params["q"] = query
+        params["p"] = page
+        params["type"] = kwargs.get("type_", None)
+        self.type = params["type"]
+        return params
+
+    def parse_soup(self, soup):
         """
         Parses GitHub for a search query.
         """
@@ -35,7 +43,6 @@ class GitHubSearch(BaseSearch):
             "Issues",
             "Commits",
             "Code")
-        self.type = kwargs.get("type", None)
         if self.type not in allowed_types:
             raise IncorrectKeyWord("No type <{type_}> exists".format(type_=self.type))
         # find all li tags

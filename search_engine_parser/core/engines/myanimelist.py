@@ -3,6 +3,7 @@
 """
 
 import math
+
 from search_engine_parser.core.base import BaseSearch, ReturnType
 
 
@@ -12,7 +13,7 @@ class MyAnimeListSearch(BaseSearch):
     """
     name = "MyAnimeList"
 
-    search_url = "https://myanimelist.net/anime.php?q={query}&show={offset}"
+    search_url = "https://myanimelist.net/anime.php?"
     summary = "\tMyAnimeList, often abbreviated as MAL, is an anime and manga social"\
         "networking and social cataloging application website."\
         "\n\tThe site provides its users with a list-like system to organize"\
@@ -21,6 +22,11 @@ class MyAnimeListSearch(BaseSearch):
         "site claims to have 4.4 million anime and 775,000 manga entries."\
         "\n\tIn 2015, the site received over 120 million visitors a month."
 
+    def get_params(self, query=None, offset=None, page=None, **kwargs):
+        params = {}
+        params["show"] = offset
+        params["q"] = query
+        return params
 
     def get_search_url(self, query=None, page=None):
         """

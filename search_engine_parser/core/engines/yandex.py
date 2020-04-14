@@ -10,7 +10,7 @@ class YandexSearch(BaseSearch):
     Searches Yandex for string
     """
     name = "Yandex"
-    search_url = "https://yandex.com/search/?text={query}&p={offset}"
+    search_url = "https://yandex.com/search/?"
     summary = "\tYandex is the largest technology company in Russia and the"\
         " largest search engine on the internet in Russian"\
         ", with a market share of over 52%."\
@@ -18,6 +18,12 @@ class YandexSearch(BaseSearch):
         "\n\tIt also has the largest market share of any search engine in the Commonwealth"\
         " of Independent States and is the 5th largest search engine worldwide"\
         " after Google, Baidu, Bing, and Yahoo!"
+
+    def get_params(self, query=None, page=None, offset=None, **kwargs):
+        params = {}
+        params["text"] = query
+        params["p"] = offset
+        return params
 
     def parse_soup(self, soup):
         """

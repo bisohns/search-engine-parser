@@ -10,12 +10,22 @@ class AskSearch(BaseSearch):
     """
     name = "Ask"
 
-    search_url = "https://www.ask.com/web?o=0&l=dir&qo=pagination&q={query}&qsrc=998&page={page}"
+    search_url = "https://www.ask.com/web?"
 
     summary = "\t Formerly known as Ask Jeeves, Ask.com receives approximately 0.42% of the search"\
         " share. ASK is based on a question/answer format where most questions are answered by "\
         "other users or are in the form of polls.\nIt also has the general search functionality "\
         "but the results returned lack quality compared to Google or even Bing and Yahoo."
+
+    def get_params(self, query=None, page=None, offset=None, **kwargs):
+        params = {}
+        params["o"] = 0
+        params["l"] = "dir"
+        params["qo"] = "pagination"
+        params["q"] = query
+        params["qsrc"] = 998
+        params["page"] = page
+        return params
 
     def parse_soup(self, soup):
         """

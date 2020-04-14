@@ -3,6 +3,7 @@
 """
 
 import re
+
 from search_engine_parser.core.base import BaseSearch, ReturnType
 
 
@@ -11,10 +12,17 @@ class GoogleScholarSearch(BaseSearch):
     Searches Google Scholar for string
     """
     name = "GoogleScholar"
-    search_url = "https://scholar.google.gr/scholar?start={page}&q={query}&hl=en"
+    search_url = "https://scholar.google.gr/scholar?"
     summary = "\tGoogle Scholar is a freely accessible web search engine that indexes the full "\
             "text or metadata of scholarly literature across an array of publishing formats and "\
             "disciplines."
+
+    def get_params(self, query=None, offset=None, page=None, **kwargs):
+        params = {}
+        params["hl"] = "en"
+        params["start"] = page
+        params["q"] = query
+        return params
 
     def parse_soup(self, soup):
         """

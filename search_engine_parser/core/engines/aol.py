@@ -9,7 +9,7 @@ class AolSearch(BaseSearch):
     Searches Aol for string
     """
     name = "AOL"
-    search_url = "https://search.aol.com/aol/search?q={query}&page={page}"
+    search_url = "https://search.aol.com/aol/search?"
     summary = "\t According to netmarketshare, the old time famous AOL is still in the top 10 "\
         "search engines with a market share that is close to 0.06%. "\
         "The AOL network includes many popular web sites like engadget.com, techchrunch.com and "\

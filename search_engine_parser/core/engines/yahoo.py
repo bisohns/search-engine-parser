@@ -2,6 +2,7 @@
 		Parser for Yahoo search results
 """
 import re
+
 from search_engine_parser.core.base import BaseSearch, ReturnType
 
 
@@ -10,13 +11,19 @@ class YahooSearch(BaseSearch):
     Searches Yahoo for string
     """
     name = "Yahoo"
-    search_url = "https://search.yahoo.com/search?p={query}&b={offset}"
+    search_url = "https://search.yahoo.com/search?"
     summary = "\tYahoo is one the most popular email providers and holds the fourth place in "\
         "search with 3.90% market share.\n\tFrom October 2011 to October 2015, Yahoo search "\
         "was powered exclusively by Bing. \n\tSince October 2015 Yahoo agreed with Google to "\
         "provide search-related services and since then the results of Yahoo are powered both "\
         "by Google and Bing. \n\tYahoo is also the default search engine for Firefox browsers "\
         "in the United States (since 2014)."
+
+    def get_params(self, query=None, page=None, offset=None, **kwargs):
+        params = {}
+        params["p"] = query
+        params["b"] = offset
+        return params
 
     def parse_soup(self, soup):
         """

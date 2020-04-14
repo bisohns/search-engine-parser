@@ -2,13 +2,15 @@
 		Base class inherited by every search engine
 """
 
-from abc import ABCMeta, abstractmethod
-import random
 import asyncio
+import random
+from abc import ABCMeta, abstractmethod
 from enum import Enum, unique
-import aiohttp
+from urllib.parse import urlencode, urlparse
+
 from bs4 import BeautifulSoup
 
+import aiohttp
 from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 
 
@@ -34,9 +36,11 @@ class BaseSearch:
     name = None
     # Search Engine unformatted URL
     search_url = None
+    # The url after all query params have been set
+    _parsed_url = None
 
     @abstractmethod
-    def parse_soup(self, soup, **kwargs):
+    def parse_soup(self, soup):
         """
         Defines the results contained in a soup
         """
@@ -75,16 +79,9 @@ class BaseSearch:
                 pass
         return search_results
 
-    @staticmethod
-    def parse_query(query):
-        """
-        Replace spaces in query
-
-        :param query: query to be processed
-        :type query: str
-        :rtype: str
-        """
-        return query.replace(" ", "%20").replace(":", "%3A")
+    def get_params(self, query=None, page=None, offset=None, **kwargs):
+        """ This  function should be overwritten to return a dictionary of query params"""
+        return {'q': query, 'page': page}
 
     @staticmethod
     async def get_source(url):
@@ -134,20 +131,19 @@ class BaseSearch:
     def get_search_url(self, query=None, page=None, **kwargs):
         """
         Return a formatted search url
-        """
-        # Some URLs use offsets
-        offset = (page * 10) - 9
-
-        return self.search_url.format(
-            query=query,
-            page=page,
-            offset=offset,
-            )
+        """ 
+        if not self._parsed_url:
+            # Some URLs use offsets
+            offset = (page * 10) - 9
+            params = self.get_params(query=query, page=page, offset=offset, **kwargs)
+            url = self.search_url + urlencode(params)
+            self._parsed_url = urlparse(url)
+        return self._parsed_url.geturl()
 
     def get_results(self, soup, **kwargs):
         """ Get results from soup"""
 
-        results = self.parse_soup(soup, **kwargs)
+        results = self.parse_soup(soup)
         # TODO Check if empty results is caused by traffic or answers to query
         # were not found
         if not results:
@@ -167,7 +163,6 @@ class BaseSearch:
         :type page: int
         :return: dictionary. Containing titles, links, netlocs and descriptions.
         """
-        parsed_query = self.parse_query(query)
         # Get search Page Results
         loop = asyncio.get_event_loop()
         soup = loop.run_until_complete(
@@ -191,6 +186,5 @@ class BaseSearch:
         # TODO callback should be called
         if callback:
             pass
-        parsed_query = self.parse_query(query)
-        soup = await self.get_soup(self.get_search_url(parsed_query, page))
+        soup = await self.get_soup(self.get_search_url(query, page, **kwargs))
         return self.get_results(soup, **kwargs)

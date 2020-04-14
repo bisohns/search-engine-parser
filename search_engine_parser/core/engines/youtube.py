@@ -10,12 +10,17 @@ class YouTubeSearch(BaseSearch):
     """
     name = "YouTube"
     base_url = "https://youtube.com"
-    search_url = base_url + "/results?search_query={query}"
+    search_url = base_url + "/results?"
     summary = "\tYouTube is an American video-sharing website headquartered in San Bruno, "\
         "California. Three former PayPal employees—Chad Hurley, Steve Chen, and Jawed "\
         "Karim—created the service in February 2005.\n\tGoogle bought the site in November "\
         "2006 for US$1.65 billion; YouTube now operates as one of Google's subsidiaries. "\
         "As of May 2019, more than 500 hours of video content are uploaded to YouTube every minute"
+
+    def get_params(self, query=None, page=None, offset=None, **kwargs):
+        params = {}
+        params["search_query"] = query
+        return params
 
     def parse_soup(self, soup):
         """
