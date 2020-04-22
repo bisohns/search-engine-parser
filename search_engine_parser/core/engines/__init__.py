@@ -11,6 +11,7 @@ from .github import GitHubSearch
 from .ask import AskSearch
 from .youtube import YouTubeSearch
 from .myanimelist import MyAnimeListSearch
+from .googlenews import GoogleNewsSearch
 
 
 ENGINE_DICT = {
@@ -27,4 +28,5 @@ ENGINE_DICT = {
     'aol': AolSearch,
     'myanimelist': MyAnimeListSearch,
     'googlescholar': GoogleScholarSearch,
+    'googlenews': GoogleNewsSearch,
 }
