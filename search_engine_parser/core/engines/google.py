@@ -32,7 +32,9 @@ class Search(BaseSearch):
         # find all class_='g' => each result
         return soup.find_all('div', class_='g')
 
-    def parse_single_result(self, single_result):
+    # Elements is a 2d array consting of names, html tags and classes
+    # Elements = [['link_tags', 'a', 'r'], ['r_elem', 'div', 'st'] ... ]
+    def parse_single_result(self, single_result, element):
         """
         Parses the source code to return
 
@@ -41,21 +43,29 @@ class Search(BaseSearch):
         :return: parsed title, link and description of single result
         :rtype: dict
         """
-        r_elem = single_result.find('div', class_='r')
-        link_tag = r_elem.find('a')
-        h3_tag = r_elem.find('h3')
-        desc = single_result.find('span', class_='st')
-        # Get the text and link
-        title = h3_tag.text
-        if not title:
-            title = h3_tag.find('div', class_='ellip').text
+	results = {}
+	for i in elements:
+	    # Creates a variable
+	    vars[i[0]] = single_result.find(i[0], i[1])
+		       
+	    #r_elem = single_result.find('div', class_='r')
+            #link_tag = r_elem.find('a')
+            #h3_tag = r_elem.find('h3')
+            #desc = single_result.find('span', class_='st')
+        
+	# Get the text and link
+	if 'h3_tag' in vars:
+            title = h3_tag.text
+            if not title:
+                title = h3_tag.find('div', class_='ellip').text
+	    results['titles'] = title
+	
+        if 'link_tag' in vars:
+            raw_link = link_tag.get('href')
+	    results['links'] = raw_link
 
-        raw_link = link_tag.get('href')
-
-        desc = desc.text
-        rdict = {
-            "titles": title,
-            "links": raw_link,
-            "descriptions": desc,
-        }
-        return rdict
+	if 'desc' in vars:
+            desc = desc.text
+	    results['descriptions'] = desc
+		
+        return results
