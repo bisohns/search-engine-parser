@@ -2,7 +2,7 @@
 	Tests or individual search engines
 """
 
-from search_engine_parser.base import EngineTestBase, EngineTests
+from search_engine_parser.tests.base import EngineTestBase, EngineTests
 from search_engine_parser.core.engines.aol import Search as AolSearch
 from search_engine_parser.core.engines.ask import Search as AskSearch
 from search_engine_parser.core.engines.baidu import Search as BaiduSearch
