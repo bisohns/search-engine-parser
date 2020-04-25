@@ -204,6 +204,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/ateuber"><img src="https://avatars2.githubusercontent.com/u/44349054?v=4" width="100px;" alt=""/><br /><sub><b>Andreas Teuber</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/commits?author=ateuber" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/mi096684"><img src="https://avatars3.githubusercontent.com/u/22032932?v=4" width="100px;" alt=""/><br /><sub><b>mi096684</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/issues?q=author%3Ami096684" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/devajithvs"><img src="https://avatars1.githubusercontent.com/u/29475282?v=4" width="100px;" alt=""/><br /><sub><b>devajithvs</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/commits?author=devajithvs" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/mariusjohan"><img src="https://avatars0.githubusercontent.com/u/49961316?v=4" width="100px;" alt=""/><br /><sub><b>Marius Johan Schlichtkrull</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/commits?author=mariusjohan" title="Code">💻</a></td>
   </tr>
 </table>
 
