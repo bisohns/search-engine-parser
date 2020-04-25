@@ -5,7 +5,7 @@
 from search_engine_parser.core.base import BaseSearch
 
 
-class GoogleSearch(BaseSearch):
+class Search(BaseSearch):
     """
     Searches Google for string
     """

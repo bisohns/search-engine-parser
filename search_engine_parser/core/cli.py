@@ -1,12 +1,14 @@
 """@desc
 		Making use of the parser through cli
- """
+"""
 from __future__ import print_function
+
 import argparse
 import sys
+from importlib import import_module
+
 from blessed import Terminal
 
-from search_engine_parser.core.engines import ENGINE_DICT
 from search_engine_parser.core.base import ReturnType
 from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 
@@ -58,8 +60,9 @@ def main(args):  # pylint: disable=too-many-branches
     term = Terminal()
     engine = args['engine']
     try:
-        engine_class = ENGINE_DICT[engine]
-    except KeyError:
+        module = import_module(f"search_engine_parser.core.engines.{engine.lower()}")
+        engine_class = getattr(module, "Search")
+    except (ImportError, ModuleNotFoundError):
         sys.exit('Engine < {} > does not exist'.format(engine))
 
     # check if in summary mode

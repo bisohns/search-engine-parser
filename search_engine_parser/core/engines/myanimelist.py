@@ -7,7 +7,7 @@ import math
 from search_engine_parser.core.base import BaseSearch, ReturnType
 
 
-class MyAnimeListSearch(BaseSearch):
+class Search(BaseSearch):
     """
     Searches MyAnimeList for string
     """

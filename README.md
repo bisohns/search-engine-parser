@@ -83,7 +83,9 @@ Found on [Read the Docs](https://search-engine-parser.readthedocs.io/en/latest)
 Query Results can be scraped from popular search engines as shown in the example snippet below
 
 ```python
-    from search_engine_parser import YahooSearch, GoogleSearch, BingSearch
+    from search_engine_parser.engines.yahoo import Search as YahooSearch
+    from search_engine_parser.engines.google import Search as GoogleSearch
+    from search_engine_parser.engines.bing import Search as BingSearch
     import pprint
 
     search_args = ('preaching to the choir', 1)

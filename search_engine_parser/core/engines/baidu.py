@@ -7,7 +7,7 @@ import re
 from search_engine_parser.core.base import BaseSearch, ReturnType
 
 
-class BaiduSearch(BaseSearch):
+class Search(BaseSearch):
     """
     Searches Baidu for string
     """
