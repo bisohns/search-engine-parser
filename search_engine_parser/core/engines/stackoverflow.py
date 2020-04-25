@@ -53,7 +53,7 @@ class Search(BaseSearch):
             link = self.base_url + ref_link
             rdict["links"] = link
 
-        if return_type in (ReturnType.FULL, return_type.DESCRIPTIONS):
+        if return_type in (ReturnType.FULL, return_type.DESCRIPTION):
             caption = single_result.find('div', class_='excerpt')
             rdict["descriptions"] = caption.text
         return rdict

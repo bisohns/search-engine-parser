@@ -51,7 +51,7 @@ class Search(BaseSearch):
             link = link_tag.get('href')
             rdict["links"] = link
 
-        if return_type in (ReturnType.FULL, return_type.DESCRIPTIONS):
+        if return_type in (ReturnType.FULL, return_type.DESCRIPTION):
             caption = single_result.find('div', class_='b_caption')
             desc = caption.find('p')
             rdict["descriptions"] = desc.text
