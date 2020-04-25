@@ -21,3 +21,4 @@ Below is the list of supported engines with their summaries
 11|YouTube|titles, links, descriptions, channels, [single videos only: durations, views, upload_dates]
 12|MyAnimeList|titles, links, descriptions, number of episodes, type of result (OVA, series, movie, etc.), ratings
 13|GoogleScholar|titles, links, descriptions, type of results ([BOOK], [CITATION], etc.), links of files
+14|GoogleNews|titles, links, descriptions, image links, date, news source
