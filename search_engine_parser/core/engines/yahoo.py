@@ -3,7 +3,7 @@
 """
 import re
 
-from search_engine_parser.core.base import BaseSearch, ReturnType
+from search_engine_parser.core.base import BaseSearch, ReturnType, SearchItem
 
 
 class Search(BaseSearch):
@@ -41,7 +41,7 @@ class Search(BaseSearch):
         :return: parsed title, link and description of single result
         :rtype: dict
         """
-        rdict = {}
+        rdict = SearchItem()
         h3_tag = single_result.find('h3', class_='title')
 
         if return_type in (ReturnType.FULL, return_type.TITLE):

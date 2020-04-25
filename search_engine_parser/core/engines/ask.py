@@ -1,7 +1,7 @@
 """@desc
 		Parser for ask search results
 """
-from search_engine_parser.core.base import BaseSearch, ReturnType
+from search_engine_parser.core.base import BaseSearch, ReturnType, SearchItem
 
 
 class Search(BaseSearch):
@@ -44,7 +44,7 @@ class Search(BaseSearch):
         :rtype: str, str, str
         """
 
-        rdict = {}
+        rdict = SearchItem()
         if return_type in (ReturnType.FULL, return_type.TITLE):
             rdict["titles"] = single_result.find('a').text
 
@@ -54,6 +54,5 @@ class Search(BaseSearch):
         if return_type in (ReturnType.FULL, return_type.TITLE):
             rdict["descriptions"] = single_result.find(
                 'p', class_="PartialSearchResults-item-abstract").text
-
 
         return rdict

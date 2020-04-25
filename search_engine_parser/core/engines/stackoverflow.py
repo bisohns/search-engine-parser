@@ -1,7 +1,7 @@
 """@desc
 		Parser for AOL search results
 """
-from search_engine_parser.core.base import BaseSearch, ReturnType
+from search_engine_parser.core.base import BaseSearch, ReturnType, SearchItem
 
 
 class Search(BaseSearch):
@@ -35,14 +35,14 @@ class Search(BaseSearch):
     def parse_single_result(self, single_result, return_type=ReturnType.FULL):
         """
         Parses the source code to return
-        
+
         :param single_result: single result found in <div class="summary">
         :type single_result: `bs4.element.ResultSet`
         :return: parsed title, link and description of single result
         :rtype: dict
         """
-        rdict = {}
-        h3 = single_result.find('h3') #pylint: disable=invalid-name
+        rdict = SearchItem()
+        h3 = single_result.find('h3')  # pylint: disable=invalid-name
         link_tag = h3.find('a')
         if return_type in (ReturnType.FULL, return_type.TITLE):
             # Get the text and link

@@ -4,7 +4,7 @@
 
 import re
 
-from search_engine_parser.core.base import BaseSearch, ReturnType
+from search_engine_parser.core.base import BaseSearch, ReturnType, SearchItem
 
 
 class Search(BaseSearch):
@@ -32,7 +32,7 @@ class Search(BaseSearch):
         """
         Return a formatted search url.
         Offsets are of form 0,10,20, etc. So if 1 is passed, we make it 0, for 2->(2-1)*10=10. etc.
-        """ 
+        """
         offset = (page - 1) * 10
         return self.search_url.format(query=query, page=page, offset=offset)
 
@@ -55,7 +55,7 @@ class Search(BaseSearch):
         :return: parsed title, link and description of single result
         :rtype: dict
         """
-        rdict = {}
+        rdict = SearchItem()
         if return_type in (ReturnType.FULL, return_type.TITLE):
             h3_tag = single_result.find('h3')
             rdict["title"] = h3_tag.text
@@ -66,5 +66,6 @@ class Search(BaseSearch):
             rdict["links"] = link_tag.get('href')
 
         if return_type in (ReturnType.FULL, return_type.DESCRIPTION):
-            rdict["descriptions"] = single_result.find('div', class_='c-abstract').text
+            rdict["descriptions"] = single_result.find(
+                'div', class_='c-abstract').text
         return rdict

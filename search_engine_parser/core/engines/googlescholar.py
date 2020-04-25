@@ -4,7 +4,7 @@
 
 import re
 
-from search_engine_parser.core.base import BaseSearch, ReturnType
+from search_engine_parser.core.base import BaseSearch, ReturnType, SearchItem
 
 
 class Search(BaseSearch):
@@ -14,8 +14,8 @@ class Search(BaseSearch):
     name = "GoogleScholar"
     search_url = "https://scholar.google.gr/scholar?"
     summary = "\tGoogle Scholar is a freely accessible web search engine that indexes the full "\
-            "text or metadata of scholarly literature across an array of publishing formats and "\
-            "disciplines."
+        "text or metadata of scholarly literature across an array of publishing formats and "\
+        "disciplines."
 
     def get_params(self, query=None, offset=None, page=None, **kwargs):
         params = {}
@@ -40,7 +40,7 @@ class Search(BaseSearch):
         :return: parsed title, link, description, file link, result type of single result
         :rtype: dict
         """
-        rdict = {}
+        rdict = SearchItem()
         r_elem = single_result.find('h3', class_='gs_rt')
         if return_type in (ReturnType.FULL, ReturnType.LINK):
             link_tag = r_elem.find('a')
@@ -61,7 +61,7 @@ class Search(BaseSearch):
         if return_type in (ReturnType.FULL, return_type.TITLE):
             title = r_elem.text
             title = re.sub(r'^[\[\w+\]]+ ', '', title)
-            rdict["titles"] = title 
+            rdict["titles"] = title
 
         if return_type == ReturnType.FULL:
             t_elem = single_result.find('span', class_='gs_ct1')
@@ -80,7 +80,7 @@ class Search(BaseSearch):
             else:
                 file_link = ''
 
-            rdict.update({ 
+            rdict.update({
                 "result_types": result_type,
                 "files_links": file_link
             })

@@ -5,6 +5,7 @@
 import asyncio
 import random
 from abc import ABCMeta, abstractmethod
+from contextlib import suppress
 from enum import Enum, unique
 from urllib.parse import urlencode, urlparse
 
@@ -21,6 +22,36 @@ class ReturnType(Enum):
     TITLE = "titles"
     DESCRIPTION = "descriptions"
     LINK = "links"
+
+
+# All results returned are each items of search
+class SearchItem(dict):
+    pass
+
+
+class SearchResult():
+    # Hold the results
+    results = []
+    # This method is inefficient, it will be in Deprecation soon
+
+    def append(self, value):
+        self.results.append(value)
+
+    def __getitem__(self, value):
+        if isinstance(value, int):
+            return self.results[value]
+        l = []
+        for x in self.results:
+            with suppress(KeyError):
+                l.append(x[value])
+        return l
+
+    def keys(self):
+        keys = {}
+        with suppress(IndexError):
+            x = self.results[0]
+            keys = x.keys()
+        return keys
 
 
 class BaseSearch:
@@ -66,14 +97,13 @@ class BaseSearch:
             returns.
         :rtype: dict
         """
-        search_results = list()
+        search_results = SearchResult()
         for each in results:
             try:
                 rdict = self.parse_single_result(each, **kwargs)
                 search_results.append(rdict)
             except Exception as e:  # pylint: disable=invalid-name, broad-except
                 print("Exception: %s" % str(e))
-                pass
         return search_results
 
     def get_params(self, query=None, page=None, offset=None, **kwargs):

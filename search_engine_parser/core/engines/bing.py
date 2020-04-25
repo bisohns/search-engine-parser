@@ -1,7 +1,7 @@
 """@desc
 		Parser for Bing search results
 """
-from search_engine_parser.core.base import BaseSearch, ReturnType
+from search_engine_parser.core.base import BaseSearch, ReturnType, SearchItem
 
 
 class Search(BaseSearch):
@@ -40,7 +40,7 @@ class Search(BaseSearch):
         :return: parsed title, link and description of single result
         :rtype: dict
         """
-        rdict = {}
+        rdict = SearchItem()
         h2_tag = single_result.find('h2')
         link_tag = h2_tag.find('a')
 

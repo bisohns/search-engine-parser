@@ -1,5 +1,6 @@
 import unittest
 from urllib.parse import urlparse
+
 from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 
 
@@ -10,7 +11,7 @@ def validate_url(url):
     try:
         result = urlparse(url)
         return all([result.scheme, result.netloc, result.path])
-    except BaseException: # pylint: disable=broad-except
+    except BaseException:  # pylint: disable=broad-except
         return False
 
 
@@ -31,6 +32,7 @@ class EngineTestBase(unittest.TestCase):
         cls.engine = cls.engine_class()  # pylint: disable=not-callable
         try:
             cls.results = cls.engine.search(*search_args)
+            print(cls.results)
         except NoResultsOrTrafficError:
             raise unittest.SkipTest(
                 '{} failed due to traffic'.format(

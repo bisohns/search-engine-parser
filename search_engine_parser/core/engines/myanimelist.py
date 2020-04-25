@@ -4,7 +4,7 @@
 
 import math
 
-from search_engine_parser.core.base import BaseSearch, ReturnType
+from search_engine_parser.core.base import BaseSearch, ReturnType, SearchItem
 
 
 class Search(BaseSearch):
@@ -65,12 +65,12 @@ class Search(BaseSearch):
 
         if return_type in (ReturnType.FULL, return_type.TITLE):
             title = data[1].find('strong').text.strip()
-            rdict["titles"] = title 
+            rdict["titles"] = title
 
         if return_type in (ReturnType.FULL, ReturnType.LINK):
             link_tag = data[1].find('a')
             link = link_tag.get('href')
-            rdict["links"] = title 
+            rdict["links"] = title
 
         if return_type in (ReturnType.FULL, return_type.DESCRIPTION):
             desc = data[1].find('div', class_='pt4').text.strip()
@@ -99,7 +99,7 @@ class Search(BaseSearch):
         :returns: dictionary. Containing titles, links, episodes, scores, types and descriptions.
         :rtype: dict
         """
-        search_results = dict()
+        search_results = SearchItem()
         index = -1
         for each in results:
             index += 1
@@ -115,6 +115,6 @@ class Search(BaseSearch):
                         search_results[key] = list([rdict[key]])
                     else:
                         search_results[key].append(rdict[key])
-            except Exception: #pylint: disable=invalid-name, broad-except
+            except Exception:  # pylint: disable=invalid-name, broad-except
                 pass
         return search_results

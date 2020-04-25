@@ -3,7 +3,7 @@
 """
 import re
 
-from search_engine_parser.core.base import BaseSearch, ReturnType
+from search_engine_parser.core.base import BaseSearch, ReturnType, SearchItem
 
 
 class Search(BaseSearch):
@@ -46,10 +46,11 @@ class Search(BaseSearch):
         :rtype: dict
         """
 
-        rdict = {}
+        rdict = SearchItem()
 
         if return_type in (ReturnType.FULL, return_type.TITLE):
-            h2 = single_result.find('h2', class_="result__title") #pylint: disable=invalid-name
+            h2 = single_result.find(
+                'h2', class_="result__title")  # pylint: disable=invalid-name
             # Get the text and link
             rdict["titles"] = h2.text.strip()
 
@@ -83,4 +84,4 @@ class Search(BaseSearch):
             start=start,
             offset=start-1,
             type_=type_,
-            )
+        )

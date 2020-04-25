@@ -2,7 +2,7 @@
 		Parser for Yandex search results
 """
 
-from search_engine_parser.core.base import BaseSearch, ReturnType
+from search_engine_parser.core.base import BaseSearch, ReturnType, SearchItem
 
 
 class Search(BaseSearch):
@@ -41,7 +41,7 @@ class Search(BaseSearch):
         :return: parsed title, link and description of single result
         :rtype: str, str, str
         """
-        rdict = {}
+        rdict = SearchItem()
         h3_tag = single_result.find('div', class_="organic__url-text")
 
         if return_type in (ReturnType.FULL, return_type.TITLE):

@@ -1,7 +1,7 @@
 """@desc
 		Parser for GitHub search results
 """
-from search_engine_parser.core.base import BaseSearch, ReturnType
+from search_engine_parser.core.base import BaseSearch, ReturnType, SearchItem
 from search_engine_parser.core.exceptions import IncorrectKeyWord
 
 
@@ -44,7 +44,8 @@ class Search(BaseSearch):
             "Commits",
             "Code")
         if self.type not in allowed_types:
-            raise IncorrectKeyWord("No type <{type_}> exists".format(type_=self.type))
+            raise IncorrectKeyWord(
+                "No type <{type_}> exists".format(type_=self.type))
         # find all li tags
         if self.type in (None, "Repositories", "Packages"):
             return soup.find_all('li', class_='repo-list-item')
@@ -69,9 +70,9 @@ class Search(BaseSearch):
         :return: parsed title, link and description of single result
         :rtype: dict
         """
-        rdict = {}
+        rdict = SearchItem()
         if self.type in (None, "Repositories"):
-            h3 = single_result.find('h3') #pylint: disable=invalid-name
+            h3 = single_result.find('h3')  # pylint: disable=invalid-name
             link_tag = h3.find('a')
             # Get the text and link
             if return_type in (ReturnType.FULL, ReturnType.TITLE):
@@ -88,10 +89,12 @@ class Search(BaseSearch):
                 rdict["descriptions"] = desc.text
 
             if return_type in (ReturnType.FULL,):
-                stars_and_lang_div = single_result.find('div', class_='flex-shrink-0')
+                stars_and_lang_div = single_result.find(
+                    'div', class_='flex-shrink-0')
                 lang = stars_and_lang_div.find(
                     'span', itemprop="programmingLanguage").text
-                stars = stars_and_lang_div.find('a', class_='muted-link').text.strip()
+                stars = stars_and_lang_div.find(
+                    'a', class_='muted-link').text.strip()
                 rdict.update({
                     "stars": stars,
                     "languages": lang,
@@ -201,7 +204,8 @@ class Search(BaseSearch):
                 rdict["links"] = link
 
             if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):
-                desc = single_result.find('p', class_='col-12').text.strip('\n ')
+                desc = single_result.find(
+                    'p', class_='col-12').text.strip('\n ')
                 rdict["descriptions"] = desc
 
         if self.type == "Issues":
@@ -251,7 +255,8 @@ class Search(BaseSearch):
                     opened_on = single_result.find('relative-time').text
                 desc = None
                 if single_result.find('a', class_='commit-author'):
-                    author_tag = single_result.find('a', class_='commit-author')
+                    author_tag = single_result.find(
+                        'a', class_='commit-author')
                     author = author_tag.text
                     div = single_result.find('div', class_='min-width-0')
                     repo = div.find('a', class_=None).text

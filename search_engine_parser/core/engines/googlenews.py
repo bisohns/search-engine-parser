@@ -2,10 +2,10 @@
 		Parser for google news search results
 """
 
-from search_engine_parser.core.base import BaseSearch
+from search_engine_parser.core.base import BaseSearch, ReturnType, SearchItem
 
 
-class GoogleNewsSearch(BaseSearch):
+class Search(BaseSearch):
     """
     Searches Google News for string
     """
@@ -32,7 +32,7 @@ class GoogleNewsSearch(BaseSearch):
         # find all class_='g' => each result
         return soup.find_all('div', class_='g')
 
-    def parse_single_result(self, single_result):
+    def parse_single_result(self, single_result, return_type=ReturnType.FULL):
         """
         Parses the source code to return
 
@@ -41,27 +41,27 @@ class GoogleNewsSearch(BaseSearch):
         :return: parsed title, link, description, imge link, news source, date of single result
         :rtype: dict
         """
+        rdict = SearchItem()
 
-        link_tag = single_result.find('a')
-        title_tag = single_result.find('h3')
-        desc_tag = single_result.find('div', class_='st')
-        img_tag = single_result.find('img', class_='th')
-        news_source_tag = single_result.find('span', class_='e8fRJf')
-        date_tag = single_result.find('span', class_='f')
-        
-        title = title_tag.text
-        raw_link = link_tag.get('href')
-        desc = desc_tag.text
-        img = img_tag.get('src')
-        news_source = news_source_tag.text
-        date = date_tag.text 
+        if return_type in (ReturnType.FULL, return_type.TITLE):
+            title_tag = single_result.find('h3')
+            title = title_tag.text
+            rdict["titles"] = title
 
-        rdict = {
-            "titles": title,
-            "links": raw_link,
-            "descriptions": desc,
-            "image_url" : img,
-            "news_source" : news_source,
-            "date" : date
-        }
+        if return_type in (ReturnType.FULL, ReturnType.LINK):
+            link_tag = single_result.find('a')
+            rdict["link"] = link_tag.get('href')
+
+        if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):
+            desc_tag = single_result.find('div', class_='st')
+            rdict["descriptions"] = desc_tag.text
+
+        if return_type in (ReturnType.FULL,):
+            img_tag = single_result.find('img', class_='th')
+            news_source_tag = single_result.find('span', class_='e8fRJf')
+            date_tag = single_result.find('span', class_='f')
+
+            rdict["image_url"] = img_tag.get('src')
+            rdict["news_source"] = news_source_tag.text
+            rdict["date"] = date_tag.text
         return rdict

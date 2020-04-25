@@ -1,7 +1,7 @@
 """@desc
 		Parser for YouTube search results
 """
-from search_engine_parser.core.base import BaseSearch, ReturnType
+from search_engine_parser.core.base import BaseSearch, ReturnType, SearchItem
 
 
 class Search(BaseSearch):
@@ -38,14 +38,14 @@ class Search(BaseSearch):
         :return: parsed title, link and description of single result
         :rtype: dict
         """
-        rdict = {}
+        rdict = SearchItem()
         # pylint: disable=too-many-locals
         title_tag = single_result.find('a', class_='yt-uix-tile-link')
 
         if return_type in (ReturnType.FULL, return_type.TITLE):
             # Get the text and link
             rdict["titles"] = title_tag.text
-            
+
         # try for single videos
         try:
             if return_type in (ReturnType.FULL, ReturnType.LINK):
@@ -63,7 +63,6 @@ class Search(BaseSearch):
                     'span', class_='accessible-description').text
                 ul_tag = single_result.find('ul', class_='yt-lockup-meta-info')
 
-
                 channel_name = single_result.find(
                     'a', class_='yt-uix-sessionlink spf-link').text
                 views_and_upload_date = ul_tag.find_all('li')
@@ -75,7 +74,7 @@ class Search(BaseSearch):
                     "views": views,
                     "upload_dates": upload_date,
                 })
-        except BaseException: # pylint: disable=broad-except
+        except BaseException:  # pylint: disable=broad-except
             link_tags = single_result.find_all(
                 'a', class_='yt-uix-sessionlink spf-link')
             # TODO Optimize calls here so that we don't assign ref_link and channel_name
