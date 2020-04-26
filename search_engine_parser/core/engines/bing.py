@@ -52,7 +52,6 @@ class Search(BaseSearch):
             rdict["links"] = link
 
         if return_type in (ReturnType.FULL, return_type.DESCRIPTION):
-            rdict["descriptions"] = ''
             caption = single_result.find('div', class_='b_caption')
             desc = caption.find('p')
             if desc:

@@ -54,7 +54,6 @@ class Search(BaseSearch):
         rdict = {'direct_answer': direct_answer}
         if direct_answer is not None:
             search_results.append(rdict)
-
         return search_results
 
     def parse_direct_answer(self, single_result, return_type=ReturnType.FULL):
