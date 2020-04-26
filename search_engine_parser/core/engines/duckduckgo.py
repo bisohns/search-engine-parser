@@ -4,6 +4,7 @@
 import re
 
 from search_engine_parser.core.base import BaseSearch, ReturnType, SearchItem
+from search_engine_parser.core import utils
 
 
 class Search(BaseSearch):
@@ -12,7 +13,7 @@ class Search(BaseSearch):
     """
     name = "DuckDuckGo"
     base_url = "https://www.duckduckgo.com"
-    search_url = "https://www.duckduckgo.com/html/?"
+    search_url = "https://www.duckduckgo.com/html?"
     summary = "\tHas a number of advantages over the other search engines. \n\tIt has a clean "\
         "interface, it does not track users, it is not fully loaded with ads and has a number "\
         "of very nice features (only one page of results, you can search directly other web "\
@@ -20,13 +21,18 @@ class Search(BaseSearch):
         "currently serving more than 30 million searches per day."
 
     def get_params(self, query=None, page=None, offset=None, **kwargs):
+        page_code = 0 if (page < 1) else (50 * (page - 1) + 30)
         params = {}
         params["q"] = query
-        params["s"] = kwargs.get("start", 0)
-        params["dc"] = offset
+        params["s"] = str(page_code)
+        params["nextParams"] = ''
         params["v"] = "l"
         params["o"] = "json"
-        params["api"] = "/d.js"
+        params["dc"] = str(page_code+1)
+        params["kf"] = '-1'  # Disable favicons
+        params["kh"] = '1'  # HTTPS always ON
+        params["k1"] = '-1'  # Advertisements off
+     
         return params
 
     def parse_soup(self, soup):
@@ -67,21 +73,18 @@ class Search(BaseSearch):
         if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):
             desc = single_result.find(class_='result__snippet')
             rdict["descriptions"] = desc.text
+        print(rdict)
+        print(single_result)
 
         return rdict
 
-    def get_search_url(self, query=None, page=None, **kwargs):
-        """
-        Return a formatted search url
-        """
-        # Start value for the page
-        start = 0 if (page < 2) else (((page-1) * 50) - 20)
-
-        type_ = kwargs.get("type", None)
-
-        return self.search_url.format(
-            query=query,
-            start=start,
-            offset=start-1,
-            type_=type_,
-        )
+    def headers(self):
+        headers = {
+            "Host": "duckduckgo.com",
+            "User-Agent": utils.get_rand_user_agent(),
+            "Accept-Encoding": "gzip",
+            "DNT":"1",
+            "Cache-Control": 'no-cache',
+            "Connection": "keep-alive",
+        }
+        return headers
