@@ -2,7 +2,7 @@
 		Parser for google search results
 """
 
-from search_engine_parser.core.base import BaseSearch, ReturnType, SearchItem
+from search_engine_parser.core.base import BaseSearch, ReturnType, SearchItem, SearchResult
 
 
 class Search(BaseSearch):
@@ -42,22 +42,18 @@ class Search(BaseSearch):
             returns.
         :rtype: dict
         """
-        search_results = dict()
+        search_results = SearchResult()
         for each in results:
             try:
                 rdict = self.parse_single_result(each, **kwargs)
-                # Create a list for all keys in rdict if not exist, else
-                for key in rdict.keys():
-                    if key not in search_results.keys():
-                        search_results[key] = list([rdict[key]])
-                    else:
-                        search_results[key].append(rdict[key])
-            except Exception: #pylint: disable=invalid-name, broad-except
-                pass
+                search_results.append(rdict)
+            except Exception as e:  # pylint: disable=invalid-name, broad-except
+                print("Exception: %s" % str(e))
 
         direct_answer = self.parse_direct_answer(results[0])
+        rdict = {'direct_answer': direct_answer}
         if direct_answer is not None:
-            search_results['direct_answer'] = direct_answer
+            search_results.append(rdict)
 
         return search_results
 
@@ -115,20 +111,26 @@ class Search(BaseSearch):
 
         # Get the text and link
         if return_type in (ReturnType.FULL, return_type.TITLE):
-            h3_tag = r_elem.find('h3')
-            title = h3_tag.text
-            if not title:
-                title = h3_tag.find('div', class_='ellip').text
-            results['titles'] = title
+            if r_elem:
+                h3_tag = r_elem.find('h3')
+                title = h3_tag.text
+                if not title:
+                    title = h3_tag.find('div', class_='ellip').text
+                results['titles'] = title
 
         if return_type in (ReturnType.FULL, ReturnType.LINK):
-            link_tag = r_elem.find('a')
-            raw_link = link_tag.get('href')
-            results['links'] = raw_link
+            if r_elem:
+                link_tag = r_elem.find('a')
+                raw_link = link_tag.get('href')
+                results['links'] = raw_link
 
         if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):
             desc = single_result.find('span', class_='st')
-            desc = desc.text
-            results['descriptions'] = desc
+            if desc:
+                desc = desc.text
+                # quick answer description
+                if not desc:
+                    desc = single_result.find('span', class_='e24Kjd').text
+                results['descriptions'] = desc
 
         return results
