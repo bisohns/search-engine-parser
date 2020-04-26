@@ -31,27 +31,24 @@ class SearchItem(dict):
 
 class SearchResult():
     # Hold the results
-    results = []
-    # This method is inefficient, it will be in Deprecation soon
+    results = {} # Better to use a dict
 
     def append(self, value):
-        self.results.append(value)
+        for key in value.keys():
+            if key not in self.keys():
+                self.results[key] = list([value[key]])
+            else:
+                self.results[key].append(value[key])
 
     def __getitem__(self, value):
         if isinstance(value, int):
-            return self.results[value]
-        l = []
-        for x in self.results:
-            with suppress(KeyError):
-                l.append(x[value])
-        return l
+            self.results.pop('direct_answer', None)
+            custom_result = [self.results[key][value] for key in self.keys()]
+            return dict(zip(self.keys(), custom_result))
+        return self.results[value]
 
     def keys(self):
-        keys = {}
-        with suppress(IndexError):
-            x = self.results[0]
-            keys = x.keys()
-        return keys
+        return self.results.keys()
 
 
 class BaseSearch:
