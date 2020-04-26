@@ -29,13 +29,19 @@ from search_engine_parser.core.engines.baidu import Search as BaiduSearch
 from search_engine_parser.core.engines.bing import Search as BingSearch
 from search_engine_parser.core.engines.duckduckgo import \
     Search as DuckDuckGoSearch
-from search_engine_parser.core.engines.github import Search as GithubSearch
+from search_engine_parser.core.engines.github import Search as GitHubSearch
 from search_engine_parser.core.engines.google import Search as GoogleSearch
+from search_engine_parser.core.engines.googlenews import \
+    Search as GoogleNewsSearch
 from search_engine_parser.core.engines.googlescholar import \
     Search as GoogleScholarSearch
+from search_engine_parser.core.engines.myanimelist import \
+    Search as MyAnimeListSearch
 from search_engine_parser.core.engines.stackoverflow import \
     Search as StackOverflowSearch
 from search_engine_parser.core.engines.yahoo import Search as YahooSearch
+from search_engine_parser.core.engines.yandex import Search as YandexSearch
+from search_engine_parser.core.engines.youtube import Search as YouTubeSearch
 
 name = "search-engine-parser"  # pylint: disable=invalid-name
 __version__ = "0.5.4"
