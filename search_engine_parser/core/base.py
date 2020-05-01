@@ -180,6 +180,7 @@ class BaseSearch:
         :return: dictionary. Containing titles, links, netlocs and descriptions.
         """
         # Get search Page Results
+	asyncio.set_event_loop(asyncio.new_event_loop())
         loop = asyncio.get_event_loop()
         soup = loop.run_until_complete(
             self.get_soup(
