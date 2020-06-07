@@ -34,7 +34,7 @@ class Search(BaseSearch):
         # find all class_='PartialSearchResults-item' => each result
         return soup.find_all('div', class_="PartialSearchResults-item")
 
-    def parse_single_result(self, single_result, return_type=ReturnType.FULL):
+    def parse_single_result(self, single_result, return_type=ReturnType.FULL, **kwargs):
         """
         Parses the source code to return
 

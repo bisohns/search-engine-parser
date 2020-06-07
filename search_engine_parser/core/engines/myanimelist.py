@@ -50,7 +50,7 @@ class Search(BaseSearch):
             'div',
             class_='js-categories-seasonal js-block-list list').find_all('tr')
 
-    def parse_single_result(self, single_result, return_type=ReturnType.FULL):
+    def parse_single_result(self, single_result, return_type=ReturnType.FULL, **kwargs):
         """
         Parses the source code to return
 

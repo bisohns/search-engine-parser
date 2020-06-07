@@ -112,6 +112,12 @@ Query Results can be scraped from popular search engines as shown in the example
     print(bresults["descriptions"][5])
 ```
 
+For localization, you can pass the `url` keyword and a localized url. This would use the url to query and parse using the same engine's parser
+```python
+  # Use google.de instead of google.com
+  results = gsearch.search(*search_args, url="google.de")
+```
+
 ### Command line
 
 Search engine parser comes with a CLI tool known as `pysearch` e.g
@@ -132,6 +138,8 @@ There is a needed argument for the CLI i.e `-e Engine` followed by either of two
 
 ```bash
 
+usage: pysearch [-h] [-u URL] [-e ENGINE] {search,summary} ...
+
 SearchEngineParser
 
 positional arguments:
@@ -141,9 +149,11 @@ positional arguments:
 
 optional arguments:
   -h, --help            show this help message and exit
+  -u URL, --url URL     A custom link to use as base url for search e.g
+                        google.de
   -e ENGINE, --engine ENGINE
                         Engine to use for parsing the query e.g google, yahoo,
-                        bing, duckduckgo (default: google)
+                        bing,duckduckgo (default: google)
 ```
 
 `summary` just shows the summary of each search engine added with descriptions on the return

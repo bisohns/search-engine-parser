@@ -32,7 +32,7 @@ class Search(BaseSearch):
         # find all class_='g' => each result
         return soup.find_all('div', class_='g')
 
-    def parse_single_result(self, single_result, return_type=ReturnType.FULL):
+    def parse_single_result(self, single_result, return_type=ReturnType.FULL, **kwargs):
         """
         Parses the source code to return
 

@@ -29,7 +29,7 @@ class Search(BaseSearch):
         # find all ytd-video-renderer tags
         return soup.find_all('div', class_='yt-lockup-content')
 
-    def parse_single_result(self, single_result, return_type=ReturnType.FULL):
+    def parse_single_result(self, single_result, return_type=ReturnType.FULL, **kwargs):
         """
         Parses the source code to return
 

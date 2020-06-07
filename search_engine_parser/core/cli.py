@@ -19,6 +19,7 @@ def display(results, term, **args):
     def print_one(kwargs):
         """ Print one result to the console """
         # Header
+        print(kwargs)
         if kwargs.get("titles"):
             print("\t{}".format(term.magenta(kwargs.pop("titles"))))
         if kwargs.get("links"):
@@ -41,15 +42,10 @@ def display(results, term, **args):
         # TODO Some more optimization might be need
         len_results = 0
         for i in results:
-            len_results = len(results[i])
-            break
-        for i in range(len_results):
-            result = {k: results[k][i] for k in results}
-            print_one(result)
+            print_one(i)
     else:
         rank = args["rank"]
-        result = {k: results[k][rank] for k in results}
-        print_one(result)
+        print_one(results[rank])
             
 
 
@@ -76,7 +72,7 @@ def main(args):  # pylint: disable=too-many-branches
     engine = engine_class()
     try:
         # Display full details: Header, Link, Description
-        results = engine.search(args['query'], args['page'], return_type=ReturnType(args["type"]))
+        results = engine.search(args['query'], args['page'], return_type=ReturnType(args["type"]), url=args.get("url"))
         display(results, term, type=args.get('type'), rank=args.get('rank'))
     except NoResultsOrTrafficError as exc:
         print('\n', '{}'.format(term.red(str(exc))))
@@ -86,7 +82,7 @@ def runner():
     """
     runner that handles parsing logic
     """
-    parser = argparse.ArgumentParser(description='SearchEngineParser')
+    parser = argparse.ArgumentParser(description='SearchEngineParser', prog="pysearch")
     parser.add_argument(
         '-e', '--engine',
         help='Engine to use for parsing the query e.g google, yahoo, bing,'
@@ -96,6 +92,11 @@ def runner():
     subparsers = parser.add_subparsers(help='help for subcommands')
 
     parser_search = subparsers.add_parser('search', help='search help')
+
+    parser_search.add_argument(
+        '-u',
+        '--url',
+        help='A custom link to use as base url for search e.g google.de')
 
     parser_search.add_argument(
         '-q',

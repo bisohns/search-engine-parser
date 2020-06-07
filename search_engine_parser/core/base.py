@@ -51,7 +51,10 @@ class SearchResult():
         with suppress(IndexError):
             x = self.results[0]
             keys = x.keys()
-        return keys
+        return keys 
+
+    def __len__(self):
+       return len(self.results)
 
 
 class BaseSearch:
@@ -79,7 +82,7 @@ class BaseSearch:
         raise NotImplementedError("subclasses must define method <parse_soup>")
 
     @abstractmethod
-    def parse_single_result(self, single_result):
+    def parse_single_result(self, single_result, **kwargs):
         """
         Every div/span containing a result is passed here to retrieve
         `title`, `link` and `descr`
@@ -152,8 +155,14 @@ class BaseSearch:
             offset = (page * 10) - 9
             params = self.get_params(
                 query=query, page=page, offset=offset, **kwargs)
-            url = self.search_url + urlencode(params)
-            self._parsed_url = urlparse(url)
+            url = urlparse(self.search_url)
+            # For localization purposes, custom urls can be parsed for the same engine
+            # such as google.de and google.com
+            if kwargs.get("url"):
+                new_url = urlparse(kwargs.pop("url"))
+                url._replace(netloc=new_url.netloc)
+            self._parsed_url = url._replace(query=urlencode(params))
+
         return self._parsed_url.geturl()
 
     def get_results(self, soup, **kwargs):

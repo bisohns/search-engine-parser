@@ -31,7 +31,7 @@ class Search(BaseSearch):
         # find all class_='gs_r gs_or gs_scl' => each result
         return soup.find_all('div', class_='gs_r gs_or gs_scl')
 
-    def parse_single_result(self, single_result, return_type=ReturnType.FULL):
+    def parse_single_result(self, single_result, return_type=ReturnType.FULL, **kwargs):
         """
         Parses the source code to return
 

@@ -46,7 +46,7 @@ class Search(BaseSearch):
 
         return soup.find_all('div', {'id': re.compile(r"^\d{1,2}")})
 
-    def parse_single_result(self, single_result, return_type=ReturnType.FULL):
+    def parse_single_result(self, single_result, return_type=ReturnType.FULL, **kwargs):
         """
         Parses the source code to return
 

@@ -31,7 +31,7 @@ class Search(BaseSearch):
         # find all li tags
         return soup.find_all('li', class_='b_algo')
 
-    def parse_single_result(self, single_result, return_type=ReturnType.FULL):
+    def parse_single_result(self, single_result, return_type=ReturnType.FULL, **kwargs):
         """
         Parses the source code to return
 

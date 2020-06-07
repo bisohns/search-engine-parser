@@ -61,7 +61,7 @@ class Search(BaseSearch):
         elif self.type == "Commits":
             return soup.find_all('div', class_='commits-list-item')
 
-    def parse_single_result(self, single_result, return_type=ReturnType.FULL):
+    def parse_single_result(self, single_result, return_type=ReturnType.FULL, **kwargs):
         """
         Parses the source code to return
 
