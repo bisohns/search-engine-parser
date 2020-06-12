@@ -50,7 +50,7 @@ class Search(BaseSearch):
 
         if return_type in (ReturnType.FULL, ReturnType.LINK):
             link_tag = single_result.find('a')
-            rdict["link"] = link_tag.get('href')
+            rdict["links"] = link_tag.get('href')
 
         if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):
             desc_tag = single_result.find('div', class_='st')

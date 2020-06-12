@@ -57,7 +57,7 @@ class Search(BaseSearch):
             rdict["links"] = link
 
         if return_type in (ReturnType.FULL, return_type.DESCRIPTION):
-            desc = single_result.find('p', class_='lh-16')
+            desc = single_result.find('p', class_='fz-ms')
             rdict["descriptions"] = desc.text
 
         return rdict

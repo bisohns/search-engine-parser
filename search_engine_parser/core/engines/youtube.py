@@ -41,6 +41,7 @@ class Search(BaseSearch):
         rdict = SearchItem()
         # pylint: disable=too-many-locals
         title_tag = single_result.find('a', class_='yt-uix-tile-link')
+        channel_name = ""
 
         if return_type in (ReturnType.FULL, return_type.TITLE):
             # Get the text and link

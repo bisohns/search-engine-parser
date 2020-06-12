@@ -11,7 +11,6 @@ from urllib.parse import urlencode, urlparse
 
 import aiohttp
 from bs4 import BeautifulSoup
-
 from search_engine_parser.core import utils
 from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 
@@ -38,6 +37,7 @@ class SearchResult():
         self.results.append(value)
 
     def __getitem__(self, value):
+        """ Allow getting by index and by type ('descriptions', 'links'...)"""
         if isinstance(value, int):
             return self.results[value]
         l = []
@@ -172,6 +172,7 @@ class BaseSearch:
         # TODO Check if empty results is caused by traffic or answers to query
         # were not found
         if not results:
+            print(f"ENGINE FAILURE: {self.name}\n")
             raise NoResultsOrTrafficError(
                 "The result parsing was unsuccessful. It is either your query could not be found" +
                 " or it was flagged as unusual traffic")

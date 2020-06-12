@@ -22,11 +22,10 @@ class Search(BaseSearch):
     def get_params(self, query=None, page=None, offset=None, **kwargs):
         params = {}
         params["q"] = query
-        params["s"] = kwargs.get("start", 0)
+        params["s"] = 0 if (page < 2) else (((page-1) * 50) - 20)
         params["dc"] = offset
-        params["v"] = "l"
         params["o"] = "json"
-        params["api"] = "/d.js"
+        params["api"] = "d.js"
         return params
 
     def parse_soup(self, soup):
@@ -69,19 +68,3 @@ class Search(BaseSearch):
             rdict["descriptions"] = desc.text
 
         return rdict
-
-    def get_search_url(self, query=None, page=None, **kwargs):
-        """
-        Return a formatted search url
-        """
-        # Start value for the page
-        start = 0 if (page < 2) else (((page-1) * 50) - 20)
-
-        type_ = kwargs.get("type", None)
-
-        return self.search_url.format(
-            query=query,
-            start=start,
-            offset=start-1,
-            type_=type_,
-        )

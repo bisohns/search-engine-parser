@@ -29,7 +29,6 @@ class Search(BaseSearch):
         """
         Parses Yandex for a search query
         """
-        # find all divs
         return soup.find_all('li', class_="serp-item")
 
     def parse_single_result(self, single_result, return_type=ReturnType.FULL, **kwargs):

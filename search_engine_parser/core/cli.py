@@ -8,7 +8,6 @@ import sys
 from importlib import import_module
 
 from blessed import Terminal
-
 from search_engine_parser.core.base import ReturnType
 from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 
@@ -19,7 +18,6 @@ def display(results, term, **args):
     def print_one(kwargs):
         """ Print one result to the console """
         # Header
-        print(kwargs)
         if kwargs.get("titles"):
             print("\t{}".format(term.magenta(kwargs.pop("titles"))))
         if kwargs.get("links"):
