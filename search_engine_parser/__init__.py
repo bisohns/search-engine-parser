@@ -38,4 +38,4 @@ from search_engine_parser.core.engines.stackoverflow import \
 from search_engine_parser.core.engines.yahoo import Search as YahooSearch
 
 name = "search-engine-parser"  # pylint: disable=invalid-name
-__version__ = "0.5.4"
+__version__ = "0.6"
