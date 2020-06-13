@@ -18,7 +18,7 @@ def get_engines():
         if os.path.isfile(os.path.join(engines_dir, filename)) and filename.endswith('.py') \
                 and filename != '__init__.py':
             engine = filename.split('.py')[0]
-            module = import_module(f"search_engine_parser.core.engines.{engine.lower()}")
+            module = import_module("search_engine_parser.core.engines.{}".format(engine.lower()))
             engine_class = getattr(module, "Search")
             engines.append([engine, engine_class(),])
     return engines
@@ -65,7 +65,7 @@ class EngineTests(unittest.TestCase):
         self.assertTrue(len(self.results['descriptions']) >= 8)
 
     def test_links(self):
-        print(f"{self.name}:::::")
+        print("{}:::::".format(self.name))
         for link in self.results['links']:
             self.assertTrue(validate_url(link))
 

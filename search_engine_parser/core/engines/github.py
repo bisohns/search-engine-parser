@@ -39,7 +39,7 @@ class Search(BaseSearch):
             "Users",
             "Topics",
             "Marketplace",
-            "Packages",
+            "RegistryPackages",
             "Issues",
             "Commits",
             "Code")
@@ -47,17 +47,21 @@ class Search(BaseSearch):
             raise IncorrectKeyWord(
                 "No type <{type_}> exists".format(type_=self.type))
         # find all li tags
-        if self.type in (None, "Repositories", "Packages"):
+        if self.type in (None, "Repositories"):
             return soup.find_all('li', class_='repo-list-item')
+        elif self.type == "RegistryPackages":
+            return soup.find_all("div", class_='hx_hit-package')
         # find all user divs
         elif self.type == "Users":
             return soup.find_all('div', class_='user-list-item')
         elif self.type == "Wikis":
-            return soup.find_all('div', class_='wiki-list-item')
+            return soup.find_all('div', class_='hx_hit-wiki')
         elif self.type == "Topics":
             return soup.find_all('div', class_='topic-list-item')
-        elif self.type in ("Marketplace", "Issues"):
+        elif self.type == "Issues":
             return soup.find_all('div', class_='issue-list-item')
+        elif self.type == "Marketplace":
+            return soup.find_all('div', class_='hx_hit-marketplace')
         elif self.type == "Commits":
             return soup.find_all('div', class_='commits-list-item')
 
@@ -72,7 +76,8 @@ class Search(BaseSearch):
         """
         rdict = SearchItem()
         if self.type in (None, "Repositories"):
-            h3 = single_result.find('h3')  # pylint: disable=invalid-name
+            h3 = single_result.find(
+                'div', class_='f4')  # pylint: disable=invalid-name
             link_tag = h3.find('a')
             # Get the text and link
             if return_type in (ReturnType.FULL, ReturnType.TITLE):
@@ -85,46 +90,55 @@ class Search(BaseSearch):
                 rdict["links"] = link
 
             if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):
-                desc = single_result.find('p', class_="col-12")
+                desc = single_result.find('p', class_="mb-1")
                 rdict["descriptions"] = desc.text
 
             if return_type in (ReturnType.FULL,):
                 stars_and_lang_div = single_result.find(
-                    'div', class_='flex-shrink-0')
+                    'div', class_='d-flex')
                 lang = stars_and_lang_div.find(
                     'span', itemprop="programmingLanguage").text
-                stars = stars_and_lang_div.find(
-                    'a', class_='muted-link').text.strip()
+                stars = single_result.find('div', class_='mr-3').find(
+                    'a').text.strip()
+                updated_on = single_result.find("relative-time").get("title")
                 rdict.update({
                     "stars": stars,
                     "languages": lang,
+                    "updated_on": updated_on,
                 })
 
         if self.type == "Users":
-            title_tag = single_result.find('a', class_=None)
+            title_tag = single_result.find('div', class_='f4')
             if return_type in (ReturnType.FULL, ReturnType.TITLE):
                 title = title_tag.text
                 rdict["titles"] = title
 
             if return_type in (ReturnType.FULL, ReturnType.LINK):
-                ref_link = title_tag.get('href')
+                ref_link = title_tag.find('a').get('href')
                 link = self.base_url + ref_link
                 rdict["links"] = link
 
             if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):
-                desc_tag = single_result.find('p', class_='f5 mt-2')
+                desc_tag = single_result.find('p', class_='mb-1')
                 desc = None
                 if desc_tag:
                     desc = desc_tag.text.strip(' \n')
                 rdict["descriptions"] = desc
 
             if return_type in (ReturnType.FULL, ):
-                location_tag = single_result.find('li', class_='mt-1')
-                location = None
-                if location_tag:
-                    location = location_tag.text.strip(' \n')
+                location_div = single_result.find('div', class_='d-flex')
+                location_and_email = location_div.find_all(
+                    'div', class_='mr-3')
+                location = email = None
+                for single in location_and_email:
+                    if single.get('href') == None:
+                        location = single.text.strip(' \n')
+                    else:
+                        email = single.text
+
                 rdict.update({
                     "locations": location,
+                    "emails": email,
                 })
 
         if self.type == "Wikis":
@@ -140,20 +154,20 @@ class Search(BaseSearch):
                 rdict["links"] = link
 
             if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):
-                desc = single_result.find('p', class_=None).text
+                desc = single_result.find('p', class_="mb1").text
                 rdict["descriptions"] = desc
 
             if return_type in (ReturnType.FULL, ):
                 last_updated = single_result.find(
-                    'div', class_='updated-at').find('relative-time').text
-                repository = single_result.find('a', class_='h5').text
+                    'relative-time').get('title')
+                repository = single_result.find('a', class_='muted-link').text
                 rdict.update({
                     "repositories": repository,
                     "last_updated": last_updated,
                 })
 
         if self.type == "Topics":
-            title_div = single_result.find('h3')
+            title_div = single_result.find('div', class_='f4')
             title_tag = title_div.find('a', class_=None)
             if return_type in (ReturnType.FULL, ReturnType.TITLE):
                 rdict["titles"] = title_tag.text
@@ -169,7 +183,7 @@ class Search(BaseSearch):
                 rdict["descriptions"] = desc
 
         if self.type == "Marketplace":
-            title_tag = single_result.find('a', class_=None)
+            title_tag = single_result.find('a', class_='no-underline')
             if return_type in (ReturnType.FULL, ReturnType.TITLE):
                 title = title_tag.get('title')
                 rdict["titles"] = title_tag.text
@@ -179,21 +193,21 @@ class Search(BaseSearch):
 
             if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):
                 desc = None
-                desc_tag = single_result.find('text-gray-light')
+                desc_tag = single_result.find('text-gray')
                 if desc_tag:
                     desc = desc_tag.text
                 rdict["descriptions"] = desc
 
             if return_type in (ReturnType.FULL, ):
                 categories = list()
-                categories_tags = single_result.find('a', class_='topic-tag')
+                categories_tags = single_result.find_all('a', class_='Label')
                 if categories_tags:
                     for i in categories_tags:
                         categories.append(str(i).strip('\n '))
             rdict["categories"] = categories
 
-        if self.type == "Packages":
-            title_tag = single_result.find('a', class_='v-align-middle')
+        if self.type == "RegistryPackages":
+            title_tag = single_result.find('a', class_='h4')
             if return_type in (ReturnType.FULL, ReturnType.TITLE):
                 title = title_tag.text
                 rdict["titles"] = title_tag.text
@@ -205,7 +219,7 @@ class Search(BaseSearch):
 
             if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):
                 desc = single_result.find(
-                    'p', class_='col-12').text.strip('\n ')
+                    'p', class_='mb-1').text.strip('\n ')
                 rdict["descriptions"] = desc
 
         if self.type == "Issues":
@@ -220,20 +234,24 @@ class Search(BaseSearch):
                 rdict["links"] = link
 
             if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):
-                desc = single_result.find('p', class_=None).text
+                desc = single_result.find('p', class_='mb-0').text
                 rdict["descriptions"] = desc
 
             if return_type in (ReturnType.FULL, ):
-                span = single_result.find('span', class_='flex-auto')
-                opened_by = self.base_url + span.find('a').get('href')
-                opened_on = span.find('relative-time').text
+                repository = single_result.find(
+                    'div', class_='ml-1').find('a', 'text-bold').text
+                opened_by = self.base_url + \
+                    single_result.find(
+                        'div', class_='mr-3').find('a').get('href')
+                opened_on = single_result.find('relative-time').get("title")
                 rdict.update({
                     "opened_by": opened_by,
                     "opened_on": opened_on,
+                    "respositories": repository,
                 })
 
         if self.type == "Commits":
-            title_p = single_result.find('p', class_="commit-title")
+            title_p = single_result.find('div', class_="f4")
             title_tag = title_p.find('a')
 
             if return_type in (ReturnType.FULL, ReturnType.TITLE):
@@ -252,14 +270,15 @@ class Search(BaseSearch):
                 opened_on = None
                 author = None
                 if single_result.find('relative-time'):
-                    opened_on = single_result.find('relative-time').text
+                    opened_on = single_result.find(
+                        'relative-time').get("title")
                 desc = None
                 if single_result.find('a', class_='commit-author'):
                     author_tag = single_result.find(
                         'a', class_='commit-author')
                     author = author_tag.text
-                    div = single_result.find('div', class_='min-width-0')
-                    repo = div.find('a', class_=None).text
+                    div = single_result.find('div', class_='d-flex')
+                    repo = div.find('a').text
                     desc = "Committed to {}".format(repo)
                 rdict["descriptions"] = desc
                 if return_type == ReturnType.FULL:

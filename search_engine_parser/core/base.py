@@ -172,7 +172,7 @@ class BaseSearch:
         # TODO Check if empty results is caused by traffic or answers to query
         # were not found
         if not results:
-            print(f"ENGINE FAILURE: {self.name}\n")
+            print("ENGINE FAILURE: {}\n".format(self.name))
             raise NoResultsOrTrafficError(
                 "The result parsing was unsuccessful. It is either your query could not be found" +
                 " or it was flagged as unusual traffic")
