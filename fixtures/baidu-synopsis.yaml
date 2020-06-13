@@ -1,0 +1,65 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      Host:
+      - wappass.baidu.com
+      User-Agent:
+      - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0
+    method: GET
+    uri: https://www.baidu.com/s?wd=Preaching+the+choir&pn=0&oq=Preaching+the+choir
+  response:
+    body:
+      string: "<!DOCTYPE html>\n<html lang=\"zh-CN\">\n<head>\n    <meta charset=\"\
+        utf-8\">\n    <title>\u767E\u5EA6\u5B89\u5168\u9A8C\u8BC1</title>\n    <meta\
+        \ http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta\
+        \ name=\"apple-mobile-web-app-capable\" content=\"yes\">\n    <meta name=\"\
+        apple-mobile-web-app-status-bar-style\" content=\"black\">\n    <meta name=\"\
+        viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0,\
+        \ minimum-scale=1.0, maximum-scale=1.0\">\n    <meta name=\"format-detection\"\
+        \ content=\"telephone=no, email=no\">\n    <link rel=\"shortcut icon\" href=\"\
+        https://www.baidu.com/favicon.ico\" type=\"image/x-icon\">\n    <link rel=\"\
+        icon\" sizes=\"any\" mask href=\"https://www.baidu.com/img/baidu.svg\">\n\
+        \    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\">\n    <meta\
+        \ http-equiv=\"Content-Security-Policy\" content=\"upgrade-insecure-requests\"\
+        >\n    <link rel=\"stylesheet\" href=\"https://wappass.bdimg.com/static/touch/css/api/mkdjump_8befa48.css\"\
+        \ />\n</head>\n<body>\n    <div class=\"timeout hide\">\n        <div class=\"\
+        timeout-img\"></div>\n        <div class=\"timeout-title\">\u7F51\u7EDC\u4E0D\
+        \u7ED9\u529B\uFF0C\u8BF7\u7A0D\u540E\u91CD\u8BD5</div>\n        <button type=\"\
+        button\" class=\"timeout-button\">\u8FD4\u56DE\u9996\u9875</button>\n    </div>\n\
+        \    <div class=\"timeout-feedback hide\">\n        <div class=\"timeout-feedback-icon\"\
+        ></div>\n        <p class=\"timeout-feedback-title\">\u95EE\u9898\u53CD\u9988\
+        </p>\n    </div>\n\n<script src=\"https://wappass.baidu.com/static/machine/js/api/mkd.js\"\
+        ></script>\n<script src=\"https://wappass.bdimg.com/static/touch/js/mkdjump_6003cf3.js\"\
+        ></script>\n</body>\n</html>"
+    headers:
+      Access-Control-Allow-Credentials: 'true'
+      Access-Control-Allow-Methods: GET, POST, OPTIONS
+      Access-Control-Allow-Origin: http://wappass.baidu.com
+      Connection: keep-alive
+      Content-Encoding: gzip
+      Content-Type: text/html
+      Date: Sat, 13 Jun 2020 18:19:14 GMT
+      Etag: W/"5e980feb-5ef"
+      Last-Modified: Thu, 16 Apr 2020 07:57:31 GMT
+      P3p: CP=" OTI DSP COR IVA OUR IND COM "
+      Server: Apache
+      Set-Cookie: BAIDUID=1A12B96A0B8C846805542B472461D872:FG=1; expires=Sun, 13-Jun-21
+        18:19:14 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1
+      Strict-Transport-Security: max-age=31536000
+      Tracecode: '11542091750908054282061402'
+      Transfer-Encoding: chunked
+      Vary: Accept-Encoding
+    status:
+      code: 200
+      message: OK
+    url: https://wappass.baidu.com/static/captcha/tuxing.html?&ak=c27bbc89afca0463650ac9bde68ebe06&backurl=https://www.baidu.com/s?wd%3DPreaching%2Bthe%2Bchoir%26pn%3D0%26oq%3DPreaching%2Bthe%2Bchoir&logid=10123463438346272915&signature=6a0208234ca259bfc8e90d6300215db6&timestamp=1592072351
+version: 1

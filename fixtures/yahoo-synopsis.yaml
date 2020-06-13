@@ -1,0 +1,1586 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      User-Agent:
+      - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0
+    method: GET
+    uri: https://search.yahoo.com/search?p=Preaching+the+choir&b=1
+  response:
+    body:
+      string: "<!doctype html><html id=\"Stencil\" class=\"NoJs\" lang=\"en-US\"><head><meta\
+        \ http-equiv=\"x-dns-prefetch-control\" content=\"on\"><meta http-equiv=\"\
+        content-type\" content=\"text/html; charset=UTF-8\"><link rel=\"apple-touch-icon\"\
+        \ sizes=\"76x76\" href=\"https://s.yimg.com/pv/static/img/y_icon_iphone_76.min.png\"\
+        \ /><link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"https://s.yimg.com/pv/static/img/y_icon_iphone_114.min.png\"\
+        \ /><link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"https://s.yimg.com/pv/static/img/y_icon_iphone_120.min.png\"\
+        \ /><meta name=\"referrer\" content=\"origin\"><meta name=\"viewport\" content=\"\
+        width=device-width, initial-scale=1.0\"><noscript><meta http-equiv=\"refresh\"\
+        \ content=\"0;url=https://search.yahoo.com/search?p=Preaching+the+choir&b=1&ei=UTF-8&nojs=1\"\
+        ></noscript><script type=\"text/javascript\" nonce='vgb0STTTh8kDHxADbA0PJw=='>(function(){var\
+        \ g=window,p=document,r,l;var o=false;var m=2,j=\"\\x03\",i=\"\\x04\",k=\"\
+        ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789._-\";function\
+        \ n(x){if(!x){return null}x._r=m;var y=[],u=0,t;for(t in x){var d=x[t];if(typeof\
+        \ d!==\"string\"){d=String(d);x[t]=d}if(t.length<1){return null}if(t.length>8){return\
+        \ null}if(t.indexOf(\" \")!==-1){return null}if(q(t)||q(d)){return null}y[u++]=t}y=y.sort();var\
+        \ w=[];for(u=0;u<y.length;u++){w[u]=y[u]+j+x[y[u]]}w=w.join(i);if(w.length<1||w.length>1024){return\
+        \ null}return s(w)}function q(t){var d=0;for(;d<t.length;d++){if(t.charCodeAt(d)<32){return\
+        \ true}}return false}function s(u){var d=\"\";var B,z,x=\"\";var A,y,w,v=\"\
+        \";var t=0;do{B=u.charCodeAt(t++);z=u.charCodeAt(t++);x=u.charCodeAt(t++);A=B>>2;y=((B&3)<<4)|(z>>4);w=((z&15)<<2)|(x>>6);v=x&63;if(isNaN(z)){w=v=64}else{if(isNaN(x)){v=64}}d=d+k.charAt(A)+k.charAt(y)+k.charAt(w)+k.charAt(v);B=z=x=\"\
+        \";A=y=w=v=\"\"}while(t<u.length);return d}function a(d){return !!(d.tagName&&d.tagName.toLowerCase()===\"\
+        a\"&&typeof d.getAttribute===\"function\"&&d.getAttribute(\"href\"))}var c=/(;?)(_ylt=[0-9a-zA-Z\\\
+        ._\\-]+)(;_ylu=[0-9a-zA-Z\\._\\-]+)?(;_ylc=[0-9a-zA-Z\\._\\-]+)?/;function\
+        \ e(t,d){var u=n(d);if(!c.test(t)||!u){return t}t=t.replace(c,\"$1$2$3;_ylc=\"\
+        +u);return t}function f(u){var d;var t=p.getElementsByTagName(\"meta\");if(!u){u=r.referrerpolicy}if(t.referrer&&t.referrer.content){t.referrer.content=u}else{d=p.createElement(\"\
+        meta\");d.name=\"referrer\";d.content=u;p.head.appendChild(d)}}function h(t){var\
+        \ v=t.target;var w;while(v){if(a(v)){var d=v.getAttribute(\"href\");if(l.test(d)){d=e(d,r.ylcParam);v.setAttribute(\"\
+        href\",d);w=\"unsafe-url\";if((t.button===0)&&r.hide_on_302_click){var u=(\"\
+        _blank\"===v.getAttribute(\"target\"));if(!u){v.addEventListener(\"click\"\
+        ,function(x){o=true;p.body.style.visibility=\"hidden\"})}}}if(r.referrerpolicy){if(!w){w=v.getAttribute(\"\
+        referrerpolicy\")}f(w)}break}v=v.parentNode}return true}function b(){}b.prototype={mdeh:function(d){return\
+        \ h(d)},init:function(t){r=t;this.injectYlc=e;if(r.cbclk_regexp){l=new RegExp(r.cbclk_regexp)}if(r.ylcParam){if(g.addEventListener){g.addEventListener(\"\
+        mousedown\",this.mdeh)}else{if(g.attachEvent){g.attachEvent(\"onmousedown\"\
+        ,this.mdeh)}}}if(r.hide_on_302_click){if(p.visibilityState){var d=[\"visibilitychange\"\
+        ,\"pageshow\",\"pagehide\",\"focus\",\"blur\",];d.forEach(function(u){var\
+        \ v=(u===\"visibilitychange\")?p:g;v.addEventListener(u,function(w){if(o){p.body.style.visibility=\"\
+        visible\";o=false}})})}else{r.hide_on_302_click=false}}},updateUrl:function(d){var\
+        \ t;if(r&&r.ylcParam&&l&&l.test(d)){d=e(d,r.ylcParam);t=\"unsafe-url\"}if(r.referrerpolicy){f(t)}return\
+        \ d}};window.cwh=new b()})();window.cwh.init({\"cbclk_regexp\":\"(qa-r|qa-ri|r|ri)\\\
+        \\.search\\\\.yahoo\\\\.com\\\\\\/(cbclk2|cbclk)(\\\\\\/.+\\\\\\/RU=([^\\\\\
+        \\/]+)\\\\\\/.+?)(;_ylc=[0-9a-zA-Z\\\\._\\\\-]+)?$\",\"rd_regexp\":\"(qa-r|qa-ri|r|ri)\\\
+        \\.search\\\\.yahoo\\\\.com\\\\\\/.+\\\\\\/RU=([^\\\\\\/]+)\\\\\\/\",\"referrerpolicy\"\
+        :\"origin\",\"ylcParam\":{\"rt\":0}});if(!Array.prototype.forEach){Array.prototype.forEach=function(h,b){var\
+        \ e,c;if(this==null){throw new TypeError(\" this is null or not defined\"\
+        )}var g=Object(this);var a=g.length>>>0;if(typeof h!==\"function\"){throw\
+        \ new TypeError(h+\" is not a function\")}if(arguments.length>1){e=b}c=0;while(c<a){var\
+        \ f;if(c in g){f=g[c];h.call(e,f,c,g)}c++}}}if(!Array.prototype.filter){Array.prototype.filter=function(c){if(this===void\
+        \ 0||this===null){throw new TypeError()}var g=Object(this);var a=g.length>>>0;if(typeof\
+        \ c!==\"function\"){throw new TypeError()}var f=[];var b=arguments.length>=2?arguments[1]:void\
+        \ 0;for(var e=0;e<a;e++){if(e in g){var h=g[e];if(c.call(b,h,e,g)){f.push(h)}}}return\
+        \ f}}if(!Array.prototype.map){Array.prototype.map=function(j,i){var b,a,c;if(this==null){throw\
+        \ new TypeError(\" this is null or not defined\")}var f=Object(this);var g=f.length>>>0;if(typeof\
+        \ j!==\"function\"){throw new TypeError(j+\" is not a function\")}if(arguments.length>1){b=i}a=new\
+        \ Array(g);c=0;while(c<g){var e,h;if(c in f){e=f[c];h=j.call(b,e,c,f);a[c]=h}c++}return\
+        \ a}}if(typeof YAHOO===\"undefined\"){YAHOO={}}if(!YAHOO.ULT){YAHOO.ULT={}}YAHOO.ULT.SRC_SPACEID_KEY=\"\
+        _S\";YAHOO.ULT.DEST_SPACEID_KEY=\"_s\";YAHOO.ULT.YLC_LIBSRC=2;YAHOO.ULT.CTRL_C=\"\
+        \\x03\";YAHOO.ULT.CTRL_D=\"\\x04\";YAHOO.ULT.BASE64_STR=\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789._-\"\
+        ;(function(){function a(){var b=new Image();b.onload=b.onerror=function(){b.onload=b.onerror=null;b=null};return\
+        \ b}YAHOO.ULT.track_click=function(b,e,c){if(!b||!e){return b}b=YAHOO.ULT.y64_token(\"\
+        ylc\",b,e);if(c){b=YAHOO.ULT.y64_token(\"ylg\",b,c)}return b};YAHOO.ULT.beacon_click=function(f,e,c){if(!c){c=a()}if(e&&e.nodeName===\"\
+        IMG\"){DEBUGCODE(window.alert(\"WARNING: using legacy IMG argument for beacon_click()\
+        \ call in ylc.js!\\nThis is now the (optional) third argument in ylc.js versions\
+        \ 3.0+!\"));c=e;e=undefined}if(f){var b=YAHOO.ULT.track_click(YAHOO.ULT.BEACON,f,e);b+=(b.indexOf(\"\
+        ?\")===-1?\"?\":\"&\")+\"t=\"+Math.random();c.src=b}return true};YAHOO.ULT.click_beacon=function(j,l,h){var\
+        \ f=j.target||j.srcElement,c=a();if(l){var k=YAHOO.ULT.track_click(YAHOO.ULT.BEACON,l,h);k+=\"\
+        ?t=\"+Math.random();var b=f.getAttribute(\"href\",2);c.onerror=c.onload=function(){location=b};if(j.preventDefault){j.preventDefault()}else{j.returnValue=false}c.src=k}};YAHOO.ULT.has_multibyte=function(c){for(var\
+        \ b=0;b<c.length;b++){if(c.charCodeAt(b)>255){return true}}return false};YAHOO.ULT.escape_multibyte_if_necessary=function(b){return\
+        \ YAHOO.ULT.has_multibyte(b)?encodeURIComponent(b):b};YAHOO.ULT.y64_token=function(n,m,b){if(!n||!m||!b){return\
+        \ m}b._r=YAHOO.ULT.YLC_LIBSRC;var j=[],g=0,c;for(c in b){var l=b[c];if(typeof\
+        \ l!==\"string\"){l=String(l);b[c]=l}if(c.length<1){return m}if(c.length>8){return\
+        \ m}if(c.indexOf(\" \")!==-1){return m}if(YAHOO.ULT.has_ctrl_char(c)||YAHOO.ULT.has_ctrl_char(l)){return\
+        \ m}b[c]=l=YAHOO.ULT.escape_multibyte_if_necessary(l);j[g++]=c}j=j.sort();var\
+        \ h=[];for(g=0;g<j.length;g++){h[g]=j[g]+YAHOO.ULT.CTRL_C+b[j[g]]}h=h.join(YAHOO.ULT.CTRL_D);if(h.length<1||h.length>1024){return\
+        \ m}h=\";_\"+n+\"=\"+YAHOO.ULT.encode64(h);var e=\"(;_\"+n+\"=[0-9a-zA-Z\\\
+        ._\\-]+)\";m.replace(new RegExp(e),\"\");g=m.indexOf(\"/*\");if(g===-1){g=m.indexOf(\"\
+        /?\")}if(g===-1){g=m.indexOf(\"?\")}if(g===-1){return m+h}else{return m.substr(0,g)+h+m.substr(g)}};YAHOO.ULT.has_ctrl_char=function(c){var\
+        \ b=0;for(;b<c.length;b++){if(c.charCodeAt(b)<32){return true}}return false};YAHOO.ULT.encode64=function(e){var\
+        \ b=\"\";var m,k,h=\"\";var l,j,g,f=\"\";var c=0;do{m=e.charCodeAt(c++);k=e.charCodeAt(c++);h=e.charCodeAt(c++);l=m>>2;j=((m&3)<<4)|(k>>4);g=((k&15)<<2)|(h>>6);f=h&63;if(isNaN(k)){g=f=64}else{if(isNaN(h)){f=64}}b=b+YAHOO.ULT.BASE64_STR.charAt(l)+YAHOO.ULT.BASE64_STR.charAt(j)+YAHOO.ULT.BASE64_STR.charAt(g)+YAHOO.ULT.BASE64_STR.charAt(f);m=k=h=\"\
+        \";l=j=g=f=\"\"}while(c<e.length);return b}}());var w=window;var d=document;(function(){var\
+        \ k=(function(){if(w.navigator.appName===\"Microsoft Internet Explorer\"){var\
+        \ B=new RegExp(\"MSIE ([0-9]{1,}[.0-9]{0,})\").exec(w.navigator.userAgent);return\
+        \ B&&B[1]&&parseFloat(B[1])}return false})();function i(B){function C(){}C.prototype=B;return\
+        \ new C()}function q(C,B){C.prototype=Object.create?Object.create(B.prototype):i(B.prototype);C.prototype.constructor=C}w.YAHOO=w.YAHOO||{};function\
+        \ g(D,C){for(var B in C){if(typeof C[B]===\"object\"&&typeof D[B]===\"object\"\
+        ){g(D[B],C[B])}else{D[B]=C[B]}}}function c(B,D){var E=[];for(var C in D){if(D.hasOwnProperty(C)){E.push(encodeURIComponent(C)+\"\
+        =\"+encodeURIComponent(D[C]))}}if(E.length>0){B=B+(B.indexOf(\"?\")===-1?\"\
+        ?\":\"&\")+E.join(\"&\")}return B}function j(B){z(B);m(B)}function y(B){if(typeof\
+        \ B.trim===\"function\"){return B.trim()}else{return B.replace(/^\\s+|\\s+$/gm,\"\
+        \")}}function z(C){if(k&&k<9&&typeof C.createTextRange!==\"undefined\"){var\
+        \ B=C.createTextRange();B.collapse(false);B.select()}else{if(typeof C.selectionStart===\"\
+        number\"){C.selectionStart=C.selectionEnd=C.value.length}}}function m(B){if(\"\
+        focus\" in B){B.focus()}}function l(D,E,B){if(k&&k<9&&typeof D.createTextRange!==\"\
+        undefined\"){var C=D.createTextRange();C.moveStart(\"character\",E);C.moveEnd(\"\
+        character\",B);C.select()}else{D.selectionStart=E;D.selectionEnd=B;m(D)}}function\
+        \ b(B){return B.replace(/[\\u00A0-\\u9999<>\\&]/gim,function(C){return\"&#\"\
+        +C.charCodeAt(0)+\";\"})}function t(E,C,D,B){if(!B){B=false}if(E.addEventListener){E.addEventListener(C,D,B)}else{if(E.attachEvent){E.attachEvent(\"\
+        on\"+C,D)}else{return false}}}function v(D,B,C){if(D.removeEventListener){D.removeEventListener(B,C)}else{if(D.detachEvent){D.detachEvent(\"\
+        on\"+B,C)}else{return false}}}function r(E,B,D){var C;if(typeof w.CustomEvent===\"\
+        function\"){C=new w.CustomEvent(B,{detail:D});E.dispatchEvent(C)}else{if(typeof\
+        \ d.createEvent===\"function\"){C=d.createEvent(\"CustomEvent\");C.initCustomEvent(B,false,false,D);E.dispatchEvent(C)}else{if(typeof\
+        \ d.attachEvent){document.documentElement[B]=D}}}}function x(B){B.returnValue=false;B.cancelBubble=true;B.preventDefault&&B.preventDefault();B.stopPropagation&&B.stopPropagation();B.stopImmediatePropagation&&B.stopImmediatePropagation()}function\
+        \ p(){return Math.round((new Date()).getTime()/1000)}function h(B){return\
+        \ B.replace(/[\\-\\[\\]\\/\\{\\}\\(\\)\\*\\+\\?\\.\\\\^\\$\\|]/g,\"\\\\$&\"\
+        )}function A(B){return function(C,E,D){return E&&!(/\\s/).test(D)?C:B.replace(/\\\
+        {s\\}/g,D)}}function o(D,B){if(D.classList){return D.classList.contains(B)}else{var\
+        \ C=new RegExp(\"(\\\\s|^)\"+h(B)+\"(\\\\s|$)\");return D.className.match(C)}}function\
+        \ s(D,B){if(D.classList){D.classList.remove(B)}else{var C=new RegExp(\"(\\\
+        \\s|^)\"+h(B)+\"(\\\\s|$)\");D.className=y(D.className.replace(C,\" \"))}}function\
+        \ e(C,B){if(C.classList){C.classList.add(B)}else{if(!o(C,B)){C.className+=(\"\
+        \ \"+h(B))}}}function u(B,F,C){var D=\"(&[^;\\s]*)?(%needles)\";var E=C.split(/[\\\
+        s|,]+/).filter(function(G){return G!==\"\"}).sort(function(H,G){return G.length-H.length}).map(function(G){return\
+        \ h(G)});if(!E.length){return F}D=D.replace(\"%needles\",E.join(\"|\"));F=F.replace(new\
+        \ RegExp(D,\"gi\"),A(B));return F}function n(){return document.scrollingElement||document.documentElement}function\
+        \ f(E,D){if(!w.YAHOO.SB.config.i13n){return}var C=w.YAHOO.SB.config.i13n;var\
+        \ B=D?\"b\":\"p\";if(!E.s){if(E._S){E.s=E._S}else{if(C.spaceid){E.s=C.spaceid}}}delete\
+        \ E._S;if((!E.mtestid)&&C.mtestid){E.mtestid=C.mtestid}E.t=E.t||+(new Date()).getTime();(new\
+        \ Image()).src=c(\"https://\"+w.YAHOO.SB.config.beacon_host+\"/\"+B,E)}function\
+        \ a(){this.config={}}a.prototype={set:function(C,B,D){C.setAttribute(B,D)},get:function(C,B){return\
+        \ C.getAttribute(B)},ieVer:k,merge:g,extend:q,buildUrl:c,stopPropagation:x,setFocus:j,cursorEnd:z,select:l,hasClass:o,removeClass:s,addClass:e,trim:y,htmlEncode:b,ae:t,de:v,ts:p,bold:u,fireEvent:r,getScrollingEle:n,sendViewBeacon:f,debug:function(B){if(this.config.debug&&w.console&&w.console.log){w.console.log(B)}}};w.YAHOO.NBClass=w.YAHOO.SBClass=a;w.YAHOO.NB=w.YAHOO.SB=new\
+        \ a()})();if(w.YAHOO && w.YAHOO.SB){ w.YAHOO.SB.config = {\"beacon_host\"\
+        :\"geo.yahoo.com\",\"i13n\":{\"spaceid\":\"2766679\",\"mtestid\":\"L72=ATS24_PRODIR2\"\
+        }}; }if(w.YAHOO && w.YAHOO.ULT){ w.YAHOO.ULT.BEACON = \"https://geo.yahoo.com/t\"\
+        }!function(){var an,ap,aG,ay,ai,aZ,aY=window,bh=document,aF=aY.YAHOO,a8=aF.NB,aD={},aI=\"\
+        before_get_assist\",ax=\"before_display_data\",az=\"before_init_view\",aM=\"\
+        after_init_view\",bc=\"before_parse_data\",av=\"before_update_assist\",aW=\"\
+        after_update_list\",aL=\"after_create_item\",aq=\"before_show_sa\",aw=\"after_reset_view\"\
+        ,am=\"after_hide_view\",aE=\"after_init_controller\",bb=\"click_assist\",a2=\"\
+        before_query_assist\",bg=\"before_key_submit\",aA=\"before_button_submit\"\
+        ,ak=\"before_submit_query\",aH=\"after_item_highlight\",aJ=\"after_item_reset_highlight\"\
+        ,be=\"before_sb_focus\",aj=\"after_sb_focus\",a5=\"before_sb_blur\",aV=\"\
+        after_sb_blur\",a9=\"before_beacon\",a4=\"after_set_ylc\",aT=\"after_reset_controller\"\
+        ;function aP(b,a){var d;a=(b=b||{}).tag||a||\"div\";for(var c in d=bh.createElement(a),b.css&&(d.className=b.css),b.text&&(d.textContent=b.text),b.attrs){a8.set(d,c,b.attrs[c])}for(var\
+        \ c in b.style){d.style[c]=b.style[c]}return d}function ao(a){this.config=a||{},this.listeners={},this.cb={}}function\
+        \ aC(){}function bd(){}function a3(){}function a0(){var b=this.app.view.elems,a=b.sbClear;a&&(0<b.sbInput.value.length?a8.removeClass(a,\"\
+        sa-hidden\"):a8.hasClass(a,\"sa-hidden\")||(a.className+=\" sa-hidden\"))}function\
+        \ ba(){}function aB(){var b=this,a=b.app.view.elems.sbForm,d=a.fr2,c=b.config.def||\"\
+        sb-top\";d=d||a.appendChild(b.createElem({attrs:{type:\"hidden\",name:\"fr2\"\
+        ,value:c}},\"input\")),b.origFr2=d.value,b.fr2=d}function au(){var b=this.fr2,a=this.config,c=this.app.view.assistItem.data;b.value=a.fr2||\"\
+        sa-gp\",\"\"==c.q&&9==c.m&&a.tnFr2&&(b.value=a.tnFr2)}function a1(){this.fr2.value=this.origFr2}function\
+        \ aU(){}function a6(){this.isTriggerByInput=!this.app.view.sameQuery()}function\
+        \ aR(b){var a,d=this.app.view.elems.sbInput;if(this.isTriggerByInput){if(\"\
+        number\"==typeof d.selectionStart){a=d.selectionStart}else{if(bh.selection){d.focus();var\
+        \ c=bh.selection.createRange();c.moveStart(\"character\",-bh.activeElement.value.length),a=c.text.length}}null!==a&&a!==d.value.length&&(b.ipos=a),this.isTriggerByInput=!1}}function\
+        \ ah(){}function a7(){this.targetURL=this.config.url}function aO(){var b=aF.ULT.y64_token,a=this.app,d=a.control.ylc;if(b&&d){var\
+        \ c=a.view.elems.sbForm;c.action=b(\"ylc\",this.targetURL||c.action,d),this.targetURL=\"\
+        \"}}function bn(){this.config={url:\"\"}}function aX(){var d=this.config,c=this.createElem,k=c(d.ctn,\"\
+        div\"),f=k.appendChild(c(d.tray,\"div\")),h=bh.getElementById(d.parent)||bh.body,g=bh.getElementById(d.beforeNode),j=bh.getElementById(d.afterNode),b=g||j;b?(h=b.parentNode,g||(b=b.nextSibling),h.insertBefore(k,b)):h.appendChild(k),this.app.view.elems.saTray=f}function\
+        \ ag(){this.config={ctn:{css:\"sa-tray-ctn\"},tray:{css:\"sa-tray\"}}}function\
+        \ aQ(q){var C=this,A=C.config,w=C.app,G=w.view,x=G.elems,z=hiddenWidth=0;if(q&&q.r&&q.r.length&&(z=q.sqpos)){for(var\
+        \ K=\"\",I=q.r,k=0;k<I.length;k++){K=I[k].k.length>K.length?I[k].k:K}var F=w.config,D=C.createElem,B=D(F.sa,\"\
+        div\"),L=D(F.saList,\"ul\"),j=F.boldTag,H=[K,q.q.substr(0,z)];B.style.position=\"\
+        absolute\",B.style.left=\"-9999px\",x.saTray.appendChild(B).appendChild(L);for(k=0;k<H.length;k++){var\
+        \ J=j?j.replace(\"{s}\",a8.htmlEncode(H[k])):H[k],m=G.createItem({t:J}),y=m.title;y.style.display=\"\
+        inline-block\",y.style.whiteSpace=\"nowrap\",y.style.padding=\"0\",A.fontSize&&(y.style.fontSize=A.fontSize),L.appendChild(m.li);var\
+        \ g=y.clientWidth;if(0==k&&g-A.delta>x.sbInput.clientWidth){z=0;break}hiddenWidth=g}B.outerHTML=\"\
+        \"}C.sqpos=z,C.toleft=hiddenWidth}function bk(b){var a=this.sqpos;a&&(b.k=b.k.substr(a),b.q=b.q.substr(a))}function\
+        \ bv(b){var a=b.parentNode,d=this.sqpos,c=this.toleft;config=this.config,d&&(a.className+=\"\
+        \ \"+config.css,a.style.left=c+config.offset+\"px\",a.style.position=\"absolute\"\
+        )}function br(){this.config={css:\"sa-subtray\",offset:5,delta:0}}function\
+        \ al(){this.selectedIndex=-1}function bf(){function b(){var a=n.selectedIndex;0<=a&&(a8.removeClass(j[a].li,r.css),n.app.notify(aJ))}function\
+        \ p(a){a8.hasClass(a,r.css)||(a.className+=\" \"+r.css),n.app.notify(aH)}var\
+        \ n=this,r=n.config,k=n.app.view,j=k.items,s=k.elems,d=s.sbInput,m=s.saTray,g=a8.ieVer,q=!1;a8.ae(m,\"\
+        mouseover\",function(c){for(var a=c.target||c.srcElement;a;){var f=a8.get(a,\"\
+        pos\"),e=f?k.items[f]:{};if(e&&a===e.li){b(),n.selectedIndex=f,p(a);break}if((a=a.parentNode)===m){break}}}),a8.ae(m,\"\
+        mouseout\",function(a){b()}),a8.ae(d,\"keydown\",function(c){var a=c.keyCode,o=n.selectedIndex;switch(a){case\
+        \ 38:case 40:if(!j.length){return}b();for(var f,l=j.length;40==a?o<0||l-1<=o?o=0:o++:o<=0?o=l-1:o--,!(f=j[o]).li.parentNode;){}n.selectedIndex=o,k.assistItem=f,d.value=f.data.k,p(f.li),a8.stopPropagation(c),q=!0;break;case\
+        \ 9:case 39:if(9==a&&r.useDefaultTab){return}var h=d.value.length;if(d.selectionEnd==h&&d.selectionStart==h){if(!j.length){return}(0<=o||d.value!==j[0].data.k)&&(d.value=0<=o?j[o].data.k:j[0].data.k,k.show(),a8.stopPropagation(c))}else{9==a&&(d.selectionEnd=d.selectionStart=d.value.length,a8.stopPropagation(c))}}}),g&&(8===g&&a8.ae(d,\"\
+        propertychange\",function(a){\"value\"===a.propertyName&&!0!==q&&k.show(),q=!1}),9===g&&(n.onSelctionChange=function(a){bh.activeElement===d&&k.show()}))}function\
+        \ af(){var a=a8.ieVer;a&&9===a&&!this.ie9_attached&&(a8.ae(bh,\"selectionchange\"\
+        ,this.onSelctionChange),this.ie9_attached=!0)}function ar(){var a=a8.ieVer;a&&9===a&&this.ie9_attached&&(a8.de(bh,\"\
+        selectionchange\",this.onSelctionChange),this.ie9_attached=!1)}function bo(){this.config={css:\"\
+        highlight\",useDefaultTab:!1}}function aN(){var a=this.app.view;a8.ae(bh,\"\
+        keydown\",function(c){var b=bh.activeElement;if(!b.tagName||\"input\"!==b.tagName.toLowerCase()&&\"\
+        textarea\"!==b.tagName.toLowerCase()){var d=a.elems.sbInput;if(27===c.keyCode&&d.value.length){return\
+        \ a8.select(d,0,d.value.length),void a8.stopPropagation(c)}c.keyCode<=40||c.ctrlKey||c.metaKey||(d.value=a8.trim(d.value),\"\
+        \"!==d.value&&(d.value+=\" \"),a.triggered=!0,a8.setFocus(d))}})}function\
+        \ bq(){}function bu(){var b=this,g=b.app,c=g.view,a=c.elems,f=a.sbInput,d=a.sbClear;d&&a8.ae(d,\"\
+        click\",function(e){a8.stopPropagation(e),f.value=\"\",c.triggered=!1,a8.setFocus(f),g.control.beacon(\"\
+        tapClr\",d,b.config.log)})}function ae(){this.config={log:{_r:2,actn:\"clk\"\
+        ,pos:1,sec:\"search\",slk:\"clearsearch\",rspns:\"upd\",t1:\"hdr\",t2:\"search\"\
+        ,t3:\"clear\",t4:\"clearsearch\"}}}function ab(){function f(h,a){return h.host+a8.buildUrl(h.base,a)}var\
+        \ g=this,b=g.app,d=b.config.customEvent,c=b.view.elems,e=c.sbForm;d.customKeyBoard=d.customSelection=d.customBtn=\"\
+        encSub\",a8.ae(c.sbInput,\"encSub\",function(h){var a=!1,j=aF.CryptoOb||null;j&&(a=j.handleSubmit(e)),a||e.submit()}),b.model.getAssist=function(h,a){var\
+        \ l=b.jsonp,j=aF.CryptoOb||null;if(j){var k=a.command;a.command&&delete a.command,a.pq&&(g.config.fetchOrigQueryOnEmpty&&\"\
+        \"===k&&(k=a.pq),delete a.pq),j.encryptUrl(f(h,a),\"command\",k,function(i){null!=i&&l(i)})}else{g.config.fetchOrigQueryOnEmpty&&\"\
+        \"===a.command&&a.pq&&(a.command=a.pq,delete a.pq),l(f(h,a))}}}function aK(){this.config={fetchOrigQueryOnEmpty:!1}}function\
+        \ ac(){if(this.config.enable){var b=this.app,a=this.config,c=b.view;this.woeidElem=bh.getElementById(a.elems.woeidInput),this.button=c.elems.sbSubmit,this.woeidToSubmit=null,this.lastInput=\"\
+        \",b.on(bc,aS,this),b.on(aH,aa,this),b.on(aJ,bs,this),b.on(am,bs,this),b.on(aj,bs,this),b.on(aL,bp,this),b.on(a2,bj,this),b.on(bg,bl,this),b.on(aA,ad,this),b.on(aW,bm,this)}}function\
+        \ ad(){this.woeidToSubmit&&(this.woeidElem.value=this.woeidToSubmit)}function\
+        \ bm(){this.lastInput=this.app.view.elems.sbInput.value}function bj(){var\
+        \ a=this.app.view;a.assistItem&&(this.woeidToSubmit=a8.get(a.assistItem.li,this.config.elems.woeidInput),aa.call(this),a.hide(),bm.call(this))}function\
+        \ bl(){this.app.view.assistItem?bj.call(this):ad.call(this)}function aa(){var\
+        \ b=this.config,a=this.button;a8.hasClass(a,b.css.buttonSel)||(a.className+=\"\
+        \ \"+b.css.buttonSel),a.disabled=!1}function bs(){var b=this.config,a=this.button;\"\
+        \"===this.app.view.elems.sbInput.value&&(this.woeidToSubmit=null,this.woeidElem.value=\"\
+        \"),this.woeidToSubmit||(a8.removeClass(a,b.css.buttonSel),a.disabled=!0)}function\
+        \ bp(b,a){a.d&&a.d.woeid&&a8.set(b.li,\"ulocid\",a.d.woeid);var d=b.li,c=this.createElem(\"\
+        \",\"s\");c.className=this.config.css.checkmark,d.appendChild(c)}function\
+        \ aS(b){for(var a=0,d=b.r.length,c=this.app;a<d;a++){b.r[a].d&&b.r[a].d.n&&(b.r[a].k=b.r[a].d.n)}c.view.elems.sbInput.value!==this.lastInput&&(this.woeidToSubmit=null,bs.call(this))}function\
+        \ bi(){this.config={enable:!1,elems:{woeidInput:\"ulocid\"},css:{buttonSel:\"\
+        loc-sel\",checkmark:\"encrypto-sprite d-ib locselect\"}}}aF.SA=(ap=[],ao.prototype={jsonp:function(b){var\
+        \ a=bh.getElementsByTagName(\"head\")[0],c=bh.createElement(\"script\");a8.set(c,\"\
+        type\",\"text/javascript\"),a8.set(c,\"src\",b),a.appendChild(c),a8.ae(c,\"\
+        load\",function(){a.removeChild(c)})},createElem:aP,on:function(b,a,d){if(b&&a){var\
+        \ c=this.listeners;c[b]||(c[b]=[]),c[b].push({thisArg:d||this,fn:a})}},notify:function(b,c){var\
+        \ a=this.listeners;if(!a[b]){return !1}a[b].forEach(function(e){var d=e.thisArg,f=e.fn;f&&f.apply&&1!=d.config.disable&&f.apply(d,c||[])})},init:function(l){var\
+        \ g,f,m,h=this,b=h.config,d=b.plugins={};for(var k in h.view=g=new an.viewClass(),h.model=f=new\
+        \ an.modelClass(),h.control=m=new an.controlClass(),aD){var j;j=new aD[k](),d[k]=j.config=j.config||{},j.createElem=aP,j.init(h)}\"\
+        object\"==typeof l&&a8.merge(b,l),h.ready=g.init(h)&&f.init(h)&&m.init(h)}},aG=ao,an={ver:\"\
+        assistjs-v1.0.96\",apps:ap,plugs:aD,add:function(b,a){aD[b]=a},msg:{BEFORE_GET_ASSIST:aI,BEFORE_DISPLAY_DATA:ax,BEFORE_INIT_VIEW:az,AFTER_INIT_VIEW:aM,BEFORE_PARSE_DATA:bc,BEFORE_UPDATE_ASSIST:av,AFTER_UPDATE_LIST:aW,AFTER_CREATE_ITEM:aL,BEFORE_SHOW_SA:aq,AFTER_RESET_VIEW:aw,AFTER_HIDE_VIEW:am,AFTER_INIT_CONTROLLER:aE,CLICK_ASSIST:bb,BEFORE_QUERY_ASSIST:a2,BEFORE_KEY_SUBMIT:bg,BEFORE_BUTTON_SUBMIT:aA,BEFORE_SUBMIT_QUERY:ak,BEFORE_SB_FOCUS:be,AFTER_SB_FOCUS:aj,BEFORE_SB_BLUR:a5,AFTER_SB_BLUR:aV,BEFORE_BEACON:a9,AFTER_SET_YLC:a4,AFTER_RESET_CONTROLLER:aT,AFTER_ITEM_HIGHLIGHT:aH,AFTER_ITEM_RESET_HIGHLIGHT:aJ},init:function(b){var\
+        \ a=a8.ieVer;if(a&&a<8){return !1}var c=new aG(this.initConfig?this.initConfig():{});if(c.init(b),!c.ready){return\
+        \ !1}c.config.customEvent&&8===a&&(bh.documentElement.assistSelection=null),c.idx=ap.length,ap.push(c),!this.latency&&aY.performance&&\"\
+        function\"==typeof aY.performance.now&&(this.latency=aY.performance.now())}}),an.controlClass=(ay=\"\
+        ylcAssist\",ai=\"ylcKey\",aZ=\"ylcBtn\",aC.prototype={init:function(A){function\
+        \ x(b){j.pqstr=\"\",j.pqstrl=0,j.pos=0;var a=F.sbForm.fr2,f=F.sbInput.value,c=K.data;switch(j.query=encodeURIComponent(f),j.qstrl=f.length,j.t_stmp=a8.ts(),j.gprid=c.l&&c.l.gprid?c.l.gprid:\"\
+        \",j.n_sugg=c.r?c.r.length:0,a&&(j.fr2=a.value),I.assistItem&&(j.pos=I.assistItem.idx+1),b){case\
+        \ ay:var d=I.lastInput;a8.merge(j,k[ay]),j.pqstr=d,j.pqstrl=d.length;break;case\
+        \ ai:a8.merge(j,k[ai]);break;default:a8.merge(j,k[aZ])}J(a4),H.lastActn=j.t4}function\
+        \ z(b){var a=F.sbInput.value;F.mustHaveInput&&(a=F.mustHaveInput.value),!a||\"\
+        \"===a||void 0!==a.trim&&\"\"===a.trim()||(J(ak),b?a8.fireEvent(D,b,{data:I.assistItem}):B.submit(),setTimeout(function(){G()},400))}var\
+        \ K,I,k,F,D,B,q,L,j,C,H=this,w=a8.ieVer,J=function(b,a){A.notify(b,a)},G=function(){D.blur(),I.reset(),J(aT)};if(H.model=K=A.model,H.view=I=A.view,H.config=k=A.config,H.customEvent=L=k.customEvent||{},H.lastActn=\"\
+        \",H.ylc=j={},a8.merge(j,k.ylc),F=I.elems,D=F.sbInput,B=F.sbForm,q=F.sbSubmit,C=k.autofocus,(!w||9<=w)&&a8.ae(D,\"\
+        input\",function(){I.show()}),w&&a8.ae(aY,\"load\",function(){C=!1}),a8.ae(D,\"\
+        focus\",function(){C||(J(be),k.sbScrollTop&&(bh.body.scrollTop=0),I.triggered||I.show(),J(aj))}),a8.ae(D,\"\
+        blur\",function(){J(a5),J(aV)}),a8.ae(D,\"click\",function(){I.triggered||I.show()}),a8.ae(D,\"\
+        keydown\",function(a){switch(H.lastActn=\"key_\"+a.keyCode,a.keyCode){case\
+        \ 13:a.preventDefault(),J(bg),x(ai),z(L.customKeyBoard);break;case 27:D.blur(),I.hide(),a8.stopPropagation(a)}}),q?a8.ae(q,\"\
+        click\",function(a){a.preventDefault(),J(aA),x(aZ),z(L.customBtn)}):a8.ae(B,\"\
+        submit\",function(){J(A,aA),x(aZ),J(ak),setTimeout(function(){G()},400)}),\"\
+        ontouchstart\" in aY){function m(b,a){return/touch/.test(b.type)?(b.originalEvent||b).changedTouches[0][\"\
+        page\"+a]:b[\"page\"+a]}var y,g;a8.ae(bh,\"touchstart\",function(a){I.shown&&(y=m(a,\"\
+        X\"),g=m(a,\"Y\"))}),a8.ae(bh,\"touchend\",function(a){I.shown&&(5<=Math.abs(m(a,\"\
+        X\")-y)||5<=Math.abs(m(a,\"Y\")-g))&&a.preventDefault()})}return a8.ae(bh,\"\
+        click\",function(b){if(I.shown){for(var a=b.target?b.target:b.srcElement,f=!1;a;){if(a===B||a===F.saTray){return}var\
+        \ c=a8.get(a,\"pos\"),d=c?I.items[c]:{};if(J(bb,[function(){f=!0},a,d]),f){return}if(a===d.li){return\
+        \ D.value=d.data.k,I.assistItem=d,J(a2),x(ay),void z(L.customSelection)}if((a=a.parentNode)===bh){break}}k.hideOnOutsideClick&&I.hide()}}),J(aE),!0},beacon:function(l,g,f){if(f){var\
+        \ m,h=this,b=h.customEvent,d=h.config;if(h.model.app.notify(a9,[f]),m=\"sa_rt\"\
+        \ in f?{rt:f.sa_rt,q:f.cqry,la:h.lastActn,n:f.nitems,s:f._S}:{},h.lastActn=f.t4,b[l]){a8.fireEvent(g,b[l],f)}else{if(aF.ULT){var\
+        \ k=aF.ULT,j=k.BEACON;d.saBeacon&&(k.BEACON=location.protocol+\"//\"+a8.buildUrl(d.saBeacon,m)),k.beacon_click(f),k.BEACON=j}else{aF.SaBeacon&&aF.SaBeacon(f)}}}}},aC),an.modelClass=(bd.prototype={init:function(b){var\
+        \ a=this;return a.app=b,a.view=b.view,a.config=b.config,a.cbIdx=0,a.data={},!0},fetch:function(){var\
+        \ d=this,c=d.app,k=\"sacb\"+d.cbIdx++,f=d.view,h={pq:f.origQuery,command:f.elems.sbInput.value,t_stmp:a8.ts(),callback:\"\
+        YAHOO.SA.apps[\"+c.idx+\"].cb.\"+k},g=d.config.saBE,j=c.cb;for(var b in a8.merge(h,g.params),j){j.hasOwnProperty(b)&&(j[b]=function(){})}j[k]=function(a){d.read(a||{}),j[k]=function(){}},c.notify(aI,[h]),d.getAssist(g,h)},getAssist:function(b,a){this.app.jsonp(b.host+a8.buildUrl(b.base,a))},read:function(a){this.data=a,this.app.notify(ax,[a]),this.view.dropdown(a)}},bd),an.viewClass=(a3.prototype={init:function(l){var\
+        \ g,f,m,h,b,d=this;d.app=l,d.model=l.model,d.config=g=l.config,d.elems=f={},d.items=[],d.assistItem=null,l.notify(az);var\
+        \ k=g.elems;for(var j in k){f[j]||(f[j]=bh.getElementById(k[j]))}return m=f.sbInput,b=f.saTray,!!((h=f.sbForm)&&m&&b)&&(d.origQuery=d.lastInput=m.value,a8.set(m,\"\
+        role\",\"combobox\"),a8.set(m,\"aria-autocomplete\",\"both\"),d.origAction=h.action,g.autofocus&&a8.setFocus(m),l.notify(aM),a8.ae(aY,\"\
+        load\",function(){f.saAria=bh.body.appendChild(l.createElem(g.saAria,\"div\"\
+        ))}),!0)},dropdown:function(F){var p=this,k=p.config,G=p.app,x=F&&F.r?F.r.length:0,g=p.elems,j=g.saAria,B=g.saTray,z=p.app.createElem,E=k.noQueryClass,w=k.typingClass,q=z(k.sa,\"\
+        div\"),m=z(k.saList,\"ul\");if(a8.hasClass(bh.body,w)||(bh.body.className+=\"\
+        \ \"+w),\"\"==F.q?a8.hasClass(B,E)||(B.className+=\" \"+E):a8.removeClass(B,E),p.shown=!0,p.clearAssist(),x){q.appendChild(m),G.notify(bc,[F]);for(var\
+        \ D=0;D<x;D++){var C=F.r[D],y={idx:D,fd:{}};C.q=F.q,a8.merge(y,C),y.origData=C,G.notify(av,[y]);var\
+        \ A=this.createItem(y);p.items.push(A),m.appendChild(A.li)}G.notify(aW,[m]),B.appendChild(q)}j&&(a8.set(j,\"\
+        aria-expanded\",\"true\"),j.innerHTML=\"<p>\"+x+\" \"+p.config.saAria.shownText+\"\
+        </p>\")},show:function(){var b=this,a=b.config,d=b.elems.sbInput.value,c=d.length;b.app.notify(aq),b.shown&&b.sameQuery()||(b.lastInput=d,c<a.minInput||c>a.maxInput?b.hide():(b.model.fetch(),b.triggered=!0))},hide:function(){var\
+        \ b=this,a=b.elems.saAria;a8.removeClass(bh.body,b.config.typingClass),b.clearAssist(),b.shown=!1,b.triggered=!1,a&&(a8.set(a,\"\
+        aria-expanded\",\"false\"),a.innerHTML=\"<p>\"+b.config.saAria.closedText+\"\
+        </p>\"),b.app.notify(am)},clearAssist:function(){this.elems.saTray.innerHTML=\"\
+        \",this.items.splice(0,this.items.length),this.assistItem=null},createItem:function(b){var\
+        \ a={idx:b.idx,data:b.origData},h=a8.htmlEncode,c=this.config,f=this.app.createElem,d=f(c.saItem,\"\
+        li\");a8.set(d,\"pos\",b.idx);var g=f(c.saTitle,\"span\");return g.innerHTML=b.t?b.t:c.boldTag&&b.k&&b.q?a8.bold(c.boldTag,h(b.k),h(b.q),c.highlight||{}):h(b.k),d.appendChild(g),a.li=d,a.title=g,this.app.notify(aL,[a,b]),a},resetQuery:function(){this.elems.sbInput.value=this.origQuery},reset:function(){var\
+        \ b=this,a=b.config,c=b.elems.sbForm;a.resetQuery&&b.resetQuery(),b.hide(),c.action=b.origAction,b.app.notify(aw)},sameQuery:function(){return\
+        \ this.elems.sbInput.value==this.lastInput}},a3),an.initConfig=function(){return{elems:{sbForm:\"\
+        sb-form\",sbInput:\"sb-input\",sbSubmit:\"sb-search\",sbClear:\"sb-clr\",sbCancel:\"\
+        sb-cancel\",saTray:\"sa-tray\"},customEvent:{},sa:{css:\"sa\",attrs:{type:\"\
+        normal\"}},saList:{css:\"sa-list\",attrs:{role:\"listbox\"},style:{cursor:\"\
+        pointer\"}},saItem:{css:\"sa-item\",attrs:{role:\"option\"}},saTitle:{css:\"\
+        sa-item-title\"},saAria:{shownText:\"new suggestions shown\",closedText:\"\
+        Suggestion box closed\",css:\"sa-aria-live-region\",attrs:{\"aria-live\":\"\
+        polite\"},style:{position:\"absolute\",left:\"-9999px\"}},saBE:{host:\"\"\
+        ,base:\"/sugg/gossip/gossip-us-ura/\",params:{l:1,bm:3,output:\"sd1\",nresults:10}},shBE:{host:\"\
+        \",base:\"/history\"},minInput:0,maxInput:255,boldTag:\"<b>{s}</b>\",ylc:{_r:2},ylcAssist:{use_case:\"\
+        \"},hideOnOutsideClick:!0,noQueryClass:\"sa-noQuery\",typingClass:\"typing\"\
+        }},aD.hideSbClr=(ba.prototype={init:function(a){(this.app=a).on(aq,a0,this)}},ba),aD.saFr2=(aU.prototype={init:function(a){(this.app=a).on(aM,aB,this),a.on(a2,au,this),a.on(aw,a1,this)}},aU),aD.ipos=(ah.prototype={init:function(a){(this.app=a).on(aq,a6,this),a.on(aI,aR,this)}},ah),aD.ylcEncode=(bn.prototype={init:function(a){(this.app=a).on(a2,a7,this),a.on(ak,aO,this)}},bn),aD.saTray=(ag.prototype={init:function(a){(this.app=a).on(az,aX,this)}},ag),aD.saSubTray=(br.prototype={init:function(b){var\
+        \ a=this;a.app=b,a.sqpos=a.toleft=0,b.on(bc,aQ,a),b.on(av,bk,a),b.on(aW,bv,a)}},br),aD.saPCActn=(bo.prototype={init:function(b){var\
+        \ a=this;a.app=b,a.selectedIndex=-1,b.on(ax,al,a),b.on(aE,bf,a),b.on(aj,af,a),b.on(aV,ar,a)}},bo),aD.anykey=(bq.prototype={init:function(a){(this.app=a).on(aE,aN,this)}},bq),aD.tapClr=(ae.prototype={init:function(a){(this.app=a).on(aE,bu,this)}},ae),aD.encSub=(aK.prototype={init:function(a){(this.app=a).on(aE,ab,this)}},aK),aD.saLocationSugg=(bi.prototype={init:function(a){(this.app=a).on(aE,ac,this)}},bi)}();(function(){YAHOO=YAHOO||{};YAHOO.SB=YAHOO.SB||{};var\
+        \ p=YAHOO.SB;var c=window;var r=document;var j=null;var n=0;var h=[];var l=[];function\
+        \ g(u){var t=m(u);if(t.v){k(u,true)}else{t.i=u;h.push(t);if(h.length===1){i(true)}}}function\
+        \ b(){this.style.display=\"none\"}function e(u,t){return Boolean(u.getAttribute(t))}function\
+        \ m(u){var t={p:u,i:u};d(t);return t}function d(u){var w=u.p;var v=w.getBoundingClientRect();var\
+        \ t=((e(w,\"data-hid\"))?1000:1);while(v.top===0&&w.parentNode&&typeof w.parentNode.getBoundingClientRect===\"\
+        function\"){w=w.parentNode;v=w.getBoundingClientRect()}u.v=v.top&&(v.top<(c.innerHeight||r.documentElement.clientHeight||r.getElementsByTagName(\"\
+        body\")[0].clientHeight));u.d=(v.top*v.top*t)+v.left;u.p=w}function a(t){if(c.devicePixelRatio>1&&t.hasAttribute(\"\
+        data-src2\")){return t.getAttribute(\"data-src2\")}else{return t.getAttribute(\"\
+        data-src\")||t.getAttribute(\"__src\")||t.getAttribute(\"_src\")}}function\
+        \ k(u,t){c.setTimeout(function(){var v=a(u);if(v){u.onload=null;u.onerror=b;u.setAttribute(\"\
+        src\",v);u.removeAttribute(\"data-src2\");u.removeAttribute(\"data-btf\");u.removeAttribute(\"\
+        data-src\");u.removeAttribute(\"__src\");u.removeAttribute(\"_src\")}},1)}function\
+        \ o(){var u=r.images;var x;var v;var t=u.length;for(var w=0;w<t;w++){x=u[w];if(e(x,\"\
+        data-onl\")){v=m(x);l.push(v)}else{if(e(x,\"data-btf\")){v=m(x);h.push(v);if(h.length===1){i(true)}}}}h.sort(function(z,y){return\
+        \ z.d-y.d});q();if(j===null){j=setInterval(q,100)}if(l.length>=0){l.sort(function(z,y){return\
+        \ z.d-y.d});s()}}function i(t){if(t){p.ae(c,\"scroll\",q);p.ae(c,\"resize\"\
+        ,q)}else{p.de(c,\"scroll\",q);p.de(c,\"resize\",q)}clearInterval(j)}function\
+        \ s(){while(l.length){imageObject=l.shift();if(imageObject){k(imageObject.i)}}}function\
+        \ q(){var v;var u;var t=[];while(h.length){v=h.shift();if(v){d(v);if(v.v){k(v.i)}else{t.push(v)}}}if(t.length===0){i(false)}else{h=t;if(j&&++n>10){clearInterval(j)}}}function\
+        \ f(){if(j!==null){clearInterval(j);j=null}}YAHOO.LL={i:g,cv:m};p.ae(c,\"\
+        load\",o);p.ae(c,\"unload\",f)}());var pL=0, pUrl='/beacon/sbai/bf/7?IG=0ac9eb280e204c2aa5000000000d82f3&CID=f58c30f70700526680a3eb08acbf1b43&Type=Event.CPT';function\
+        \ SLB(s,pUrl){var url,img=new Image(),dat='&DATA=';dat+=s?'%7B%22pp%22%3A%7B%22S%22%3A%22A%22%7D%7D':'%7B%22pp%22%3A%7B%22S%22%3A%22L%22%7D%7D';url=pUrl+dat;img.src=url+'&'+(new\
+        \ Date()).getTime();pL=1}window.onbeforeunload=function(){(!pL)?SLB(\"A\"\
+        ,pUrl):\"\"};if(window.addEventListener) {window.addEventListener(\"load\"\
+        , function(){SLB(\"\",pUrl)});}else{window.onload=function(){SLB(\"\",pUrl)};}(function(){var\
+        \ a=window;var c;var d=function(f){if(c){a.navigator.sendBeacon(f)}else{var\
+        \ e=new Image();e.onload=e.onerror=function(){e.onload=e.onerror=null;e=null};e.src=f}};var\
+        \ b=function(f,e){c=a.navigator&&(typeof a.navigator.sendBeacon===\"function\"\
+        );if(!f){return false}if(c){d(f)}else{if(e===true){d(f);return true}if(a.addEventListener){a.addEventListener(\"\
+        load\",function(){d(f)})}else{if(a.attachEvent){a.attachEvent(\"onload\",function(){d(f)})}else{d(f)}}}return\
+        \ true};a.bkbeacon=b})();window.bkbeacon(\"https://www.bing.com/aclick/RLinkPing.htm?iguid=0ac9eb280e204c2aa5000000000d82f3\"\
+        , false);(function(){var h=document.documentElement;h.className+=\" js\";(new\
+        \ Image()).src='';})();</script><title>Preaching the choir - Yahoo Search\
+        \ Results</title><link rel=\"stylesheet\" type=\"text/css\" href=\"https://s.yimg.com/zz/combo?pv/static/lib/srp-header-css-magical-us-nucs_a0644d3622107dc144cc8276101a1294.css&pv/static/lib/srp-core-css-light-us_fe3e1920946a0810666c73e01d281b34.css&pv/static/lib/master-atomic-desktop_86d38f83400b213d71bc5ebd38fba4d3.css\"\
+        \ class=\"inline\"><link rel=\"search\" type=\"application/opensearchdescription+xml\"\
+        \ href=\"https://search.yahoo.com/opensearch.xml\" title=\"Get the best of\
+        \ the web with Yahoo\" ><style type=\"text/css\">#algo-bd ol.reg{margin:0;padding:0;list-style-type:none}.preld.ico,\
+        \ .dd-overlay .ico, .dd .ico, .ico { background-image: url(\"https://s.yimg.com/pv/static/img/cosmos_sprite1x-1578004457103.min.png\"\
+        );} @media    only screen and (-webkit-min-device-pixel-ratio: 2),   only\
+        \ screen and (   min--moz-device-pixel-ratio: 2),   only screen and (    \
+        \ -o-min-device-pixel-ratio: 2/1),   only screen and (        min-device-pixel-ratio:\
+        \ 2),   only screen and (                min-resolution: 192dpi),   only screen\
+        \ and (                min-resolution: 2dppx) {.preld.ico, .dd-overlay .ico,\
+        \ .dd .ico, .ico { background-image: url(\"https://s.yimg.com/pv/static/img/cosmos_sprite2x-1578004457103.min.png\"\
+        );}}#logo{height:21px;width:88px;top: 0;left: 0;margin:15px 0 0 90px; *margin-top:5px;display:\
+        \ block;overflow: hidden;text-indent: -9999px;background-repeat:no-repeat;outline:\
+        \ none;}#logo{ background-image:url(https://s.yimg.com/pv/static/img/yahoo-search-logo-88x21.png);*background-image:url(https://s.yimg.com/pv/static/img/yahoo-search-logo-88x21.gif);}@media\
+        \ (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {#logo{background-image:url(https://s.yimg.com/pv/static/img/yahoo-search-logo-88x21-2x.png);\
+        \ background-size: 88px}}html,#sticky-hd,#wrap-hd,#doc.uh3-p #yucs{background-color:#fff\
+        \ !important}#main{border-color:#fff !important}#main #web .dd .title a{text-decoration:\
+        \ none}#main #web b,#main #web .cite{font-weight: normal}#results a, #results\
+        \ #web a, #results .compTitle h3 a, #results #left #web p a{color:#330099}#results\
+        \ #right .cardReg .KgMoviesYKC .compText p a:last-child,#results #right .cardReg\
+        \ .dd.KgHealth p.content a:last-child,#results #right .cardReg .dd.catKG .compImageProfile.noImage\
+        \ p a,#results #right .cardReg .dd.catKG p a{color:#330099}#results .KgMoviesYKC\
+        \ span.subTxt span,#results .stockName a span, #results .sys_kgathlete .compTitle\
+        \ a, #results #right .compText.td-u p a, #results .KgMoviesYKC .compImagePoster+.compText\
+        \ a, #results .KgMoviesYKC .compImagePoster+.compText+.compText a{color:#330099\
+        \ !important}#results .dd.lrrLocal .compTitle .title a,#results .dd.lrrHotel\
+        \ .compTitle .title a,#results #right .cardReg .dd.lrrLocal p a,#results #right\
+        \ .cardReg .dd.lrrHotel p a,.cs-lbox-overlay .cs-lbox a,#results .LocalPc-listings\
+        \ .compJsToggle a span,#results #web .dd.SportsTmSc .compTitle .title span,#results\
+        \ #web .dd.Tennis .compTitle .title span,#results .dd.SportsLeague .compTitle\
+        \ .title a,#results #web .dd.SportsLgSc .compTitle .title span,#results #right\
+        \ .cardReg .PlaNrrw .compImageList~.compText p a{color:#330099}#results #left\
+        \ #web .LvNtnArtists .compEventImage .cptn-ctnt a, #results .LvNtnArtists\
+        \ .compEventImage span,#results #left #web .LvNtnSched .compEventImage .cptn-ctnt\
+        \ a, #results .LvNtnSched .compEventImage span{color:#fff;}#results .trendingnowcarouselv2\
+        \ .compList li a {color:#330099}#results #cols .compTitle h3.title a:hover{color:#330099\
+        \ !important}#results .compList a:hover, #results .compTable a:hover, #results\
+        \ .compDlink a:hover, #results #right .compImageList .imgbox a:hover{color:#330099}#main\
+        \ .last .dd .compDlink a:hover, #right .last .compList a:hover, #main .searchCenterFooter\
+        \ .AlsoTry a:hover{color:#330099}#results .compTitle a, #results #web a.cite,#results\
+        \ #web .compTitle span, #results #web .compDlink span, #results #web .compArticleList\
+        \ span, #results #right .compImageList span,#results .LocalPc-LRRu .fc-10th{color:#007542}#results\
+        \ #right p > a.fw-xl, #results #web .AnswrsExpTop .cite{color:#007542 !important}#results\
+        \ #web .dd.sys_news_auto .compArticleList .fc-2nd,#results #web .dd.bingnews\
+        \ .compArticleList .fc-2nd,#results #web .dd.CrisisNews .compArticleList .fc-2nd{color:#757575}#results\
+        \ .TrendingNowAtom .compArticleList li span.cite~span.fc-2nd{color:#757575\
+        \ !important}#results .TrendingNowAtom .layoutTop span{color:#000 !important}#results\
+        \ #web .LotteryGame .compDlink span{color:#000}#results #web .LotteryGame\
+        \ .compDlink span.fc-6th{color:#CD4F00}#results #web .sys_dictionary .compTitle\
+        \ span,#results #web .sys_dictionary .compArticleList span{color:#000}#results\
+        \ #web .sys_dictionary span.fc-13th, #results #web .sys_dictionary .fc-13th\
+        \ span{color:#999;}#results #web .MvThtrShw .compDlink span{color:inherit;}#bd,\
+        \ #bd #sidebar a, #results #left .dd .layoutMiddle .layoutCenter .compText\
+        \ span, #results #right .dd .layoutMiddle .layoutCenter .compText span, .pagination\
+        \ .compPagination span, #results #left p a, #results #right p a.fc-1st, #results\
+        \ .searchCenterFooter h3.title, #results h5.title a, #results h5.title span,#results\
+        \ .LocalPc-LRRu .rating a,#results .LocalPc-LRRu .hd a,#results .LocalPc-LRRu\
+        \ .abstract a{color:#525252}#results span.balloon_prpl, #results #web .attribution\
+        \ a.text, #results #web .compImageJustified a{color:#FFF}#results .td-applet-sa-stocks\
+        \ .up{color:#149933}#results .td-applet-sa-stocks .down span{color:#D0021B}#results\
+        \ .td-applet-sa-stocks span.stockPrice, #results .td-applet-sa-stocks .detailQuote\
+        \ .row span.right, #results .td-applet-sa-stocks span.black{color:#000}#results\
+        \ #right .cardReg, #results #right .cardReg p a{color:#000}#results #right\
+        \ .cardReg .dd .compImageProfile.noImage p a{color:#000}#results #right .cardReg\
+        \ .dd .compImageProfile  p a{color:#FFF}#results #right .compText p a.m-0,\
+        \ #results #right .compTitle .stxt a{color:#525252 !important;}#results #right\
+        \ .layoutCenter .compText span.strs+a{color:#525252}.bdc #ft, .bdc #ft a{color:#525252}#results\
+        \ #web .AnswrsExpTop .compArticleList span{color:#525252}#results #web .AnswrsExpTop\
+        \ .compArticleList .fc-4th{color:#525252}#results #web .AnswersIntl .compArticleList\
+        \ span.poa-rt { color:#525252 }#results #web .AnswersIntl .compArticleList\
+        \ div.subline span { color:#525252 }#web .dd.Holiday .fc-first{color: #000}#results\
+        \ .trendingnowcarouselv2 h4.title span, #results .trendingnowcarouselv2 .compList\
+        \ li span strong {color: #000 !important}#results .trendingnowcarouselv2 .compList\
+        \ li span:first-child {color: #3F3F3F}#results .LotteryGame .compText span.fc-6th{color:#CD4F00}#results\
+        \ .LotteryGame .compText span.fc-2nd{color:#757575}#results .LotteryGame .compText\
+        \ span{color:#000}#results .Weather .compWeatherImage span{color:#FFF}#results\
+        \ .compLocalList.ravioliListing span.isopen {color:#00882C}#results .compLocalList.ravioliListing\
+        \ span.isclosed {color:#F41732}#results em.tri{color:#AEADB3}#main .last .dd\
+        \ .compDlink a, #right .last .compList a, #main .searchCenterFooter .AlsoTry\
+        \ a {color:#330099}#main .last .dd .compDlink a:visited, #right .last .compList\
+        \ a:visited, #main .searchCenterFooter .AlsoTry a:visited{color:#6e329d}</style></head><body\
+        \ id=\"ysch\" class=\"firefox gecko mac v11_0\"><div id=\"doc\" class=\"uh3-p\
+        \ uh3lite \"><h1 class=\"off-left\">Yahoo Web Search</h1><s class=\"off-left\
+        \ preld ico\"></s><div id=\"sticky-hd\" referrer=\"unsafe-url\"><style type=\"\
+        text/css\">#browserExtensionPromotionBanner.hidden{display:none}#browserExtensionPromotionBanner{font-weight:normal;background-image:linear-gradient(268deg,#7934f7,#755bf9\
+        \ 50%,#7282fb);-webkit-font-smoothing:antialiased}#browserExtensionPromotionBanner.narrow{height:42px}#browserExtensionPromotionBanner\
+        \ .content{color:#fff;padding-top:13px;position:relative}#browserExtensionPromotionBanner\
+        \ .content .install{width:110px;background-color:#9371f1;text-align:center}#browserExtensionPromotionBanner\
+        \ .content .btn{box-sizing:border-box;line-height:15px;position:absolute;cursor:pointer;text-decoration:none}#browserExtensionPromotionBanner.narrow\
+        \ .content{line-height:15px;padding-left:11px;padding-bottom:15px}#browserExtensionPromotionBanner.narrow\
+        \ .content .btn{padding-top:5px;top:8px}#browserExtensionPromotionBanner.narrow\
+        \ .content .install{height:26px;right:45px;color:white}#browserExtensionPromotionBanner.narrow\
+        \ .content .notnow{right:200px}#yset-inline-install-modal-container{position:fixed;width:100%;height:100%;left:0;top:0;background-color:rgba(0,0,0,.8);z-index:20000}#yset-inline-install-modal-container\
+        \ #yset-inline-install-modal{box-sizing:border-box;background-color:#fff;border-radius:4px;box-shadow:0\
+        \ 0 4px 0 rgba(0,0,0,.5);padding:26px;position:absolute;width:460px;height:140px;margin-left:-220px;text-align:center;left:50%;top:400px}#yset-inline-install-modal-container\
+        \ #yset-inline-install-modal.win{top:330px}#yset-inline-install-modal-container\
+        \ #yset-inline-install-modal #yset-inline-install-modal-icon{position:absolute;top:-30px;left:340px;background-image:url(https://s.yimg.com/kx/yucs/uhc/yset-search/135/images/inline-install-arrow.png);background-size:contain;width:72px;height:72px}#yset-inline-install-modal-container\
+        \ #yset-inline-install-modal #yset-inline-install-modal-icon.win{left:210px}#yset-inline-install-modal-container\
+        \ #yset-inline-install-modal #yset-inline-install-modal-heading{margin-top:22px;margin-bottom:12px;font-weight:200;font-size:24px;color:#525252}#yset-inline-install-modal-container\
+        \ #yset-inline-install-modal #yset-inline-install-modal-subHeading{font-size:16px;color:#1bb270}#sticky-hd{position:relative}#horizontal-bar{padding-top:0}#yucs-apps{position:absolute;bottom:21px;top:auto;right:135px}#yucsHead{position:unset}.yucs-fl-right{position:absolute;right:0;bottom:20px;white-space:nowrap}</style><div\
+        \ id=\"browserExtensionPromotionBanner\" class=\"hidden narrow\"><div class=\"\
+        browserExtensionPromotionWrapper\"><div class=\"content\"><h3></h3><p>Want\
+        \ more to discover? Make Yahoo Your Home Page. See breaking news & more every\
+        \ time you open your browser.</p><a class=\"btn install\">Add it now</a><a\
+        \ class=\"btn notnow\">No Thanks</a></div></div></div><!-- section hd --><div\
+        \ id=\"hd\" class=\"clr\"data-a36=\"5ee5189cb6c75\"><a id=\"logo\" target=\"\
+        _top\" href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMA4iVXNyoA/RV=2/RE=1592101148/RO=10/RU=https%3a%2f%2fwww.yahoo.com%2f/RK=2/RS=ZmViAB0ljjtX8uQ0o2UUkPdhtsc-\"\
+        >Yahoo</a><div id=\"yucs-apps-overlay\"><div id=\"yucs-apps\" class=\"yucs-help\
+        \ yucs-menu_nav\"><a id=\"yucs-apps_button\" class=\"yltasis yucs-fc\" href=\"\
+        https://search.yahoo.com/preferences/preferences;_ylt=AwrJ6yicGOVeiaMA5SVXNyoA?pref_done=https%3A%2F%2Fsearch.yahoo.com%2Fsearch%3Fp%3DPreaching%2Bthe%2Bchoir%26b%3D1%26ei%3DUTF-8&.bcrumb=bL.05X.W/rt\"\
+        \ aria-label=\"Settings\" rel=\"nofollow\" data-mad=\"true\" role=\"button\"\
+        \ data-beacon=\"https://geo.yahoo.com/t;_ylt=AwrJ6yicGOVeiaMA5iVXNyoA\" aria-haspopup=\"\
+        true\">Settings</a><div id=\"yucs-apps_inner\" class=\"yucs-hide\" role=\"\
+        menu\" tabindex=\"-1\"><div id=\"yucs-apps_inner_grid\" class=\"yucs-menu\"\
+        ><div id=\"mask\"><span id=\"tip\"></span></div><div id=\"yucs-apps-cntr\"\
+        ><ul class=\"yucs-app-list\"><li><a href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMA5yVXNyoA/RV=2/RE=1592101148/RO=10/RU=https%3a%2f%2fwww.yahoo.com%2f/RK=2/RS=ZmViAB0ljjtX8uQ0o2UUkPdhtsc-\"\
+        \ class=\"app-item\"><span class=\"ico-w\"><span class=\"uha-ico uha-home\"\
+        ></span></span>Home</a></li><li><a href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMA6CVXNyoA/RV=2/RE=1592101148/RO=10/RU=https%3a%2f%2fwww.yahoo.com%2fnews/RK=2/RS=pOtmb2gfTxLcUoRP.DNLXTlrwc0-\"\
+        \ class=\"app-item\"><span class=\"ico-w\"><span class=\"uha-ico uha-news\"\
+        ></span></span>News</a></li><li><a href=\"https://mail.yahoo.com/;_ylt=AwrJ6yicGOVeiaMA6SVXNyoA?.src=ym\"\
+        \ class=\"app-item\"><span class=\"ico-w\"><span class=\"uha-ico uha-mail\"\
+        ></span></span>Mail</a></li><li><a href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMA6iVXNyoA/RV=2/RE=1592101148/RO=10/RU=https%3a%2f%2ffinance.yahoo.com/RK=2/RS=loT9qDJIkK1c679PSgjolxYLYBk-\"\
+        \ class=\"app-item\"><span class=\"ico-w\"><span class=\"uha-ico uha-finance\"\
+        ></span></span>Finance</a></li><li><a href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMA6yVXNyoA/RV=2/RE=1592101148/RO=10/RU=https%3a%2f%2fwww.tumblr.com%2f/RK=2/RS=jeM4gCfAeJSVdsZE2dL3DXqRCQQ-\"\
+        \ class=\"app-item\"><span class=\"ico-w\"><span class=\"uha-ico uha-tumblr\"\
+        ></span></span>Tumblr</a></li><li><a href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMA7CVXNyoA/RV=2/RE=1592101148/RO=10/RU=https%3a%2f%2fwww.yahoo.com%2fnews%2fweather/RK=2/RS=SzALAUHirjD286YrV63w0w.soCE-\"\
+        \ class=\"app-item\"><span class=\"ico-w\"><span class=\"uha-ico uha-weather\"\
+        ></span></span>Weather</a></li><li><a href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMA7SVXNyoA/RV=2/RE=1592101148/RO=10/RU=https%3a%2f%2fsports.yahoo.com%2f/RK=2/RS=cjh4nopUT4x5gig2iaEyosjhbRI-\"\
+        \ class=\"app-item\"><span class=\"ico-w\"><span class=\"uha-ico uha-sports\"\
+        ></span></span>Sports</a></li><li><a href=\"https://help.yahoo.com/l/us/yahoo/search/;_ylt=AwrJ6yicGOVeiaMA7iVXNyoA\"\
+        \ class=\"app-item\"><span class=\"ico-w\"><span class=\"uha-ico uha-help\"\
+        ></span></span>Help</a></li><li><a href=\"https://search.yahoo.com/preferences/preferences;_ylt=AwrJ6yicGOVeiaMA5SVXNyoA?pref_done=https%3A%2F%2Fsearch.yahoo.com%2Fsearch%3Fp%3DPreaching%2Bthe%2Bchoir%26b%3D1%26ei%3DUTF-8&.bcrumb=bL.05X.W/rt\"\
+        \ class=\"app-item\"><span class=\"ico-w\"><span class=\"uha-ico uha-settings\"\
+        ></span></span>Settings</a></li></ul></div></div></div></div></div><div class=\"\
+        hd_nav_item\"><a id=\"ysignin\" href=\"https://login.yahoo.com/config/login;_ylt=AwrJ6yicGOVeiaMA4yVXNyoA?.src=&.intl=us&.lang=en-US&.done=https%3A%2F%2Fsearch.yahoo.com%2Fsearch%3Fp%3DPreaching%2Bthe%2Bchoir%26b%3D1\"\
+        ><div class=\"text\" title=\"Sign In\">Sign In</div></a><a id=\"ymail\" href=\"\
+        https://mail.yahoo.com/;_ylt=AwrJ6yicGOVeiaMA5CVXNyoA?.src=ym\"><div class=\"\
+        icon mail\" title=\"Mail\"></div></a></div><div class=\"sbx\"><form method=\"\
+        get\" name=\"s\" id=\"sf\" role=\"search\" action=\"https://search.yahoo.com/search;_ylt=AwrJ6yicGOVeiaMA7yVXNyoA\"\
+        accept-charset=\"utf-8\"><label for=\"yschsp\" class=\"off-left\">Search query</label><div\
+        \ id=\"sbq-wrap\" class=\"sbq-w\"><input type=\"text\" class=\"sbq\" id=\"\
+        yschsp\" name=\"p\" value=\"Preaching the choir\" autocomplete=\"off\" tabindex=\"\
+        1\"></div><button id=\"sbq-clear\" type=\"button\" class=\"sbq-x\"><span class=\"\
+        sprite\"></span></button><input type=\"submit\" class=\"sbb\" value=\"Search\"\
+        \ tabindex=\"2\"><input type=\"hidden\" name=\"fr2\" value=\"sb-top\"></form></div><script\
+        \ type=\"text/javascript\" nonce='vgb0STTTh8kDHxADbA0PJw=='>if(window.YAHOO\
+        \ && window.YAHOO.SA){window.YAHOO.SA.init({\"elems\":{\"sbForm\":\"sf\",\"\
+        sbInput\":\"yschsp\",\"sbClear\":\"sbq-clear\"},\"sa\":{\"css\":\"sa-tray\"\
+        },\"saList\":{\"css\":\"sa-tray-list-container\"},\"saTitle\":{\"css\":\"\"\
+        ,\"style\":{\"display\":\"block\"}},\"saBE\":{\"base\":\"\\/sugg\\/gossip\\\
+        /gossip-us-ura\\/\",\"params\":{\"l\":1,\"bm\":3,\".crumb\":\"Ag5dug5quzx\"\
+        ,\"f\":1,\"appid\":\"search.yahoo.com\",\"bck\":false,\"csrcpvid\":\"DiA8Kjk4LjEBBTI2ynSIogDlMTk3LgAAAAA6zYLw\"\
+        ,\"vtestid\":\"\",\"mtestid\":\"L72=ATS24_PRODIR2\",\"spaceId\":\"2766679\"\
+        }},\"plugins\":{\"saTray\":{\"parent\":\"sbq-wrap\",\"ctn\":{\"css\":\"sa-sbx-container\"\
+        },\"tray\":{\"css\":\"sa lowlight\",\"style\":\"\"}},\"saSubTray\":{\"css\"\
+        :\"sub-assist no-wrap\"},\"saPCActn\":{\"css\":\"list-item-hover\"},\"saFr2\"\
+        :{\"fr2\":\"sa-gp-search\"},\"tapClr\":{\"log\":\"\"},\"ylcEncode\":{\"url\"\
+        :\"https:\\/\\/search.yahoo.com\\/search;_ylt=AwrJ6yicGOVeiaMA8CVXNyoA\"},\"\
+        tapArrow\":{\"log\":{\"_S\":\"2766679\",\"fr\":\"\",\"origin\":\"search.yahoo.com\"\
+        ,\"n_rslt\":0}},\"tapCnl\":{\"log\":{\"_I\":\"DiA8Kjk4LjEBBTI2ynSIogDlMTk3LgAAAAA6zYLw\"\
+        ,\"_S\":\"2766679\"}}},\"boldTag\":\"\\u003Cb class=\\u0022yui3-highlight\\\
+        u0022\\u003E{s}\\u003C\\/b\\u003E\",\"saBeacon\":\"search.yahoo.com\\/beacon\\\
+        /geo\\/t\",\"shBE\":{\"params\":{\"_bcrumb\":\"bL.05X.W\\/rt\"}},\"ylc\":{\"\
+        _S\":\"2766679\",\"fr\":\"\",\"origin\":\"search.yahoo.com\",\"n_rslt\":0}});}</script></div><!--\
+        \ end section hd --></div><div id=\"ys\"><div id=\"horizontal-bar\"data-a36=\"\
+        5ee5189d14973\" class=\"ys-grid ys-hmenu\"><ol class=\" reg searchLeftTop\"\
+        ><li   class=\"first\"><div class=\"dd horizontal-pivots pt-2u ys-lgc fl-l\
+        \  assist vrtPivots\"><div class=\"compList visible-pivots fl-l  \" ><ul><li\
+        \ class=\"active bds-s bd-0 bdb-2 bdc-red p-3u mr-3u fl-l\"><span class=\"\
+        \ t1 c-black-h td-n td-n-h c-dgray\">Web</span> </li><li class=\"p-3u mr-3u\
+        \ fl-l\"><a class=\" t1 c-black-h td-n td-n-h c-dgray\" href=\"https://video.search.yahoo.com/search/video;_ylt=AwrJ6yicGOVeiaMA8iVXNyoA;_ylu=X3oDMTB0N2Noc21lBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNwaXZz?p=Preaching+the+choir&fr2=piv-web\"\
+        \ referrerpolicy=\"unsafe-url\">Video</a> </li><li class=\"p-3u mr-3u fl-l\"\
+        ><a class=\" t1 c-black-h td-n td-n-h c-dgray\" href=\"https://images.search.yahoo.com/search/images;_ylt=AwrJ6yicGOVeiaMA8yVXNyoA;_ylu=X3oDMTB0N2Noc21lBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNwaXZz?p=Preaching+the+choir&fr2=piv-web\"\
+        \ referrerpolicy=\"unsafe-url\">Images</a> </li><li class=\"p-3u mr-3u fl-l\"\
+        ><a class=\" t1 c-black-h td-n td-n-h c-dgray\" href=\"https://news.search.yahoo.com/search;_ylt=AwrJ6yicGOVeiaMA9CVXNyoA;_ylu=X3oDMTB0N2Noc21lBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNwaXZz?p=Preaching+the+choir&fr2=piv-web\"\
+        \ referrerpolicy=\"unsafe-url\">News</a> </li><li class=\"p-3u mr-3u fl-l\"\
+        ><a class=\" t1 c-black-h td-n td-n-h c-dgray\" href=\"https://search.yahoo.com/local/s;_ylt=AwrJ6yicGOVeiaMA9SVXNyoA;_ylu=X3oDMTB0N2Noc21lBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNwaXZz?p=Preaching+the+choir&fr2=piv-web\"\
+        \ referrerpolicy=\"unsafe-url\">Local</a> </li><li class=\"p-3u mr-3u fl-l\
+        \ last\"><a class=\" t1 c-black-h td-n td-n-h c-dgray\" href=\"https://answers.search.yahoo.com/search;_ylt=AwrJ6yicGOVeiaMA9iVXNyoA;_ylu=X3oDMTB0N2Noc21lBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNwaXZz?p=Preaching+the+choir&fr2=piv-web\"\
+        \ referrerpolicy=\"unsafe-url\">Answers</a> </li></ul></div><div class=\"\
+        compList more-pivots hidden z-4 bgc-white bd-1 bds-s bdc-lgray1 bs-type1 pt-1u\
+        \ pb-1u c-dgray\" ><ul><li class=\" last\"><a class=\" t1 c-black-h td-n td-n-h\
+        \ bgc-lgray4-h d-b pl-3u pr-3u pt-1u pb-1u c-dgray\" href=\"https://shopping.yahoo.com/search;_ylt=AwrJ6yicGOVeiaMA9yVXNyoA;_ylu=X3oDMTB0N2Noc21lBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNwaXZz?p=Preaching+the+choir&fr2=piv-web&siteId=us-search&pageId=vertical-srp&viewId=DiA8Kjk4LjEBBTI2ynSIogDlMTk3LgAAAAA6zYLw\"\
+        \ referrerpolicy=\"unsafe-url\">Shopping</a> </li></ul></div><div class=\"\
+        compJsToggle more-pivots-toggle p-3u mr-2u fl-l\"><a class=\" t1 c-black-h\
+        \ td-n td-n-h drop_down_black_on_hover c-dgray\" data-beacon=\"https://geo.yahoo.com/t;_ylt=AwrJ6yicGOVeiaMA.CVXNyoA;_ylu=X3oDMTB0N2Noc21lBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNwaXZz\"\
+        \ href=\"#\" target=\"_blank\">More<span class='ml-1u mb-1 ico down-arrow-gray-thin'></span></a></div></div></li><li\
+        \  ><div class=\"dd horizontal-timefilter fl-l pl-0u pr-0u pt-2u timefilter\"\
+        ><div class=\"compList timefilter-list hidden z-4 bgc-white bd-1 bds-s bdc-lgray1\
+        \ bs-type1 pt-1u pb-1u\" ><ul><li class=\"active mb-0\"><span class=\" t1\
+        \ c-black-h td-n td-n-h bgc-lgray4-h d-b pl-3u pr-3u pt-1u pb-1u fw-n c-dgray\"\
+        ><b>Anytime</b></span> </li><li class=\"mb-0\"><a class=\" t1 c-black-h td-n\
+        \ td-n-h bgc-lgray4-h d-b pl-3u pr-3u pt-1u pb-1u fw-n c-dgray\" href=\"https://search.yahoo.com/search;_ylt=AwrJ6yicGOVeiaMA.SVXNyoA;_ylu=X3oDMTB2cjJqazFuBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNmaWx0ZXI-?p=Preaching+the+choir&b=1&ei=UTF-8&fr2=time&age=1d&btf=d\"\
+        \ referrerpolicy=\"unsafe-url\">Past day</a> </li><li class=\"mb-0\"><a class=\"\
+        \ t1 c-black-h td-n td-n-h bgc-lgray4-h d-b pl-3u pr-3u pt-1u pb-1u fw-n c-dgray\"\
+        \ href=\"https://search.yahoo.com/search;_ylt=AwrJ6yicGOVeiaMA.iVXNyoA;_ylu=X3oDMTB2cjJqazFuBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNmaWx0ZXI-?p=Preaching+the+choir&b=1&ei=UTF-8&fr2=time&age=1w&btf=w\"\
+        \ referrerpolicy=\"unsafe-url\">Past week</a> </li><li class=\"mb-0 last\"\
+        ><a class=\" t1 c-black-h td-n td-n-h bgc-lgray4-h d-b pl-3u pr-3u pt-1u pb-1u\
+        \ fw-n c-dgray\" href=\"https://search.yahoo.com/search;_ylt=AwrJ6yicGOVeiaMA.yVXNyoA;_ylu=X3oDMTB2cjJqazFuBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNmaWx0ZXI-?p=Preaching+the+choir&b=1&ei=UTF-8&fr2=time&age=1m&btf=m\"\
+        \ referrerpolicy=\"unsafe-url\">Past month</a> </li></ul></div><div class=\"\
+        compJsToggle timefilter-toggle p-3u mr-2u fl-l\"><a class=\" t1 c-black-h\
+        \ td-n td-n-h drop_down_black_on_hover c-dgray\" href=\"#\" target=\"_blank\"\
+        ><b>Anytime</b><span class='ml-1u mb-1 ico down-arrow-gray-thin'></span></a></div></div></li><li\
+        \   class=\"last\"><div class=\"dd ds_promo_newtab\" style=\"left: auto;right:\
+        \ 25px;margin-top: 13px;display: block;position: absolute;\"><div class=\"\
+        layoutTop\" ><div class=\"compTitle amplifyPromo\"><h3 class=\"title\"><span\
+        \ style=\"font-size:13px;font-weight: normal;color:#4a4a4a;margin-right: 3px;\"\
+        >Get beautiful photos on every new browser window.</span></h3> <span class=\"\
+        stxt \"><a id=\"promo\" href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMA_CVXNyoA;_ylu=X3oDMTExcTdkMzk1BGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNkc19wcm9tbw--/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2faddons.mozilla.org%2ffirefox%2fdownloads%2flatest%2fsearch-and-new-tab-by-yahoo%2faddon-689182-latest.xpi/RK=2/RS=3PbvvVRpioH9fwUF7tjnBZlYMrM-\"\
+        \ referrerpolicy=\"origin\">Download &gt;&gt;</a></span></div></div></div></li></ol></div></div><div\
+        \ id=\"bd\" role=\"document\"><div id=\"results\"><style type=\"text/css\"\
+        >#right{max-width:442px;width:442px}.ie.v8_0 #right{width:442px}#right .compImageProfile{width:442px}#right\
+        \ .catKG{border:0 none;padding:0}#results .dd a:hover{text-decoration: underline\
+        \ !important;}#bd #sidebar .dd .compFeedBack a{font-size:13px}#results .dd\
+        \ sup{vertical-align:super} #results .dd sub{vertical-align:sub}.rndRegionCard{overflow:hidden;background:none;border:none;padding:0;margin-bottom:13px}.rndRegionCard\
+        \ .dd{background-color:#fff;border:1px solid #e2e2e6;margin-top:13px;padding:10px}.rndRegionCard\
+        \ .first .dd{margin-top:0}.rndRegionCard .dd.not-card{border:none;padding:11px}.rndRegion{overflow:hidden}.rndRegion\
+        \ li{*zoom:1}.rndRegion li li{*zoom:normal}#bd{max-width:1340px;min-width:1239px;}#cols\
+        \ #left{width:620px;}.dd a{color:#2C46C7;} .searchBottom .dd a{color:#324FE1;}\
+        \ .searchCenterFooter .dd a{color:#324FE1;} .dd a.c-styl-5{color:#2C46C7;}#algo-bd\
+        \ .dd h3,#web .dd h3,.searchTop .dd h3{font-size:20px;line-height: 1.3} #algo-bd\
+        \ .dd h3 a,#web .dd h3 a,.searchTop .dd h3 a{font-size:20px;line-height: 1.3}@media(max-width:1179px){#cols\
+        \ #right .srba{width:230px}}@media(min-width:1180px){#cols #right .srba,#cols\
+        \ #right .t2di .srba{width:306px}}#right{padding-left:20px;}#right .cardReg{margin-bottom:32px}#right\
+        \ .cardReg .dd{margin-top:32px}#right .cardReg .first .dd{margin-top:0}#results\
+        \ .dd b,#results .dd strong{font-weight:normal!important}#results .catKG label\
+        \ b,#results .dd .aAbs b,#results .dd .aAbs strong{font-weight:bold!important}#results\
+        \ .dd.NewsArticle p b{font-weight:bold!important}#web{margin-top:0}.compText.summary\
+        \ .attr a{color:#757575;margin-left:5px}.compText.summary .attr a:hover{text-decoration:underline}.compText.sc-more{margin-top:15px;position:relative}.compText\
+        \ .play-video-big{vertical-align:middle}.compText.rt-align{color:#757575;font-size:11px;line-height:22px;padding-right:10px;text-align:right;border-left:1px\
+        \ solid #E2E2E6;border-right:1px solid #E2E2E6}.compText.rt-align-nb{color:#757575;font-size:11px;line-height:22px;padding-right:10px;text-align:right}.compDlink{height:17px;line-height:17px;overflow:hidden;margin-bottom:2px;zoom:1}.compDlink.iconisd{height:auto}.compDlink.iconisd\
+        \ a{display:inline-block}.compDlink li{display:inline-block;overflow:hidden;list-style-type:none;white-space:nowrap;*display:inline;zoom:1}.compDlink\
+        \ .sep{text-align:center;display:inline-block;*display:inline;zoom:1}.compDlink\
+        \ li:last-child{margin:0}.compDlink.toggleLinks{cursor:pointer;color:#324fe1}.compDlink.toggleLinks\
+        \ li,.compDlink.toggleLinks .sep{display:inline;float:none}.compDlink.toggleLinks\
+        \ .sep{padding-right:4px}.compDlink.toggleLinks .selected{color:#000;font-weight:bold}.compDlink.tab{height:auto}.compDlink.tab\
+        \ li{line-height:160%}.compDlink.tab li span.txt{color:#5F5F5F}.compDlink.tab\
+        \ li span.txt:hover{color:#000}.compDlink.tab li.selected span.txt{border-bottom:2px\
+        \ solid #006e8e;color:#000}.compDlink .ico{display:inline-block;margin-right:0;vertical-align:middle;margin-top:-2px}.compDlink.bdr{overflow:visible;height:auto;margin-bottom:5px}.compDlink.bdr\
+        \ li{border:1px #E2E2E6 solid;margin-right:-1px;text-align:center}.compTitle\
+        \ .title{display:inline-block}.compTitle{overflow:hidden;position:relative}.ie.v6_0\
+        \ .compTitle .title,.ie.v7_0 .compTitle .title,.ie.v6_0 .compTitle .ttl-img,.ie.v7_0\
+        \ .compTitle .ttl-img{display:inline}.compTitle label{font-size:85%;margin-right:4px}.compTitle\
+        \ .time{margin-left:10px}.compTitle .title.d-inline{display:inline}.compTitle\
+        \ .metered_call_number{padding-right:10px;color:#3F3F3F}.compTitle .sponsored\
+        \ a{float:right;color:#5F5F5F}.compContainerExp .itm,.compContainerExp .itm\
+        \ .compDlink:after{clear:both}.compContainerExp .itm{min-height:64px;_height:64px;border-top:1px\
+        \ solid #E2E2E6;position:relative;z-index:2}.compContainerExp .itm-no-bd{border:none}.compContainerExp\
+        \ .itm:after,.compContainerExp .itm .cnt:after{content:\".\";display:block;height:0;clear:both;visibility:hidden}.compContainerExp\
+        \ .itm .cnt{position:relative}.compContainerExp .ttl:after{content:\".\";display:block;height:0;clear:both;visibility:hidden}.compContainerExpRight\
+        \ .ttl-l{width:87%}.compContainerExpBtm .itm .cnt{width:95%}.compContainerExp\
+        \ .exp{margin-top:10px}.compContainerExp .exp-mt-0{margin-top:0}.compContainerExp\
+        \ .itm .arr{padding:18px 10px 18px 20px;cursor:pointer}.compContainerExpRight\
+        \ .itm .arr{background-color:#FFF;z-index:4;position:relative}.compContainerExpBtm\
+        \ .itm .arr{padding:0;*padding-top:10px}.compContainerExpBtm .itm .arr .ico{margin-left:auto;margin-right:auto;margin-top:10px;margin-bottom:10px}.compContainerExp\
+        \ .itm .eclp,.compContainerExp .itm .eclp *{width:440px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.compContainerExp\
+        \ .itm .compDlink{height:auto}.compContainerExp .itm .compArticleList .mr-20{margin-right:20px}.compContainerExp\
+        \ .itm .dismiss-btn span{display:block}.compContainerExp .itm .dismiss-btn{width:30px;height:30px;padding:7px\
+        \ 8px;cursor:pointer;border:0;background-color:#ABAEB8}.compContainerExp .itm\
+        \ .dismiss-btn:hover{background-color:#F4614F}.compContainerExp .itm .dismiss-panel{position:absolute;bottom:0;right:0;z-index:10}.compContainerExp\
+        \ .dismiss-top .dismiss-panel{top:0;bottom:initial}.windows .compContainerExp\
+        \ .itm .dismiss-panel{line-height:10px}.compContainerExp .itm .pointer{position:absolute;display:block;right:4px;border:11px\
+        \ solid transparent;border-bottom-width:3px;border-top-color:#F4614F;height:0;margin-left:-2px;width:0}.compContainerExp\
+        \ .itm .tooltip{position:absolute;right:0;bottom:38px;background:#F4614F;border-radius:3px;box-shadow:0\
+        \ 0 3px rgba(0,0,0,0.3);-webkit-box-shadow:0 0 3px rgba(0,0,0,0.3);color:#fff;line-height:200%;padding:5px\
+        \ 14px;text-align:center;z-index:11}.compContainerExp .dismiss-top .tooltip{top:-38px;bottom:initial}.compContainerExp\
+        \ .dismiss-btn .x{background-image:url(\"https://s.yimg.com/pv/static/img/x-web.png\"\
+        );background-position:0 0;width:14px;height:14px;background-size:14px 14px}.compContainerExp\
+        \ .undo-panel{position:absolute;top:0;left:0;z-index:15;display:none;width:100%;height:100%;background-color:rgba(255,255,255,0.8);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#aaffffff,endColorstr=#aaffffff)}.ie\
+        \ .compContainerExp .undo-panel{background-color:rgba(255,255,255,0.7)}.ie.v9_0\
+        \ .compContainerExp .undo-panel{filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#00ffffff,endColorstr=#00ffffff)}.compContainerExp\
+        \ .undo-panel .undo-info-cnt{position:absolute;top:12%}.compContainerExp .undo-panel\
+        \ .undo-info{margin:0 30px 21px 30px;text-align:center}.compContainerExp .undo-panel\
+        \ .action{margin-left:192px}.compContainerExp .undo-panel .action button{padding:10px\
+        \ 28px;border:0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;cursor:pointer}.compContainerExp\
+        \ .undo-panel .action .undo-btn{background-color:#3244E0;color:#FFF}.compContainerExp\
+        \ .undo-panel .action .close-btn{background-color:transparent;color:#3244E0}.compTextList\
+        \ li{margin-bottom:4px;text-align:-webkit-match-parent;overflow:auto}.compTextList\
+        \ .timestamp,.compTextList .txtnum,.compTextList .txtabs{color:#757575;margin-left:10px}.compTextList\
+        \ .txtlabel{color:#757575;margin-right:5px}.compTextList .textstr{display:inline}.dd.bingrelqa{width:596px;margin-left:2px!important;margin-right:0!important;box-shadow:0\
+        \ 2px 4px 0 rgba(0,0,0,0.1)}#results .dd.bingrelqa .compTextList b{font-weight:700!important}.compContainerExp\
+        \ .itm.min-h-42{min-height:42px}.compImageList{margin-top:5px}.compImageList\
+        \ li{display:inline-block;*float:left;vertical-align:top;margin-left:6px;margin-bottom:5px;width:90px;overflow:hidden}.compImageList\
+        \ .imgbox a{display:inline-block;*display:inline;zoom:1;overflow:hidden;max-height:32px;line-height:16px}.compImageList\
+        \ a.mah-i{max-height:inherit}.compImageList .cite,.compImageList p{font-size:93%;font-weight:normal}.compImageList\
+        \ .fs-100{font-size:100%}#results #right .amenities .fc-26th{color:#34343F}.compImageList\
+        \ .strs{display:block}.compImageList .thmb{margin-bottom:3px;overflow:hidden}.compImageList\
+        \ .crop-thm{display:block;overflow:hidden}.clearproduct{*clear:both}.compImageListVertical\
+        \ li{display:block;*float:none}.compImageList .ctimestamp.b-r{top:auto;left:auto;bottom:2px;right:24px}.compImageList\
+        \ .ctimestamp.b-l{top:auto;right:auto;bottom:5px;left:26px;border-radius:2px;padding:0\
+        \ 6px;border-bottom-left-radius:1px;border-top-left-radius:1px}.compImageList\
+        \ .play-video.med{background-position:0 0;background-size:19px 15px;width:19px;height:15px;background-image:url(https://s.yimg.com/pv/static/img/play_Icon_1x-201504171829.png)}.compImageList.ravioli\
+        \ .capbox{position:absolute;height:20px;right:0;bottom:0;left:0;margin-bottom:4px}.compImageList.ravioli\
+        \ .player_icon{display:block;background-repeat:no-repeat;right:38px;top:6.3px;*top:2px;position:absolute}.compImageList.ravioli\
+        \ .player_icon.wide{right:55px}.compImageList .capwrap{position:relative;z-index:0}.compImageList\
+        \ .capwrap .capbox{*bottom:5px}.compImageList .cvr-mask{position:absolute;top:0;left:0;display:inline-block;*display:inline;zoom:1;overflow:hidden}.compImageList\
+        \ .cvr-mask div{padding:0;overflow:hidden}.compImageList .cvr-mask .cvr-txt{position:absolute;text-align:center;top:0;margin-top:0;padding-top:30px;z-index:3;filter:alpha(opacity=0);opacity:0}.compImageList\
+        \ .cvr-mask .cvr-bg{background-color:#000;z-index:2;filter:alpha(opacity=0);opacity:0;cursor:hand}.compImageList\
+        \ .cvr-mask:hover .cvr-txt,.compImageList .cvr-mask:hover .cvr-bg{z-index:2;opacity:.7;filter:alpha(opacity=70);transition:opacity\
+        \ .15s ease-in-out;-moz-transition:opacity .15s ease-in-out;-webkit-transition:opacity\
+        \ .15s ease-in-out}.compImageList.rsize{overflow:hidden}@media only screen\
+        \ and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only\
+        \ screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only\
+        \ screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){.compImageListWithHero\
+        \ .mres-nav .mres-box .mres-link{background-image:url(\"https://s.yimg.com/pv/static/img/2x-icon-more-img-201503030059.png\"\
+        )}.compImageList .play-video.med{background-image:url(https://s.yimg.com/pv/static/img/play_Icon_2x-201504171829.png)}}.compImageList\
+        \ .grad{background:-moz-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.8)\
+        \ 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,0.8)));background:-webkit-linear-gradient(top,rgba(0,0,0,0)\
+        \ 0,rgba(0,0,0,0.8) 100%);background:-o-linear-gradient(top,rgba(0,0,0,0)\
+        \ 0,rgba(0,0,0,0.8) 100%);background:-ms-linear-gradient(top,rgba(0,0,0,0)\
+        \ 0,rgba(0,0,0,0.8) 100%);background:linear-gradient(to bottom,rgba(0,0,0,0)\
+        \ 0,rgba(0,0,0,0.8) 100%)}.compInfo{margin:15px 0}.compInfo li{margin-bottom:8px}.compInfo\
+        \ li:last-child{margin-bottom:0}.compInfo .sep{display:inline-block;text-align:center;width:15px;*zoom:1;*display:inline}.compTable{margin:10px\
+        \ 0}.compTable tr td{vertical-align:top;padding:0 40px 4px 0}.compTable tr:last-child\
+        \ td{margin-bottom:0}.compTable label{display:block;color:#757575;margin-bottom:8px}@media(max-width:1158px){#right\
+        \ .compTable{font-size:16px!important}#right .compTable label{font-size:12px!important}#right\
+        \ .compTable tr td{padding-right:15px}}#right .compTable{font-size:16px\\\
+        9!important}#right .compTable label{font-size:12px\\9!important}#right .compTable\
+        \ tr td{padding-right:15px\\9}.compTable span.shorttxt{display:none}.compList\
+        \ ul{vertical-align:top}.compList li{overflow:hidden}.compList li.active{font-weight:bold;color:#3f3f3f}.compList\
+        \ img{vertical-align:middle}.compList ul li p{font-size:13px;line-height:17px}.compList\
+        \ ul li.borderShadow{box-shadow:0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08)}.compJsToggle\
+        \ .ico{display:inline-block;*display:inline;*margin-top:10px}.compJsToggle.bb-0{border-bottom:0}#results\
+        \ .compJsToggle.fg-trigger a{color:#262626;text-decoration:none!important}@media\
+        \ only screen and (max-width :1170px){.dd.ds_promo_newtab .amplifyPromo,.dd.fg_promo_newtab\
+        \ .amplifyPromo{display:none}}#yset_ie_inline-install-modal_container{position:fixed;top:0;width:100%;height:100%;z-index:20000;text-align:center;left:0;background-color:rgba(0,0,0,0.8)}#yset_ie_inline-install-modal{width:550px;height:450px;padding:40px;vertical-align:middle;position:relative;font-weight:200;display:inline-block;color:#5f5f5f;box-sizing:border-box;background-color:#fff;border-radius:3px;top:200px}#yset_ie_inline-install-modal\
+        \ #heading{font-weight:700;font-size:26px;margin-bottom:15px;color:#000}#yset_ie_inline-install-modal\
+        \ #subheading{font-size:15px}#yset_ie_inline-install-modal #installerLightboxImg{vertical-align:bottom;border:0}#links{font-size:13px;position:absolute;bottom:30px}#terms{color:#324fe1;text-decoration:none}#policy{color:#324fe1;text-decoration:none}#browserExtensionPromotion{position:absolute;right:16px;padding:16px;box-shadow:3px\
+        \ 3px 12px #dedede,-3px -3px 12px #dedede;background-color:#fff;z-index:10}#syc\
+        \ #browserExtensionPromotion{top:16px}#browserExtensionPromotionWrapper{position:relative}#browserExtensionPromotion\
+        \ .cross{position:absolute;top:10px;right:10px;cursor:pointer}#browserExtensionPromotion\
+        \ .crossCanvas{width:10px;height:10px;display:inline-block;position:relative}#browserExtensionPromotion\
+        \ .crossCanvas .bar{display:inline-block;width:10px;border-top:1px solid #aaa;position:absolute}#browserExtensionPromotion\
+        \ .crossCanvas .bar.bar1{transform:rotate(45deg)}#browserExtensionPromotion\
+        \ .crossCanvas .bar.bar2{transform:rotate(135deg)}#browserExtensionPromotion\
+        \ .iconWrapper{display:inline-block;width:50px;height:50px;border-radius:25px;margin-right:16px;background:linear-gradient(135deg,#7e96f9\
+        \ 0,#6c6ade 100%);vertical-align:22px}#browserExtensionPromotion .icon{width:20px;height:20px;display:inline-block;position:relative;margin-top:16px;margin-left:16px}#browserExtensionPromotion\
+        \ .icon .lens{position:absolute;border:2px solid white;width:10px;height:10px;background:transparent;border-top-left-radius:100px;border-top-right-radius:100px;border-bottom-left-radius:100px;border-bottom-right-radius:100px}#browserExtensionPromotion\
+        \ .icon .handle{position:absolute;display:block;border:0;background-color:white;width:8px;height:3px;right:3px;bottom:4px;transform:rotate(45deg)}#browserExtensionPromotion\
+        \ .content{width:255px;display:inline-block}#browserExtensionPromotion .content\
+        \ h3{font-size:13px;font-weight:bold;margin-bottom:12px}#browserExtensionPromotion\
+        \ .content p{font-size:13px;margin-bottom:12px;color:#999;line-height:16px}#browserExtensionPromotion\
+        \ .content .btn{background-color:#1784fb;display:inline-block;width:96px;color:#fff;padding:8px\
+        \ 10px;text-align:center;cursor:pointer;border-radius:4px}#browserExtensionPromotion\
+        \ .notnow{margin-left:10px}#yset-inline-install-modal-container{position:fixed;width:100%;height:100%;left:0;top:0;background-color:rgba(0,0,0,.8);z-index:20000}#yset-inline-install-modal-container\
+        \ #yset-inline-install-modal{box-sizing:border-box;background-color:#fff;border-radius:4px;box-shadow:0\
+        \ 0 4px 0 rgba(0,0,0,.5);padding:26px;position:absolute;width:460px;height:140px;margin-left:-220px;text-align:center;left:50%;top:400px}#yset-inline-install-modal-container\
+        \ #yset-inline-install-modal.win{top:330px}#yset-inline-install-modal-container\
+        \ #yset-inline-install-modal.ff{left:225px;top:200px}#yset-inline-install-modal-container\
+        \ #yset-inline-install-modal.ff.ffAbove56{left:425px}#yset-inline-install-modal-container\
+        \ #yset-inline-install-modal.win.ff{left:265px}#yset-inline-install-modal-container\
+        \ #yset-inline-install-modal.win.ff.ffAbove56{left:455px}#yset-inline-install-modal-container\
+        \ #yset-inline-install-modal #yset-inline-install-modal-icon{position:absolute;top:-30px;left:340px;background-image:url(https://s.yimg.com/kx/yucs/uhc/yset-search/135/images/inline-install-arrow.png);background-size:contain;width:72px;height:72px}#yset-inline-install-modal-container\
+        \ #yset-inline-install-modal #yset-inline-install-modal-icon.win{left:210px}#yset-inline-install-modal-container\
+        \ #yset-inline-install-modal #yset-inline-install-modal-icon.ff{left:270px}#yset-inline-install-modal-container\
+        \ #yset-inline-install-modal #yset-inline-install-modal-icon.win.ff{left:60px;top:-40px}#yset-inline-install-modal-container\
+        \ #yset-inline-install-modal #yset-inline-install-modal-heading{margin-top:22px;margin-bottom:12px;font-weight:200;font-size:24px;color:#525252}#yset-inline-install-modal-container\
+        \ #yset-inline-install-modal #yset-inline-install-modal-subHeading{font-size:16px;color:#1bb270}#yset-inline-install-modal-container\
+        \ #yset-inline-install-modal.win.ie{top:200px;width:550px;height:450px;margin-left:-275px;padding:40px}#yset_ie_inline-install-modal_container{position:fixed;top:0;width:100%;height:100%;z-index:20000;text-align:center;left:0;background-color:rgba(0,0,0,0.8)}#yset_ie_inline-install-modal{width:550px;height:450px;padding:40px;vertical-align:middle;position:relative;font-weight:200;display:inline-block;color:#5f5f5f;box-sizing:border-box;background-color:#fff;border-radius:3px;top:200px}#yset_ie_inline-install-modal\
+        \ #heading{font-weight:700;font-size:26px;margin-bottom:15px;color:#000}#yset_ie_inline-install-modal\
+        \ #subheading{font-size:15px}#yset_ie_inline-install-modal #installerLightboxImg{vertical-align:bottom;border:0}#links{font-size:13px;position:absolute;bottom:30px}#terms{color:#324fe1;text-decoration:none}#policy{color:#324fe1;text-decoration:none}@media\
+        \ only screen and (max-width :1170px){.dd.ds_promo_newtab .amplifyPromo{display:none}}@media\
+        \ only screen and (max-width :1200px){.dd.ds_promo_ymobile .amplifyPromo{display:none}}.compPagination{overflow:hidden}.compPagination\
+        \ a{border:1px solid #fafafc;float:left;margin:0 5px 0 0;padding:2px 8px;text-align:center}.compPagination\
+        \ a:hover{border:1px solid #e2e2e6;background-color:#fff;text-decoration:none}.compPagination\
+        \ strong{color:#3f3f3f;font-weight:bold;float:left;margin:0 5px 0 0;padding:2px\
+        \ 6px;border:1px solid #e2e2e6;background-color:#fff}.compPagination span{float:right;color:#757575;font-size:11px;margin-right:10px;margin-top:3px}.compPagination\
+        \ .prev:hover,.compPagination .next:hover{border:1px solid #fafafc;text-decoration:underline;background-color:#fff}</style><div\
+        \ id=\"cols\"><div id=\"left\"><div><ol class=\" cardReg searchTop\"><li \
+        \  class=\"first last\"><div class=\"dd mb-0 pt-0 bgc-white AlsoTry_N\" style=\"\
+        border-color:#fff;\" data-a36=\"5ee5189d157b3\"><div class=\"compText fl-l\
+        \ mr-4\" ><p class=\"\"><span class=\" fc-4th fz-ms\">Also try:</span> </p></div><ul\
+        \ class=\"compDlink\" style=\"line-height:16px;\"><li class=\"selected\"><span\
+        \ class=\"txt\"><a class=\" ac-1st fc-5th fz-ms\" href=\"https://search.yahoo.com/search;_ylt=AwrJ6yicGOVeiaMA_SVXNyoA;_ylu=X3oDMTBzamNxcGJpBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNyZWw-?p=preaching+the+choir+meaning&b=1&ei=UTF-8&fr2=rs-top\"\
+        \ referrerpolicy=\"unsafe-url\">preaching the choir meaning</a></span></li><li>,&nbsp;<span\
+        \ class=\"txt\"><a class=\" ac-1st fc-5th fz-ms\" href=\"https://search.yahoo.com/search;_ylt=AwrJ6yicGOVeiaMA_iVXNyoA;_ylu=X3oDMTBzamNxcGJpBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNyZWw-?p=you+are+preaching+the+choir&b=1&ei=UTF-8&fr2=rs-top\"\
+        \ referrerpolicy=\"unsafe-url\">you are preaching the choir</a></span></li></ul></div></li></ol><div\
+        \ id=\"main\"><div><div id=\"web\"><style type=\"text/css\">.algo a,.algo\
+        \ a b,.algo .cite,.algo .cite b,.algo .compText,.algo .compText b{font-weight:normal}.algo\
+        \ .title a{font-size:18px;text-decoration:none !important}.algo{margin-top:\
+        \ 30px !important}.first .algo.fst {margin-top: 0px !important}.last .algo.lst\
+        \ ul.compDlink.algo-options{bottom: 0px;margin-left:25px;}#web .algo .cite,\
+        \ #web .algo .cite b{font-size: 14px;}#web .dd.SrQkLnk{width:542px;margin-right:2px;}</style><ol\
+        \ class=\"mb-15 reg searchCenterMiddle\"><li   class=\"first\"><div class=\"\
+        dd bingrelqa\" data-a36=\"5ee5189d159a4\"><div class=\"compTitle bt-1 br-1-EDEDED\
+        \ bl-1-EDEDED p-10\"><p class=\"title fz-xl lh-1_3x cgrey\">People also ask</p>\
+        \ </div><div class=\"compContainerExp compContainerExpRight bl-1-EDEDED br-1-EDEDED\
+        \ bb-1\"><div class=\"itm min-h-42 pl-10 pr-10\"  qidx=\"1\"><div class=\"\
+        cnt mt-0\"><div class=\"ttl\"><div class=\"arr fl-r mt-10 p-0\"><div class=\"\
+        ico bingdd-arrow-down\"></div></div><div class=\"ttl-l\"><div class=\"compText\
+        \ pt-11\" ><p class=\"\"><span class=\" cur-p c-black fz-m\">What does the\
+        \ phrase preaching to the choir mean?</span> </p></div></div></div><div class=\"\
+        exp hidden\"><div class=\"compTextList\"><ul><li class=\"va-top mb-8 fz-m\"\
+        ><div class=\" lh-22 d-b \">The expression &quot;preaching to the choir&quot;\
+        \ means that <b>all parties are in agreement with a particular belief</b>.</div>\
+        \ </li></ul></div><div class=\"compTitle pt-10 pb-15\"><h3 class=\"title\"\
+        ><a href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMA_yVXNyoA;_ylu=X3oDMTByMjB0aG5zBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNzYw--/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fwww.wisegeek.com%2fwhat-is-preaching-to-the-choir.htm/RK=2/RS=8xpVfUcgR1wDhpDTgE12IqfmxT4-\"\
+        \ referrerpolicy=\"origin\" target=\"_blank\" data-a36=\"5ee5189d15b47\">Reference</a></h3>\
+        \ <div><span class=\"cite\">www.wisegeek.com/what-is-<b>preaching</b>-to-<b>the</b>-<b>choir</b>.htm</span></div></div><div\
+        \ class=\"compTitle fz-s pb-15\"><p class=\"title\"><a href=\"https://search.yahoo.com/search;_ylt=AwrJ6yicGOVeiaMAACZXNyoA;_ylu=X3oDMTByMjB0aG5zBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNzYw--?ei=UTF-8&p=What+does+the+phrase+preaching+to+the+choir+mean%3F&fr2=\"\
+        \ referrerpolicy=\"unsafe-url\" data-a36=\"5ee5189d15c63\">See all results\
+        \ for this question</a></p> </div></div></div></div><div class=\"itm min-h-42\
+        \ pl-10 pr-10\"  qidx=\"2\"><div class=\"cnt mt-0\"><div class=\"ttl\"><div\
+        \ class=\"arr fl-r mt-10 p-0\"><div class=\"ico bingdd-arrow-down\"></div></div><div\
+        \ class=\"ttl-l\"><div class=\"compText pt-11\" ><p class=\"\"><span class=\"\
+        \ cur-p c-black fz-m\">What is the meaning of the cliche preach to the choir?</span>\
+        \ </p></div></div></div><div class=\"exp hidden\"><div class=\"compTextList\"\
+        ><ul><li class=\"va-top mb-8 fz-m\"><div class=\" lh-22 d-b \"><b>Definition\
+        \ of preach to the choir</b>. : to <b>speak</b> for or against something to\
+        \ people who already agree with <b>one&#39;s opinions The speeches he makes</b>\
+        \ to his supporters won&#39;t win him any more votes.</div> </li></ul></div><div\
+        \ class=\"compTitle pt-10 pb-15\"><h3 class=\"title\"><a href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMAASZXNyoA;_ylu=X3oDMTByMjB0aG5zBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNzYw--/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fwww.merriam-webster.com%2fdictionary%2fpreach%2520to%2520the%2520choir/RK=2/RS=ujrKFQ3ue_qa_EQNdSZHDQSXTcA-\"\
+        \ referrerpolicy=\"origin\" target=\"_blank\" data-a36=\"5ee5189d15dc2\">Preach\
+        \ To <b>The Choir </b>| Definition of Preach To <b>The Choir </b>by ...</a></h3>\
+        \ <div><span class=\"cite\">www.merriam-webster.com/dictionary/preach%20to%20the%20choir</span></div></div><div\
+        \ class=\"compTitle fz-s pb-15\"><p class=\"title\"><a href=\"https://search.yahoo.com/search;_ylt=AwrJ6yicGOVeiaMAAiZXNyoA;_ylu=X3oDMTByMjB0aG5zBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNzYw--?ei=UTF-8&p=What+is+the+meaning+of+the+cliche+preach+to+the+choir%3F&fr2=\"\
+        \ referrerpolicy=\"unsafe-url\" data-a36=\"5ee5189d15eae\">See all results\
+        \ for this question</a></p> </div></div></div></div><div class=\"itm min-h-42\
+        \ pl-10 pr-10\"  qidx=\"3\"><div class=\"cnt mt-0\"><div class=\"ttl\"><div\
+        \ class=\"arr fl-r mt-10 p-0\"><div class=\"ico bingdd-arrow-down\"></div></div><div\
+        \ class=\"ttl-l\"><div class=\"compText pt-11\" ><p class=\"\"><span class=\"\
+        \ cur-p c-black fz-m\">What&#39;s the opposite of &quot;preaching to the choir&quot;?</span>\
+        \ </p></div></div></div><div class=\"exp hidden\"><div class=\"compTextList\"\
+        ><ul><li class=\"va-top mb-8 fz-m\"><div class=\" lh-22 d-b \">If you&#39;re\
+        \ preaching to the choir, it means that you simply expressing what everyone\
+        \ already agrees upon. Whereas the opposite, IMO, would be if you were preaching\
+        \ to people who were completely apathetic and indifferent, so <b>whistling\
+        \ or spitting in the wind</b> fits quite well.</div> </li></ul></div><div\
+        \ class=\"compTitle pt-10 pb-15\"><h3 class=\"title\"><a href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMAAyZXNyoA;_ylu=X3oDMTByMjB0aG5zBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNzYw--/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fenglish.stackexchange.com%2fquestions%2f140710%2fwhat-is-the-opposite-of-preaching-to-the-choir/RK=2/RS=_eN9ZX1Xk0htuHc8E2WEv8rOVi4-\"\
+        \ referrerpolicy=\"origin\" target=\"_blank\" data-a36=\"5ee5189d1600a\">idioms\
+        \ - What is <b>the </b>opposite of &#92;&quot;<b>preaching </b>to <b>the choir\
+        \ </b>...</a></h3> <div><span class=\"cite\">english.stackexchange.com/questions/140710/what-is-<b>the</b>-opposite-of-<b>preaching</b>-to-<b>the</b>-<b>choir</b></span></div></div><div\
+        \ class=\"compTitle fz-s pb-15\"><p class=\"title\"><a href=\"https://search.yahoo.com/search;_ylt=AwrJ6yicGOVeiaMABCZXNyoA;_ylu=X3oDMTByMjB0aG5zBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNzYw--?ei=UTF-8&p=What%27s+the+opposite+of+%22preaching+to+the+choir%22%3F&fr2=\"\
+        \ referrerpolicy=\"unsafe-url\" data-a36=\"5ee5189d16122\">See all results\
+        \ for this question</a></p> </div></div></div></div><div class=\"itm min-h-42\
+        \ pl-10 pr-10\"  qidx=\"4\"><div class=\"cnt mt-0\"><div class=\"ttl\"><div\
+        \ class=\"arr fl-r mt-10 p-0\"><div class=\"ico bingdd-arrow-down\"></div></div><div\
+        \ class=\"ttl-l\"><div class=\"compText pt-11\" ><p class=\"\"><span class=\"\
+        \ cur-p c-black fz-m\">What does it mean to be a choir?</span> </p></div></div></div><div\
+        \ class=\"exp hidden\"><div class=\"compTextList\"><ul><li class=\"va-top\
+        \ mb-8 fz-m\"><div class=\" lh-22 d-b \">A choir is a <b>group of singers\
+        \ who perform together</b>, with or without accompaniment from musical instruments.\
+        \ You may also hear a choir referred to as a chorus. Choirs around the world\
+        \ are incredibly varied, from casual secular groups which meet and perform\
+        \ periodically to highly organized church choirs featuring an array of very\
+        \ disciplined singers.</div> </li></ul></div><div class=\"compTitle pt-10\
+        \ pb-15\"><h3 class=\"title\"><a href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMABSZXNyoA;_ylu=X3oDMTByMjB0aG5zBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNzYw--/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fwww.wisegeek.com%2fwhat-is-a-choir.htm/RK=2/RS=di6jAA7DFmgj0.LAU8dZKsnF04w-\"\
+        \ referrerpolicy=\"origin\" target=\"_blank\" data-a36=\"5ee5189d1626a\">What\
+        \ is a <b>Choir</b>? (with pictures) - wiseGEEK</a></h3> <div><span class=\"\
+        cite\">www.wisegeek.com/what-is-a-<b>choir</b>.htm</span></div></div><div\
+        \ class=\"compTitle fz-s pb-15\"><p class=\"title\"><a href=\"https://search.yahoo.com/search;_ylt=AwrJ6yicGOVeiaMABiZXNyoA;_ylu=X3oDMTByMjB0aG5zBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNzYw--?ei=UTF-8&p=What+does+it+mean+to+be+a+choir%3F&fr2=\"\
+        \ referrerpolicy=\"unsafe-url\" data-a36=\"5ee5189d16375\">See all results\
+        \ for this question</a></p> </div></div></div></div></div></div></li><li \
+        \ ><div class=\"dd algo algo-sr fst Sr\" data-a36=\"5ee5189d1659d\"><div class=\"\
+        compTitle options-toggle\"><h3 class=\"title ov-h\"><a style=\"line-height:1.3\"\
+        \ class=\" ac-algo fz-l ac-21th lh-24\" href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMAByZXNyoA;_ylu=X3oDMTByOHZyb21tBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNzcg--/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fidioms.thefreedictionary.com%2fpreach%2bto%2bthe%2bchoir/RK=2/RS=fsLS4TIU3gkRANSkuXzCBIO1Dzk-\"\
+        \ referrerpolicy=\"origin\" target=\"_blank\" data-a36=\"5ee5189d166cd\">Preach\
+        \ to the choir - Idioms by The Free Dictionary</a></h3> <div><span class=\"\
+        \ fz-ms fw-m fc-12th wr-bw lh-17\">idioms.thefreedictionary.com/<b>preach+to+the+choir</b></span><span\
+        \ class=\"tri ico down-arrow-gray-thick optrg\"> </span></div></div><ul class=\"\
+        compDlink algo-options h-a d-n z-4 bgc-white bd-1 bds-s bdc-lgray1 bs-type1\
+        \ ptb-1u\"><li class=\"d-b selected\"><span class=\"txt\"><a class=\" t1 c-dgray\
+        \ c-black-h bgc-lgray3-h d-b plr-3u ptb-1u td-n td-n-h\" href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMACCZXNyoA;_ylu=X3oDMTByOHZyb21tBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNzcg--/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fcc.bingj.com%2fcache.aspx%3fq%3dPreaching%2bthe%2bchoir%26d%3d5047703467655534%26mkt%3den-US%26setlang%3den-US%26w%3d5KLnWahx37P3bk0WVeGZc5h-1p4D1Bvu/RK=2/RS=qFhzxG0OTMEhadZASMKSQR504Vo-\"\
+        \ referrerpolicy=\"origin\" target=\"_blank\">Cached</a></span></li></ul><div\
+        \ class=\"compText aAbs\" ><p class=\"fz-ms lh-1_43x\">Definition of <b>preach</b>\
+        \ to the <b>choir</b> in the Idioms Dictionary. <b>preach</b> to the <b>choir</b>\
+        \ phrase. What does <b>preach</b> to the <b>choir</b> expression mean? ...\
+        \ <b>preach</b> to the <b>choir</b> and ... </p></div></div></li><li  ><div\
+        \ class=\"dd algo algo-sr lst Sr\" data-a36=\"5ee5189d16814\"><div class=\"\
+        compTitle options-toggle\"><h3 class=\"title ov-h\"><a style=\"line-height:1.3\"\
+        \ class=\" ac-algo fz-l ac-21th lh-24\" href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMACSZXNyoA;_ylu=X3oDMTBybGY3bmpvBGNvbG8DYmYxBHBvcwMyBHZ0aWQDBHNlYwNzcg--/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fwww.collinsdictionary.com%2fus%2fdictionary%2fenglish%2fto-preach-to-the-choir/RK=2/RS=aJUisqKyN8sk7D4mMWjl7i4lRmU-\"\
+        \ referrerpolicy=\"origin\" target=\"_blank\" data-a36=\"5ee5189d16932\">To\
+        \ preach to the choir definition and meaning | Collins ...</a></h3> <div><span\
+        \ class=\" fz-ms fw-m fc-12th wr-bw lh-17\"><b>www.collinsdictionary.com</b>/.../<b>to-preach-to-the-choir</b></span><span\
+        \ class=\"tri ico down-arrow-gray-thick optrg\"> </span></div></div><ul class=\"\
+        compDlink algo-options h-a d-n z-4 bgc-white bd-1 bds-s bdc-lgray1 bs-type1\
+        \ ptb-1u\"><li class=\"d-b selected\"><span class=\"txt\"><a class=\" t1 c-dgray\
+        \ c-black-h bgc-lgray3-h d-b plr-3u ptb-1u td-n td-n-h\" href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMACiZXNyoA;_ylu=X3oDMTBybGY3bmpvBGNvbG8DYmYxBHBvcwMyBHZ0aWQDBHNlYwNzcg--/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fcc.bingj.com%2fcache.aspx%3fq%3dPreaching%2bthe%2bchoir%26d%3d4523094687096977%26mkt%3den-US%26setlang%3den-US%26w%3dzqW6zM7pUjoI3clCNenH2cQSDGelknsV/RK=2/RS=CmZBFuoWHbIGf0LASCcWXT.6y5E-\"\
+        \ referrerpolicy=\"origin\" target=\"_blank\">Cached</a></span></li></ul><div\
+        \ class=\"compText aAbs\" ><p class=\"fz-ms lh-1_43x\">to <b>preach</b> to\
+        \ the <b>choir</b> phrase If you say that someone is <b>preaching</b> to the\
+        \ <b>choir</b> , you mean that they are presenting an argument or opinion\
+        \ to people who already agree with it. </p></div></div></li><li  ><div class=\"\
+        dd Video\" style=\"margin-bottom:10px\" data-a36=\"5ee5189d16a79\"><div class=\"\
+        compTitle mb-10\"><h3 class=\"title\"><a style=\" \" class=\" td-hu\" href=\"\
+        https://video.search.yahoo.com/search/video;_ylt=AwrJ6yicGOVeiaMACyZXNyoA;_ylu=X3oDMTByMDgyYjJiBGNvbG8DYmYxBHBvcwMyBHZ0aWQDBHNlYwNzYw--?p=Preaching+the+choir\"\
+        \ referrerpolicy=\"unsafe-url\" target=\"_blank\" data-a36=\"5ee5189d16b83\"\
+        ><b>Preaching The Choir </b>- Video Results</a></h3> </div><ul class=\"compImageList\
+        \  compImageListGrid\" style=\"width:588px\"><li class=\"mt-2 ml-0 mr-2 ov-v\
+        \ mb-13 pos-br\" style=\"width:144px;\"><div class=\"capwrap\"><a data-pos=\"\
+        0\" class=\"thmb bgc-5th d-b h-77\" href=\"https://video.search.yahoo.com/search/video;_ylt=AwrJ6yicGOVeiaMADCZXNyoA;_ylu=X3oDMTByMDgyYjJiBGNvbG8DYmYxBHBvcwMyBHZ0aWQDBHNlYwNzYw--?p=Preaching+the+choir&turl=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOVP.ZMIEJWCVLHhV5O3VCOjE1gHgFo%26amp%3Bpid%3DApi%26w%3D144%26h%3D77%26c%3D7&rurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DDi6TjRGSvmc&tit=The+Deadlips+-+Preaching+To+The+Choir+%28Official+Music+Video%29&w=144&h=78&pos=1&vid=4ec6ea7bac1dd6dd54d621e316055839&sigr=5_yMJ1nL1p8p&sigt=UU8BGWz8f9VL&sigi=GRuInmBCcHyl\"\
+        \ referrerpolicy=\"unsafe-url\" title=\"The Deadlips - Preaching To The Choir\
+        \ (Official Music Video)\" data-pos=\"0\" data-a36=\"5ee5189d16cac\"><img\
+        \ class=\"s-img d-b\" style=\"padding:0px 0px 0px 0px;display:block;margin-left:auto;margin-right:auto;max-width:144px;max-height:78px;\"\
+        \ alt=\"The Deadlips - Preaching To The Choir (Official Music Video)\" title=\"\
+        The Deadlips - Preaching To The Choir (Official Music Video)\" src=\"https://tse1.mm.bing.net/th?id=OVP.ZMIEJWCVLHhV5O3VCOjE1gHgFo&amp;pid=Api&w=144&h=77&c=7\"\
+        /><div class=\"ctimestamp  ta-r r-0 t-0 b-a z-1 p-a c-white pr-2u pb-1u t1\
+        \ grad\">4:47</div><div class=\"capbox noshade z-1\"><span class=\"bgico ico\
+        \ compImageListGrid zzz-videoplay-small mb-18 ml-50\"></span></div></a></div><div\
+        \ class=\"mt-8 mr-24 lh-16 mah-33 ov-h c-black c-0\"><b>The </b>Deadlips -\
+        \ <b>Preaching </b>To <b>The Choir </b>(Official Music Video)</div><span class=\"\
+        \ cite fc-2nd fs-100 tc d-b mr-24\">youtube.com</span></li><li class=\"mt-2\
+        \ ml-0 mr-2 ov-v mb-13 pos-br\" style=\"width:144px;\"><div class=\"capwrap\"\
+        ><a data-pos=\"1\" class=\"thmb bgc-5th d-b h-77\" href=\"https://video.search.yahoo.com/search/video;_ylt=AwrJ6yicGOVeiaMADSZXNyoA;_ylu=X3oDMTByMDgyYjJiBGNvbG8DYmYxBHBvcwMyBHZ0aWQDBHNlYwNzYw--?p=Preaching+the+choir&turl=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOVP.JJJfXwyiwOaeH-F3XVnCjwEsDh%26amp%3Bpid%3DApi%26w%3D144%26h%3D77%26c%3D7&rurl=https%3A%2F%2Fwww.videodetective.com%2Fmovie%2Fpreaching-to-the-choir-10642&tit=Preaching+To+The+Choir&w=144&h=78&pos=2&vid=106d2be83767620e750eb4dbfe0646a4&sigr=__l95qIVM9ok&sigt=8ub9Uz.JnSTt&sigi=IroEQo_9G4h4\"\
+        \ referrerpolicy=\"unsafe-url\" title=\"Preaching To The Choir\" data-pos=\"\
+        1\" data-a36=\"5ee5189d16dff\"><img class=\"s-img d-b\" style=\"padding:0px\
+        \ 0px 0px 0px;display:block;margin-left:auto;margin-right:auto;max-width:144px;max-height:78px;\"\
+        \ alt=\"Preaching To The Choir\" title=\"Preaching To The Choir\" src=\"https://tse3.mm.bing.net/th?id=OVP.JJJfXwyiwOaeH-F3XVnCjwEsDh&amp;pid=Api&w=144&h=77&c=7\"\
+        /><div class=\"ctimestamp  ta-r r-0 t-0 b-a z-1 p-a c-white pr-2u pb-1u t1\
+        \ grad\">2:26</div><div class=\"capbox noshade z-1\"><span class=\"bgico ico\
+        \ compImageListGrid zzz-videoplay-small mb-18 ml-50\"></span></div></a></div><div\
+        \ class=\"mt-8 mr-24 lh-16 mah-33 ov-h c-black c-1\"><b>Preaching </b>To <b>The\
+        \ Choir</b></div><span class=\" cite fc-2nd fs-100 tc d-b mr-24\">videodetective.com</span></li><li\
+        \ class=\"mt-2 ml-0 mr-2 ov-v mb-13 pos-br\" style=\"width:144px;\"><div class=\"\
+        capwrap\"><a data-pos=\"2\" class=\"thmb bgc-5th d-b h-77\" href=\"https://video.search.yahoo.com/search/video;_ylt=AwrJ6yicGOVeiaMADiZXNyoA;_ylu=X3oDMTByMDgyYjJiBGNvbG8DYmYxBHBvcwMyBHZ0aWQDBHNlYwNzYw--?p=Preaching+the+choir&turl=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOVP.OexzLJgpHhoH90_6TXPKjAEsDh%26amp%3Bpid%3DApi%26w%3D144%26h%3D77%26c%3D7&rurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dp7Uw2z4K4Cs&tit=Preaching+to+the+Choir+%28Official+Music+Video%29&w=144&h=78&pos=3&vid=6e4e093414a849e6b58b335215235908&sigr=iYDQOQAkG39O&sigt=XjfkwElI5.Cb&sigi=JE_cYk_e2Kri\"\
+        \ referrerpolicy=\"unsafe-url\" title=\"Preaching to the Choir (Official Music\
+        \ Video)\" data-pos=\"2\" data-a36=\"5ee5189d16f4e\"><img class=\"s-img d-b\"\
+        \ style=\"padding:0px 0px 0px 0px;display:block;margin-left:auto;margin-right:auto;max-width:144px;max-height:78px;\"\
+        \ alt=\"Preaching to the Choir (Official Music Video)\" title=\"Preaching\
+        \ to the Choir (Official Music Video)\" src=\"https://tse1.mm.bing.net/th?id=OVP.OexzLJgpHhoH90_6TXPKjAEsDh&amp;pid=Api&w=144&h=77&c=7\"\
+        /><div class=\"ctimestamp  ta-r r-0 t-0 b-a z-1 p-a c-white pr-2u pb-1u t1\
+        \ grad\">3:00</div><div class=\"capbox noshade z-1\"><span class=\"bgico ico\
+        \ compImageListGrid zzz-videoplay-small mb-18 ml-50\"></span></div></a></div><div\
+        \ class=\"mt-8 mr-24 lh-16 mah-33 ov-h c-black c-2\"><b>Preaching </b>to <b>the\
+        \ Choir </b>(Official Music Video)</div><span class=\" cite fc-2nd fs-100\
+        \ tc d-b mr-24\">youtube.com</span></li><li class=\"mt-2 ml-0 mr-2 ov-v mb-13\
+        \ pos-br\" style=\"width:144px;\"><div class=\"capwrap\"><a data-pos=\"3\"\
+        \ class=\"thmb bgc-5th d-b h-77\" href=\"https://video.search.yahoo.com/search/video;_ylt=AwrJ6yicGOVeiaMADyZXNyoA;_ylu=X3oDMTByMDgyYjJiBGNvbG8DYmYxBHBvcwMyBHZ0aWQDBHNlYwNzYw--?p=Preaching+the+choir&turl=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOVP.jsidIRt5ZJXGb7P8-QX0qwEsDh%26amp%3Bpid%3DApi%26w%3D144%26h%3D77%26c%3D7&rurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-8gwjItlevk&tit=%26quot%3BPreaching+To+The+Choir%26quot%3B&w=144&h=78&pos=4&vid=ff710a63956d78ece02fab277e84e6b4&sigr=Gw2FoPay6IHP&sigt=T1YDiM7YnGBQ&sigi=DhAOo5pQ3EfC\"\
+        \ referrerpolicy=\"unsafe-url\" title=\"&quot;Preaching To The Choir&quot;\"\
+        \ data-pos=\"3\" data-a36=\"5ee5189d17090\"><img class=\"s-img d-b\" style=\"\
+        padding:0px 0px 0px 0px;display:block;margin-left:auto;margin-right:auto;max-width:144px;max-height:78px;\"\
+        \ alt=\"&quot;Preaching To The Choir&quot;\" title=\"&quot;Preaching To The\
+        \ Choir&quot;\" src=\"https://tse1.mm.bing.net/th?id=OVP.jsidIRt5ZJXGb7P8-QX0qwEsDh&amp;pid=Api&w=144&h=77&c=7\"\
+        /><div class=\"ctimestamp  ta-r r-0 t-0 b-a z-1 p-a c-white pr-2u pb-1u t1\
+        \ grad\">1:21:11</div><div class=\"capbox noshade z-1\"><span class=\"bgico\
+        \ ico compImageListGrid zzz-videoplay-small mb-18 ml-50 wide\"></span></div></a></div><div\
+        \ class=\"mt-8 mr-24 lh-16 mah-33 ov-h c-black c-3\">&quot;<b>Preaching </b>To\
+        \ <b>The Choir</b>&quot;</div><span class=\" cite fc-2nd fs-100 tc d-b mr-24\"\
+        >youtube.com</span></li></ul><span class=\"clearproduct\"></span><div class=\"\
+        compText mt-10\" ><p class=\"\"><a class=\" fz-ms lh-1_43x\" href=\"https://video.search.yahoo.com/search/video;_ylt=AwrJ6yicGOVeiaMAECZXNyoA;_ylu=X3oDMTByMDgyYjJiBGNvbG8DYmYxBHBvcwMyBHZ0aWQDBHNlYwNzYw--?p=Preaching+the+choir\"\
+        \ referrerpolicy=\"unsafe-url\" target=\"_blank\" data-a36=\"5ee5189d171ad\"\
+        >More <b>Preaching The Choir </b>videos</a> </p></div></div></li><li  ><div\
+        \ class=\"dd algo algo-sr fst richAlgo\" data-a36=\"5ee5189d173a3\"><div class=\"\
+        compTitle options-toggle\"><h3 class=\"title ov-h\"><a style=\"line-height:1.3\"\
+        \ class=\" ac-algo fz-l ac-21th lh-24\" href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMAESZXNyoA;_ylu=X3oDMTByNXM5bzY5BGNvbG8DYmYxBHBvcwMzBHZ0aWQDBHNlYwNzcg--/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fwww.imdb.com%2ftitle%2ftt0374923%2f/RK=2/RS=_y.rvbw9FlgQ7SHKn37w8VkMCZI-\"\
+        \ referrerpolicy=\"origin\" target=\"_blank\" data-a36=\"5ee5189d174bf\">Preaching\
+        \ to the Choir (2005) - IMDb</a></h3> <div><span class=\" fz-ms fw-m fc-12th\
+        \ wr-bw lh-17\"><b>www.imdb.com</b>/title/tt0374923</span><span class=\"tri\
+        \ ico down-arrow-gray-thick optrg\"> </span></div></div><ul class=\"compDlink\
+        \ algo-options h-a d-n z-4 bgc-white bd-1 bds-s bdc-lgray1 bs-type1 ptb-1u\"\
+        ><li class=\"d-b selected\"><span class=\"txt\"><a class=\" t1 c-dgray c-black-h\
+        \ bgc-lgray3-h d-b plr-3u ptb-1u td-n td-n-h\" href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMAEiZXNyoA;_ylu=X3oDMTByNXM5bzY5BGNvbG8DYmYxBHBvcwMzBHZ0aWQDBHNlYwNzcg--/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fcc.bingj.com%2fcache.aspx%3fq%3dPreaching%2bthe%2bchoir%26d%3d4628128111924374%26mkt%3den-US%26setlang%3den-US%26w%3d50p08rsIlkc4oUKvaBlDNcfdBmzU11mo/RK=2/RS=YJfwAuS3WizELOtjvu4QWvwMQs4-\"\
+        \ referrerpolicy=\"origin\" target=\"_blank\">Cached</a></span></li></ul><div\
+        \ class=\"compText aAbs\" ><p class=\"fz-ms lh-1_43x\"><span class=\" fc-2nd\"\
+        >Apr 14, 2006 \xB7 </span> Directed by Charles Randolph-Wright. With Billoah\
+        \ Greene, Darien Sills-Evans, Novella Nelson, Adewale Akinnuoye-Agbaje. A\
+        \ pair of estranged twins driven apart by <b>the </b>death of their parents\
+        \ find reconciliation and redemption after following radically different paths\
+        \ in life. </p></div><div class=\"grp grp-talgo-facts \"><ul class=\"compInfo\
+        \ mt-10 bxz-bb d-ib va-top\" style=\"max-width: 50%;\"><li  class=\"tc bxz-bb\
+        \ pr-24 lh-18\" ><label class=\"fw-b\">5.4/10</label> <span class=\"strs \
+        \ mr-2\"><span class=\"ico full strs_mr_full mt-1\"></span><span class=\"\
+        ico full strs_mr_full mt-1\"></span><span class=\"ico half strs_mr_half mt-1\"\
+        ></span><span class=\"ico empty strs_mr_empty mt-1\"></span><span class=\"\
+        ico empty strs_mr_empty mt-1\"></span></span>(173)</li><li  class=\"tc bxz-bb\
+        \ pr-24 lh-18\" ><label class=\"fw-b\">Director:</label> Charles Randolph-Wright</li></ul><ul\
+        \ class=\"compInfo mt-10 bxz-bb d-ib va-top\" style=\"max-width: 50%;\"><li\
+        \  class=\"tc bxz-bb pr-24 lh-18\" ><label class=\"fw-b\">Content Rating:</label>\
+        \ PG-13</li></ul></div></div></li><li  ><div class=\"dd algo algo-sr Sr\"\
+        \ data-a36=\"5ee5189d176e3\"><div class=\"compTitle options-toggle\"><h3 class=\"\
+        title ov-h\"><a style=\"line-height:1.3\" class=\" ac-algo fz-l ac-21th lh-24\"\
+        \ href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMAEyZXNyoA;_ylu=X3oDMTBydWNmY2MwBGNvbG8DYmYxBHBvcwM0BHZ0aWQDBHNlYwNzcg--/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fwww.phrases.org.uk%2fmeanings%2fpreaching-to-the-choir.html/RK=2/RS=mV1NVogU0dX.kH0MJnTbRgRQS08-\"\
+        \ referrerpolicy=\"origin\" target=\"_blank\" data-a36=\"5ee5189d177fa\">&#39;Preaching\
+        \ to the choir&#39; - meaning and origin.</a></h3> <div><span class=\" fz-ms\
+        \ fw-m fc-12th wr-bw lh-17\"><b>www.phrases.org.uk</b>/.../<b>preaching-to-the-choir</b>.html</span><span\
+        \ class=\"tri ico down-arrow-gray-thick optrg\"> </span></div></div><ul class=\"\
+        compDlink algo-options h-a d-n z-4 bgc-white bd-1 bds-s bdc-lgray1 bs-type1\
+        \ ptb-1u\"><li class=\"d-b selected\"><span class=\"txt\"><a class=\" t1 c-dgray\
+        \ c-black-h bgc-lgray3-h d-b plr-3u ptb-1u td-n td-n-h\" href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMAFCZXNyoA;_ylu=X3oDMTBydWNmY2MwBGNvbG8DYmYxBHBvcwM0BHZ0aWQDBHNlYwNzcg--/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fcc.bingj.com%2fcache.aspx%3fq%3dPreaching%2bthe%2bchoir%26d%3d4695498969514068%26mkt%3den-US%26setlang%3den-US%26w%3dPBTjU8ZOcHxXREtErqiG8lgCSAK-mfKY/RK=2/RS=btamhEENgKnOwdEBrIwjDTjHhvs-\"\
+        \ referrerpolicy=\"origin\" target=\"_blank\">Cached</a></span></li></ul><div\
+        \ class=\"compText aAbs\" ><p class=\"fz-ms lh-1_43x\">&#39;<b>Preaching</b>\
+        \ to the <b>choir</b>&#39; originated in the USA in the 1970s. It is a variant\
+        \ of the earlier &#39;<b>preaching</b> to the converted&#39;, which dates\
+        \ from England in the late 1800s and has the same meaning. Origin - the full\
+        \ story &#39;<b>Preaching</b> to the <b>choir</b>&#39; (also sometimes spelled\
+        \ quire) is of US origin. </p></div></div></li><li  ><div class=\"dd algo\
+        \ algo-sr Sr\" data-a36=\"5ee5189d17937\"><div class=\"compTitle options-toggle\"\
+        ><h3 class=\"title ov-h\"><a style=\"line-height:1.3\" class=\" ac-algo fz-l\
+        \ ac-21th lh-24\" href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMAFSZXNyoA;_ylu=X3oDMTByNXQ0NThjBGNvbG8DYmYxBHBvcwM1BHZ0aWQDBHNlYwNzcg--/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2f7esl.com%2fpreaching-to-the-choir%2f/RK=2/RS=mCLndJwQxIWdiSuJzdErB2jYs0U-\"\
+        \ referrerpolicy=\"origin\" target=\"_blank\" data-a36=\"5ee5189d17af6\">Preaching\
+        \ To The Choir: What Does &quot;Preaching To The Choir ...</a></h3> <div><span\
+        \ class=\" fz-ms fw-m fc-12th wr-bw lh-17\">7esl.com/<b>preaching-to-the-choir</b></span><span\
+        \ class=\"tri ico down-arrow-gray-thick optrg\"> </span></div></div><ul class=\"\
+        compDlink algo-options h-a d-n z-4 bgc-white bd-1 bds-s bdc-lgray1 bs-type1\
+        \ ptb-1u\"><li class=\"d-b selected\"><span class=\"txt\"><a class=\" t1 c-dgray\
+        \ c-black-h bgc-lgray3-h d-b plr-3u ptb-1u td-n td-n-h\" href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMAFiZXNyoA;_ylu=X3oDMTByNXQ0NThjBGNvbG8DYmYxBHBvcwM1BHZ0aWQDBHNlYwNzcg--/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fcc.bingj.com%2fcache.aspx%3fq%3dPreaching%2bthe%2bchoir%26d%3d4704685904560497%26mkt%3den-US%26setlang%3den-US%26w%3d3UlPyo3RumJbcdLLdY6Q0iMEdM_jqVy_/RK=2/RS=LU3PimcXpdGLhlX1SEpPPWqPqd0-\"\
+        \ referrerpolicy=\"origin\" target=\"_blank\">Cached</a></span></li></ul><div\
+        \ class=\"compText aAbs\" ><p class=\"fz-ms lh-1_43x\"><span class=\" fc-2nd\"\
+        >Oct 18, 2019 \xB7 </span> Not only was he <b>preaching</b> to the <b>choir</b>,\
+        \ he was talking to tax-cutting evangelists. He is <b>preaching</b> to the\
+        \ <b>choir</b> of religious-right Protestants and conservative Catholics whose\
+        \ votes should already be locked up. Other Ways to Say \u201C<b>Preaching</b>\
+        \ to the <b>Choir</b>\u201D There are many other ways to say this phrase and\
+        \ convey the same meaning. </p></div></div></li><li  ><div class=\"dd algo\
+        \ algo-sr Sr\" data-a36=\"5ee5189d17c4a\"><div class=\"compTitle options-toggle\"\
+        ><h3 class=\"title ov-h\"><a style=\"line-height:1.3\" class=\" ac-algo fz-l\
+        \ ac-21th lh-24\" href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMAFyZXNyoA;_ylu=X3oDMTBydDI5cXVuBGNvbG8DYmYxBHBvcwM2BHZ0aWQDBHNlYwNzcg--/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fwww.urbandictionary.com%2fdefine.php%3fterm%3dpreaching%2520to%2520the%2520choir/RK=2/RS=NQ4KhM_7N.U9v9f.4fCOYWBaAeQ-\"\
+        \ referrerpolicy=\"origin\" target=\"_blank\" data-a36=\"5ee5189d17d68\">Urban\
+        \ Dictionary: preaching to the choir</a></h3> <div><span class=\" fz-ms fw-m\
+        \ fc-12th wr-bw lh-17\">www.urbandictionary.com/define.php?term=<b>preaching</b>...</span><span\
+        \ class=\"tri ico down-arrow-gray-thick optrg\"> </span></div></div><ul class=\"\
+        compDlink algo-options h-a d-n z-4 bgc-white bd-1 bds-s bdc-lgray1 bs-type1\
+        \ ptb-1u\"><li class=\"d-b selected\"><span class=\"txt\"><a class=\" t1 c-dgray\
+        \ c-black-h bgc-lgray3-h d-b plr-3u ptb-1u td-n td-n-h\" href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMAGCZXNyoA;_ylu=X3oDMTBydDI5cXVuBGNvbG8DYmYxBHBvcwM2BHZ0aWQDBHNlYwNzcg--/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fcc.bingj.com%2fcache.aspx%3fq%3dPreaching%2bthe%2bchoir%26d%3d4978185126810628%26mkt%3den-US%26setlang%3den-US%26w%3d0d_1qcPfp4rX0S5O2LGPA3tqNsMG5HpL/RK=2/RS=0IvLu9DoWq5Fnummf4QqUEpx97M-\"\
+        \ referrerpolicy=\"origin\" target=\"_blank\">Cached</a></span></li></ul><div\
+        \ class=\"compText aAbs\" ><p class=\"fz-ms lh-1_43x\"><b>Preaching</b> to\
+        \ the <b>choir</b> means you are trying to make believers out of people who\
+        \ already believe, or convince people who are already convinced. </p></div></div></li><li\
+        \  ><div class=\"dd algo algo-sr Sr\" data-a36=\"5ee5189d17eb2\"><div class=\"\
+        compTitle options-toggle\"><h3 class=\"title ov-h\"><a style=\"line-height:1.3\"\
+        \ class=\" ac-algo fz-l ac-21th lh-24\" href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMAGSZXNyoA;_ylu=X3oDMTByMHZ0NG9yBGNvbG8DYmYxBHBvcwM3BHZ0aWQDBHNlYwNzcg--/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fwww.collinsdictionary.com%2fdictionary%2fenglish%2fto-preach-to-the-choir/RK=2/RS=oZloCIfxMpOwyy9eppd95b8Cy_8-\"\
+        \ referrerpolicy=\"origin\" target=\"_blank\" data-a36=\"5ee5189d17fc8\">To\
+        \ preach to the choir definition and meaning | Collins ...</a></h3> <div><span\
+        \ class=\" fz-ms fw-m fc-12th wr-bw lh-17\"><b>www.collinsdictionary.com</b>/.../<b>to-preach-to-the-choir</b></span><span\
+        \ class=\"tri ico down-arrow-gray-thick optrg\"> </span></div></div><ul class=\"\
+        compDlink algo-options h-a d-n z-4 bgc-white bd-1 bds-s bdc-lgray1 bs-type1\
+        \ ptb-1u\"><li class=\"d-b selected\"><span class=\"txt\"><a class=\" t1 c-dgray\
+        \ c-black-h bgc-lgray3-h d-b plr-3u ptb-1u td-n td-n-h\" href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMAGiZXNyoA;_ylu=X3oDMTByMHZ0NG9yBGNvbG8DYmYxBHBvcwM3BHZ0aWQDBHNlYwNzcg--/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fcc.bingj.com%2fcache.aspx%3fq%3dPreaching%2bthe%2bchoir%26d%3d4505356470193760%26mkt%3den-US%26setlang%3den-US%26w%3drdbR47IK0c8AzO6EEFTHu-5VRH0TDYUE/RK=2/RS=Xaw7YaVpUfzdMMlyjcly1O_n6BM-\"\
+        \ referrerpolicy=\"origin\" target=\"_blank\">Cached</a></span></li></ul><div\
+        \ class=\"compText aAbs\" ><p class=\"fz-ms lh-1_43x\">To <b>preach</b> to\
+        \ the <b>choir</b> definition: If you say that someone is <b>preaching</b>\
+        \ to the <b>choir</b> , you mean that they are presenting an... | Meaning,\
+        \ pronunciation, translations and examples </p></div></div></li><li  ><div\
+        \ class=\"dd algo algo-sr richAlgo\" data-a36=\"5ee5189d18319\"><div class=\"\
+        compTitle options-toggle\"><h3 class=\"title ov-h\"><a style=\"line-height:1.3\"\
+        \ class=\" ac-algo fz-l ac-21th lh-24\" href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMAGyZXNyoA;_ylu=X3oDMTByaWg0YW05BGNvbG8DYmYxBHBvcwM4BHZ0aWQDBHNlYwNzcg--/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fwww.youtube.com%2fwatch%3fv%3dciBWawYkFxs/RK=2/RS=ySfdk790bL24B5U4H_eS_Z5cJYo-\"\
+        \ referrerpolicy=\"origin\" target=\"_blank\" data-a36=\"5ee5189d18432\">Preaching\
+        \ To The Choir | It&#39;s above me now | Pastor JJ ...</a></h3> <div><span\
+        \ class=\" fz-ms fw-m fc-12th wr-bw lh-17\"><b>www.youtube.com</b>/watch?v=ciBWawYkFxs</span><span\
+        \ class=\"tri ico down-arrow-gray-thick optrg\"> </span></div></div><ul class=\"\
+        compDlink algo-options h-a d-n z-4 bgc-white bd-1 bds-s bdc-lgray1 bs-type1\
+        \ ptb-1u\"><li class=\"d-b selected\"><span class=\"txt\"><a class=\" t1 c-dgray\
+        \ c-black-h bgc-lgray3-h d-b plr-3u ptb-1u td-n td-n-h\" href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMAHCZXNyoA;_ylu=X3oDMTByaWg0YW05BGNvbG8DYmYxBHBvcwM4BHZ0aWQDBHNlYwNzcg--/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fcc.bingj.com%2fcache.aspx%3fq%3dPreaching%2bthe%2bchoir%26d%3d666530450593%26mkt%3den-US%26setlang%3den-US%26w%3du3xgmzCuFgEg44xjjPlHS03-H2w7s6SK/RK=2/RS=6WI0XC_Bkpnr..ndklQ1k9ydPu4-\"\
+        \ referrerpolicy=\"origin\" target=\"_blank\">Cached</a></span></li></ul><div\
+        \ class=\"compText aAbs\" ><p class=\"fz-ms lh-1_43x\">Thank you for joining\
+        \ us for <b>Preaching</b> to the <b>choir</b>. Our message for today is &quot;It&#39;s\
+        \ above me now&quot;. Please follow us on Instagram: @ANWALiveDC @JJHairston\
+        \ @TrinaHairston For prayer requests, or or ... </p></div><div class=\"grp\
+        \ grp-talgo-facts \"><ul class=\"compInfo mt-10 bxz-bb d-ib va-top\" style=\"\
+        max-width: 50%;\"><li  class=\"tc bxz-bb pr-24 lh-18\" ><label class=\"fw-b\"\
+        >Video Duration:</label> 22 min</li><li  class=\"tc bxz-bb pr-24 lh-18\" ><label\
+        \ class=\"fw-b\">Views:</label> 690</li></ul><ul class=\"compInfo mt-10 bxz-bb\
+        \ d-ib va-top\" style=\"max-width: 50%;\"><li  class=\"tc bxz-bb pr-24 lh-18\"\
+        \ ><label class=\"fw-b\">Author:</label> JJ Hairston</li></ul></div></div></li><li\
+        \  ><div class=\"dd algo algo-sr Sr\" data-a36=\"5ee5189d185ca\"><div class=\"\
+        compTitle options-toggle\"><h3 class=\"title ov-h\"><a style=\"line-height:1.3\"\
+        \ class=\" ac-algo fz-l ac-21th lh-24\" href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMAHSZXNyoA;_ylu=X3oDMTByZnU4cmNpBGNvbG8DYmYxBHBvcwM5BHZ0aWQDBHNlYwNzcg--/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fwww.pinterest.com%2fMireightyeight%2fpreaching-to-the-choir%2f/RK=2/RS=kBf81eiQHcxN2NPkIGRG1HcbgVw-\"\
+        \ referrerpolicy=\"origin\" target=\"_blank\" data-a36=\"5ee5189d186df\">315\
+        \ Best Preaching To The Choir images | Bones funny, Make me ...</a></h3> <div><span\
+        \ class=\" fz-ms fw-m fc-12th wr-bw lh-17\"><b>www.pinterest.com</b>/.../<b>preaching-to-the-choir</b></span><span\
+        \ class=\"tri ico down-arrow-gray-thick optrg\"> </span></div></div><ul class=\"\
+        compDlink algo-options h-a d-n z-4 bgc-white bd-1 bds-s bdc-lgray1 bs-type1\
+        \ ptb-1u\"><li class=\"d-b selected\"><span class=\"txt\"><a class=\" t1 c-dgray\
+        \ c-black-h bgc-lgray3-h d-b plr-3u ptb-1u td-n td-n-h\" href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMAHiZXNyoA;_ylu=X3oDMTByZnU4cmNpBGNvbG8DYmYxBHBvcwM5BHZ0aWQDBHNlYwNzcg--/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fcc.bingj.com%2fcache.aspx%3fq%3dPreaching%2bthe%2bchoir%26d%3d4666898776859141%26mkt%3den-US%26setlang%3den-US%26w%3dd30SGrv6SqZKQrNU0EFy4Zr0NsGeO_Js/RK=2/RS=p1s7jCmvUC.7.LgR4S_nnRqk3Iw-\"\
+        \ referrerpolicy=\"origin\" target=\"_blank\">Cached</a></span></li></ul><div\
+        \ class=\"compText aAbs\" ><p class=\"fz-ms lh-1_43x\">Mar 23, 2017 - Explore\
+        \ Mireightyeight&#39;s board &quot;<b>Preaching</b> To The <b>Choir</b>&quot;\
+        \ on <b>Pinterest</b>. See more ideas about Bones funny, Make me laugh, Just\
+        \ for laughs. </p></div></div></li><li   class=\"last\"><div class=\"dd algo\
+        \ algo-sr lst Sr\" data-a36=\"5ee5189d1881a\"><div class=\"compTitle options-toggle\"\
+        ><h3 class=\"title ov-h\"><a style=\"line-height:1.3\" class=\" ac-algo fz-l\
+        \ ac-21th lh-24\" href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMAHyZXNyoA;_ylu=X3oDMTBzdWd2cWI5BGNvbG8DYmYxBHBvcwMxMAR2dGlkAwRzZWMDc3I-/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fwww.reddit.com%2fr%2fLibertarian%2fcomments%2fg17edc%2fpreaching_to_the_choir%2f/RK=2/RS=MW1G_fA944Qi46218zm4OakIOUY-\"\
+        \ referrerpolicy=\"origin\" target=\"_blank\" data-a36=\"5ee5189d18930\">Preaching\
+        \ to the choir. : Libertarian</a></h3> <div><span class=\" fz-ms fw-m fc-12th\
+        \ wr-bw lh-17\"><b>www.reddit.com</b>/.../g17edc/<b>preaching</b>_to_<b>the_choir</b></span><span\
+        \ class=\"tri ico down-arrow-gray-thick optrg\"> </span></div></div><ul class=\"\
+        compDlink algo-options h-a d-n z-4 bgc-white bd-1 bds-s bdc-lgray1 bs-type1\
+        \ ptb-1u\"><li class=\"d-b selected\"><span class=\"txt\"><a class=\" t1 c-dgray\
+        \ c-black-h bgc-lgray3-h d-b plr-3u ptb-1u td-n td-n-h\" href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMAICZXNyoA;_ylu=X3oDMTBzdWd2cWI5BGNvbG8DYmYxBHBvcwMxMAR2dGlkAwRzZWMDc3I-/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fcc.bingj.com%2fcache.aspx%3fq%3dPreaching%2bthe%2bchoir%26d%3d941387442227%26mkt%3den-US%26setlang%3den-US%26w%3dZ-fUG46ADgRNlRyRsmTzre2k253uLRJn/RK=2/RS=FT51Sq7EYU79NLQvgLq8OKrwG6w-\"\
+        \ referrerpolicy=\"origin\" target=\"_blank\">Cached</a></span></li></ul><div\
+        \ class=\"compText aAbs\" ><p class=\"fz-ms lh-1_43x\"><b>Preaching</b> to\
+        \ the <b>choir</b>. Discussion. I&#39;m absolutely overwhelmed with sadness\
+        \ seeing the reaction people are having to this whole coronavirus pandemic.\
+        \ Our ... </p></div></div></li></ol></div><ol class=\" reg searchCenterFooter\"\
+        ><li   class=\"first last\"><div class=\"dd AlsoTry\" data-a36=\"5ee5189d18a83\"\
+        ><div class=\"compTitle mb-6\"><h3 class=\"title\"><span class=\" fz-xl lh-1_3x\"\
+        >Related searches</span></h3> </div><table class=\"compTable m-0 ac-1st td-n\
+        \ fz-ms\"><tbody><tr><td class=\"w-50p pr-28\"><a href=\"https://search.yahoo.com/search;_ylt=AwrJ6yicGOVeiaMAISZXNyoA;_ylu=X3oDMTEwNzJpNmJwBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNyZWwtYm90?p=preaching+the+choir+meaning&b=1&ei=UTF-8&fr2=rs-bottom%2Cp%3As%2Cv%3Aw%2Cm%3Aat-s\"\
+        \ referrerpolicy=\"unsafe-url\">preaching the choir meaning</a></td><td class=\"\
+        w-50p pr-28\"><a href=\"https://search.yahoo.com/search;_ylt=AwrJ6yicGOVeiaMAIyZXNyoA;_ylu=X3oDMTEwdTg4bTltBGNvbG8DYmYxBHBvcwMzBHZ0aWQDBHNlYwNyZWwtYm90?p=preaching+the+choir+cartoon&b=1&ei=UTF-8&fr2=rs-bottom%2Cp%3As%2Cv%3Aw%2Cm%3Aat-s\"\
+        \ referrerpolicy=\"unsafe-url\">preaching the choir cartoon</a></td></tr><tr><td\
+        \ class=\"w-50p pr-28\"><a href=\"https://search.yahoo.com/search;_ylt=AwrJ6yicGOVeiaMAIiZXNyoA;_ylu=X3oDMTEwZHBxMGxyBGNvbG8DYmYxBHBvcwMyBHZ0aWQDBHNlYwNyZWwtYm90?p=you+are+preaching+the+choir&b=1&ei=UTF-8&fr2=rs-bottom%2Cp%3As%2Cv%3Aw%2Cm%3Aat-s\"\
+        \ referrerpolicy=\"unsafe-url\">you are preaching the choir</a></td><td class=\"\
+        w-50p pr-28\"><a href=\"https://search.yahoo.com/search;_ylt=AwrJ6yicGOVeiaMAJCZXNyoA;_ylu=X3oDMTEwOGU1NmxvBGNvbG8DYmYxBHBvcwM0BHZ0aWQDBHNlYwNyZWwtYm90?p=preaching+the+choir+emojie&b=1&ei=UTF-8&fr2=rs-bottom%2Cp%3As%2Cv%3Aw%2Cm%3Aat-s\"\
+        \ referrerpolicy=\"unsafe-url\">preaching the choir emojie</a></td></tr></tbody></table></div></li></ol></div></div><ol\
+        \ class=\" reg searchBottom\"><li   class=\"first\"><div class=\"dd pagination\
+        \ fst lst Pgntn\" data-a36=\"5ee5189d18d21\"><div class=\"compPagination\"\
+        ><div class=\"pages\"><strong>1</strong><a href=\"https://search.yahoo.com/search;_ylt=AwrJ6yicGOVeiaMAJSZXNyoA;_ylu=X3oDMTEzajVvczlrBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNwYWdpbmF0aW9u?p=Preaching+the+choir&b=11&pz=10&bct=0&xargs=0\"\
+        \ referrerpolicy=\"unsafe-url\" title=\"Results 11-20\">2</a><a href=\"https://search.yahoo.com/search;_ylt=AwrJ6yicGOVeiaMAJiZXNyoA;_ylu=X3oDMTEzajVvczlrBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNwYWdpbmF0aW9u?p=Preaching+the+choir&b=21&pz=10&bct=0&xargs=0\"\
+        \ referrerpolicy=\"unsafe-url\" title=\"Results 21-30\">3</a><a href=\"https://search.yahoo.com/search;_ylt=AwrJ6yicGOVeiaMAJyZXNyoA;_ylu=X3oDMTEzajVvczlrBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNwYWdpbmF0aW9u?p=Preaching+the+choir&b=31&pz=10&bct=0&xargs=0\"\
+        \ referrerpolicy=\"unsafe-url\" title=\"Results 31-40\">4</a><a href=\"https://search.yahoo.com/search;_ylt=AwrJ6yicGOVeiaMAKCZXNyoA;_ylu=X3oDMTEzajVvczlrBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNwYWdpbmF0aW9u?p=Preaching+the+choir&b=41&pz=10&bct=0&xargs=0\"\
+        \ referrerpolicy=\"unsafe-url\" title=\"Results 41-50\">5</a></div><a class=\"\
+        next\" href=\"https://search.yahoo.com/search;_ylt=AwrJ6yicGOVeiaMAKSZXNyoA;_ylu=X3oDMTEzajVvczlrBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNwYWdpbmF0aW9u?p=Preaching+the+choir&b=11&pz=10&bct=0&xargs=0\"\
+        \ referrerpolicy=\"unsafe-url\">Next</a><span>18,000,000 results</span></div></div></li></ol></div></div><div\
+        \ id=\"right\"></div></div></div></div><div  id=\"ft_wrapper\"  ><div id=\"\
+        location\" data-lat=\"\" data-lon=\"\" data-ip=\"197.210.71.250\" data-crumb=\"\
+        1c4edd95eb72826cf6390ac747a1906b\" data-yqlHost=\"us-locdrop.query.yahoo.com\"\
+        ></div><style type=\"text/css\">#location-footer{margin-left:124px}</style><div\
+        \ id=\"ft\" role=\"contentinfo\"data-a36=\"5ee5189d191cf\" referrer=\"unsafe-url\"\
+        ><ul><li><a href=\"https://search.yahoo.com/preferences/preferences;_ylt=AwrJ6yicGOVeiaMAKiZXNyoA?pref_done=https%3A%2F%2Fsearch.yahoo.com%2Fsearch%3Fp%3DPreaching%2Bthe%2Bchoir%26b%3D1%26ei%3DUTF-8&.bcrumb=bL.05X.W/rt\"\
+        >Settings</a></li><li><a href=\"https://help.yahoo.com/l/us/yahoo/search/;_ylt=AwrJ6yicGOVeiaMAKyZXNyoA\"\
+        >Help</a></li><li><a href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMALCZXNyoA/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fyahoo.uservoice.com%2fforums%2f193847-search/RK=2/RS=3A0tgALPzUOtL2kn4bWJkquGEAQ-\"\
+        \ id=\"usr-fdb-lnk\" class=\"etl\" data-url=\"https://s.yimg.com/pv/static/lib/uservoice-201705192047.js\"\
+        \ data-timeout=\"2000\" data-uv-lightbox=\"classic_widget\" data-uv-mode=\"\
+        feedback\" data-uv-primary-color=\"#cc6d00\" data-uv-link-color=\"#007dbf\"\
+        \ data-uv-forum-id=\"193847\">Suggestions</a></li><li><a href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMALSZXNyoA/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fpolicies.yahoo.com%2fus%2fen%2fyahoo%2fprivacy%2fproducts%2fsearch%2f/RK=2/RS=dOvYNimbYJ3P0_jKvugY6cptc_g-\"\
+        >Privacy</a><span class=\"updated\" style=\"color:#324FE1;font-weight:bold;padding-left:4px;\"\
+        >(Updated)</span></li><li><a href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMALiZXNyoA/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fpolicies.yahoo.com%2fus%2fen%2fyahoo%2fterms%2futos%2f/RK=2/RS=w2Ec5rEL3qMAfyks9uJ.CyTJDrs-\"\
+        >Terms</a><span class=\"updated\" style=\"color:#324FE1;font-weight:bold;padding-left:4px;\"\
+        >(Updated)</span></li><li><a href=\"https://r.search.yahoo.com/_ylt=AwrJ6yicGOVeiaMALyZXNyoA/RV=2/RE=1592101149/RO=10/RU=https%3a%2f%2fadvertising.yahoo.com%2farticle%2fsearch-advertising.html/RK=2/RS=DRTO9PPQYkaolp_VVT8jGwLYTMw-\"\
+        >Advertise</a></li><li><a href=\"https://help.yahoo.com/kb/search/sln2244.html;_ylt=AwrJ6yicGOVeiaMAMCZXNyoA\"\
+        >About ads</a></li><li><a href=\"https://help.yahoo.com/kb/search-for-desktop/SLN2206.html;_ylt=AwrJ6yicGOVeiaMAMSZXNyoA?impressions=true\"\
+        >About this page</a></li><li class=\"pbb\">Powered by Bing&trade;</li></ul></div></div></div><script\
+        \ src=\"https://s.yimg.com/zz/combo?pv/static/lib/polyfill-promise_3daf4079cd8e8ac30c6b1635777d945c.js\"\
+        ></script><script type=\"text/javascript\" nonce='vgb0STTTh8kDHxADbA0PJw=='>(function(b,c){function\
+        \ a(d){this.buffer=[];for(var f=0;f<d.length;f++){var e=d[f];this[e]=this.bufferInvocation.bind(this,e)}}a.prototype.bufferInvocation=function(e){var\
+        \ d=[];var g=this;for(var f=1;f<arguments.length;f++){d.push(arguments[f])}return\
+        \ new Promise(function(h){g.buffer.push({f:e,args:d,resolve:h})})};a.prototype.pour=function(f){for(var\
+        \ d=0;d<this.buffer.length;d++){var g=this.buffer[d];var e=f[g.f];if(typeof\
+        \ e===\"function\"){g.resolve(e.apply(f,g.args))}}this.buffer=[]};b.YAHOO=b.YAHOO||{};b.YAHOO.StubBuffer=a})(window,document);(function(a,c){var\
+        \ b={};b.EVAL_STRATEGY={DEFAULT:0,IMMEDIATE:0,DEFERRED:1};b.DEFAULT_CONF={evalStrategy:b.EVAL_STRATEGY.DEFAULT,returnPayload:false,timeout:20000,retry:0};b.cb={};b.cbCounter=0;b.invoke=function(g,i,d){var\
+        \ f=Object.assign({},b.DEFAULT_CONF,d);var e=f.retry;return(function h(j){return\
+        \ new Promise(function(p,o){var m=document.head||document.getElementsByTagName(\"\
+        head\")[0];var k=\"AHCB\"+(++b.cbCounter);var l=c.createElement(\"script\"\
+        );l.type=\"text/javascript\";l.src=g+\"&callback=YAHOO.AjaxHelper.cb.\"+k;var\
+        \ q=false;b.cb[k]=function(r){if(!q){q=true;l.onerror=null;m.removeChild(l);b.cb[k]=function(){};if(a.YAHOO.AssetManager){p(a.YAHOO.AssetManager.process(r,i,f))}}};var\
+        \ n=function(){if(!q){q=true;l.onerror=null;m.removeChild(l);b.cb[k]=function(){};if(j>0){p(h(j-1))}else{o(this.readyState)}}};l.onerror=n;m.appendChild(l);if(typeof\
+        \ f.timeout===\"number\"){setTimeout(n,f.timeout)}})})(e)};b.replay=function(f,g,d){if(a.YAHOO.AssetManager){var\
+        \ e=Object.assign({},b.DEFAULT_CONF,d);return a.YAHOO.AssetManager.process(f,g,e)}};a.YAHOO=a.YAHOO||{};a.YAHOO.AjaxHelper=b;if(!a.YAHOO.AssetManager&&a.YAHOO.StubBuffer){a.YAHOO.AssetManager=new\
+        \ a.YAHOO.StubBuffer([\"requireDry\",\"process\"])}})(window,document);</script><script\
+        \ type=\"text/javascript\" nonce='vgb0STTTh8kDHxADbA0PJw=='>YUI_config={\"\
+        spaceid\":\"2766679\",\"pvid\":\"DiA8Kjk4LjEBBTI2ynSIogDlMTk3LgAAAAA6zYLw\"\
+        ,\"beacon\":\"https:\\/\\/geo.yahoo.com\\/t\",\"beacon_host\":\"geo.yahoo.com\"\
+        ,\"testid\":\"\",\"comboBase\":\"https:\\/\\/s.yimg.com\\/zz\\/combo?\",\"\
+        geo\":[],\"mtestid\":\"L72=ATS24_PRODIR2\",\"fetchCSS\":true,\"nonpage_beacon\"\
+        :\"\\/b.gif?t=1592072348\\u0026_ylp=AwrJ6yicGOVeiaMA4CVXNyoA\"};(function(){var\
+        \ e=window.location,d,b;function c(f){return decodeURIComponent(f.replace(/\\\
+        +/g,\" \"))}function a(j){var h=j.match(/([^\\?#&]+)=([^#&]*)/g)||[],l={},g,f,k;for(g=0,f=h.length;g<f;++g){k=h[g].split(\"\
+        =\");l[c(k[0])]=c(k[1])}return l}if(window.navigator&&window.navigator.userAgent.match(/Gecko\\\
+        //)){d=/#.*$/.exec(e.href);d=d&&d[0]?d[0]:\"\"}else{d=e.hash}b=a(d);if(b.sd){document.getElementById(\"\
+        yschsp\").value=b.sd}else{if(b._sd){document.getElementById(\"yschsp\").value=\"\
+        \"}}})();(function(){YUI={Env:{mods:{},add:function(k,j,i,d){if(k&&k.addEventListener){k.addEventListener(j,i,d)}else{if(k&&k.attachEvent){k.attachEvent(\"\
+        on\"+j,i)}}},remove:function(l,k,j,d){if(l&&l.removeEventListener){try{l.removeEventListener(k,j,d)}catch(i){}}else{if(l&&l.detachEvent){l.detachEvent(\"\
+        on\"+k,j)}}}},add:function(i,k,d,j){YUI.Env.mods[i]={name:i,fn:k,version:d,details:j||{}}}};Y={_pending:[],use:function(){Y._pending.push(arguments)},Search:{}};var\
+        \ b=window,h=document,f=YUI.Env.add,a=YUI.Env.remove,e=(function(){var d=[];function\
+        \ i(){setTimeout(function(){var k=0,j=d.length;for(;k<j;k++){d[k]()}a(b,\"\
+        load\",i)},0)}f(b,\"load\",i);return{add:function(j){d.push(j)}}}()),g=(function(){var\
+        \ d=navigator.userAgent.match(/MSIE\\s([^;]*)/);if(d){return parseFloat(d[1])}return\
+        \ 0}());function c(i){var d=h.getElementById(i);if(d){d.reset()}}Y.Search.Loader=(function(){var\
+        \ i=[],j=false;function l(n,m){var p=h.createElement(n),o,q;for(o in m){if(m.hasOwnProperty(o)){q=m[o];p.setAttribute(o,q)}}return\
+        \ p}function d(){var o=0,m=i.length,p,q,n=h.getElementsByTagName(\"head\"\
+        )[0];for(;o<m;o++){p=i[o];if(p.type===\"css\"){q=l(\"link\",{href:p.url,rel:\"\
+        stylesheet\",type:\"text/css\"})}else{if(p.type===\"js\"){q=l(\"script\",{src:p.url})}else{continue}}n.appendChild(q)}j=true;i=[]}function\
+        \ k(){var o=arguments[0],p=Array.prototype.slice.call(arguments,1),n=0,m=p.length;for(;n<m;n++){i.push({type:o,url:p[n]})}if(j){d()}}e.add(d);return{js:function(){var\
+        \ m=Array.prototype.slice.call(arguments);k.apply(null,[\"js\"].concat(m))},css:function(){var\
+        \ m=Array.prototype.slice.call(arguments);k.apply(null,[\"css\"].concat(m))}}}());(function(){var\
+        \ d=b.performance||b.webkitPerformance||b.msPerformance||b.mozPerformance||b.Performance;if(d){d.now=d.now||d.webkitNow||d.msNow||d.mozNow;if(typeof\
+        \ d.now===\"function\"){Y.Search.performance=d}}}());e.add(function(){var\
+        \ i=h.getElementById(\"yschsp\"),d=/(^|\\s)sd(\\s|$)/;if(i&&d.test(i.parentNode.className)){return}if(g&&(!i||!i.getAttribute(\"\
+        dirty\"))){c(\"sf\");c(\"sB\")}});(function(){var o=h.getElementById(\"web\"\
+        ),j=h.getElementById(\"srp\"),k=(o)?o.getElementsByTagName(\"a\"):[],k=(j)?j.getElementsByTagName(\"\
+        a\"):k,q=/(?:^|\\s+)yschttl(?:\\s+|$)/,m=k.length,l,p=(function(){if(g&&g<7){return\
+        \ function(u,s){var t=new RegExp(\"^<a.*\\\\s\"+s+'=\"([^\"]*)\"',\"i\"),i=t.exec(u.outerHTML);return\
+        \ i?i[1]:null}}else{return function(r,i){return r.getAttribute(i)}}}());function\
+        \ n(i){var u=i||b.event,r=u.target||u.srcElement,s;while(r){if(r.tagName&&r.tagName.toLowerCase()===\"\
+        a\"&&r.getAttribute(\"dirtyhref\")){s=p(r,\"dirtyhref\");if(s){r.setAttribute(\"\
+        href\",s)}break}r=r.parentNode}}f(h,\"mousedown\",n);f(h,\"click\",n);function\
+        \ d(t){var i,v,u,s,r;i=p(t,\"href\");if(!i){return}v=p(t,\"ourl\");if(!v){u=i.match(/\\\
+        /RU=([^\\/]+)\\//);if(!u||!u[1]){return}v=decodeURIComponent(u[1])}s=t.cloneNode(true);s.setAttribute(\"\
+        href\",v);s.setAttribute(\"dirtyhref\",i);if(g){r=s.innerHTML;i=p(s,\"dirtyhref\"\
+        );s.setAttribute(\"href\",i);if(s.innerHTML!==r){return}s.setAttribute(\"\
+        href\",v)}t.parentNode.replaceChild(s,t)}while(m--){l=k[m];if(q.test(l.className)){d(l)}}}())}());YUI.add(\"\
+        browser-extension-promotion-base\",function(e){var a=e.namespace(\"Search\"\
+        );var d=e.config.win;var c=e.config.doc;function b(){b.superclass.constructor.apply(this,arguments)}b.NAME=\"\
+        BrowserExtensionPromotion\";b.ATTRS={ENABLE_DEBUG:{readOnly:true,value:false},INTERSTITIAL_DOM_ID:{readOnly:true,value:\"\
+        browserExtensionPromotion\"},guidelineData:{readOnly:true,value:{heading:{chrome_firefox:\"\
+        You are almost done.\",ie:\"Set Homepage as Yahoo\"},subheading:{chrome:'Click\
+        \ on \"Add extension\" to finish installation',firefox:'Click on \"Allow\"\
+        \ and then \"Install\" to finish installation',ie:'Click \"Run\" and you will\
+        \ never miss a thing with Yahoo as your default homepage and new tab page\
+        \ across all browsers on your device'},ieData:{image:\"https://s.yimg.com/os/ydownloads/ucs-yset-search/10/images/ieinstaller_lightbox.jpg\"\
+        ,termsLink:\"https://policies.yahoo.com/us/en/yahoo/terms/utos/index.htm\"\
+        ,PolicyLink:\"https://policies.yahoo.com/us/en/yahoo/privacy/index.htm\"}}},LOCAL_STORAGE_KEY:{value:\"\
+        yset_srp\"},LOCAL_STORAGE_KEY_LIFETIME:{value:3},DSS_CHECK:{value:true},UCS_CHECK:{value:true},EXT_DOM_CHECK:{value:true}};e.extend(b,e.Base,{initializer:function(f){if(f&&f.win){d=f.win}},isChrome:function(){var\
+        \ g=!!d.opera||d.navigator.userAgent.indexOf(\" OPR\")>=0;var f=!!d.chrome&&!g;this.debug(\"\
+        isChrome\",f);return f},isFirefox:function(){var f=!!d.InstallTrigger;this.debug(\"\
+        isFirefox\",f);return f},isIe:function(){var f=!!c.documentMode||d.documentMode;this.debug(\"\
+        isIe\",f);return f},getFirefoxVersion:function(){var f;var g;if(e.UA.gecko){f=e.UA.gecko}return\
+        \ f},isWindows:function(){var f=e.UA.os.match(/windows/);this.debug(\"isWindows\"\
+        ,!!f);return !!f},isIndexedDBEnable:function(){var f=!!d.indexedDB;this.debug(\"\
+        isIndexedDBEnable\",f);return f},daysSinceTimestampInMS:function(f){var g=this.daysSinceTimestamp(f/1000);return\
+        \ g},daysSinceTimestamp:function(g){var f=(new Date()).getTime();var h=((f/1000)-g)/86400;return\
+        \ h},isLocalStorageTimestampFresh:function(){var i=this.get(\"LOCAL_STORAGE_KEY\"\
+        );var h=this.get(\"LOCAL_STORAGE_KEY_LIFETIME\");var j=d.localStorage?d.localStorage.getItem(i):\"\
+        \";var f=false;if(j){try{j=JSON.parse(j);if(j.tslo&&(!isNaN(j.tslo))&&this.daysSinceTimestampInMS(j.tslo)<h){f=true}}catch(g){}}this.debug(\"\
+        isLocalStorageTimestampFresh\",f);return f},isLocalStorageEnable:function(){if(!d.localStorage){this.debug(\"\
+        isLocalStorageEnable\",false);return false}var f=false;var h=(new Date()).getTime();try{d.localStorage.setItem(h,h);f=(d.localStorage.getItem(h)===h.toString())?true:false;d.localStorage.removeItem(h)}catch(g){}this.debug(\"\
+        isLocalStorageEnable\",f);return f},isDSSFresh:function(){var g=e.Cookie.get(\"\
+        DSS\");if(g){var h=e.Cookie.getSub(\"DSS\",\"sdts\");var f=(h.toString().length===13)?this.daysSinceTimestampInMS(h):this.daysSinceTimestamp(h);if(!isNaN(h)&&f<=20){this.debug(\"\
+        isDSSFresh\",true);return true}}this.debug(\"isDSSFresh\",false);return false},isUCSFresh:function(){var\
+        \ f=e.Cookie.get(\"ucs\");if(f){var g=e.Cookie.getSub(\"ucs\",\"lbit\");if(!isNaN(g)&&this.daysSinceTimestamp(g)<=7){this.debug(\"\
+        isUCSFresh\",true);return true}}this.debug(\"isUCSFresh\",false);return false},isReferFromYahoo:function(){var\
+        \ h=d.document.referrer.match(\"://([^:/]*)\");var f=false;if(h&&h.length>1){var\
+        \ g=h[1];if((g===\"localhost\")||(g.lastIndexOf(\".yahoo.com\")===(g.length-10))){f=true}}this.debug(\"\
+        isReferFromYahoo\",f);return f},isFromGINSU:function(){var f=false;if(d.location&&d.location.search&&d.location.search.match(/[&?]fr=(mktg-search-ginsu|search-ginsu-answers|strm-tts-thg)/)){f=true}this.debug(\"\
+        isFromGINSU\",f);return f},isExtensionInstalled:function(){var h=d.document.body.classList;var\
+        \ g=this.get(\"INSTALLED_BODY_CLASS\");var f=g?h.contains(g):false;this.debug(\"\
+        isExtensionInstalled\",f);return f},isSearchLandingPage:function(){return\
+        \ d.YUI_config&&d.Y.config.fp},setLocalStorage:function(){var f=this.get(\"\
+        LOCAL_STORAGE_KEY\");if(d.localStorage){d.localStorage.setItem(f,JSON.stringify({tslo:(new\
+        \ Date()).getTime()}))}},initInstrumentation:function(){if(typeof YAHOO===\"\
+        undefined\"){YAHOO={}}if(!YAHOO.ULT){YAHOO.ULT={}}if(!YAHOO.ULT.BEACON){YAHOO.ULT.BEACON=\"\
+        https://geo.yahoo.com/t\"}YAHOO.ULT.SRC_SPACEID_KEY=\"_S\";YAHOO.ULT.DEST_SPACEID_KEY=\"\
+        _s\";YAHOO.ULT.YLC_LIBSRC=2;YAHOO.ULT.CTRL_C=\"\\x03\";YAHOO.ULT.CTRL_D=\"\
+        \\x04\";YAHOO.ULT.BASE64_STR=\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789._-\"\
+        ;YAHOO.ULT.track_click=function(j,n){if(!j||!n){return j}n._r=YAHOO.ULT.YLC_LIBSRC;var\
+        \ o=[];var l=0;for(var h in n){var g=n[h];if(typeof(g)===\"undefined\"){g=n[h]=\"\
+        \"}if(h.length<1){return j}if(h.length>8){return j}if(h.indexOf(\" \")!==-1){return\
+        \ j}if(YAHOO.ULT.has_ctrl_char(h)||YAHOO.ULT.has_ctrl_char(g)){return j}o[l++]=h}o=o.sort();var\
+        \ m=[];for(l=0;l<o.length;l++){m[l]=o[l]+YAHOO.ULT.CTRL_C+n[o[l]]}m=m.join(YAHOO.ULT.CTRL_D);if(m.length<1||m.length>1024){return\
+        \ j}m=\";_ylc=\"+YAHOO.ULT.encode64(m);l=j.indexOf(\"/*\");if(l===-1){l=j.indexOf(\"\
+        /?\")}if(l===-1){l=j.indexOf(\"?\")}if(l===-1){return j+m}else{return j.substr(0,l)+m+j.substr(l)}};YAHOO.ULT.beacon_click=function(h,g){if(h){var\
+        \ f=YAHOO.ULT.track_click(YAHOO.ULT.BEACON,h);f+=\"?t=\"+Math.random();return\
+        \ f}};YAHOO.ULT.has_ctrl_char=function(g){for(var f=0;f<g.length;f++){if(g.charCodeAt(f)<32){return\
+        \ true}}return false};YAHOO.ULT.encode64=function(h){var f=\"\";var p,n,l=\"\
+        \";var o,m,k,j=\"\";var g=0;do{p=h.charCodeAt(g++);n=h.charCodeAt(g++);l=h.charCodeAt(g++);o=p>>2;m=((p&3)<<4)|(n>>4);k=((n&15)<<2)|(l>>6);j=l&63;if(isNaN(n)){k=j=64}else{if(isNaN(l)){j=64}}f=f+YAHOO.ULT.BASE64_STR.charAt(o)+YAHOO.ULT.BASE64_STR.charAt(m)+YAHOO.ULT.BASE64_STR.charAt(k)+YAHOO.ULT.BASE64_STR.charAt(j);p=n=l=\"\
+        \";o=m=k=j=\"\"}while(g<h.length);return f}},sendBeacon:function(s,f,v){var\
+        \ k=false;var i=this.get(\"TRACKING_CONFIG\");var g=this.getTrafficType&&typeof\
+        \ this.getTrafficType===\"function\"?this.getTrafficType():\"\";try{var u=[{trackEvt:\"\
+        page_info\",trackParams:{intl:i.INTL,vtestid:\"yset_\"+i.PARTNER_CODE+\"_\"\
+        +i.BROWSER+\"_\"+i.VTEST_EXP_ID,browser:i.BROWSER,pc:i.PARTNER_CODE,itype:\"\
+        {itype}\",pt:\"{pt}\",delc:\"upsell\",ttype:g},useYLC:false,trackSpaceID:i.EXT_SPACE_ID},{trackEvt:\"\
+        click_info\",trackParams:{intl:i.INTL,vtestid:\"yset_\"+i.PARTNER_CODE+\"\
+        _\"+i.BROWSER+\"_\"+i.VTEST_EXP_ID,browser:i.BROWSER,pc:i.PARTNER_CODE,sec:\"\
+        {sec}\",slk:\"{slk}\",gpos:\"{gpos}\",_p:\"{_p}\",delc:\"upsell\",ttype:g},useYLC:true,trackSpaceID:i.EXT_SPACE_ID}];if(i.PVID){u[0].trackParams.pvid=i.PVID;u[1].trackParams.pvid=i.PVID}if(i.BUCKET_TYPE){u[0].trackParams.bucketType=i.BUCKET_TYPE;u[1].trackParams.bucketType=i.BUCKET_TYPE}var\
+        \ o=u.length;for(var j=0;j<o;j++){var p=u[j];if(p.trackSpaceID&&(p.trackEvt.toLowerCase()===s.toLowerCase())){var\
+        \ t=p.trackParams||{},h={},r=\"\";for(var n in t){var q=t[n];if(q===\"{pt}\"\
+        ){if(f.params.pt){q=f.params.pt}else{q=null}}else{if(q===\"{itype}\"){if(f.params.itype){q=f.params.itype}else{q=null}}else{if(q===\"\
+        {sec}\"){q=f.params.sec}else{if(q===\"{slk}\"){q=f.params.slk}else{if(q===\"\
+        {gpos}\"){q=f.params.gpos}else{if(q===\"{_p}\"){q=f.params._p}}}}}}if(q){h[n]=q}}if(p.useYLC){h[YAHOO.ULT.SRC_SPACEID_KEY]=p.trackSpaceID;r=YAHOO.ULT.beacon_click(h)}else{h.s=p.trackSpaceID.toString();r=(\"\
+        https://geo.yahoo.com/p?t=\"+Math.random());for(var l in h){r+=(\"&\"+l+\"\
+        =\"+h[l])}}k=new Image;if(typeof v===\"function\"){k.onload=v}k.src=r;break}}}catch(m){}return\
+        \ k},hidePromotion:function(g){e.one(\"#\"+this.get(\"INTERSTITIAL_DOM_ID\"\
+        )).addClass(\"hidden\");if(g){var h={};var f={};if(g===\"escape\"){f.sec=\"\
+        yset_interstitial_close_escapetype\";f.slk=\"yset_interstitial_close_escapetype\"\
+        ;f._p=3}else{if(g===\"mouseClick\"){f.sec=\"yset_interstitial_close_mouseclick\"\
+        ;f.slk=\"yset_interstitial_close_mouseclick\";f._p=2}}f.gpos=1;h.params=f;this.sendBeacon(\"\
+        click_info\",h)}},showPromotion:function(){var f=this;var h=e.one(\"#\"+f.get(\"\
+        INTERSTITIAL_DOM_ID\"));var j=h.one(\".install\");var i=h.one(\".cross\");var\
+        \ g=h.one(\".notnow\");if(f.prepareExtensionInstallation){f.prepareExtensionInstallation()}f.initInstrumentation();h.removeClass(\"\
+        hidden\");f.setLocalStorage();f.onInterstitialShow(j);j.on(\"click\",e.bind(f.onClickInstall,f));i.on(\"\
+        click\",function(){f.hidePromotion(\"mouseClick\")});if(g){g.on(\"click\"\
+        ,function(){f.setLocalStorage();f.hidePromotion(\"mouseClick\")})}d.onkeydown=function(k){if(k.keyCode===27){f.hidePromotion(\"\
+        escape\")}}},showGuideline:function(){var g=this;var f=c.createElement(\"\
+        div\");var j=c.createElement(\"div\");var i=c.createElement(\"div\");var k=c.createElement(\"\
+        div\");var h=c.createElement(\"div\");f.setAttribute(\"id\",\"yset-inline-install-modal-container\"\
+        );j.setAttribute(\"id\",\"yset-inline-install-modal\");i.setAttribute(\"id\"\
+        ,\"yset-inline-install-modal-icon\");if(g.isWindows()){j.classList.add(\"\
+        win\");i.classList.add(\"win\")}if(g.isFirefox()){var l=g.getFirefoxVersion();if(l>56){j.classList.add(\"\
+        ffAbove56\")}j.classList.add(\"ff\");i.classList.add(\"ff\")}k.setAttribute(\"\
+        id\",\"yset-inline-install-modal-heading\");k.textContent=this.get(\"guidelineData\"\
+        )[\"heading\"][\"chrome_firefox\"];h.setAttribute(\"id\",\"yset-inline-install-modal-subHeading\"\
+        );if(g.isChrome()){h.textContent=this.get(\"guidelineData\")[\"subheading\"\
+        ][\"chrome\"]}else{h.textContent=this.get(\"guidelineData\")[\"subheading\"\
+        ][\"firefox\"]}j.appendChild(i);j.appendChild(k);j.appendChild(h);f.appendChild(j);document.body.appendChild(f);document.body.style.overflow=\"\
+        hidden\"},showIeInstallModal:function(){var o=this;var g=c.createElement(\"\
+        div\"),m=c.createElement(\"div\"),p=c.createElement(\"h1\"),f=c.createElement(\"\
+        div\"),i=c.createElement(\"img\"),n=c.createElement(\"div\"),j=c.createElement(\"\
+        a\"),l=c.createElement(\"a\"),k=c.createElement(\"span\"),h=c.createElement(\"\
+        span\");k.textContent=\" and \";h.textContent=\" apply \";g.setAttribute(\"\
+        id\",\"yset_ie_inline-install-modal_container\");m.setAttribute(\"id\",\"\
+        yset_ie_inline-install-modal\");p.setAttribute(\"id\",\"heading\");f.setAttribute(\"\
+        id\",\"subheading\");i.setAttribute(\"id\",\"installerLightboxImg\");n.setAttribute(\"\
+        id\",\"links\");j.setAttribute(\"id\",\"terms\");l.setAttribute(\"id\",\"\
+        policy\");p.textContent=this.get(\"guidelineData\")[\"heading\"][\"ie\"];f.textContent=this.get(\"\
+        guidelineData\")[\"subheading\"][\"ie\"];i.src=this.get(\"guidelineData\"\
+        )[\"ieData\"][\"image\"];j.href=this.get(\"guidelineData\")[\"ieData\"][\"\
+        termsLink\"];j.text=\"Yahoo Terms\";l.href=this.get(\"guidelineData\")[\"\
+        ieData\"][\"PolicyLink\"];l.text=\"Privacy Policy\";n.appendChild(j);n.appendChild(k);n.appendChild(l);n.appendChild(h);m.appendChild(p);m.appendChild(f);m.appendChild(i);m.appendChild(n);g.appendChild(m);document.body.appendChild(g)},closeGuidelineBox:function(){var\
+        \ f;if(this.isIe()){f=document.getElementById(\"yset_ie_inline-install-modal_container\"\
+        )}else{f=document.getElementById(\"yset-inline-install-modal-container\")}f.style.display=\"\
+        none\";document.body.style.overflow=\"auto\";document.body.removeChild(f)},debug:function(){if(!this.get(\"\
+        ENABLE_DEBUG\")){return}var f=Array.prototype.slice.call(arguments,0);f.unshift(this.constructor.NAME);console.log.apply(console,f)}});a.BrowserExtensionPromotionBase=b},\"\
+        1.0.0\",{requires:[\"node\",\"event\",\"base\",\"cookie\"]});YUI.add(\"browser-extension-promotion-firefox\"\
+        ,function(e){var b=e.namespace(\"Search\");var c=\"https://addons.mozilla.org/firefox/downloads/latest/search-and-new-tab-by-yahoo/addon-689182-latest.xpi\"\
+        ;var d=e.config.win;function a(f){a.superclass.constructor.apply(this,arguments)}a.ATTRS={TRACKING_CONFIG:{value:{INTL:\"\
+        us\",BROWSER:\"ff\",PARTNER_CODE:\"web\",VTEST_EXP_ID:\"web_exp_01\",EXT_SPACE_ID:151340125}},INSTALLED_BODY_CLASS:{readOnly:true,value:\"\
+        yahoo_firefox_newtab_ext_installed\"},trafficType:{value:undefined}};e.extend(a,b.BrowserExtensionPromotionBase,{initializer:function(f){if(f&&f.win){d=f.win}this.checkPromotionState()},getTrafficType:function(){var\
+        \ f=this.get(\"trafficType\");if(f===undefined){if(this.isSearchLandingPage()){f=\"\
+        syc\"}else{if(this.isFromGINSU()){f=\"ginsu\"}else{if(this.isReferFromYahoo()){f=\"\
+        yahoo\"}else{f=false}}}}this.set(\"trafficType\",f);this.debug(\"trafficType\"\
+        ,f);return f},checkPromotionState:function(){var h=this;var f=h.getTrafficType();if(h.isFirefox()&&h.isIndexedDBEnable()){var\
+        \ g;try{g=d.indexedDB.open(\"test\");g.onsuccess=function(){h.debug(\"not\
+        \ incognito\");showPromotion=!h.isDSSFresh()&&!h.isExtensionInstalled();showPromotion=(showPromotion&&h.isLocalStorageEnable()&&!h.isLocalStorageTimestampFresh());if(showPromotion){h.debug(\"\
+        show interstitial\");h.showPromotion()}};g.onerror=function(){h.debug(\"is\
+        \ incognito\")}}catch(i){h.debug(\"indexDB error\",i)}}},onInterstitialShow:function(f){f.set(\"\
+        href\",c);this.sendBeacon(\"page_info\",{params:{pt:\"ff_searchset_upsell_interstitial\"\
+        }})},onClickInstall:function(){var h=this;var g;var f=h.getTrafficType();if(f===\"\
+        syc\"){g=\"extInstall?partner=oo-syc-promo-ff\"}else{g=\"extInstall?partner=oo-srp-promo-ff\"\
+        }document.location.hash=g;h.sendBeacon(\"click_info\",{params:{_p:1,gpos:1,sec:\"\
+        yset_interstitial_get_extension\",slk:\"yset_interstitial_get_extension\"\
+        }});h.hidePromotion();h.showGuideline();setTimeout(function(){h.closeGuidelineBox()},8000)}});b.BrowserExtensionPromotionFirefox=a},\"\
+        1.0.0\",{requires:[\"browser-extension-promotion-base\"]});YUI.add(\"browser-extension-promotion-firefox-banner\"\
+        ,function(e){var a=e.namespace(\"Search\");var b=\"https://addons.mozilla.org/firefox/downloads/latest/yahoo-homepage/addon-705134-latest.xpi\"\
+        ;var d=e.config.win;function c(f){c.superclass.constructor.apply(this,arguments)}c.NAME=\"\
+        BrowserExtensionPromotionFirefoxBanner\";c.ATTRS={TRACKING_CONFIG:{value:{INTL:\"\
+        us\",BROWSER:\"ff\",PARTNER_CODE:\"web\",VTEST_EXP_ID:\"web_exp_01\",EXT_SPACE_ID:151340125}},INSTALLED_BODY_CLASS:{readOnly:true,value:\"\
+        yahoo_hp_set_ext_installed\"},INTERSTITIAL_DOM_ID:{readOnly:true,value:\"\
+        browserExtensionPromotionBanner\"},LOCAL_STORAGE_KEY:{value:\"yset_srp_yahooHome_banner\"\
+        },LOCAL_STORAGE_KEY_LIFETIME:{value:7},trafficType:{value:\"syc\"}};e.extend(c,a.BrowserExtensionPromotionFirefox,{getTrafficType:function(){return\
+        \ this.get(\"trafficType\")},showPromotion:function(){var f=this;var h=e.one(\"\
+        #\"+f.get(\"INTERSTITIAL_DOM_ID\"));var i=h.one(\".install\");var g=h.one(\"\
+        .notnow\");if(f.prepareExtensionInstallation){f.prepareExtensionInstallation()}f.initInstrumentation();if(this.get(\"\
+        TRACKING_CONFIG\").BUCKET_TYPE!==\"control\"){h.removeClass(\"hidden\")}f.onInterstitialShow(i);i.on(\"\
+        click\",e.bind(f.onClickInstall,f));if(g){g.on(\"click\",function(){f.setLocalStorage();f.hidePromotion(\"\
+        mouseClick\")})}d.onkeydown=function(j){if(j.keyCode===27){f.setLocalStorage();f.hidePromotion(\"\
+        escape\")}}},checkPromotionState:function(){var h=this;var f=h.getTrafficType();if(h.isFirefox()&&f&&h.isIndexedDBEnable()){var\
+        \ g;try{g=d.indexedDB.open(\"test\");g.onsuccess=function(){h.debug(\"not\
+        \ incognito\");if(h.isEligiblePromotion()){h.debug(\"show interstitial\");h.showPromotion()}};g.onerror=function(){h.debug(\"\
+        is incognito\")}}catch(i){h.debug(\"indexDB error\",i)}}},onInterstitialShow:function(f){f.set(\"\
+        href\",b);this.sendBeacon(\"page_info\",{params:{pt:\"ff_searchset_upsell_interstitial\"\
+        }})},onClickInstall:function(){var h=this;var g;var f=h.getTrafficType();g=\"\
+        extInstall?partner=oo-srp-banner-promo\";document.location.hash=g;h.sendBeacon(\"\
+        click_info\",{params:{_p:1,gpos:1,sec:\"yset_interstitial_get_extension\"\
+        ,slk:\"yset_interstitial_get_extension\"}});h.hidePromotion();h.showGuideline();setTimeout(function(){h.closeGuidelineBox()},8000)},isEligiblePromotion:function(){var\
+        \ f=this;var i=true;var j=true;var g=true;var h;if(f.get(\"DSS_CHECK\")){i=!f.isDSSFresh();f.debug(\"\
+        dss_target\",i)}if(f.get(\"UCS_CHECK\")){j=!f.isUCSFresh();f.debug(\"ucs_target\"\
+        ,j)}if(f.get(\"EXT_DOM_CHECK\")){g=!f.isExtensionInstalled();f.debug(\"ext_dom_target\"\
+        ,g)}h=(i&&j&&g&&f.isLocalStorageEnable()&&!f.isLocalStorageTimestampFresh());f.debug(\"\
+        shouldShowPromotion\",h);return h}});a.BrowserExtensionPromotionFirefoxBanner=c},\"\
+        1.0.0\",{requires:[\"browser-extension-promotion-firefox\"]});           \
+        \ Y.use(\"browser-extension-promotion-firefox-banner\",function(){\n     \
+        \           new Y.Search.BrowserExtensionPromotionFirefoxBanner({\n      \
+        \              TRACKING_CONFIG: {\n                        VTEST_EXP_ID: 'yset_web_chr_srp_banner_narrow',\n\
+        \                        INTL: \"us\",\n                        BROWSER: \"\
+        ff\",\n                        PARTNER_CODE: \"web\",\n                  \
+        \      EXT_SPACE_ID: 151340125,\n                        PVID: 'DiA8Kjk4LjEBBTI2ynSIogDlMTk3LgAAAAA6zYLw',\n\
+        \                        BUCKET_TYPE: 'test'\n                    },\n   \
+        \                 DSS_CHECK: true,\n                    UCS_CHECK: true,\n\
+        \                    EXT_DOM_CHECK: true\n                });\n          \
+        \  });(function(c){var b=c.querySelectorAll(\"img.s-img-ll\");for(var a=0;a<b.length;a++){YAHOO.LL.i(b[a])}}(document));(function(b,g){var\
+        \ f=function(d){if((typeof d.naturalWidth==\"undefined\")||(d.naturalWidth==0)){d.style.display=\"\
+        none\"}},a=function(d,h){if(d.complete){f(d)}else{if(h<5){b.setTimeout(function(){a(d,++h)},300*h)}}},e=g.querySelectorAll(\"\
+        img.s-img-errchk\");for(var c=0;c<e.length;c++){a(e[c],1)}}(window,document));Y.use(\"\
+        srp\",function(){Y.Search.SRP.init({\"enable_sidebar_collapse\":\"\",\"pvid\"\
+        :\"DiA8Kjk4LjEBBTI2ynSIogDlMTk3LgAAAAA6zYLw\",\"url_img_progress\":\"https:\\\
+        /\\/s.yimg.com\\/pv\\/i\\/us\\/sch\\/gr4\\/sp-progress2.gif\",\"tts\":null,\"\
+        enable_native_assist\":true},{\"aria_loading_results\":\"Retrieving search\
+        \ results. Please wait.\",\"aria_results_loaded\":\"New search results have\
+        \ been retrieved. Press control shift and down arrow key to jump to the first\
+        \ search result. Press control shift and up arrow key to jump back to the\
+        \ search box.\",\"common.expando.playvideo\":\"Play Video\",\"common.expando.closevideo\"\
+        :\"Close Video\",\"common.results.error\":\"Sorry, there was a problem retrieving\
+        \ search results. Please try again.\",\"common.results.loading\":\"Loading\
+        \ results...\",\"srp.title\":\"%q - Yahoo Search Results\",\"common.more_dots\"\
+        :\"more...\",\"common.less\":\"Less\"});});Y.use(\"srp-bing-beacon\", function(){Y.Search.SRP.initBTrack({\"\
+        cUrl\":\"\\/beacon\\/sbac\\/bf\\/7?IG=0ac9eb280e204c2aa5000000000d82f3\\u0026CID=f58c30f70700526680a3eb08acbf1b43\"\
+        ,\"pUrl\":\"\\/beacon\\/sbai\\/bf\\/7?IG=0ac9eb280e204c2aa5000000000d82f3\\\
+        u0026CID=f58c30f70700526680a3eb08acbf1b43\\u0026Type=Event.CPT\",\"Attr\"\
+        :[\"data-bns\",\"data-bk\"],\"bidAttr\":\"data-a36\",\"bidMap\":{\"5ee5189cb6c0b\"\
+        :{\"bns\":\"Yahoo\",\"bk\":3.1},\"5ee5189cb6c75\":{\"bns\":\"Yahoo\",\"bk\"\
+        :3.1},\"5ee5189d14973\":{\"bns\":\"Yahoo\",\"bk\":6.1},\"5ee5189d157b3\":{\"\
+        bk\":\"300.1\",\"bns\":\"Yahoo\"},\"5ee5189d159a4\":{\"bk\":\"105.1\",\"bns\"\
+        :\"Yahoo\"},\"5ee5189d15b47\":{\"bk\":\"501\",\"bns\":\"Yahoo\"},\"5ee5189d15c63\"\
+        :{\"bk\":\"502\",\"bns\":\"Yahoo\"},\"5ee5189d15dc2\":{\"bk\":\"503\",\"bns\"\
+        :\"Yahoo\"},\"5ee5189d15eae\":{\"bk\":\"504\",\"bns\":\"Yahoo\"},\"5ee5189d1600a\"\
+        :{\"bk\":\"505\",\"bns\":\"Yahoo\"},\"5ee5189d16122\":{\"bk\":\"506\",\"bns\"\
+        :\"Yahoo\"},\"5ee5189d1626a\":{\"bk\":\"507\",\"bns\":\"Yahoo\"},\"5ee5189d16375\"\
+        :{\"bk\":\"508\",\"bns\":\"Yahoo\"},\"5ee5189d1659d\":{\"bk\":\"112.1\",\"\
+        bns\":\"Yahoo\"},\"5ee5189d166cd\":{\"bk\":\"5093.1\",\"bns\":\"API\"},\"\
+        5ee5189d16814\":{\"bk\":\"113.1\",\"bns\":\"Yahoo\"},\"5ee5189d16932\":{\"\
+        bk\":\"5108.1\",\"bns\":\"API\"},\"5ee5189d16a79\":{\"bk\":\"115.1\",\"bns\"\
+        :\"Yahoo\"},\"5ee5189d16b83\":{\"bk\":\"509.1\",\"bns\":\"Yahoo\"},\"5ee5189d16cac\"\
+        :{\"bk\":\"5418.1\",\"bns\":\"API\"},\"5ee5189d16dff\":{\"bk\":\"5420.1\"\
+        ,\"bns\":\"API\"},\"5ee5189d16f4e\":{\"bk\":\"5422.1\",\"bns\":\"API\"},\"\
+        5ee5189d17090\":{\"bk\":\"5424.1\",\"bns\":\"API\"},\"5ee5189d171ad\":{\"\
+        bk\":\"510.1\",\"bns\":\"Yahoo\"},\"5ee5189d173a3\":{\"bk\":\"116.1\",\"bns\"\
+        :\"Yahoo\"},\"5ee5189d174bf\":{\"bk\":\"5137.1\",\"bns\":\"API\"},\"5ee5189d176e3\"\
+        :{\"bk\":\"117.1\",\"bns\":\"Yahoo\"},\"5ee5189d177fa\":{\"bk\":\"5152.1\"\
+        ,\"bns\":\"API\"},\"5ee5189d17937\":{\"bk\":\"118.1\",\"bns\":\"Yahoo\"},\"\
+        5ee5189d17af6\":{\"bk\":\"5168.1\",\"bns\":\"API\"},\"5ee5189d17c4a\":{\"\
+        bk\":\"119.1\",\"bns\":\"Yahoo\"},\"5ee5189d17d68\":{\"bk\":\"5181.1\",\"\
+        bns\":\"API\"},\"5ee5189d17eb2\":{\"bk\":\"120.1\",\"bns\":\"Yahoo\"},\"5ee5189d17fc8\"\
+        :{\"bk\":\"5196.1\",\"bns\":\"API\"},\"5ee5189d18319\":{\"bk\":\"121.1\",\"\
+        bns\":\"Yahoo\"},\"5ee5189d18432\":{\"bk\":\"5223.1\",\"bns\":\"API\"},\"\
+        5ee5189d185ca\":{\"bk\":\"122.1\",\"bns\":\"Yahoo\"},\"5ee5189d186df\":{\"\
+        bk\":\"5240.1\",\"bns\":\"API\"},\"5ee5189d1881a\":{\"bk\":\"123.1\",\"bns\"\
+        :\"Yahoo\"},\"5ee5189d18930\":{\"bk\":\"5254.1\",\"bns\":\"API\"},\"5ee5189d18a83\"\
+        :{\"bk\":\"306.1\",\"bns\":\"Yahoo\"},\"5ee5189d18d21\":{\"bk\":\"107.1\"\
+        ,\"bns\":\"Yahoo\"},\"5ee5189d191cf\":{\"bns\":\"Yahoo\",\"bk\":9.1}}});});Y.use(\"\
+        srp-session-tracking\", function(){Y.Search.SRP.SessionTracking.init({\"beaconUrl\"\
+        :\"\\/ra\\/click\",\"bcrumb\":\"bL.05X.W\\/rt\",\"skey\":\"fPcKoSERs8rvincPoVWDiA--\"\
+        });});(function(a,e){var c={},b=[\"chrome-extension://embphknneakipabfiipdgklmpllaibmh\"\
+        ,\"chrome-extension://mpnlkmlkncncpgnnkmkgoobfpnjmblnk\",\"chrome-extension://fnpbeacklnhmkkilekogeiekaglbmmka\"\
+        ,\"chrome-extension://eoigllimhcllmhedfbmahegmoakcdakd\"];c.init=function(j,i,h){if(typeof\
+        \ MutationObserver===\"function\"){if(window.NodeList&&!NodeList.prototype.forEach){NodeList.prototype.forEach=Array.prototype.forEach}var\
+        \ g=false;function d(k,l){k.forEach(function(m){m.addedNodes.forEach(function(n){if(n.nodeName===\"\
+        IFRAME\"){var r=n.src||\"\",q=n.id||\"\",p=true;b.forEach(function(s){if(r.substr(0,s.length)===s){p=false}});if(p){if(i&&(j&&j.length!==0)&&(q==\"\
+        FEEDS_FRAME\")){var o=new Image();o.onload=o.onerror=null;o.src=j+(j.indexOf(\"\
+        ?\")===-1?\"?\":\"&\")+\"frameUrl=\"+encodeURIComponent(r)+\"&frameId=\"+encodeURIComponent(q)+\"\
+        &url=\"+encodeURIComponent(window.location.href)+\"&\"+(new Date()).getTime();i=false;g=true}if(h&&g){n.parentNode.removeChild(n)}}setTimeout(function(){l.disconnect()},5000)}})})}var\
+        \ f=new MutationObserver(d);f.observe(e.querySelector(\"body\"),{attributes:true,characterData:true,childList:true,subtree:false,attributeOldValue:true,characterDataOldValue:true})}return\
+        \ f};a.YAHOO=a.YAHOO||{};a.YAHOO.IframeBeacons=c})(window,document);if(window.YAHOO\
+        \ && window.YAHOO.IframeBeacons){window.YAHOO.IframeBeacons.init(\"https://geo.yahoo.com/p?s=2766679&srcpvid=DiA8Kjk4LjEBBTI2ynSIogDlMTk3LgAAAAA6zYLw&browser_name=firefox\"\
+        , true, false);}var groups={a:{name:'a',combine:true,comboBase:'https://s.yimg.com/zz/combo?',ext:false,root:'pv/',modules:{\"\
+        srp-util-dropdown\":{\"path\":\"static\\/lib\\/srp-util-dropdown_3a3cd885ee42131ab3ba19f7ae8c7c17.js\"\
+        },\"event-to-load\":{\"path\":\"static\\/lib\\/event-to-load_c2175d17514b998be635c715b14c6762.js\"\
+        ,\"requires\":[\"get\",\"event\",\"node\"]},\"retina-identifier\":{\"path\"\
+        :\"static\\/lib\\/retina-identifier_32fa6d8ff204e48372cfb4b6cdafc185.js\"\
+        },\"cosmos-compContainerExp\":{\"path\":\"static\\/lib\\/cosmos-compContainerExp_8e76334c6ead71e53fbbe6a7a1327b03.js\"\
+        ,\"requires\":[\"node\",\"base\"]},\"cosmos-compImageListGrid\":{\"path\"\
+        :\"static\\/lib\\/cosmos-compImageListGrid_bc1172b0451039015dd71599fac58d30.js\"\
+        ,\"requires\":[\"plugin\",\"node\",\"event\"]},\"cosmos-compJsToggle\":{\"\
+        path\":\"static\\/lib\\/cosmos-compJsToggle_0c66e27435f6b346d5a1ba018e1e790d.js\"\
+        ,\"requires\":[\"base\",\"node\",\"plugin\",\"event-mouseenter\",\"srp-lazy\"\
+        ]},\"cosmos-drop-down\":{\"path\":\"static\\/lib\\/cosmos-drop-down_72a394f95029d914397062e3a4961385.js\"\
+        ,\"requires\":[\"node\",\"event\"]},\"ymb\":{\"path\":\"static\\/lib\\/ymb_f3cd9f59256f05dc278212b87a165c1e.js\"\
+        ,\"requires\":[\"srp\"]}}}};Y.use('loader','srp-lazy',function(){Y.config=Y.mix(Y.config,{bootstrap:true,combine:true,comboBase:'https://s.yimg.com/zz/combo?',ignore:['skin-sam-tabview'],root:'yui:3.10.0/build/',groups:groups},true,null,0,true);Y.Search.use('srp-util-dropdown','event-to-load','get','event','node','retina-identifier','cosmos-compContainerExp','base','cosmos-compImageListGrid','plugin','cosmos-compJsToggle','event-mouseenter','srp-lazy','browser-extension-promotion-fixedPromo','cosmos-drop-down','ymb','srp',function(){(function(){new\
+        \ YAHOO.Util.DropDown({\"containerId\":\"yucs-apps\",\"btnId\":\"yucs-apps_button\"\
+        ,\"btnShowClass\":\"yucs-apps-select\",\"menuId\":\"yucs-apps_inner\",\"menuHideClass\"\
+        :\"yucs-hide\"});}());(function(){Y.use(\"event-to-load\",function(){Y.Search.EventTL.init({\"\
+        enable_js\":true,\"href\":\"https:\\/\\/yahoo.uservoice.com\\/forums\\/193847-search\"\
+        ,\"url\":\"https:\\/\\/s.yimg.com\\/pv\\/static\\/lib\\/uservoice-201705192047.js\"\
+        ,\"id\":\"usr-fdb-lnk\",\"uvid\":\"193847\",\"eventType\":\"click\",\"timeout\"\
+        :2000,\"className\":\"etl\"});});}());(function(){if(window.YAHOO && window.YAHOO.RetinaIdentifier){window.YAHOO.isRetina\
+        \ = new window.YAHOO.RetinaIdentifier();window.YAHOO.isRetina.init({\"retina\"\
+        :true,\"viewport\":true,\"cookieDomain\":\"search.yahoo.com\"});}}());(function(){var\
+        \ attrs_dismiss={\"target\":\".itm\",\"append\":\".exp\",\"check\":\".exp\"\
+        ,\"remove\":\".itm\",\"remove_text\":\"\",\"undo_text\":\"\",\"exp_type\"\
+        :\"\",\"exp_class\":\"\",\"exp_offset\":\"\",\"disable_undo\":false,\"trigger\"\
+        :\".dismiss-panel\",\"ajaxPath\":\"\\/beacon\\/sc\",\"query\":\"Preaching\
+        \ the choir\",\"prop\":\"smw\",\"type\":\"dismiss\",\"it\":\"bingrelqa\",\"\
+        beacon\":\"{\\u0022sec\\u0022:\\u0022sc\\u0022,\\u0022it\\u0022:\\u0022bingrelqa\\\
+        u0022,\\u0022t2\\u0022:\\u0022bingrelqa\\u0022,\\u0022t4\\u0022:\\u0022containerEx\\\
+        u0022,\\u0022t1pos\\u0022:\\u0022searchCenterMiddle\\u0022,\\u0022t3pos\\\
+        u0022:\\u0022s\\u0022,\\u0022t4pos\\u0022:2,\\u0022cncpt\\u0022:\\u0022QnAAlsoAsk\\\
+        u0022,\\u0022t2pos\\u0022:\\u00222\\u0022}\",\"tmpl\":\"\"},attrs_expand={\"\
+        delNodeClass\":\".bingrelqa\",\"onlyArrowToExpand\":false,\"collapsingScroll\"\
+        :false,\"expandingScroll\":false,\"seqNode\":\".itm\",\"query\":\"Preaching\
+        \ the choir\",\"beacon\":\"{\\u0022sec\\u0022:\\u0022sc\\u0022,\\u0022it\\\
+        u0022:\\u0022bingrelqa\\u0022,\\u0022t2\\u0022:\\u0022bingrelqa\\u0022,\\\
+        u0022t4\\u0022:\\u0022containerEx\\u0022,\\u0022t1pos\\u0022:\\u0022searchCenterMiddle\\\
+        u0022,\\u0022t3pos\\u0022:\\u0022s\\u0022,\\u0022t4pos\\u0022:2,\\u0022cncpt\\\
+        u0022:\\u0022QnAAlsoAsk\\u0022,\\u0022t2pos\\u0022:\\u00222\\u0022}\",\"tmpl\"\
+        :\"\",\"expTitleClass\":\"fw-xl\",\"allowExpansionAnimation\":false,\"arrowUpClass\"\
+        :\"bingdd-arrow-up\",\"arrowDownClass\":\"bingdd-arrow-down\",\"expandInstrumentation\"\
+        :\"{\\u0022t5\\u0022:\\u0022expand\\u0022}\",\"collapseInstrumentation\":\"\
+        {\\u0022t5\\u0022:\\u0022collapse\\u0022}\"},dNode = Y.one('.bingrelqa');if\
+        \ (dNode){dNode.plug(Y.CosmosPlugin.compContainerExp, attrs_expand);};}());(function(){var\
+        \ node = Y.one(\".Video .compImageListGrid\");if (node && Y.CosmosPlugin &&\
+        \ Y.CosmosPlugin.compImageListGrid) {node.plug(Y.CosmosPlugin.compImageListGrid);};}());(function(){var\
+        \ nodeList = Y.all('.vrtPivots');if (nodeList.size() > 0) {nodeList.each(\
+        \ function(node) {var compJsToggleAttrs={\"action\":\"click\",\"trigger\"\
+        :\".compJsToggle a\",\"target\":\".more-pivots\",\"beaconUrl\":\"https:\\\
+        /\\/geo.yahoo.com\\/t;_ylt=AwrJ6yicGOVeiaMAMiZXNyoA;_ylu=X3oDMTB0N2Noc21lBGNvbG8DYmYxBHBvcwMxBHZ0aWQDBHNlYwNwaXZz\"\
+        ,\"enableReposition\":\"true\",\"enableRepositionX\":\"-10\",\"enableRepositionY\"\
+        :\"25\",\"collapseOnOutsideClick\":\"true\",\"collapseSimilarTargets\":\"\
+        true\",\"toggleType\":\"expand\",\"offset\":\"0\",\"triggerIconSelector\"\
+        :\".ico\",\"triggerIconAddCssClass\":\"down-arrow-dgray-thin\",\"triggerIconRemoveCssClass\"\
+        :\"down-arrow-gray-thin\",\"enableTriggerIconHover\":\"true\",\"cssClassforTriggered\"\
+        :\"menu-active\",\"it\":\"vrtPivots\"};node.plug({fn: Y.CosmosPlugin.compJsToggle,cfg:\
+        \ compJsToggleAttrs})});}}());(function(){var nodeList = Y.all('.horizontal-timefilter');if\
+        \ (nodeList.size() > 0) {nodeList.each( function(node) {var compJsToggleAttrs={\"\
+        action\":\"click\",\"trigger\":\".compJsToggle a\",\"target\":\".timefilter-list\"\
+        ,\"triggerGrp\":\"horizontal-timefilter\",\"useTriggerGrpAsLogID\":\"true\"\
+        ,\"enableReposition\":\"true\",\"enableRepositionX\":\"-10\",\"enableRepositionY\"\
+        :\"25\",\"collapseOnOutsideClick\":\"true\",\"collapseSimilarTargets\":\"\
+        true\",\"toggleType\":\"expand\",\"offset\":\"0\",\"triggerIconSelector\"\
+        :\".ico\",\"triggerIconAddCssClass\":\"down-arrow-dgray-thin\",\"triggerIconRemoveCssClass\"\
+        :\"down-arrow-gray-thin\",\"enableTriggerIconHover\":\"true\",\"cssClassforTriggered\"\
+        :\"menu-active\",\"it\":\"timefilter\"};node.plug({fn: Y.CosmosPlugin.compJsToggle,cfg:\
+        \ compJsToggleAttrs})});}}());(function(){Y.use(\"browser-extension-promotion-fixedPromo\"\
+        ,function(Y){Y.Search.BrowserExtensionPromotionFixedPromo.init({\"extensionUrl\"\
+        :\"https:\\/\\/addons.mozilla.org\\/firefox\\/downloads\\/latest\\/search-and-new-tab-by-yahoo\\\
+        /addon-689182-latest.xpi\",\"spaceId\":\"151340125\",\"intl\":\"us\",\"browserCode\"\
+        :\"ff\",\"sec\":\"ds_promo\",\"slk\":\"ds_promo_newtab\",\"promoId\":\"promo\"\
+        });});}());(function(){Y.use(\"ymb\",function(Y){Y.Search.YMB.init({\"bcurl\"\
+        :\"https:\\/\\/c.bing.com\\/c.gif?Red3=MSYH_pd\"});});}());});});Y.use(\"\
+        vertical-pivots\",function(){Y.Search.VerticalPivots.init({\"more\":\"More\"\
+        ,\"less\":\"More\"});});Y.Search.Loader.js('https://s.yimg.com/pv/static/lib/srp-core-js-purple-1_cf86dbcecfa30b5fe45920d9ecd7d0ed.js','https://s.yimg.com/pv/static/lib/srp-core-js-purple-2-nasa_1f2795e7a77214689a53052405882116.js','https://s.yimg.com/pv/static/lib/assetManager_e2e923ab1efdaf75494af479940e87bf.js');</script><script\
+        \ nonce='vgb0STTTh8kDHxADbA0PJw=='>if(window.YAHOO.AssetManager){window.YAHOO.AssetManager.process({\"\
+        cdnBase\":\"https:\\/\\/s.yimg.com\\/zz\\/combo?\",\"cdnPath\":\"pv\\/\",\"\
+        req\":{\"js\":[]},\"reqFull\":{\"js\":[]}},function(){(function(){YUI.add(\"\
+        browser-extension-promotion-base\",function(e){var a=e.namespace(\"Search\"\
+        );var d=e.config.win;var c=e.config.doc;function b(){b.superclass.constructor.apply(this,arguments)}b.NAME=\"\
+        BrowserExtensionPromotion\";b.ATTRS={ENABLE_DEBUG:{readOnly:true,value:false},INTERSTITIAL_DOM_ID:{readOnly:true,value:\"\
+        browserExtensionPromotion\"},guidelineData:{readOnly:true,value:{heading:{chrome_firefox:\"\
+        You are almost done.\",ie:\"Set Homepage as Yahoo\"},subheading:{chrome:'Click\
+        \ on \"Add extension\" to finish installation',firefox:'Click on \"Allow\"\
+        \ and then \"Install\" to finish installation',ie:'Click \"Run\" and you will\
+        \ never miss a thing with Yahoo as your default homepage and new tab page\
+        \ across all browsers on your device'},ieData:{image:\"https://s.yimg.com/os/ydownloads/ucs-yset-search/10/images/ieinstaller_lightbox.jpg\"\
+        ,termsLink:\"https://policies.yahoo.com/us/en/yahoo/terms/utos/index.htm\"\
+        ,PolicyLink:\"https://policies.yahoo.com/us/en/yahoo/privacy/index.htm\"}}},LOCAL_STORAGE_KEY:{value:\"\
+        yset_srp\"},LOCAL_STORAGE_KEY_LIFETIME:{value:3},DSS_CHECK:{value:true},UCS_CHECK:{value:true},EXT_DOM_CHECK:{value:true}};e.extend(b,e.Base,{initializer:function(f){if(f&&f.win){d=f.win}},isChrome:function(){var\
+        \ g=!!d.opera||d.navigator.userAgent.indexOf(\" OPR\")>=0;var f=!!d.chrome&&!g;this.debug(\"\
+        isChrome\",f);return f},isFirefox:function(){var f=!!d.InstallTrigger;this.debug(\"\
+        isFirefox\",f);return f},isIe:function(){var f=!!c.documentMode||d.documentMode;this.debug(\"\
+        isIe\",f);return f},getFirefoxVersion:function(){var f;var g;if(e.UA.gecko){f=e.UA.gecko}return\
+        \ f},isWindows:function(){var f=e.UA.os.match(/windows/);this.debug(\"isWindows\"\
+        ,!!f);return !!f},isIndexedDBEnable:function(){var f=!!d.indexedDB;this.debug(\"\
+        isIndexedDBEnable\",f);return f},daysSinceTimestampInMS:function(f){var g=this.daysSinceTimestamp(f/1000);return\
+        \ g},daysSinceTimestamp:function(g){var f=(new Date()).getTime();var h=((f/1000)-g)/86400;return\
+        \ h},isLocalStorageTimestampFresh:function(){var i=this.get(\"LOCAL_STORAGE_KEY\"\
+        );var h=this.get(\"LOCAL_STORAGE_KEY_LIFETIME\");var j=d.localStorage?d.localStorage.getItem(i):\"\
+        \";var f=false;if(j){try{j=JSON.parse(j);if(j.tslo&&(!isNaN(j.tslo))&&this.daysSinceTimestampInMS(j.tslo)<h){f=true}}catch(g){}}this.debug(\"\
+        isLocalStorageTimestampFresh\",f);return f},isLocalStorageEnable:function(){if(!d.localStorage){this.debug(\"\
+        isLocalStorageEnable\",false);return false}var f=false;var h=(new Date()).getTime();try{d.localStorage.setItem(h,h);f=(d.localStorage.getItem(h)===h.toString())?true:false;d.localStorage.removeItem(h)}catch(g){}this.debug(\"\
+        isLocalStorageEnable\",f);return f},isDSSFresh:function(){var g=e.Cookie.get(\"\
+        DSS\");if(g){var h=e.Cookie.getSub(\"DSS\",\"sdts\");var f=(h.toString().length===13)?this.daysSinceTimestampInMS(h):this.daysSinceTimestamp(h);if(!isNaN(h)&&f<=20){this.debug(\"\
+        isDSSFresh\",true);return true}}this.debug(\"isDSSFresh\",false);return false},isUCSFresh:function(){var\
+        \ f=e.Cookie.get(\"ucs\");if(f){var g=e.Cookie.getSub(\"ucs\",\"lbit\");if(!isNaN(g)&&this.daysSinceTimestamp(g)<=7){this.debug(\"\
+        isUCSFresh\",true);return true}}this.debug(\"isUCSFresh\",false);return false},isReferFromYahoo:function(){var\
+        \ h=d.document.referrer.match(\"://([^:/]*)\");var f=false;if(h&&h.length>1){var\
+        \ g=h[1];if((g===\"localhost\")||(g.lastIndexOf(\".yahoo.com\")===(g.length-10))){f=true}}this.debug(\"\
+        isReferFromYahoo\",f);return f},isFromGINSU:function(){var f=false;if(d.location&&d.location.search&&d.location.search.match(/[&?]fr=(mktg-search-ginsu|search-ginsu-answers|strm-tts-thg)/)){f=true}this.debug(\"\
+        isFromGINSU\",f);return f},isExtensionInstalled:function(){var h=d.document.body.classList;var\
+        \ g=this.get(\"INSTALLED_BODY_CLASS\");var f=g?h.contains(g):false;this.debug(\"\
+        isExtensionInstalled\",f);return f},isSearchLandingPage:function(){return\
+        \ d.YUI_config&&d.Y.config.fp},setLocalStorage:function(){var f=this.get(\"\
+        LOCAL_STORAGE_KEY\");if(d.localStorage){d.localStorage.setItem(f,JSON.stringify({tslo:(new\
+        \ Date()).getTime()}))}},initInstrumentation:function(){if(typeof YAHOO===\"\
+        undefined\"){YAHOO={}}if(!YAHOO.ULT){YAHOO.ULT={}}if(!YAHOO.ULT.BEACON){YAHOO.ULT.BEACON=\"\
+        https://geo.yahoo.com/t\"}YAHOO.ULT.SRC_SPACEID_KEY=\"_S\";YAHOO.ULT.DEST_SPACEID_KEY=\"\
+        _s\";YAHOO.ULT.YLC_LIBSRC=2;YAHOO.ULT.CTRL_C=\"\\x03\";YAHOO.ULT.CTRL_D=\"\
+        \\x04\";YAHOO.ULT.BASE64_STR=\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789._-\"\
+        ;YAHOO.ULT.track_click=function(j,n){if(!j||!n){return j}n._r=YAHOO.ULT.YLC_LIBSRC;var\
+        \ o=[];var l=0;for(var h in n){var g=n[h];if(typeof(g)===\"undefined\"){g=n[h]=\"\
+        \"}if(h.length<1){return j}if(h.length>8){return j}if(h.indexOf(\" \")!==-1){return\
+        \ j}if(YAHOO.ULT.has_ctrl_char(h)||YAHOO.ULT.has_ctrl_char(g)){return j}o[l++]=h}o=o.sort();var\
+        \ m=[];for(l=0;l<o.length;l++){m[l]=o[l]+YAHOO.ULT.CTRL_C+n[o[l]]}m=m.join(YAHOO.ULT.CTRL_D);if(m.length<1||m.length>1024){return\
+        \ j}m=\";_ylc=\"+YAHOO.ULT.encode64(m);l=j.indexOf(\"/*\");if(l===-1){l=j.indexOf(\"\
+        /?\")}if(l===-1){l=j.indexOf(\"?\")}if(l===-1){return j+m}else{return j.substr(0,l)+m+j.substr(l)}};YAHOO.ULT.beacon_click=function(h,g){if(h){var\
+        \ f=YAHOO.ULT.track_click(YAHOO.ULT.BEACON,h);f+=\"?t=\"+Math.random();return\
+        \ f}};YAHOO.ULT.has_ctrl_char=function(g){for(var f=0;f<g.length;f++){if(g.charCodeAt(f)<32){return\
+        \ true}}return false};YAHOO.ULT.encode64=function(h){var f=\"\";var p,n,l=\"\
+        \";var o,m,k,j=\"\";var g=0;do{p=h.charCodeAt(g++);n=h.charCodeAt(g++);l=h.charCodeAt(g++);o=p>>2;m=((p&3)<<4)|(n>>4);k=((n&15)<<2)|(l>>6);j=l&63;if(isNaN(n)){k=j=64}else{if(isNaN(l)){j=64}}f=f+YAHOO.ULT.BASE64_STR.charAt(o)+YAHOO.ULT.BASE64_STR.charAt(m)+YAHOO.ULT.BASE64_STR.charAt(k)+YAHOO.ULT.BASE64_STR.charAt(j);p=n=l=\"\
+        \";o=m=k=j=\"\"}while(g<h.length);return f}},sendBeacon:function(s,f,v){var\
+        \ k=false;var i=this.get(\"TRACKING_CONFIG\");var g=this.getTrafficType&&typeof\
+        \ this.getTrafficType===\"function\"?this.getTrafficType():\"\";try{var u=[{trackEvt:\"\
+        page_info\",trackParams:{intl:i.INTL,vtestid:\"yset_\"+i.PARTNER_CODE+\"_\"\
+        +i.BROWSER+\"_\"+i.VTEST_EXP_ID,browser:i.BROWSER,pc:i.PARTNER_CODE,itype:\"\
+        {itype}\",pt:\"{pt}\",delc:\"upsell\",ttype:g},useYLC:false,trackSpaceID:i.EXT_SPACE_ID},{trackEvt:\"\
+        click_info\",trackParams:{intl:i.INTL,vtestid:\"yset_\"+i.PARTNER_CODE+\"\
+        _\"+i.BROWSER+\"_\"+i.VTEST_EXP_ID,browser:i.BROWSER,pc:i.PARTNER_CODE,sec:\"\
+        {sec}\",slk:\"{slk}\",gpos:\"{gpos}\",_p:\"{_p}\",delc:\"upsell\",ttype:g},useYLC:true,trackSpaceID:i.EXT_SPACE_ID}];if(i.PVID){u[0].trackParams.pvid=i.PVID;u[1].trackParams.pvid=i.PVID}if(i.BUCKET_TYPE){u[0].trackParams.bucketType=i.BUCKET_TYPE;u[1].trackParams.bucketType=i.BUCKET_TYPE}var\
+        \ o=u.length;for(var j=0;j<o;j++){var p=u[j];if(p.trackSpaceID&&(p.trackEvt.toLowerCase()===s.toLowerCase())){var\
+        \ t=p.trackParams||{},h={},r=\"\";for(var n in t){var q=t[n];if(q===\"{pt}\"\
+        ){if(f.params.pt){q=f.params.pt}else{q=null}}else{if(q===\"{itype}\"){if(f.params.itype){q=f.params.itype}else{q=null}}else{if(q===\"\
+        {sec}\"){q=f.params.sec}else{if(q===\"{slk}\"){q=f.params.slk}else{if(q===\"\
+        {gpos}\"){q=f.params.gpos}else{if(q===\"{_p}\"){q=f.params._p}}}}}}if(q){h[n]=q}}if(p.useYLC){h[YAHOO.ULT.SRC_SPACEID_KEY]=p.trackSpaceID;r=YAHOO.ULT.beacon_click(h)}else{h.s=p.trackSpaceID.toString();r=(\"\
+        https://geo.yahoo.com/p?t=\"+Math.random());for(var l in h){r+=(\"&\"+l+\"\
+        =\"+h[l])}}k=new Image;if(typeof v===\"function\"){k.onload=v}k.src=r;break}}}catch(m){}return\
+        \ k},hidePromotion:function(g){e.one(\"#\"+this.get(\"INTERSTITIAL_DOM_ID\"\
+        )).addClass(\"hidden\");if(g){var h={};var f={};if(g===\"escape\"){f.sec=\"\
+        yset_interstitial_close_escapetype\";f.slk=\"yset_interstitial_close_escapetype\"\
+        ;f._p=3}else{if(g===\"mouseClick\"){f.sec=\"yset_interstitial_close_mouseclick\"\
+        ;f.slk=\"yset_interstitial_close_mouseclick\";f._p=2}}f.gpos=1;h.params=f;this.sendBeacon(\"\
+        click_info\",h)}},showPromotion:function(){var f=this;var h=e.one(\"#\"+f.get(\"\
+        INTERSTITIAL_DOM_ID\"));var j=h.one(\".install\");var i=h.one(\".cross\");var\
+        \ g=h.one(\".notnow\");if(f.prepareExtensionInstallation){f.prepareExtensionInstallation()}f.initInstrumentation();h.removeClass(\"\
+        hidden\");f.setLocalStorage();f.onInterstitialShow(j);j.on(\"click\",e.bind(f.onClickInstall,f));i.on(\"\
+        click\",function(){f.hidePromotion(\"mouseClick\")});if(g){g.on(\"click\"\
+        ,function(){f.setLocalStorage();f.hidePromotion(\"mouseClick\")})}d.onkeydown=function(k){if(k.keyCode===27){f.hidePromotion(\"\
+        escape\")}}},showGuideline:function(){var g=this;var f=c.createElement(\"\
+        div\");var j=c.createElement(\"div\");var i=c.createElement(\"div\");var k=c.createElement(\"\
+        div\");var h=c.createElement(\"div\");f.setAttribute(\"id\",\"yset-inline-install-modal-container\"\
+        );j.setAttribute(\"id\",\"yset-inline-install-modal\");i.setAttribute(\"id\"\
+        ,\"yset-inline-install-modal-icon\");if(g.isWindows()){j.classList.add(\"\
+        win\");i.classList.add(\"win\")}if(g.isFirefox()){var l=g.getFirefoxVersion();if(l>56){j.classList.add(\"\
+        ffAbove56\")}j.classList.add(\"ff\");i.classList.add(\"ff\")}k.setAttribute(\"\
+        id\",\"yset-inline-install-modal-heading\");k.textContent=this.get(\"guidelineData\"\
+        )[\"heading\"][\"chrome_firefox\"];h.setAttribute(\"id\",\"yset-inline-install-modal-subHeading\"\
+        );if(g.isChrome()){h.textContent=this.get(\"guidelineData\")[\"subheading\"\
+        ][\"chrome\"]}else{h.textContent=this.get(\"guidelineData\")[\"subheading\"\
+        ][\"firefox\"]}j.appendChild(i);j.appendChild(k);j.appendChild(h);f.appendChild(j);document.body.appendChild(f);document.body.style.overflow=\"\
+        hidden\"},showIeInstallModal:function(){var o=this;var g=c.createElement(\"\
+        div\"),m=c.createElement(\"div\"),p=c.createElement(\"h1\"),f=c.createElement(\"\
+        div\"),i=c.createElement(\"img\"),n=c.createElement(\"div\"),j=c.createElement(\"\
+        a\"),l=c.createElement(\"a\"),k=c.createElement(\"span\"),h=c.createElement(\"\
+        span\");k.textContent=\" and \";h.textContent=\" apply \";g.setAttribute(\"\
+        id\",\"yset_ie_inline-install-modal_container\");m.setAttribute(\"id\",\"\
+        yset_ie_inline-install-modal\");p.setAttribute(\"id\",\"heading\");f.setAttribute(\"\
+        id\",\"subheading\");i.setAttribute(\"id\",\"installerLightboxImg\");n.setAttribute(\"\
+        id\",\"links\");j.setAttribute(\"id\",\"terms\");l.setAttribute(\"id\",\"\
+        policy\");p.textContent=this.get(\"guidelineData\")[\"heading\"][\"ie\"];f.textContent=this.get(\"\
+        guidelineData\")[\"subheading\"][\"ie\"];i.src=this.get(\"guidelineData\"\
+        )[\"ieData\"][\"image\"];j.href=this.get(\"guidelineData\")[\"ieData\"][\"\
+        termsLink\"];j.text=\"Yahoo Terms\";l.href=this.get(\"guidelineData\")[\"\
+        ieData\"][\"PolicyLink\"];l.text=\"Privacy Policy\";n.appendChild(j);n.appendChild(k);n.appendChild(l);n.appendChild(h);m.appendChild(p);m.appendChild(f);m.appendChild(i);m.appendChild(n);g.appendChild(m);document.body.appendChild(g)},closeGuidelineBox:function(){var\
+        \ f;if(this.isIe()){f=document.getElementById(\"yset_ie_inline-install-modal_container\"\
+        )}else{f=document.getElementById(\"yset-inline-install-modal-container\")}f.style.display=\"\
+        none\";document.body.style.overflow=\"auto\";document.body.removeChild(f)},debug:function(){if(!this.get(\"\
+        ENABLE_DEBUG\")){return}var f=Array.prototype.slice.call(arguments,0);f.unshift(this.constructor.NAME);console.log.apply(console,f)}});a.BrowserExtensionPromotionBase=b},\"\
+        1.0.0\",{requires:[\"node\",\"event\",\"base\",\"cookie\"]});YUI.add(\"browser-extension-promotion-fixedPromo\"\
+        ,function(g){var b=g.namespace(\"Search\");var f=g.config.win;var e=g.config.doc;var\
+        \ a={};var d={};function c(h){c.superclass.constructor.apply(this,arguments)}c.init=function(h){c.ATTRS={INSTALL_URLS:{readOnly:true,value:{url:h.extensionUrl}},HASHTAG:{readOnly:true,value:\"\
+        extInstall?partner=oo-srp-promo-ff\"},TRACKING_CONFIG:{readOnly:true,value:{INTL:h.intl,BROWSER:h.browserCode,PARTNER_CODE:\"\
+        web\",VTEST_EXP_ID:\"web_exp_02\",EXT_SPACE_ID:h.spaceId}}};if(h.promoId){if(h.slk){a[h.promoId]=h.slk}if(h.sec){d[h.promoId]=h.sec}}};g.extend(c,b.BrowserExtensionPromotionBase,{initializer:function(h){if(h&&h.win){f=h.win}this.extInstall()},extInstall:function(){var\
+        \ j=this;var l=e.getElementsByClassName(\"amplifyPromo\");for(var m=0;m<l.length;m++){var\
+        \ h=l[m].getElementsByTagName(\"a\");if(h.length>0){var k=j.prepareExtensionInstallation();j.initInstrumentation();if(k){h[0].onclick=function(o){var\
+        \ n=o.target.getAttribute(\"id\");o.preventDefault();if(j.isChrome()){window.open(k,\"\
+        _blank\")}else{if(j.isFirefox()){j.showGuideline();e.location.href=k;if(j.get(\"\
+        HASHTAG\")){e.location.hash=j.get(\"HASHTAG\")}setTimeout(function(){j.closeGuidelineBox()},8000)}else{j.showIeInstallModal();e.location.href=k;var\
+        \ i=e.getElementById(\"yset_ie_inline-install-modal_container\");i.onclick=function(p){j.closeGuidelineBox()}}}j.sendBeacon(\"\
+        click_info\",{params:{_p:1,gpos:1,sec:d[n],slk:a[n]}})}}}}},prepareExtensionInstallation:function(){var\
+        \ i=this.get(\"INSTALL_URLS\")&&this.get(\"INSTALL_URLS\")[\"url\"]||\"\"\
+        ;if(this.isChrome()&&i){var h=e.createElement(\"link\");h.rel=\"chrome-webstore-item\"\
+        ;h.href=i;e.head.appendChild(h)}return i}});b.BrowserExtensionPromotionFixedPromo=c},\"\
+        1.0.0\",{requires:[\"browser-extension-promotion-base\",\"ult-linktrack\"\
+        ]});Y.use(\"browser-extension-promotion-fixedPromo\",function(){new Y.Search.BrowserExtensionPromotionFixedPromo()});}());(function(){Y.use(\"\
+        drop-down\",function(Y){Y.Search.DropDown.init({\"listClass\":\"algo-options\"\
+        ,\"yOffset\":\"148\",\"triggerGroup\":\"results\",\"moduleClass\":\"algo-sr\"\
+        ,\"gridLeftGutter\":\"0\",\"triggerClass\":\"optrg\"});});}());});}if(window.YAHOO.AssetManager){window.YAHOO.AssetManager.requireDry([\"\
+        __combo_srp-util-dropdown\",\"__combo_event-to-load\",\"__combo_retina-identifier\"\
+        ,\"__combo_cosmos-compContainerExp\",\"__combo_cosmos-compImageListGrid\"\
+        ,\"__combo_cosmos-compJsToggle\",\"__combo_browser-extension-promotion-fixedPromo\"\
+        ,\"__combo_cosmos-drop-down\",\"__combo_ymb\"],\"js\");}</script></body></html>\n\
+        <!-- fe101.syc.search.bf1.yahoo.com Sat Jun 13 18:19:08 UTC 2020 -->\n"
+    headers:
+      Age: '0'
+      Cache-Control: private
+      Connection: keep-alive
+      Content-Encoding: gzip
+      Content-Security-Policy: 'frame-ancestors ''none''; default-src ''self'' https://*.yahoo.com
+        https://*.yimg.com; script-src ''self'' ''unsafe-inline'' ''nonce-vgb0STTTh8kDHxADbA0PJw==''
+        ''unsafe-eval'' https://*.yahoo.com https://*.yimg.com https://*.uservoice.com
+        *.oath.com *.yahooapis.com blob:; style-src ''self'' ''unsafe-inline'' https://*.yimg.com;
+        img-src ''self'' data: https://*.bing.net https://*.yimg.com yahoo.com https://*.yahoo.com
+        https://*.bing.com *.here.com *.wc.yahoodns.net https://*.doubleclick.net
+        https://sb.scorecardresearch.com; frame-src ''self'' https://*.youtube.com
+        https://s.yimg.com https://*.yahoo.com https://yahoo.uservoice.com; media-src
+        * blob:; object-src *; connect-src *; font-src * data:;'
+      Content-Type: text/html; charset=UTF-8
+      Date: Sat, 13 Jun 2020 18:19:08 GMT
+      Expect-CT: max-age=31536000, enforce
+      IMAGE_INLINER_BASE64: 'false'
+      IMAGE_INLINER_ENABLE: 'false'
+      P3P: policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR
+        ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi
+        IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+      Referrer-Policy: no-referrer-when-downgrade
+      Server: ATS
+      Set-Cookie: B=39rgpmhfea64s&b=3&s=gm; expires=Sun, 13-Jun-2021 18:19:08 GMT;
+        path=/; domain=.yahoo.com; secure
+      Strict-Transport-Security: max-age=15552000
+      Transfer-Encoding: chunked
+      Vary: Accept-Encoding
+      X-Content-Type-Options: nosniff
+      X-Frame-Options: DENY
+      X-XSS-Protection: 1; mode=block; report=https://csp.search.yahoo.com/xssreport
+    status:
+      code: 200
+      message: OK
+    url: https://search.yahoo.com/search?p=Preaching+the+choir&b=1
+version: 1

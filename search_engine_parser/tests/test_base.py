@@ -3,7 +3,9 @@ import unittest
 from importlib import import_module
 from urllib.parse import urlparse
 
+import vcr
 from parameterized import parameterized_class
+
 from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 
 
@@ -47,9 +49,10 @@ class EngineTests(unittest.TestCase):
     def setUpClass(cls):
         super().setUpClass()
 
-        search_args = ('preaching to the choir', 2)
+        search_args = ('Preaching the choir', 1)
         try:
-            cls.results = cls.engine.search(*search_args)
+            with vcr.use_cassette('fixtures/{}-synopsis.yaml'.format(cls.name), record_mode='once'):
+                cls.results = cls.engine.search(*search_args)
         except NoResultsOrTrafficError:
             raise unittest.SkipTest(
                 '{} failed due to traffic'.format(
