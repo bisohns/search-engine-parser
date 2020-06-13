@@ -23,7 +23,7 @@ class Search(BaseSearch):
         "site claims to have 4.4 million anime and 775,000 manga entries."\
         "\n\tIn 2015, the site received over 120 million visitors a month."
 
-    def get_params(self, query=None, offset=None, page=None, **kwargs):
+    def get_params(self, query=None, page=None, offset=None, **kwargs):
         params = {}
         params["show"] = (math.ceil(page / 5) - 1) * 50
         params["q"] = query
@@ -36,9 +36,9 @@ class Search(BaseSearch):
 
         # The data is stored in table so find all table rows
         # The first row is table header
-        return soup.find(
-            'div',
-            class_='js-categories-seasonal js-block-list list').find_all('tr')[1:]
+        res = soup.find('div', class_='js-categories-seasonal js-block-list list')
+        if res:
+            return res.find_all('tr')[1:]
 
     def parse_single_result(self, single_result, return_type=ReturnType.FULL, **kwargs):
         """

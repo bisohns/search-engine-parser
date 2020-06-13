@@ -11,6 +11,7 @@ from urllib.parse import urlencode, urlparse
 
 import aiohttp
 from bs4 import BeautifulSoup
+
 from search_engine_parser.core import utils
 from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 
@@ -82,7 +83,7 @@ class BaseSearch:
         raise NotImplementedError("subclasses must define method <parse_soup>")
 
     @abstractmethod
-    def parse_single_result(self, single_result, **kwargs):
+    def parse_single_result(self, single_result, return_type=ReturnType.FULL, **kwargs):
         """
         Every div/span containing a result is passed here to retrieve
         `title`, `link` and `descr`
@@ -102,11 +103,8 @@ class BaseSearch:
         """
         search_results = SearchResult()
         for each in results:
-            try:
-                rdict = self.parse_single_result(each, **kwargs)
-                search_results.append(rdict)
-            except Exception as e:  # pylint: disable=invalid-name, broad-except
-                print("Exception: %s" % str(e))
+            rdict = self.parse_single_result(each, **kwargs)
+            search_results.append(rdict)
         return search_results
 
     def get_params(self, query=None, page=None, offset=None, **kwargs):
@@ -168,15 +166,26 @@ class BaseSearch:
     def get_results(self, soup, **kwargs):
         """ Get results from soup"""
 
+        search_results = None
         results = self.parse_soup(soup)
         # TODO Check if empty results is caused by traffic or answers to query
         # were not found
         if not results:
             print("ENGINE FAILURE: {}\n".format(self.name))
             raise NoResultsOrTrafficError(
-                "The result parsing was unsuccessful. It is either your query could not be found" +
+                "The result parsing was unsuccessful. It is either your query could not be found"
                 " or it was flagged as unusual traffic")
-        search_results = self.parse_result(results, **kwargs)
+
+        try:
+            search_results = self.parse_result(results, **kwargs)
+        # AttributeError occurs as it cannot pass the returned soup
+        except AttributeError as e:
+            raise NoResultsOrTrafficError(
+                "The returned results could not be parsed. This might be due to site updates or "
+                "server errors. Drop an issue at https://github.com/bisoncorps/search-engine-parser"
+                " if this persists"
+                )
+
         return search_results
 
     def search(self, query=None, page=None, **kwargs):

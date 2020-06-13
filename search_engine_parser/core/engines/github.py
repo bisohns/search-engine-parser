@@ -97,13 +97,13 @@ class Search(BaseSearch):
                 stars_and_lang_div = single_result.find(
                     'div', class_='d-flex')
                 lang = stars_and_lang_div.find(
-                    'span', itemprop="programmingLanguage").text
+                    'span', itemprop="programmingLanguage")
                 stars = single_result.find('div', class_='mr-3').find(
-                    'a').text.strip()
+                    'a')
                 updated_on = single_result.find("relative-time").get("title")
                 rdict.update({
-                    "stars": stars,
-                    "languages": lang,
+                    "stars": "" if not stars else stars.text.strip(),
+                    "languages": lang.text if lang else "",
                     "updated_on": updated_on,
                 })
 

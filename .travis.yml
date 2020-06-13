@@ -9,6 +9,7 @@ python:
 # Command to install dependencies.
 install:
   - pip install -r requirements/dev.txt
+  - python setup.py install
 
 # Build script (If successfully built - no errors)
 script:
@@ -17,6 +18,7 @@ script:
   - ./scripts/pre_deploy_test.sh
 
 after_success:
+  - pysearch --version
   - python setup.py --version
 
 jobs:

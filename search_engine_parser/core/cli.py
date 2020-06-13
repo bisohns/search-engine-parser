@@ -8,6 +8,7 @@ import sys
 from importlib import import_module
 
 from blessed import Terminal
+from search_engine_parser import __version__
 from search_engine_parser.core.base import ReturnType
 from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 
@@ -24,11 +25,11 @@ def display(results, term, **args):
             print("\t{}".format(kwargs.pop("links")))
             print("\t-----------------------------------------------------")
         if kwargs.get("descriptions"):
-            print(kwargs.pop("descriptions"), "\n")
+            print(kwargs.pop("descriptions"))
         if kwargs.values():
             for k, v in kwargs.items():
                 if v:
-                    print(k, " : ", v, '\n')
+                    print(k.strip(), " : ", v)
         print("\n")
 
 
@@ -37,7 +38,6 @@ def display(results, term, **args):
             "Results are only limited to 10, specify a different page number instead")
 
     if not args.get('rank'):
-        # TODO Some more optimization might be need
         len_results = 0
         for i in results:
             print_one(i)
@@ -81,6 +81,8 @@ def runner():
     runner that handles parsing logic
     """
     parser = argparse.ArgumentParser(description='SearchEngineParser', prog="pysearch")
+
+    parser.add_argument('-V', '--version', action="version", version="%(prog)s v" + __version__)
     parser.add_argument(
         '-e', '--engine',
         help='Engine to use for parsing the query e.g google, yahoo, bing,'
