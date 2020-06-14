@@ -25,6 +25,7 @@ def get_engines():
             engines.append([engine, engine_class(),])
     return engines
 
+
 def validate_url(url):
     """ Checks if a url is valid
     urls must contain scheme, netloc and path
@@ -76,7 +77,13 @@ class EngineTests(unittest.TestCase):
         """ Tests if returned result items are equal. 
         :param args: a list/tuple of other keys returned
         """
+        # Different engines have different keys which may be returned or not returned
+        # So if all keys are not the same length check that the titles and links length are 
+        # the same
+        default_keys = ["titles", "links"]
+        default_keys_set = set(map(lambda x: len(self.results[x]), default_keys))
+
         items = self.results.keys()
         items_set = set(map(lambda x: len(self.results[x]), items))
 
-        self.assertTrue(len(items_set) == 1)
+        self.assertTrue(len(items_set) == 1 or len(default_keys_set) == 1)

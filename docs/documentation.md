@@ -19,7 +19,7 @@ Write the appropriate summary, and document the class and every function as foll
 """
 
 
-class FakeEngineSearch(BaseSearch):
+class Search(BaseSearch):
     """
     Searches FakeEngine for string
     """
