@@ -38,19 +38,26 @@ The engine modules are in the [search_engine_parser/core/engines/](https://githu
         # name of the engine to be displayed on the CLI, preferably PascalCase
         name = "FakeEngine"
         # engine url to be search, with parameters to be formatted e.g query , page
-        search_url = "https://search.fake.com/fake/search?q={query}&page={page}"
+        search_url = "https://search.fake.com/fake/search"
         # a short 2 or 3 line summary of the engine with some statistics, preferably obtained from wikipedia
         summary = "\t According to netmarketshare, this site is balderdash among "\
 	      "search engines with a market share that is close to 100%. "\
 	      "The fake engine includes many popular features but was solely created to show you an example ."
 
         
+        # this function should return the dict of params to be passed to the search_url
+        def get_params(self, query=None, page=None, offset=None, **kwargs):
+          params = {}
+          params["q"] =query
+          params["page"] = page
+          return params
+
         # This function should use beautiful soup (combined with regex if necessary) 
         # to return all the divs containiing results
         def parse_soup(self, soup):
             return soup.find_all('div', class_='fake-result-div')
         
-        # This function should parse each div to return title, link, and description 
+        # This function should parse each result soup to return title, link, and description 
         # NOTE: The implementation may not be as straightforward as shown below
         def parse_single_result(self, single_result):
             title_div = single_result.find('div', class_='fake-title')
@@ -69,32 +76,13 @@ The engine modules are in the [search_engine_parser/core/engines/](https://githu
 
 * Import the engine by adding to the following files
 
-[search_engine_parser/core/engines/__init__.py](https://github.com/bisoncorps/search-engine-parser/blob/master/search_engine_parser/core/engines/__init__.py)
+[search_engine_parser/__init__.py](https://github.com/bisoncorps/search-engine-parser/blob/master/search_engine_parser/__init__.py)
 
 ```python
     ...
-    from .fake import FakeEngineSearch
+    from search_engine_parser.core.engines.fake import Search as FakeEngineSearch
 ```
 
-[search_engine_parser/core/__init__.py](https://github.com/bisoncorps/search-engine-parser/blob/master/search_engine_parser/core/__init__.py)
-
-```python
-    from search_engine_parser.core.engines import (
-        ...
-        FakeEngineSearch
-    )
-```
-
-* Write Tests for the Engine to the [search_engine_parser/test/](https://github.com/bisoncorps/search-engine-parser/blob/master/search_engine_parser/test) directory
-
-* Include into the CLI at [search_engine_parser/core/cli.py](https://github.com/bisoncorps/search-engine-parser/blob/master/search_engine_parser/core/cli.py)
-
-```python
-    def main(args):
-        ...
-        elif engine == 'fake':
-            engine_class = FakeEngineSearch
-```
 
 * Make sure to write code documentation by following the [documentation guide](https://github.com/bisoncorps/search-engine-parser/blob/master/docs/documentation.md#documenting-an-engine)
 

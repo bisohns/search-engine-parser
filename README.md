@@ -83,33 +83,40 @@ Found on [Read the Docs](https://search-engine-parser.readthedocs.io/en/latest)
 Query Results can be scraped from popular search engines as shown in the example snippet below
 
 ```python
-    from search_engine_parser.engines.yahoo import Search as YahooSearch
-    from search_engine_parser.engines.google import Search as GoogleSearch
-    from search_engine_parser.engines.bing import Search as BingSearch
-    import pprint
+  import pprint
 
-    search_args = ('preaching to the choir', 1)
-    gsearch = GoogleSearch()
-    ysearch = YahooSearch()
-    bsearch = BingSearch()
-    gresults = gsearch.search(*search_args)
-    yresults = ysearch.search(*search_args)
-    bresults = bsearch.search(*search_args)
-    a = {
-        "Google": gresults,
-        "Yahoo": yresults,
-        "Bing": bresults}
-    # pretty print the result from each engine
-    for k, v in a.items():
-        print(f"-------------{k}------------")
-            pprint.pprint(v)
+  from search_engine_parser.core.engines.bing import Search as BingSearch
+  from search_engine_parser.core.engines.google import Search as GoogleSearch
+  from search_engine_parser.core.engines.yahoo import Search as YahooSearch
 
-    # print first title from google search
-    print(gresults["titles"][0])
-    # print 10th link from yahoo search
-    print(yresults["links"][9])
-    # print 6th description from bing search
-    print(bresults["descriptions"][5])
+  search_args = ('preaching to the choir', 1)
+  gsearch = GoogleSearch()
+  ysearch = YahooSearch()
+  bsearch = BingSearch()
+  gresults = gsearch.search(*search_args)
+  yresults = ysearch.search(*search_args)
+  bresults = bsearch.search(*search_args)
+  a = {
+      "Google": gresults,
+      "Yahoo": yresults,
+      "Bing": bresults
+      }
+
+  # pretty print the result from each engine
+  for k, v in a.items():
+      print(f"-------------{k}------------")
+      for result in v:
+          pprint.pprint(result)
+
+  # print first title from google search
+  print(gresults["titles"][0])
+  # print 10th link from yahoo search
+  print(yresults["links"][9])
+  # print 6th description from bing search
+  print(bresults["descriptions"][5])
+
+  # print first result containing links, descriptions and title
+  print(gresults[0])
 ```
 
 For localization, you can pass the `url` keyword and a localized url. This would use the url to query and parse using the same engine's parser
@@ -117,6 +124,26 @@ For localization, you can pass the `url` keyword and a localized url. This would
   # Use google.de instead of google.com
   results = gsearch.search(*search_args, url="google.de")
 ```
+
+#### Async
+search-engine-parser supports `async` hence you could use codes like
+```python
+   results = await gsearch.async_search(*search_args)
+```
+
+#### Results
+The `SearchResults` after the searching
+```python
+  >>> results = gsearch.search("preaching the choir", 1)
+  >>> results
+  <search_engine_parser.core.base.SearchResult object at 0x7f907426a280>
+  # The object supports retreiving individual results by iteration of just by type (links, descriptions, titles)
+  >>> results[0] # Returns the first <SearchItem>
+  >>> results[0]["description"] # Get the description of the first item
+  >>> results[0]["link"] # get the link of the first item
+  >>> results["descriptions"] # Returns a list of all descriptions from all results
+```
+It can be iterated like a normal list to return individual SearchItem
 
 ### Command line
 

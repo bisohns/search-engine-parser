@@ -26,10 +26,41 @@ class ReturnType(Enum):
 
 # All results returned are each items of search
 class SearchItem(dict):
-    pass
+    """ 
+    SearchItem is a dict of results containing keys (titles, descriptions, links and other 
+    additional keys dependending on the engine)
+    >>> result
+    <search_engine_parser.core.base.SearchItem object at 0x7f907426a280>
+    >>> result["description"]
+    Some description
+    >>> result["descriptions"]
+    Same description
+    """
+    def __getitem__(self, value):
+        """ Allow getting by index and by type ('descriptions', 'links'...)"""
+        try:
+            return super().__getitem__(value)
+        except KeyError:
+            pass
+        if not value.endswith('s'):
+            value += 's'
+        return super().__getitem__(value)
 
 
 class SearchResult():
+    """ 
+    The SearchResults after the searching
+
+    >>> results = gsearch.search("preaching the choir", 1)
+    >>> results
+    <search_engine_parser.core.base.SearchResult object at 0x7f907426a280>
+
+    The object supports retreiving individual results by iteration of just by type
+    >>> results[0] # Returns the first result <SearchItem>
+    >>> results["descriptions"] # Returns a list of all descriptions from all results
+
+    It can be iterated like a normal list to return individual SearchItem
+    """
     # Hold the results
     results = []
     # This method is inefficient, it will be in Deprecation soon
@@ -54,8 +85,11 @@ class SearchResult():
             keys = x.keys()
         return keys 
 
-    def __len__(self):
-       return len(self.results)
+    def __len__(self): 
+        return len(self.results)
+
+    def __repr_(self):
+        return "<SearchResult: {} results>".format(len(self.results))
 
 
 class BaseSearch:
@@ -188,7 +222,7 @@ class BaseSearch:
 
         return search_results
 
-    def search(self, query=None, page=None, **kwargs):
+    def search(self, query=None, page=1, **kwargs):
         """
         Query the search engine
 
@@ -206,7 +240,7 @@ class BaseSearch:
                     query, page, **kwargs)))
         return self.get_results(soup, **kwargs)
 
-    async def async_search(self, query=None, page=None, callback=None, **kwargs):
+    async def async_search(self, query=None, page=1, callback=None, **kwargs):
         """
         Query the search engine but in async mode
 

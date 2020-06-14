@@ -21,6 +21,8 @@
 
 """
 
+# Allow import using `search_engine_parser.engines`
+from search_engine_parser.core import engines
 # Support for older versions of imports
 # DEPRECATION_WARNING: These imports will be removed in later versions
 from search_engine_parser.core.engines.aol import Search as AolSearch
