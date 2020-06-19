@@ -15,6 +15,7 @@ from bs4 import BeautifulSoup
 from search_engine_parser.core import utils
 from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 
+CACHEHANDLER = utils.CacheHandler()
 
 @unique
 class ReturnType(Enum):
@@ -153,7 +154,18 @@ class BaseSearch:
         }
         return headers
 
-    async def get_source(self, url):
+    def clear_cache(self, all_cache=False):
+        """
+        Triggers the clear cache function for a particular engine
+
+        :param all_cache: if True, deletes for all engines
+        """
+        if all_cache:
+            CACHEHANDLER.clear()
+        else:
+            CACHEHANDLER.clear(self.name)
+
+    async def get_source(self, url, cache=True):
         """
         Returns the source code of a webpage.
 
@@ -162,20 +174,18 @@ class BaseSearch:
         :return: html source code of a given URL.
         """
         try:
-            async with aiohttp.ClientSession() as session:
-                async with session.get(url, headers=self.headers()) as resp:
-                    html = await resp.text()
+            html = await CACHEHANDLER.get_source(self.name, url, self.headers(), cache)
         except Exception as exc:
             raise Exception('ERROR: {}\n'.format(exc))
-        return str(html)
+        return html
 
-    async def get_soup(self, url):
+    async def get_soup(self, url, cache):
         """
         Get the html soup of a query
 
         :rtype: `bs4.element.ResultSet`
         """
-        html = await self.get_source(url)
+        html = await self.get_source(url, cache)
         return BeautifulSoup(html, 'lxml')
 
     def get_search_url(self, query=None, page=None, **kwargs):
@@ -222,7 +232,7 @@ class BaseSearch:
 
         return search_results
 
-    def search(self, query=None, page=1, **kwargs):
+    def search(self, query=None, page=1, cache=True, **kwargs):
         """
         Query the search engine
 
@@ -237,7 +247,8 @@ class BaseSearch:
         soup = loop.run_until_complete(
             self.get_soup(
                 self.get_search_url(
-                    query, page, **kwargs)))
+                    query, page, **kwargs),
+                cache=cache))
         return self.get_results(soup, **kwargs)
 
     async def async_search(self, query=None, page=1, callback=None, **kwargs):

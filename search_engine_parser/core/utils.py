@@ -1,4 +1,10 @@
+import os
 import random
+import pickle
+import hashlib
+import aiohttp
+
+FILEPATH = os.path.dirname(os.path.abspath(__file__))
 
 # prevent caching
 USER_AGENT_LIST = [
@@ -16,3 +22,58 @@ USER_AGENT_LIST = [
 
 def get_rand_user_agent():
     return random.choice(USER_AGENT_LIST)
+
+
+class CacheHandler:
+    def __init__(self):
+        if not os.path.exists(os.path.join(FILEPATH, "cache")):
+            os.makedirs("cache")
+        self.cache = os.path.join(FILEPATH, "cache")
+        enginelist = os.listdir(os.path.join(FILEPATH, "engines"))
+        self.engine_cache = {i[:-3]: os.path.join(self.cache, i[:-3]) for i in enginelist if i not in
+                             ("__init__.py")}
+        for cache in self.engine_cache.values():
+            if not os.path.exists(cache):
+                os.makedirs(cache)
+
+    async def get_source(self, engine, url, headers, cache=True):
+        """
+        Retrieves source code of webpage from internet or from cache
+
+        :rtype: str
+        :param engine: engine of the engine saving
+        :param url: URL to pull source code from
+        :param headers: request headers to make use of
+        :param cache: use cache or not
+        """
+        encodedUrl = url.encode("utf-8")
+        urlhash = hashlib.sha256(encodedUrl).hexdigest()
+        engine = engine.lower()
+        cache_path = os.path.join(self.engine_cache[engine], urlhash)
+        if os.path.exists(cache_path) and cache:
+            with open(cache_path, 'rb') as stream:
+                return pickle.load(stream)
+        async with aiohttp.ClientSession() as session:
+            async with session.get(url, headers=headers) as resp:
+                html = await resp.text()
+                with open(cache_path, 'wb') as stream:
+                    pickle.dump(str(html), stream)
+                return str(html)
+
+    def clear(self, engine=None):
+        """
+        Clear the entire cache either by engine name
+        or just all
+
+        :param engine: engine to clear
+        """
+        if not engine:
+            for engine_cache in self.engine_cache.values():
+                for root, dirs, files in os.walk(engine_cache):
+                    for f in files:
+                        os.remove(os.path.join(engine_cache, f))
+        else:
+            engine_cache = self.engine_cache[engine.lower()]
+            for _, _, files in os.walk(engine_cache):
+                for f in files:
+                    os.remove(os.path.join(engine_cache, f))
