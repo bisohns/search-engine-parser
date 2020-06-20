@@ -125,14 +125,15 @@ For localization, you can pass the `url` keyword and a localized url. This would
   results = gsearch.search(*search_args, url="google.de")
 ```
 
-The results are automatically cached for engine searches, you can either bypass cache by adding `cache=False` to the `search` method or clear the engines cache 
+#### Cache
+The results are automatically cached for engine searches, you can either bypass cache by adding `cache=False` to the `search` or `async_search` method or clear the engines cache 
 ```python
-    github = GitHubSearch()
+    from search_engine_parser.core.engines.github import Search as GitHub
+    github = GitHub()
     # bypass the cache
     github.search("search-engine-parser", cache=False)
 
     #OR
-
     # clear cache before search
     github.clear_cache()
     github.search("search-engine-parser")

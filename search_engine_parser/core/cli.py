@@ -5,12 +5,9 @@ from __future__ import print_function
 
 import argparse
 import sys
-from importlib import import_module
 from datetime import datetime
+from importlib import import_module
 
-from blessed import Terminal
-from search_engine_parser import __version__
-from search_engine_parser.core.base import ReturnType
 from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 
 
@@ -78,7 +75,6 @@ def main(args):  # pylint: disable=too-many-branches
         duration = datetime.now() - start
         display(results, term, type=args.get('type'), rank=args.get('rank'))
         print("Total search took -> %s seconds" %(duration)) 
-        print("Used Cache -> {}".format(not args["clear_cache"]))
     except NoResultsOrTrafficError as exc:
         print('\n', '{}'.format(term.red(str(exc))))
 

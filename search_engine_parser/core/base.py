@@ -15,7 +15,6 @@ from bs4 import BeautifulSoup
 from search_engine_parser.core import utils
 from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 
-CACHEHANDLER = utils.CacheHandler()
 
 @unique
 class ReturnType(Enum):
@@ -126,6 +125,15 @@ class BaseSearch:
         raise NotImplementedError(
             "subclasses must define method <parse_results>")
 
+    def get_cache_handler(self):
+        """ Return Cache Handler to use"""
+
+        return utils.CacheHandler()
+
+    @property
+    def cache_handler(self):
+        return self.get_cache_handler()
+
     def parse_result(self, results, **kwargs):
         """
         Runs every entry on the page through parse_single_result
@@ -161,9 +169,8 @@ class BaseSearch:
         :param all_cache: if True, deletes for all engines
         """
         if all_cache:
-            CACHEHANDLER.clear()
-        else:
-            CACHEHANDLER.clear(self.name)
+            return self.cache_handler.clear()
+        return self.cache_handler.clear(self.name)
 
     async def get_source(self, url, cache=True):
         """
@@ -174,7 +181,7 @@ class BaseSearch:
         :return: html source code of a given URL.
         """
         try:
-            html = await CACHEHANDLER.get_source(self.name, url, self.headers(), cache)
+            html = await self.cache_handler.get_source(self.name, url, self.headers(), cache)
         except Exception as exc:
             raise Exception('ERROR: {}\n'.format(exc))
         return html
@@ -251,7 +258,7 @@ class BaseSearch:
                 cache=cache))
         return self.get_results(soup, **kwargs)
 
-    async def async_search(self, query=None, page=1, callback=None, **kwargs):
+    async def async_search(self, query=None, page=1, cache=True, **kwargs):
         """
         Query the search engine but in async mode
 
@@ -259,12 +266,7 @@ class BaseSearch:
         :type query: str
         :param page: Page to be displayed, defaults to 1
         :type page: int
-        :param callback: The callback function to execute when results are returned
-        :type page: function
         :return: dictionary. Containing titles, links, netlocs and descriptions.
         """
-        # TODO callback should be called
-        if callback:
-            pass
-        soup = await self.get_soup(self.get_search_url(query, page, **kwargs))
+        soup = await self.get_soup(self.get_search_url(query, page, **kwargs), cache=cache)
         return self.get_results(soup, **kwargs)
