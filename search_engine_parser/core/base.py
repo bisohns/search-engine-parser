@@ -209,10 +209,10 @@ class BaseSearch:
             # such as google.de and google.com
             if kwargs.get("url"):
                 new_url = urlparse(kwargs.pop("url"))
-				if new_url.scheme == '':
-					url._replace(netloc=new_url.path)
-				else:
-		    		url._replace(netloc=new_url.netloc)
+                if new_url.scheme == '':
+                    url._replace(netloc=new_url.path)
+                else:
+                    url._replace(netloc=new_url.netloc)
             self._parsed_url = url._replace(query=urlencode(params))
 
         return self._parsed_url.geturl()
