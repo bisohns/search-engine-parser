@@ -9,6 +9,8 @@ from parameterized import parameterized_class
 
 from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 
+SEARCH_ARGS = ('Preaching the choir', 1)
+
 
 def get_engines():
     """ Returns a list of all engines for tests """
@@ -74,10 +76,63 @@ class TestScraping(unittest.TestCase):
     def setUpClass(cls):
         super().setUpClass()
 
-        search_args = ('Preaching the choir', 1)
         try:
-            with vcr.use_cassette('fixtures/{}-synopsis.yaml'.format(cls.name), record_mode='once'):
-                cls.results = cls.engine.search(*search_args)
+            cls.vcr_search(*SEARCH_ARGS)
+        except NoResultsOrTrafficError:
+            raise unittest.SkipTest(
+                '{} failed due to traffic'.format(
+                    cls.engine))
+    
+    @classmethod
+    def vcr_search(cls, *args, **kwargs):
+        with vcr.use_cassette('fixtures/{}-synopsis.yaml'.format(cls.name), record_mode='once'):
+            cls.results = cls.engine.search(*args, **kwargs)
+    
+    @classmethod
+    def test_cache_used(cls):
+        """
+        Test that the cache was used 
+        """
+        try:
+            cls.vcr_search(*SEARCH_ARGS)
+            if cls.engine._cache_hit == False:
+                assert False, "{} cache - unexpected miss".format(
+                    cls.engine.name)
+        except NoResultsOrTrafficError:
+            raise unittest.SkipTest(
+                '{} failed due to traffic'.format(
+                    cls.engine))
+
+    @classmethod
+    def test_cache_not_used(cls):
+        """
+        Test that the cache was used 
+        """
+        search_args = ('Another random test', 1)
+        try:
+            cls.vcr_search(*search_args)
+            if cls.engine._cache_hit == True:
+                assert False, "{} cache - unexpected hit".format(
+                    cls.engine.name)
+        except NoResultsOrTrafficError:
+            raise unittest.SkipTest(
+                '{} failed due to traffic'.format(
+                    cls.engine))
+
+    @classmethod
+    def test_cache_bypassed(cls):
+        """
+        Test that cache was bypassed
+        """
+        # wrongly set cls.engine._cache_hit
+        cls.engine._cache_hit = True
+        search_args = ('Fake cache bypass', 1)
+        search_kwargs = {"cache": False}
+        try:
+            cls.vcr_search(*search_args, **search_kwargs)
+            if cls.engine._cache_hit == True:
+                assert False, "{} cache - not bypassed".format(
+                    cls.engine.name)
         except NoResultsOrTrafficError:
             raise unittest.SkipTest(
                 '{} failed due to traffic'.format(
