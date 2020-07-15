@@ -199,22 +199,22 @@ class BaseSearch:
         """
         Return a formatted search url
         """
-        if not self._parsed_url:
-            # Some URLs use offsets
-            offset = (page * 10) - 9
-            params = self.get_params(
-            	query=query, page=page, offset=offset, **kwargs)
-            url = urlparse(self.search_url)
-            # For localization purposes, custom urls can be parsed for the same engine
-            # such as google.de and google.com
-            if kwargs.get("url"):
-                new_url = urlparse(kwargs.pop("url"))
-                # When passing without scheme e.g google.de, url is parsed as path
-                if not new_url.netloc:
-                    url = url._replace(netloc=new_url.path)
-                else:
-                    url = url._replace(netloc=new_url.netloc)
-            self._parsed_url = url._replace(query=urlencode(params))
+        # Some URLs use offsets
+        offset = (page * 10) - 9
+        params = self.get_params(
+            query=query, page=page, offset=offset, **kwargs)
+        url = urlparse(self.search_url)
+        # For localization purposes, custom urls can be parsed for the same engine
+        # such as google.de and google.com
+        if kwargs.get("url"):
+            new_url = urlparse(kwargs.pop("url"))
+            # When passing without scheme e.g google.de, url is parsed as path
+            if not new_url.netloc:
+                url = url._replace(netloc=new_url.path)
+            else:
+                url = url._replace(netloc=new_url.netloc)
+        self._parsed_url = url._replace(query=urlencode(params))
+        print(self._parsed_url.geturl())
 
         return self._parsed_url.geturl()
 
@@ -255,11 +255,11 @@ class BaseSearch:
         """
         # Get search Page Results
         loop = asyncio.get_event_loop()
+        url = self.get_search_url(
+                    query, page, **kwargs)
+        print(url)
         soup = loop.run_until_complete(
-            self.get_soup(
-                self.get_search_url(
-                    query, page, **kwargs),
-                cache=cache))
+            self.get_soup(url, cache=cache))
         return self.get_results(soup, **kwargs)
 
     async def async_search(self, query=None, page=1, cache=True, **kwargs):
