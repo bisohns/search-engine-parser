@@ -26,8 +26,8 @@ class ReturnType(Enum):
 
 # All results returned are each items of search
 class SearchItem(dict):
-    """ 
-    SearchItem is a dict of results containing keys (titles, descriptions, links and other 
+    """
+    SearchItem is a dict of results containing keys (titles, descriptions, links and other
     additional keys dependending on the engine)
     >>> result
     <search_engine_parser.core.base.SearchItem object at 0x7f907426a280>
@@ -48,7 +48,7 @@ class SearchItem(dict):
 
 
 class SearchResult():
-    """ 
+    """
     The SearchResults after the searching
 
     >>> results = gsearch.search("preaching the choir", 1)
@@ -83,9 +83,9 @@ class SearchResult():
         with suppress(IndexError):
             x = self.results[0]
             keys = x.keys()
-        return keys 
+        return keys
 
-    def __len__(self): 
+    def __len__(self):
         return len(self.results)
 
     def __repr_(self):
@@ -203,13 +203,17 @@ class BaseSearch:
             # Some URLs use offsets
             offset = (page * 10) - 9
             params = self.get_params(
-                query=query, page=page, offset=offset, **kwargs)
+            	query=query, page=page, offset=offset, **kwargs)
             url = urlparse(self.search_url)
             # For localization purposes, custom urls can be parsed for the same engine
             # such as google.de and google.com
             if kwargs.get("url"):
                 new_url = urlparse(kwargs.pop("url"))
-                url._replace(netloc=new_url.netloc)
+                # When passing without scheme e.g google.de, url is parsed as path
+                if not new_url.netloc:
+                    url = url._replace(netloc=new_url.path)
+                else:
+                    url = url._replace(netloc=new_url.netloc)
             self._parsed_url = url._replace(query=urlencode(params))
 
         return self._parsed_url.geturl()

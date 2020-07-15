@@ -8,10 +8,13 @@ import sys
 from datetime import datetime
 from importlib import import_module
 
+from blessed import Terminal
+from search_engine_parser import __version__
+from search_engine_parser.core.base import ReturnType
 from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 
 
-def display(results, term, **args):
+def display(results, term, args):
     """ Displays search results
     """
     def print_one(kwargs):
@@ -31,18 +34,32 @@ def display(results, term, **args):
         print("\n")
 
 
-    if args.get('rank') and args["rank"] > 10:
+    if args.rank and args.rank > 10:
         sys.exit(
             "Results are only limited to 10, specify a different page number instead")
 
-    if not args.get('rank'):
-        len_results = 0
+    if not args.rank:
         for i in results:
             print_one(i)
     else:
-        rank = args["rank"]
+        rank = args.rank
         print_one(results[rank])
-            
+
+
+def get_engine_class(engine):
+    """ Return the Engine Class """
+    try:
+        module = import_module(f"search_engine_parser.core.engines.{engine.lower()}")
+        return getattr(module, "Search")
+    except (ImportError, ModuleNotFoundError):
+        sys.exit('Engine < {} > does not exist'.format(engine))
+
+
+def show_summary(term, engine_class):
+    """ Show the summary of an Engine"""
+    print("\t{}".format(term.magenta(engine_class.name)))
+    print("\t-----------------------------------------------------")
+    print(engine_class.summary)
 
 
 def main(args):  # pylint: disable=too-many-branches
@@ -50,31 +67,24 @@ def main(args):  # pylint: disable=too-many-branches
         Executes logic from parsed arguments
     """
     term = Terminal()
-    engine = args['engine']
-    try:
-        module = import_module(f"search_engine_parser.core.engines.{engine.lower()}")
-        engine_class = getattr(module, "Search")
-    except (ImportError, ModuleNotFoundError):
-        sys.exit('Engine < {} > does not exist'.format(engine))
+    engine_class = get_engine_class(args.engine)
 
-    # check if in summary mode
-    if args.get("show"):
-        print("\t{}".format(term.magenta(engine_class.name)))
-        print("\t-----------------------------------------------------")
-        print(engine_class.summary)
-        sys.exit(0)
+    if args.show_summary:
+        show_summary(term, engine_class)
+        return
 
     # Initialize search Engine with required params
     engine = engine_class()
     try:
-        if args['clear_cache']:
+        if args.clear_cache:
             engine.clear_cache()
         # Display full details: Header, Link, Description
         start = datetime.now()
-        results = engine.search(args['query'], args['page'], return_type=ReturnType(args["type"]), url=args.get("url"))
+        results = engine.search(
+            args.query, args.page, return_type=ReturnType(args.type), url=args.url)
         duration = datetime.now() - start
-        display(results, term, type=args.get('type'), rank=args.get('rank'))
-        print("Total search took -> %s seconds" %(duration)) 
+        display(results, term, args)
+        print("Total search took -> %s seconds" %(duration))
     except NoResultsOrTrafficError as exc:
         print('\n', '{}'.format(term.red(str(exc))))
 
@@ -86,57 +96,56 @@ def runner():
     parser = argparse.ArgumentParser(description='SearchEngineParser', prog="pysearch")
 
     parser.add_argument('-V', '--version', action="version", version="%(prog)s v" + __version__)
+
     parser.add_argument(
         '-e', '--engine',
         help='Engine to use for parsing the query e.g google, yahoo, bing,'
              'duckduckgo (default: google)',
         default='google')
-    # add subparsers for summary mode and search mode
-    subparsers = parser.add_subparsers(help='help for subcommands')
 
-    parser_search = subparsers.add_parser('search', help='search help')
+    parser.add_argument(
+        '--show-summary',
+        action='store_true',
+        help='Shows the summary of an engine')
 
-    parser_search.add_argument(
+    parser.add_argument(
         '-u',
         '--url',
         help='A custom link to use as base url for search e.g google.de')
 
-    parser_search.add_argument(
+    parser.add_argument(
         '-q',
         '--query',
         help='Query string to search engine for',
         required=True)
-    parser_search.add_argument(
+    parser.add_argument(
         '-p',
         '--page',
         type=int,
         help='Page of the result to return details for (default: 1)',
         default=1)
-    parser_search.add_argument(
+    parser.add_argument(
         '-t', '--type',
         help='Type of detail to return i.e full, links, desciptions or titles (default: full)',
         default="full")
-    parser_search.add_argument(
-        '-cc', '--clear_cache',
+    parser.add_argument(
+        '-cc', '--clear-cache',
         action='store_true',
         help='Clear cache of engine before searching'
         )
-    parser_search.add_argument(
+    parser.add_argument(
         '-r',
         '--rank',
         type=int,
         help='ID of Detail to return e.g 5 (default: 0)')
 
-    parser_summary = subparsers.add_parser('summary', help='summary help')
-    parser_summary.add_argument(
-        '-s',
-        '--show',
-        type=int,
-        help='Show engine description (default: 1)',
-        default=1)
 
-    args = vars(parser.parse_args())
-    main(args)
+    args = parser.parse_args()
+    # If subcommand has associated function, run the function else call main
+    try:
+        args.func(args)
+    except AttributeError:
+        main(args)
 
 
 if __name__ == '__main__':
