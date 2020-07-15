@@ -203,13 +203,16 @@ class BaseSearch:
             # Some URLs use offsets
             offset = (page * 10) - 9
             params = self.get_params(
-                query=query, page=page, offset=offset, **kwargs)
+            	query=query, page=page, offset=offset, **kwargs)
             url = urlparse(self.search_url)
             # For localization purposes, custom urls can be parsed for the same engine
             # such as google.de and google.com
             if kwargs.get("url"):
                 new_url = urlparse(kwargs.pop("url"))
-                url._replace(netloc=new_url.netloc)
+				if new_url.scheme == '':
+					url._replace(netloc=new_url.path)
+				else:
+		    		url._replace(netloc=new_url.netloc)
             self._parsed_url = url._replace(query=urlencode(params))
 
         return self._parsed_url.geturl()
