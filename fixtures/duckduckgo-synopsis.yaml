@@ -11,749 +11,110 @@ interactions:
       Connection:
       - keep-alive
       Host:
+      - www.duckduckgo.com
+      User-Agent:
+      - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like
+        Gecko) Chrome/19.0.1084.46 Safari/536.5
+    method: GET
+    uri: https://www.duckduckgo.com/html/?q=Preaching+to+the+choir&s=0&dc=1&o=json&api=d.js
+  response:
+    body: {}
+    headers:
+      Cache-Control: max-age=31536000
+      Connection: keep-alive
+      Content-Length: '162'
+      Content-Type: text/html
+      Date: Thu, 16 Jul 2020 10:28:17 GMT
+      Expires: Fri, 16 Jul 2021 10:28:17 GMT
+      Location: https://duckduckgo.com/html/?q=Preaching+to+the+choir&s=0&dc=1&o=json&api=d.js
+      Server: nginx
+      Strict-Transport-Security: max-age=31536000
+    status:
+      code: 301
+      message: Moved Permanently
+    url: https://www.duckduckgo.com/html/?q=Preaching+to+the+choir&s=0&dc=1&o=json&api=d.js
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      Host:
       - duckduckgo.com
       User-Agent:
-      - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0
+      - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like
+        Gecko) Chrome/19.0.1084.46 Safari/536.5
     method: GET
-    uri: https://duckduckgo.com/html/?q=Preaching+the+choir&s=0&dc=1&o=json&api=d.js
+    uri: https://duckduckgo.com/html/?q=Preaching+to+the+choir&s=0&dc=1&o=json&api=d.js
   response:
-    body:
-      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"\
-        http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n\n<!--[if IE 6]><html\
-        \ class=\"ie6\" xmlns=\"http://www.w3.org/1999/xhtml\"><![endif]-->\n<!--[if\
-        \ IE 7]><html class=\"lt-ie8 lt-ie9\" xmlns=\"http://www.w3.org/1999/xhtml\"\
-        ><![endif]-->\n<!--[if IE 8]><html class=\"lt-ie9\" xmlns=\"http://www.w3.org/1999/xhtml\"\
-        ><![endif]-->\n<!--[if gt IE 8]><!--><html xmlns=\"http://www.w3.org/1999/xhtml\"\
-        ><!--<![endif]-->\n<head>\n  <meta http-equiv=\"content-type\" content=\"\
-        text/html; charset=UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width,\
-        \ initial-scale=1.0, maximum-scale=3.0, user-scalable=1\" />\n  <meta name=\"\
-        referrer\" content=\"origin\" />\n  <meta name=\"HandheldFriendly\" content=\"\
-        true\" />\n  <meta name=\"robots\" content=\"noindex, nofollow\" />\n  <title>Preaching\
-        \ the choir at DuckDuckGo</title>\n  <link title=\"DuckDuckGo (HTML)\" type=\"\
-        application/opensearchdescription+xml\" rel=\"search\" href=\"/opensearch_html.xml\"\
-        \ />\n  <link href=\"/favicon.ico\" rel=\"shortcut icon\" />\n  <link rel=\"\
-        apple-touch-icon\" href=\"/assets/logo_icon128.v101.png\"/>\n  <link rel=\"\
-        image_src\" href=\"/assets/logo_homepage.normal.v101.png\"/>  \n  <link type=\"\
-        text/css\" media=\"handheld, all\" href=\"/h1904.css\" rel=\"stylesheet\"\
-        \ />\n</head>\n\n<body class=\"body--html\">\n  <a name=\"top\" id=\"top\"\
-        ></a>\n\n  <form action=\"/html/\" method=\"post\">\n    <input type=\"text\"\
-        \ name=\"state_hidden\" id=\"state_hidden\" />\n  </form>\n\n  <div>\n   \
-        \ <div class=\"site-wrapper-border\"></div>\n\n    <div id=\"header\" class=\"\
-        header cw header--html\">\n        <a title=\"DuckDuckGo\" href=\"/html/\"\
-        \ class=\"header__logo-wrap\"></a>\n\n\n    <form name=\"x\" class=\"header__form\"\
-        \ action=\"/html/\" method=\"post\">\n\n      <div class=\"search search--header\"\
-        >\n          <input name=\"q\" autocomplete=\"off\" class=\"search__input\"\
-        \ id=\"search_form_input_homepage\" type=\"text\" value=\"Preaching the choir\"\
-        \ />\n          <input name=\"b\" id=\"search_button_homepage\" class=\"search__button\
-        \ search__button--html\" value=\"\" title=\"Search\" alt=\"Search\" type=\"\
-        submit\" />\n      </div>\n\n\n        \n        \n        \n        \n  \
-        \      \n\n    <div class=\"frm__select\">\n      <select name=\"kl\">\n \
-        \     \n        <option value=\"\" >All Regions</option>\n      \n       \
-        \ <option value=\"ar-es\" >Argentina</option>\n      \n        <option value=\"\
-        au-en\" >Australia</option>\n      \n        <option value=\"at-de\" >Austria</option>\n\
-        \      \n        <option value=\"be-fr\" >Belgium (fr)</option>\n      \n\
-        \        <option value=\"be-nl\" >Belgium (nl)</option>\n      \n        <option\
-        \ value=\"br-pt\" >Brazil</option>\n      \n        <option value=\"bg-bg\"\
-        \ >Bulgaria</option>\n      \n        <option value=\"ca-en\" >Canada</option>\n\
-        \      \n        <option value=\"ca-fr\" >Canada (fr)</option>\n      \n \
-        \       <option value=\"ct-ca\" >Catalonia</option>\n      \n        <option\
-        \ value=\"cl-es\" >Chile</option>\n      \n        <option value=\"cn-zh\"\
-        \ >China</option>\n      \n        <option value=\"co-es\" >Colombia</option>\n\
-        \      \n        <option value=\"hr-hr\" >Croatia</option>\n      \n     \
-        \   <option value=\"cz-cs\" >Czech Republic</option>\n      \n        <option\
-        \ value=\"dk-da\" >Denmark</option>\n      \n        <option value=\"ee-et\"\
-        \ >Estonia</option>\n      \n        <option value=\"fi-fi\" >Finland</option>\n\
-        \      \n        <option value=\"fr-fr\" >France</option>\n      \n      \
-        \  <option value=\"de-de\" >Germany</option>\n      \n        <option value=\"\
-        gr-el\" >Greece</option>\n      \n        <option value=\"hk-tzh\" >Hong Kong</option>\n\
-        \      \n        <option value=\"hu-hu\" >Hungary</option>\n      \n     \
-        \   <option value=\"in-en\" >India</option>\n      \n        <option value=\"\
-        id-id\" >Indonesia</option>\n      \n        <option value=\"id-en\" >Indonesia\
-        \ (en)</option>\n      \n        <option value=\"ie-en\" >Ireland</option>\n\
-        \      \n        <option value=\"il-he\" >Israel</option>\n      \n      \
-        \  <option value=\"it-it\" >Italy</option>\n      \n        <option value=\"\
-        jp-jp\" >Japan</option>\n      \n        <option value=\"kr-kr\" >Korea</option>\n\
-        \      \n        <option value=\"lv-lv\" >Latvia</option>\n      \n      \
-        \  <option value=\"lt-lt\" >Lithuania</option>\n      \n        <option value=\"\
-        my-ms\" >Malaysia</option>\n      \n        <option value=\"my-en\" >Malaysia\
-        \ (en)</option>\n      \n        <option value=\"mx-es\" >Mexico</option>\n\
-        \      \n        <option value=\"nl-nl\" >Netherlands</option>\n      \n \
-        \       <option value=\"nz-en\" >New Zealand</option>\n      \n        <option\
-        \ value=\"no-no\" >Norway</option>\n      \n        <option value=\"pe-es\"\
-        \ >Peru</option>\n      \n        <option value=\"ph-en\" >Philippines</option>\n\
-        \      \n        <option value=\"pl-pl\" >Poland</option>\n      \n      \
-        \  <option value=\"pt-pt\" >Portugal</option>\n      \n        <option value=\"\
-        ro-ro\" >Romania</option>\n      \n        <option value=\"ru-ru\" >Russia</option>\n\
-        \      \n        <option value=\"xa-ar\" >Saudi Arabia</option>\n      \n\
-        \        <option value=\"sg-en\" >Singapore</option>\n      \n        <option\
-        \ value=\"sk-sk\" >Slovakia</option>\n      \n        <option value=\"sl-sl\"\
-        \ >Slovenia</option>\n      \n        <option value=\"za-en\" >South Africa</option>\n\
-        \      \n        <option value=\"es-es\" >Spain</option>\n      \n       \
-        \ <option value=\"es-ca\" >Spain (ca)</option>\n      \n        <option value=\"\
-        se-sv\" >Sweden</option>\n      \n        <option value=\"ch-de\" >Switzerland\
-        \ (de)</option>\n      \n        <option value=\"ch-fr\" >Switzerland (fr)</option>\n\
-        \      \n        <option value=\"ch-it\" >Switzerland (it)</option>\n    \
-        \  \n        <option value=\"tw-tzh\" >Taiwan</option>\n      \n        <option\
-        \ value=\"th-th\" >Thailand</option>\n      \n        <option value=\"tr-tr\"\
-        \ >Turkey</option>\n      \n        <option value=\"us-en\" >US (English)</option>\n\
-        \      \n        <option value=\"us-es\" >US (Spanish)</option>\n      \n\
-        \        <option value=\"uk-en\" >United Kingdom</option>\n      \n      \
-        \  <option value=\"vn-vi\" >Vietnam</option>\n      \n      </select>\n  \
-        \  </div>\n\n    <div class=\"frm__select frm__select--last\">\n      <select\
-        \ class=\"\" name=\"df\">\n      \n        <option value=\"\" selected>Any\
-        \ Time</option>\n      \n        <option value=\"d\" >Past Day</option>\n\
-        \      \n        <option value=\"w\" >Past Week</option>\n      \n       \
-        \ <option value=\"m\" >Past Month</option>\n      \n        <option value=\"\
-        y\" >Past Year</option>\n      \n      </select>\n    </div>\n\n    </form>\n\
-        \n    </div>\n\n\n\n\n\n<!-- Web results are present -->\n\n  <div>\n  <div\
-        \ class=\"serp__results\">\n  <div id=\"links\" class=\"results\">\n\n   \
-        \   \n\n\n\n  \n\n\n            <div class=\"result results_links results_links_deep\
-        \ web-result \">\n\n\n          <div class=\"links_main links_deep result__body\"\
-        > <!-- This is the visible part -->\n\n          <h2 class=\"result__title\"\
-        >\n          \n            <a rel=\"nofollow\" class=\"result__a\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.urbandictionary.com%2Fdefine.php%3Fterm%3Dpreaching%2520to%2520the%2520choir\"\
-        >Urban Dictionary: <b>preaching</b> to <b>the</b> <b>choir</b></a>\n     \
-        \     \n          </h2>\n\n      \n\n            <div class=\"result__extras\"\
-        >\n                <div class=\"result__extras__url\">\n                 \
-        \ <span class=\"result__icon\">\n                    \n                  \
-        \    <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.urbandictionary.com%2Fdefine.php%3Fterm%3Dpreaching%2520to%2520the%2520choir\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.urbandictionary.com.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.urbandictionary.com%2Fdefine.php%3Fterm%3Dpreaching%2520to%2520the%2520choir\"\
-        >\n                  www.urbandictionary.com/define.php?term=preaching to\
-        \ the choir\n                  </a>\n\n                  \n\n            \
-        \    </div>\n            </div>\n\n            \n                  <a class=\"\
-        result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.urbandictionary.com%2Fdefine.php%3Fterm%3Dpreaching%2520to%2520the%2520choir\"\
-        ><b>Preaching</b> to <b>the</b> <b>choir</b> means you are trying to make\
-        \ believers out of people who already believe, or convince people who are\
-        \ already convinced.</a>\n            \n\n            <div style=\"clear:\
-        \ both\"></div>\n          </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n\
-        \            <div class=\"result results_links results_links_deep web-result\
-        \ \">\n\n\n          <div class=\"links_main links_deep result__body\"> <!--\
-        \ This is the visible part -->\n\n          <h2 class=\"result__title\">\n\
-        \          \n            <a rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.phrases.org.uk%2Fmeanings%2Fpreaching%2Dto%2Dthe%2Dchoir.html\"\
-        >What&#x27;s the meaning and origin of the phrase <b>&#x27;Preaching</b> to\
-        \ <b>the</b> <b>choir&#x27;</b>?</a>\n          \n          </h2>\n\n    \
-        \  \n\n            <div class=\"result__extras\">\n                <div class=\"\
-        result__extras__url\">\n                  <span class=\"result__icon\">\n\
-        \                    \n                      <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.phrases.org.uk%2Fmeanings%2Fpreaching%2Dto%2Dthe%2Dchoir.html\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.phrases.org.uk.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.phrases.org.uk%2Fmeanings%2Fpreaching%2Dto%2Dthe%2Dchoir.html\"\
-        >\n                  www.phrases.org.uk/meanings/preaching-to-the-choir.html\n\
-        \                  </a>\n\n                  \n\n                </div>\n\
-        \            </div>\n\n            \n                  <a class=\"result__snippet\"\
-        \ href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.phrases.org.uk%2Fmeanings%2Fpreaching%2Dto%2Dthe%2Dchoir.html\"\
-        ><b>&#x27;Preaching</b> to <b>the</b> <b>choir&#x27;</b> originated in the\
-        \ USA in the 1970s. It clearly refers to the pointlessness of a preacher attempting\
-        \ to convert those who, by their presence in church, have already demonstrated...</a>\n\
-        \            \n\n            <div style=\"clear: both\"></div>\n         \
-        \ </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"\
-        result results_links results_links_deep web-result \">\n\n\n          <div\
-        \ class=\"links_main links_deep result__body\"> <!-- This is the visible part\
-        \ -->\n\n          <h2 class=\"result__title\">\n          \n            <a\
-        \ rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fidioms.thefreedictionary.com%2Fpreach%2Bto%2Bthe%2Bchoir\"\
-        >Preach to the <b>choir</b> - Idioms by The Free Dictionary</a>\n        \
-        \  \n          </h2>\n\n      \n\n            <div class=\"result__extras\"\
-        >\n                <div class=\"result__extras__url\">\n                 \
-        \ <span class=\"result__icon\">\n                    \n                  \
-        \    <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fidioms.thefreedictionary.com%2Fpreach%2Bto%2Bthe%2Bchoir\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/idioms.thefreedictionary.com.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fidioms.thefreedictionary.com%2Fpreach%2Bto%2Bthe%2Bchoir\"\
-        >\n                  idioms.thefreedictionary.com/preach+to+the+choir\n  \
-        \                </a>\n\n                  \n\n                </div>\n  \
-        \          </div>\n\n            \n                  <a class=\"result__snippet\"\
-        \ href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fidioms.thefreedictionary.com%2Fpreach%2Bto%2Bthe%2Bchoir\"\
-        >preach to the <b>choir</b>. To try to convince someone about something that\
-        \ they already support; to state one&#x27;s opinion to those who are already\
-        \ most receptive to it.</a>\n            \n\n            <div style=\"clear:\
-        \ both\"></div>\n          </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n\
-        \            <div class=\"result results_links results_links_deep web-result\
-        \ \">\n\n\n          <div class=\"links_main links_deep result__body\"> <!--\
-        \ This is the visible part -->\n\n          <h2 class=\"result__title\">\n\
-        \          \n            <a rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fanswers.yahoo.com%2Fquestion%2Findex%3Fqid%3D20061121201433AAPBGfd\"\
-        >What does &quot;you&#x27;re <b>preaching</b> to <b>the</b> <b>choir</b>&quot;\
-        \ mean? | Yahoo Answers</a>\n          \n          </h2>\n\n      \n\n   \
-        \         <div class=\"result__extras\">\n                <div class=\"result__extras__url\"\
-        >\n                  <span class=\"result__icon\">\n                    \n\
-        \                      <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fanswers.yahoo.com%2Fquestion%2Findex%3Fqid%3D20061121201433AAPBGfd\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/answers.yahoo.com.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fanswers.yahoo.com%2Fquestion%2Findex%3Fqid%3D20061121201433AAPBGfd\"\
-        >\n                  answers.yahoo.com/question/index?qid=20061121201433AAPBGfd\n\
-        \                  </a>\n\n                  \n\n                </div>\n\
-        \            </div>\n\n            \n                  <a class=\"result__snippet\"\
-        \ href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fanswers.yahoo.com%2Fquestion%2Findex%3Fqid%3D20061121201433AAPBGfd\"\
-        >&quot;<b>preaching</b> to <b>the</b> <b>choir</b>&quot; means trying to make\
-        \ a point to someone who already agrees with your position. The analogy meaning\
-        \ that those in the <b>choir</b> are already familiar with the <b>preaching</b>...\
-        \ it&#x27;s...</a>\n            \n\n            <div style=\"clear: both\"\
-        ></div>\n          </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n        \
-        \    <div class=\"result results_links results_links_deep web-result \">\n\
-        \n\n          <div class=\"links_main links_deep result__body\"> <!-- This\
-        \ is the visible part -->\n\n          <h2 class=\"result__title\">\n    \
-        \      \n            <a rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fen.wiktionary.org%2Fwiki%2Fpreach_to_the_choir\"\
-        >preach to the <b>choir</b> - Wiktionary</a>\n          \n          </h2>\n\
-        \n      \n\n            <div class=\"result__extras\">\n                <div\
-        \ class=\"result__extras__url\">\n                  <span class=\"result__icon\"\
-        >\n                    \n                      <a rel=\"nofollow\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fen.wiktionary.org%2Fwiki%2Fpreach_to_the_choir\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/en.wiktionary.org.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fen.wiktionary.org%2Fwiki%2Fpreach_to_the_choir\"\
-        >\n                  en.wiktionary.org/wiki/preach_to_the_choir\n        \
-        \          </a>\n\n                  \n\n                </div>\n        \
-        \    </div>\n\n            \n                  <a class=\"result__snippet\"\
-        \ href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fen.wiktionary.org%2Fwiki%2Fpreach_to_the_choir\"\
-        >preach to the <b>choir</b>. (idiomatic) To speak as if to convince a person\
-        \ or group of something they already believe. 1999, Frank Pellegrini, &quot;Now\
-        \ the Tax Cut Is in the Hands of the Voters,&quot; Time, 6 Aug.: Jay Branegan\
-        \ says each side will be <b>preaching</b> to <b>the</b> <b>choir</b>.</a>\n\
-        \            \n\n            <div style=\"clear: both\"></div>\n         \
-        \ </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"\
-        result results_links results_links_deep web-result \">\n\n\n          <div\
-        \ class=\"links_main links_deep result__body\"> <!-- This is the visible part\
-        \ -->\n\n          <h2 class=\"result__title\">\n          \n            <a\
-        \ rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.facebook.com%2FPreaching%2Dto%2Dthe%2DChoir%2D587116577982441%2Fposts\"\
-        ><b>Preaching</b> to <b>the</b> <b>Choir</b> - Posts | Facebook</a>\n    \
-        \      \n          </h2>\n\n      \n\n            <div class=\"result__extras\"\
-        >\n                <div class=\"result__extras__url\">\n                 \
-        \ <span class=\"result__icon\">\n                    \n                  \
-        \    <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.facebook.com%2FPreaching%2Dto%2Dthe%2DChoir%2D587116577982441%2Fposts\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.facebook.com.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.facebook.com%2FPreaching%2Dto%2Dthe%2DChoir%2D587116577982441%2Fposts\"\
-        >\n                  www.facebook.com/Preaching-to-the-Choir-587116577982441/posts\n\
-        \                  </a>\n\n                  \n\n                </div>\n\
-        \            </div>\n\n            \n                  <a class=\"result__snippet\"\
-        \ href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.facebook.com%2FPreaching%2Dto%2Dthe%2DChoir%2D587116577982441%2Fposts\"\
-        ><b>Preaching</b> to <b>the</b> <b>Choir</b> is feeling blessed. December\
-        \ 5 at 9:04 PM \xB7. Jesus is not the only person to <b>Preaching</b> to <b>the</b>\
-        \ <b>Choir</b>. November 29 at 11:17 PM \xB7. When asked, &quot;what I&#x27;m\
-        \ I most thankful for&quot;, my...</a>\n            \n\n            <div style=\"\
-        clear: both\"></div>\n          </div>\n\n        </div>\n\n  \n\n\n\n  \n\
-        \n\n            <div class=\"result results_links results_links_deep web-result\
-        \ \">\n\n\n          <div class=\"links_main links_deep result__body\"> <!--\
-        \ This is the visible part -->\n\n          <h2 class=\"result__title\">\n\
-        \          \n            <a rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fenglish.stackexchange.com%2Fq%2F126667\"\
-        >idioms - Secular alternative to &quot;<b>preaching</b> to <b>the</b> <b>choir</b>&quot;?</a>\n\
-        \          \n          </h2>\n\n      \n\n            <div class=\"result__extras\"\
-        >\n                <div class=\"result__extras__url\">\n                 \
-        \ <span class=\"result__icon\">\n                    \n                  \
-        \    <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fenglish.stackexchange.com%2Fq%2F126667\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/english.stackexchange.com.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fenglish.stackexchange.com%2Fq%2F126667\"\
-        >\n                  english.stackexchange.com/q/126667\n                \
-        \  </a>\n\n                  \n\n                </div>\n            </div>\n\
-        \n            \n                  <a class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fenglish.stackexchange.com%2Fq%2F126667\"\
-        >&quot;<b>Preaching</b> to <b>the</b> <b>choir</b>&quot; is in fact a phrase\
-        \ that used in secular situations. It is effective because religion is perhaps\
-        \ the best metaphor for deeply rooted beliefs which are not rationally based.</a>\n\
-        \            \n\n            <div style=\"clear: both\"></div>\n         \
-        \ </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"\
-        result results_links results_links_deep web-result \">\n\n\n          <div\
-        \ class=\"links_main links_deep result__body\"> <!-- This is the visible part\
-        \ -->\n\n          <h2 class=\"result__title\">\n          \n            <a\
-        \ rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.gingersoftware.com%2Fcontent%2Fphrases%2Fpreaching%2Dto%2Dthe%2Dchoir%2F\"\
-        ><b>&#x27;Preaching</b> to <b>the</b> <b>Choir&#x27;</b> | Definition, Origin,\
-        \ &amp; Examples</a>\n          \n          </h2>\n\n      \n\n          \
-        \  <div class=\"result__extras\">\n                <div class=\"result__extras__url\"\
-        >\n                  <span class=\"result__icon\">\n                    \n\
-        \                      <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.gingersoftware.com%2Fcontent%2Fphrases%2Fpreaching%2Dto%2Dthe%2Dchoir%2F\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.gingersoftware.com.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.gingersoftware.com%2Fcontent%2Fphrases%2Fpreaching%2Dto%2Dthe%2Dchoir%2F\"\
-        >\n                  www.gingersoftware.com/content/phrases/preaching-to-the-choir/\n\
-        \                  </a>\n\n                  \n\n                </div>\n\
-        \            </div>\n\n            \n                  <a class=\"result__snippet\"\
-        \ href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.gingersoftware.com%2Fcontent%2Fphrases%2Fpreaching%2Dto%2Dthe%2Dchoir%2F\"\
-        ><b>The</b> phrase <b>&#x27;Preaching</b> to the Coir&#x27; means to commend\
-        \ an opinion to those who already accept it. Example of use: &quot;You don&#x27;t\
-        \ need to tell me this project is important; you&#x27;re <b>preaching</b>\
-        \ to <b>the</b> <b>choir</b>.&quot;</a>\n            \n\n            <div\
-        \ style=\"clear: both\"></div>\n          </div>\n\n        </div>\n\n  \n\
-        \n\n\n  \n\n\n            <div class=\"result results_links results_links_deep\
-        \ web-result \">\n\n\n          <div class=\"links_main links_deep result__body\"\
-        > <!-- This is the visible part -->\n\n          <h2 class=\"result__title\"\
-        >\n          \n            <a rel=\"nofollow\" class=\"result__a\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.collinsdictionary.com%2Fdictionary%2Fenglish%2Fto%2Dpreach%2Dto%2Dthe%2Dchoir\"\
-        >To preach to the <b>choir</b> definition and meaning | Collins English...</a>\n\
-        \          \n          </h2>\n\n      \n\n            <div class=\"result__extras\"\
-        >\n                <div class=\"result__extras__url\">\n                 \
-        \ <span class=\"result__icon\">\n                    \n                  \
-        \    <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.collinsdictionary.com%2Fdictionary%2Fenglish%2Fto%2Dpreach%2Dto%2Dthe%2Dchoir\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.collinsdictionary.com.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.collinsdictionary.com%2Fdictionary%2Fenglish%2Fto%2Dpreach%2Dto%2Dthe%2Dchoir\"\
-        >\n                  www.collinsdictionary.com/dictionary/english/to-preach-to-the-choir\n\
-        \                  </a>\n\n                  \n\n                </div>\n\
-        \            </div>\n\n            \n                  <a class=\"result__snippet\"\
-        \ href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.collinsdictionary.com%2Fdictionary%2Fenglish%2Fto%2Dpreach%2Dto%2Dthe%2Dchoir\"\
-        >Most of these seminars were <b>preaching</b> to <b>the</b> <b>choir</b> so\
-        \ there was little debate to be had. But her unexamined equation of socialism\
-        \ with moral virtue is simply <b>preaching</b> to <b>the</b> <b>choir</b>.</a>\n\
-        \            \n\n            <div style=\"clear: both\"></div>\n         \
-        \ </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"\
-        result results_links results_links_deep web-result \">\n\n\n          <div\
-        \ class=\"links_main links_deep result__body\"> <!-- This is the visible part\
-        \ -->\n\n          <h2 class=\"result__title\">\n          \n            <a\
-        \ rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0374923%2F\"\
-        >On the One (2005) - IMDb</a>\n          \n          </h2>\n\n      \n\n \
-        \           <div class=\"result__extras\">\n                <div class=\"\
-        result__extras__url\">\n                  <span class=\"result__icon\">\n\
-        \                    \n                      <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0374923%2F\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.imdb.com.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0374923%2F\">\n\
-        \                  www.imdb.com/title/tt0374923/\n                  </a>\n\
-        \n                  \n\n                </div>\n            </div>\n\n   \
-        \         \n                  <a class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0374923%2F\"\
-        >&quot;Walking Dead&quot; Actress Plans to Launch TV Show Called &quot; <b>Preaching</b>\
-        \ to <b>the</b> <b>Choir</b>&quot; 19 November 2017 | TVovermind.com.</a>\n\
-        \            \n\n            <div style=\"clear: both\"></div>\n         \
-        \ </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"\
-        result results_links results_links_deep web-result \">\n\n\n          <div\
-        \ class=\"links_main links_deep result__body\"> <!-- This is the visible part\
-        \ -->\n\n          <h2 class=\"result__title\">\n          \n            <a\
-        \ rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.eveonline.com%2Ffr%2Farticle%2Fpreaching%2Dto%2Dthe%2Dchoir\"\
-        ><b>Preaching</b> to <b>the</b> <b>Choir</b> | EVE Online</a>\n          \n\
-        \          </h2>\n\n      \n\n            <div class=\"result__extras\">\n\
-        \                <div class=\"result__extras__url\">\n                  <span\
-        \ class=\"result__icon\">\n                    \n                      <a\
-        \ rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.eveonline.com%2Ffr%2Farticle%2Fpreaching%2Dto%2Dthe%2Dchoir\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.eveonline.com.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.eveonline.com%2Ffr%2Farticle%2Fpreaching%2Dto%2Dthe%2Dchoir\"\
-        >\n                  www.eveonline.com/fr/article/preaching-to-the-choir\n\
-        \                  </a>\n\n                  \n\n                </div>\n\
-        \            </div>\n\n            \n                  <a class=\"result__snippet\"\
-        \ href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.eveonline.com%2Ffr%2Farticle%2Fpreaching%2Dto%2Dthe%2Dchoir\"\
-        ><b>Preaching</b> to <b>the</b> <b>Choir</b>.</a>\n            \n\n      \
-        \      <div style=\"clear: both\"></div>\n          </div>\n\n        </div>\n\
-        \n  \n\n\n\n  \n\n\n            <div class=\"result results_links results_links_deep\
-        \ web-result \">\n\n\n          <div class=\"links_main links_deep result__body\"\
-        > <!-- This is the visible part -->\n\n          <h2 class=\"result__title\"\
-        >\n          \n            <a rel=\"nofollow\" class=\"result__a\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.jrmyprtr.com%2Fpreaching%2Dto%2Dthe%2Dchoir%2F\"\
-        >Why you should be <b>preaching</b> to <b>the</b> <b>choir</b></a>\n     \
-        \     \n          </h2>\n\n      \n\n            <div class=\"result__extras\"\
-        >\n                <div class=\"result__extras__url\">\n                 \
-        \ <span class=\"result__icon\">\n                    \n                  \
-        \    <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.jrmyprtr.com%2Fpreaching%2Dto%2Dthe%2Dchoir%2F\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.jrmyprtr.com.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.jrmyprtr.com%2Fpreaching%2Dto%2Dthe%2Dchoir%2F\"\
-        >\n                  www.jrmyprtr.com/preaching-to-the-choir/\n          \
-        \        </a>\n\n                  \n\n                </div>\n          \
-        \  </div>\n\n            \n                  <a class=\"result__snippet\"\
-        \ href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.jrmyprtr.com%2Fpreaching%2Dto%2Dthe%2Dchoir%2F\"\
-        >&quot;<b>Preaching</b> to <b>the</b> <b>choir</b>&quot;. It&#x27;s a phrase\
-        \ I&#x27;ve heard many times. It&#x27;s commonly said in not-for-profits Plouffe\
-        \ was <b>preaching</b> to <b>the</b> <b>choir</b>. He was giving supporters\
-        \ valuable information so they could help...</a>\n            \n\n       \
-        \     <div style=\"clear: both\"></div>\n          </div>\n\n        </div>\n\
-        \n  \n\n\n\n  \n\n\n            <div class=\"result results_links results_links_deep\
-        \ web-result \">\n\n\n          <div class=\"links_main links_deep result__body\"\
-        > <!-- This is the visible part -->\n\n          <h2 class=\"result__title\"\
-        >\n          \n            <a rel=\"nofollow\" class=\"result__a\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.youtube.com%2Fplaylist%3Flist%3DPLIqL_f67VbhEbZFikmCVuoEXhyJ0_bhkg\"\
-        ><b>Preaching</b> to <b>the</b> <b>choir</b> - YouTube</a>\n          \n \
-        \         </h2>\n\n      \n\n            <div class=\"result__extras\">\n\
-        \                <div class=\"result__extras__url\">\n                  <span\
-        \ class=\"result__icon\">\n                    \n                      <a\
-        \ rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.youtube.com%2Fplaylist%3Flist%3DPLIqL_f67VbhEbZFikmCVuoEXhyJ0_bhkg\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.youtube.com.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.youtube.com%2Fplaylist%3Flist%3DPLIqL_f67VbhEbZFikmCVuoEXhyJ0_bhkg\"\
-        >\n                  www.youtube.com/playlist?list=PLIqL_f67VbhEbZFikmCVuoEXhyJ0_bhkg\n\
-        \                  </a>\n\n                  \n\n                </div>\n\
-        \            </div>\n\n            \n                  <a class=\"result__snippet\"\
-        \ href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.youtube.com%2Fplaylist%3Flist%3DPLIqL_f67VbhEbZFikmCVuoEXhyJ0_bhkg\"\
-        ><b>Preaching</b> to <b>the</b> <b>choir</b>. Diva 504. 329 \u0432\u0438\u0434\
-        \u0435\u043E.</a>\n            \n\n            <div style=\"clear: both\"\
-        ></div>\n          </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n        \
-        \    <div class=\"result results_links results_links_deep web-result \">\n\
-        \n\n          <div class=\"links_main links_deep result__body\"> <!-- This\
-        \ is the visible part -->\n\n          <h2 class=\"result__title\">\n    \
-        \      \n            <a rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Frationalwiki.org%2Fwiki%2FPreaching_to_the_choir\"\
-        ><b>Preaching</b> to <b>the</b> <b>choir</b> - RationalWiki</a>\n        \
-        \  \n          </h2>\n\n      \n\n            <div class=\"result__extras\"\
-        >\n                <div class=\"result__extras__url\">\n                 \
-        \ <span class=\"result__icon\">\n                    \n                  \
-        \    <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Frationalwiki.org%2Fwiki%2FPreaching_to_the_choir\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/rationalwiki.org.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Frationalwiki.org%2Fwiki%2FPreaching_to_the_choir\"\
-        >\n                  rationalwiki.org/wiki/Preaching_to_the_choir\n      \
-        \            </a>\n\n                  \n\n                </div>\n      \
-        \      </div>\n\n            \n                  <a class=\"result__snippet\"\
-        \ href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Frationalwiki.org%2Fwiki%2FPreaching_to_the_choir\"\
-        >&quot;<b>Preaching</b> to <b>the</b> <b>choir</b>&quot; or &quot;<b>preaching</b>\
-        \ to the converted&quot; is a figure of speech that refers to a situation\
-        \ when someone is making an argument to an individual or group of people who\
-        \ already agree with that argument.</a>\n            \n\n            <div\
-        \ style=\"clear: both\"></div>\n          </div>\n\n        </div>\n\n  \n\
-        \n\n\n  \n\n\n            <div class=\"result results_links results_links_deep\
-        \ web-result \">\n\n\n          <div class=\"links_main links_deep result__body\"\
-        > <!-- This is the visible part -->\n\n          <h2 class=\"result__title\"\
-        >\n          \n            <a rel=\"nofollow\" class=\"result__a\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fharpers.org%2Farchive%2F2017%2F11%2Fpreaching%2Dto%2Dthe%2Dchoir%2F\"\
-        >[Easy Chair] | <b>Preaching</b> to <b>The</b> <b>Choir</b>, by... | Harper&#x27;s\
-        \ Magazine</a>\n          \n          </h2>\n\n      \n\n            <div\
-        \ class=\"result__extras\">\n                <div class=\"result__extras__url\"\
-        >\n                  <span class=\"result__icon\">\n                    \n\
-        \                      <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fharpers.org%2Farchive%2F2017%2F11%2Fpreaching%2Dto%2Dthe%2Dchoir%2F\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/harpers.org.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fharpers.org%2Farchive%2F2017%2F11%2Fpreaching%2Dto%2Dthe%2Dchoir%2F\"\
-        >\n                  harpers.org/archive/2017/11/preaching-to-the-choir/\n\
-        \                  </a>\n\n                  \n\n                </div>\n\
-        \            </div>\n\n            \n                  <a class=\"result__snippet\"\
-        \ href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fharpers.org%2Farchive%2F2017%2F11%2Fpreaching%2Dto%2Dthe%2Dchoir%2F\"\
-        ><b>The</b> phrase <b>preaching</b> to <b>the</b> <b>choir</b> properly means\
-        \ hectoring your listeners with arguments they already agree with, and it&#x27;s\
-        \ a common sin of radicals, the tendency to denounce others as a way of...</a>\n\
-        \            \n\n            <div style=\"clear: both\"></div>\n         \
-        \ </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"\
-        result results_links results_links_deep web-result \">\n\n\n          <div\
-        \ class=\"links_main links_deep result__body\"> <!-- This is the visible part\
-        \ -->\n\n          <h2 class=\"result__title\">\n          \n            <a\
-        \ rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=http%3A%2F%2Fwww.scp%2Dwiki.net%2Fpreaching%2Dto%2Dthe%2Dchoir\"\
-        ><b>Preaching</b> To <b>The</b> <b>Choir</b> - SCP Foundation</a>\n      \
-        \    \n          </h2>\n\n      \n\n            <div class=\"result__extras\"\
-        >\n                <div class=\"result__extras__url\">\n                 \
-        \ <span class=\"result__icon\">\n                    \n                  \
-        \    <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=http%3A%2F%2Fwww.scp%2Dwiki.net%2Fpreaching%2Dto%2Dthe%2Dchoir\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.scp-wiki.net.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=http%3A%2F%2Fwww.scp%2Dwiki.net%2Fpreaching%2Dto%2Dthe%2Dchoir\"\
-        >\n                  www.scp-wiki.net/preaching-to-the-choir\n           \
-        \       </a>\n\n                  \n\n                </div>\n           \
-        \ </div>\n\n            \n                  <a class=\"result__snippet\" href=\"\
-        /l/?kh=-1&amp;uddg=http%3A%2F%2Fwww.scp%2Dwiki.net%2Fpreaching%2Dto%2Dthe%2Dchoir\"\
-        ><b>Preaching</b> To <b>The</b> <b>Choir</b>. rating: +28+-x.</a>\n      \
-        \      \n\n            <div style=\"clear: both\"></div>\n          </div>\n\
-        \n        </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"result results_links\
-        \ results_links_deep web-result \">\n\n\n          <div class=\"links_main\
-        \ links_deep result__body\"> <!-- This is the visible part -->\n\n       \
-        \   <h2 class=\"result__title\">\n          \n            <a rel=\"nofollow\"\
-        \ class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fforum.wordreference.com%2Fthreads%2Fpreaching%2Dto%2Dthe%2Dchoir.923315%2F\"\
-        ><b>preaching</b> to <b>the</b> <b>choir</b> | WordReference Forums</a>\n\
-        \          \n          </h2>\n\n      \n\n            <div class=\"result__extras\"\
-        >\n                <div class=\"result__extras__url\">\n                 \
-        \ <span class=\"result__icon\">\n                    \n                  \
-        \    <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fforum.wordreference.com%2Fthreads%2Fpreaching%2Dto%2Dthe%2Dchoir.923315%2F\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/forum.wordreference.com.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fforum.wordreference.com%2Fthreads%2Fpreaching%2Dto%2Dthe%2Dchoir.923315%2F\"\
-        >\n                  forum.wordreference.com/threads/preaching-to-the-choir.923315/\n\
-        \                  </a>\n\n                  \n\n                </div>\n\
-        \            </div>\n\n            \n                  <a class=\"result__snippet\"\
-        \ href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fforum.wordreference.com%2Fthreads%2Fpreaching%2Dto%2Dthe%2Dchoir.923315%2F\"\
-        ><b>preaching</b> to <b>the</b> <b>choir</b>. Thread starter Andador. Start\
-        \ date Apr 20, 2008. Nunca he o\xEDdo &quot;You&#x27;re <b>preaching</b> to\
-        \ <b>the</b> <b>choir</b>&quot;, sino &quot;You&#x27;re <b>preaching</b> to\
-        \ the converted&quot; el cual lleva el mismo sentido de lo...</a>\n      \
-        \      \n\n            <div style=\"clear: both\"></div>\n          </div>\n\
-        \n        </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"result results_links\
-        \ results_links_deep web-result \">\n\n\n          <div class=\"links_main\
-        \ links_deep result__body\"> <!-- This is the visible part -->\n\n       \
-        \   <h2 class=\"result__title\">\n          \n            <a rel=\"nofollow\"\
-        \ class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fvimeo.com%2Fgroups%2F102965\"\
-        ><b>Preaching</b> to <b>the</b> <b>Choir</b> on Vimeo</a>\n          \n  \
-        \        </h2>\n\n      \n\n            <div class=\"result__extras\">\n \
-        \               <div class=\"result__extras__url\">\n                  <span\
-        \ class=\"result__icon\">\n                    \n                      <a\
-        \ rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fvimeo.com%2Fgroups%2F102965\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/vimeo.com.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fvimeo.com%2Fgroups%2F102965\">\n        \
-        \          vimeo.com/groups/102965\n                  </a>\n\n           \
-        \       \n\n                </div>\n            </div>\n\n            \n \
-        \                 <a class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fvimeo.com%2Fgroups%2F102965\"\
-        ><b>Preaching</b> to <b>the</b> <b>Choir</b>: Barbara. 8 years ago. Related\
-        \ RSS Feeds. <b>Preaching</b> to <b>the</b> <b>Choir</b>. This is a Vimeo\
-        \ Group.</a>\n            \n\n            <div style=\"clear: both\"></div>\n\
-        \          </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n            <div\
-        \ class=\"result results_links results_links_deep web-result \">\n\n\n   \
-        \       <div class=\"links_main links_deep result__body\"> <!-- This is the\
-        \ visible part -->\n\n          <h2 class=\"result__title\">\n          \n\
-        \            <a rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.englishforums.com%2FEnglish%2FPreachingVersusSingingChoir%2Fvgnbj%2Fpost.htm\"\
-        ><b>Preaching</b> (Versus Singing) To The <b>Choir</b>?</a>\n          \n\
-        \          </h2>\n\n      \n\n            <div class=\"result__extras\">\n\
-        \                <div class=\"result__extras__url\">\n                  <span\
-        \ class=\"result__icon\">\n                    \n                      <a\
-        \ rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.englishforums.com%2FEnglish%2FPreachingVersusSingingChoir%2Fvgnbj%2Fpost.htm\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.englishforums.com.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.englishforums.com%2FEnglish%2FPreachingVersusSingingChoir%2Fvgnbj%2Fpost.htm\"\
-        >\n                  www.englishforums.com/English/PreachingVersusSingingChoir/vgnbj/post.htm\n\
-        \                  </a>\n\n                  \n\n                </div>\n\
-        \            </div>\n\n            \n                  <a class=\"result__snippet\"\
-        \ href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.englishforums.com%2FEnglish%2FPreachingVersusSingingChoir%2Fvgnbj%2Fpost.htm\"\
-        >I&#x27;ve heard both &quot;<b>preaching</b> to <b>the</b> <b>choir</b>&quot;\
-        \ and &quot;singing to the <b>choir</b>&quot; used to mean that something\
-        \ is unnecessary. That doesn&#x27;t make a lot of sense with the former, though.</a>\n\
-        \            \n\n            <div style=\"clear: both\"></div>\n         \
-        \ </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"\
-        result results_links results_links_deep web-result \">\n\n\n          <div\
-        \ class=\"links_main links_deep result__body\"> <!-- This is the visible part\
-        \ -->\n\n          <h2 class=\"result__title\">\n          \n            <a\
-        \ rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.metacritic.com%2Fmovie%2Fpreaching%2Dto%2Dthe%2Dchoir\"\
-        ><b>Preaching</b> to <b>the</b> <b>Choir</b> Reviews - Metacritic</a>\n  \
-        \        \n          </h2>\n\n      \n\n            <div class=\"result__extras\"\
-        >\n                <div class=\"result__extras__url\">\n                 \
-        \ <span class=\"result__icon\">\n                    \n                  \
-        \    <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.metacritic.com%2Fmovie%2Fpreaching%2Dto%2Dthe%2Dchoir\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.metacritic.com.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.metacritic.com%2Fmovie%2Fpreaching%2Dto%2Dthe%2Dchoir\"\
-        >\n                  www.metacritic.com/movie/preaching-to-the-choir\n   \
-        \               </a>\n\n                  \n\n                </div>\n   \
-        \         </div>\n\n            \n                  <a class=\"result__snippet\"\
-        \ href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.metacritic.com%2Fmovie%2Fpreaching%2Dto%2Dthe%2Dchoir\"\
-        ><b>Preaching</b> to <b>the</b> <b>Choir</b> movie reviews &amp; Metacritic\
-        \ score: Through the intersection of gospel and hip hop, east coast and west\
-        \ coast, the sacred and the secula...</a>\n            \n\n            <div\
-        \ style=\"clear: both\"></div>\n          </div>\n\n        </div>\n\n  \n\
-        \n\n\n  \n\n\n            <div class=\"result results_links results_links_deep\
-        \ web-result \">\n\n\n          <div class=\"links_main links_deep result__body\"\
-        > <!-- This is the visible part -->\n\n          <h2 class=\"result__title\"\
-        >\n          \n            <a rel=\"nofollow\" class=\"result__a\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fpulpitandpen.org%2F2017%2F04%2F11%2Fpreaching%2Dto%2Dthe%2Dchoir%2F\"\
-        ><b>Preaching</b> To <b>The</b> <b>Choir</b>?</a>\n          \n          </h2>\n\
-        \n      \n\n            <div class=\"result__extras\">\n                <div\
-        \ class=\"result__extras__url\">\n                  <span class=\"result__icon\"\
-        >\n                    \n                      <a rel=\"nofollow\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fpulpitandpen.org%2F2017%2F04%2F11%2Fpreaching%2Dto%2Dthe%2Dchoir%2F\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/pulpitandpen.org.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fpulpitandpen.org%2F2017%2F04%2F11%2Fpreaching%2Dto%2Dthe%2Dchoir%2F\"\
-        >\n                  pulpitandpen.org/2017/04/11/preaching-to-the-choir/\n\
-        \                  </a>\n\n                  \n\n                </div>\n\
-        \            </div>\n\n            \n                  <a class=\"result__snippet\"\
-        \ href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fpulpitandpen.org%2F2017%2F04%2F11%2Fpreaching%2Dto%2Dthe%2Dchoir%2F\"\
-        ><b>Preaching</b> To <b>The</b> <b>Choir</b>? April 11, 2017April 11, 2017\
-        \ Brandon Hines bethel, Bethel Redding Do I just want to start trouble? Is\
-        \ this literally a form of <b>preaching</b> to <b>the</b> <b>choir</b>? Do\
-        \ I believe only that only I...</a>\n            \n\n            <div style=\"\
-        clear: both\"></div>\n          </div>\n\n        </div>\n\n  \n\n\n\n  \n\
-        \n\n            <div class=\"result results_links results_links_deep web-result\
-        \ \">\n\n\n          <div class=\"links_main links_deep result__body\"> <!--\
-        \ This is the visible part -->\n\n          <h2 class=\"result__title\">\n\
-        \          \n            <a rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.quora.com%2FWhat%2Ddoes%2Dpreaching%2Dto%2Dthe%2Dchoir%2Dmean%3Fshare%3D1\"\
-        >What does <b>preaching</b> to <b>the</b> <b>choir</b> mean? - Quora</a>\n\
-        \          \n          </h2>\n\n      \n\n            <div class=\"result__extras\"\
-        >\n                <div class=\"result__extras__url\">\n                 \
-        \ <span class=\"result__icon\">\n                    \n                  \
-        \    <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.quora.com%2FWhat%2Ddoes%2Dpreaching%2Dto%2Dthe%2Dchoir%2Dmean%3Fshare%3D1\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.quora.com.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.quora.com%2FWhat%2Ddoes%2Dpreaching%2Dto%2Dthe%2Dchoir%2Dmean%3Fshare%3D1\"\
-        >\n                  www.quora.com/What-does-preaching-to-the-choir-mean?share=1\n\
-        \                  </a>\n\n                  \n\n                </div>\n\
-        \            </div>\n\n            \n                  <a class=\"result__snippet\"\
-        \ href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.quora.com%2FWhat%2Ddoes%2Dpreaching%2Dto%2Dthe%2Dchoir%2Dmean%3Fshare%3D1\"\
-        ><b>Preaching</b> to <b>the</b> <b>choir</b> means making an argument against\
-        \ something, but the person you are talking to 100% agrees with you. In my\
-        \ life&#x27;s it is normally said when my chorus teacher is going on a rant...</a>\n\
-        \            \n\n            <div style=\"clear: both\"></div>\n         \
-        \ </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"\
-        result results_links results_links_deep web-result \">\n\n\n          <div\
-        \ class=\"links_main links_deep result__body\"> <!-- This is the visible part\
-        \ -->\n\n          <h2 class=\"result__title\">\n          \n            <a\
-        \ rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.tumblr.com%2Fsearch%2FPREACHING%2BTO%2BTHE%2BCHOIR\"\
-        ><b>PREACHING</b> TO <b>THE</b> <b>CHOIR</b> | Tumblr</a>\n          \n  \
-        \        </h2>\n\n      \n\n            <div class=\"result__extras\">\n \
-        \               <div class=\"result__extras__url\">\n                  <span\
-        \ class=\"result__icon\">\n                    \n                      <a\
-        \ rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.tumblr.com%2Fsearch%2FPREACHING%2BTO%2BTHE%2BCHOIR\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.tumblr.com.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.tumblr.com%2Fsearch%2FPREACHING%2BTO%2BTHE%2BCHOIR\"\
-        >\n                  www.tumblr.com/search/PREACHING+TO+THE+CHOIR\n      \
-        \            </a>\n\n                  \n\n                </div>\n      \
-        \      </div>\n\n            \n                  <a class=\"result__snippet\"\
-        \ href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.tumblr.com%2Fsearch%2FPREACHING%2BTO%2BTHE%2BCHOIR\"\
-        ><b>preaching</b> to <b>the</b> <b>choir</b> class war have to write it out\
-        \ every once in a while to rehearse for when i&#x27;m out and about and need\
-        \ to say it. I know I&#x27;m mostly <b>preaching</b> to <b>the</b> <b>choir</b>\
-        \ here, but FUCK, I am pissed.</a>\n            \n\n            <div style=\"\
-        clear: both\"></div>\n          </div>\n\n        </div>\n\n  \n\n\n\n  \n\
-        \n\n            <div class=\"result results_links results_links_deep web-result\
-        \ \">\n\n\n          <div class=\"links_main links_deep result__body\"> <!--\
-        \ This is the visible part -->\n\n          <h2 class=\"result__title\">\n\
-        \          \n            <a rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.thegospelcoalition.org%2Fblogs%2Fkevin%2Ddeyoung%2Fpreaching%2Dto%2Dthe%2Dwhole%2Dchoir%2F\"\
-        ><b>Preaching</b> to the Whole <b>Choir</b></a>\n          \n          </h2>\n\
-        \n      \n\n            <div class=\"result__extras\">\n                <div\
-        \ class=\"result__extras__url\">\n                  <span class=\"result__icon\"\
-        >\n                    \n                      <a rel=\"nofollow\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.thegospelcoalition.org%2Fblogs%2Fkevin%2Ddeyoung%2Fpreaching%2Dto%2Dthe%2Dwhole%2Dchoir%2F\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.thegospelcoalition.org.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.thegospelcoalition.org%2Fblogs%2Fkevin%2Ddeyoung%2Fpreaching%2Dto%2Dthe%2Dwhole%2Dchoir%2F\"\
-        >\n                  www.thegospelcoalition.org/blogs/kevin-deyoung/preaching-to-the-whole-choir/\n\
-        \                  </a>\n\n                  \n\n                </div>\n\
-        \            </div>\n\n            \n                  <a class=\"result__snippet\"\
-        \ href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.thegospelcoalition.org%2Fblogs%2Fkevin%2Ddeyoung%2Fpreaching%2Dto%2Dthe%2Dwhole%2Dchoir%2F\"\
-        >If your <b>preaching</b> is always aimed at the weary, you&#x27;ll do well\
-        \ at emphasizing the grace of God and the But he does want preachers to remember\
-        \ that the <b>choir</b> is made up of more than just sopranos.</a>\n     \
-        \       \n\n            <div style=\"clear: both\"></div>\n          </div>\n\
-        \n        </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"result results_links\
-        \ results_links_deep web-result \">\n\n\n          <div class=\"links_main\
-        \ links_deep result__body\"> <!-- This is the visible part -->\n\n       \
-        \   <h2 class=\"result__title\">\n          \n            <a rel=\"nofollow\"\
-        \ class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.PowerThesaurus.org%2Fpreaching_to_the_choir\"\
-        >55 <b>Preaching</b> To <b>The</b> <b>Choir</b> Synonyms in <b>Preaching</b>\
-        \ To <b>The</b> <b>Choir</b>...</a>\n          \n          </h2>\n\n     \
-        \ \n\n            <div class=\"result__extras\">\n                <div class=\"\
-        result__extras__url\">\n                  <span class=\"result__icon\">\n\
-        \                    \n                      <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.PowerThesaurus.org%2Fpreaching_to_the_choir\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.PowerThesaurus.org.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.PowerThesaurus.org%2Fpreaching_to_the_choir\"\
-        >\n                  www.PowerThesaurus.org/preaching_to_the_choir\n     \
-        \             </a>\n\n                  \n\n                </div>\n     \
-        \       </div>\n\n            \n                  <a class=\"result__snippet\"\
-        \ href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fwww.PowerThesaurus.org%2Fpreaching_to_the_choir\"\
-        ><b>preaching</b> to the converted. phr., idi. agree. on the same page.</a>\n\
-        \            \n\n            <div style=\"clear: both\"></div>\n         \
-        \ </div>\n\n        </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"\
-        result results_links results_links_deep web-result \">\n\n\n          <div\
-        \ class=\"links_main links_deep result__body\"> <!-- This is the visible part\
-        \ -->\n\n          <h2 class=\"result__title\">\n          \n            <a\
-        \ rel=\"nofollow\" class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fnypost.com%2F2001%2F10%2F09%2Fpreaching%2Dto%2Dthe%2Dchoir%2F\"\
-        ><b>Preaching</b> to <b>the</b> <b>choir</b> | New York Post</a>\n       \
-        \   \n          </h2>\n\n      \n\n            <div class=\"result__extras\"\
-        >\n                <div class=\"result__extras__url\">\n                 \
-        \ <span class=\"result__icon\">\n                    \n                  \
-        \    <a rel=\"nofollow\" href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fnypost.com%2F2001%2F10%2F09%2Fpreaching%2Dto%2Dthe%2Dchoir%2F\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/nypost.com.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=https%3A%2F%2Fnypost.com%2F2001%2F10%2F09%2Fpreaching%2Dto%2Dthe%2Dchoir%2F\"\
-        >\n                  nypost.com/2001/10/09/preaching-to-the-choir/\n     \
-        \             </a>\n\n                  \n                    <span>&nbsp;\
-        \ &nbsp; 2001-10-09</span>\n                  \n\n                </div>\n\
-        \            </div>\n\n            \n                  <a class=\"result__snippet\"\
-        \ href=\"/l/?kh=-1&amp;uddg=https%3A%2F%2Fnypost.com%2F2001%2F10%2F09%2Fpreaching%2Dto%2Dthe%2Dchoir%2F\"\
-        ><b>Preaching</b> to <b>the</b> <b>choir</b>. By Dan Aquilante.</a>\n    \
-        \        \n\n            <div style=\"clear: both\"></div>\n          </div>\n\
-        \n        </div>\n\n  \n\n\n\n  \n\n\n            <div class=\"result results_links\
-        \ results_links_deep web-result \">\n\n\n          <div class=\"links_main\
-        \ links_deep result__body\"> <!-- This is the visible part -->\n\n       \
-        \   <h2 class=\"result__title\">\n          \n            <a rel=\"nofollow\"\
-        \ class=\"result__a\" href=\"/l/?kh=-1&amp;uddg=http%3A%2F%2Fwww.chicagonow.com%2Fpreaching%2Dchoir%2F\"\
-        ><b>Preaching</b> to <b>the</b> <b>Choir</b></a>\n          \n          </h2>\n\
-        \n      \n\n            <div class=\"result__extras\">\n                <div\
-        \ class=\"result__extras__url\">\n                  <span class=\"result__icon\"\
-        >\n                    \n                      <a rel=\"nofollow\" href=\"\
-        /l/?kh=-1&amp;uddg=http%3A%2F%2Fwww.chicagonow.com%2Fpreaching%2Dchoir%2F\"\
-        >\n                        <img class=\"result__icon__img\" width=\"16\" height=\"\
-        16\" alt=\"\"\n                          src=\"//icons.duckduckgo.com/ip2/www.chicagonow.com.ico\"\
-        \ name=\"i15\" />\n                      </a>\n                  \n      \
-        \            </span>\n\n                  <a class=\"result__url\" href=\"\
-        /l/?kh=-1&amp;uddg=http%3A%2F%2Fwww.chicagonow.com%2Fpreaching%2Dchoir%2F\"\
-        >\n                  www.chicagonow.com/preaching-choir/\n               \
-        \   </a>\n\n                  \n\n                </div>\n            </div>\n\
-        \n            \n                  <a class=\"result__snippet\" href=\"/l/?kh=-1&amp;uddg=http%3A%2F%2Fwww.chicagonow.com%2Fpreaching%2Dchoir%2F\"\
-        ><b>Preaching</b> to <b>the</b> <b>Choir</b>. About. In rehearsal on Tuesday,\
-        \ I asked the <b>choir</b> to use the method of &quot;count-singing.&quot;</a>\n\
-        \            \n\n            <div style=\"clear: both\"></div>\n         \
-        \ </div>\n\n        </div>\n\n  \n\n\n\n\n        \n        \n           \
-        \     <div class=\"nav-link\">\n        <form action=\"/html/\" method=\"\
-        post\">\n          <input type=\"submit\" class='btn btn--alt' value=\"Next\"\
-        \ />\n          <input type=\"hidden\" name=\"q\" value=\"Preaching the choir\"\
-        \ />\n          <input type=\"hidden\" name=\"s\" value=\"30\" />\n      \
-        \    <input type=\"hidden\" name=\"nextParams\" value=\"\" />\n          <input\
-        \ type=\"hidden\" name=\"v\" value=\"\" />\n          <input type=\"hidden\"\
-        \ name=\"o\" value=\"json\" />\n          <input type=\"hidden\" name=\"dc\"\
-        \ value=\"28\" />\n          <input type=\"hidden\" name=\"api\" value=\"\
-        /d.js\" />\n          <input type=\"hidden\" name=\"vqd\" value=\"\" />\n\n\
-        \            \n            \n        \n          <input name=\"kl\" value=\"\
-        wt-wt\" type=\"hidden\" />\n            \n            \n            \n   \
-        \         \n            \n        </form>\n                </div>\n      \
-        \  \n\n\n\n        <div class=\" feedback-btn\">\n            <a rel=\"nofollow\"\
-        \ href=\"/feedback.html\" target=\"_new\">Feedback</a>\n        </div>\n \
-        \       <div style=\"clear:both;\"></div>\n  </div>\n  </div> <!-- links wrapper\
-        \ //--> \n\n    \n\n\n\n    </div>\n  </div>\n\n\n\n\n    <div id=\"bottom_spacing2\"\
-        ></div>\n\n    \n      <img src=\"/t/sl_h\"/>\n    \n</body>\n</html>\n"
+    body: {}
     headers:
       Cache-Control: max-age=1
       Connection: keep-alive
-      Content-Encoding: gzip
+      Content-Length: '138'
       Content-Security-Policy: 'default-src https: blob: data: ''unsafe-inline'' ''unsafe-eval'';
         frame-ancestors ''self'''
-      Content-Type: text/html; charset=UTF-8
-      Date: Sat, 13 Jun 2020 18:19:29 GMT
+      Content-Type: text/html
+      Date: Thu, 16 Jul 2020 10:28:18 GMT
       Expect-CT: max-age=0
-      Expires: Sat, 13 Jun 2020 18:19:30 GMT
+      Expires: Thu, 16 Jul 2020 10:28:19 GMT
+      Location: https://html.duckduckgo.com/html/?q=Preaching+to+the+choir&s=0&dc=1&o=json&api=d.js
       Referrer-Policy: origin
       Server: nginx
-      Server-Timing: total;dur=506;desc="Backend Total"
       Strict-Transport-Security: max-age=31536000
-      Transfer-Encoding: chunked
-      Vary: Accept-Encoding
       X-Content-Type-Options: nosniff
       X-DuckDuckGo-Locale: en_US
       X-Frame-Options: SAMEORIGIN
       X-XSS-Protection: 1;mode=block
     status:
-      code: 200
-      message: OK
-    url: https://duckduckgo.com/html/?q=Preaching+the+choir&s=0&dc=1&o=json&api=d.js
+      code: 302
+      message: Moved Temporarily
+    url: https://duckduckgo.com/html/?q=Preaching+to+the+choir&s=0&dc=1&o=json&api=d.js
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      Host:
+      - html.duckduckgo.com
+      User-Agent:
+      - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like
+        Gecko) Chrome/19.0.1084.46 Safari/536.5
+    method: GET
+    uri: https://html.duckduckgo.com/html/?q=Preaching+to+the+choir&s=0&dc=1&o=json&api=d.js
+  response:
+    body:
+      string: 'If this error persists, please let us know: error-lite@duckduckgo.com'
+    headers:
+      Connection: keep-alive
+      Content-Encoding: gzip
+      Content-Security-Policy: 'default-src https: blob: data: ''unsafe-inline'' ''unsafe-eval'';
+        frame-ancestors ''self'''
+      Content-Type: text/html; charset=UTF-8
+      Date: Thu, 16 Jul 2020 10:28:19 GMT
+      Expect-CT: max-age=0
+      Referrer-Policy: origin
+      Server: nginx
+      Server-Timing: total;dur=3;desc="Backend Total"
+      Strict-Transport-Security: max-age=0
+      Transfer-Encoding: chunked
+      Vary: Accept-Encoding
+      X-Content-Type-Options: nosniff
+      X-Frame-Options: SAMEORIGIN
+      X-XSS-Protection: 1;mode=block
+    status:
+      code: 403
+      message: Forbidden
+    url: https://html.duckduckgo.com/html/?q=Preaching+to+the+choir&s=0&dc=1&o=json&api=d.js
 version: 1

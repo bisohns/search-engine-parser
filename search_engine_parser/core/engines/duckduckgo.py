@@ -54,13 +54,16 @@ class Search(BaseSearch):
             rdict["titles"] = h2.text.strip()
 
         if return_type in (ReturnType.FULL, ReturnType.LINK):
+            link = None
             link_tag = single_result.find('a', class_="result__url")
             # raw link is of format "/url?q=REAL-LINK&sa=..."
             raw_link = self.base_url + link_tag.get('href')
-            re_str = re.findall("uddg=(.+)", raw_link)[0]
-            re_str = re_str.replace("%3A", ":")
-            link = re_str.replace("%2F", "/")
-            link = link.replace("%2D", "-")
+            re_find = re.findall("uddg=(.+)", raw_link)
+            if len(re_find) > 0 :
+                re_str = re_find[0]
+                re_str = re_str.replace("%3A", ":")
+                link = re_str.replace("%2F", "/")
+                link = link.replace("%2D", "-")
             rdict["links"] = link
 
         if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):

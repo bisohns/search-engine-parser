@@ -26,8 +26,8 @@ class ReturnType(Enum):
 
 # All results returned are each items of search
 class SearchItem(dict):
-    """ 
-    SearchItem is a dict of results containing keys (titles, descriptions, links and other 
+    """
+    SearchItem is a dict of results containing keys (titles, descriptions, links and other
     additional keys dependending on the engine)
     >>> result
     <search_engine_parser.core.base.SearchItem object at 0x7f907426a280>
@@ -48,7 +48,7 @@ class SearchItem(dict):
 
 
 class SearchResult():
-    """ 
+    """
     The SearchResults after the searching
 
     >>> results = gsearch.search("preaching the choir", 1)
@@ -61,9 +61,9 @@ class SearchResult():
 
     It can be iterated like a normal list to return individual SearchItem
     """
-    # Hold the results
-    results = []
-    # This method is inefficient, it will be in Deprecation soon
+
+    def __init__(self):
+        self.results = []
 
     def append(self, value):
         self.results.append(value)
@@ -83,9 +83,9 @@ class SearchResult():
         with suppress(IndexError):
             x = self.results[0]
             keys = x.keys()
-        return keys 
+        return keys
 
-    def __len__(self): 
+    def __len__(self):
         return len(self.results)
 
     def __repr_(self):
@@ -108,6 +108,8 @@ class BaseSearch:
     search_url = None
     # The url after all query params have been set
     _parsed_url = None
+    # boolean that indicates cache hit or miss
+    _cache_hit = False
 
     @abstractmethod
     def parse_soup(self, soup):
@@ -175,15 +177,17 @@ class BaseSearch:
     async def get_source(self, url, cache=True):
         """
         Returns the source code of a webpage.
+        Also sets the _cache_hit if cache was used
 
         :rtype: string
         :param url: URL to pull it's source code
         :return: html source code of a given URL.
         """
         try:
-            html = await self.cache_handler.get_source(self.name, url, self.headers(), cache)
+            html, cache_hit = await self.cache_handler.get_source(self.name, url, self.headers(), cache)
         except Exception as exc:
             raise Exception('ERROR: {}\n'.format(exc))
+        self._cache_hit = cache_hit
         return html
 
     async def get_soup(self, url, cache):
@@ -192,6 +196,7 @@ class BaseSearch:
 
         :rtype: `bs4.element.ResultSet`
         """
+        print(url, cache)
         html = await self.get_source(url, cache)
         return BeautifulSoup(html, 'lxml')
 
@@ -199,21 +204,21 @@ class BaseSearch:
         """
         Return a formatted search url
         """
-        if not self._parsed_url:
-            # Some URLs use offsets
-            offset = (page * 10) - 9
-            params = self.get_params(
-            	query=query, page=page, offset=offset, **kwargs)
-            url = urlparse(self.search_url)
-            # For localization purposes, custom urls can be parsed for the same engine
-            # such as google.de and google.com
-            if kwargs.get("url"):
-                new_url = urlparse(kwargs.pop("url"))
-				if new_url.scheme == '':
-					url._replace(netloc=new_url.path)
-				else:
-		    		url._replace(netloc=new_url.netloc)
-            self._parsed_url = url._replace(query=urlencode(params))
+        # Some URLs use offsets
+        offset = (page * 10) - 9
+        params = self.get_params(
+            query=query, page=page, offset=offset, **kwargs)
+        url = urlparse(self.search_url)
+        # For localization purposes, custom urls can be parsed for the same engine
+        # such as google.de and google.com
+        if kwargs.get("url"):
+            new_url = urlparse(kwargs.pop("url"))
+            # When passing without scheme e.g google.de, url is parsed as path
+            if not new_url.netloc:
+                url = url._replace(netloc=new_url.path)
+            else:
+                url = url._replace(netloc=new_url.netloc)
+        self._parsed_url = url._replace(query=urlencode(params))
 
         return self._parsed_url.geturl()
 
@@ -254,11 +259,10 @@ class BaseSearch:
         """
         # Get search Page Results
         loop = asyncio.get_event_loop()
+        url = self.get_search_url(
+                    query, page, **kwargs)
         soup = loop.run_until_complete(
-            self.get_soup(
-                self.get_search_url(
-                    query, page, **kwargs),
-                cache=cache))
+            self.get_soup(url, cache=cache))
         return self.get_results(soup, **kwargs)
 
     async def async_search(self, query=None, page=1, cache=True, **kwargs):

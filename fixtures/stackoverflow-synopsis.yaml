@@ -7,14 +7,13 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - Mozilla/5.0 (Windows; Windows NT 6.1) AppleWebKit/536.5 (KHTML, like Gecko)
-        Chrome/19.0.1084.46 Safari/536.5
+      - Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100 101 Firefox/22.0
     method: GET
-    uri: https://stackoverflow.com/search?page=1&q=Preaching+the+choir&pagesize=15
+    uri: https://stackoverflow.com/search?page=1&q=Fake+cache+bypass&pagesize=15
   response:
     body:
       string: "<!DOCTYPE html>\r\n\r\n\r\n    <html class=\"html__responsive\">\r\n\
-        \r\n    <head>\r\n\r\n        <title>Posts containing &#39;preaching the choir&#39;\
+        \r\n    <head>\r\n\r\n        <title>Posts containing &#39;fake cache bypass&#39;\
         \ - Stack Overflow</title>\r\n        <link rel=\"shortcut icon\" href=\"\
         https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196\"\
         >\r\n        <link rel=\"apple-touch-icon\" href=\"https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a\"\
@@ -23,22 +22,22 @@ interactions:
         \ title=\"Stack Overflow\" href=\"/opensearch.xml\">\r\n        <meta name=\"\
         viewport\" content=\"width=device-width, height=device-height, initial-scale=1.0,\
         \ minimum-scale=1.0\">\r\n        <meta property=\"og:type\" content= \"website\"\
-        \ />\r\n        <meta property=\"og:url\" content=\"https://stackoverflow.com/search?page=1&amp;q=Preaching&#x2B;the&#x2B;choir&amp;pagesize=15\"\
+        \ />\r\n        <meta property=\"og:url\" content=\"https://stackoverflow.com/search?page=1&amp;q=Fake&#x2B;cache&#x2B;bypass&amp;pagesize=15\"\
         />\r\n        <meta property=\"og:site_name\" content=\"Stack Overflow\" />\r\
         \n        <meta property=\"og:image\" itemprop=\"image primaryImageOfPage\"\
         \ content=\"https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded\"\
         \ />\r\n        <meta name=\"twitter:card\" content=\"summary\"/>\r\n    \
         \    <meta name=\"twitter:domain\" content=\"stackoverflow.com\"/>\r\n   \
         \     <meta name=\"twitter:title\" property=\"og:title\" itemprop=\"name\"\
-        \ content=\"Posts containing &#x27;preaching the choir&#x27;\" />\r\n    \
-        \    <meta name=\"twitter:description\" property=\"og:description\" itemprop=\"\
+        \ content=\"Posts containing &#x27;fake cache bypass&#x27;\" />\r\n      \
+        \  <meta name=\"twitter:description\" property=\"og:description\" itemprop=\"\
         description\" content=\"Stack Overflow | The World&#x2019;s Largest Online\
         \ Community for Developers\" />\r\n\r\n        <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js\"\
-        ></script>\r\n        <script src=\"https://cdn.sstatic.net/Js/stub.en.js?v=ef5f20bd6d8d\"\
+        ></script>\r\n        <script src=\"https://cdn.sstatic.net/Js/stub.en.js?v=0a3591ccd5d1\"\
         ></script>\r\n    \r\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"\
-        https://cdn.sstatic.net/Shared/stacks.css?v=b3fb80b2a709\" >\r\n        <link\
-        \ rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=346fac3487f7\"\
-        \ >\r\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=69e3ccb694ac\"\
+        https://cdn.sstatic.net/Shared/stacks.css?v=0ee8a05683e7\" >\r\n        <link\
+        \ rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=c5fdf309f06b\"\
+        \ >\r\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=0ad93e7d5552\"\
         \ >\r\n\r\n    \r\n    <link rel=\"alternate\" type=\"application/atom+xml\"\
         \ title=\"Feed of recent questions\" href=\"/feeds\">\r\n    <style>\r\n \
         \       mark {\r\n            background-color: transparent;\r\n         \
@@ -49,20 +48,21 @@ interactions:
         \ false;\r\n            });\r\n        });\r\n    </script>\r\n\r\n      \
         \  \r\n        \r\n        \r\n        \r\n        \r\n        \r\n      \
         \  \r\n\r\n\r\n    <script>\r\n        StackExchange.init({\"locale\":\"en\"\
-        ,\"serverTime\":1592072371,\"routeName\":\"Search/Search\",\"stackAuthUrl\"\
+        ,\"serverTime\":1594895304,\"routeName\":\"Search/Search\",\"stackAuthUrl\"\
         :\"https://stackauth.com\",\"networkMetaHostname\":\"meta.stackexchange.com\"\
         ,\"site\":{\"name\":\"Stack Overflow\",\"description\":\"Q&A for professional\
         \ and enthusiast programmers\",\"isNoticesTabEnabled\":true,\"enableNewTagCreationWarning\"\
         :true,\"insertSpaceAfterNameTabCompletion\":false,\"id\":1,\"childUrl\":\"\
         https://meta.stackoverflow.com\",\"negativeVoteScoreFloor\":null,\"enableSocialMediaInSharePopup\"\
-        :true,\"protocol\":\"https\"},\"user\":{\"fkey\":\"5e38ac49612e967a17a6fb78ea5a7ad83d9653ee9c5113c3700bceb76b76e335\"\
-        ,\"tid\":\"dfd00706-698a-a41e-08b2-30dc39c3ff5c\",\"rep\":0,\"isAnonymous\"\
-        :true,\"isAnonymousNetworkWide\":true},\"events\":{\"postType\":{\"question\"\
+        :true,\"protocol\":\"https\"},\"user\":{\"fkey\":\"0da7ad4a38043ac5331e1009c5cd903112716bb33743740856bc9f0c9d3fc7de\"\
+        ,\"tid\":\"080e4b6c-960f-5015-dfbf-6d5662a27c67\",\"rep\":0,\"isAnonymous\"\
+        :true,\"isAnonymousNetworkWide\":true,\"ab\":{\"tutorial_tooltips\":{\"v\"\
+        :\"thanks_reaction_icon\",\"g\":2}}},\"events\":{\"postType\":{\"question\"\
         :1},\"postEditionSection\":{\"title\":1,\"body\":2,\"tags\":3}},\"story\"\
         :{\"minCompleteBodyLength\":75,\"likedTagsMaxLength\":300,\"dislikedTagsMaxLength\"\
         :300},\"jobPreferences\":{\"maxNumDeveloperRoles\":2,\"maxNumIndustries\"\
         :4},\"svgIconPath\":\"https://cdn.sstatic.net/Img/svg-icons\",\"svgIconHash\"\
-        :\"7aa1e7a5b07a\"}, {\"userProfile\":{\"openGraphAPIKey\":\"4a307e43-b625-49bb-af15-ffadf2bda017\"\
+        :\"2816dfc51c0f\"}, {\"userProfile\":{\"openGraphAPIKey\":\"4a307e43-b625-49bb-af15-ffadf2bda017\"\
         },\"userMessaging\":{\"showNewFeatureNotice\":true},\"tags\":{},\"subscriptions\"\
         :{\"defaultMaxTrueUpSeats\":1000},\"snippets\":{\"renderDomain\":\"stacksnippets.net\"\
         ,\"snippetsEnabled\":true},\"slack\":{\"sidebarAdDismissCookie\":\"slack-sidebar-ad\"\
@@ -70,23 +70,26 @@ interactions:
         :true,\"enableImgurHttps\":true,\"enableUserHovercards\":true,\"forceHttpsImages\"\
         :true,\"styleCode\":true},\"paths\":{},\"monitoring\":{\"clientTimingsAbsoluteTimeout\"\
         :30000,\"clientTimingsDebounceTimeout\":1000},\"mentions\":{\"maxNumUsersInDropdown\"\
-        :50},\"markdown\":{\"asteriskIntraWordEmphasis\":true},\"flags\":{\"allowRetractingCommentFlags\"\
-        :true,\"allowRetractingFlags\":true},\"comments\":{},\"accounts\":{\"currentPasswordRequiredForChangingStackIdPassword\"\
+        :50},\"markdown\":{\"asteriskIntraWordEmphasis\":true,\"enableCommonmark\"\
+        :true},\"flags\":{\"allowRetractingCommentFlags\":true,\"allowRetractingFlags\"\
+        :true},\"comments\":{},\"accounts\":{\"currentPasswordRequiredForChangingStackIdPassword\"\
         :true}});\r\n        StackExchange.using.setCacheBreakers({\"js/adops.en.js\"\
-        :\"22a9bd59b1e9\",\"js/ask.en.js\":\"635d2cc64f27\",\"js/begin-edit-event.en.js\"\
-        :\"cb9965ad8784\",\"js/events.en.js\":\"1b5b223be64b\",\"js/explore-qlist.en.js\"\
-        :\"8338a28bee11\",\"js/full-anon.en.js\":\"60dae6125dbf\",\"js/full.en.js\"\
-        :\"601571c327e0\",\"js/help.en.js\":\"76e2886f2122\",\"js/inline-tag-editing.en.js\"\
-        :\"9af5adc3562d\",\"js/keyboard-shortcuts.en.js\":\"252d1950fcd5\",\"js/mobile.en.js\"\
-        :\"dd28a9c9ca2d\",\"js/moderator.en.js\":\"d5e6787e64d9\",\"js/postCollections-transpiled.en.js\"\
-        :\"6c83048256b9\",\"js/post-validation.en.js\":\"de9a2d784730\",\"js/prettify-full.en.js\"\
-        :\"ef13a31da73a\",\"js/question-editor.en.js\":\"\",\"js/review.en.js\":\"\
-        9fb85d0bf129\",\"js/revisions.en.js\":\"d8d5fa1f473d\",\"js/tageditor.en.js\"\
-        :\"1f2a41e0a86e\",\"js/tageditornew.en.js\":\"b9c520e9e5d9\",\"js/tagsuggestions.en.js\"\
-        :\"a9ff449efcdc\",\"js/wmd.en.js\":\"abd739ef2004\",\"js/snippet-javascript-codemirror.en.js\"\
-        :\"1050d42b4212\"});\r\n        StackExchange.using(\"gps\", function() {\r\
-        \n             StackExchange.gps.init(true);\r\n        });\r\n    </script>\r\
-        \n    <noscript id=\"noscript-css\"><style>body,.top-bar{margin-top:1.9em}</style></noscript>\r\
+        :\"22a9bd59b1e9\",\"js/ask.en.js\":\"8cd33efca2ea\",\"js/begin-edit-event.en.js\"\
+        :\"cb9965ad8784\",\"js/events.en.js\":\"8c2d19adf113\",\"js/explore-qlist.en.js\"\
+        :\"8498d0bb288b\",\"js/full-anon.en.js\":\"a4ddfd857174\",\"js/full.en.js\"\
+        :\"4f738f4b3275\",\"js/help.en.js\":\"45dd3cca2f14\",\"js/inline-tag-editing.en.js\"\
+        :\"ba3548fd8639\",\"js/keyboard-shortcuts.en.js\":\"e3a215716a5b\",\"js/mobile.en.js\"\
+        :\"dd28a9c9ca2d\",\"js/moderator.en.js\":\"5a55ea887bf7\",\"js/postCollections-transpiled.en.js\"\
+        :\"0bd276805a0e\",\"js/post-validation.en.js\":\"71608c8def34\",\"js/prettify-full.en.js\"\
+        :\"32dd137db6f1\",\"js/question-editor.en.js\":\"\",\"js/review.en.js\":\"\
+        e2b1d3eb2bfb\",\"js/revisions.en.js\":\"a4bb7dac3796\",\"js/tageditor.en.js\"\
+        :\"ecd6b6af8c6e\",\"js/tageditornew.en.js\":\"5e8733483d0c\",\"js/tagsuggestions.en.js\"\
+        :\"9b2c5d9791d2\",\"js/third-party/stacks-editor/app.bundle.js\":\"72999662ddbd\"\
+        ,\"js/third-party/stacks-editor/app.bundle.en.js\":\"\",\"js/wmd.en.js\":\"\
+        aef02f387525\",\"js/snippet-javascript-codemirror.en.js\":\"ec0f6d058df6\"\
+        ,\"js/markdown-it-loader.en.js\":\"a51a4850b0ea\"});\r\n        StackExchange.using(\"\
+        gps\", function() {\r\n             StackExchange.gps.init(true);\r\n    \
+        \    });\r\n    </script>\r\n    <noscript id=\"noscript-css\"><style>body,.top-bar{margin-top:1.9em}</style></noscript>\r\
         \n    </head>\r\n    <body class=\"unified-theme search-page\">\r\n    <div\
         \ id=\"notify-container\"></div>\r\n    <div id=\"custom-header\"></div>\r\
         \n        \r\n<header class=\"top-bar js-top-bar top-bar__network _fixed\"\
@@ -185,7 +188,7 @@ interactions:
         \     <div class=\"ps-relative\">\r\n                        <input name=\"\
         q\"\r\n                               type=\"text\"\r\n                  \
         \             placeholder=\"Search&#x2026;\"\r\n                         \
-        \      value=\"Preaching the choir\"\r\n                               autocomplete=\"\
+        \      value=\"Fake cache bypass\"\r\n                               autocomplete=\"\
         off\"\r\n                               maxlength=\"240\"\r\n            \
         \                   class=\"s-input s-input__search js-search-field \"\r\n\
         \                               aria-label=\"Search\"\r\n                \
@@ -214,7 +217,7 @@ interactions:
         0 0 18 18\"><path d=\"M18 16.5l-5.14-5.18h-.35a7 7 0 10-1.19 1.19v.35L16.5\
         \ 18l1.5-1.5zM12 7A5 5 0 112 7a5 5 0 0110 0z\"/></svg></a></li>\r\n\r\n  \
         \          <li class=\"-ctas\">\r\n                            <a href=\"\
-        https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2fsearch%3fpage%3d1%26q%3dPreaching%2bthe%2bchoir%26pagesize%3d15\"\
+        https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2fsearch%3fpage%3d1%26q%3dFake%2bcache%2bbypass%26pagesize%3d15\"\
         \ class=\"login-link s-btn s-btn__filled py8 js-gps-track\" rel=\"nofollow\"\
         \r\n                               data-gps-track=\"login.click\" data-ga=\"\
         [&quot;top navigation&quot;,&quot;login button click&quot;,null,null,null]\"\
@@ -255,7 +258,7 @@ interactions:
         \ id=\"your-communities-section\">\r\n\r\n                <div class=\"call-to-login\"\
         >\r\n<a href=\"https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=%2fusers%2fstory%2fcurrent\"\
         \ class=\"login-link js-gps-track\" data-gps-track=\"site_switcher.click({\
-        \ item_type:10 })\">Sign up</a> or <a href=\"https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fsearch%3fpage%3d1%26q%3dPreaching%2bthe%2bchoir%26pagesize%3d15\"\
+        \ item_type:10 })\">Sign up</a> or <a href=\"https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fsearch%3fpage%3d1%26q%3dFake%2bcache%2bbypass%26pagesize%3d15\"\
         \ class=\"login-link js-gps-track\" data-gps-track=\"site_switcher.click({\
         \ item_type:11 })\">log in</a> to customize your list.                </div>\r\
         \n        </div>\r\n\r\n        <div class=\"header\">\r\n            <h3><a\
@@ -315,39 +318,45 @@ interactions:
         /users\"\r\n                class=\" js-gps-track nav-links--link\"\r\n  \
         \              \r\n                data-gps-track=\"top_nav.click({is_current:false,\
         \ location:26, destination:3})\">\r\nUsers            </a>\r\n        </li>\r\
-        \n        <li class=\"\">\r\n            <a id=\"nav-jobs\"\r\n          \
-        \      href=\"/jobs?so_medium=StackOverflow&amp;so_source=SiteNav\"\r\n  \
-        \              class=\" js-gps-track nav-links--link\"\r\n               \
-        \ \r\n                data-gps-track=\"top_nav.click({is_current:false, location:26,\
-        \ destination:6})\">\r\nJobs            </a>\r\n        </li>\r\n        \
-        \            </ol>\r\n                </li>\r\n                    <li>\r\n\
-        \                        <ol class=\"nav-links\">\r\n                    \
-        \            <li class=\"grid ai-center jc-space-between ml8 mt24 mb4\">\r\
-        \n                                    <div class=\"grid--cell tt-uppercase\
-        \ fs-fine fc-light\">Teams</div>\r\n                                    <div\
-        \ class=\"grid--cell fs-fine fc-light mr4\">\r\n                         \
-        \               <a href=\"javascript:void(0)\" class=\"s-link s-link__inherit\
-        \ js-gps-track\"\r\n                                            role=\"button\"\
-        \r\n                                            aria-controls=\"popover-teams-create-cta\"\
-        \r\n                                            data-controller=\"s-popover\"\
-        \r\n                                            data-action=\"s-popover#toggle\"\
-        \r\n                                            data-s-popover-placement=\"\
-        bottom-start\"\r\n                                            data-s-popover-toggle-class=\"\
-        is-selected\"\r\n                                            data-gps-track=\"\
-        teams.create.left-sidenav.click({ Action: ShowInfo })\"\r\n              \
-        \                              data-ga=\"[&quot;teams left navigation - anonymous&quot;,&quot;left\
-        \ nav show teams info&quot;,null,null,null]\">\r\n                       \
-        \                     What&#x2019;s this?\r\n                            \
-        \            </a>\r\n\r\n                                    </div>\r\n  \
-        \                              </li>\r\n                                <li\
-        \ class=\"ps-relative\">\r\n                                    <a href=\"\
-        https://stackoverflow.com/teams\"\r\n                                    \
-        \    class=\"pl8 js-gps-track nav-links--link\"\r\n                      \
-        \                  title=\"Stack Overflow for Teams is a private, secure spot\
-        \ for your organization's questions and answers.\"\r\n                   \
-        \                     data-gps-track=\"teams.create.left-sidenav.click({ Action:\
-        \ TeamsClick })\"\r\n                                        data-ga=\"[&quot;teams\
-        \ left navigation - anonymous&quot;,&quot;left nav team click&quot;,&quot;stackoverflow.com/teams&quot;,null,null]\"\
+        \n                            <li class=\"fs-fine tt-uppercase ml8 mt16 mb4\
+        \ fc-light\">Find a Job</li>\r\n        <li class=\"\">\r\n            <a\
+        \ id=\"nav-jobs\"\r\n                href=\"/jobs?so_medium=StackOverflow&amp;so_source=SiteNav\"\
+        \r\n                class=\" js-gps-track nav-links--link\"\r\n          \
+        \      \r\n                data-gps-track=\"top_nav.click({is_current:false,\
+        \ location:26, destination:6})\">\r\nJobs            </a>\r\n        </li>\r\
+        \n        <li class=\"\">\r\n            <a id=\"nav-companies\"\r\n     \
+        \           href=\"/jobs/companies?so_medium=StackOverflow&amp;so_source=SiteNav\"\
+        \r\n                class=\" js-gps-track nav-links--link\"\r\n          \
+        \      \r\n                data-gps-track=\"top_nav.click({is_current:false,\
+        \ location:26, destination:12})\">\r\nCompanies            </a>\r\n      \
+        \  </li>\r\n                    </ol>\r\n                </li>\r\n       \
+        \             <li>\r\n                        <ol class=\"nav-links\">\r\n\
+        \                                <li class=\"grid ai-center jc-space-between\
+        \ ml8 mt24 mb4\">\r\n                                    <div class=\"grid--cell\
+        \ tt-uppercase fs-fine fc-light\">Teams</div>\r\n                        \
+        \            <div class=\"grid--cell fs-fine fc-light mr4\">\r\n         \
+        \                               <a href=\"javascript:void(0)\" class=\"s-link\
+        \ s-link__inherit js-gps-track\"\r\n                                     \
+        \       role=\"button\"\r\n                                            aria-controls=\"\
+        popover-teams-create-cta\"\r\n                                           \
+        \ data-controller=\"s-popover\"\r\n                                      \
+        \      data-action=\"s-popover#toggle\"\r\n                              \
+        \              data-s-popover-placement=\"bottom-start\"\r\n             \
+        \                               data-s-popover-toggle-class=\"is-selected\"\
+        \r\n                                            data-gps-track=\"teams.create.left-sidenav.click({\
+        \ Action: ShowInfo })\"\r\n                                            data-ga=\"\
+        [&quot;teams left navigation - anonymous&quot;,&quot;left nav show teams info&quot;,null,null,null]\"\
+        >\r\n                                            What&#x2019;s this?\r\n \
+        \                                       </a>\r\n\r\n                     \
+        \               </div>\r\n                                </li>\r\n      \
+        \                          <li class=\"ps-relative\">\r\n                \
+        \                    <a href=\"https://stackoverflow.com/teams\"\r\n     \
+        \                                   class=\"pl8 js-gps-track nav-links--link\"\
+        \r\n                                        title=\"Stack Overflow for Teams\
+        \ is a private, secure spot for your organization's questions and answers.\"\
+        \r\n                                        data-gps-track=\"teams.create.left-sidenav.click({\
+        \ Action: TeamsClick })\"\r\n                                        data-ga=\"\
+        [&quot;teams left navigation - anonymous&quot;,&quot;left nav team click&quot;,&quot;stackoverflow.com/teams&quot;,null,null]\"\
         >\r\n                                        <div class=\"grid ai-center\"\
         >\r\n                                            <div class=\"grid--cell s-avatar\
         \ va-middle bg-orange-400\">\r\n                                         \
@@ -429,8 +438,10 @@ interactions:
         \n                    inquestion:1234\r\n                </td>\r\n       \
         \     </tr>\r\n            <tr>\r\n                <th scope=\"row\">Views</th>\r\
         \n                <td class=\"ff-mono\">views:250</td>\r\n            </tr>\r\
-        \n            <tr>\r\n                <th scope=\"row\">Sections</th>\r\n\
-        \                <td class=\"ff-mono\">\r\n                    title:apples<br/>\r\
+        \n            <tr>\r\n                <th scope=\"row\">Code</th>\r\n    \
+        \            <td class=\"ff-mono\">code:\"if (foo != bar)\"</td>\r\n     \
+        \       </tr>\r\n            <tr>\r\n                <th scope=\"row\">Sections</th>\r\
+        \n                <td class=\"ff-mono\">\r\n                    title:apples<br/>\r\
         \n                    body:\"apples oranges\"\r\n                </td>\r\n\
         \            </tr>\r\n            <tr>\r\n                <th scope=\"row\"\
         >URL</th>\r\n                <td class=\"ff-mono\">url:\"*.example.com\"</td>\r\
@@ -452,30 +463,30 @@ interactions:
         \ advanced search <a href=\"/help/searching\">visit our help page</a>\r\n\
         \                </td>\r\n            </tr>\r\n        </tbody>\r\n    </table>\r\
         \n\r\n    <div class=\"displaying-results\">\r\n        <span class=\"mr2\"\
-        >Results for preaching the choir</span>\r\n    </div>\r\n\r\n        <form\
-        \ id=\"bigsearch\" class=\"mb24\" action=\"/search\" method=\"get\">\r\n \
-        \           <div class=\"grid gsx gs8\">\r\n                <input name=\"\
-        q\" class=\"grid--cell fl1 s-input\" type=\"text\" maxlength=\"140\" value=\"\
-        Preaching the choir\">\r\n                <button class=\"grid--cell s-btn\
-        \ s-btn__primary\">Search</button>\r\n            </div>\r\n\r\n\r\n     \
-        \   </form>\r\n\r\n        <div class=\"grid ai-center mb16\">\r\n       \
-        \     <div class=\"grid--cell fl1 fs-body3 mr12\">\r\n                36 results\r\
-        \n            </div>\r\n\r\n            <div class=\"grid--cell\">\r\n   \
-        \             <div class=\" grid s-btn-group js-filter-btn\">\r\n        <a\
-        \ class=\"youarehere is-selected grid--cell s-btn s-btn__muted s-btn__outlined\"\
-        \ href=\"/search?tab=relevance&amp;q=Preaching%20the%20choir\" data-nav-xhref=\"\
-        \" title=\"Search results with best match to search terms\" data-value=\"\
-        relevance\" data-shortcut=\"\">\r\n            Relevance</a>\r\n        <a\
-        \ class=\"grid--cell s-btn s-btn__muted s-btn__outlined\" href=\"/search?tab=newest&amp;q=Preaching%20the%20choir\"\
+        >Results for fake cache bypass</span>\r\n    </div>\r\n\r\n        <form id=\"\
+        bigsearch\" class=\"mb24\" action=\"/search\" method=\"get\">\r\n        \
+        \    <div class=\"grid gsx gs8\">\r\n                <input name=\"q\" class=\"\
+        grid--cell fl1 s-input\" type=\"text\" maxlength=\"140\" value=\"Fake cache\
+        \ bypass\">\r\n                <button class=\"grid--cell s-btn s-btn__primary\"\
+        >Search</button>\r\n            </div>\r\n\r\n\r\n        </form>\r\n\r\n\
+        \        <div class=\"grid ai-center mb16\">\r\n            <div class=\"\
+        grid--cell fl1 fs-body3 mr12\">\r\n                11 results\r\n        \
+        \    </div>\r\n\r\n            <div class=\"grid--cell\">\r\n            \
+        \    <div class=\" grid s-btn-group js-filter-btn\">\r\n        <a class=\"\
+        youarehere is-selected grid--cell s-btn s-btn__muted s-btn__outlined\" href=\"\
+        /search?tab=relevance&amp;q=Fake%20cache%20bypass\" data-nav-xhref=\"\" title=\"\
+        Search results with best match to search terms\" data-value=\"relevance\"\
+        \ data-shortcut=\"\">\r\n            Relevance</a>\r\n        <a class=\"\
+        grid--cell s-btn s-btn__muted s-btn__outlined\" href=\"/search?tab=newest&amp;q=Fake%20cache%20bypass\"\
         \ data-nav-xhref=\"\" title=\"Newest search results\" data-value=\"newest\"\
         \ data-shortcut=\"\">\r\n            Newest</a>\r\n        <nav class=\"grid\
         \ ps-relative\">\r\n            <a class=\"s-btn s-btn__muted s-btn__outlined\
         \ s-btn__dropdown blr0 brr-sm js-dropdown-toggle\">More</a>\r\n          \
         \  <ul class=\"dropdown dropdown-questions-filters d-block d-none\">\r\n \
-        \                   <li><a class=\"disabled\" href=\"/search?tab=active&amp;q=Preaching%20the%20choir\"\
+        \                   <li><a class=\"disabled\" href=\"/search?tab=active&amp;q=Fake%20cache%20bypass\"\
         \ data-nav-xhref=\"\" title=\"Recently active search results\" data-value=\"\
         active\" data-shortcut=\"\">Active</a></li>\r\n                    <li><a\
-        \ class=\"disabled\" href=\"/search?tab=votes&amp;q=Preaching%20the%20choir\"\
+        \ class=\"disabled\" href=\"/search?tab=votes&amp;q=Fake%20cache%20bypass\"\
         \ data-nav-xhref=\"\" title=\"Highest voted search results\" data-value=\"\
         votes\" data-shortcut=\"\">Votes</a></li>\r\n            </ul>\r\n       \
         \ </nav>\r\n        <script>\r\n            StackExchange.ready(function ()\
@@ -492,453 +503,300 @@ interactions:
         \ });\r\n            });\r\n        </script>\r\n</div>\r\n\r\n          \
         \  </div>\r\n        </div>\r\n        <div class=\"flush-left js-search-results\"\
         >\r\n                <div>\r\n                            <div class=\"question-summary\
-        \ search-result\" id=\"question-summary-3188672\" data-position=\"1\">\r\n\
+        \ search-result\" id=\"question-summary-636850\" data-position=\"1\">\r\n\
         \        <div class=\"statscontainer\">\r\n            <div class=\"stats\"\
         >\r\n                <div class=\"vote\">\r\n                    <div class=\"\
-        votes \">\r\n                        <span class=\"vote-count-post \"><strong>156</strong></span>\r\
+        votes \">\r\n                        <span class=\"vote-count-post \"><strong>4</strong></span>\r\
         \n                        <div class=\"viewcount\">votes</div>\r\n       \
         \             </div>\r\n                </div>\r\n                    <div\
-        \ class=\"status answered-accepted\">\r\n                        <strong>27</strong>answers\r\
+        \ class=\"status answered-accepted\">\r\n                        <strong>6</strong>answers\r\
         \n                    </div>\r\n            </div>\r\n        </div>\r\n \
         \       <div class=\"summary\">\r\n            <div class=\"result-link\"\
-        >\r\n                <h3>\r\n\r\n        <a href=\"/questions/3188672/how-to-elegantly-check-if-a-number-is-within-a-range?r=SearchResults\"\
-        \ data-searchsession=\"/questions/3188672/how-to-elegantly-check-if-a-number-is-within-a-range?r=SearchResults&s=1|91.3356\"\
-        \ title=\"How to elegantly check if a number is within a range?\" class=\"\
-        question-hyperlink\">\r\nQ: How to elegantly check if a number is within a\
-        \ range?        </a>\r\n</h3>\r\n            </div>\r\n            <div class=\"\
-        excerpt\">\r\n                 project not for production.\n\nThis questions\
-        \ wasn&#39;t about speed, but about code beauty. Stop talking about efficiency\
-        \ and such; remember you&#39;re <span class=\"fw-bold\">preaching</span> to\
-        \ <span class=\"fw-bold\">the</span> <span class=\"fw-bold\">choir</span>.\n\
-        \ &hellip; How can I do this elegantly with C# and .NET 3.5/4?\n\nFor example,\
-        \ a number can be between 1 and 100.\n\nI know a simple if would suffice;\
-        \ but <span class=\"fw-bold\">the</span> keyword to this question is elegance.\
-        \ It&#39;s for my toy &hellip; \r\n            </div>\r\n            <div\
-        \ class=\"tags user-tags t-c&#xF1; t-numbers t-int\">\r\n<a href=\"/questions/tagged/c%23\"\
-        \ class=\"post-tag\" title=\"show questions tagged &#39;c#&#39;\" rel=\"tag\"\
-        >c#</a> <a href=\"/questions/tagged/numbers\" class=\"post-tag\" title=\"\
-        show questions tagged &#39;numbers&#39;\" rel=\"tag\">numbers</a> <a href=\"\
-        /questions/tagged/int\" class=\"post-tag\" title=\"show questions tagged &#39;int&#39;\"\
-        \ rel=\"tag\">int</a>             </div>\r\n            <div class=\"started\
-        \ fr\">\r\nasked <span title=\"2010-07-06 17:30:22Z\" class=\"relativetime\"\
-        >Jul 6 '10</span> by <a href=\"/users/112355/sergio-tapia\">Sergio Tapia</a>\
-        \            </div>\r\n        </div>\r\n    </div>\r\n\r\n              \
-        \              <div class=\"question-summary search-result\" id=\"question-summary-45041036\"\
-        \ data-position=\"2\">\r\n        <div class=\"statscontainer\">\r\n     \
-        \       <div class=\"stats\">\r\n                <div class=\"vote\">\r\n\
-        \                    <div class=\"votes \">\r\n                        <span\
-        \ class=\"vote-count-post \"><strong>1</strong></span>\r\n               \
-        \         <div class=\"viewcount\">vote</div>\r\n                    </div>\r\
-        \n                </div>\r\n                    <div class=\"status unanswered\"\
-        >\r\n                        <strong>0</strong>answers\r\n               \
-        \     </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"\
-        summary\">\r\n            <div class=\"result-link\">\r\n                <h3>\r\
-        \n\r\n        <a href=\"/questions/45041036/postgresql-multidimensional-array-extracting-multiple-non-contiguous-elements?r=SearchResults\"\
-        \ data-searchsession=\"/questions/45041036/postgresql-multidimensional-array-extracting-multiple-non-contiguous-elements?r=SearchResults&s=2|69.3014\"\
-        \ title=\"postgresql multidimensional array- extracting multiple non-contiguous\
-        \ elements\" class=\"question-hyperlink\">\r\nQ: postgresql multidimensional\
-        \ array- extracting multiple non-contiguous elements        </a>\r\n</h3>\r\
+        >\r\n                <h3>\r\n\r\n        <a href=\"/questions/636850/register-dll-in-gac-without-assembly-manifest?r=SearchResults\"\
+        \ data-searchsession=\"/questions/636850/register-dll-in-gac-without-assembly-manifest?r=SearchResults&s=1|36.6057\"\
+        \ title=\"Register DLL in GAC without Assembly Manifest\" class=\"question-hyperlink\"\
+        >\r\nQ: Register DLL in GAC without Assembly Manifest        </a>\r\n</h3>\r\
         \n            </div>\r\n            <div class=\"excerpt\">\r\n          \
-        \      i am using PostgreSQL 8.2 (i know, we need to upgrade, <span class=\"\
-        fw-bold\">preaching</span> to <span class=\"fw-bold\">the</span> <span class=\"\
-        fw-bold\">choir</span>).\n\nexample:\n\nSELECT &#39;{{2,4,8,network1},{4,6,1,network3},{2,10,11,network6}}&#39;::TEXT[]\
-        \ AS X\n\n\nwhen <span class=\"fw-bold\">the</span> X[1:3][1:1] = 2, i would\
-        \ like to return <span class=\"fw-bold\">the</span> following:\n\n{{2,network1},{2,network6}}\n\
-        \n\nis this possible?\n\nthank you!\n &hellip; \r\n            </div>\r\n\
-        \            <div class=\"tags user-tags t-postgresql t-multidimensional-array\"\
-        >\r\n<a href=\"/questions/tagged/postgresql\" class=\"post-tag\" title=\"\
-        show questions tagged &#39;postgresql&#39;\" rel=\"tag\">postgresql</a> <a\
-        \ href=\"/questions/tagged/multidimensional-array\" class=\"post-tag\" title=\"\
-        show questions tagged &#39;multidimensional-array&#39;\" rel=\"tag\">multidimensional-array</a>\
+        \       an as\nsembly manifest.\n\nAll I have is the DLL.  Is there a way\
+        \ to create / <span class=\"fw-bold\">fake</span> / <span class=\"fw-bold\"\
+        >bypass</span> it?\n\nFor those interested, I am attempting to extract the\
+        \ Visual Studio 2010 &amp; .NET 4.0 CTP from the VHD and run it on my physical\
+        \ box.  As a side note, has this been attempted?\n &hellip; I have a DLL I\
+        \ wish to register with my GAC.  I enter the command:\n\ngacutil /i c:\\temp\\\
+        msvcr100.dll\n\n\nand I get the error:\nFailure adding assembly to the <span\
+        \ class=\"fw-bold\">cache</span>:   The module was expected to contain &hellip;\
+        \ \r\n            </div>\r\n            <div class=\"tags user-tags t-windows\
+        \ t-visual-studio-2010 t-gacutil\">\r\n<a href=\"/questions/tagged/windows\"\
+        \ class=\"post-tag\" title=\"show questions tagged &#39;windows&#39;\" rel=\"\
+        tag\">windows</a> <a href=\"/questions/tagged/visual-studio-2010\" class=\"\
+        post-tag\" title=\"show questions tagged &#39;visual-studio-2010&#39;\" rel=\"\
+        tag\">visual-studio-2010</a> <a href=\"/questions/tagged/gacutil\" class=\"\
+        post-tag\" title=\"show questions tagged &#39;gacutil&#39;\" rel=\"tag\">gacutil</a>\
         \             </div>\r\n            <div class=\"started fr\">\r\nasked <span\
-        \ title=\"2017-07-11 17:25:04Z\" class=\"relativetime\">Jul 11 '17</span>\
-        \ by <a href=\"/users/6529992/shihjhit\">shihjhit</a>            </div>\r\n\
-        \        </div>\r\n    </div>\r\n\r\n                            <div class=\"\
-        question-summary search-result\" id=\"answer-id-15383603\" data-position=\"\
-        3\">\r\n        <div class=\"statscontainer\">\r\n            <div class=\"\
-        stats\">\r\n                <div class=\"vote\">\r\n                    <div\
-        \ class=\"votes \">\r\n                        <span class=\"vote-count-post\
-        \ \"><strong>0</strong></span>\r\n                        <div class=\"viewcount\"\
-        >votes</div>\r\n                    </div>\r\n                </div>\r\n \
-        \           </div>\r\n        </div>\r\n        <div class=\"summary\">\r\n\
-        \            <div class=\"result-link\">\r\n                <h3>\r\n\r\n \
-        \       <a href=\"/questions/15383397/textarea-cant-have-a-default-value/15383603?r=SearchResults#15383603\"\
-        \ data-searchsession=\"/questions/15383397/textarea-cant-have-a-default-value/15383603?r=SearchResults&s=3|56.2636#15383603\"\
-        \ title=\"textarea can&#x27;t have a default value\" class=\"question-hyperlink\"\
-        >\r\n            A: textarea can&#39;t have a default value\r\n        </a>\r\
-        \n</h3>\r\n            </div>\r\n            <div class=\"excerpt\">\r\n \
-        \               It has to be in-between <span class=\"fw-bold\">the</span>\
-        \ tags.\n\n&lt;textarea class=&quot;wideInput&quot; cols=&quot;30&quot; rows=&quot;10&quot;&gt;&lt;?php\
-        \ echo $row[&#39;foodDescription&#39;]; ?&gt;&lt;/textarea&gt;\n\n\nLol <span\
-        \ class=\"fw-bold\">preaching</span> to <span class=\"fw-bold\">the</span>\
-        \ <span class=\"fw-bold\">choir</span>\n &hellip; \r\n            </div>\r\
-        \n            <div class=\"tags user-tags t-php t-html t-textarea\">\r\n \
-        \           </div>\r\n            <div class=\"started fr\">\r\nanswered <span\
-        \ title=\"2013-03-13 11:09:29Z\" class=\"relativetime\">Mar 13 '13</span>\
-        \ by <a href=\"/users/978616/shoriwa-shaun-benjamin\">shoriwa-shaun-benjamin</a>\
-        \            </div>\r\n        </div>\r\n    </div>\r\n\r\n              \
-        \              <div class=\"question-summary search-result\" id=\"answer-id-1230795\"\
-        \ data-position=\"4\">\r\n        <div class=\"statscontainer\">\r\n     \
-        \       <div class=\"stats\">\r\n                <div class=\"vote\">\r\n\
-        \                    <div class=\"votes \">\r\n                        <span\
-        \ class=\"vote-count-post \"><strong>4</strong></span>\r\n               \
-        \         <div class=\"viewcount\">votes</div>\r\n                    </div>\r\
-        \n                </div>\r\n            </div>\r\n        </div>\r\n     \
-        \   <div class=\"summary\">\r\n            <div class=\"result-link\">\r\n\
-        \                <h3>\r\n\r\n        <a href=\"/questions/1230773/what-is-the-benefit-of-explicitly-naming-getters-and-setters-as-get-and-se/1230795?r=SearchResults#1230795\"\
-        \ data-searchsession=\"/questions/1230773/what-is-the-benefit-of-explicitly-naming-getters-and-setters-as-get-and-se/1230795?r=SearchResults&s=4|50.1269#1230795\"\
-        \ title=\"What is the benefit of explicitly naming getters and setters as\
-        \ &quot;get...&quot; and &quot;set...&quot;?\" class=\"question-hyperlink\"\
-        >\r\n            A: What is the benefit of explicitly naming getters and setters\
-        \ as &ldquo;get&hellip;&rdquo; and &ldquo;set&hellip;&rdquo;?\r\n        </a>\r\
-        \n</h3>\r\n            </div>\r\n            <div class=\"excerpt\">\r\n \
-        \               <span class=\"fw-bold\">The</span> designers of C# apparently\
-        \ agree, and <span class=\"fw-bold\">the</span> &#39;C#&#39; tag outnumbers\
-        \ <span class=\"fw-bold\">the</span> next most popular language by 2:1 on\
-        \ StackOverflow.  So I suspect you&#39;re <span class=\"fw-bold\">preaching</span>\
-        \ to <span class=\"fw-bold\">the</span> <span class=\"fw-bold\">choir</span>.\n\
-        \ &hellip; \r\n            </div>\r\n            <div class=\"tags user-tags\
-        \ t-language-agnostic t-programming-languages t-accessor\">\r\n          \
-        \  </div>\r\n            <div class=\"started fr\">\r\nanswered <span title=\"\
-        2009-08-05 01:48:45Z\" class=\"relativetime\">Aug 5 '09</span> by <a href=\"\
-        /users/74439/richard-berg\">Richard Berg</a>            </div>\r\n       \
-        \ </div>\r\n    </div>\r\n\r\n                            <div class=\"question-summary\
-        \ search-result\" id=\"answer-id-37621968\" data-position=\"5\">\r\n     \
+        \ title=\"2009-03-12 00:03:18Z\" class=\"relativetime\">Mar 12 '09</span>\
+        \ by <a href=\"/users/11112/tsilb\">tsilb</a>            </div>\r\n      \
+        \  </div>\r\n    </div>\r\n\r\n                            <div class=\"question-summary\
+        \ search-result\" id=\"answer-id-34559310\" data-position=\"2\">\r\n     \
         \   <div class=\"statscontainer\">\r\n            <div class=\"stats\">\r\n\
         \                <div class=\"vote\">\r\n                    <div class=\"\
         votes \">\r\n                        <span class=\"vote-count-post \"><strong>1</strong></span>\r\
         \n                        <div class=\"viewcount\">vote</div>\r\n        \
         \            </div>\r\n                </div>\r\n            </div>\r\n  \
         \      </div>\r\n        <div class=\"summary\">\r\n            <div class=\"\
-        result-link\">\r\n                <h3>\r\n\r\n        <a href=\"/questions/37614694/plot-over-an-image-background-in-matlab/37621968?r=SearchResults#37621968\"\
-        \ data-searchsession=\"/questions/37614694/plot-over-an-image-background-in-matlab/37621968?r=SearchResults&s=5|40.7408#37621968\"\
-        \ title=\"Plot over an image background in MATLAB\" class=\"question-hyperlink\"\
-        >\r\n            A: Plot over an image background in MATLAB\r\n        </a>\r\
-        \n</h3>\r\n            </div>\r\n            <div class=\"excerpt\">\r\n \
-        \               Maybe I am <span class=\"fw-bold\">preaching</span> to <span\
-        \ class=\"fw-bold\">the</span> <span class=\"fw-bold\">choir</span> or overlooking\
-        \ something here but <span class=\"fw-bold\">the</span> example you used actually\
-        \ mapped <span class=\"fw-bold\">the</span> image to <span class=\"fw-bold\"\
-        >the</span> data range of <span class=\"fw-bold\">the</span> plot, hence <span\
-        \ class=\"fw-bold\">the</span> lines:\n\n% set <span class=\"fw-bold\">the</span>\
-        \ range of <span class=\"fw-bold\">the</span> axes\n% <span class=\"fw-bold\"\
-        >The</span> &hellip;  image will be stretched to this.\nmin_x = 0;\nmax_x\
-        \ = 8;\nmin_y = 0;\nmax_y = 6;\n\nimagesc([min_x max_x], [min_y max_y], img);\n\
-        \n\nwhere you directly plot your image\n\nimagesc(I);\n\n\nIf now your data\
-        \ coordinates and your image coordinates are vastly different you either see\
-        \ one or <span class=\"fw-bold\">the</span> other.\n &hellip; \r\n       \
-        \     </div>\r\n            <div class=\"tags user-tags t-image t-matlab t-plot\
-        \ t-overlap\">\r\n            </div>\r\n            <div class=\"started fr\"\
-        >\r\nanswered <span title=\"2016-06-03 19:23:07Z\" class=\"relativetime\"\
-        >Jun 3 '16</span> by <a href=\"/users/6416390/zerotonin\">zerotonin</a>  \
-        \          </div>\r\n        </div>\r\n    </div>\r\n\r\n                \
-        \            <div class=\"question-summary search-result\" id=\"answer-id-219951\"\
-        \ data-position=\"6\">\r\n        <div class=\"statscontainer\">\r\n     \
-        \       <div class=\"stats\">\r\n                <div class=\"vote\">\r\n\
-        \                    <div class=\"votes \">\r\n                        <span\
-        \ class=\"vote-count-post \"><strong>1</strong></span>\r\n               \
-        \         <div class=\"viewcount\">vote</div>\r\n                    </div>\r\
-        \n                </div>\r\n            </div>\r\n        </div>\r\n     \
-        \   <div class=\"summary\">\r\n            <div class=\"result-link\">\r\n\
-        \                <h3>\r\n\r\n        <a href=\"/questions/219872/graph-rendering-using-3d-acceleration/219951?r=SearchResults#219951\"\
-        \ data-searchsession=\"/questions/219872/graph-rendering-using-3d-acceleration/219951?r=SearchResults&s=6|40.6691#219951\"\
-        \ title=\"Graph rendering using 3D acceleration\" class=\"question-hyperlink\"\
-        >\r\n            A: Graph rendering using 3D acceleration\r\n        </a>\r\
-        \n</h3>\r\n            </div>\r\n            <div class=\"excerpt\">\r\n \
-        \                convenient to your application.\n\nForgive me if I&#39;ve\
-        \ missed something, and am <span class=\"fw-bold\">preaching</span> basic\
-        \ object oriented design to <span class=\"fw-bold\">the</span> <span class=\"\
-        fw-bold\">choir</span>.  Just sayin&#39;...\n &hellip; If your code gets unreadable\
-        \ because you&#39;re dealing with <span class=\"fw-bold\">the</span> 3D stuff\
-        \ directly, you need to write a thin adaptor layer that encapsulates all <span\
-        \ class=\"fw-bold\">the</span> 3D OpenGL stuff, and takes 2D data in a form\
-        \ &hellip; \r\n            </div>\r\n            <div class=\"tags user-tags\
-        \ t-&#xFB;net t-3d t-gpu t-linegraph\">\r\n            </div>\r\n        \
-        \    <div class=\"started fr\">\r\nanswered <span title=\"2008-10-20 21:15:09Z\"\
-        \ class=\"relativetime\">Oct 20 '08</span> by <a href=\"/users/210211/comingstorm\"\
-        >comingstorm</a>            </div>\r\n        </div>\r\n    </div>\r\n\r\n\
-        \                            <div class=\"question-summary search-result\"\
-        \ id=\"question-summary-34741102\" data-position=\"7\">\r\n        <div class=\"\
-        statscontainer\">\r\n            <div class=\"stats\">\r\n               \
-        \ <div class=\"vote\">\r\n                    <div class=\"votes \">\r\n \
-        \                       <span class=\"vote-count-post \"><strong>0</strong></span>\r\
-        \n                        <div class=\"viewcount\">votes</div>\r\n       \
-        \             </div>\r\n                </div>\r\n                    <div\
-        \ class=\"status answered\">\r\n                        <strong>1</strong>answer\r\
-        \n                    </div>\r\n            </div>\r\n        </div>\r\n \
-        \       <div class=\"summary\">\r\n            <div class=\"result-link\"\
-        >\r\n                <h3>\r\n\r\n        <a href=\"/questions/34741102/inspection-to-ensure-all-variable-declarations-are-initialised?r=SearchResults\"\
-        \ data-searchsession=\"/questions/34741102/inspection-to-ensure-all-variable-declarations-are-initialised?r=SearchResults&s=7|38.1776\"\
-        \ title=\"Inspection to ensure all variable declarations are initialised\"\
-        \ class=\"question-hyperlink\">\r\nQ: Inspection to ensure all variable declarations\
-        \ are initialised        </a>\r\n</h3>\r\n            </div>\r\n         \
-        \   <div class=\"excerpt\">\r\n                 <span class=\"fw-bold\">preaching</span>\
-        \ to <span class=\"fw-bold\">the</span> <span class=\"fw-bold\">choir</span>\
-        \ anyway) but for a way, in Intellij, that I can ease some of <span class=\"\
-        fw-bold\">the</span> hassle I get when it comes time for code reviews, by\
-        \ having had it already pointed out to me by Intellij. \n &hellip;  highlight\
-        \ when a variable has been declared without having been assigned in <span\
-        \ class=\"fw-bold\">the</span> same operation?\n\nEdit:\nI&#39;m aware that\
-        \ <span class=\"fw-bold\">the</span> standard itself isn&#39;t <span class=\"\
-        fw-bold\">the</span> best standard. As I said in a comment, a lot of our &hellip;\
-        \ \r\n            </div>\r\n            <div class=\"tags user-tags t-java\
-        \ t-intellij-idea\">\r\n<a href=\"/questions/tagged/java\" class=\"post-tag\"\
-        \ title=\"show questions tagged &#39;java&#39;\" rel=\"tag\">java</a> <a href=\"\
-        /questions/tagged/intellij-idea\" class=\"post-tag\" title=\"show questions\
-        \ tagged &#39;intellij-idea&#39;\" rel=\"tag\">intellij-idea</a>         \
-        \    </div>\r\n            <div class=\"started fr\">\r\nasked <span title=\"\
-        2016-01-12 10:26:01Z\" class=\"relativetime\">Jan 12 '16</span> by <a href=\"\
-        /users/5084777/kialandei\">Kialandei</a>            </div>\r\n        </div>\r\
-        \n    </div>\r\n\r\n                            <div class=\"question-summary\
-        \ search-result\" id=\"question-summary-11950408\" data-position=\"8\">\r\n\
-        \        <div class=\"statscontainer\">\r\n            <div class=\"stats\"\
-        >\r\n                <div class=\"vote\">\r\n                    <div class=\"\
-        votes \">\r\n                        <span class=\"vote-count-post \"><strong>5</strong></span>\r\
-        \n                        <div class=\"viewcount\">votes</div>\r\n       \
-        \             </div>\r\n                </div>\r\n                    <div\
-        \ class=\"status answered\">\r\n                        <strong>5</strong>answers\r\
-        \n                    </div>\r\n            </div>\r\n        </div>\r\n \
-        \       <div class=\"summary\">\r\n            <div class=\"result-link\"\
-        >\r\n                <h3>\r\n\r\n        <a href=\"/questions/11950408/dealing-with-duplicate-ids-in-selenium-webdriver?r=SearchResults\"\
-        \ data-searchsession=\"/questions/11950408/dealing-with-duplicate-ids-in-selenium-webdriver?r=SearchResults&s=8|37.7881\"\
-        \ title=\"Dealing with duplicate ids in selenium webdriver\" class=\"question-hyperlink\"\
-        >\r\nQ: Dealing with duplicate ids in selenium webdriver        </a>\r\n</h3>\r\
-        \n            </div>\r\n            <div class=\"excerpt\">\r\n          \
-        \       Selenium webdriver.\n\nOn other questions about this issue, answers\
-        \ typically say &quot;you should not have duplicate id&#39;s in html&quot;.\
-        \ <span class=\"fw-bold\">Preaching</span> to <span class=\"fw-bold\">the</span>\
-        \ <span class=\"fw-bold\">choir</span> there. I am not in control of <span\
-        \ class=\"fw-bold\">the</span> webpage in question. If &hellip; I am trying\
-        \ to automate some tests using selenium webdriver. I am dealing with a third-party\
-        \ login provider (OAuth) who is using duplicate id&#39;s in their html. As\
-        \ a result I cannot &quot;find&quot; <span class=\"fw-bold\">the</span> input\
-        \ &hellip; \r\n            </div>\r\n            <div class=\"tags user-tags\
-        \ t-xpath t-html-parsing t-webdriver t-selenium-webdriver\">\r\n<a href=\"\
-        /questions/tagged/xpath\" class=\"post-tag\" title=\"show questions tagged\
-        \ &#39;xpath&#39;\" rel=\"tag\">xpath</a> <a href=\"/questions/tagged/html-parsing\"\
-        \ class=\"post-tag\" title=\"show questions tagged &#39;html-parsing&#39;\"\
-        \ rel=\"tag\">html-parsing</a> <a href=\"/questions/tagged/webdriver\" class=\"\
-        post-tag\" title=\"show questions tagged &#39;webdriver&#39;\" rel=\"tag\"\
-        >webdriver</a> <a href=\"/questions/tagged/selenium-webdriver\" class=\"post-tag\"\
-        \ title=\"show questions tagged &#39;selenium-webdriver&#39;\" rel=\"tag\"\
-        >selenium-webdriver</a>             </div>\r\n            <div class=\"started\
-        \ fr\">\r\nasked <span title=\"2012-08-14 10:30:34Z\" class=\"relativetime\"\
-        >Aug 14 '12</span> by <a href=\"/users/144364/ftrotter\">ftrotter</a>    \
-        \        </div>\r\n        </div>\r\n    </div>\r\n\r\n                  \
-        \          <div class=\"question-summary search-result\" id=\"answer-id-7599249\"\
-        \ data-position=\"9\">\r\n        <div class=\"statscontainer\">\r\n     \
-        \       <div class=\"stats\">\r\n                <div class=\"vote\">\r\n\
-        \                    <div class=\"votes \">\r\n                        <span\
-        \ class=\"vote-count-post \"><strong>1</strong></span>\r\n               \
-        \         <div class=\"viewcount\">vote</div>\r\n                    </div>\r\
-        \n                </div>\r\n            </div>\r\n        </div>\r\n     \
-        \   <div class=\"summary\">\r\n            <div class=\"result-link\">\r\n\
-        \                <h3>\r\n\r\n        <a href=\"/questions/7598720/what-exceptions-this-code-may-throw/7599249?r=SearchResults#7599249\"\
-        \ data-searchsession=\"/questions/7598720/what-exceptions-this-code-may-throw/7599249?r=SearchResults&s=9|37.5851#7599249\"\
-        \ title=\"what exceptions this code may throw ?\" class=\"question-hyperlink\"\
-        >\r\n            A: what exceptions this code may throw ?\r\n        </a>\r\
-        \n</h3>\r\n            </div>\r\n            <div class=\"excerpt\">\r\n \
-        \                sections on exceptions in Effective Java, and/or read &quot;Effective\
-        \ Java Exceptions&quot; (different author).\n\nIf I&#39;m <span class=\"fw-bold\"\
-        >preaching</span> to <span class=\"fw-bold\">the</span> <span class=\"fw-bold\"\
-        >choir</span> - my apologies.\n\nAt some level near <span class=\"fw-bold\"\
-        >the</span> top of your program you&#39;ll probably want to catch unchecked\
-        \ exceptions - things like NullPointerException. \n &hellip; Why do you need\
-        \ to catch them separately?  What are you going to do differently for each\
-        \ one?  If <span class=\"fw-bold\">the</span> answer is &quot;nothing&quot;,\
-        \ then just catch them generically.  \n\nIf you haven&#39;t already, read\
-        \ <span class=\"fw-bold\">the</span> &hellip; \r\n            </div>\r\n \
-        \           <div class=\"tags user-tags t-java t-exception t-exception-handling\
-        \ t-jaxb\">\r\n            </div>\r\n            <div class=\"started fr\"\
-        >\r\nanswered <span title=\"2011-09-29 14:56:55Z\" class=\"relativetime\"\
-        >Sep 29 '11</span> by <a href=\"/users/685923/ed-staub\">Ed Staub</a>    \
-        \        </div>\r\n        </div>\r\n    </div>\r\n\r\n                  \
-        \          <div class=\"question-summary search-result\" id=\"question-summary-31506974\"\
-        \ data-position=\"10\">\r\n        <div class=\"statscontainer\">\r\n    \
-        \        <div class=\"stats\">\r\n                <div class=\"vote\">\r\n\
-        \                    <div class=\"votes \">\r\n                        <span\
-        \ class=\"vote-count-post \"><strong>0</strong></span>\r\n               \
-        \         <div class=\"viewcount\">votes</div>\r\n                    </div>\r\
-        \n                </div>\r\n                    <div class=\"status answered-accepted\"\
-        >\r\n                        <strong>1</strong>answer\r\n                \
-        \    </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"\
-        summary\">\r\n            <div class=\"result-link\">\r\n                <h3>\r\
-        \n\r\n        <a href=\"/questions/31506974/how-can-i-prevent-ckeditor-from-enclosing-urls-in-quotes?r=SearchResults\"\
-        \ data-searchsession=\"/questions/31506974/how-can-i-prevent-ckeditor-from-enclosing-urls-in-quotes?r=SearchResults&s=10|36.8665\"\
-        \ title=\"How can I prevent CKEditor from enclosing URLs in quotes?\" class=\"\
-        question-hyperlink\">\r\nQ: How can I prevent CKEditor from enclosing URLs\
-        \ in quotes?        </a>\r\n</h3>\r\n            </div>\r\n            <div\
-        \ class=\"excerpt\">\r\n                 how bad of an idea this is (you&#39;re\
-        \ <span class=\"fw-bold\">preaching</span> to <span class=\"fw-bold\">the</span>\
-        \ <span class=\"fw-bold\">choir</span> here), know that this is a REQUIREMENT\
-        \ for a very specific implementation of <span class=\"fw-bold\">the</span>\
-        \ Keyora web platform. There&#39;s nothing I can do to get around &hellip;\
-        \ Due to a very specific requirement, I need to prevent CKEditor from rewriting\
-        \ links with quotation marks around <span class=\"fw-bold\">the</span> URL.\
-        \ For example, if I input:\n\n&lt;a href=TEST123&gt;TEST123&lt;/a&gt;\n\n\n\
-        CKEditor rewrites it &hellip; \r\n            </div>\r\n            <div class=\"\
-        tags user-tags t-php t-html t-ckeditor\">\r\n<a href=\"/questions/tagged/php\"\
-        \ class=\"post-tag\" title=\"show questions tagged &#39;php&#39;\" rel=\"\
-        tag\">php</a> <a href=\"/questions/tagged/html\" class=\"post-tag\" title=\"\
-        show questions tagged &#39;html&#39;\" rel=\"tag\">html</a> <a href=\"/questions/tagged/ckeditor\"\
-        \ class=\"post-tag\" title=\"show questions tagged &#39;ckeditor&#39;\" rel=\"\
-        tag\">ckeditor</a>             </div>\r\n            <div class=\"started\
-        \ fr\">\r\nasked <span title=\"2015-07-19 23:22:24Z\" class=\"relativetime\"\
-        >Jul 19 '15</span> by <a href=\"/users/1467612/typel\">Typel</a>         \
-        \   </div>\r\n        </div>\r\n    </div>\r\n\r\n                       \
-        \     <div class=\"question-summary search-result\" id=\"answer-id-42585480\"\
-        \ data-position=\"11\">\r\n        <div class=\"statscontainer\">\r\n    \
-        \        <div class=\"stats\">\r\n                <div class=\"vote\">\r\n\
-        \                    <div class=\"votes \">\r\n                        <span\
-        \ class=\"vote-count-post \"><strong>0</strong></span>\r\n               \
-        \         <div class=\"viewcount\">votes</div>\r\n                    </div>\r\
-        \n                </div>\r\n            </div>\r\n        </div>\r\n     \
-        \   <div class=\"summary\">\r\n            <div class=\"result-link\">\r\n\
-        \                <h3>\r\n\r\n        <a href=\"/questions/42492312/100-width-not-working-in-ie-or-chrome/42585480?r=SearchResults#42585480\"\
-        \ data-searchsession=\"/questions/42492312/100-width-not-working-in-ie-or-chrome/42585480?r=SearchResults&s=11|33.4039#42585480\"\
-        \ title=\"100% width not working in IE or Chrome\" class=\"question-hyperlink\"\
-        >\r\n            A: 100% width not working in IE or Chrome\r\n        </a>\r\
-        \n</h3>\r\n            </div>\r\n            <div class=\"excerpt\">\r\n \
-        \                all browsers.\n\nSo watch out for mixing old html styling\
-        \ with new ... doing so can create unusual results.\n\nI know, I&#39;m <span\
-        \ class=\"fw-bold\">preaching</span> to <span class=\"fw-bold\">the</span>\
-        \ <span class=\"fw-bold\">choir</span>!\n &hellip; At Anthony&#39;s suggestion\
-        \ I moved <span class=\"fw-bold\">the</span> curve into it&#39;s own  which\
-        \ solved <span class=\"fw-bold\">the</span> initial problem but created a\
-        \ new one.\n\n<span class=\"fw-bold\">The</span> table below wasn&#39;t stretching\
-        \ to <span class=\"fw-bold\">the</span> full width in all browsers because\
-        \ it had a &hellip; \r\n            </div>\r\n            <div class=\"tags\
-        \ user-tags t-html t-css\">\r\n            </div>\r\n            <div class=\"\
-        started fr\">\r\nanswered <span title=\"2017-03-03 17:53:56Z\" class=\"relativetime\"\
-        >Mar 3 '17</span> by <a href=\"/users/6758330/nwt-bob\">NWT_Bob</a>      \
-        \      </div>\r\n        </div>\r\n    </div>\r\n\r\n                    \
-        \        <div class=\"question-summary search-result\" id=\"answer-id-6862456\"\
-        \ data-position=\"12\">\r\n        <div class=\"statscontainer\">\r\n    \
-        \        <div class=\"stats\">\r\n                <div class=\"vote\">\r\n\
-        \                    <div class=\"votes \">\r\n                        <span\
-        \ class=\"vote-count-post \"><strong>0</strong></span>\r\n               \
-        \         <div class=\"viewcount\">votes</div>\r\n                    </div>\r\
-        \n                </div>\r\n            </div>\r\n        </div>\r\n     \
-        \   <div class=\"summary\">\r\n            <div class=\"result-link\">\r\n\
-        \                <h3>\r\n\r\n        <a href=\"/questions/6742749/is-it-possible-to-write-a-sql-statement-in-plain-assembly-language-processor-lev/6862456?r=SearchResults#6862456\"\
-        \ data-searchsession=\"/questions/6742749/is-it-possible-to-write-a-sql-statement-in-plain-assembly-language-processor-lev/6862456?r=SearchResults&s=12|32.0662#6862456\"\
-        \ title=\"Is it possible to write a SQL statement in plain assembly language\
-        \ processor-level code?\" class=\"question-hyperlink\">\r\n            A:\
-        \ Is it possible to write a SQL statement in plain assembly language processor-level\
-        \ code?\r\n        </a>\r\n</h3>\r\n            </div>\r\n            <div\
-        \ class=\"excerpt\">\r\n                 of LLVM are used to produce CPU-instructions\
-        \ (which I assume is what you mean when you say assembler) from a query within\
-        \ <span class=\"fw-bold\">the</span> DBMS.\n\nAlso, even though I might be\
-        \ <span class=\"fw-bold\">preaching</span> to <span class=\"fw-bold\">the</span>\
-        \ <span class=\"fw-bold\">choir</span>, I want to make &hellip;  clear <span\
-        \ class=\"fw-bold\">the</span> MAL has nothing to do with CPU-instruction\
-        \ Assembler. Every single MAL-statement its backed by an implementation in\
-        \ C. MAL is used only (taadaa:) as an intermediate representation that is\
-        \ easy to optimized and interpret.\n &hellip; \r\n            </div>\r\n \
-        \           <div class=\"tags user-tags t-sql t-programming-languages t-assembly\
-        \ t-processor t-relational-algebra\">\r\n            </div>\r\n          \
-        \  <div class=\"started fr\">\r\nanswered <span title=\"2011-07-28 16:36:29Z\"\
-        \ class=\"relativetime\">Jul 28 '11</span> by <a href=\"/users/867918/holger\"\
-        >Holger</a>            </div>\r\n        </div>\r\n    </div>\r\n\r\n    \
-        \                        <div class=\"question-summary search-result\" id=\"\
-        answer-id-314960\" data-position=\"13\">\r\n        <div class=\"statscontainer\"\
-        >\r\n            <div class=\"stats\">\r\n                <div class=\"vote\"\
-        >\r\n                    <div class=\"votes \">\r\n                      \
-        \  <span class=\"vote-count-post \"><strong>0</strong></span>\r\n        \
-        \                <div class=\"viewcount\">votes</div>\r\n                \
-        \    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\
-        \n        <div class=\"summary\">\r\n            <div class=\"result-link\"\
-        >\r\n                <h3>\r\n\r\n        <a href=\"/questions/314241/what-oop-coding-practices-should-you-always-make-time-for/314960?r=SearchResults#314960\"\
-        \ data-searchsession=\"/questions/314241/what-oop-coding-practices-should-you-always-make-time-for/314960?r=SearchResults&s=13|31.5311#314960\"\
-        \ title=\"What OOP coding practices should you always make time for?\" class=\"\
-        question-hyperlink\">\r\n            A: What OOP coding practices should you\
-        \ always make time for?\r\n        </a>\r\n</h3>\r\n            </div>\r\n\
-        \            <div class=\"excerpt\">\r\n                 doesn&#39;t take\
-        \ long before you do it almost without thinking.\n\nHopefully you do this\
-        \ already and I&#39;m <span class=\"fw-bold\">preaching</span> to <span class=\"\
-        fw-bold\">the</span> <span class=\"fw-bold\">choir</span>.\n &hellip; \r\n\
-        \            </div>\r\n            <div class=\"tags user-tags t-oop t-rad\"\
+        result-link\">\r\n                <h3>\r\n\r\n        <a href=\"/questions/31041842/error-with-play-2-4-tests-the-cachemanager-has-been-shut-down-it-can-no-longe/34559310?r=SearchResults#34559310\"\
+        \ data-searchsession=\"/questions/31041842/error-with-play-2-4-tests-the-cachemanager-has-been-shut-down-it-can-no-longe/34559310?r=SearchResults&s=2|22.7835#34559310\"\
+        \ title=\"Error with Play 2.4 Tests : The CacheManager has been shut down.\
+        \ It can no longer be used\" class=\"question-hyperlink\">\r\n           \
+        \ A: Error with Play 2.4 Tests : The CacheManager has been shut down. It can\
+        \ no longer be used\r\n        </a>\r\n</h3>\r\n            </div>\r\n   \
+        \         <div class=\"excerpt\">\r\n                I think bypassing <span\
+        \ class=\"fw-bold\">cache</span> testing by faking a <span class=\"fw-bold\"\
+        >cache</span> is a bad practice. It invalidates your tests, all because you\
+        \ are trying to not use EhCache in a scalable and distributed way. A much\
+        \ better approach &hellip; \r\n            </div>\r\n            <div class=\"\
+        tags user-tags t-caching t-junit t-ehcache t-scala-2&#xFB;11 t-playframework-2&#xFB;4\"\
         >\r\n            </div>\r\n            <div class=\"started fr\">\r\nanswered\
-        \ <span title=\"2008-11-24 18:22:34Z\" class=\"relativetime\">Nov 24 '08</span>\
-        \ by <a href=\"/users/12000/lewis-baumstark\">Lewis Baumstark</a>        \
-        \    </div>\r\n        </div>\r\n    </div>\r\n\r\n                      \
-        \      <div class=\"question-summary search-result\" id=\"answer-id-24133625\"\
-        \ data-position=\"14\">\r\n        <div class=\"statscontainer\">\r\n    \
-        \        <div class=\"stats\">\r\n                <div class=\"vote\">\r\n\
-        \                    <div class=\"votes \">\r\n                        <span\
-        \ class=\"vote-count-post \"><strong>1</strong></span>\r\n               \
-        \         <div class=\"viewcount\">vote</div>\r\n                    </div>\r\
-        \n                </div>\r\n            </div>\r\n        </div>\r\n     \
-        \   <div class=\"summary\">\r\n            <div class=\"result-link\">\r\n\
-        \                <h3>\r\n\r\n        <a href=\"/questions/24133516/why-outlook-doesnt-support-background-images-and-other-html-and-css-properties/24133625?r=SearchResults#24133625\"\
-        \ data-searchsession=\"/questions/24133516/why-outlook-doesnt-support-background-images-and-other-html-and-css-properties/24133625?r=SearchResults&s=14|31.1114#24133625\"\
-        \ title=\"Why Outlook doesn&#x27;t support background images and other HTML\
-        \ and CSS properties?\" class=\"question-hyperlink\">\r\n            A: Why\
-        \ Outlook doesn&#39;t support background images and other HTML and CSS properties?\r\
-        \n        </a>\r\n</h3>\r\n            </div>\r\n            <div class=\"\
-        excerpt\">\r\n                 better off opening a support case with Microsoft.\
-        \ If <span class=\"fw-bold\">the</span> company you work for owns a few thousand\
-        \ licenses of MS Office, that will help speed things up a bit :-)\n\nThere\
-        \ is no reason to <span class=\"fw-bold\">preach</span> to <span class=\"\
-        fw-bold\">the</span> <span class=\"fw-bold\">choir</span> here; everybody\
-        \ will agree with you, but that won&#39;t change a thing.\n &hellip; \r\n\
-        \            </div>\r\n            <div class=\"tags user-tags t-outlook\"\
-        >\r\n            </div>\r\n            <div class=\"started fr\">\r\nanswered\
-        \ <span title=\"2014-06-10 05:38:09Z\" class=\"relativetime\">Jun 10 '14</span>\
-        \ by <a href=\"/users/332059/dmitry-streblechenko\">Dmitry Streblechenko</a>\
+        \ <span title=\"2016-01-01 19:30:19Z\" class=\"relativetime\">Jan 1 '16</span>\
+        \ by <a href=\"/users/5736587/craig\">Craig</a>            </div>\r\n    \
+        \    </div>\r\n    </div>\r\n\r\n                            <div class=\"\
+        question-summary search-result\" id=\"answer-id-40955237\" data-position=\"\
+        3\">\r\n        <div class=\"statscontainer\">\r\n            <div class=\"\
+        stats\">\r\n                <div class=\"vote\">\r\n                    <div\
+        \ class=\"votes answered\">\r\n                        <span class=\"vote-count-post\
+        \ \"><strong>0</strong></span>\r\n                        <div class=\"viewcount\"\
+        >votes</div>\r\n                    </div>\r\n                </div>\r\n \
+        \           </div>\r\n        </div>\r\n        <div class=\"summary\">\r\n\
+        \            <div class=\"result-link\">\r\n                <h3>\r\n\r\n \
+        \       <a href=\"/questions/40954899/refresh-a-dynamic-web-page-in-python-loop/40955237?r=SearchResults#40955237\"\
+        \ data-searchsession=\"/questions/40954899/refresh-a-dynamic-web-page-in-python-loop/40955237?r=SearchResults&s=3|18.0990#40955237\"\
+        \ title=\"refresh a dynamic web page in python loop\" class=\"question-hyperlink\"\
+        >\r\n            A: refresh a dynamic web page in python loop\r\n        </a>\r\
+        \n</h3>\r\n            </div>\r\n            <div class=\"excerpt\">\r\n \
+        \                handles your request, you can try to pass a &quot;<span class=\"\
+        fw-bold\">fake</span>&quot; parameter in your get request to see if you can\
+        \ <span class=\"fw-bold\">bypass</span> it, e.g. if the url is http://example.com/example.jpg,\
+        \ append a parameter in the end http &hellip; What I have in mind:\n\n1. Make\
+        \ sure it&#39;s the exact same url which feeds you different images every\
+        \ 3 seconds. \n\n2. What you got from that url might be <span class=\"fw-bold\"\
+        >cache</span>, it really depends on how the server &hellip; \r\n         \
+        \   </div>\r\n            <div class=\"tags user-tags t-python t-html\">\r\
+        \n            </div>\r\n            <div class=\"started fr\">\r\nanswered\
+        \ <span title=\"2016-12-04 04:01:31Z\" class=\"relativetime\">Dec 4 '16</span>\
+        \ by <a href=\"/users/402197/shane\">Shane</a>            </div>\r\n     \
+        \   </div>\r\n    </div>\r\n\r\n                            <div class=\"\
+        question-summary search-result\" id=\"answer-id-15299615\" data-position=\"\
+        4\">\r\n        <div class=\"statscontainer\">\r\n            <div class=\"\
+        stats\">\r\n                <div class=\"vote\">\r\n                    <div\
+        \ class=\"votes answered\">\r\n                        <span class=\"vote-count-post\
+        \ \"><strong>19</strong></span>\r\n                        <div class=\"viewcount\"\
+        >votes</div>\r\n                    </div>\r\n                </div>\r\n \
+        \           </div>\r\n        </div>\r\n        <div class=\"summary\">\r\n\
+        \            <div class=\"result-link\">\r\n                <h3>\r\n\r\n \
+        \       <a href=\"/questions/15298359/why-does-knitr-caching-fail-for-data-table/15299615?r=SearchResults#15299615\"\
+        \ data-searchsession=\"/questions/15298359/why-does-knitr-caching-fail-for-data-table/15299615?r=SearchResults&s=4|17.9899#15299615\"\
+        \ title=\"why does knitr caching fail for data.table `:=`?\" class=\"question-hyperlink\"\
+        >\r\n            A: why does knitr caching fail for data.table `:=`?\r\n \
+        \       </a>\r\n</h3>\r\n            </div>\r\n            <div class=\"excerpt\"\
+        >\r\n                 nothing except a reference is copied by DT &lt;- DT)\
+        \ but it does effectively send a (<span class=\"fw-bold\">fake</span>) signal\
+        \ to knitr that DT has been updated:\n\n```{r, <span class=\"fw-bold\">cache</span>=TRUE,\
+        \ echo=FALSE}\nDT &lt;- DT \n```\n\n\n\n\nWorking version of &hellip;  make\
+        \ a `data.table` in **R Markdown**\n```{r, <span class=\"fw-bold\">cache</span>=TRUE}\n\
+        DT = data.table(a = rnorm(10))\n```\n\nThen add a column using `:=`\n```{r,\
+        \ <span class=\"fw-bold\">cache</span>=TRUE}\nDT[, c:=5] \n```\n\n```{r, <span\
+        \ class=\"fw-bold\">cache</span>=TRUE, echo=FALSE}\nDT &lt;- DT &hellip; \r\
+        \n            </div>\r\n            <div class=\"tags user-tags t-r t-caching\
+        \ t-data&#xFB;table t-knitr\">\r\n            </div>\r\n            <div class=\"\
+        started fr\">\r\nanswered <span title=\"2013-03-08 17:14:32Z\" class=\"relativetime\"\
+        >Mar 8 '13</span> by <a href=\"/users/980833/josh-obrien\">Josh O&#39;Brien</a>\
         \            </div>\r\n        </div>\r\n    </div>\r\n\r\n              \
-        \              <div class=\"question-summary search-result\" id=\"question-summary-9841410\"\
-        \ data-position=\"15\">\r\n        <div class=\"statscontainer\">\r\n    \
-        \        <div class=\"stats\">\r\n                <div class=\"vote\">\r\n\
+        \              <div class=\"question-summary search-result\" id=\"question-summary-18136260\"\
+        \ data-position=\"5\">\r\n        <div class=\"statscontainer\">\r\n     \
+        \       <div class=\"stats\">\r\n                <div class=\"vote\">\r\n\
         \                    <div class=\"votes \">\r\n                        <span\
-        \ class=\"vote-count-post \"><strong>1</strong></span>\r\n               \
-        \         <div class=\"viewcount\">vote</div>\r\n                    </div>\r\
-        \n                </div>\r\n                    <div class=\"status answered-accepted\"\
+        \ class=\"vote-count-post \"><strong>0</strong></span>\r\n               \
+        \         <div class=\"viewcount\">votes</div>\r\n                    </div>\r\
+        \n                </div>\r\n                    <div class=\"status answered\"\
         >\r\n                        <strong>1</strong>answer\r\n                \
         \    </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"\
         summary\">\r\n            <div class=\"result-link\">\r\n                <h3>\r\
-        \n\r\n        <a href=\"/questions/9841410/what-can-a-clickonce-application-in-an-internet-zone-sandbox-expect-to-get-away?r=SearchResults\"\
-        \ data-searchsession=\"/questions/9841410/what-can-a-clickonce-application-in-an-internet-zone-sandbox-expect-to-get-away?r=SearchResults&s=15|30.6991\"\
-        \ title=\"What can a ClickOnce application in an Internet Zone sandbox expect\
-        \ to get away with?\" class=\"question-hyperlink\">\r\nQ: What can a ClickOnce\
-        \ application in an Internet Zone sandbox expect to get away with?       \
-        \ </a>\r\n</h3>\r\n            </div>\r\n            <div class=\"excerpt\"\
-        >\r\n                 without a confirmation dialog -- you would be <span\
-        \ class=\"fw-bold\">preaching</span> to <span class=\"fw-bold\">the</span>\
-        \ <span class=\"fw-bold\">choir</span>, but that decision is not mine to make).\n\
-        \ &hellip; We have an application that we want to make available to <span\
-        \ class=\"fw-bold\">the</span> general internet-using public with as few clicks\
-        \ as possible. I&#39;m investigating whether we can use ClickOnce to avoid\
-        \ <span class=\"fw-bold\">the</span> confirmation &hellip; \r\n          \
-        \  </div>\r\n            <div class=\"tags user-tags t-&#xFB;net t-security\
-        \ t-clickonce t-code-access-security\">\r\n<a href=\"/questions/tagged/.net\"\
-        \ class=\"post-tag\" title=\"show questions tagged &#39;.net&#39;\" rel=\"\
-        tag\">.net</a> <a href=\"/questions/tagged/security\" class=\"post-tag\" title=\"\
-        show questions tagged &#39;security&#39;\" rel=\"tag\">security</a> <a href=\"\
-        /questions/tagged/clickonce\" class=\"post-tag\" title=\"show questions tagged\
-        \ &#39;clickonce&#39;\" rel=\"tag\">clickonce</a> <a href=\"/questions/tagged/code-access-security\"\
-        \ class=\"post-tag\" title=\"show questions tagged &#39;code-access-security&#39;\"\
-        \ rel=\"tag\">code-access-security</a>             </div>\r\n            <div\
-        \ class=\"started fr\">\r\nasked <span title=\"2012-03-23 14:56:49Z\" class=\"\
-        relativetime\">Mar 23 '12</span> by <a href=\"/users/882051/hmakholm-left-over-monica\"\
-        >hmakholm left over Monica</a>            </div>\r\n        </div>\r\n   \
-        \ </div>\r\n\r\n                </div>\r\n        </div>\r\n        <br class=\"\
-        cbt\">\r\n<div class=\"s-pagination pager fl\">\r\n<div class=\"s-pagination--item\
-        \ is-selected\">1</div>\r\n<a class=\"s-pagination--item js-pagination-item\"\
-        \ href=\"/search?page=2&tab=Relevance&q=Preaching%20the%20choir\" rel=\"\"\
-        \ title=\"Go to page 2\">2</a>\r\n<a class=\"s-pagination--item js-pagination-item\"\
-        \ href=\"/search?page=3&tab=Relevance&q=Preaching%20the%20choir\" rel=\"\"\
-        \ title=\"Go to page 3\">3</a>\r\n<a class=\"s-pagination--item js-pagination-item\"\
-        \ href=\"/search?page=2&tab=Relevance&q=Preaching%20the%20choir\" rel=\"next\"\
-        \ title=\"Go to page 2\"> Next</a></div>\r\n<div class=\"s-pagination page-sizer\
-        \ fr\">\r\n  <a href=\"/search?tab=Relevance&amp;pagesize=15&amp;q=Preaching%20the%20choir\"\
-        \ title=\"Show 15 items per page\" class=\"s-pagination--item is-selected\"\
-        >15</a>\r\n  <a href=\"/search?tab=Relevance&amp;pagesize=30&amp;q=Preaching%20the%20choir\"\
-        \ title=\"Show 30 items per page\" class=\"s-pagination--item\">30</a>\r\n\
-        \  <a href=\"/search?tab=Relevance&amp;pagesize=50&amp;q=Preaching%20the%20choir\"\
-        \ title=\"Show 50 items per page\" class=\"s-pagination--item\">50</a>\r\n\
-        \  <span class=\"s-pagination--item s-pagination--item__clear\">per page</span>\r\
-        \n</div>\r\n</div>\r\n<div id=\"sidebar\">\r\n\r\n    <style>.everyoneloves__top-leaderboard:empty,.everyoneloves__mid-leaderboard:empty,.everyoneloves__bot-mid-leaderboard:empty{\r\
+        \n\r\n        <a href=\"/questions/18136260/cannot-login-to-paypal-sandbox-with-first-account-but-second-third-account-wor?r=SearchResults\"\
+        \ data-searchsession=\"/questions/18136260/cannot-login-to-paypal-sandbox-with-first-account-but-second-third-account-wor?r=SearchResults&s=5|16.5286\"\
+        \ title=\"Cannot login to Paypal sandbox with first account, but second, third\
+        \ account work\" class=\"question-hyperlink\">\r\nQ: Cannot login to Paypal\
+        \ sandbox with first account, but second, third account work        </a>\r\
+        \n</h3>\r\n            </div>\r\n            <div class=\"excerpt\">\r\n \
+        \                the Business account via the application).  Same error.\n\
+        \nI tried changing the password on the original Business account, flushed\
+        \ <span class=\"fw-bold\">cache</span>/cookies, still cannot login.  There\
+        \ should not be any password &hellip;  errors because the accounts have the\
+        \ same password!!!   I cannot use the &quot;forgot my password&quot; logic\
+        \ to see what it thinks my password is, because the email is <span class=\"\
+        fw-bold\">fake</span> and it won&#39;t get sent anywhere.\n\nI &hellip; \r\
+        \n            </div>\r\n            <div class=\"tags user-tags t-login t-passwords\
+        \ t-sandbox\">\r\n<a href=\"/questions/tagged/login\" class=\"post-tag\" title=\"\
+        show questions tagged &#39;login&#39;\" rel=\"tag\">login</a> <a href=\"/questions/tagged/passwords\"\
+        \ class=\"post-tag\" title=\"show questions tagged &#39;passwords&#39;\" rel=\"\
+        tag\">passwords</a> <a href=\"/questions/tagged/sandbox\" class=\"post-tag\"\
+        \ title=\"show questions tagged &#39;sandbox&#39;\" rel=\"tag\">sandbox</a>\
+        \             </div>\r\n            <div class=\"started fr\">\r\nasked <span\
+        \ title=\"2013-08-08 21:14:27Z\" class=\"relativetime\">Aug 8 '13</span> by\
+        \ <a href=\"/users/2656824/user2656824\">user2656824</a>            </div>\r\
+        \n        </div>\r\n    </div>\r\n\r\n                            <div class=\"\
+        question-summary search-result\" id=\"answer-id-47738393\" data-position=\"\
+        6\">\r\n        <div class=\"statscontainer\">\r\n            <div class=\"\
+        stats\">\r\n                <div class=\"vote\">\r\n                    <div\
+        \ class=\"votes \">\r\n                        <span class=\"vote-count-post\
+        \ \"><strong>0</strong></span>\r\n                        <div class=\"viewcount\"\
+        >votes</div>\r\n                    </div>\r\n                </div>\r\n \
+        \           </div>\r\n        </div>\r\n        <div class=\"summary\">\r\n\
+        \            <div class=\"result-link\">\r\n                <h3>\r\n\r\n \
+        \       <a href=\"/questions/47738321/how-to-get-a-csv-from-a-site-with-a-503-error-with-cloudflare-protection/47738393?r=SearchResults#47738393\"\
+        \ data-searchsession=\"/questions/47738321/how-to-get-a-csv-from-a-site-with-a-503-error-with-cloudflare-protection/47738393?r=SearchResults&s=6|13.0430#47738393\"\
+        \ title=\"How to get a CSV from a site with a 503 error with CloudFlare protection?\"\
+        \ class=\"question-hyperlink\">\r\n            A: How to get a CSV from a\
+        \ site with a 503 error with CloudFlare protection?\r\n        </a>\r\n</h3>\r\
+        \n            </div>\r\n            <div class=\"excerpt\">\r\n          \
+        \      There is no way you can <span class=\"fw-bold\">bypass</span> the CloudFlare\
+        \ protection using User-Agent or the like, because, if it was possible, then\
+        \ CloudFlare&#39;s wouldn&#39;t be any security at all.\n\nWhat is probably\
+        \ happening is &hellip; .\n       sleep(1);\n       return scrapeCSV($retries\
+        \ - 1);\n    }\n    ...\n    return $csv;\n}\n\n\nUPDATE\n\nTo access the\
+        \ second-level <span class=\"fw-bold\">cache</span> &quot;as a browser would\
+        \ do&quot; you probably need to cross-breed two &hellip; \r\n            </div>\r\
+        \n            <div class=\"tags user-tags t-php t-csv t-fopen t-http-status-code-503\"\
+        >\r\n            </div>\r\n            <div class=\"started fr\">\r\nanswered\
+        \ <span title=\"2017-12-10 11:32:32Z\" class=\"relativetime\">Dec 10 '17</span>\
+        \ by <a href=\"/users/1428679/lserni\">LSerni</a>            </div>\r\n  \
+        \      </div>\r\n    </div>\r\n\r\n                            <div class=\"\
+        question-summary search-result\" id=\"answer-id-28692031\" data-position=\"\
+        7\">\r\n        <div class=\"statscontainer\">\r\n            <div class=\"\
+        stats\">\r\n                <div class=\"vote\">\r\n                    <div\
+        \ class=\"votes answered\">\r\n                        <span class=\"vote-count-post\
+        \ \"><strong>3</strong></span>\r\n                        <div class=\"viewcount\"\
+        >votes</div>\r\n                    </div>\r\n                </div>\r\n \
+        \           </div>\r\n        </div>\r\n        <div class=\"summary\">\r\n\
+        \            <div class=\"result-link\">\r\n                <h3>\r\n\r\n \
+        \       <a href=\"/questions/28688032/bad-request-400-using-nginx-on-ubuntu-with-django/28692031?r=SearchResults#28692031\"\
+        \ data-searchsession=\"/questions/28688032/bad-request-400-using-nginx-on-ubuntu-with-django/28692031?r=SearchResults&s=7|10.7714#28692031\"\
+        \ title=\"Bad request (400) using nginx on ubuntu with Django\" class=\"question-hyperlink\"\
+        >\r\n            A: Bad request (400) using nginx on ubuntu with Django\r\n\
+        \        </a>\r\n</h3>\r\n            </div>\r\n            <div class=\"\
+        excerpt\">\r\n                 caches and password reset emails with links\
+        \ to malicious\n  hosts by submitting requests with a <span class=\"fw-bold\"\
+        >fake</span> HTTP Host header, which is\n  possible even under many seemingly-safe\
+        \ web server configurations &hellip; \r\n            </div>\r\n          \
+        \  <div class=\"tags user-tags t-django t-ubuntu t-nginx t-server t-ubuntu-server\"\
+        >\r\n            </div>\r\n            <div class=\"started fr\">\r\nanswered\
+        \ <span title=\"2015-02-24 09:22:54Z\" class=\"relativetime\">Feb 24 '15</span>\
+        \ by <a href=\"/users/3479860/valeriy-solovyov\">Valeriy Solovyov</a>    \
+        \        </div>\r\n        </div>\r\n    </div>\r\n\r\n                  \
+        \          <div class=\"question-summary search-result\" id=\"answer-id-51475716\"\
+        \ data-position=\"8\">\r\n        <div class=\"statscontainer\">\r\n     \
+        \       <div class=\"stats\">\r\n                <div class=\"vote\">\r\n\
+        \                    <div class=\"votes answered\">\r\n                  \
+        \      <span class=\"vote-count-post \"><strong>0</strong></span>\r\n    \
+        \                    <div class=\"viewcount\">votes</div>\r\n            \
+        \        </div>\r\n                </div>\r\n            </div>\r\n      \
+        \  </div>\r\n        <div class=\"summary\">\r\n            <div class=\"\
+        result-link\">\r\n                <h3>\r\n\r\n        <a href=\"/questions/51470764/how-to-add-up-numbers-in-php-to-create-a-unique-score-and-save-it/51475716?r=SearchResults#51475716\"\
+        \ data-searchsession=\"/questions/51470764/how-to-add-up-numbers-in-php-to-create-a-unique-score-and-save-it/51475716?r=SearchResults&s=8|8.8925#51475716\"\
+        \ title=\"How to add up numbers in PHP to create a unique score and save it\"\
+        \ class=\"question-hyperlink\">\r\n            A: How to add up numbers in\
+        \ PHP to create a unique score and save it\r\n        </a>\r\n</h3>\r\n  \
+        \          </div>\r\n            <div class=\"excerpt\">\r\n             \
+        \   You have to store the data and can do it in different places. Here&#39;s\
+        \ some of them:\n\n\nsession\ncookies\nserver <span class=\"fw-bold\">cache</span>\n\
+        browser local storage\ndatabase\n...\n\n\nWithin a normal website scope, you&#39;d\
+        \ usually go &hellip;  do this is as follows:\n\n\nprocess data with javascript\
+        \ and update interface\nsend processed data to backend along with unprocessed\
+        \ data to validate user input (one may &quot;<span class=\"fw-bold\">fake</span>&quot;\
+        \ javascript data)\nin the &hellip; \r\n            </div>\r\n           \
+        \ <div class=\"tags user-tags t-php t-html t-numbers t-add t-points\">\r\n\
+        \            </div>\r\n            <div class=\"started fr\">\r\nanswered\
+        \ <span title=\"2018-07-23 09:38:29Z\" class=\"relativetime\">Jul 23 '18</span>\
+        \ by <a href=\"/users/4396851/enrico\">Enrico</a>            </div>\r\n  \
+        \      </div>\r\n    </div>\r\n\r\n                            <div class=\"\
+        question-summary search-result\" id=\"answer-id-41575609\" data-position=\"\
+        9\">\r\n        <div class=\"statscontainer\">\r\n            <div class=\"\
+        stats\">\r\n                <div class=\"vote\">\r\n                    <div\
+        \ class=\"votes \">\r\n                        <span class=\"vote-count-post\
+        \ \"><strong>49</strong></span>\r\n                        <div class=\"viewcount\"\
+        >votes</div>\r\n                    </div>\r\n                </div>\r\n \
+        \           </div>\r\n        </div>\r\n        <div class=\"summary\">\r\n\
+        \            <div class=\"result-link\">\r\n                <h3>\r\n\r\n \
+        \       <a href=\"/questions/216542/how-do-i-uniquely-identify-computers-visiting-my-web-site/41575609?r=SearchResults#41575609\"\
+        \ data-searchsession=\"/questions/216542/how-do-i-uniquely-identify-computers-visiting-my-web-site/41575609?r=SearchResults&s=9|8.8144#41575609\"\
+        \ title=\"How do I uniquely identify computers visiting my web site?\" class=\"\
+        question-hyperlink\">\r\n            A: How do I uniquely identify computers\
+        \ visiting my web site?\r\n        </a>\r\n</h3>\r\n            </div>\r\n\
+        \            <div class=\"excerpt\">\r\n                 hijacking, etc.\n\
+        \n\nEven if there are ways to track a computer without using cookies there\
+        \ will always be a way to <span class=\"fw-bold\">bypass</span> it and software\
+        \ that will do this automatically. If you really need to track &hellip;  and\
+        \ browser <span class=\"fw-bold\">cache</span>.\n\n\nImplementation\n\nThere\
+        \ are many ways of implementing this. I don&#39;t think I can cover them all\
+        \ I&#39;ll just list my favorite which would make this an opinionated answer.\
+        \ Bear that in &hellip; \r\n            </div>\r\n            <div class=\"\
+        tags user-tags t-javascript t-cookies t-browser\">\r\n            </div>\r\
+        \n            <div class=\"started fr\">\r\nanswered <span title=\"2017-01-10\
+        \ 18:14:54Z\" class=\"relativetime\">Jan 10 '17</span> by <a href=\"/users/6158977/walter\"\
+        >Walter</a>            </div>\r\n        </div>\r\n    </div>\r\n\r\n    \
+        \                        <div class=\"question-summary search-result\" id=\"\
+        answer-id-52674448\" data-position=\"10\">\r\n        <div class=\"statscontainer\"\
+        >\r\n            <div class=\"stats\">\r\n                <div class=\"vote\"\
+        >\r\n                    <div class=\"votes answered\">\r\n              \
+        \          <span class=\"vote-count-post \"><strong>94</strong></span>\r\n\
+        \                        <div class=\"viewcount\">votes</div>\r\n        \
+        \            </div>\r\n                </div>\r\n            </div>\r\n  \
+        \      </div>\r\n        <div class=\"summary\">\r\n            <div class=\"\
+        result-link\">\r\n                <h3>\r\n\r\n        <a href=\"/questions/52673285/performance-of-pandas-apply-vs-np-vectorize-to-create-new-column-from-existing-c/52674448?r=SearchResults#52674448\"\
+        \ data-searchsession=\"/questions/52673285/performance-of-pandas-apply-vs-np-vectorize-to-create-new-column-from-existing-c/52674448?r=SearchResults&s=10|8.6917#52674448\"\
+        \ title=\"Performance of Pandas apply vs np.vectorize to create new column\
+        \ from existing columns\" class=\"question-hyperlink\">\r\n            A:\
+        \ Performance of Pandas apply vs np.vectorize to create new column from existing\
+        \ columns\r\n        </a>\r\n</h3>\r\n            </div>\r\n            <div\
+        \ class=\"excerpt\">\r\n                ).\nnp.vectorize, list comprehension\
+        \ + zip and map methods, i.e. the top 3, all have roughly the same performance.\
+        \ This is because they use tuple and <span class=\"fw-bold\">bypass</span>\
+        \ some Pandas overhead from pd.DataFrame.itertuples.\nThere &hellip;  &#39;numpy.ndarray&#39;&gt;.\
+        \ All this is described in the docs, but seeing it is more convincing.\n\n\
+        np.vectorize: <span class=\"fw-bold\">fake</span> vectorisation\n\nThe docs\
+        \ for np.vectorize has the following note:\n\n\n  The vectorized function\
+        \ evaluates &hellip; \r\n            </div>\r\n            <div class=\"tags\
+        \ user-tags t-python t-arrays t-pandas t-performance t-numpy\">\r\n      \
+        \      </div>\r\n            <div class=\"started fr\">\r\nanswered <span\
+        \ title=\"2018-10-05 23:38:51Z\" class=\"relativetime\">Oct 5 '18</span> by\
+        \ <a href=\"/users/9209546/jpp\">jpp</a>            </div>\r\n        </div>\r\
+        \n    </div>\r\n\r\n                            <div class=\"question-summary\
+        \ search-result\" id=\"answer-id-43009007\" data-position=\"11\">\r\n    \
+        \    <div class=\"statscontainer\">\r\n            <div class=\"stats\">\r\
+        \n                <div class=\"vote\">\r\n                    <div class=\"\
+        votes \">\r\n                        <span class=\"vote-count-post \"><strong>0</strong></span>\r\
+        \n                        <div class=\"viewcount\">votes</div>\r\n       \
+        \             </div>\r\n                </div>\r\n            </div>\r\n \
+        \       </div>\r\n        <div class=\"summary\">\r\n            <div class=\"\
+        result-link\">\r\n                <h3>\r\n\r\n        <a href=\"/questions/43007627/when-i-run-meteor-disconnect-and-then-meteor-reconnect-meteor-clears-minimo/43009007?r=SearchResults#43009007\"\
+        \ data-searchsession=\"/questions/43007627/when-i-run-meteor-disconnect-and-then-meteor-reconnect-meteor-clears-minimo/43009007?r=SearchResults&s=11|7.4248#43009007\"\
+        \ title=\"When I run Meteor.disconnect() and then Meteor.reconnect(), Meteor\
+        \ clears minimongo, how can I prevent this?\" class=\"question-hyperlink\"\
+        >\r\n            A: When I run Meteor.disconnect() and then Meteor.reconnect(),\
+        \ Meteor clears minimongo, how can&hellip;\r\n        </a>\r\n</h3>\r\n  \
+        \          </div>\r\n            <div class=\"excerpt\">\r\n             \
+        \    reading more about how fast render works, I understand that a lot of\
+        \ hacking was done to get it to actually work.  The main hack that jumped\
+        \ out to me is the &quot;<span class=\"fw-bold\">fake</span> ready&quot; hack\
+        \ which tricks the client to &hellip;  subscriptions (since fast render bypasses\
+        \ meteor to transport data), is clears the client minimongo <span class=\"\
+        fw-bold\">cache</span> so its in a good state if a new subscription is started.\
+        \  Or, there could be something else about fast &hellip; \r\n            </div>\r\
+        \n            <div class=\"tags user-tags t-meteor t-meteor-publications\"\
+        >\r\n            </div>\r\n            <div class=\"started fr\">\r\nanswered\
+        \ <span title=\"2017-03-24 20:56:06Z\" class=\"relativetime\">Mar 24 '17</span>\
+        \ by <a href=\"/users/7581592/jordanwillis\">jordanwillis</a>            </div>\r\
+        \n        </div>\r\n    </div>\r\n\r\n                </div>\r\n        </div>\r\
+        \n        <br class=\"cbt\">\r\n<div class=\"s-pagination pager fl\">\r\n\
+        </div>\r\n</div>\r\n<div id=\"sidebar\">\r\n\r\n    <style>.everyoneloves__top-leaderboard:empty,.everyoneloves__mid-leaderboard:empty,.everyoneloves__bot-mid-leaderboard:empty{\r\
         \n            margin-bottom:0;\r\n}\r\n</style>\r\n<div id=\"dfp-tsb\" class=\"\
         everyonelovesstackoverflow everyoneloves__top-sidebar mb8\"></div>\r\n<div\
         \ id=\"dfp-msb\" class=\"everyonelovesstackoverflow everyoneloves__mid-sidebar\
@@ -947,171 +805,171 @@ interactions:
         \r\n           class=\"js-gps-track s-link s-link__inherit\" \r\n        \
         \   data-gps-track=\"posts_hot_network.click({ item_type:1, location:12 })\"\
         >\r\n            Hot Network Questions\r\n        </a>\r\n    </h4>\r\n  \
-        \  <ul>\r\n            <li >\r\n                <div class=\"favicon favicon-travel\"\
-        \ title=\"Travel Stack Exchange\"></div><a href=\"https://travel.stackexchange.com/questions/157648/did-i-miss-eu-customs-on-a-flight-from-brazil-with-stopover-in-portugal-to-germa\"\
+        \  <ul>\r\n            <li >\r\n                <div class=\"favicon favicon-writing\"\
+        \ title=\"Writing Stack Exchange\"></div><a href=\"https://writing.stackexchange.com/questions/51857/not-wanting-to-spoil-a-story-due-to-lack-of-skill\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:273 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Did I miss EU customs on a flight\
-        \ from Brazil with stopover in Portugal to Germany?\r\n                </a>\r\
-        \n\r\n            </li>\r\n            <li >\r\n                <div class=\"\
-        favicon favicon-serverfault\" title=\"Server Fault\"></div><a href=\"https://serverfault.com/questions/1021273/all-yum-mirrors-failing-with-errno-1-repomd-xml-does-not-match-metalink\"\
+        \ item_type:12, target_site:166 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Not wanting to &quot;spoil&quot;\
+        \ a story due to lack of skill\r\n                </a>\r\n\r\n           \
+        \ </li>\r\n            <li >\r\n                <div class=\"favicon favicon-math\"\
+        \ title=\"Mathematics Stack Exchange\"></div><a href=\"https://math.stackexchange.com/questions/3757202/are-all-finite-dimensional-algebras-of-a-fixed-dimension-over-a-field-isomorphic\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:2 }); posts_hot_network.click({ item_type:2, location:12\
-        \ })\">\r\n                    All Yum mirrors failing with [Errno -1] repomd.xml\
-        \ does not match metalink\r\n                </a>\r\n\r\n            </li>\r\
-        \n            <li >\r\n                <div class=\"favicon favicon-politics\"\
-        \ title=\"Politics Stack Exchange\"></div><a href=\"https://politics.stackexchange.com/questions/53900/can-the-so-called-capitol-hill-autonomous-zone-in-seattle-be-treated-as-an-ins\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:475 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Can the so-called &quot;Capitol\
-        \ Hill Autonomous Zone&quot; in Seattle be treated as an insurrection against\
-        \ the Federal Government?\r\n                </a>\r\n\r\n            </li>\r\
-        \n            <li >\r\n                <div class=\"favicon favicon-academia\"\
-        \ title=\"Academia Stack Exchange\"></div><a href=\"https://academia.stackexchange.com/questions/150460/can-a-grad-student-take-undergrad-classes\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:415 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Can a grad student take undergrad\
-        \ classes?\r\n                </a>\r\n\r\n            </li>\r\n          \
-        \  <li >\r\n                <div class=\"favicon favicon-dsp\" title=\"Signal\
-        \ Processing Stack Exchange\"></div><a href=\"https://dsp.stackexchange.com/questions/68293/group-delay-of-non-differentiable-unwrapped-phase\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:295 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Group delay of non differentiable\
-        \ unwrapped phase\r\n                </a>\r\n\r\n            </li>\r\n   \
-        \         <li >\r\n                <div class=\"favicon favicon-astronomy\"\
-        \ title=\"Astronomy Stack Exchange\"></div><a href=\"https://astronomy.stackexchange.com/questions/36517/why-do-gas-giants-have-clearly-delineated-surfaces-whereas-the-earths-atmosphe\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:514 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Why do gas giants have clearly\
-        \ delineated surfaces, whereas the Earth&#x27;s atmosphere fades into space?\r\
-        \n                </a>\r\n\r\n            </li>\r\n            <li >\r\n \
-        \               <div class=\"favicon favicon-chess\" title=\"Chess Stack Exchange\"\
-        ></div><a href=\"https://chess.stackexchange.com/questions/29974/scandinavian-defence-queen-e5\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:435 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Scandinavian Defence queen e5\r\
-        \n                </a>\r\n\r\n            </li>\r\n            <li >\r\n \
-        \               <div class=\"favicon favicon-worldbuilding\" title=\"Worldbuilding\
-        \ Stack Exchange\"></div><a href=\"https://worldbuilding.stackexchange.com/questions/178478/why-do-nuclear-powered-spaceship-needs-to-wait-a-few-days-before-restarting-reac\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:579 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Why do nuclear powered spaceship\
-        \ needs to wait a few days before restarting reactor engine?\r\n         \
-        \       </a>\r\n\r\n            </li>\r\n            <li >\r\n           \
-        \     <div class=\"favicon favicon-martialarts\" title=\"Martial Arts Stack\
-        \ Exchange\"></div><a href=\"https://martialarts.stackexchange.com/questions/9941/is-there-any-device-to-practice-defense-while-attacking\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:403 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Is there any device to practice\
-        \ defense while attacking?\r\n                </a>\r\n\r\n            </li>\r\
-        \n            <li >\r\n                <div class=\"favicon favicon-german\"\
-        \ title=\"German Language Stack Exchange\"></div><a href=\"https://german.stackexchange.com/questions/59014/translation-of-the-word-concept-trope\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:253 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Translation of the word/concept\
-        \ &#x201C;trope&#x201D;\r\n                </a>\r\n\r\n            </li>\r\
-        \n            <li >\r\n                <div class=\"favicon favicon-movies\"\
-        \ title=\"Movies &amp; TV Stack Exchange\"></div><a href=\"https://movies.stackexchange.com/questions/109569/why-is-there-a-picture-of-an-native-american-man-on-the-early-test-screens\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:367 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Why is there a picture of an native\
-        \ American man on the early test screens?\r\n                </a>\r\n\r\n\
-        \            </li>\r\n            <li >\r\n                <div class=\"favicon\
-        \ favicon-biology\" title=\"Biology Stack Exchange\"></div><a href=\"https://biology.stackexchange.com/questions/94096/do-viruses-or-bacteria-have-a-flavour\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:375 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Do viruses or bacteria have a flavour?\r\
-        \n                </a>\r\n\r\n            </li>\r\n            <li class=\"\
-        dno js-hidden\">\r\n                <div class=\"favicon favicon-codegolf\"\
-        \ title=\"Code Golf Stack Exchange\"></div><a href=\"https://codegolf.stackexchange.com/questions/206021/shortlex-predecessor\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:200 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Shortlex predecessor\r\n      \
-        \          </a>\r\n\r\n            </li>\r\n            <li class=\"dno js-hidden\"\
-        >\r\n                <div class=\"favicon favicon-mathematica\" title=\"Mathematica\
-        \ Stack Exchange\"></div><a href=\"https://mathematica.stackexchange.com/questions/223880/incorrect-result-from-dsolve-for-diffusion-ibvp\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:387 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Incorrect Result from DSolve for\
-        \ Diffusion IBVP?\r\n                </a>\r\n\r\n            </li>\r\n   \
-        \         <li class=\"dno js-hidden\">\r\n                <div class=\"favicon\
-        \ favicon-bicycles\" title=\"Bicycles Stack Exchange\"></div><a href=\"https://bicycles.stackexchange.com/questions/68827/is-it-possible-to-charge-an-ebike-from-a-12v-solar-powered-battery\"\
+        \ item_type:12, target_site:69 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Are all finite-dimensional algebras\
+        \ of a fixed dimension over a field isomorphic to one another?\r\n       \
+        \         </a>\r\n\r\n            </li>\r\n            <li >\r\n         \
+        \       <div class=\"favicon favicon-bicycles\" title=\"Bicycles Stack Exchange\"\
+        ></div><a href=\"https://bicycles.stackexchange.com/questions/69655/broken-rear-brake-told-it-was-unfixable\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
         \ item_type:12, target_site:126 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Is it possible to charge an ebike\
-        \ from a 12V solar powered battery?\r\n                </a>\r\n\r\n      \
-        \      </li>\r\n            <li class=\"dno js-hidden\">\r\n             \
-        \   <div class=\"favicon favicon-physics\" title=\"Physics Stack Exchange\"\
-        ></div><a href=\"https://physics.stackexchange.com/questions/558832/why-do-objects-with-big-size-break-easily\"\
+        \ location:12 })\">\r\n                    Broken rear brake - told it was\
+        \ unfixable\r\n                </a>\r\n\r\n            </li>\r\n         \
+        \   <li >\r\n                <div class=\"favicon favicon-latin\" title=\"\
+        Latin Language Stack Exchange\"></div><a href=\"https://latin.stackexchange.com/questions/14189/feminine-case-3rd-person-version-of-veni-vidi-vici\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:151 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Why do objects with big size break\
-        \ easily?\r\n                </a>\r\n\r\n            </li>\r\n           \
-        \ <li class=\"dno js-hidden\">\r\n                <div class=\"favicon favicon-rpg\"\
-        \ title=\"Role-playing Games Stack Exchange\"></div><a href=\"https://rpg.stackexchange.com/questions/170358/what-is-the-utility-of-the-magic-item-unbreakable-arrow\"\
+        \ item_type:12, target_site:644 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Feminine case 3rd-person version\
+        \ of &#x201C;Veni, vidi, vici&#x201D;\r\n                </a>\r\n\r\n    \
+        \        </li>\r\n            <li >\r\n                <div class=\"favicon\
+        \ favicon-space\" title=\"Space Exploration Stack Exchange\"></div><a href=\"\
+        https://space.stackexchange.com/questions/45347/performance-of-a-pumpless-liquid-rocket-engine\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:122 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    What is the utility of the magic\
-        \ item Unbreakable Arrow?\r\n                </a>\r\n\r\n            </li>\r\
-        \n            <li class=\"dno js-hidden\">\r\n                <div class=\"\
-        favicon favicon-worldbuilding\" title=\"Worldbuilding Stack Exchange\"></div><a\
-        \ href=\"https://worldbuilding.stackexchange.com/questions/178347/is-there-anything-about-photons-and-or-space-time-that-would-allow-the-detection\"\
+        \ item_type:12, target_site:508 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Performance of a pumpless liquid\
+        \ rocket engine\r\n                </a>\r\n\r\n            </li>\r\n     \
+        \       <li >\r\n                <div class=\"favicon favicon-worldbuilding\"\
+        \ title=\"Worldbuilding Stack Exchange\"></div><a href=\"https://worldbuilding.stackexchange.com/questions/180710/life-on-earth-without-a-magnetic-field\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
         \ item_type:12, target_site:579 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Is there anything about photons\
-        \ and/or space-time that would allow the detection of an energy-based attack\
-        \ from a distance of ten light seconds?\r\n                </a>\r\n\r\n  \
-        \          </li>\r\n            <li class=\"dno js-hidden\">\r\n         \
-        \       <div class=\"favicon favicon-codegolf\" title=\"Code Golf Stack Exchange\"\
-        ></div><a href=\"https://codegolf.stackexchange.com/questions/205988/determine-the-area-enclosed-by-slashes\"\
+        \ location:12 })\">\r\n                    Life on Earth without a magnetic\
+        \ field?\r\n                </a>\r\n\r\n            </li>\r\n            <li\
+        \ >\r\n                <div class=\"favicon favicon-retrocomputing\" title=\"\
+        Retrocomputing Stack Exchange\"></div><a href=\"https://retrocomputing.stackexchange.com/questions/15611/why-is-the-keyboard-and-cellphone-telephone-numbers-in-a-different-order\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:200 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Determine the area enclosed by\
-        \ slashes\r\n                </a>\r\n\r\n            </li>\r\n           \
-        \ <li class=\"dno js-hidden\">\r\n                <div class=\"favicon favicon-skeptics\"\
-        \ title=\"Skeptics Stack Exchange\"></div><a href=\"https://skeptics.stackexchange.com/questions/47850/does-it-take-two-weeks-for-a-single-man-to-produce-enough-sperm-to-impregnate-ev\"\
+        \ item_type:12, target_site:648 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Why is the keyboard and cellphone\
+        \ / telephone numbers in a different order?\r\n                </a>\r\n\r\n\
+        \            </li>\r\n            <li >\r\n                <div class=\"favicon\
+        \ favicon-history\" title=\"History Stack Exchange\"></div><a href=\"https://history.stackexchange.com/questions/60282/did-the-soviet-union-or-its-satellite-states-have-any-broadcast-propaganda-media\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:212 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Does it take two weeks for a single\
-        \ man to produce enough sperm to impregnate every fertile woman on Earth?\r\
+        \ item_type:12, target_site:324 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Did the Soviet Union or its satellite\
+        \ states have any broadcast propaganda media for an international audience?\r\
+        \n                </a>\r\n\r\n            </li>\r\n            <li >\r\n \
+        \               <div class=\"favicon favicon-astronomy\" title=\"Astronomy\
+        \ Stack Exchange\"></div><a href=\"https://astronomy.stackexchange.com/questions/36947/is-it-true-that-we-see-the-center-of-the-milky-way-for-only-half-of-the-year\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:514 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Is it true that we see the center\
+        \ of the milky-way for only half of the year?\r\n                </a>\r\n\r\
+        \n            </li>\r\n            <li >\r\n                <div class=\"\
+        favicon favicon-physics\" title=\"Physics Stack Exchange\"></div><a href=\"\
+        https://physics.stackexchange.com/questions/565998/why-is-the-ideal-gas-law-only-valid-for-hydrogen\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:151 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Why is the ideal gas law only valid\
+        \ for Hydrogen?\r\n                </a>\r\n\r\n            </li>\r\n     \
+        \       <li >\r\n                <div class=\"favicon favicon-rpg\" title=\"\
+        Role-playing Games Stack Exchange\"></div><a href=\"https://rpg.stackexchange.com/questions/171965/are-there-any-melee-alternatives-to-power-word-kill\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:122 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Are there any melee alternatives\
+        \ to Power Word Kill?\r\n                </a>\r\n\r\n            </li>\r\n\
+        \            <li >\r\n                <div class=\"favicon favicon-mathoverflow\"\
+        \ title=\"MathOverflow\"></div><a href=\"https://mathoverflow.net/questions/365569/access-to-journals-during-pandemic\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:504 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Access to journals during pandemic\r\
+        \n                </a>\r\n\r\n            </li>\r\n            <li class=\"\
+        dno js-hidden\">\r\n                <div class=\"favicon favicon-physics\"\
+        \ title=\"Physics Stack Exchange\"></div><a href=\"https://physics.stackexchange.com/questions/565913/do-nuclei-emit-photons\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:151 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Do nuclei emit photons?\r\n   \
+        \             </a>\r\n\r\n            </li>\r\n            <li class=\"dno\
+        \ js-hidden\">\r\n                <div class=\"favicon favicon-ell\" title=\"\
+        English Language Learners Stack Exchange\"></div><a href=\"https://ell.stackexchange.com/questions/253720/bathroom-or-restroom\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:481 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    &quot;Bathroom&quot; or &quot;Restroom&quot;\r\
         \n                </a>\r\n\r\n            </li>\r\n            <li class=\"\
         dno js-hidden\">\r\n                <div class=\"favicon favicon-scifi\" title=\"\
-        Science Fiction &amp; Fantasy Stack Exchange\"></div><a href=\"https://scifi.stackexchange.com/questions/232691/why-do-some-federation-ships-not-have-deflector-dishes\"\
+        Science Fiction &amp; Fantasy Stack Exchange\"></div><a href=\"https://scifi.stackexchange.com/questions/234522/story-about-a-video-game-character-working-her-way-towards-a-world-where-the-rul\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
         \ item_type:12, target_site:186 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Why do some Federation ships not\
-        \ have deflector dishes?\r\n                </a>\r\n\r\n            </li>\r\
-        \n            <li class=\"dno js-hidden\">\r\n                <div class=\"\
-        favicon favicon-money\" title=\"Personal Finance &amp; Money Stack Exchange\"\
-        ></div><a href=\"https://money.stackexchange.com/questions/126507/is-being-asked-to-pay-for-business-supplies-via-bitcoin-an-employment-scam\"\
+        \ location:12 })\">\r\n                    Story about a video game character\
+        \ working her way towards a world where the rules are relaxed and she can\
+        \ be herself\r\n                </a>\r\n\r\n            </li>\r\n        \
+        \    <li class=\"dno js-hidden\">\r\n                <div class=\"favicon\
+        \ favicon-travel\" title=\"Travel Stack Exchange\"></div><a href=\"https://travel.stackexchange.com/questions/158335/how-can-i-find-my-train-platform-number-at-zurich\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:93 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Is being asked to pay for business\
-        \ supplies via Bitcoin an employment scam?\r\n                </a>\r\n\r\n\
-        \            </li>\r\n            <li class=\"dno js-hidden\">\r\n       \
-        \         <div class=\"favicon favicon-money\" title=\"Personal Finance &amp;\
-        \ Money Stack Exchange\"></div><a href=\"https://money.stackexchange.com/questions/126505/how-can-i-determine-if-my-stock-picking-performance-was-due-to-luck-or-due-to-sk\"\
+        \ item_type:12, target_site:273 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    How can I find my train platform\
+        \ number at Zurich?\r\n                </a>\r\n\r\n            </li>\r\n \
+        \           <li class=\"dno js-hidden\">\r\n                <div class=\"\
+        favicon favicon-chemistry\" title=\"Chemistry Stack Exchange\"></div><a href=\"\
+        https://chemistry.stackexchange.com/questions/136577/how-were-urolithins-discovered-and-named\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:93 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    How can I determine if my stock\
-        \ picking performance was due to luck or due to skill?\r\n               \
-        \ </a>\r\n\r\n            </li>\r\n            <li class=\"dno js-hidden\"\
-        >\r\n                <div class=\"favicon favicon-academia\" title=\"Academia\
-        \ Stack Exchange\"></div><a href=\"https://academia.stackexchange.com/questions/150424/about-writing-to-editor-of-a-journal-to-identify-serious-mistake-in-a-published\"\
+        \ item_type:12, target_site:431 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    How were urolithins discovered\
+        \ and named?\r\n                </a>\r\n\r\n            </li>\r\n        \
+        \    <li class=\"dno js-hidden\">\r\n                <div class=\"favicon\
+        \ favicon-codereview\" title=\"Code Review Stack Exchange\"></div><a href=\"\
+        https://codereview.stackexchange.com/questions/245508/hangman-bot-built-with-performance-in-mind\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:415 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    About writing to editor of a journal\
-        \ to identify serious mistake in a published article\r\n                </a>\r\
-        \n\r\n            </li>\r\n    </ul>\r\n\r\n        <a href=\"#\" \r\n   \
-        \        class=\"show-more js-show-more js-gps-track\" \r\n           data-gps-track=\"\
-        posts_hot_network.click({ item_type:3, location:12 })\">\r\n            more\
-        \ hot questions\r\n        </a>\r\n</div></div>\r\n    <script>\r\n      \
-        \  $(\".js-search-results\").on(\"mousedown touchstart\", \"div.result-link\
-        \ a\", function (ev) {\r\n            this.href = $(this).data(\"searchsession\"\
-        );\r\n        });\r\n    </script>\r\n\r\n\r\n        </div>\r\n    </div>\r\
-        \n        \r\n<script>;try{(function(a){function b(a){return'string'==typeof\
-        \ a?document.getElementById(a):a}function c(a){return a=b(a),!!a&&'none'===getComputedStyle(a).display}function\
-        \ d(a){return!c(a)}function e(a){return!!a}function f(a){return /^\\s*$/.test(b(a).innerHTML)}function\
+        \ item_type:12, target_site:196 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Hangman Bot built with performance\
+        \ in mind\r\n                </a>\r\n\r\n            </li>\r\n           \
+        \ <li class=\"dno js-hidden\">\r\n                <div class=\"favicon favicon-math\"\
+        \ title=\"Mathematics Stack Exchange\"></div><a href=\"https://math.stackexchange.com/questions/3757038/how-can-i-prove-that-3-planes-are-arranged-in-a-triangle-like-shape-without-calc\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:69 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    How can I prove that 3 planes are\
+        \ arranged in a triangle-like shape without calculating their intersection\
+        \ lines?\r\n                </a>\r\n\r\n            </li>\r\n            <li\
+        \ class=\"dno js-hidden\">\r\n                <div class=\"favicon favicon-space\"\
+        \ title=\"Space Exploration Stack Exchange\"></div><a href=\"https://space.stackexchange.com/questions/45360/if-someone-built-a-vacuum-tunnel-through-the-atmosphere-could-you-have-an-orbit\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:508 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    If someone built a vacuum tunnel\
+        \ through the atmosphere, could you have an orbit with a sea level perigee?\r\
+        \n                </a>\r\n\r\n            </li>\r\n            <li class=\"\
+        dno js-hidden\">\r\n                <div class=\"favicon favicon-security\"\
+        \ title=\"Information Security Stack Exchange\"></div><a href=\"https://security.stackexchange.com/questions/234719/why-does-windows-not-always-force-me-to-confirm-my-password-when-changing-it\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:162 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Why does Windows not always force\
+        \ me to confirm my password when changing it?\r\n                </a>\r\n\r\
+        \n            </li>\r\n            <li class=\"dno js-hidden\">\r\n      \
+        \          <div class=\"favicon favicon-gis\" title=\"Geographic Information\
+        \ Systems Stack Exchange\"></div><a href=\"https://gis.stackexchange.com/questions/367875/how-to-use-union-all-in-geoserver-cql-filter\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:79 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    How to use UNION ALL in GeoServer\
+        \ CQL Filter?\r\n                </a>\r\n\r\n            </li>\r\n       \
+        \     <li class=\"dno js-hidden\">\r\n                <div class=\"favicon\
+        \ favicon-history\" title=\"History Stack Exchange\"></div><a href=\"https://history.stackexchange.com/questions/60295/are-there-historical-texts-in-england-querying-where-roman-structures-came-from\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:324 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Are there historical texts in England\
+        \ querying where Roman structures came from?\r\n                </a>\r\n\r\
+        \n            </li>\r\n            <li class=\"dno js-hidden\">\r\n      \
+        \          <div class=\"favicon favicon-music\" title=\"Music: Practice &amp;\
+        \ Theory Stack Exchange\"></div><a href=\"https://music.stackexchange.com/questions/101899/what-is-the-strong-weak-beat-pattern-in-11-16\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:240 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    What is the strong-weak beat pattern\
+        \ in 11/16?\r\n                </a>\r\n\r\n            </li>\r\n    </ul>\r\
+        \n\r\n        <a href=\"#\" \r\n           class=\"show-more js-show-more\
+        \ js-gps-track\" \r\n           data-gps-track=\"posts_hot_network.click({\
+        \ item_type:3, location:12 })\">\r\n            more hot questions\r\n   \
+        \     </a>\r\n</div></div>\r\n    <script>\r\n        $(\".js-search-results\"\
+        ).on(\"mousedown touchstart\", \"div.result-link a\", function (ev) {\r\n\
+        \            this.href = $(this).data(\"searchsession\");\r\n        });\r\
+        \n    </script>\r\n\r\n\r\n        </div>\r\n    </div>\r\n        \r\n<script>;try{(function(a){function\
+        \ b(a){return'string'==typeof a?document.getElementById(a):a}function c(a){return\
+        \ a=b(a),!!a&&'none'===getComputedStyle(a).display}function d(a){return!c(a)}function\
+        \ e(a){return!!a}function f(a){return /^\\s*$/.test(b(a).innerHTML)}function\
         \ g(a){var b=a.style;b.height=b.maxHeight=b.minHeight='auto',b.display='none',[].forEach.call(a.children,g)}function\
         \ h(a,b){var c;return function(){return a&&(c=a.call(b||this,arguments),a=null),c}}function\
         \ i(a){var b=document.createElement('script');b.src=a,document.body.appendChild(b)}function\
@@ -1141,7 +999,7 @@ interactions:
         \ i=e.filter(function(a){return!x.ll||0>c.indexOf(a.id)}),j=e.filter(function(a){return!!x.ll&&0<=c.indexOf(a.id)});i.forEach(function(a){t(a.id,h),a.setAttribute('data-dfp-zone','true')}),googletag.enableServices(),i.forEach(function(a){googletag.display(a.id)}),x.ll&&(h.enableLazyLoad({fetchMarginPercent:0,renderMarginPercent:0}),j.forEach(function(a){t(a.id,h),a.setAttribute('data-clc-prefilled','true')}),j.forEach(function(a){googletag.display(a.id)}))}}var\
         \ x=function(a){for(var b=[],c=1;c<arguments.length;c++)b[c-1]=arguments[c];for(var\
         \ d,e=0,f=b;e<f.length;e++)for(var g in d=f[e],d)a[g]=d[g];return a}({\"lib\"\
-        :\"https://cdn.sstatic.net/clc/clc.min.js?v=d86ede4e666e\",\"style\":\"https://cdn.sstatic.net/clc/styles/clc.min.css?v=ac5522400b2d\"\
+        :\"https://cdn.sstatic.net/clc/clc.min.js?v=7dce99576e19\",\"style\":\"https://cdn.sstatic.net/clc/styles/clc.min.css?v=481f2e682fba\"\
         ,\"u\":\"https://clc.stackoverflow.com/markup.js\",\"wa\":true,\"kt\":2000,\"\
         tto\":true,\"h\":\"clc.stackoverflow.com\",\"allowed\":\"^(((talent\\\\.)?stackoverflow)|(blog\\\
         \\.codinghorror)|(serverfault|askubuntu)|([^\\\\.]+\\\\.stackexchange))\\\\\
@@ -1161,11 +1019,13 @@ interactions:
         \ sb: !0, 'tag-sponsorship': !0, lb:!0, mlb:!0, smlb:!0, bmlb:!0, 'mobile-below-question':!0};\r\
         \n        clc.options = clc.options || {};\r\n        clc.options.sf = !0;\r\
         \n        clc.options.hb = !1;\r\n        clc.options.ll = !0;\r\n       \
-        \ clc.cmd = clc.cmd || [];\r\n        clc.cmd.push(function () { window.clc_request='AkypCFHGD9gIAAAAAAAAAAACAAAAAQAAAAAAAAAAAJChN0mumLxEUHk';\
+        \ clc.cmd = clc.cmd || [];\r\n        clc.cmd.push(function () { window.clc_request='Avy_UfhyKdgIAAAAAAAAAAACAAAAAQAAAAAAAAAAAJVfySi_59BSois';\
         \ clc.load(); });\r\n        clc.dfp = clc.dfp || {};\r\n        clc.dfp.targeting\
         \ = {};\r\n        var googletag = googletag || {};\r\n        googletag.cmd\
         \ = googletag.cmd || [];\r\n        googletag.cmd.push(function () { clc.dfp.load();\
-        \ });\r\n\r\n    </script>\r\n\r\n            <footer id=\"footer\" class=\"\
+        \ });\r\n\r\n            StackExchange.ready(function () { googletag.cmd.push(function\
+        \ () { StackExchange.ads.init(googletag, '/ads/report-ad', 'Report this ad')\
+        \ }) });\r\n    </script>\r\n\r\n            <footer id=\"footer\" class=\"\
         site-footer js-footer\" role=\"contentinfo\">\r\n        <div class=\"site-footer--container\"\
         >\r\n                <div class=\"site-footer--logo\">\r\n               \
         \     \r\n                    <a href=\"https://stackoverflow.com\"><svg aria-hidden=\"\
@@ -1696,7 +1556,7 @@ interactions:
         \n                </ul>\r\n\r\n                <p class=\"mt-auto mb24\">\r\
         \nsite design / logo &#169; 2020 Stack Exchange Inc; user contributions licensed\
         \ under <a href=\"https://stackoverflow.com/help/licensing\">cc by-sa</a>.\
-        \                    <span id=\"svnrev\">rev&nbsp;2020.6.12.37048</span>\r\
+        \                    <span id=\"svnrev\">rev&nbsp;2020.7.14.37215</span>\r\
         \n                </p>\r\n            </div>\r\n        </div>\r\n\r\n   \
         \ </footer>\r\n\r\n            <script>StackExchange.ready(function () { StackExchange.responsiveness.addSwitcher();\
         \ })</script>\r\n    <noscript>\r\n        <div id=\"noscript-warning\">Stack\
@@ -1731,41 +1591,39 @@ interactions:
     headers:
       Accept-Ranges: bytes
       Age: '0'
+      Cache-Control: private
       Connection: keep-alive
-      Date: Sat, 13 Jun 2020 18:19:31 GMT
-      Set-Cookie: prov=dfd00706-698a-a41e-08b2-30dc39c3ff5c; domain=.stackoverflow.com;
+      Content-Encoding: gzip
+      Content-Type: text/html; charset=utf-8
+      Date: Thu, 16 Jul 2020 10:28:24 GMT
+      Server: Microsoft-IIS/10.0
+      Set-Cookie: prov=080e4b6c-960f-5015-dfbf-6d5662a27c67; domain=.stackoverflow.com;
         expires=Fri, 01-Jan-2055 00:00:00 GMT; path=/; HttpOnly
+      Transfer-Encoding: chunked
       Vary: Accept-Encoding,Fastly-SSL
       Via: 1.1 varnish
       X-Cache: MISS
       X-Cache-Hits: '0'
       X-DNS-Prefetch-Control: 'off'
-      X-Served-By: cache-lhr7367-LHR
-      X-Timer: S1592072371.980255,VS0,VE118
-      cache-control: private
-      content-encoding: gzip
-      content-type: text/html; charset=utf-8
-      server: Microsoft-IIS/10.0
-      set-cookie: usr=p=%5b10%7c15%5d; expires=Sun, 13 Dec 2020 18:19:31 GMT; path=/;
-        secure; samesite=none; httponly
+      X-Served-By: cache-bom4730-BOM
+      X-Timer: S1594895304.034475,VS0,VE644
       strict-transport-security: max-age=2592000
-      transfer-encoding: chunked
-      x-aspnet-duration-ms: '47'
+      x-aspnet-duration-ms: '41'
       x-elastic-count: '5'
-      x-elastic-duration-ms: '40'
+      x-elastic-duration-ms: '34'
       x-flags: AA
       x-frame-options: SAMEORIGIN
       x-is-crawler: '0'
       x-page-view: '1'
-      x-providence-cookie: dfd00706-698a-a41e-08b2-30dc39c3ff5c
+      x-providence-cookie: 080e4b6c-960f-5015-dfbf-6d5662a27c67
       x-redis-count: '2'
       x-redis-duration-ms: '0'
-      x-request-guid: b20d7552-f11e-4be6-916b-8e4cfa51c1e8
+      x-request-guid: 47063446-bbed-4098-b47b-4760caf84676
       x-route-name: Search/Search
       x-sql-count: '2'
       x-sql-duration-ms: '1'
     status:
       code: 200
       message: OK
-    url: https://stackoverflow.com/search?page=1&q=Preaching+the+choir&pagesize=15
+    url: https://stackoverflow.com/search?page=1&q=Fake+cache+bypass&pagesize=15
 version: 1

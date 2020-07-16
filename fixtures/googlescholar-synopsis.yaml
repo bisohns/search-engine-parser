@@ -7,9 +7,9 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - Mozilla/5.0 (Windows NT 6.1; rv:11.0) Gecko/20100101 Firefox/11.0
+      - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0
     method: GET
-    uri: https://scholar.google.gr/scholar?hl=en&start=1&q=Preaching+the+choir
+    uri: https://scholar.google.gr/scholar?hl=en&start=1&q=Fake+cache+bypass
   response:
     body:
       string: "<!doctype html><html><head><title>Google Scholar</title><meta http-equiv=\"\
@@ -857,7 +857,7 @@ interactions:
         \ f=document.querySelector('.gs_or[data-did=\"'+b+'\"]');if(f)if(d=a.h)Ve(f,\"\
         \"+d,!1);else{b=c.replace(\"{id}\",b);var h=cc(b,\"\",function(k,t){200==k&&t&&(Ve(f,t,!0),a.h=t,a.t=Date.now(),Oe(a));clearTimeout(g)}),g=setTimeout(function(){dc(h)},\n\
         1E3)}}}});md.addListener(We);\n}({\"bouncePrefix\":\"http://scholar.google.gr\"\
-        ,\"neverBounce\":!1,\"customAC\":2,\"eventId\":\"rxjlXt_AAYSimAHvkpSoBw\"\
+        ,\"neverBounce\":!1,\"customAC\":2,\"eventId\":\"vSsQX9qyMIaSmgG4xZXYBQ\"\
         });</script></head><body><div id=\"gs_top\" onclick=\"\"><style>#gs_md_s,.gs_md_wnw{z-index:1200;position:fixed;top:0;left:0;width:100%;height:100%;visibility:hidden;}#gs_md_s{background-color:#fff;opacity:.5;}.gs_el_ta\
         \ #gs_md_s,.gs_el_ph #gs_md_s{background-color:#666;}.gs_md_wnw{transition:all\
         \ 0s .218s;}#gs_md_s.gs_vis,.gs_md_wnw.gs_vis{visibility:visible;transition:all\
@@ -919,7 +919,7 @@ interactions:
         \ id=\"gs_asd_dt_t\"><b>Find articles</b></div></div><div class=\"gs_asd_tr\"\
         ><div class=\"gs_asd_dt\"><label for=\"gs_asd_q\">with <b>all</b> of the words</label></div><div\
         \ class=\"gs_asd_dd\"><div class=\"gs_in_txtw gs_in_txtm gs_in_txtb\"><input\
-        \ type=\"text\" class=\"gs_in_txt\" name=\"as_q\" value=\"Preaching the choir\"\
+        \ type=\"text\" class=\"gs_in_txt\" name=\"as_q\" value=\"Fake cache bypass\"\
         \ id=\"gs_asd_q\" autocapitalize=\"off\"></div></div></div><div class=\"gs_asd_tr\"\
         ><div class=\"gs_asd_dt\"><label for=\"gs_asd_epq\">with the <b>exact phrase</b></label></div><div\
         \ class=\"gs_asd_dd\"><div class=\"gs_in_txtw gs_in_txtm gs_in_txtb\"><input\
@@ -973,17 +973,17 @@ interactions:
         Options\" class=\"gs_btnMNT gs_in_ib gs_btn_lrge\"><span class=\"gs_ico\"\
         ></span><span class=\"gs_lbl\"></span></a><a id=\"gs_hdr_drw_lgo\" href=\"\
         /schhp?hl=en&amp;as_sdt=0,5\" aria-label=\"Homepage\"></a></div><div><div\
-        \ class=\"gs_hdr_drw_sec\"><a href=\"/scholar?as_sdt=0,5&amp;q=Preaching+the+choir&amp;hl=en\"\
+        \ class=\"gs_hdr_drw_sec\"><a href=\"/scholar?as_sdt=0,5&amp;q=Fake+cache+bypass&amp;hl=en\"\
         \ role=\"menuitem\" class=\" gs_in_ib gs_md_li gs_md_lix gs_in_gray gs_sel\"\
         ><span class=\"gs_ico\"></span><span class=\"gs_lbl\">Articles</span></a><a\
-        \ href=\"/scholar?as_sdt=2006&amp;q=Preaching+the+choir&amp;hl=en\" role=\"\
+        \ href=\"/scholar?as_sdt=2006&amp;q=Fake+cache+bypass&amp;hl=en\" role=\"\
         menuitem\" class=\" gs_in_ib gs_md_li gs_md_lix gs_in_gray\"><span class=\"\
-        gs_ico\"></span><span class=\"gs_lbl\">Case law</span></a><a href=\"/citations?view_op=search_authors&amp;mauthors=Preaching+the+choir&amp;hl=en&amp;oi=drw\"\
+        gs_ico\"></span><span class=\"gs_lbl\">Case law</span></a><a href=\"/citations?view_op=search_authors&amp;mauthors=Fake+cache+bypass&amp;hl=en&amp;oi=drw\"\
         \ role=\"menuitem\" class=\" gs_in_ib gs_md_li gs_md_lix gs_in_gray\"><span\
         \ class=\"gs_ico\"></span><span class=\"gs_lbl\">Profiles</span></a></div><div\
         \ class=\"gs_hdr_drw_sec\"><a href=\"/citations?hl=en\" role=\"menuitem\"\
         \ class=\"gs_btnPRO gs_in_ib gs_md_li gs_md_lix gs_in_gray\"><span class=\"\
-        gs_ico\"></span><span class=\"gs_lbl\">My profile</span></a><a href=\"/scholar?scilib=1&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
+        gs_ico\"></span><span class=\"gs_lbl\">My profile</span></a><a href=\"/scholar?scilib=1&amp;scioq=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
         \ role=\"menuitem\" class=\"gs_btnL gs_in_ib gs_md_li gs_md_lix gs_in_gray\"\
         ><span class=\"gs_ico\"></span><span class=\"gs_lbl\">My library</span></a><a\
         \ href=\"/scholar_alerts?view_op=list_alerts&amp;hl=en\" role=\"menuitem\"\
@@ -994,10 +994,10 @@ interactions:
         \ class=\"gs_hdr_drw_sec\"><a href=\"javascript:void(0)\" id=\"gs_res_drw_adv\"\
         \ role=\"menuitem\" class=\"gs_btnADV gs_in_ib gs_md_li gs_md_lix gs_in_gray\"\
         ><span class=\"gs_ico\"></span><span class=\"gs_lbl\">Advanced search</span></a></div><div\
-        \ class=\"gs_hdr_drw_sec\"><a href=\"/scholar_settings?q=Preaching+the+choir&amp;hl=en&amp;start=1&amp;as_sdt=0,5\"\
+        \ class=\"gs_hdr_drw_sec\"><a href=\"/scholar_settings?q=Fake+cache+bypass&amp;hl=en&amp;start=1&amp;as_sdt=0,5\"\
         \ role=\"menuitem\" class=\"gs_btnP gs_in_ib gs_md_li gs_md_lix gs_in_gray\"\
         ><span class=\"gs_ico\"></span><span class=\"gs_lbl\">Settings</span></a></div></div><div\
-        \ id=\"gs_hdr_drw_bot\" class=\"gs_hdr_drw_sec\"><a href=\"https://accounts.google.com/Login?hl=en&amp;continue=https://scholar.google.gr/scholar%3Fhl%3Den%26start%3D1%26q%3DPreaching%2Bthe%2Bchoir\"\
+        \ id=\"gs_hdr_drw_bot\" class=\"gs_hdr_drw_sec\"><a href=\"https://accounts.google.com/Login?hl=en&amp;continue=https://scholar.google.gr/scholar%3Fhl%3Den%26start%3D1%26q%3DFake%2Bcache%2Bbypass\"\
         \ class=\" gs_in_ib gs_md_li gs_md_lix gs_in_gray\"><span class=\"gs_ico\"\
         ></span><span class=\"gs_lbl\">Sign in</span></a></div></div></div><div id=\"\
         gs_hdr\" role=\"banner\"><a href=\"javascript:void(0)\" id=\"gs_hdr_mnu\"\
@@ -1008,9 +1008,9 @@ interactions:
         ><form id=\"gs_hdr_frm\" action=\"/scholar\" class=\"gs_hdr_tsc\"><input type=hidden\
         \ name=\"hl\" value=\"en\"><input type=hidden name=\"as_sdt\" value=\"0,5\"\
         ><div class=\"gs_in_txtw gs_in_txtb gs_in_acw\"><input type=\"text\" class=\"\
-        gs_in_txt gs_in_ac\" name=\"q\" value=\"Preaching the choir\" id=\"gs_hdr_tsi\"\
+        gs_in_txt gs_in_ac\" name=\"q\" value=\"Fake cache bypass\" id=\"gs_hdr_tsi\"\
         \ size=\"50\" maxlength=\"2048\" autocapitalize=\"off\" autocomplete=\"off\"\
-        \ aria-label=\"Search\" data-iq=\"Preaching the choir\" data-is=\".gs_qsuggest_regular\
+        \ aria-label=\"Search\" data-iq=\"Fake cache bypass\" data-is=\".gs_qsuggest_regular\
         \ li&gt;a\" dir=\"ltr\"><div class=\"gs_md_ac\" id=\"gs_hdr_frm_ac\" aria-hidden=\"\
         true\" ontouchstart=\"gs_evt_dsp(event)\" onmouseover=\"gs_evt_dsp(event)\"\
         \ onmouseout=\"gs_evt_dsp(event)\" dir=\"ltr\"><div><div class=\"gs_md_acs\"\
@@ -1019,7 +1019,7 @@ interactions:
         btnG\" aria-label=\"Search\" class=\"gs_btnG gs_in_ib gs_btn_act gs_btn_half\
         \ gs_btn_lsb\"><span class=\"gs_wr\"><span class=\"gs_ico\"></span><span class=\"\
         gs_lbl\"></span></span></button></form></div></div><div id=\"gs_hdr_act\"\
-        ><a id=\"gs_hdr_act_s\" href=\"https://accounts.google.com/Login?hl=en&amp;continue=https://scholar.google.gr/scholar%3Fhl%3Den%26start%3D1%26q%3DPreaching%2Bthe%2Bchoir\"\
+        ><a id=\"gs_hdr_act_s\" href=\"https://accounts.google.com/Login?hl=en&amp;continue=https://scholar.google.gr/scholar%3Fhl%3Den%26start%3D1%26q%3DFake%2Bcache%2Bbypass\"\
         >Sign in</a></div></div><style>#gs_alrt{position:fixed;bottom:48px;left:16px;max-width:384px;z-index:1250;display:flex;justify-content:space-between;align-items:center;font-size:13px;line-height:16px;color:#e2e2e2;background:#333;text-align:left;border-radius:3px;box-shadow:0\
         \ 3px 5px -1px rgba(0,0,0,.2),0 6px 10px 0 rgba(0,0,0,.14),0 1px 18px 0 rgba(0,0,0,.12);visibility:hidden;transform-origin:center;transform:scale(0.8,0.8)\
         \ translate(0,100%);}.gs_el_ph #gs_alrt{bottom:0;left:0;width:100%;max-width:none;border-radius:0;box-shadow:none;transform:scale(1,1)\
@@ -1036,10 +1036,10 @@ interactions:
         \ gs_ab_st\"><div id=\"gs_ab_ico\" class=\"gs_btnGSL\"><span class=\"gs_ico\"\
         ></span></div><div id=\"gs_ab_ttl\"><div class=\"gs_ab_mdw\"><span class=\"\
         gs_nph gs_nta\">Articles</span><div class=\"gs_oph gs_ota\">Scholar</div></div></div><div\
-        \ id=\"gs_ab_md\"><div class=\"gs_ab_mdw\">About 65,200 results (<b>0.05</b>\
+        \ id=\"gs_ab_md\"><div class=\"gs_ab_mdw\">About 5,100 results (<b>0.06</b>\
         \ sec)</div></div><div id=\"gs_ab_btns\"><a href=\"/citations?hl=en\" class=\"\
         gs_btnPRO gs_in_ib gs_nph gs_nta\"><span class=\"gs_ico\"></span><span class=\"\
-        gs_lbl\">My profile</span></a><a href=\"/scholar?scilib=1&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
+        gs_lbl\">My profile</span></a><a href=\"/scholar?scilib=1&amp;scioq=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
         \ class=\"gs_btnL gs_in_ib gs_nph gs_nta\"><span class=\"gs_ico\"></span><span\
         \ class=\"gs_lbl\">My library</span></a><div id=\"gs_res_ab_yy-r\" class=\"\
         gs_md_r gs_md_rmb gs_md_rmbl\"><button type=\"button\" id=\"gs_res_ab_yy-b\"\
@@ -1048,17 +1048,17 @@ interactions:
         \ gs_btn_lsu gs_press gs_md_tb\"><span class=\"gs_wr\"><span class=\"gs_lbl\"\
         >Year</span><span class=\"gs_icm\"></span></span></button><div id=\"gs_res_ab_yy-d\"\
         \ class=\"gs_md_d gs_md_ulr\" role=\"menu\" tabindex=\"-1\"><div class=\"\
-        gs_res_ab_dd_bdy\"><div class=\"gs_res_ab_dd_sec\"><a href=\"/scholar?q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
+        gs_res_ab_dd_bdy\"><div class=\"gs_res_ab_dd_sec\"><a href=\"/scholar?q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
         \ class=\"gs_md_li gs_res_ab_sel\" aria-checked=\"true\" role=\"menuitemradio\"\
-        \ tabindex=\"-1\">Any time</a><a href=\"/scholar?as_ylo=2020&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
+        \ tabindex=\"-1\">Any time</a><a href=\"/scholar?as_ylo=2020&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
         \ class=\"gs_md_li\" role=\"menuitemradio\" tabindex=\"-1\">Since 2020</a><a\
-        \ href=\"/scholar?as_ylo=2019&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
+        \ href=\"/scholar?as_ylo=2019&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
         \ class=\"gs_md_li\" role=\"menuitemradio\" tabindex=\"-1\">Since 2019</a><a\
-        \ href=\"/scholar?as_ylo=2016&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
+        \ href=\"/scholar?as_ylo=2016&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
         \ class=\"gs_md_li\" role=\"menuitemradio\" tabindex=\"-1\">Since 2016</a></div><div\
-        \ class=\"gs_res_ab_dd_sec\"><a href=\"/scholar?hl=en&amp;as_sdt=0,5&amp;q=Preaching+the+choir\"\
+        \ class=\"gs_res_ab_dd_sec\"><a href=\"/scholar?hl=en&amp;as_sdt=0,5&amp;q=Fake+cache+bypass\"\
         \ class=\"gs_md_li gs_res_ab_sel\" aria-checked=\"true\" role=\"menuitemradio\"\
-        \ tabindex=\"-1\">Sort by relevance</a><a href=\"/scholar?hl=en&amp;as_sdt=0,5&amp;q=Preaching+the+choir&amp;scisbd=1\"\
+        \ tabindex=\"-1\">Sort by relevance</a><a href=\"/scholar?hl=en&amp;as_sdt=0,5&amp;q=Fake+cache+bypass&amp;scisbd=1\"\
         \ class=\"gs_md_li\" role=\"menuitemradio\" tabindex=\"-1\">Sort by date</a></div></div></div></div><div\
         \ id=\"gs_res_ab_ad-r\" class=\"gs_md_r gs_md_rmb gs_md_rmbl\"><button type=\"\
         button\" id=\"gs_res_ab_ad-b\" aria-label=\"More\" aria-controls=\"gs_res_ab_ad-d\"\
@@ -1067,24 +1067,24 @@ interactions:
         ><span class=\"gs_wr\"><span class=\"gs_ico\"></span><span class=\"gs_lbl\"\
         ></span></span></button><div id=\"gs_res_ab_ad-d\" class=\"gs_md_d gs_md_ulr\"\
         \ role=\"menu\" tabindex=\"-1\"><div class=\"gs_res_ab_dd_bdy\"><div class=\"\
-        gs_res_ab_dd_sec\"><a href=\"/scholar?as_sdt=1,5&amp;q=Preaching+the+choir&amp;hl=en\"\
+        gs_res_ab_dd_sec\"><a href=\"/scholar?as_sdt=1,5&amp;q=Fake+cache+bypass&amp;hl=en\"\
         \ tabindex=\"-1\" role=\"menuitemcheckbox\" aria-checked=\"true\" data-s=\"\
         1\" class=\"gs_cb_gen gs_in_cb gs_md_li gs_sel\"><span class=\"gs_lbl\">include\
         \ patents</span><span class=\"gs_chk\"></span><span class=\"gs_cbx\"></span></a><a\
-        \ href=\"/scholar?as_vis=1&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
+        \ href=\"/scholar?as_vis=1&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
         \ tabindex=\"-1\" role=\"menuitemcheckbox\" aria-checked=\"true\" data-s=\"\
         1\" class=\"gs_cb_gen gs_in_cb gs_md_li gs_sel\"><span class=\"gs_lbl\">include\
         \ citations</span><span class=\"gs_chk\"></span><span class=\"gs_cbx\"></span></a></div></div></div></div></div></div><div\
         \ id=\"gs_bdy\"><div id=\"gs_bdy_sb\" role=\"navigation\"><div id=\"gs_bdy_sb_in\"\
         ><div class=\"gs_bdy_sb_sec\"><ul id=\"gs_res_sb_yyl\"><li class=\"gs_ind\
-        \ gs_bdy_sb_sel\"><a href=\"/scholar?q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        >Any time</a></li><li class=\"gs_ind\"><a href=\"/scholar?as_ylo=2020&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        >Since 2020</a></li><li class=\"gs_ind\"><a href=\"/scholar?as_ylo=2019&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        >Since 2019</a></li><li class=\"gs_ind\"><a href=\"/scholar?as_ylo=2016&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
+        \ gs_bdy_sb_sel\"><a href=\"/scholar?q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        >Any time</a></li><li class=\"gs_ind\"><a href=\"/scholar?as_ylo=2020&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        >Since 2020</a></li><li class=\"gs_ind\"><a href=\"/scholar?as_ylo=2019&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        >Since 2019</a></li><li class=\"gs_ind\"><a href=\"/scholar?as_ylo=2016&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
         >Since 2016</a></li><li class=\"gs_ind\"><a id=\"gs_res_sb_yyc\" href=\"javascript:void(0)\"\
         >Custom range...</a></li></ul><form id=\"gs_res_sb_yyf\" class=\"gs_pad\"\
         \ action=\"/scholar\" style=\"display:none\"><input type=hidden name=\"q\"\
-        \ value=\"Preaching the choir\"><input type=hidden name=\"hl\" value=\"en\"\
+        \ value=\"Fake cache bypass\"><input type=hidden name=\"hl\" value=\"en\"\
         ><input type=hidden name=\"as_sdt\" value=\"0,5\"><div class=\"gs_res_sb_yyr\"\
         ><div class=\"gs_in_txtw gs_in_txtm\"><input type=\"text\" class=\"gs_in_txt\"\
         \ name=\"as_ylo\" value=\"\" id=\"gs_as_ylo\" size=\"4\" maxlength=\"4\" autocapitalize=\"\
@@ -1093,50 +1093,56 @@ interactions:
         4\" maxlength=\"4\" autocapitalize=\"off\" pattern=\"[0-9]*\"></div></div><div\
         \ class=\"gs_res_sb_yyr\"><button type=\"submit\" class=\" gs_btn_lsb\"><span\
         \ class=\"gs_wr\"><span class=\"gs_lbl\">Search</span></span></button></div></form></div><ul\
-        \ class=\"gs_bdy_sb_sec\"><li class=\"gs_ind gs_bdy_sb_sel\"><a href=\"/scholar?hl=en&amp;as_sdt=0,5&amp;q=Preaching+the+choir\"\
-        >Sort by relevance</a></li><li class=\"gs_ind\"><a href=\"/scholar?hl=en&amp;as_sdt=0,5&amp;q=Preaching+the+choir&amp;scisbd=1\"\
+        \ class=\"gs_bdy_sb_sec\"><li class=\"gs_ind gs_bdy_sb_sel\"><a href=\"/scholar?hl=en&amp;as_sdt=0,5&amp;q=Fake+cache+bypass\"\
+        >Sort by relevance</a></li><li class=\"gs_ind\"><a href=\"/scholar?hl=en&amp;as_sdt=0,5&amp;q=Fake+cache+bypass&amp;scisbd=1\"\
         >Sort by date</a></li></ul><ul class=\"gs_bdy_sb_sec\"><li class=\"gs_inw\"\
-        ><a href=\"/scholar?as_sdt=1,5&amp;q=Preaching+the+choir&amp;hl=en\" role=\"\
+        ><a href=\"/scholar?as_sdt=1,5&amp;q=Fake+cache+bypass&amp;hl=en\" role=\"\
         checkbox\" aria-checked=\"true\" data-s=\"1\" class=\"gs_cb_gen gs_in_cb gs_sel\"\
         ><span class=\"gs_lbl\">include patents</span><span class=\"gs_chk\"></span><span\
-        \ class=\"gs_cbx\"></span></a></li><li class=\"gs_inw\"><a href=\"/scholar?as_vis=1&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
+        \ class=\"gs_cbx\"></span></a></li><li class=\"gs_inw\"><a href=\"/scholar?as_vis=1&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
         \ role=\"checkbox\" aria-checked=\"true\" data-s=\"1\" class=\"gs_cb_gen gs_in_cb\
         \ gs_sel\"><span class=\"gs_lbl\">include citations</span><span class=\"gs_chk\"\
         ></span><span class=\"gs_cbx\"></span></a></li></ul><div class=\"gs_bdy_sb_sec\"\
-        ><a href=\"/scholar_alerts?view_op=create_alert_options&amp;hl=en&amp;alert_query=Preaching+the+choir&amp;alert_params=%3Fhl%3Den%26as_sdt%3D0,5\"\
+        ><a href=\"/scholar_alerts?view_op=create_alert_options&amp;hl=en&amp;alert_query=Fake+cache+bypass&amp;alert_params=%3Fhl%3Den%26as_sdt%3D0,5\"\
         \ id=\"gs_bdy_sb_ca\" class=\"gs_btnM gs_in_ib\"><span class=\"gs_ico\"></span><span\
         \ class=\"gs_lbl\">Create alert</span></a></div></div></div><div id=\"gs_bdy_ccl\"\
         \ role=\"main\"><div id=\"gs_res_glb\" style=\"display:none\" data-ttl=\"\
-        Preaching the choir - Google Scholar\" data-lph=\"\" data-sva=\"/citations?hl=en&amp;xsrf=&amp;continue=/scholar%3Fq%3DPreaching%2Bthe%2Bchoir%26hl%3Den%26start%3D1%26as_sdt%3D0,5&amp;citilm=1&amp;json=&amp;update_op=library_add&amp;info={id}&amp;ei=rxjlXt_AAYSimAHvkpSoBw\"\
-        \ data-tra=\"/citations?hl=en&amp;xsrf=&amp;continue=/scholar%3Fq%3DPreaching%2Bthe%2Bchoir%26hl%3Den%26start%3D1%26as_sdt%3D0,5&amp;citilm=1&amp;json=&amp;update_op=trash_citations&amp;s={id}\"\
-        \ data-via=\"/citations?view_op=view_citation&amp;continue=/scholar%3Fq%3DPreaching%2Bthe%2Bchoir%26hl%3Den%26start%3D1%26as_sdt%3D0,5&amp;citilm=1&amp;citation_for_view={id}&amp;hl=en&amp;oi=saved\"\
+        Fake cache bypass - Google Scholar\" data-lph=\"\" data-sva=\"/citations?hl=en&amp;xsrf=&amp;continue=/scholar%3Fq%3DFake%2Bcache%2Bbypass%26hl%3Den%26start%3D1%26as_sdt%3D0,5&amp;citilm=1&amp;json=&amp;update_op=library_add&amp;info={id}&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ\"\
+        \ data-tra=\"/citations?hl=en&amp;xsrf=&amp;continue=/scholar%3Fq%3DFake%2Bcache%2Bbypass%26hl%3Den%26start%3D1%26as_sdt%3D0,5&amp;citilm=1&amp;json=&amp;update_op=trash_citations&amp;s={id}\"\
+        \ data-via=\"/citations?view_op=view_citation&amp;continue=/scholar%3Fq%3DFake%2Bcache%2Bbypass%26hl%3Den%26start%3D1%26as_sdt%3D0,5&amp;citilm=1&amp;citation_for_view={id}&amp;hl=en&amp;oi=saved\"\
         \ data-exp=\"\" data-mlu=\"\" data-lsl=\"\" data-lpu=\"\" data-lsm=\"Saved\
-        \ to &lt;a href=&quot;/scholar?scilib=1&amp;amp;scioq=Preaching+the+choir&amp;amp;hl=en&amp;amp;as_sdt=0,5&quot;&gt;your\
-        \ library&lt;/a&gt;.\" data-ahq=\"\" data-gsb=\"\" data-rfr=\"/scholar?q=related:{id}:scholar.google.com/&amp;output=rfrra&amp;scioq=Preaching%2Bthe%2Bchoir&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;hl=en\"\
+        \ to &lt;a href=&quot;/scholar?scilib=1&amp;amp;scioq=Fake+cache+bypass&amp;amp;hl=en&amp;amp;as_sdt=0,5&quot;&gt;your\
+        \ library&lt;/a&gt;.\" data-ahq=\"\" data-gsb=\"\" data-rfr=\"/scholar?q=related:{id}:scholar.google.com/&amp;output=rfrra&amp;scioq=Fake%2Bcache%2Bbypass&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;hl=en\"\
         ></div><div id=\"gs_res_ccl\"><div id=\"gs_res_ccl_top\"></div><div id=\"\
-        gs_res_ccl_mid\">  <div class=\"gs_r gs_or gs_scl\" data-cid=\"4V7PnHKTr84J\"\
-        \ data-did=\"4V7PnHKTr84J\" data-lid=\"\" data-rp=\"1\"><div class=\"gs_ri\"\
-        ><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><a id=\"4V7PnHKTr84J\"\
-        \ href=\"https://www.sciencedirect.com/science/article/pii/S0099133306001625\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=1&amp;d=14893284613203910369&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm3te0pjd5QaGCH9p1FDxqM-MpNb8g&amp;nossl=1\"\
-        \ data-clk-atid=\"4V7PnHKTr84J\">Beyond <b>preaching </b>to the <b>choir</b>:\
-        \ Information literacy, faculty outreach, and disciplinary journals</a></h3><div\
-        \ class=\"gs_a\"><a href=\"/citations?user=7581ri4AAAAJ&amp;hl=en&amp;oi=sra\"\
-        >CR Stevens</a>\_- The Journal of Academic Librarianship, 2007 - Elsevier</div><div\
-        \ class=\"gs_rs\">Library literature publishes hundreds of articles on information\
-        \ literacy, many emphasizing <br>the importance of collaboration and faculty\
-        \ outreach. A systematic search of fifty-four non-<br>library journals that\
-        \ publish pedagogical articles reveals that some librarians are reaching\_\
-        \u2026</div><div class=\"gs_fl\"><a href=\"javascript:void(0)\" class=\"gs_or_sav\"\
-        \ title=\"Save\" role=\"button\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"\
-        ><path d=\"M8 11.57l3.824 2.308-1.015-4.35 3.379-2.926-4.45-.378L8 2.122 6.261\
-        \ 6.224l-4.449.378 3.379 2.926-1.015 4.35z\"/></svg></a> <a href=\"javascript:void(0)\"\
-        \ class=\"gs_or_cit gs_nph\" title=\"Cite\" role=\"button\" aria-controls=\"\
-        gs_cit\" aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"\
-        ><path d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5 3.5v5h2v.375L9.75\
-        \ 12.5h3L14.5 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=14893284613203910369&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
-        >Cited by 57</a> <a href=\"/scholar?q=related:4V7PnHKTr84J:scholar.google.com/&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        >Related articles</a> <a href=\"/scholar?cluster=14893284613203910369&amp;hl=en&amp;as_sdt=0,5\"\
+        gs_res_ccl_mid\">  <div class=\"gs_r gs_or gs_scl\" data-cid=\"XFERKccUpgUJ\"\
+        \ data-did=\"XFERKccUpgUJ\" data-lid=\"\" data-rp=\"1\"><div class=\"gs_ggs\
+        \ gs_fl\"><div class=\"gs_ggsd\"><div class=\"gs_or_ggsm\" ontouchstart=\"\
+        gs_evt_dsp(event)\" tabindex=\"-1\"><a href=\"https://par.nsf.gov/servlets/purl/10042123\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=1&amp;d=407035661943656796&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm2AIPUWTsRLbjf1un_Kvd_V9MSHTQ&amp;nossl=1\"\
+        \ data-clk-atid=\"XFERKccUpgUJ\"><span class=gs_ctg2>[PDF]</span> nsf.gov</a></div></div></div><div\
+        \ class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><a\
+        \ id=\"XFERKccUpgUJ\" href=\"https://ieeexplore.ieee.org/abstract/document/7783705/\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=1&amp;d=407035661943656796&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm0yXpz7PjyeZhXJO0i-ksWg6j_KyQ&amp;nossl=1\"\
+        \ data-clk-atid=\"XFERKccUpgUJ\">Perceptron learning for reuse prediction</a></h3><div\
+        \ class=\"gs_a\"><a href=\"/citations?user=VbySJ7kAAAAJ&amp;hl=en&amp;oi=sra\"\
+        >E Teran</a>, <a href=\"/citations?user=P8WDj_UAAAAJ&amp;hl=en&amp;oi=sra\"\
+        >Z Wang</a>, <a href=\"/citations?user=kajXr5oAAAAJ&amp;hl=en&amp;oi=sra\"\
+        >DA Jim\xE9nez</a>\_- 2016 49th Annual IEEE/ACM\_\u2026, 2016 - ieeexplore.ieee.org</div><div\
+        \ class=\"gs_rs\">\u2026 for a LLC [1] due to the fact that first- and middle-level\
+        \ <b>caches</b> filter out\_\u2026 Since hardware prefetches<br>\nare not\
+        \ associated with instruction addresses, a single <b>fake</b> address is used\
+        \ for\_\u2026 with an in-house<br>\nsimulator using the following memory hierarchy\
+        \ parameters: L1 data <b>cache</b>: 32KB 8\_\u2026 \n</div><div class=\"gs_fl\"\
+        ><a href=\"javascript:void(0)\" class=\"gs_or_sav\" title=\"Save\" role=\"\
+        button\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"><path d=\"M8 11.57l3.824\
+        \ 2.308-1.015-4.35 3.379-2.926-4.45-.378L8 2.122 6.261 6.224l-4.449.378 3.379\
+        \ 2.926-1.015 4.35z\"/></svg></a> <a href=\"javascript:void(0)\" class=\"\
+        gs_or_cit gs_nph\" title=\"Cite\" role=\"button\" aria-controls=\"gs_cit\"\
+        \ aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"><path\
+        \ d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5 3.5v5h2v.375L9.75 12.5h3L14.5\
+        \ 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=407035661943656796&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
+        >Cited by 48</a> <a href=\"/scholar?q=related:XFERKccUpgUJ:scholar.google.com/&amp;scioq=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        >Related articles</a> <a href=\"/scholar?cluster=407035661943656796&amp;hl=en&amp;as_sdt=0,5\"\
         \ class=\"gs_nph\">All 6 versions</a> <a href=\"javascript:void(0)\" title=\"\
         More\" class=\"gs_or_mor gs_oph\" role=\"button\"><svg viewBox=\"-1 0 17 16\"\
         \ class=\"gs_or_svg\"><path d=\"M1.5 5.5l2-2L8 8l-4.5 4.5-2-2L4 8zM8.5 5.5l2-2L15\
@@ -1144,58 +1150,57 @@ interactions:
         Fewer\" class=\"gs_or_nvi gs_or_mor\" role=\"button\"><svg viewBox=\"0 0 17\
         \ 16\" class=\"gs_or_svg\"><path d=\"M8.5 5.5l-2-2L2 8l4.5 4.5 2-2L6 8zM15.5\
         \ 5.5l-2-2L9 8l4.5 4.5 2-2L13 8z\"/></svg></a></div></div></div>  <div class=\"\
-        gs_r gs_or gs_scl\" data-cid=\"kgZ3QeAPkMUJ\" data-did=\"kgZ3QeAPkMUJ\" data-lid=\"\
+        gs_r gs_or gs_scl\" data-cid=\"FwQbiF_UzC0J\" data-did=\"FwQbiF_UzC0J\" data-lid=\"\
         \" data-rp=\"2\"><div class=\"gs_ggs gs_fl\"><div class=\"gs_ggsd\"><div class=\"\
         gs_or_ggsm\" ontouchstart=\"gs_evt_dsp(event)\" tabindex=\"-1\"><a href=\"\
-        https://csme.utah.edu/wp-content/uploads/2013/02/Not-Preaching-to-the-Choir11.pdf\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=2&amp;d=14235895877963548306&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm2UltF22c9ikGv5RyS0hweWJ9Yoyw&amp;nossl=1\"\
-        \ data-clk-atid=\"kgZ3QeAPkMUJ\"><span class=gs_ctg2>[PDF]</span> utah.edu</a></div></div></div><div\
+        https://hal.inria.fr/inria-00073170/document\" data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=2&amp;d=3300246133726184471&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm1hnGD9N0YrOsndarI6TrPrkgRwUw&amp;nossl=1\"\
+        \ data-clk-atid=\"FwQbiF_UzC0J\"><span class=gs_ctg2>[PDF]</span> inria.fr</a></div></div></div><div\
         \ class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><a\
-        \ id=\"kgZ3QeAPkMUJ\" href=\"https://www.jstor.org/stable/3589066\" data-clk=\"\
-        hl=en&amp;sa=T&amp;ct=res&amp;cd=2&amp;d=14235895877963548306&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm0whrK6lOm2RPY8S_V6YRQxrtvCrQ&amp;nossl=1\"\
-        \ data-clk-atid=\"kgZ3QeAPkMUJ\">Not <b>preaching </b>to the <b>choir</b>:\
-        \ Communicating the importance of forest conservation to nontraditional audiences</a></h3><div\
-        \ class=\"gs_a\">NM Nadkarni\_- Conservation Biology, 2004 - JSTOR</div><div\
-        \ class=\"gs_rs\">Recognition of the critical links be-tween humans and nature\
-        \ based on scientifically sound <br>information is key to effective conservation.\
-        \ How-ever, with the increasing dominance of <br>technology, more virtual\
-        \ rather than actual experiences, and the media&#39;s increasing\_\u2026</div><div\
-        \ class=\"gs_fl\"><a href=\"javascript:void(0)\" class=\"gs_or_sav\" title=\"\
-        Save\" role=\"button\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"><path\
-        \ d=\"M8 11.57l3.824 2.308-1.015-4.35 3.379-2.926-4.45-.378L8 2.122 6.261\
-        \ 6.224l-4.449.378 3.379 2.926-1.015 4.35z\"/></svg></a> <a href=\"javascript:void(0)\"\
-        \ class=\"gs_or_cit gs_nph\" title=\"Cite\" role=\"button\" aria-controls=\"\
-        gs_cit\" aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"\
-        ><path d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5 3.5v5h2v.375L9.75\
-        \ 12.5h3L14.5 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=14235895877963548306&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
-        >Cited by 47</a> <a href=\"/scholar?q=related:kgZ3QeAPkMUJ:scholar.google.com/&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        >Related articles</a> <a href=\"/scholar?cluster=14235895877963548306&amp;hl=en&amp;as_sdt=0,5\"\
-        \ class=\"gs_nph\">All 9 versions</a> <a href=\"javascript:void(0)\" title=\"\
+        \ id=\"FwQbiF_UzC0J\" href=\"https://ieeexplore.ieee.org/abstract/document/776510/\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=2&amp;d=3300246133726184471&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm2kdFAGATaMbs9LZiKJMJvvtQZzog&amp;nossl=1\"\
+        \ data-clk-atid=\"FwQbiF_UzC0J\">Replicated directory service for weakly consistent\
+        \ distributed <b>caches</b></a></h3><div class=\"gs_a\">M Makpangou, <a href=\"\
+        /citations?user=iIv8ZeMAAAAJ&amp;hl=en&amp;oi=sra\">G Pierre</a>, C Khoury\u2026\
+        \_- Proceedings. 19th IEEE\_\u2026, 1999 - ieeexplore.ieee.org</div><div class=\"\
+        gs_rs\">\u2026 P1 invali- dates its <b>cached</b> copy, then informs its associated\
+        \ man- ager, M1 for example, which<br>\nin turn updates\_\u2026 [11], a distributed\
+        \ Web <b>cache</b> simulator developed\_\u2026 characteristics (ie, latency\
+        \ and<br>\nband- width) between clients, <b>caches</b> and servers have been\
+        \ setup to <b>fake</b> a realistic\_\u2026 \n</div><div class=\"gs_fl\"><a\
+        \ href=\"javascript:void(0)\" class=\"gs_or_sav\" title=\"Save\" role=\"button\"\
+        ><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"><path d=\"M8 11.57l3.824\
+        \ 2.308-1.015-4.35 3.379-2.926-4.45-.378L8 2.122 6.261 6.224l-4.449.378 3.379\
+        \ 2.926-1.015 4.35z\"/></svg></a> <a href=\"javascript:void(0)\" class=\"\
+        gs_or_cit gs_nph\" title=\"Cite\" role=\"button\" aria-controls=\"gs_cit\"\
+        \ aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"><path\
+        \ d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5 3.5v5h2v.375L9.75 12.5h3L14.5\
+        \ 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=3300246133726184471&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
+        >Cited by 43</a> <a href=\"/scholar?q=related:FwQbiF_UzC0J:scholar.google.com/&amp;scioq=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        >Related articles</a> <a href=\"/scholar?cluster=3300246133726184471&amp;hl=en&amp;as_sdt=0,5\"\
+        \ class=\"gs_nph\">All 21 versions</a> <a href=\"javascript:void(0)\" title=\"\
         More\" class=\"gs_or_mor gs_oph\" role=\"button\"><svg viewBox=\"-1 0 17 16\"\
         \ class=\"gs_or_svg\"><path d=\"M1.5 5.5l2-2L8 8l-4.5 4.5-2-2L4 8zM8.5 5.5l2-2L15\
         \ 8l-4.5 4.5-2-2L11 8z\"/></svg></a> <a href=\"javascript:void(0)\" title=\"\
         Fewer\" class=\"gs_or_nvi gs_or_mor\" role=\"button\"><svg viewBox=\"0 0 17\
         \ 16\" class=\"gs_or_svg\"><path d=\"M8.5 5.5l-2-2L2 8l4.5 4.5 2-2L6 8zM15.5\
         \ 5.5l-2-2L9 8l4.5 4.5 2-2L13 8z\"/></svg></a></div></div></div>  <div class=\"\
-        gs_r gs_or gs_scl\" data-cid=\"VH36e0VycaoJ\" data-did=\"VH36e0VycaoJ\" data-lid=\"\
+        gs_r gs_or gs_scl\" data-cid=\"2f2JjclHAY0J\" data-did=\"2f2JjclHAY0J\" data-lid=\"\
         \" data-rp=\"3\"><div class=\"gs_ggs gs_fl\"><div class=\"gs_ggsd\"><div class=\"\
         gs_or_ggsm\" ontouchstart=\"gs_evt_dsp(event)\" tabindex=\"-1\"><a href=\"\
-        https://www.facetsjournal.com/doi/full/10.1139/facets-2018-0002\" data-clk=\"\
-        hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=3&amp;d=12281723301574376788&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm33GDdf0rlQ0m62TBhmvUGlJsFitA&amp;nossl=1\"\
-        \ data-clk-atid=\"VH36e0VycaoJ\"><span class=gs_ctg2>[HTML]</span> facetsjournal.com</a></div></div></div><div\
-        \ class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><span\
-        \ class=\"gs_ctc\"><span class=\"gs_ct1\">[HTML]</span><span class=\"gs_ct2\"\
-        >[HTML]</span></span> <a id=\"VH36e0VycaoJ\" href=\"https://www.facetsjournal.com/doi/full/10.1139/facets-2018-0002\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;oi=ggp&amp;ct=res&amp;cd=3&amp;d=12281723301574376788&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm33GDdf0rlQ0m62TBhmvUGlJsFitA&amp;nossl=1\"\
-        \ data-clk-atid=\"VH36e0VycaoJ\">Scientists on Twitter: <b>preaching </b>to\
-        \ the <b>choir </b>or singing from the rooftops?</a></h3><div class=\"gs_a\"\
-        ><a href=\"/citations?user=_8OMcbUAAAAJ&amp;hl=en&amp;oi=sra\">IM C\xF4t\xE9\
-        </a>, <a href=\"/citations?user=juP1o-UAAAAJ&amp;hl=en&amp;oi=sra\">ES Darling</a>\_\
-        - Facets, 2018 - facetsjournal.com</div><div class=\"gs_rs\">There have been\
-        \ strong calls for scientists to share their discoveries with society. Some\
-        \ <br>scientists have heeded these calls through social media platforms such\
-        \ as Twitter. Here, we <br>ask whether Twitter allows scientists to promote\
-        \ their findings primarily to other scientists\_\u2026</div><div class=\"\
+        http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.143.6171&amp;rep=rep1&amp;type=pdf\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=3&amp;d=10160481165313179097&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm1pi2Uph6OiEZcIbbVlFQSwXH4B9g&amp;nossl=1\"\
+        \ data-clk-atid=\"2f2JjclHAY0J\"><span class=gs_ctg2>[PDF]</span> psu.edu</a></div></div></div><div\
+        \ class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><a\
+        \ id=\"2f2JjclHAY0J\" href=\"https://ieeexplore.ieee.org/abstract/document/1203482/\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=3&amp;d=10160481165313179097&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm2jWoDqk5iwGk0DPtBGhHEjd5FoOA&amp;nossl=1\"\
+        \ data-clk-atid=\"2f2JjclHAY0J\">A path information caching and aggregation\
+        \ approach to traffic source identification</a></h3><div class=\"gs_a\">FH\
+        \ Hsu, T Chiueh\_- 23rd International Conference on\_\u2026, 2003 - ieeexplore.ieee.org</div><div\
+        \ class=\"gs_rs\">\u2026 Hence for a <b>fake</b> path message it is easy to\
+        \ obliterate the forged part by deleting all path\_\u2026 because<br>\nthe\
+        \ path taken by the <b>faked</b> path message will be recorded in the path\
+        \ message\_\u2026 A PICA- capable<br>\nrouter needs to access the path message\
+        \ <b>cache</b> only when it is about to generate a\_\u2026 \n</div><div class=\"\
         gs_fl\"><a href=\"javascript:void(0)\" class=\"gs_or_sav\" title=\"Save\"\
         \ role=\"button\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"><path d=\"\
         M8 11.57l3.824 2.308-1.015-4.35 3.379-2.926-4.45-.378L8 2.122 6.261 6.224l-4.449.378\
@@ -1203,67 +1208,9 @@ interactions:
         gs_or_cit gs_nph\" title=\"Cite\" role=\"button\" aria-controls=\"gs_cit\"\
         \ aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"><path\
         \ d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5 3.5v5h2v.375L9.75 12.5h3L14.5\
-        \ 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=12281723301574376788&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
-        >Cited by 60</a> <a href=\"/scholar?q=related:VH36e0VycaoJ:scholar.google.com/&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        >Related articles</a> <a href=\"/scholar?cluster=12281723301574376788&amp;hl=en&amp;as_sdt=0,5\"\
-        \ class=\"gs_nph\">All 6 versions</a> <a href=\"javascript:void(0)\" title=\"\
-        More\" class=\"gs_or_mor gs_oph\" role=\"button\"><svg viewBox=\"-1 0 17 16\"\
-        \ class=\"gs_or_svg\"><path d=\"M1.5 5.5l2-2L8 8l-4.5 4.5-2-2L4 8zM8.5 5.5l2-2L15\
-        \ 8l-4.5 4.5-2-2L11 8z\"/></svg></a> <a href=\"javascript:void(0)\" title=\"\
-        Fewer\" class=\"gs_or_nvi gs_or_mor\" role=\"button\"><svg viewBox=\"0 0 17\
-        \ 16\" class=\"gs_or_svg\"><path d=\"M8.5 5.5l-2-2L2 8l4.5 4.5 2-2L6 8zM15.5\
-        \ 5.5l-2-2L9 8l4.5 4.5 2-2L13 8z\"/></svg></a></div></div></div>  <div class=\"\
-        gs_r gs_or gs_scl\" data-cid=\"ba4iv8PT0hsJ\" data-did=\"ba4iv8PT0hsJ\" data-lid=\"\
-        \" data-rp=\"4\"><div class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"\
-        gs_evt_dsp(event)\"><a id=\"ba4iv8PT0hsJ\" href=\"https://www.tandfonline.com/doi/abs/10.1080/08838159909364508\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=4&amp;d=2004897621812096621&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm0C3pinYLSBrAsWv6vK4FXXwfDBAg&amp;nossl=1\"\
-        \ data-clk-atid=\"ba4iv8PT0hsJ\"><b>Preaching </b>to the <b>choir</b>: Profiling\
-        \ TV advisory ratings users</a></h3><div class=\"gs_a\">R Abelman\_- Journal\
-        \ of Broadcasting &amp; Electronic Media, 1999 - Taylor &amp; Francis</div><div\
-        \ class=\"gs_rs\">This investigation examines parents&#39; use of the MPAA\
-        \ television advisory ratings in their <br>decision\u2010making and the manner\
-        \ by which ratings information is incorporated into rules and <br>regulations\
-        \ about television in the home. The parents most likely to utilize TV ratings\_\
-        \u2026</div><div class=\"gs_fl\"><a href=\"javascript:void(0)\" class=\"gs_or_sav\"\
-        \ title=\"Save\" role=\"button\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"\
-        ><path d=\"M8 11.57l3.824 2.308-1.015-4.35 3.379-2.926-4.45-.378L8 2.122 6.261\
-        \ 6.224l-4.449.378 3.379 2.926-1.015 4.35z\"/></svg></a> <a href=\"javascript:void(0)\"\
-        \ class=\"gs_or_cit gs_nph\" title=\"Cite\" role=\"button\" aria-controls=\"\
-        gs_cit\" aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"\
-        ><path d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5 3.5v5h2v.375L9.75\
-        \ 12.5h3L14.5 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=2004897621812096621&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
-        >Cited by 29</a> <a href=\"/scholar?q=related:ba4iv8PT0hsJ:scholar.google.com/&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        >Related articles</a> <a href=\"/scholar?cluster=2004897621812096621&amp;hl=en&amp;as_sdt=0,5\"\
-        \ class=\"gs_nph\">All 6 versions</a> <a href=\"javascript:void(0)\" title=\"\
-        More\" class=\"gs_or_mor gs_oph\" role=\"button\"><svg viewBox=\"-1 0 17 16\"\
-        \ class=\"gs_or_svg\"><path d=\"M1.5 5.5l2-2L8 8l-4.5 4.5-2-2L4 8zM8.5 5.5l2-2L15\
-        \ 8l-4.5 4.5-2-2L11 8z\"/></svg></a> <a href=\"javascript:void(0)\" title=\"\
-        Fewer\" class=\"gs_or_nvi gs_or_mor\" role=\"button\"><svg viewBox=\"0 0 17\
-        \ 16\" class=\"gs_or_svg\"><path d=\"M8.5 5.5l-2-2L2 8l4.5 4.5 2-2L6 8zM15.5\
-        \ 5.5l-2-2L9 8l4.5 4.5 2-2L13 8z\"/></svg></a></div></div></div>  <div class=\"\
-        gs_r gs_or gs_scl\" data-cid=\"Dg8wX8Jpft0J\" data-did=\"Dg8wX8Jpft0J\" data-lid=\"\
-        \" data-rp=\"5\"><div class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"\
-        gs_evt_dsp(event)\"><a id=\"Dg8wX8Jpft0J\" href=\"https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1540-6237.2012.00865.x\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=5&amp;d=15960310412989173518&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm3QPtiv0oos3-SCJaIqlKKj4YBCFw&amp;nossl=1\"\
-        \ data-clk-atid=\"Dg8wX8Jpft0J\"><b>Preaching </b>to the <b>choir</b>? religious\
-        \ leaders and a merican opinion on immigration reform</a></h3><div class=\"\
-        gs_a\"><a href=\"/citations?user=OfgJBywAAAAJ&amp;hl=en&amp;oi=sra\">TM Nteta</a>,\
-        \ <a href=\"/citations?user=DgjG6xgAAAAJ&amp;hl=en&amp;oi=sra\">KJ Wallsten</a>\_\
-        - Social Science Quarterly, 2012 - Wiley Online Library</div><div class=\"\
-        gs_rs\">Objective Do the public declarations of religious leaders concerning\
-        \ immigration influence A <br>merican public opinion on immigration reform?\
-        \ Methods In answering this question, we use <br>the 2004 National Politics\
-        \ Study and employ ordered logistic regression techniques to test\_\u2026\
-        </div><div class=\"gs_fl\"><a href=\"javascript:void(0)\" class=\"gs_or_sav\"\
-        \ title=\"Save\" role=\"button\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"\
-        ><path d=\"M8 11.57l3.824 2.308-1.015-4.35 3.379-2.926-4.45-.378L8 2.122 6.261\
-        \ 6.224l-4.449.378 3.379 2.926-1.015 4.35z\"/></svg></a> <a href=\"javascript:void(0)\"\
-        \ class=\"gs_or_cit gs_nph\" title=\"Cite\" role=\"button\" aria-controls=\"\
-        gs_cit\" aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"\
-        ><path d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5 3.5v5h2v.375L9.75\
-        \ 12.5h3L14.5 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=15960310412989173518&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
-        >Cited by 41</a> <a href=\"/scholar?q=related:Dg8wX8Jpft0J:scholar.google.com/&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        >Related articles</a> <a href=\"/scholar?cluster=15960310412989173518&amp;hl=en&amp;as_sdt=0,5\"\
+        \ 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=10160481165313179097&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
+        >Cited by 16</a> <a href=\"/scholar?q=related:2f2JjclHAY0J:scholar.google.com/&amp;scioq=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        >Related articles</a> <a href=\"/scholar?cluster=10160481165313179097&amp;hl=en&amp;as_sdt=0,5\"\
         \ class=\"gs_nph\">All 7 versions</a> <a href=\"javascript:void(0)\" title=\"\
         More\" class=\"gs_or_mor gs_oph\" role=\"button\"><svg viewBox=\"-1 0 17 16\"\
         \ class=\"gs_or_svg\"><path d=\"M1.5 5.5l2-2L8 8l-4.5 4.5-2-2L4 8zM8.5 5.5l2-2L15\
@@ -1271,80 +1218,58 @@ interactions:
         Fewer\" class=\"gs_or_nvi gs_or_mor\" role=\"button\"><svg viewBox=\"0 0 17\
         \ 16\" class=\"gs_or_svg\"><path d=\"M8.5 5.5l-2-2L2 8l4.5 4.5 2-2L6 8zM15.5\
         \ 5.5l-2-2L9 8l4.5 4.5 2-2L13 8z\"/></svg></a></div></div></div>  <div class=\"\
-        gs_r gs_or gs_scl\" data-cid=\"t0utNKv_oisJ\" data-did=\"t0utNKv_oisJ\" data-lid=\"\
-        \" data-rp=\"6\"><div class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"\
-        gs_evt_dsp(event)\"><a id=\"t0utNKv_oisJ\" href=\"https://journals.sagepub.com/doi/abs/10.4278/0890-1171-4.5.367\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=6&amp;d=3144356600646290359&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm3ZkVM1ni-XPD-h4R0z8qpERzlrlQ&amp;nossl=1\"\
-        \ data-clk-atid=\"t0utNKv_oisJ\">Self-selection in responding to a health\
-        \ risk appraisal: Are we <b>preaching </b>to the <b>choir</b>?</a></h3><div\
-        \ class=\"gs_a\">DS Nice, SI Woodruff\_- American Journal of Health\_\u2026\
-        , 1990 - journals.sagepub.com</div><div class=\"gs_rs\">The objectives of\
-        \ the present study were a) to examine behavioral and sociodemographic <br>factors\
-        \ associated with voluntary response to a health risk appraisal (HRA), and\
-        \ b) to assess <br>the effect of HRA feedback on subsequent preventive health\
-        \ behaviors and risk-taking\_\u2026</div><div class=\"gs_fl\"><a href=\"javascript:void(0)\"\
-        \ class=\"gs_or_sav\" title=\"Save\" role=\"button\"><svg viewBox=\"-1 0 17\
-        \ 16\" class=\"gs_or_svg\"><path d=\"M8 11.57l3.824 2.308-1.015-4.35 3.379-2.926-4.45-.378L8\
-        \ 2.122 6.261 6.224l-4.449.378 3.379 2.926-1.015 4.35z\"/></svg></a> <a href=\"\
-        javascript:void(0)\" class=\"gs_or_cit gs_nph\" title=\"Cite\" role=\"button\"\
-        \ aria-controls=\"gs_cit\" aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\"\
-        \ class=\"gs_or_svg\"><path d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5\
-        \ 3.5v5h2v.375L9.75 12.5h3L14.5 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=3144356600646290359&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
-        >Cited by 29</a> <a href=\"/scholar?q=related:t0utNKv_oisJ:scholar.google.com/&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        >Related articles</a> <a href=\"/scholar?cluster=3144356600646290359&amp;hl=en&amp;as_sdt=0,5\"\
-        \ class=\"gs_nph\">All 6 versions</a> <a href=\"javascript:void(0)\" title=\"\
-        More\" class=\"gs_or_mor gs_oph\" role=\"button\"><svg viewBox=\"-1 0 17 16\"\
-        \ class=\"gs_or_svg\"><path d=\"M1.5 5.5l2-2L8 8l-4.5 4.5-2-2L4 8zM8.5 5.5l2-2L15\
-        \ 8l-4.5 4.5-2-2L11 8z\"/></svg></a> <a href=\"javascript:void(0)\" title=\"\
-        Fewer\" class=\"gs_or_nvi gs_or_mor\" role=\"button\"><svg viewBox=\"0 0 17\
-        \ 16\" class=\"gs_or_svg\"><path d=\"M8.5 5.5l-2-2L2 8l4.5 4.5 2-2L6 8zM15.5\
-        \ 5.5l-2-2L9 8l4.5 4.5 2-2L13 8z\"/></svg></a></div></div></div>  <div class=\"\
-        gs_r gs_or gs_scl\" data-cid=\"m659ARYvXpEJ\" data-did=\"m659ARYvXpEJ\" data-lid=\"\
-        \" data-rp=\"7\"><div class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"\
-        gs_evt_dsp(event)\"><a id=\"m659ARYvXpEJ\" href=\"https://www.tandfonline.com/doi/full/10.1080/00909880902792313\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=7&amp;d=10474861554871152283&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm2AI-rGAd5RXb3zs-uz8_vjNj27eQ&amp;nossl=1\"\
-        \ data-clk-atid=\"m659ARYvXpEJ\">Not just <b>preaching </b>to the <b>choir</b>:\
-        \ Communication scholarship does make a difference</a></h3><div class=\"gs_a\"\
-        >ML Hummert\_- Journal of Applied Communication Research, 2009 - Taylor &amp;\
-        \ Francis</div><div class=\"gs_rs\">The title makes clear my position on the\
-        \ question posed to me and the other contributors to <br>this joint issue\
-        \ of JACR and Communication Monographs: Has research by communication <br>scholars\
-        \ made a difference in the practices or outcomes of communication in society?\
-        \ There\_\u2026</div><div class=\"gs_fl\"><a href=\"javascript:void(0)\" class=\"\
-        gs_or_sav\" title=\"Save\" role=\"button\"><svg viewBox=\"-1 0 17 16\" class=\"\
-        gs_or_svg\"><path d=\"M8 11.57l3.824 2.308-1.015-4.35 3.379-2.926-4.45-.378L8\
-        \ 2.122 6.261 6.224l-4.449.378 3.379 2.926-1.015 4.35z\"/></svg></a> <a href=\"\
-        javascript:void(0)\" class=\"gs_or_cit gs_nph\" title=\"Cite\" role=\"button\"\
-        \ aria-controls=\"gs_cit\" aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\"\
-        \ class=\"gs_or_svg\"><path d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5\
-        \ 3.5v5h2v.375L9.75 12.5h3L14.5 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=10474861554871152283&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
-        >Cited by 24</a> <a href=\"/scholar?q=related:m659ARYvXpEJ:scholar.google.com/&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        >Related articles</a> <a href=\"/scholar?cluster=10474861554871152283&amp;hl=en&amp;as_sdt=0,5\"\
-        \ class=\"gs_nph\">All 3 versions</a> <a href=\"javascript:void(0)\" title=\"\
-        More\" class=\"gs_or_mor gs_oph\" role=\"button\"><svg viewBox=\"-1 0 17 16\"\
-        \ class=\"gs_or_svg\"><path d=\"M1.5 5.5l2-2L8 8l-4.5 4.5-2-2L4 8zM8.5 5.5l2-2L15\
-        \ 8l-4.5 4.5-2-2L11 8z\"/></svg></a> <a href=\"javascript:void(0)\" title=\"\
-        Fewer\" class=\"gs_or_nvi gs_or_mor\" role=\"button\"><svg viewBox=\"0 0 17\
-        \ 16\" class=\"gs_or_svg\"><path d=\"M8.5 5.5l-2-2L2 8l4.5 4.5 2-2L6 8zM15.5\
-        \ 5.5l-2-2L9 8l4.5 4.5 2-2L13 8z\"/></svg></a></div></div></div>  <div class=\"\
-        gs_r gs_or gs_scl\" data-cid=\"E2gXf0wXldAJ\" data-did=\"E2gXf0wXldAJ\" data-lid=\"\
-        \" data-rp=\"8\"><div class=\"gs_ggs gs_fl\"><div class=\"gs_ggsd\"><div class=\"\
+        gs_r gs_or gs_scl\" data-cid=\"Z_zZLRwSkHcJ\" data-did=\"Z_zZLRwSkHcJ\" data-lid=\"\
+        \" data-rp=\"4\"><div class=\"gs_ggs gs_fl\"><div class=\"gs_ggsd\"><div class=\"\
         gs_or_ggsm\" ontouchstart=\"gs_evt_dsp(event)\" tabindex=\"-1\"><a href=\"\
-        http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.688.6140&amp;rep=rep1&amp;type=pdf\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=8&amp;d=15029944948736092179&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm0vEH_GBSxxFw6GSUuWxZDu3gmuwA&amp;nossl=1\"\
-        \ data-clk-atid=\"E2gXf0wXldAJ\"><span class=gs_ctg2>[PDF]</span> psu.edu</a></div></div></div><div\
+        http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.29.8648&amp;rep=rep1&amp;type=pdf\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=4&amp;d=8615405999397403751&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm2nmH3MwLjZUeKG5J0pxtXn4IzaHg&amp;nossl=1\"\
+        \ data-clk-atid=\"Z_zZLRwSkHcJ\"><span class=gs_ctg2>[PDF]</span> psu.edu</a></div></div></div><div\
+        \ class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><span\
+        \ class=\"gs_ctc\"><span class=\"gs_ct1\">[PDF]</span><span class=\"gs_ct2\"\
+        >[PDF]</span></span> <a id=\"Z_zZLRwSkHcJ\" href=\"http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.29.8648&amp;rep=rep1&amp;type=pdf\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;oi=ggp&amp;ct=res&amp;cd=4&amp;d=8615405999397403751&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm2nmH3MwLjZUeKG5J0pxtXn4IzaHg&amp;nossl=1\"\
+        \ data-clk-atid=\"Z_zZLRwSkHcJ\">A distributed internet <b>cache</b></a></h3><div\
+        \ class=\"gs_a\">D Povey, J Harrison\_- Australian Computer Science Communications,\
+        \ 1997 - Citeseer</div><div class=\"gs_rs\">\u2026 B C <b>Fake</b> Resolution\
+        \ Query\_\u2026 Page 6. 4 A Distributed <b>Cache</b> 4.1 Improving upon the\
+        \ hierarchical<br>\n<b>cache</b> One approach which addresses the above issues,\
+        \ is to avoid the use of servers at the<br>\nroot and up- per levels of the\
+        \ hierarchy to resolve requests and store <b>cached</b> documents\_\u2026\
+        \ \n</div><div class=\"gs_fl\"><a href=\"javascript:void(0)\" class=\"gs_or_sav\"\
+        \ title=\"Save\" role=\"button\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"\
+        ><path d=\"M8 11.57l3.824 2.308-1.015-4.35 3.379-2.926-4.45-.378L8 2.122 6.261\
+        \ 6.224l-4.449.378 3.379 2.926-1.015 4.35z\"/></svg></a> <a href=\"javascript:void(0)\"\
+        \ class=\"gs_or_cit gs_nph\" title=\"Cite\" role=\"button\" aria-controls=\"\
+        gs_cit\" aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"\
+        ><path d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5 3.5v5h2v.375L9.75\
+        \ 12.5h3L14.5 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=8615405999397403751&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
+        >Cited by 144</a> <a href=\"/scholar?q=related:Z_zZLRwSkHcJ:scholar.google.com/&amp;scioq=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        >Related articles</a> <a href=\"/scholar?cluster=8615405999397403751&amp;hl=en&amp;as_sdt=0,5\"\
+        \ class=\"gs_nph\">All 9 versions</a> <a href=\"javascript:void(0)\" title=\"\
+        More\" class=\"gs_or_mor\" role=\"button\"><svg viewBox=\"-1 0 17 16\" class=\"\
+        gs_or_svg\"><path d=\"M1.5 5.5l2-2L8 8l-4.5 4.5-2-2L4 8zM8.5 5.5l2-2L15 8l-4.5\
+        \ 4.5-2-2L11 8z\"/></svg></a> <a href=\"http://scholar.googleusercontent.com/scholar?q=cache:Z_zZLRwSkHcJ:scholar.google.com/+Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        \ class=\"gs_or_nvi\">View as HTML</a> <a href=\"javascript:void(0)\" title=\"\
+        Fewer\" class=\"gs_or_nvi gs_or_mor\" role=\"button\"><svg viewBox=\"0 0 17\
+        \ 16\" class=\"gs_or_svg\"><path d=\"M8.5 5.5l-2-2L2 8l4.5 4.5 2-2L6 8zM15.5\
+        \ 5.5l-2-2L9 8l4.5 4.5 2-2L13 8z\"/></svg></a></div></div></div>  <div class=\"\
+        gs_r gs_or gs_scl\" data-cid=\"vOl75XveRfMJ\" data-did=\"vOl75XveRfMJ\" data-lid=\"\
+        \" data-rp=\"5\"><div class=\"gs_ggs gs_fl\"><div class=\"gs_ggsd\"><div class=\"\
+        gs_or_ggsm\" ontouchstart=\"gs_evt_dsp(event)\" tabindex=\"-1\"><a href=\"\
+        https://patentimages.storage.googleapis.com/b0/94/2c/4071a65da12cbf/US7962957.pdf\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=5&amp;d=17529661748321970620&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm1mSIUC11PzJt7ksJYJ0GN98-V5Hg&amp;nossl=1\"\
+        \ data-clk-atid=\"vOl75XveRfMJ\"><span class=gs_ctg2>[PDF]</span> googleapis.com</a></div></div></div><div\
         \ class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><a\
-        \ id=\"E2gXf0wXldAJ\" href=\"https://onlinelibrary.wiley.com/doi/abs/10.1111/ajps.12228\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=8&amp;d=15029944948736092179&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm0rrz5yCkohfsGOEMdBksRmj5feDQ&amp;nossl=1\"\
-        \ data-clk-atid=\"E2gXf0wXldAJ\"><b>Preaching </b>to the <b>choir</b>: Americans\
-        \ prefer communicating to copartisan elected officials</a></h3><div class=\"\
-        gs_a\"><a href=\"/citations?user=Ifl1VQEAAAAJ&amp;hl=en&amp;oi=sra\">DE Broockman</a>,\
-        \ <a href=\"/citations?user=C4YMEYkAAAAJ&amp;hl=en&amp;oi=sra\">TJ Ryan</a>\_\
-        - American Journal of Political\_\u2026, 2016 - Wiley Online Library</div><div\
-        \ class=\"gs_rs\">Past work suggests that partisan attachments isolate citizens\
-        \ from encountering elite <br>messages contrary to their points of view. Here,\
-        \ we present evidence that partisan <br>attachments not only serve to filter\
-        \ the information citizens receive from political elites; they\_\u2026</div><div\
+        \ id=\"vOl75XveRfMJ\" href=\"https://patents.google.com/patent/US7962957B2/en\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=5&amp;d=17529661748321970620&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm3CLjtf6x6Qmq_ASpICjL9XnS4HEQ&amp;nossl=1\"\
+        \ data-clk-atid=\"vOl75XveRfMJ\">Method and apparatus for detecting port scans\
+        \ with <b>fake </b>source address</a></h3><div class=\"gs_a\"><a href=\"/citations?user=vQCwPYEAAAAJ&amp;hl=en&amp;oi=sra\"\
+        >SM Keohane</a>, GF McBrearty, SP Mullen\u2026\_- US Patent\_\u2026, 2011\
+        \ - Google Patents</div><div class=\"gs_rs\">\u2026 FIG. 8 is a flowchart\
+        \ illustrating a process for detecting a port scan with a <b>fake</b> source\
+        \ IP address<br>\nin accordance with an illustrative embodiment; and. FIG\_\
+        \u2026 A memory may be, for example, main<br>\nmemory 208 or a <b>cache</b>\
+        \ such as found in north bridge and memory controller hub 202\_\u2026 \n</div><div\
         \ class=\"gs_fl\"><a href=\"javascript:void(0)\" class=\"gs_or_sav\" title=\"\
         Save\" role=\"button\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"><path\
         \ d=\"M8 11.57l3.824 2.308-1.015-4.35 3.379-2.926-4.45-.378L8 2.122 6.261\
@@ -1352,28 +1277,36 @@ interactions:
         \ class=\"gs_or_cit gs_nph\" title=\"Cite\" role=\"button\" aria-controls=\"\
         gs_cit\" aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"\
         ><path d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5 3.5v5h2v.375L9.75\
-        \ 12.5h3L14.5 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=15029944948736092179&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
-        >Cited by 22</a> <a href=\"/scholar?q=related:E2gXf0wXldAJ:scholar.google.com/&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        >Related articles</a> <a href=\"/scholar?cluster=15029944948736092179&amp;hl=en&amp;as_sdt=0,5\"\
-        \ class=\"gs_nph\">All 9 versions</a> <a href=\"javascript:void(0)\" title=\"\
-        More\" class=\"gs_or_mor gs_oph\" role=\"button\"><svg viewBox=\"-1 0 17 16\"\
-        \ class=\"gs_or_svg\"><path d=\"M1.5 5.5l2-2L8 8l-4.5 4.5-2-2L4 8zM8.5 5.5l2-2L15\
-        \ 8l-4.5 4.5-2-2L11 8z\"/></svg></a> <a href=\"javascript:void(0)\" title=\"\
-        Fewer\" class=\"gs_or_nvi gs_or_mor\" role=\"button\"><svg viewBox=\"0 0 17\
-        \ 16\" class=\"gs_or_svg\"><path d=\"M8.5 5.5l-2-2L2 8l4.5 4.5 2-2L6 8zM15.5\
-        \ 5.5l-2-2L9 8l4.5 4.5 2-2L13 8z\"/></svg></a></div></div></div>  <div class=\"\
-        gs_r gs_or gs_scl\" data-cid=\"ARnBM0zKs5IJ\" data-did=\"ARnBM0zKs5IJ\" data-lid=\"\
-        \" data-rp=\"9\"><div class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"\
-        gs_evt_dsp(event)\"><a id=\"ARnBM0zKs5IJ\" href=\"https://www.sciencedirect.com/science/article/pii/S1550830705003800\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=9&amp;d=10571015179003304193&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm0sJt8So47t5UKV2QJxqTAEE6MV6g&amp;nossl=1\"\
-        \ data-clk-atid=\"ARnBM0zKs5IJ\">Electives in complementary medicine: are\
-        \ we <b>preaching </b>to the <b>choir</b>?</a></h3><div class=\"gs_a\"><a\
-        \ href=\"/citations?user=i58lRZgAAAAJ&amp;hl=en&amp;oi=sra\">KJ Kemper</a>,\
-        \ D Larrimore, J Dozier, C Woods\_- EXPLORE, 2005 - Elsevier</div><div class=\"\
-        gs_rs\">Context Many medical schools offer electives on complementary medicine,\
-        \ but little is known <br>about the characteristics of students who sign up\
-        \ for such electives compared with those <br>who do not. Objective Compare\
-        \ enrollees to nonenrollees in an elective course on\_\u2026</div><div class=\"\
+        \ 12.5h3L14.5 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=17529661748321970620&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
+        >Cited by 224</a> <a href=\"/scholar?q=related:vOl75XveRfMJ:scholar.google.com/&amp;scioq=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        >Related articles</a> <a href=\"/scholar?cluster=17529661748321970620&amp;hl=en&amp;as_sdt=0,5\"\
+        \ class=\"gs_nph\">All 4 versions</a> <a href=\"javascript:void(0)\" title=\"\
+        More\" class=\"gs_or_mor\" role=\"button\"><svg viewBox=\"-1 0 17 16\" class=\"\
+        gs_or_svg\"><path d=\"M1.5 5.5l2-2L8 8l-4.5 4.5-2-2L4 8zM8.5 5.5l2-2L15 8l-4.5\
+        \ 4.5-2-2L11 8z\"/></svg></a> <a href=\"https://scholar.googleusercontent.com/scholar?q=cache:vOl75XveRfMJ:scholar.google.com/+Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        \ class=\"gs_or_nvi\">Cached</a> <a href=\"javascript:void(0)\" title=\"Fewer\"\
+        \ class=\"gs_or_nvi gs_or_mor\" role=\"button\"><svg viewBox=\"0 0 17 16\"\
+        \ class=\"gs_or_svg\"><path d=\"M8.5 5.5l-2-2L2 8l4.5 4.5 2-2L6 8zM15.5 5.5l-2-2L9\
+        \ 8l4.5 4.5 2-2L13 8z\"/></svg></a></div></div></div>  <div class=\"gs_r gs_or\
+        \ gs_scl\" data-cid=\"DJzxUDnuXdUJ\" data-did=\"DJzxUDnuXdUJ\" data-lid=\"\
+        \" data-rp=\"6\"><div class=\"gs_ggs gs_fl\"><div class=\"gs_ggsd\"><div class=\"\
+        gs_or_ggsm\" ontouchstart=\"gs_evt_dsp(event)\" tabindex=\"-1\"><a href=\"\
+        https://www.researchgate.net/profile/Mark_Hill5/publication/220696265_A_Primer_on_Memory_Consistency_and_Cache_Coherence/links/0fcfd511d6bdd63d0f000000/A-Primer-on-Memory-Consistency-and-Cache-Coherence.pdf\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=6&amp;d=15374706632851299340&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm1M4sYPOdxjBY5BEH01G-EMma-E0w&amp;nossl=1\"\
+        \ data-clk-atid=\"DJzxUDnuXdUJ\"><span class=gs_ctg2>[PDF]</span> researchgate.net</a></div></div></div><div\
+        \ class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><a\
+        \ id=\"DJzxUDnuXdUJ\" href=\"https://www.morganclaypool.com/doi/abs/10.2200/S00346ED1V01Y201104CAC016\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=6&amp;d=15374706632851299340&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm33dtGFHxaFVzhEAm2g70Ci8e8O0w&amp;nossl=1\"\
+        \ data-clk-atid=\"DJzxUDnuXdUJ\">A primer on memory consistency and <b>cache\
+        \ </b>coherence</a></h3><div class=\"gs_a\"><a href=\"/citations?user=bsoRFLAAAAAJ&amp;hl=en&amp;oi=sra\"\
+        >DJ Sorin</a>, <a href=\"/citations?user=7lVfIWYAAAAJ&amp;hl=en&amp;oi=sra\"\
+        >MD Hill</a>, <a href=\"/citations?user=UCiXhq4AAAAJ&amp;hl=en&amp;oi=sra\"\
+        >DA Wood</a>\_- Synthesis lectures on computer\_\u2026, 2011 - morganclaypool.com</div><div\
+        \ class=\"gs_rs\">\u2026 The Memory System: You Can&#39;t Avoid It, You Can&#39;t\
+        \ Ignore It, You Can&#39;t <b>Fake</b> It Bruce Jacob 2009\_\u2026<br>\nany\
+        \ given time, a memory location is either <b>cached</b> for writing (and reading)\
+        \ at one <b>cache</b> or<br>\n<b>cached</b> only for\_\u2026 6 A PRIMER ON\
+        \ MEMORY CONSISTENCY AND <b>CACHE</b> COHERENCE\_\u2026 \n</div><div class=\"\
         gs_fl\"><a href=\"javascript:void(0)\" class=\"gs_or_sav\" title=\"Save\"\
         \ role=\"button\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"><path d=\"\
         M8 11.57l3.824 2.308-1.015-4.35 3.379-2.926-4.45-.378L8 2.122 6.261 6.224l-4.449.378\
@@ -1381,100 +1314,208 @@ interactions:
         gs_or_cit gs_nph\" title=\"Cite\" role=\"button\" aria-controls=\"gs_cit\"\
         \ aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"><path\
         \ d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5 3.5v5h2v.375L9.75 12.5h3L14.5\
-        \ 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=10571015179003304193&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
-        >Cited by 19</a> <a href=\"/scholar?q=related:ARnBM0zKs5IJ:scholar.google.com/&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        >Related articles</a> <a href=\"/scholar?cluster=10571015179003304193&amp;hl=en&amp;as_sdt=0,5\"\
-        \ class=\"gs_nph\">All 5 versions</a> <a href=\"javascript:void(0)\" title=\"\
+        \ 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=15374706632851299340&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
+        >Cited by 382</a> <a href=\"/scholar?q=related:DJzxUDnuXdUJ:scholar.google.com/&amp;scioq=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        >Related articles</a> <a href=\"/scholar?cluster=15374706632851299340&amp;hl=en&amp;as_sdt=0,5\"\
+        \ class=\"gs_nph\">All 18 versions</a> <a href=\"javascript:void(0)\" title=\"\
         More\" class=\"gs_or_mor gs_oph\" role=\"button\"><svg viewBox=\"-1 0 17 16\"\
         \ class=\"gs_or_svg\"><path d=\"M1.5 5.5l2-2L8 8l-4.5 4.5-2-2L4 8zM8.5 5.5l2-2L15\
         \ 8l-4.5 4.5-2-2L11 8z\"/></svg></a> <a href=\"javascript:void(0)\" title=\"\
         Fewer\" class=\"gs_or_nvi gs_or_mor\" role=\"button\"><svg viewBox=\"0 0 17\
         \ 16\" class=\"gs_or_svg\"><path d=\"M8.5 5.5l-2-2L2 8l4.5 4.5 2-2L6 8zM15.5\
         \ 5.5l-2-2L9 8l4.5 4.5 2-2L13 8z\"/></svg></a></div></div></div>  <div class=\"\
-        gs_r gs_or gs_scl\" data-cid=\"h3lIpSED6FEJ\" data-did=\"h3lIpSED6FEJ\" data-lid=\"\
-        \" data-rp=\"10\"><div class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"\
-        gs_evt_dsp(event)\"><a id=\"h3lIpSED6FEJ\" href=\"https://www.tandfonline.com/doi/abs/10.1080/01629770701527043\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=10&amp;d=5901970754710829447&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm3LtgX8ER1dbsGKzZRo8jfKlpVFrQ&amp;nossl=1\"\
-        \ data-clk-atid=\"h3lIpSED6FEJ\">&#39;<b>Preaching </b>to the <b>choir</b>?&#39;An\
-        \ analysis of DUP discourses about the Northern Ireland peace process</a></h3><div\
-        \ class=\"gs_a\"><a href=\"/citations?user=vs9I0VoAAAAJ&amp;hl=en&amp;oi=sra\"\
-        >G Ganiel</a>\_- Irish Political Studies, 2007 - Taylor &amp; Francis</div><div\
-        \ class=\"gs_rs\">This article analyses the Democratic Unionist Party&#39;s\
-        \ (DUP) discursive responses to the <br>Northern Ireland peace process. Drawing\
-        \ on narrative analysis of DUP discourses in the <br>Belfast News Letter (1998\u2013\
-        2005), it argues that the party has articulated five themes: the de\_\u2026\
-        </div><div class=\"gs_fl\"><a href=\"javascript:void(0)\" class=\"gs_or_sav\"\
-        \ title=\"Save\" role=\"button\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"\
-        ><path d=\"M8 11.57l3.824 2.308-1.015-4.35 3.379-2.926-4.45-.378L8 2.122 6.261\
-        \ 6.224l-4.449.378 3.379 2.926-1.015 4.35z\"/></svg></a> <a href=\"javascript:void(0)\"\
-        \ class=\"gs_or_cit gs_nph\" title=\"Cite\" role=\"button\" aria-controls=\"\
-        gs_cit\" aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"\
-        ><path d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5 3.5v5h2v.375L9.75\
-        \ 12.5h3L14.5 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=5901970754710829447&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
-        >Cited by 25</a> <a href=\"/scholar?q=related:h3lIpSED6FEJ:scholar.google.com/&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        >Related articles</a> <a href=\"/scholar?cluster=5901970754710829447&amp;hl=en&amp;as_sdt=0,5\"\
+        gs_r gs_or gs_scl\" data-cid=\"zQJrT43u6usJ\" data-did=\"zQJrT43u6usJ\" data-lid=\"\
+        \" data-rp=\"7\"><div class=\"gs_ggs gs_fl\"><div class=\"gs_ggsd\"><div class=\"\
+        gs_or_ggsm\" ontouchstart=\"gs_evt_dsp(event)\" tabindex=\"-1\"><a href=\"\
+        https://patentimages.storage.googleapis.com/da/a6/45/30a70477017b97/US8065687.pdf\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=7&amp;d=16999662034153571021&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm32DE-tsCnNpKS7OMeNqS_li1SXRQ&amp;nossl=1\"\
+        \ data-clk-atid=\"zQJrT43u6usJ\"><span class=gs_ctg2>[PDF]</span> googleapis.com</a></div></div></div><div\
+        \ class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><a\
+        \ id=\"zQJrT43u6usJ\" href=\"https://patents.google.com/patent/US8065687B2/en\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=7&amp;d=16999662034153571021&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm2ezczGumsOuyqIuMNu-VBPkaqGFQ&amp;nossl=1\"\
+        \ data-clk-atid=\"zQJrT43u6usJ\"><b>Bypass </b>virtualization</a></h3><div\
+        \ class=\"gs_a\">IITJ Purtell, W Chun, <a href=\"/citations?user=mtejbKYAAAAJ&amp;hl=en&amp;oi=sra\"\
+        >M Carbin</a>\_- US Patent 8,065,687, 2011 - Google Patents</div><div class=\"\
+        gs_rs\">US8065687B2 - <b>Bypass</b> virtualization - Google Patents. <b>Bypass</b>\
+        \ virtualization. Download PDF<br>\nInfo\_\u2026 FIG. 1 illustrates a software\
+        \ stack for an operating system. FIG. 2 illustrates an embodiment<br>\nof\
+        \ <b>bypass</b> virtualization as applied to a software stack in a guest OS.\
+        \ FIG\_\u2026 \n</div><div class=\"gs_fl\"><a href=\"javascript:void(0)\"\
+        \ class=\"gs_or_sav\" title=\"Save\" role=\"button\"><svg viewBox=\"-1 0 17\
+        \ 16\" class=\"gs_or_svg\"><path d=\"M8 11.57l3.824 2.308-1.015-4.35 3.379-2.926-4.45-.378L8\
+        \ 2.122 6.261 6.224l-4.449.378 3.379 2.926-1.015 4.35z\"/></svg></a> <a href=\"\
+        javascript:void(0)\" class=\"gs_or_cit gs_nph\" title=\"Cite\" role=\"button\"\
+        \ aria-controls=\"gs_cit\" aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\"\
+        \ class=\"gs_or_svg\"><path d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5\
+        \ 3.5v5h2v.375L9.75 12.5h3L14.5 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=16999662034153571021&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
+        >Cited by 51</a> <a href=\"/scholar?q=related:zQJrT43u6usJ:scholar.google.com/&amp;scioq=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        >Related articles</a> <a href=\"/scholar?cluster=16999662034153571021&amp;hl=en&amp;as_sdt=0,5\"\
+        \ class=\"gs_nph\">All 4 versions</a> <a href=\"javascript:void(0)\" title=\"\
+        More\" class=\"gs_or_mor\" role=\"button\"><svg viewBox=\"-1 0 17 16\" class=\"\
+        gs_or_svg\"><path d=\"M1.5 5.5l2-2L8 8l-4.5 4.5-2-2L4 8zM8.5 5.5l2-2L15 8l-4.5\
+        \ 4.5-2-2L11 8z\"/></svg></a> <a href=\"https://scholar.googleusercontent.com/scholar?q=cache:zQJrT43u6usJ:scholar.google.com/+Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        \ class=\"gs_or_nvi\">Cached</a> <a href=\"javascript:void(0)\" title=\"Fewer\"\
+        \ class=\"gs_or_nvi gs_or_mor\" role=\"button\"><svg viewBox=\"0 0 17 16\"\
+        \ class=\"gs_or_svg\"><path d=\"M8.5 5.5l-2-2L2 8l4.5 4.5 2-2L6 8zM15.5 5.5l-2-2L9\
+        \ 8l4.5 4.5 2-2L13 8z\"/></svg></a></div></div></div>  <div class=\"gs_r gs_or\
+        \ gs_scl\" data-cid=\"UKUh_IwD_tcJ\" data-did=\"UKUh_IwD_tcJ\" data-lid=\"\
+        \" data-rp=\"8\"><div class=\"gs_ggs gs_fl\"><div class=\"gs_ggsd\"><div class=\"\
+        gs_or_ggsm\" ontouchstart=\"gs_evt_dsp(event)\" tabindex=\"-1\"><a href=\"\
+        https://patentimages.storage.googleapis.com/29/03/4f/09965041a102fb/US6246683.pdf\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=8&amp;d=15563881266299381072&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm0QkmiD2YmAIqRpoJQZxoEUc2sXSA&amp;nossl=1\"\
+        \ data-clk-atid=\"UKUh_IwD_tcJ\"><span class=gs_ctg2>[PDF]</span> googleapis.com</a></div></div></div><div\
+        \ class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><a\
+        \ id=\"UKUh_IwD_tcJ\" href=\"https://patents.google.com/patent/US6246683B1/en\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=8&amp;d=15563881266299381072&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm05gscUutGlFnLC2ok96FtyZ2N92g&amp;nossl=1\"\
+        \ data-clk-atid=\"UKUh_IwD_tcJ\">Receive processing with network protocol\
+        \ <b>bypass</b></a></h3><div class=\"gs_a\">GW Connery, G Jaszewski, R Reid\_\
+        - US Patent 6,246,683, 2001 - Google Patents</div><div class=\"gs_rs\">\u2026\
+        \ The file system 50 sets up a <b>bypass</b>, then formats the READ RAW SMB\
+        \ request 60 and<br>\npasses it down\_\u2026 This approach allows both data\
+        \ that is targeted at the file system <b>cache</b><br>\nbuffers to skip one\
+        \ or more copies or application layer reads\_\u2026 \n</div><div class=\"\
+        gs_fl\"><a href=\"javascript:void(0)\" class=\"gs_or_sav\" title=\"Save\"\
+        \ role=\"button\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"><path d=\"\
+        M8 11.57l3.824 2.308-1.015-4.35 3.379-2.926-4.45-.378L8 2.122 6.261 6.224l-4.449.378\
+        \ 3.379 2.926-1.015 4.35z\"/></svg></a> <a href=\"javascript:void(0)\" class=\"\
+        gs_or_cit gs_nph\" title=\"Cite\" role=\"button\" aria-controls=\"gs_cit\"\
+        \ aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"><path\
+        \ d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5 3.5v5h2v.375L9.75 12.5h3L14.5\
+        \ 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=15563881266299381072&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
+        >Cited by 220</a> <a href=\"/scholar?q=related:UKUh_IwD_tcJ:scholar.google.com/&amp;scioq=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        >Related articles</a> <a href=\"/scholar?cluster=15563881266299381072&amp;hl=en&amp;as_sdt=0,5\"\
         \ class=\"gs_nph\">All 2 versions</a> <a href=\"javascript:void(0)\" title=\"\
+        More\" class=\"gs_or_mor\" role=\"button\"><svg viewBox=\"-1 0 17 16\" class=\"\
+        gs_or_svg\"><path d=\"M1.5 5.5l2-2L8 8l-4.5 4.5-2-2L4 8zM8.5 5.5l2-2L15 8l-4.5\
+        \ 4.5-2-2L11 8z\"/></svg></a> <a href=\"https://scholar.googleusercontent.com/scholar?q=cache:UKUh_IwD_tcJ:scholar.google.com/+Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        \ class=\"gs_or_nvi\">Cached</a> <a href=\"javascript:void(0)\" title=\"Fewer\"\
+        \ class=\"gs_or_nvi gs_or_mor\" role=\"button\"><svg viewBox=\"0 0 17 16\"\
+        \ class=\"gs_or_svg\"><path d=\"M8.5 5.5l-2-2L2 8l4.5 4.5 2-2L6 8zM15.5 5.5l-2-2L9\
+        \ 8l4.5 4.5 2-2L13 8z\"/></svg></a></div></div></div>  <div class=\"gs_r gs_or\
+        \ gs_scl\" data-cid=\"_0tFQz-DTkMJ\" data-did=\"_0tFQz-DTkMJ\" data-lid=\"\
+        \" data-rp=\"9\"><div class=\"gs_ggs gs_fl\"><div class=\"gs_ggsd\"><div class=\"\
+        gs_or_ggsm\" ontouchstart=\"gs_evt_dsp(event)\" tabindex=\"-1\"><a href=\"\
+        https://staff.ie.cuhk.edu.hk/~phfung/papers/nss10-httpslock.pdf\" data-clk=\"\
+        hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=9&amp;d=4849958156459396095&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm1mBnEhae4Xtz__1BdYRvJW9pYnxw&amp;nossl=1\"\
+        \ data-clk-atid=\"_0tFQz-DTkMJ\"><span class=gs_ctg2>[PDF]</span> cuhk.edu.hk</a></div></div></div><div\
+        \ class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><a\
+        \ id=\"_0tFQz-DTkMJ\" href=\"https://ieeexplore.ieee.org/abstract/document/5635495/\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=9&amp;d=4849958156459396095&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm3dv04-In14sClv5-KsbF_9YnyM7w&amp;nossl=1\"\
+        \ data-clk-atid=\"_0tFQz-DTkMJ\">HTTPSLock: Enforcing HTTPS in unmodified\
+        \ browsers with <b>cached </b>JavaScript</a></h3><div class=\"gs_a\">APH Fung,\
+        \ KW Cheung\_- 2010 Fourth International Conference\_\u2026, 2010 - ieeexplore.ieee.org</div><div\
+        \ class=\"gs_rs\">\u2026 (4) The <b>fake</b> captive portal\_\u2026 A file,\
+        \ being set to be <b>cached</b>, is stored in browser <b>caches</b> and reused<br>\n\
+        without issuing an online request before the file expires or is\_\u2026 To\
+        \ <b>cache</b> a file requested on Feb<br>\n05, 2010 for a year, the response\
+        \ headers Expires: Sat, 05 Feb 2011 00:00:00 GMT\_\u2026 \n</div><div class=\"\
+        gs_fl\"><a href=\"javascript:void(0)\" class=\"gs_or_sav\" title=\"Save\"\
+        \ role=\"button\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"><path d=\"\
+        M8 11.57l3.824 2.308-1.015-4.35 3.379-2.926-4.45-.378L8 2.122 6.261 6.224l-4.449.378\
+        \ 3.379 2.926-1.015 4.35z\"/></svg></a> <a href=\"javascript:void(0)\" class=\"\
+        gs_or_cit gs_nph\" title=\"Cite\" role=\"button\" aria-controls=\"gs_cit\"\
+        \ aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"><path\
+        \ d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5 3.5v5h2v.375L9.75 12.5h3L14.5\
+        \ 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=4849958156459396095&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
+        >Cited by 16</a> <a href=\"/scholar?q=related:_0tFQz-DTkMJ:scholar.google.com/&amp;scioq=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        >Related articles</a> <a href=\"/scholar?cluster=4849958156459396095&amp;hl=en&amp;as_sdt=0,5\"\
+        \ class=\"gs_nph\">All 9 versions</a> <a href=\"javascript:void(0)\" title=\"\
         More\" class=\"gs_or_mor gs_oph\" role=\"button\"><svg viewBox=\"-1 0 17 16\"\
         \ class=\"gs_or_svg\"><path d=\"M1.5 5.5l2-2L8 8l-4.5 4.5-2-2L4 8zM8.5 5.5l2-2L15\
         \ 8l-4.5 4.5-2-2L11 8z\"/></svg></a> <a href=\"javascript:void(0)\" title=\"\
         Fewer\" class=\"gs_or_nvi gs_or_mor\" role=\"button\"><svg viewBox=\"0 0 17\
         \ 16\" class=\"gs_or_svg\"><path d=\"M8.5 5.5l-2-2L2 8l4.5 4.5 2-2L6 8zM15.5\
+        \ 5.5l-2-2L9 8l4.5 4.5 2-2L13 8z\"/></svg></a></div></div></div>  <div class=\"\
+        gs_r gs_or gs_scl\" data-cid=\"6v-EiW8v724J\" data-did=\"6v-EiW8v724J\" data-lid=\"\
+        \" data-rp=\"10\"><div class=\"gs_ggs gs_fl\"><div class=\"gs_ggsd\"><div\
+        \ class=\"gs_or_ggsm\" ontouchstart=\"gs_evt_dsp(event)\" tabindex=\"-1\"\
+        ><a href=\"https://eprint.iacr.org/2005/280.pdf\" data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=10&amp;d=7993660019700989930&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm214ee58zK9YLP2xphqsymELJJIqg&amp;nossl=1\"\
+        \ data-clk-atid=\"6v-EiW8v724J\"><span class=gs_ctg2>[PDF]</span> iacr.org</a></div></div></div><div\
+        \ class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><span\
+        \ class=\"gs_ctc\"><span class=\"gs_ct1\">[PDF]</span><span class=\"gs_ct2\"\
+        >[PDF]</span></span> <a id=\"6v-EiW8v724J\" href=\"https://eprint.iacr.org/2005/280.pdf\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;oi=ggp&amp;ct=res&amp;cd=10&amp;d=7993660019700989930&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm214ee58zK9YLP2xphqsymELJJIqg&amp;nossl=1\"\
+        \ data-clk-atid=\"6v-EiW8v724J\">Partitioned <b>Cache </b>Architecture as\
+        \ a \u0116ide-Channel Defence Mechanism</a></h3><div class=\"gs_a\"><a href=\"\
+        /citations?user=z55uDZcAAAAJ&amp;hl=en&amp;oi=sra\">D Page</a> - 2005 - eprint.iacr.org</div><div\
+        \ class=\"gs_rs\">\u2026 traces rather than timing information: with enough\
+        \ dummy loads inserted one cannot be sure<br>\nif a given <b>cache</b>-hit\
+        \ or <b>cache</b>-miss is produced by real or <b>faked</b> execution\_\u2026\
+        \ Instrumenting a new<br>\n<b>cache</b> architecture, especially one which\
+        \ changes the way <b>caches</b> are viewed by\_\u2026 \n</div><div class=\"\
+        gs_fl\"><a href=\"javascript:void(0)\" class=\"gs_or_sav\" title=\"Save\"\
+        \ role=\"button\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"><path d=\"\
+        M8 11.57l3.824 2.308-1.015-4.35 3.379-2.926-4.45-.378L8 2.122 6.261 6.224l-4.449.378\
+        \ 3.379 2.926-1.015 4.35z\"/></svg></a> <a href=\"javascript:void(0)\" class=\"\
+        gs_or_cit gs_nph\" title=\"Cite\" role=\"button\" aria-controls=\"gs_cit\"\
+        \ aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"><path\
+        \ d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5 3.5v5h2v.375L9.75 12.5h3L14.5\
+        \ 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=7993660019700989930&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
+        >Cited by 174</a> <a href=\"/scholar?q=related:6v-EiW8v724J:scholar.google.com/&amp;scioq=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        >Related articles</a> <a href=\"/scholar?cluster=7993660019700989930&amp;hl=en&amp;as_sdt=0,5\"\
+        \ class=\"gs_nph\">All 4 versions</a> <a href=\"javascript:void(0)\" title=\"\
+        More\" class=\"gs_or_mor\" role=\"button\"><svg viewBox=\"-1 0 17 16\" class=\"\
+        gs_or_svg\"><path d=\"M1.5 5.5l2-2L8 8l-4.5 4.5-2-2L4 8zM8.5 5.5l2-2L15 8l-4.5\
+        \ 4.5-2-2L11 8z\"/></svg></a> <a href=\"https://scholar.googleusercontent.com/scholar?q=cache:6v-EiW8v724J:scholar.google.com/+Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        \ class=\"gs_or_nvi\">View as HTML</a> <a href=\"javascript:void(0)\" title=\"\
+        Fewer\" class=\"gs_or_nvi gs_or_mor\" role=\"button\"><svg viewBox=\"0 0 17\
+        \ 16\" class=\"gs_or_svg\"><path d=\"M8.5 5.5l-2-2L2 8l4.5 4.5 2-2L6 8zM15.5\
         \ 5.5l-2-2L9 8l4.5 4.5 2-2L13 8z\"/></svg></a></div></div></div></div><div\
         \ id=\"gs_res_ccl_bot\"><div class=\"gs_r gs_alrt_btm gs_oph gs_ota\"><a href=\"\
-        /scholar_alerts?view_op=create_alert_options&amp;hl=en&amp;alert_query=Preaching+the+choir&amp;alert_params=%3Fhl%3Den%26as_sdt%3D0,5\"\
+        /scholar_alerts?view_op=create_alert_options&amp;hl=en&amp;alert_query=Fake+cache+bypass&amp;alert_params=%3Fhl%3Den%26as_sdt%3D0,5\"\
         \ class=\"gs_btnM gs_in_ib\"><span class=\"gs_ico\"></span><span class=\"\
         gs_lbl\">Create alert</span></a></div><div id=\"gs_n\" role=\"navigation\"\
         ><center><table cellpadding=\"0\" width=\"1%\"><tr align=\"center\" valign=\"\
-        top\"><td align=\"right\" nowrap><a href=\"/scholar?start=-9&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
+        top\"><td align=\"right\" nowrap><a href=\"/scholar?start=-9&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
         ><span class=\"gs_ico gs_ico_nav_previous\"></span><b style=\"display:block;margin-right:35px\"\
-        >Previous</b></a></td><td><a href=\"/scholar?start=0&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
+        >Previous</b></a></td><td><a href=\"/scholar?start=0&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
         ><span class=\"gs_ico gs_ico_nav_page\"></span>1</a></td><td><span class=\"\
-        gs_ico gs_ico_nav_current\"></span><b>2</b></td><td><a href=\"/scholar?start=20&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        ><span class=\"gs_ico gs_ico_nav_page\"></span>3</a></td><td><a href=\"/scholar?start=30&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        ><span class=\"gs_ico gs_ico_nav_page\"></span>4</a></td><td><a href=\"/scholar?start=40&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        ><span class=\"gs_ico gs_ico_nav_page\"></span>5</a></td><td><a href=\"/scholar?start=50&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        ><span class=\"gs_ico gs_ico_nav_page\"></span>6</a></td><td><a href=\"/scholar?start=60&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        ><span class=\"gs_ico gs_ico_nav_page\"></span>7</a></td><td><a href=\"/scholar?start=70&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        ><span class=\"gs_ico gs_ico_nav_page\"></span>8</a></td><td><a href=\"/scholar?start=80&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        ><span class=\"gs_ico gs_ico_nav_page\"></span>9</a></td><td><a href=\"/scholar?start=90&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
+        gs_ico gs_ico_nav_current\"></span><b>2</b></td><td><a href=\"/scholar?start=20&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        ><span class=\"gs_ico gs_ico_nav_page\"></span>3</a></td><td><a href=\"/scholar?start=30&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        ><span class=\"gs_ico gs_ico_nav_page\"></span>4</a></td><td><a href=\"/scholar?start=40&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        ><span class=\"gs_ico gs_ico_nav_page\"></span>5</a></td><td><a href=\"/scholar?start=50&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        ><span class=\"gs_ico gs_ico_nav_page\"></span>6</a></td><td><a href=\"/scholar?start=60&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        ><span class=\"gs_ico gs_ico_nav_page\"></span>7</a></td><td><a href=\"/scholar?start=70&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        ><span class=\"gs_ico gs_ico_nav_page\"></span>8</a></td><td><a href=\"/scholar?start=80&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        ><span class=\"gs_ico gs_ico_nav_page\"></span>9</a></td><td><a href=\"/scholar?start=90&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
         ><span class=\"gs_ico gs_ico_nav_page\"></span>10</a></td><td align=\"left\"\
-        \ nowrap><a href=\"/scholar?start=11&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
+        \ nowrap><a href=\"/scholar?start=11&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
         ><span class=\"gs_ico gs_ico_nav_next\"></span><b style=\"display:block;margin-left:53px\"\
         >Next</b></a></td></tr></table></center></div><div id=\"gs_nm\" role=\"navigation\"\
         ><button type=\"button\" onclick=\"window.location='/scholar?start\\x3d-9\\\
-        x26q\\x3dPreaching+the+choir\\x26hl\\x3den\\x26as_sdt\\x3d0,5'\" aria-label=\"\
+        x26q\\x3dFake+cache+bypass\\x26hl\\x3den\\x26as_sdt\\x3d0,5'\" aria-label=\"\
         Previous\" class=\"gs_btnPL gs_in_ib gs_btn_lrge gs_btn_half gs_btn_lsu\"\
         ><span class=\"gs_wr\"><span class=\"gs_ico\"></span><span class=\"gs_lbl\"\
         ></span></span></button><button type=\"button\" onclick=\"window.location='/scholar?start\\\
-        x3d11\\x26q\\x3dPreaching+the+choir\\x26hl\\x3den\\x26as_sdt\\x3d0,5'\" aria-label=\"\
+        x3d11\\x26q\\x3dFake+cache+bypass\\x26hl\\x3den\\x26as_sdt\\x3d0,5'\" aria-label=\"\
         Next\" class=\"gs_btnPR gs_in_ib gs_btn_lrge gs_btn_half gs_btn_lsu\"><span\
         \ class=\"gs_wr\"><span class=\"gs_ico\"></span><span class=\"gs_lbl\"></span></span></button><div\
-        \ id=\"gs_nml\"><a class=\"gs_nma\" href=\"/scholar?start=0&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        >1</a><b class=\"gs_nma\">2</b><a class=\"gs_nma\" href=\"/scholar?start=20&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        >3</a><a class=\"gs_nma\" href=\"/scholar?start=30&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        >4</a><a class=\"gs_nma\" href=\"/scholar?start=40&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        >5</a><a class=\"gs_nma\" href=\"/scholar?start=50&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        >6</a><a class=\"gs_nma\" href=\"/scholar?start=60&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        >7</a><a class=\"gs_nma\" href=\"/scholar?start=70&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        >8</a><a class=\"gs_nma\" href=\"/scholar?start=80&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        >9</a><a class=\"gs_nma\" href=\"/scholar?start=90&amp;q=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
+        \ id=\"gs_nml\"><a class=\"gs_nma\" href=\"/scholar?start=0&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        >1</a><b class=\"gs_nma\">2</b><a class=\"gs_nma\" href=\"/scholar?start=20&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        >3</a><a class=\"gs_nma\" href=\"/scholar?start=30&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        >4</a><a class=\"gs_nma\" href=\"/scholar?start=40&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        >5</a><a class=\"gs_nma\" href=\"/scholar?start=50&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        >6</a><a class=\"gs_nma\" href=\"/scholar?start=60&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        >7</a><a class=\"gs_nma\" href=\"/scholar?start=70&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        >8</a><a class=\"gs_nma\" href=\"/scholar?start=80&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
+        >9</a><a class=\"gs_nma\" href=\"/scholar?start=90&amp;q=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
         >10</a></div></div></div></div><iframe src=\"//scholar.google.com/gen_nid\"\
         \ style=\"display:none\"></iframe></div></div><div id=\"gs_ftr_sp\" role=\"\
         presentation\"></div><div id=\"gs_ftr\" role=\"contentinfo\"><div id=\"gs_ftr_rt\"\
         ><a href=\"/intl/en/scholar/about.html\">Help</a><a href=\"//www.google.gr/intl/en/policies/privacy/\"\
         >Privacy</a><a href=\"//www.google.gr/intl/en/policies/terms/\">Terms</a></div></div></div></body></html>"
     headers:
-      Alt-Svc: h3-27=":443"; ma=2592000,h3-25=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q050=":443";
-        ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443";
-        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Alt-Svc: h3-29=":443"; ma=2592000,h3-27=":443"; ma=2592000,h3-25=":443"; ma=2592000,h3-T050=":443";
+        ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
+        ma=2592000,quic=":443"; ma=2592000; v="46,43"
       Cache-Control: private, max-age=0
       Content-Encoding: gzip
       Content-Type: text/html; charset=UTF-8
-      Date: Sat, 13 Jun 2020 18:19:27 GMT
-      Expires: Sat, 13 Jun 2020 18:19:27 GMT
+      Date: Thu, 16 Jul 2020 10:28:13 GMT
+      Expires: Thu, 16 Jul 2020 10:28:13 GMT
       P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
       Server: scholar
-      Set-Cookie: GSP=LM=1592072367:S=arytMiXdekiUXK9o; expires=Mon, 13-Jun-2022 18:19:27
+      Set-Cookie: GSP=LM=1594895293:S=uMoHbljVTOk5jsns; expires=Sat, 16-Jul-2022 10:28:13
         GMT; path=/; domain=scholar.google.gr; HttpOnly; SameSite=None; Secure
       Transfer-Encoding: chunked
       X-Content-Type-Options: nosniff
@@ -1483,5 +1524,5 @@ interactions:
     status:
       code: 200
       message: OK
-    url: https://scholar.google.gr/scholar?hl=en&start=1&q=Preaching+the+choir
+    url: https://scholar.google.gr/scholar?hl=en&start=1&q=Fake+cache+bypass
 version: 1
