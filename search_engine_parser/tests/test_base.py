@@ -2,6 +2,7 @@ import os
 import unittest
 from importlib import import_module
 from urllib.parse import urlparse
+from unittest.mock import patch, MagicMock
 
 import vcr
 from parameterized import parameterized_class
@@ -37,9 +38,32 @@ def validate_url(url):
         print("URL: %s\n" % url)
         return False
 
+
+# pylint: disable=no-member
+class EngineBaseTest(unittest.TestCase):
+    """ Testbase for Engines
+
+    provides tests for engine methods
+    """
+
+    def setUp(self):
+        from search_engine_parser.core.engines.google import Search # pylint: disable=import-outside-toplevel
+        self.engine = Search()
+
+    @patch('search_engine_parser.core.engines.google.Search.get_results')
+    @patch('search_engine_parser.core.engines.google.Search.get_soup')
+    def test_urls(self, get_results_mock, get_soup_mock):
+        """ Test that url updates work fine """
+        self.engine.search(query="hello", url="google.com.tr")
+        self.assertTrue(validate_url(self.engine._parsed_url.geturl()))
+
+        self.engine.search(query="hello", url="https://google.com.tr")
+        self.assertTrue(validate_url(self.engine._parsed_url.geturl()))
+
+
 # pylint: disable=no-member
 @parameterized_class(('name', 'engine'), get_engines())
-class EngineTests(unittest.TestCase):
+class TestScraping(unittest.TestCase):
     """ Testbase for Engines
 
     provides tests for titles, description and return urls
@@ -59,8 +83,14 @@ class EngineTests(unittest.TestCase):
                 '{} failed due to traffic'.format(
                     cls.engine))
 
+    def test_search_urls(self):
+        """
+        Test that the search urls generated are valid
+        """
+        self.assertTrue(validate_url(self.engine._parsed_url.geturl()))
+
     def test_returned_results(self):
-        """ 
+        """
         Test that the returned results have valid data. 8 is just a chosen value as most search
         engines return values more than that
         """
@@ -74,11 +104,11 @@ class EngineTests(unittest.TestCase):
             self.assertTrue(validate_url(link))
 
     def test_results_length_are_the_same(self):
-        """ Tests if returned result items are equal. 
+        """ Tests if returned result items are equal.
         :param args: a list/tuple of other keys returned
         """
         # Different engines have different keys which may be returned or not returned
-        # So if all keys are not the same length check that the titles and links length are 
+        # So if all keys are not the same length check that the titles and links length are
         # the same
         default_keys = ["titles", "links"]
         default_keys_set = set(map(lambda x: len(self.results[x]), default_keys))

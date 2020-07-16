@@ -73,6 +73,10 @@ def main(args):  # pylint: disable=too-many-branches
         show_summary(term, engine_class)
         return
 
+    if not args.query:
+        print("--show-summary or --query argument must be passed")
+        sys.exit(1)
+
     # Initialize search Engine with required params
     engine = engine_class()
     try:
@@ -89,7 +93,7 @@ def main(args):  # pylint: disable=too-many-branches
         print('\n', '{}'.format(term.red(str(exc))))
 
 
-def runner():
+def create_parser():
     """
     runner that handles parsing logic
     """
@@ -117,36 +121,36 @@ def runner():
         '-q',
         '--query',
         help='Query string to search engine for',
-        required=True)
+    )
+
     parser.add_argument(
         '-p',
         '--page',
         type=int,
         help='Page of the result to return details for (default: 1)',
         default=1)
+
     parser.add_argument(
         '-t', '--type',
         help='Type of detail to return i.e full, links, desciptions or titles (default: full)',
         default="full")
+
     parser.add_argument(
         '-cc', '--clear-cache',
         action='store_true',
         help='Clear cache of engine before searching'
         )
+
     parser.add_argument(
         '-r',
         '--rank',
         type=int,
         help='ID of Detail to return e.g 5 (default: 0)')
 
-
-    args = parser.parse_args()
-    # If subcommand has associated function, run the function else call main
-    try:
-        args.func(args)
-    except AttributeError:
-        main(args)
+    return parser
 
 
 if __name__ == '__main__':
-    runner()
+    parser = create_parser()
+    args = parser.parse_args(sys.argv[1:])
+    main(args)
