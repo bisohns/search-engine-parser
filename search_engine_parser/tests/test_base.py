@@ -47,6 +47,10 @@ class EngineBaseTest(unittest.TestCase):
 
     provides tests for engine methods
     """
+    @classmethod
+    def vcr_search(cls, *args, **kwargs):
+        with vcr.use_cassette('fixtures/{}-synopsis.yaml'.format(cls.name), record_mode='once'):
+            cls.results = cls.engine.search(*args, **kwargs)
 
     def setUp(self):
         from search_engine_parser.core.engines.google import Search # pylint: disable=import-outside-toplevel
@@ -57,11 +61,28 @@ class EngineBaseTest(unittest.TestCase):
     def test_urls(self, get_results_mock, get_soup_mock):
         """ Test that url updates work fine """
         self.engine.search(query="hello", url="google.com.tr")
-        self.assertTrue(validate_url(self.engine._parsed_url.geturl()))
+        first_url = self.engine._parsed_url.geturl()
+        self.assertTrue(validate_url(first_url))
 
-        self.engine.search(query="hello", url="https://google.com.tr")
-        self.assertTrue(validate_url(self.engine._parsed_url.geturl()))
+        self.engine.search(query="World", url="https://google.com.tr")
+        second_url = self.engine._parsed_url.geturl()
+        self.assertTrue(validate_url(second_url))
 
+        self.assertNotEqual(second_url, first_url)
+
+    # Test for https://github.com/bisoncorps/search-engine-parser/issues/92
+    def test_two_queries_different_results(self):
+        """ Test that url updates work fine """
+        from search_engine_parser.core.engines.google import Search as GoogleSearch # pylint: disable=import-outside-toplevel
+        from search_engine_parser.core.engines.yahoo import Search as YahooSearch # pylint: disable=import-outside-toplevel
+        gengine = GoogleSearch()
+        yahoo_engine = YahooSearch()
+        gresults = gengine.search(query="Hello From the Other Side")
+        yresults = yahoo_engine.search(query="this is example Bob")
+        for key in gresults[0]:
+            self.assertNotEqual(gresults[0].get(key, "GSearch"), yresults[0].get(key, "Ysearch"))
+
+        self.assertNotEqual(gresults, yresults)
 
 # pylint: disable=no-member
 @parameterized_class(('name', 'engine'), get_engines())
@@ -82,16 +103,16 @@ class TestScraping(unittest.TestCase):
             raise unittest.SkipTest(
                 '{} failed due to traffic'.format(
                     cls.engine))
-    
+
     @classmethod
     def vcr_search(cls, *args, **kwargs):
         with vcr.use_cassette('fixtures/{}-synopsis.yaml'.format(cls.name), record_mode='once'):
             cls.results = cls.engine.search(*args, **kwargs)
-    
+
     @classmethod
     def test_cache_used(cls):
         """
-        Test that the cache was used 
+        Test that the cache was used
         """
         try:
             cls.vcr_search(*SEARCH_ARGS)
@@ -106,7 +127,7 @@ class TestScraping(unittest.TestCase):
     @classmethod
     def test_cache_not_used(cls):
         """
-        Test that the cache was used 
+        Test that the cache was used
         """
         search_args = ('Another random test', 1)
         try:

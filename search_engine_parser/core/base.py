@@ -61,9 +61,9 @@ class SearchResult():
 
     It can be iterated like a normal list to return individual SearchItem
     """
-    # Hold the results
-    results = []
-    # This method is inefficient, it will be in Deprecation soon
+
+    def __init__(self):
+        self.results = []
 
     def append(self, value):
         self.results.append(value)
@@ -196,6 +196,7 @@ class BaseSearch:
 
         :rtype: `bs4.element.ResultSet`
         """
+        print(url, cache)
         html = await self.get_source(url, cache)
         return BeautifulSoup(html, 'lxml')
 
