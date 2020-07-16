@@ -7,8 +7,7 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - Mozilla/5.0 (Windows; Windows NT 6.1) AppleWebKit/536.5 (KHTML, like Gecko)
-        Chrome/19.0.1084.46 Safari/536.5
+      - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0
     method: GET
     uri: https://myanimelist.net/anime.php?show=0&q=Fake+cache+bypass
   response:
@@ -49,7 +48,7 @@ interactions:
         \ anime and manga list, read reviews, explore the forums, follow news, and\
         \ so much more! Search query: Fake cache bypass\">\n\n<meta name=\"referrer\"\
         \ content=\"default\"><link rel=\"manifest\" href=\"/manifest.json\">\n\n\
-        <meta name='csrf_token' content='bbef8a51e21030a4a2a12c64656c5943eb1d6206'>\n\
+        <meta name='csrf_token' content='26187619f065da09b4f364c2206e39e5288123b4'>\n\
         <meta name=\"fo-verify\" content=\"1e927243-8e02-48e3-b098-a7b78c5b4e36\"\
         ><meta name=\"viewport\" content=\"initial-scale=1\" /><link rel=\"preload\"\
         \ as=\"style\" href=\"https://cdn.myanimelist.net/static/assets/css/pc/style-8fe5732afd.css\"\
@@ -2496,33 +2495,13 @@ interactions:
         >\n    1\n  </td><td class=\"borderClass ac bgColor1\" width=\"50\">\n   \
         \ 7.64\n  </td></tr>\n<tr>\n  <td class=\"borderClass bgColor0\" valign=\"\
         top\" width=\"50\">\n    <div class=\"picSurround\">\n      <a class=\"hoverinfo_trigger\"\
-        \ href=\"https://myanimelist.net/anime/35004/T-sensei\" id=\"sarea35004\"\
-        \ rel=\"#sinfo35004\">\n        <img width=\"50\" height=\"70\" alt=\"T-sensei\"\
-        \ border=\"0\" data-src=\"https://cdn.myanimelist.net/r/50x70/images/anime/12/87130.jpg?s=95b97e3e0e63bca5812c17e6d975b9f0\"\
-        \ data-srcset=\"https://cdn.myanimelist.net/r/50x70/images/anime/12/87130.jpg?s=95b97e3e0e63bca5812c17e6d975b9f0\
-        \ 1x, https://cdn.myanimelist.net/r/100x140/images/anime/12/87130.jpg?s=bfeff856e538b0cbd289a70fabf80c8a\
-        \ 2x\" class=\"lazyload\" />\n      </a>\n    </div>\n  </td>\n  <td class=\"\
-        borderClass bgColor0\" valign=\"top\"><div id=\"sarea35004\">\n      <div\
-        \ class=\"hoverinfo\" id=\"sinfo35004\" rel=\"a35004\"></div>\n    </div><a\
-        \ class=\"hoverinfo_trigger fw-b fl-l\" href=\"https://myanimelist.net/anime/35004/T-sensei\"\
-        \ id=\"sinfo35004\" rel=\"#sinfo35004\"><strong>T-sensei</strong></a>    <a\
-        \ href=\"https://myanimelist.net/login.php?error=login_required&amp;from=%2Fanime.php%3Fshow%3D0%26q%3DFake%2Bcache%2Bbypass\"\
-        \ title=\"Quick add anime to my list\" class=\"button_add ml8\">add</a>\n\n\
-        \    <div class=\"pt4\">The author initially started as a childcare worker\
-        \ living in Tokyo, calling himself T-sensei and describing his life of tending\
-        \ kindergarteners on his Twitter since 2012, which received various positi...<a\
-        \ href=\"https://myanimelist.net/anime/35004/T-sensei\">read more.</a></div>\n\
-        \  </td><td class=\"borderClass ac bgColor0\" width=\"45\">\n    ONA\n  </td><td\
-        \ class=\"borderClass ac bgColor0\" width=\"40\">\n    14\n  </td><td class=\"\
-        borderClass ac bgColor0\" width=\"50\">\n    N/A\n  </td></tr>\n<tr>\n  <td\
-        \ class=\"borderClass bgColor1\" valign=\"top\" width=\"50\">\n    <div class=\"\
-        picSurround\">\n      <a class=\"hoverinfo_trigger\" href=\"https://myanimelist.net/anime/3050/Panchira_Teacher\"\
-        \ id=\"sarea3050\" rel=\"#sinfo3050\">\n        <img width=\"50\" height=\"\
-        70\" alt=\"Panchira Teacher\" border=\"0\" data-src=\"https://cdn.myanimelist.net/r/50x70/images/anime/5/41657.jpg?s=03b3eb4e0710125e36a42db495aa3845\"\
+        \ href=\"https://myanimelist.net/anime/3050/Panchira_Teacher\" id=\"sarea3050\"\
+        \ rel=\"#sinfo3050\">\n        <img width=\"50\" height=\"70\" alt=\"Panchira\
+        \ Teacher\" border=\"0\" data-src=\"https://cdn.myanimelist.net/r/50x70/images/anime/5/41657.jpg?s=03b3eb4e0710125e36a42db495aa3845\"\
         \ data-srcset=\"https://cdn.myanimelist.net/r/50x70/images/anime/5/41657.jpg?s=03b3eb4e0710125e36a42db495aa3845\
         \ 1x, https://cdn.myanimelist.net/r/100x140/images/anime/5/41657.jpg?s=49b4c51097da17c996bfda8a5268890c\
         \ 2x\" class=\"lazyload\" />\n      </a>\n    </div>\n  </td>\n  <td class=\"\
-        borderClass bgColor1\" valign=\"top\"><div id=\"sarea3050\">\n      <div class=\"\
+        borderClass bgColor0\" valign=\"top\"><div id=\"sarea3050\">\n      <div class=\"\
         hoverinfo\" id=\"sinfo3050\" rel=\"a3050\"></div>\n    </div><a class=\"hoverinfo_trigger\
         \ fw-b fl-l\" href=\"https://myanimelist.net/anime/3050/Panchira_Teacher\"\
         \ id=\"sinfo3050\" rel=\"#sinfo3050\"><strong>Panchira Teacher</strong></a>\
@@ -2532,22 +2511,43 @@ interactions:
         \ world. When one of the students nearly rape her during class, she escapes,\
         \ but the guy is still on her trail. Other guys try to get some action too\
         \ a...<a href=\"https://myanimelist.net/anime/3050/Panchira_Teacher\">read\
-        \ more.</a></div>\n  </td><td class=\"borderClass ac bgColor1\" width=\"45\"\
-        >\n    OVA\n  </td><td class=\"borderClass ac bgColor1\" width=\"40\">\n \
-        \   2\n  </td><td class=\"borderClass ac bgColor1\" width=\"50\">\n    6.42\n\
-        \  </td></tr>\n</table><div class=\"ac mt8\"><div class=\"spaceit\" style=\"\
-        text-align: right;\"><span class=\"bgColor1\" style=\"padding: 2px;\">[1]\
-        \ <a href=\"/anime.php?show=50&amp;q=Fake+cache+bypass\">2</a> <a href=\"\
-        /anime.php?show=100&amp;q=Fake+cache+bypass\">3</a> ... <a href=\"/anime.php?show=950&amp;q=Fake+cache+bypass\"\
-        >20</a></span></div></div></div>  <div class=\"mauto clearfix pt24\" style=\"\
-        width:760px;\">\n    <div class=\"fl-l\">\n      </div>\n      <div class=\"\
-        fl-r\">\n      </div>\n    </div>\n</div><!-- end of contentHome -->\n</div><!--\
-        \ end of contentWrapper -->\n\n\n            \n      <div class=\"mal-side-ad\
-        \ mal-side-ad--l\">\n      <div class=\"ad-sticky-wrapper\">\n           \
-        \                 <div class=\"mal-ad-unit\" data-ad-sticky=\"manual\" data-ad-width=\"\
-        160\" data-ad-height=\"600\">\n            <div class=\"side-ad side-ad--l\"\
-        >\n                          <div class=\"mal-ad-unit\" data-ad-width=\"160\"\
-        \ data-ad-height=\"600\">\n        <div class=\"ad-tag\" data-ad-name=\"D_LeftRail_300x600_160x600\"\
+        \ more.</a></div>\n  </td><td class=\"borderClass ac bgColor0\" width=\"45\"\
+        >\n    OVA\n  </td><td class=\"borderClass ac bgColor0\" width=\"40\">\n \
+        \   2\n  </td><td class=\"borderClass ac bgColor0\" width=\"50\">\n    6.42\n\
+        \  </td></tr>\n<tr>\n  <td class=\"borderClass bgColor1\" valign=\"top\" width=\"\
+        50\">\n    <div class=\"picSurround\">\n      <a class=\"hoverinfo_trigger\"\
+        \ href=\"https://myanimelist.net/anime/35004/T-sensei\" id=\"sarea35004\"\
+        \ rel=\"#sinfo35004\">\n        <img width=\"50\" height=\"70\" alt=\"T-sensei\"\
+        \ border=\"0\" data-src=\"https://cdn.myanimelist.net/r/50x70/images/anime/12/87130.jpg?s=95b97e3e0e63bca5812c17e6d975b9f0\"\
+        \ data-srcset=\"https://cdn.myanimelist.net/r/50x70/images/anime/12/87130.jpg?s=95b97e3e0e63bca5812c17e6d975b9f0\
+        \ 1x, https://cdn.myanimelist.net/r/100x140/images/anime/12/87130.jpg?s=bfeff856e538b0cbd289a70fabf80c8a\
+        \ 2x\" class=\"lazyload\" />\n      </a>\n    </div>\n  </td>\n  <td class=\"\
+        borderClass bgColor1\" valign=\"top\"><div id=\"sarea35004\">\n      <div\
+        \ class=\"hoverinfo\" id=\"sinfo35004\" rel=\"a35004\"></div>\n    </div><a\
+        \ class=\"hoverinfo_trigger fw-b fl-l\" href=\"https://myanimelist.net/anime/35004/T-sensei\"\
+        \ id=\"sinfo35004\" rel=\"#sinfo35004\"><strong>T-sensei</strong></a>    <a\
+        \ href=\"https://myanimelist.net/login.php?error=login_required&amp;from=%2Fanime.php%3Fshow%3D0%26q%3DFake%2Bcache%2Bbypass\"\
+        \ title=\"Quick add anime to my list\" class=\"button_add ml8\">add</a>\n\n\
+        \    <div class=\"pt4\">The author initially started as a childcare worker\
+        \ living in Tokyo, calling himself T-sensei and describing his life of tending\
+        \ kindergarteners on his Twitter since 2012, which received various positi...<a\
+        \ href=\"https://myanimelist.net/anime/35004/T-sensei\">read more.</a></div>\n\
+        \  </td><td class=\"borderClass ac bgColor1\" width=\"45\">\n    ONA\n  </td><td\
+        \ class=\"borderClass ac bgColor1\" width=\"40\">\n    14\n  </td><td class=\"\
+        borderClass ac bgColor1\" width=\"50\">\n    N/A\n  </td></tr>\n</table><div\
+        \ class=\"ac mt8\"><div class=\"spaceit\" style=\"text-align: right;\"><span\
+        \ class=\"bgColor1\" style=\"padding: 2px;\">[1] <a href=\"/anime.php?show=50&amp;q=Fake+cache+bypass\"\
+        >2</a> <a href=\"/anime.php?show=100&amp;q=Fake+cache+bypass\">3</a> ... <a\
+        \ href=\"/anime.php?show=950&amp;q=Fake+cache+bypass\">20</a></span></div></div></div>\
+        \  <div class=\"mauto clearfix pt24\" style=\"width:760px;\">\n    <div class=\"\
+        fl-l\">\n      </div>\n      <div class=\"fl-r\">\n      </div>\n    </div>\n\
+        </div><!-- end of contentHome -->\n</div><!-- end of contentWrapper -->\n\n\
+        \n            \n      <div class=\"mal-side-ad mal-side-ad--l\">\n      <div\
+        \ class=\"ad-sticky-wrapper\">\n                            <div class=\"\
+        mal-ad-unit\" data-ad-sticky=\"manual\" data-ad-width=\"160\" data-ad-height=\"\
+        600\">\n            <div class=\"side-ad side-ad--l\">\n                 \
+        \         <div class=\"mal-ad-unit\" data-ad-width=\"160\" data-ad-height=\"\
+        600\">\n        <div class=\"ad-tag\" data-ad-name=\"D_LeftRail_300x600_160x600\"\
         \ data-ad-size=\"auto\" data-ad-sticky=\"sidebar\" data-ad-sticky-container=\"\
         #myanimelist\"></div>\n\n      </div>\n                </div>\n          </div>\n\
         \              </div>\n    </div>\n  \n\n\n            \n      <div class=\"\
@@ -2710,16 +2710,16 @@ interactions:
       Connection: keep-alive
       Content-Encoding: gzip
       Content-Type: text/html; charset=utf-8
-      Date: Thu, 16 Jul 2020 10:28:20 GMT
+      Date: Thu, 16 Jul 2020 10:51:36 GMT
       Server: Apache
-      Set-Cookie: MALHLOGSESSID=c5d1340039a1f16b9346d9accd883083; expires=Tue, 15-Jul-2025
-        10:28:20 GMT; Max-Age=157680000; path=/
+      Set-Cookie: MALHLOGSESSID=45e78d466a462c7a3114ccad2f7773d4; expires=Tue, 15-Jul-2025
+        10:51:36 GMT; Max-Age=157680000; path=/
       Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
       Transfer-Encoding: chunked
       Vary: User-Agent,Accept-Encoding
-      Via: 1.1 a25f829e86f504a329e71fa3f4d21485.cloudfront.net (CloudFront)
-      X-Amz-Cf-Id: GJQ_aKrOz43oSyzye44jLA6OwHrorxtquA4w5jMQz01AASO8FBBlUg==
-      X-Amz-Cf-Pop: LHR62-C5
+      Via: 1.1 3d81a5fb6988905cee1d06dfcada57dd.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id: d32rqXtuC34JcOEjyaSjRcrCJLAEjtIBmTjbNY_7tN-bkpnBgpBpfQ==
+      X-Amz-Cf-Pop: LHR3-C2
       X-Cache: Miss from cloudfront
     status:
       code: 200

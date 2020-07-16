@@ -7,7 +7,7 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100 101 Firefox/22.0
+      - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0
     method: GET
     uri: https://stackoverflow.com/search?page=1&q=Fake+cache+bypass&pagesize=15
   response:
@@ -48,16 +48,16 @@ interactions:
         \ false;\r\n            });\r\n        });\r\n    </script>\r\n\r\n      \
         \  \r\n        \r\n        \r\n        \r\n        \r\n        \r\n      \
         \  \r\n\r\n\r\n    <script>\r\n        StackExchange.init({\"locale\":\"en\"\
-        ,\"serverTime\":1594895304,\"routeName\":\"Search/Search\",\"stackAuthUrl\"\
+        ,\"serverTime\":1594896699,\"routeName\":\"Search/Search\",\"stackAuthUrl\"\
         :\"https://stackauth.com\",\"networkMetaHostname\":\"meta.stackexchange.com\"\
         ,\"site\":{\"name\":\"Stack Overflow\",\"description\":\"Q&A for professional\
         \ and enthusiast programmers\",\"isNoticesTabEnabled\":true,\"enableNewTagCreationWarning\"\
         :true,\"insertSpaceAfterNameTabCompletion\":false,\"id\":1,\"childUrl\":\"\
         https://meta.stackoverflow.com\",\"negativeVoteScoreFloor\":null,\"enableSocialMediaInSharePopup\"\
         :true,\"protocol\":\"https\"},\"user\":{\"fkey\":\"0da7ad4a38043ac5331e1009c5cd903112716bb33743740856bc9f0c9d3fc7de\"\
-        ,\"tid\":\"080e4b6c-960f-5015-dfbf-6d5662a27c67\",\"rep\":0,\"isAnonymous\"\
+        ,\"tid\":\"c32f1ff1-59f1-54dc-5c94-7c3f2c960ee7\",\"rep\":0,\"isAnonymous\"\
         :true,\"isAnonymousNetworkWide\":true,\"ab\":{\"tutorial_tooltips\":{\"v\"\
-        :\"thanks_reaction_icon\",\"g\":2}}},\"events\":{\"postType\":{\"question\"\
+        :\"thanks_reaction_icon\",\"g\":1}}},\"events\":{\"postType\":{\"question\"\
         :1},\"postEditionSection\":{\"title\":1,\"body\":2,\"tags\":3}},\"story\"\
         :{\"minCompleteBodyLength\":75,\"likedTagsMaxLength\":300,\"dislikedTagsMaxLength\"\
         :300},\"jobPreferences\":{\"maxNumDeveloperRoles\":2,\"maxNumIndustries\"\
@@ -513,7 +513,7 @@ interactions:
         \n                    </div>\r\n            </div>\r\n        </div>\r\n \
         \       <div class=\"summary\">\r\n            <div class=\"result-link\"\
         >\r\n                <h3>\r\n\r\n        <a href=\"/questions/636850/register-dll-in-gac-without-assembly-manifest?r=SearchResults\"\
-        \ data-searchsession=\"/questions/636850/register-dll-in-gac-without-assembly-manifest?r=SearchResults&s=1|36.6057\"\
+        \ data-searchsession=\"/questions/636850/register-dll-in-gac-without-assembly-manifest?r=SearchResults&s=1|36.6056\"\
         \ title=\"Register DLL in GAC without Assembly Manifest\" class=\"question-hyperlink\"\
         >\r\nQ: Register DLL in GAC without Assembly Manifest        </a>\r\n</h3>\r\
         \n            </div>\r\n            <div class=\"excerpt\">\r\n          \
@@ -544,7 +544,7 @@ interactions:
         \            </div>\r\n                </div>\r\n            </div>\r\n  \
         \      </div>\r\n        <div class=\"summary\">\r\n            <div class=\"\
         result-link\">\r\n                <h3>\r\n\r\n        <a href=\"/questions/31041842/error-with-play-2-4-tests-the-cachemanager-has-been-shut-down-it-can-no-longe/34559310?r=SearchResults#34559310\"\
-        \ data-searchsession=\"/questions/31041842/error-with-play-2-4-tests-the-cachemanager-has-been-shut-down-it-can-no-longe/34559310?r=SearchResults&s=2|22.7835#34559310\"\
+        \ data-searchsession=\"/questions/31041842/error-with-play-2-4-tests-the-cachemanager-has-been-shut-down-it-can-no-longe/34559310?r=SearchResults&s=2|22.7693#34559310\"\
         \ title=\"Error with Play 2.4 Tests : The CacheManager has been shut down.\
         \ It can no longer be used\" class=\"question-hyperlink\">\r\n           \
         \ A: Error with Play 2.4 Tests : The CacheManager has been shut down. It can\
@@ -568,7 +568,7 @@ interactions:
         \           </div>\r\n        </div>\r\n        <div class=\"summary\">\r\n\
         \            <div class=\"result-link\">\r\n                <h3>\r\n\r\n \
         \       <a href=\"/questions/40954899/refresh-a-dynamic-web-page-in-python-loop/40955237?r=SearchResults#40955237\"\
-        \ data-searchsession=\"/questions/40954899/refresh-a-dynamic-web-page-in-python-loop/40955237?r=SearchResults&s=3|18.0990#40955237\"\
+        \ data-searchsession=\"/questions/40954899/refresh-a-dynamic-web-page-in-python-loop/40955237?r=SearchResults&s=3|18.0989#40955237\"\
         \ title=\"refresh a dynamic web page in python loop\" class=\"question-hyperlink\"\
         >\r\n            A: refresh a dynamic web page in python loop\r\n        </a>\r\
         \n</h3>\r\n            </div>\r\n            <div class=\"excerpt\">\r\n \
@@ -593,7 +593,7 @@ interactions:
         \           </div>\r\n        </div>\r\n        <div class=\"summary\">\r\n\
         \            <div class=\"result-link\">\r\n                <h3>\r\n\r\n \
         \       <a href=\"/questions/15298359/why-does-knitr-caching-fail-for-data-table/15299615?r=SearchResults#15299615\"\
-        \ data-searchsession=\"/questions/15298359/why-does-knitr-caching-fail-for-data-table/15299615?r=SearchResults&s=4|17.9899#15299615\"\
+        \ data-searchsession=\"/questions/15298359/why-does-knitr-caching-fail-for-data-table/15299615?r=SearchResults&s=4|17.9885#15299615\"\
         \ title=\"why does knitr caching fail for data.table `:=`?\" class=\"question-hyperlink\"\
         >\r\n            A: why does knitr caching fail for data.table `:=`?\r\n \
         \       </a>\r\n</h3>\r\n            </div>\r\n            <div class=\"excerpt\"\
@@ -621,7 +621,7 @@ interactions:
         \    </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"\
         summary\">\r\n            <div class=\"result-link\">\r\n                <h3>\r\
         \n\r\n        <a href=\"/questions/18136260/cannot-login-to-paypal-sandbox-with-first-account-but-second-third-account-wor?r=SearchResults\"\
-        \ data-searchsession=\"/questions/18136260/cannot-login-to-paypal-sandbox-with-first-account-but-second-third-account-wor?r=SearchResults&s=5|16.5286\"\
+        \ data-searchsession=\"/questions/18136260/cannot-login-to-paypal-sandbox-with-first-account-but-second-third-account-wor?r=SearchResults&s=5|16.4853\"\
         \ title=\"Cannot login to Paypal sandbox with first account, but second, third\
         \ account work\" class=\"question-hyperlink\">\r\nQ: Cannot login to Paypal\
         \ sandbox with first account, but second, third account work        </a>\r\
@@ -678,7 +678,7 @@ interactions:
         \           </div>\r\n        </div>\r\n        <div class=\"summary\">\r\n\
         \            <div class=\"result-link\">\r\n                <h3>\r\n\r\n \
         \       <a href=\"/questions/28688032/bad-request-400-using-nginx-on-ubuntu-with-django/28692031?r=SearchResults#28692031\"\
-        \ data-searchsession=\"/questions/28688032/bad-request-400-using-nginx-on-ubuntu-with-django/28692031?r=SearchResults&s=7|10.7714#28692031\"\
+        \ data-searchsession=\"/questions/28688032/bad-request-400-using-nginx-on-ubuntu-with-django/28692031?r=SearchResults&s=7|10.7416#28692031\"\
         \ title=\"Bad request (400) using nginx on ubuntu with Django\" class=\"question-hyperlink\"\
         >\r\n            A: Bad request (400) using nginx on ubuntu with Django\r\n\
         \        </a>\r\n</h3>\r\n            </div>\r\n            <div class=\"\
@@ -726,7 +726,7 @@ interactions:
         \           </div>\r\n        </div>\r\n        <div class=\"summary\">\r\n\
         \            <div class=\"result-link\">\r\n                <h3>\r\n\r\n \
         \       <a href=\"/questions/216542/how-do-i-uniquely-identify-computers-visiting-my-web-site/41575609?r=SearchResults#41575609\"\
-        \ data-searchsession=\"/questions/216542/how-do-i-uniquely-identify-computers-visiting-my-web-site/41575609?r=SearchResults&s=9|8.8144#41575609\"\
+        \ data-searchsession=\"/questions/216542/how-do-i-uniquely-identify-computers-visiting-my-web-site/41575609?r=SearchResults&s=9|8.8142#41575609\"\
         \ title=\"How do I uniquely identify computers visiting my web site?\" class=\"\
         question-hyperlink\">\r\n            A: How do I uniquely identify computers\
         \ visiting my web site?\r\n        </a>\r\n</h3>\r\n            </div>\r\n\
@@ -751,7 +751,7 @@ interactions:
         \            </div>\r\n                </div>\r\n            </div>\r\n  \
         \      </div>\r\n        <div class=\"summary\">\r\n            <div class=\"\
         result-link\">\r\n                <h3>\r\n\r\n        <a href=\"/questions/52673285/performance-of-pandas-apply-vs-np-vectorize-to-create-new-column-from-existing-c/52674448?r=SearchResults#52674448\"\
-        \ data-searchsession=\"/questions/52673285/performance-of-pandas-apply-vs-np-vectorize-to-create-new-column-from-existing-c/52674448?r=SearchResults&s=10|8.6917#52674448\"\
+        \ data-searchsession=\"/questions/52673285/performance-of-pandas-apply-vs-np-vectorize-to-create-new-column-from-existing-c/52674448?r=SearchResults&s=10|8.6906#52674448\"\
         \ title=\"Performance of Pandas apply vs np.vectorize to create new column\
         \ from existing columns\" class=\"question-hyperlink\">\r\n            A:\
         \ Performance of Pandas apply vs np.vectorize to create new column from existing\
@@ -777,7 +777,7 @@ interactions:
         \             </div>\r\n                </div>\r\n            </div>\r\n \
         \       </div>\r\n        <div class=\"summary\">\r\n            <div class=\"\
         result-link\">\r\n                <h3>\r\n\r\n        <a href=\"/questions/43007627/when-i-run-meteor-disconnect-and-then-meteor-reconnect-meteor-clears-minimo/43009007?r=SearchResults#43009007\"\
-        \ data-searchsession=\"/questions/43007627/when-i-run-meteor-disconnect-and-then-meteor-reconnect-meteor-clears-minimo/43009007?r=SearchResults&s=11|7.4248#43009007\"\
+        \ data-searchsession=\"/questions/43007627/when-i-run-meteor-disconnect-and-then-meteor-reconnect-meteor-clears-minimo/43009007?r=SearchResults&s=11|7.4143#43009007\"\
         \ title=\"When I run Meteor.disconnect() and then Meteor.reconnect(), Meteor\
         \ clears minimongo, how can I prevent this?\" class=\"question-hyperlink\"\
         >\r\n            A: When I run Meteor.disconnect() and then Meteor.reconnect(),\
@@ -805,171 +805,167 @@ interactions:
         \r\n           class=\"js-gps-track s-link s-link__inherit\" \r\n        \
         \   data-gps-track=\"posts_hot_network.click({ item_type:1, location:12 })\"\
         >\r\n            Hot Network Questions\r\n        </a>\r\n    </h4>\r\n  \
-        \  <ul>\r\n            <li >\r\n                <div class=\"favicon favicon-writing\"\
-        \ title=\"Writing Stack Exchange\"></div><a href=\"https://writing.stackexchange.com/questions/51857/not-wanting-to-spoil-a-story-due-to-lack-of-skill\"\
+        \  <ul>\r\n            <li >\r\n                <div class=\"favicon favicon-chess\"\
+        \ title=\"Chess Stack Exchange\"></div><a href=\"https://chess.stackexchange.com/questions/30370/why-do-high-level-players-memorize-specific-games\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:166 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Not wanting to &quot;spoil&quot;\
-        \ a story due to lack of skill\r\n                </a>\r\n\r\n           \
-        \ </li>\r\n            <li >\r\n                <div class=\"favicon favicon-math\"\
-        \ title=\"Mathematics Stack Exchange\"></div><a href=\"https://math.stackexchange.com/questions/3757202/are-all-finite-dimensional-algebras-of-a-fixed-dimension-over-a-field-isomorphic\"\
+        \ item_type:12, target_site:435 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Why do high level players memorize\
+        \ specific games?\r\n                </a>\r\n\r\n            </li>\r\n   \
+        \         <li >\r\n                <div class=\"favicon favicon-chemistry\"\
+        \ title=\"Chemistry Stack Exchange\"></div><a href=\"https://chemistry.stackexchange.com/questions/136577/how-were-urolithins-discovered-and-named\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:69 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Are all finite-dimensional algebras\
-        \ of a fixed dimension over a field isomorphic to one another?\r\n       \
-        \         </a>\r\n\r\n            </li>\r\n            <li >\r\n         \
-        \       <div class=\"favicon favicon-bicycles\" title=\"Bicycles Stack Exchange\"\
-        ></div><a href=\"https://bicycles.stackexchange.com/questions/69655/broken-rear-brake-told-it-was-unfixable\"\
+        \ item_type:12, target_site:431 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    How were urolithins discovered\
+        \ and named?\r\n                </a>\r\n\r\n            </li>\r\n        \
+        \    <li >\r\n                <div class=\"favicon favicon-scifi\" title=\"\
+        Science Fiction &amp; Fantasy Stack Exchange\"></div><a href=\"https://scifi.stackexchange.com/questions/234482/why-did-tolkien-describe-religious-cults-in-numenor-only\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:126 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Broken rear brake - told it was\
-        \ unfixable\r\n                </a>\r\n\r\n            </li>\r\n         \
-        \   <li >\r\n                <div class=\"favicon favicon-latin\" title=\"\
-        Latin Language Stack Exchange\"></div><a href=\"https://latin.stackexchange.com/questions/14189/feminine-case-3rd-person-version-of-veni-vidi-vici\"\
+        \ item_type:12, target_site:186 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Why did Tolkien describe religious\
+        \ cults in Numenor only?\r\n                </a>\r\n\r\n            </li>\r\
+        \n            <li >\r\n                <div class=\"favicon favicon-chess\"\
+        \ title=\"Chess Stack Exchange\"></div><a href=\"https://chess.stackexchange.com/questions/30403/why-is-white-considered-so-much-better-in-this-position\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:644 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Feminine case 3rd-person version\
-        \ of &#x201C;Veni, vidi, vici&#x201D;\r\n                </a>\r\n\r\n    \
-        \        </li>\r\n            <li >\r\n                <div class=\"favicon\
-        \ favicon-space\" title=\"Space Exploration Stack Exchange\"></div><a href=\"\
-        https://space.stackexchange.com/questions/45347/performance-of-a-pumpless-liquid-rocket-engine\"\
+        \ item_type:12, target_site:435 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Why is White considered so much\
+        \ better in this position?\r\n                </a>\r\n\r\n            </li>\r\
+        \n            <li >\r\n                <div class=\"favicon favicon-biology\"\
+        \ title=\"Biology Stack Exchange\"></div><a href=\"https://biology.stackexchange.com/questions/94683/why-are-organs-not-harvested-from-cancer-patients\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:508 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Performance of a pumpless liquid\
-        \ rocket engine\r\n                </a>\r\n\r\n            </li>\r\n     \
-        \       <li >\r\n                <div class=\"favicon favicon-worldbuilding\"\
-        \ title=\"Worldbuilding Stack Exchange\"></div><a href=\"https://worldbuilding.stackexchange.com/questions/180710/life-on-earth-without-a-magnetic-field\"\
+        \ item_type:12, target_site:375 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Why are organs not harvested from\
+        \ cancer patients?\r\n                </a>\r\n\r\n            </li>\r\n  \
+        \          <li >\r\n                <div class=\"favicon favicon-scifi\" title=\"\
+        Science Fiction &amp; Fantasy Stack Exchange\"></div><a href=\"https://scifi.stackexchange.com/questions/234490/that-was-a-man\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:579 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Life on Earth without a magnetic\
-        \ field?\r\n                </a>\r\n\r\n            </li>\r\n            <li\
-        \ >\r\n                <div class=\"favicon favicon-retrocomputing\" title=\"\
-        Retrocomputing Stack Exchange\"></div><a href=\"https://retrocomputing.stackexchange.com/questions/15611/why-is-the-keyboard-and-cellphone-telephone-numbers-in-a-different-order\"\
+        \ item_type:12, target_site:186 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    &quot;That was a man&quot;\r\n\
+        \                </a>\r\n\r\n            </li>\r\n            <li >\r\n  \
+        \              <div class=\"favicon favicon-mathoverflow\" title=\"MathOverflow\"\
+        ></div><a href=\"https://mathoverflow.net/questions/365674/smallest-family-of-subsets-that-generates-the-discrete-topology\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:648 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Why is the keyboard and cellphone\
-        \ / telephone numbers in a different order?\r\n                </a>\r\n\r\n\
-        \            </li>\r\n            <li >\r\n                <div class=\"favicon\
-        \ favicon-history\" title=\"History Stack Exchange\"></div><a href=\"https://history.stackexchange.com/questions/60282/did-the-soviet-union-or-its-satellite-states-have-any-broadcast-propaganda-media\"\
+        \ item_type:12, target_site:504 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Smallest family of subsets that\
+        \ generates the discrete topology\r\n                </a>\r\n\r\n        \
+        \    </li>\r\n            <li >\r\n                <div class=\"favicon favicon-skeptics\"\
+        \ title=\"Skeptics Stack Exchange\"></div><a href=\"https://skeptics.stackexchange.com/questions/48136/is-this-colour-footage-of-breslau-in-1939-authentic\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:324 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Did the Soviet Union or its satellite\
-        \ states have any broadcast propaganda media for an international audience?\r\
-        \n                </a>\r\n\r\n            </li>\r\n            <li >\r\n \
-        \               <div class=\"favicon favicon-astronomy\" title=\"Astronomy\
-        \ Stack Exchange\"></div><a href=\"https://astronomy.stackexchange.com/questions/36947/is-it-true-that-we-see-the-center-of-the-milky-way-for-only-half-of-the-year\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:514 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Is it true that we see the center\
-        \ of the milky-way for only half of the year?\r\n                </a>\r\n\r\
-        \n            </li>\r\n            <li >\r\n                <div class=\"\
-        favicon favicon-physics\" title=\"Physics Stack Exchange\"></div><a href=\"\
-        https://physics.stackexchange.com/questions/565998/why-is-the-ideal-gas-law-only-valid-for-hydrogen\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:151 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Why is the ideal gas law only valid\
-        \ for Hydrogen?\r\n                </a>\r\n\r\n            </li>\r\n     \
-        \       <li >\r\n                <div class=\"favicon favicon-rpg\" title=\"\
-        Role-playing Games Stack Exchange\"></div><a href=\"https://rpg.stackexchange.com/questions/171965/are-there-any-melee-alternatives-to-power-word-kill\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:122 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Are there any melee alternatives\
-        \ to Power Word Kill?\r\n                </a>\r\n\r\n            </li>\r\n\
+        \ item_type:12, target_site:212 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Is this colour footage of Breslau\
+        \ in 1939 authentic?\r\n                </a>\r\n\r\n            </li>\r\n\
         \            <li >\r\n                <div class=\"favicon favicon-mathoverflow\"\
         \ title=\"MathOverflow\"></div><a href=\"https://mathoverflow.net/questions/365569/access-to-journals-during-pandemic\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
         \ item_type:12, target_site:504 }); posts_hot_network.click({ item_type:2,\
         \ location:12 })\">\r\n                    Access to journals during pandemic\r\
-        \n                </a>\r\n\r\n            </li>\r\n            <li class=\"\
-        dno js-hidden\">\r\n                <div class=\"favicon favicon-physics\"\
-        \ title=\"Physics Stack Exchange\"></div><a href=\"https://physics.stackexchange.com/questions/565913/do-nuclei-emit-photons\"\
+        \n                </a>\r\n\r\n            </li>\r\n            <li >\r\n \
+        \               <div class=\"favicon favicon-security\" title=\"Information\
+        \ Security Stack Exchange\"></div><a href=\"https://security.stackexchange.com/questions/234668/is-revealing-the-phone-number-during-otp-verification-process-considered-a-vulne\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:151 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Do nuclei emit photons?\r\n   \
-        \             </a>\r\n\r\n            </li>\r\n            <li class=\"dno\
-        \ js-hidden\">\r\n                <div class=\"favicon favicon-ell\" title=\"\
-        English Language Learners Stack Exchange\"></div><a href=\"https://ell.stackexchange.com/questions/253720/bathroom-or-restroom\"\
+        \ item_type:12, target_site:162 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Is revealing the phone number during\
+        \ OTP verification process considered a vulnerability?\r\n               \
+        \ </a>\r\n\r\n            </li>\r\n            <li >\r\n                <div\
+        \ class=\"favicon favicon-salesforce\" title=\"Salesforce Stack Exchange\"\
+        ></div><a href=\"https://salesforce.stackexchange.com/questions/312716/custom-metadata-vs-custom-objects-in-managed-package\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:459 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Custom Metadata vs. Custom Objects\
+        \ in Managed Package\r\n                </a>\r\n\r\n            </li>\r\n\
+        \            <li >\r\n                <div class=\"favicon favicon-bicycles\"\
+        \ title=\"Bicycles Stack Exchange\"></div><a href=\"https://bicycles.stackexchange.com/questions/69655/broken-rear-brake-told-it-was-unfixable\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:126 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Broken rear brake - told it was\
+        \ unfixable\r\n                </a>\r\n\r\n            </li>\r\n         \
+        \   <li class=\"dno js-hidden\">\r\n                <div class=\"favicon favicon-russian\"\
+        \ title=\"Russian Language Stack Exchange\"></div><a href=\"https://russian.stackexchange.com/questions/22630/using-%d0%b2%d0%b5%d1%81%d1%82%d0%b8-%d0%b2%d0%be%d0%b4%d0%b8%d1%82%d1%8c-when-talking-about-driving\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:451 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Using &#x432;&#x435;&#x441;&#x442;&#x438;/&#x432;&#x43E;&#x434;&#x438;&#x442;&#x44C;\
+        \ when talking about driving\r\n                </a>\r\n\r\n            </li>\r\
+        \n            <li class=\"dno js-hidden\">\r\n                <div class=\"\
+        favicon favicon-aviation\" title=\"Aviation Stack Exchange\"></div><a href=\"\
+        https://aviation.stackexchange.com/questions/79536/how-can-i-easily-keep-track-of-my-landing-count-during-pattern-work\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:528 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    How can I easily keep track of\
+        \ my landing count during pattern work?\r\n                </a>\r\n\r\n  \
+        \          </li>\r\n            <li class=\"dno js-hidden\">\r\n         \
+        \       <div class=\"favicon favicon-security\" title=\"Information Security\
+        \ Stack Exchange\"></div><a href=\"https://security.stackexchange.com/questions/234641/is-cell-phone-number-based-verification-secure\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:162 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Is cell phone number based verification\
+        \ secure?\r\n                </a>\r\n\r\n            </li>\r\n           \
+        \ <li class=\"dno js-hidden\">\r\n                <div class=\"favicon favicon-gaming\"\
+        \ title=\"Arqade\"></div><a href=\"https://gaming.stackexchange.com/questions/372548/is-there-really-any-point-to-go-to-duna-without-a-contract-for-duna\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:41 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Is there really any point to go\
+        \ to Duna without a contract for Duna?\r\n                </a>\r\n\r\n   \
+        \         </li>\r\n            <li class=\"dno js-hidden\">\r\n          \
+        \      <div class=\"favicon favicon-rpg\" title=\"Role-playing Games Stack\
+        \ Exchange\"></div><a href=\"https://rpg.stackexchange.com/questions/171985/how-do-you-determine-what-action-belongs-to-who-in-a-modernist-gm-based-game\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:122 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    How do you determine what action\
+        \ belongs to who in a modernist GM-based game?\r\n                </a>\r\n\
+        \r\n            </li>\r\n            <li class=\"dno js-hidden\">\r\n    \
+        \            <div class=\"favicon favicon-gis\" title=\"Geographic Information\
+        \ Systems Stack Exchange\"></div><a href=\"https://gis.stackexchange.com/questions/367854/getting-lat-long-for-centroids\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:79 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Getting lat/long for centroids\r\
+        \n                </a>\r\n\r\n            </li>\r\n            <li class=\"\
+        dno js-hidden\">\r\n                <div class=\"favicon favicon-rpg\" title=\"\
+        Role-playing Games Stack Exchange\"></div><a href=\"https://rpg.stackexchange.com/questions/171965/are-there-any-melee-alternatives-to-power-word-kill\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:122 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Are there any melee alternatives\
+        \ to Power Word Kill?\r\n                </a>\r\n\r\n            </li>\r\n\
+        \            <li class=\"dno js-hidden\">\r\n                <div class=\"\
+        favicon favicon-money\" title=\"Personal Finance &amp; Money Stack Exchange\"\
+        ></div><a href=\"https://money.stackexchange.com/questions/127756/email-asking-for-cvv-two-days-after-i-make-a-purchase\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:93 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Email asking for CVV, two days\
+        \ after I make a purchase?\r\n                </a>\r\n\r\n            </li>\r\
+        \n            <li class=\"dno js-hidden\">\r\n                <div class=\"\
+        favicon favicon-serverfault\" title=\"Server Fault\"></div><a href=\"https://serverfault.com/questions/1025185/what-happens-to-an-ssh-process-if-the-local-ip-address-changes\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:2 }); posts_hot_network.click({ item_type:2, location:12\
+        \ })\">\r\n                    What happens to an ssh process if the local\
+        \ IP address changes?\r\n                </a>\r\n\r\n            </li>\r\n\
+        \            <li class=\"dno js-hidden\">\r\n                <div class=\"\
+        favicon favicon-money\" title=\"Personal Finance &amp; Money Stack Exchange\"\
+        ></div><a href=\"https://money.stackexchange.com/questions/127851/always-feeling-behind-in-life-in-terms-of-money-saved\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:93 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Always feeling behind in life in\
+        \ terms of money saved\r\n                </a>\r\n\r\n            </li>\r\n\
+        \            <li class=\"dno js-hidden\">\r\n                <div class=\"\
+        favicon favicon-ell\" title=\"English Language Learners Stack Exchange\"></div><a\
+        \ href=\"https://ell.stackexchange.com/questions/253720/bathroom-or-restroom\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
         \ item_type:12, target_site:481 }); posts_hot_network.click({ item_type:2,\
         \ location:12 })\">\r\n                    &quot;Bathroom&quot; or &quot;Restroom&quot;\r\
         \n                </a>\r\n\r\n            </li>\r\n            <li class=\"\
-        dno js-hidden\">\r\n                <div class=\"favicon favicon-scifi\" title=\"\
-        Science Fiction &amp; Fantasy Stack Exchange\"></div><a href=\"https://scifi.stackexchange.com/questions/234522/story-about-a-video-game-character-working-her-way-towards-a-world-where-the-rul\"\
+        dno js-hidden\">\r\n                <div class=\"favicon favicon-superuser\"\
+        \ title=\"Super User\"></div><a href=\"https://superuser.com/questions/1568508/pc-uses-speaker-of-headset-instead-of-microphone\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:186 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Story about a video game character\
-        \ working her way towards a world where the rules are relaxed and she can\
-        \ be herself\r\n                </a>\r\n\r\n            </li>\r\n        \
-        \    <li class=\"dno js-hidden\">\r\n                <div class=\"favicon\
-        \ favicon-travel\" title=\"Travel Stack Exchange\"></div><a href=\"https://travel.stackexchange.com/questions/158335/how-can-i-find-my-train-platform-number-at-zurich\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:273 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    How can I find my train platform\
-        \ number at Zurich?\r\n                </a>\r\n\r\n            </li>\r\n \
-        \           <li class=\"dno js-hidden\">\r\n                <div class=\"\
-        favicon favicon-chemistry\" title=\"Chemistry Stack Exchange\"></div><a href=\"\
-        https://chemistry.stackexchange.com/questions/136577/how-were-urolithins-discovered-and-named\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:431 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    How were urolithins discovered\
-        \ and named?\r\n                </a>\r\n\r\n            </li>\r\n        \
-        \    <li class=\"dno js-hidden\">\r\n                <div class=\"favicon\
-        \ favicon-codereview\" title=\"Code Review Stack Exchange\"></div><a href=\"\
-        https://codereview.stackexchange.com/questions/245508/hangman-bot-built-with-performance-in-mind\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:196 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Hangman Bot built with performance\
-        \ in mind\r\n                </a>\r\n\r\n            </li>\r\n           \
-        \ <li class=\"dno js-hidden\">\r\n                <div class=\"favicon favicon-math\"\
-        \ title=\"Mathematics Stack Exchange\"></div><a href=\"https://math.stackexchange.com/questions/3757038/how-can-i-prove-that-3-planes-are-arranged-in-a-triangle-like-shape-without-calc\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:69 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    How can I prove that 3 planes are\
-        \ arranged in a triangle-like shape without calculating their intersection\
-        \ lines?\r\n                </a>\r\n\r\n            </li>\r\n            <li\
-        \ class=\"dno js-hidden\">\r\n                <div class=\"favicon favicon-space\"\
-        \ title=\"Space Exploration Stack Exchange\"></div><a href=\"https://space.stackexchange.com/questions/45360/if-someone-built-a-vacuum-tunnel-through-the-atmosphere-could-you-have-an-orbit\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:508 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    If someone built a vacuum tunnel\
-        \ through the atmosphere, could you have an orbit with a sea level perigee?\r\
-        \n                </a>\r\n\r\n            </li>\r\n            <li class=\"\
-        dno js-hidden\">\r\n                <div class=\"favicon favicon-security\"\
-        \ title=\"Information Security Stack Exchange\"></div><a href=\"https://security.stackexchange.com/questions/234719/why-does-windows-not-always-force-me-to-confirm-my-password-when-changing-it\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:162 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Why does Windows not always force\
-        \ me to confirm my password when changing it?\r\n                </a>\r\n\r\
-        \n            </li>\r\n            <li class=\"dno js-hidden\">\r\n      \
-        \          <div class=\"favicon favicon-gis\" title=\"Geographic Information\
-        \ Systems Stack Exchange\"></div><a href=\"https://gis.stackexchange.com/questions/367875/how-to-use-union-all-in-geoserver-cql-filter\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:79 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    How to use UNION ALL in GeoServer\
-        \ CQL Filter?\r\n                </a>\r\n\r\n            </li>\r\n       \
-        \     <li class=\"dno js-hidden\">\r\n                <div class=\"favicon\
-        \ favicon-history\" title=\"History Stack Exchange\"></div><a href=\"https://history.stackexchange.com/questions/60295/are-there-historical-texts-in-england-querying-where-roman-structures-came-from\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:324 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Are there historical texts in England\
-        \ querying where Roman structures came from?\r\n                </a>\r\n\r\
-        \n            </li>\r\n            <li class=\"dno js-hidden\">\r\n      \
-        \          <div class=\"favicon favicon-music\" title=\"Music: Practice &amp;\
-        \ Theory Stack Exchange\"></div><a href=\"https://music.stackexchange.com/questions/101899/what-is-the-strong-weak-beat-pattern-in-11-16\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:240 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    What is the strong-weak beat pattern\
-        \ in 11/16?\r\n                </a>\r\n\r\n            </li>\r\n    </ul>\r\
-        \n\r\n        <a href=\"#\" \r\n           class=\"show-more js-show-more\
-        \ js-gps-track\" \r\n           data-gps-track=\"posts_hot_network.click({\
-        \ item_type:3, location:12 })\">\r\n            more hot questions\r\n   \
-        \     </a>\r\n</div></div>\r\n    <script>\r\n        $(\".js-search-results\"\
-        ).on(\"mousedown touchstart\", \"div.result-link a\", function (ev) {\r\n\
-        \            this.href = $(this).data(\"searchsession\");\r\n        });\r\
-        \n    </script>\r\n\r\n\r\n        </div>\r\n    </div>\r\n        \r\n<script>;try{(function(a){function\
-        \ b(a){return'string'==typeof a?document.getElementById(a):a}function c(a){return\
-        \ a=b(a),!!a&&'none'===getComputedStyle(a).display}function d(a){return!c(a)}function\
-        \ e(a){return!!a}function f(a){return /^\\s*$/.test(b(a).innerHTML)}function\
+        \ item_type:12, target_site:3 }); posts_hot_network.click({ item_type:2, location:12\
+        \ })\">\r\n                    PC uses speaker of headset instead of microphone\r\
+        \n                </a>\r\n\r\n            </li>\r\n    </ul>\r\n\r\n     \
+        \   <a href=\"#\" \r\n           class=\"show-more js-show-more js-gps-track\"\
+        \ \r\n           data-gps-track=\"posts_hot_network.click({ item_type:3, location:12\
+        \ })\">\r\n            more hot questions\r\n        </a>\r\n</div></div>\r\
+        \n    <script>\r\n        $(\".js-search-results\").on(\"mousedown touchstart\"\
+        , \"div.result-link a\", function (ev) {\r\n            this.href = $(this).data(\"\
+        searchsession\");\r\n        });\r\n    </script>\r\n\r\n\r\n        </div>\r\
+        \n    </div>\r\n        \r\n<script>;try{(function(a){function b(a){return'string'==typeof\
+        \ a?document.getElementById(a):a}function c(a){return a=b(a),!!a&&'none'===getComputedStyle(a).display}function\
+        \ d(a){return!c(a)}function e(a){return!!a}function f(a){return /^\\s*$/.test(b(a).innerHTML)}function\
         \ g(a){var b=a.style;b.height=b.maxHeight=b.minHeight='auto',b.display='none',[].forEach.call(a.children,g)}function\
         \ h(a,b){var c;return function(){return a&&(c=a.call(b||this,arguments),a=null),c}}function\
         \ i(a){var b=document.createElement('script');b.src=a,document.body.appendChild(b)}function\
@@ -1019,7 +1015,7 @@ interactions:
         \ sb: !0, 'tag-sponsorship': !0, lb:!0, mlb:!0, smlb:!0, bmlb:!0, 'mobile-below-question':!0};\r\
         \n        clc.options = clc.options || {};\r\n        clc.options.sf = !0;\r\
         \n        clc.options.hb = !1;\r\n        clc.options.ll = !0;\r\n       \
-        \ clc.cmd = clc.cmd || [];\r\n        clc.cmd.push(function () { window.clc_request='Avy_UfhyKdgIAAAAAAAAAAACAAAAAQAAAAAAAAAAAJVfySi_59BSois';\
+        \ clc.cmd = clc.cmd || [];\r\n        clc.cmd.push(function () { window.clc_request='AhVVPzh2KdgIAAAAAAAAAAACAAAAAQAAAAAAAAAAAAQxGUCNMX9xUcc';\
         \ clc.load(); });\r\n        clc.dfp = clc.dfp || {};\r\n        clc.dfp.targeting\
         \ = {};\r\n        var googletag = googletag || {};\r\n        googletag.cmd\
         \ = googletag.cmd || [];\r\n        googletag.cmd.push(function () { clc.dfp.load();\
@@ -1595,9 +1591,9 @@ interactions:
       Connection: keep-alive
       Content-Encoding: gzip
       Content-Type: text/html; charset=utf-8
-      Date: Thu, 16 Jul 2020 10:28:24 GMT
+      Date: Thu, 16 Jul 2020 10:51:40 GMT
       Server: Microsoft-IIS/10.0
-      Set-Cookie: prov=080e4b6c-960f-5015-dfbf-6d5662a27c67; domain=.stackoverflow.com;
+      Set-Cookie: prov=c32f1ff1-59f1-54dc-5c94-7c3f2c960ee7; domain=.stackoverflow.com;
         expires=Fri, 01-Jan-2055 00:00:00 GMT; path=/; HttpOnly
       Transfer-Encoding: chunked
       Vary: Accept-Encoding,Fastly-SSL
@@ -1605,23 +1601,23 @@ interactions:
       X-Cache: MISS
       X-Cache-Hits: '0'
       X-DNS-Prefetch-Control: 'off'
-      X-Served-By: cache-bom4730-BOM
-      X-Timer: S1594895304.034475,VS0,VE644
+      X-Served-By: cache-bom4734-BOM
+      X-Timer: S1594896700.772970,VS0,VE327
       strict-transport-security: max-age=2592000
-      x-aspnet-duration-ms: '41'
+      x-aspnet-duration-ms: '37'
       x-elastic-count: '5'
-      x-elastic-duration-ms: '34'
+      x-elastic-duration-ms: '30'
       x-flags: AA
       x-frame-options: SAMEORIGIN
       x-is-crawler: '0'
       x-page-view: '1'
-      x-providence-cookie: 080e4b6c-960f-5015-dfbf-6d5662a27c67
+      x-providence-cookie: c32f1ff1-59f1-54dc-5c94-7c3f2c960ee7
       x-redis-count: '2'
       x-redis-duration-ms: '0'
-      x-request-guid: 47063446-bbed-4098-b47b-4760caf84676
+      x-request-guid: 21b94016-08dc-4d8d-842f-850d3d7bc3eb
       x-route-name: Search/Search
       x-sql-count: '2'
-      x-sql-duration-ms: '1'
+      x-sql-duration-ms: '0'
     status:
       code: 200
       message: OK

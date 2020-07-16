@@ -7,7 +7,7 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0
+      - Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100 101 Firefox/22.0
     method: GET
     uri: https://scholar.google.gr/scholar?hl=en&start=1&q=Fake+cache+bypass
   response:
@@ -857,7 +857,7 @@ interactions:
         \ f=document.querySelector('.gs_or[data-did=\"'+b+'\"]');if(f)if(d=a.h)Ve(f,\"\
         \"+d,!1);else{b=c.replace(\"{id}\",b);var h=cc(b,\"\",function(k,t){200==k&&t&&(Ve(f,t,!0),a.h=t,a.t=Date.now(),Oe(a));clearTimeout(g)}),g=setTimeout(function(){dc(h)},\n\
         1E3)}}}});md.addListener(We);\n}({\"bouncePrefix\":\"http://scholar.google.gr\"\
-        ,\"neverBounce\":!1,\"customAC\":2,\"eventId\":\"vSsQX9qyMIaSmgG4xZXYBQ\"\
+        ,\"neverBounce\":!1,\"customAC\":2,\"eventId\":\"MTEQX6z0LoaSmgG4xZXYBQ\"\
         });</script></head><body><div id=\"gs_top\" onclick=\"\"><style>#gs_md_s,.gs_md_wnw{z-index:1200;position:fixed;top:0;left:0;width:100%;height:100%;visibility:hidden;}#gs_md_s{background-color:#fff;opacity:.5;}.gs_el_ta\
         \ #gs_md_s,.gs_el_ph #gs_md_s{background-color:#666;}.gs_md_wnw{transition:all\
         \ 0s .218s;}#gs_md_s.gs_vis,.gs_md_wnw.gs_vis{visibility:visible;transition:all\
@@ -1036,7 +1036,7 @@ interactions:
         \ gs_ab_st\"><div id=\"gs_ab_ico\" class=\"gs_btnGSL\"><span class=\"gs_ico\"\
         ></span></div><div id=\"gs_ab_ttl\"><div class=\"gs_ab_mdw\"><span class=\"\
         gs_nph gs_nta\">Articles</span><div class=\"gs_oph gs_ota\">Scholar</div></div></div><div\
-        \ id=\"gs_ab_md\"><div class=\"gs_ab_mdw\">About 5,100 results (<b>0.06</b>\
+        \ id=\"gs_ab_md\"><div class=\"gs_ab_mdw\">About 5,100 results (<b>0.02</b>\
         \ sec)</div></div><div id=\"gs_ab_btns\"><a href=\"/citations?hl=en\" class=\"\
         gs_btnPRO gs_in_ib gs_nph gs_nta\"><span class=\"gs_ico\"></span><span class=\"\
         gs_lbl\">My profile</span></a><a href=\"/scholar?scilib=1&amp;scioq=Fake+cache+bypass&amp;hl=en&amp;as_sdt=0,5\"\
@@ -1107,22 +1107,22 @@ interactions:
         \ id=\"gs_bdy_sb_ca\" class=\"gs_btnM gs_in_ib\"><span class=\"gs_ico\"></span><span\
         \ class=\"gs_lbl\">Create alert</span></a></div></div></div><div id=\"gs_bdy_ccl\"\
         \ role=\"main\"><div id=\"gs_res_glb\" style=\"display:none\" data-ttl=\"\
-        Fake cache bypass - Google Scholar\" data-lph=\"\" data-sva=\"/citations?hl=en&amp;xsrf=&amp;continue=/scholar%3Fq%3DFake%2Bcache%2Bbypass%26hl%3Den%26start%3D1%26as_sdt%3D0,5&amp;citilm=1&amp;json=&amp;update_op=library_add&amp;info={id}&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ\"\
+        Fake cache bypass - Google Scholar\" data-lph=\"\" data-sva=\"/citations?hl=en&amp;xsrf=&amp;continue=/scholar%3Fq%3DFake%2Bcache%2Bbypass%26hl%3Den%26start%3D1%26as_sdt%3D0,5&amp;citilm=1&amp;json=&amp;update_op=library_add&amp;info={id}&amp;ei=MTEQX6z0LoaSmgG4xZXYBQ\"\
         \ data-tra=\"/citations?hl=en&amp;xsrf=&amp;continue=/scholar%3Fq%3DFake%2Bcache%2Bbypass%26hl%3Den%26start%3D1%26as_sdt%3D0,5&amp;citilm=1&amp;json=&amp;update_op=trash_citations&amp;s={id}\"\
         \ data-via=\"/citations?view_op=view_citation&amp;continue=/scholar%3Fq%3DFake%2Bcache%2Bbypass%26hl%3Den%26start%3D1%26as_sdt%3D0,5&amp;citilm=1&amp;citation_for_view={id}&amp;hl=en&amp;oi=saved\"\
         \ data-exp=\"\" data-mlu=\"\" data-lsl=\"\" data-lpu=\"\" data-lsm=\"Saved\
         \ to &lt;a href=&quot;/scholar?scilib=1&amp;amp;scioq=Fake+cache+bypass&amp;amp;hl=en&amp;amp;as_sdt=0,5&quot;&gt;your\
-        \ library&lt;/a&gt;.\" data-ahq=\"\" data-gsb=\"\" data-rfr=\"/scholar?q=related:{id}:scholar.google.com/&amp;output=rfrra&amp;scioq=Fake%2Bcache%2Bbypass&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;hl=en\"\
+        \ library&lt;/a&gt;.\" data-ahq=\"\" data-gsb=\"\" data-rfr=\"/scholar?q=related:{id}:scholar.google.com/&amp;output=rfrra&amp;scioq=Fake%2Bcache%2Bbypass&amp;ei=MTEQX6z0LoaSmgG4xZXYBQ&amp;hl=en\"\
         ></div><div id=\"gs_res_ccl\"><div id=\"gs_res_ccl_top\"></div><div id=\"\
         gs_res_ccl_mid\">  <div class=\"gs_r gs_or gs_scl\" data-cid=\"XFERKccUpgUJ\"\
         \ data-did=\"XFERKccUpgUJ\" data-lid=\"\" data-rp=\"1\"><div class=\"gs_ggs\
         \ gs_fl\"><div class=\"gs_ggsd\"><div class=\"gs_or_ggsm\" ontouchstart=\"\
         gs_evt_dsp(event)\" tabindex=\"-1\"><a href=\"https://par.nsf.gov/servlets/purl/10042123\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=1&amp;d=407035661943656796&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm2AIPUWTsRLbjf1un_Kvd_V9MSHTQ&amp;nossl=1\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=1&amp;d=407035661943656796&amp;ei=MTEQX6z0LoaSmgG4xZXYBQ&amp;scisig=AAGBfm2AIPUWTsRLbjf1un_Kvd_V9MSHTQ&amp;nossl=1\"\
         \ data-clk-atid=\"XFERKccUpgUJ\"><span class=gs_ctg2>[PDF]</span> nsf.gov</a></div></div></div><div\
         \ class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><a\
         \ id=\"XFERKccUpgUJ\" href=\"https://ieeexplore.ieee.org/abstract/document/7783705/\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=1&amp;d=407035661943656796&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm0yXpz7PjyeZhXJO0i-ksWg6j_KyQ&amp;nossl=1\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=1&amp;d=407035661943656796&amp;ei=MTEQX6z0LoaSmgG4xZXYBQ&amp;scisig=AAGBfm0yXpz7PjyeZhXJO0i-ksWg6j_KyQ&amp;nossl=1\"\
         \ data-clk-atid=\"XFERKccUpgUJ\">Perceptron learning for reuse prediction</a></h3><div\
         \ class=\"gs_a\"><a href=\"/citations?user=VbySJ7kAAAAJ&amp;hl=en&amp;oi=sra\"\
         >E Teran</a>, <a href=\"/citations?user=P8WDj_UAAAAJ&amp;hl=en&amp;oi=sra\"\
@@ -1153,11 +1153,11 @@ interactions:
         gs_r gs_or gs_scl\" data-cid=\"FwQbiF_UzC0J\" data-did=\"FwQbiF_UzC0J\" data-lid=\"\
         \" data-rp=\"2\"><div class=\"gs_ggs gs_fl\"><div class=\"gs_ggsd\"><div class=\"\
         gs_or_ggsm\" ontouchstart=\"gs_evt_dsp(event)\" tabindex=\"-1\"><a href=\"\
-        https://hal.inria.fr/inria-00073170/document\" data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=2&amp;d=3300246133726184471&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm1hnGD9N0YrOsndarI6TrPrkgRwUw&amp;nossl=1\"\
+        https://hal.inria.fr/inria-00073170/document\" data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=2&amp;d=3300246133726184471&amp;ei=MTEQX6z0LoaSmgG4xZXYBQ&amp;scisig=AAGBfm1hnGD9N0YrOsndarI6TrPrkgRwUw&amp;nossl=1\"\
         \ data-clk-atid=\"FwQbiF_UzC0J\"><span class=gs_ctg2>[PDF]</span> inria.fr</a></div></div></div><div\
         \ class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><a\
         \ id=\"FwQbiF_UzC0J\" href=\"https://ieeexplore.ieee.org/abstract/document/776510/\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=2&amp;d=3300246133726184471&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm2kdFAGATaMbs9LZiKJMJvvtQZzog&amp;nossl=1\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=2&amp;d=3300246133726184471&amp;ei=MTEQX6z0LoaSmgG4xZXYBQ&amp;scisig=AAGBfm2kdFAGATaMbs9LZiKJMJvvtQZzog&amp;nossl=1\"\
         \ data-clk-atid=\"FwQbiF_UzC0J\">Replicated directory service for weakly consistent\
         \ distributed <b>caches</b></a></h3><div class=\"gs_a\">M Makpangou, <a href=\"\
         /citations?user=iIv8ZeMAAAAJ&amp;hl=en&amp;oi=sra\">G Pierre</a>, C Khoury\u2026\
@@ -1188,11 +1188,11 @@ interactions:
         \" data-rp=\"3\"><div class=\"gs_ggs gs_fl\"><div class=\"gs_ggsd\"><div class=\"\
         gs_or_ggsm\" ontouchstart=\"gs_evt_dsp(event)\" tabindex=\"-1\"><a href=\"\
         http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.143.6171&amp;rep=rep1&amp;type=pdf\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=3&amp;d=10160481165313179097&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm1pi2Uph6OiEZcIbbVlFQSwXH4B9g&amp;nossl=1\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=3&amp;d=10160481165313179097&amp;ei=MTEQX6z0LoaSmgG4xZXYBQ&amp;scisig=AAGBfm1pi2Uph6OiEZcIbbVlFQSwXH4B9g&amp;nossl=1\"\
         \ data-clk-atid=\"2f2JjclHAY0J\"><span class=gs_ctg2>[PDF]</span> psu.edu</a></div></div></div><div\
         \ class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><a\
         \ id=\"2f2JjclHAY0J\" href=\"https://ieeexplore.ieee.org/abstract/document/1203482/\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=3&amp;d=10160481165313179097&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm2jWoDqk5iwGk0DPtBGhHEjd5FoOA&amp;nossl=1\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=3&amp;d=10160481165313179097&amp;ei=MTEQX6z0LoaSmgG4xZXYBQ&amp;scisig=AAGBfm2jWoDqk5iwGk0DPtBGhHEjd5FoOA&amp;nossl=1\"\
         \ data-clk-atid=\"2f2JjclHAY0J\">A path information caching and aggregation\
         \ approach to traffic source identification</a></h3><div class=\"gs_a\">FH\
         \ Hsu, T Chiueh\_- 23rd International Conference on\_\u2026, 2003 - ieeexplore.ieee.org</div><div\
@@ -1222,12 +1222,12 @@ interactions:
         \" data-rp=\"4\"><div class=\"gs_ggs gs_fl\"><div class=\"gs_ggsd\"><div class=\"\
         gs_or_ggsm\" ontouchstart=\"gs_evt_dsp(event)\" tabindex=\"-1\"><a href=\"\
         http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.29.8648&amp;rep=rep1&amp;type=pdf\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=4&amp;d=8615405999397403751&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm2nmH3MwLjZUeKG5J0pxtXn4IzaHg&amp;nossl=1\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=4&amp;d=8615405999397403751&amp;ei=MTEQX6z0LoaSmgG4xZXYBQ&amp;scisig=AAGBfm2nmH3MwLjZUeKG5J0pxtXn4IzaHg&amp;nossl=1\"\
         \ data-clk-atid=\"Z_zZLRwSkHcJ\"><span class=gs_ctg2>[PDF]</span> psu.edu</a></div></div></div><div\
         \ class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><span\
         \ class=\"gs_ctc\"><span class=\"gs_ct1\">[PDF]</span><span class=\"gs_ct2\"\
         >[PDF]</span></span> <a id=\"Z_zZLRwSkHcJ\" href=\"http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.29.8648&amp;rep=rep1&amp;type=pdf\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;oi=ggp&amp;ct=res&amp;cd=4&amp;d=8615405999397403751&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm2nmH3MwLjZUeKG5J0pxtXn4IzaHg&amp;nossl=1\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;oi=ggp&amp;ct=res&amp;cd=4&amp;d=8615405999397403751&amp;ei=MTEQX6z0LoaSmgG4xZXYBQ&amp;scisig=AAGBfm2nmH3MwLjZUeKG5J0pxtXn4IzaHg&amp;nossl=1\"\
         \ data-clk-atid=\"Z_zZLRwSkHcJ\">A distributed internet <b>cache</b></a></h3><div\
         \ class=\"gs_a\">D Povey, J Harrison\_- Australian Computer Science Communications,\
         \ 1997 - Citeseer</div><div class=\"gs_rs\">\u2026 B C <b>Fake</b> Resolution\
@@ -1257,11 +1257,11 @@ interactions:
         \" data-rp=\"5\"><div class=\"gs_ggs gs_fl\"><div class=\"gs_ggsd\"><div class=\"\
         gs_or_ggsm\" ontouchstart=\"gs_evt_dsp(event)\" tabindex=\"-1\"><a href=\"\
         https://patentimages.storage.googleapis.com/b0/94/2c/4071a65da12cbf/US7962957.pdf\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=5&amp;d=17529661748321970620&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm1mSIUC11PzJt7ksJYJ0GN98-V5Hg&amp;nossl=1\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=5&amp;d=17529661748321970620&amp;ei=MTEQX6z0LoaSmgG4xZXYBQ&amp;scisig=AAGBfm1mSIUC11PzJt7ksJYJ0GN98-V5Hg&amp;nossl=1\"\
         \ data-clk-atid=\"vOl75XveRfMJ\"><span class=gs_ctg2>[PDF]</span> googleapis.com</a></div></div></div><div\
         \ class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><a\
         \ id=\"vOl75XveRfMJ\" href=\"https://patents.google.com/patent/US7962957B2/en\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=5&amp;d=17529661748321970620&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm3CLjtf6x6Qmq_ASpICjL9XnS4HEQ&amp;nossl=1\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=5&amp;d=17529661748321970620&amp;ei=MTEQX6z0LoaSmgG4xZXYBQ&amp;scisig=AAGBfm3CLjtf6x6Qmq_ASpICjL9XnS4HEQ&amp;nossl=1\"\
         \ data-clk-atid=\"vOl75XveRfMJ\">Method and apparatus for detecting port scans\
         \ with <b>fake </b>source address</a></h3><div class=\"gs_a\"><a href=\"/citations?user=vQCwPYEAAAAJ&amp;hl=en&amp;oi=sra\"\
         >SM Keohane</a>, GF McBrearty, SP Mullen\u2026\_- US Patent\_\u2026, 2011\
@@ -1292,11 +1292,11 @@ interactions:
         \" data-rp=\"6\"><div class=\"gs_ggs gs_fl\"><div class=\"gs_ggsd\"><div class=\"\
         gs_or_ggsm\" ontouchstart=\"gs_evt_dsp(event)\" tabindex=\"-1\"><a href=\"\
         https://www.researchgate.net/profile/Mark_Hill5/publication/220696265_A_Primer_on_Memory_Consistency_and_Cache_Coherence/links/0fcfd511d6bdd63d0f000000/A-Primer-on-Memory-Consistency-and-Cache-Coherence.pdf\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=6&amp;d=15374706632851299340&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm1M4sYPOdxjBY5BEH01G-EMma-E0w&amp;nossl=1\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=6&amp;d=15374706632851299340&amp;ei=MTEQX6z0LoaSmgG4xZXYBQ&amp;scisig=AAGBfm1M4sYPOdxjBY5BEH01G-EMma-E0w&amp;nossl=1\"\
         \ data-clk-atid=\"DJzxUDnuXdUJ\"><span class=gs_ctg2>[PDF]</span> researchgate.net</a></div></div></div><div\
         \ class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><a\
         \ id=\"DJzxUDnuXdUJ\" href=\"https://www.morganclaypool.com/doi/abs/10.2200/S00346ED1V01Y201104CAC016\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=6&amp;d=15374706632851299340&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm33dtGFHxaFVzhEAm2g70Ci8e8O0w&amp;nossl=1\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=6&amp;d=15374706632851299340&amp;ei=MTEQX6z0LoaSmgG4xZXYBQ&amp;scisig=AAGBfm33dtGFHxaFVzhEAm2g70Ci8e8O0w&amp;nossl=1\"\
         \ data-clk-atid=\"DJzxUDnuXdUJ\">A primer on memory consistency and <b>cache\
         \ </b>coherence</a></h3><div class=\"gs_a\"><a href=\"/citations?user=bsoRFLAAAAAJ&amp;hl=en&amp;oi=sra\"\
         >DJ Sorin</a>, <a href=\"/citations?user=7lVfIWYAAAAJ&amp;hl=en&amp;oi=sra\"\
@@ -1328,11 +1328,11 @@ interactions:
         \" data-rp=\"7\"><div class=\"gs_ggs gs_fl\"><div class=\"gs_ggsd\"><div class=\"\
         gs_or_ggsm\" ontouchstart=\"gs_evt_dsp(event)\" tabindex=\"-1\"><a href=\"\
         https://patentimages.storage.googleapis.com/da/a6/45/30a70477017b97/US8065687.pdf\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=7&amp;d=16999662034153571021&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm32DE-tsCnNpKS7OMeNqS_li1SXRQ&amp;nossl=1\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=7&amp;d=16999662034153571021&amp;ei=MTEQX6z0LoaSmgG4xZXYBQ&amp;scisig=AAGBfm32DE-tsCnNpKS7OMeNqS_li1SXRQ&amp;nossl=1\"\
         \ data-clk-atid=\"zQJrT43u6usJ\"><span class=gs_ctg2>[PDF]</span> googleapis.com</a></div></div></div><div\
         \ class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><a\
         \ id=\"zQJrT43u6usJ\" href=\"https://patents.google.com/patent/US8065687B2/en\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=7&amp;d=16999662034153571021&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm2ezczGumsOuyqIuMNu-VBPkaqGFQ&amp;nossl=1\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=7&amp;d=16999662034153571021&amp;ei=MTEQX6z0LoaSmgG4xZXYBQ&amp;scisig=AAGBfm2ezczGumsOuyqIuMNu-VBPkaqGFQ&amp;nossl=1\"\
         \ data-clk-atid=\"zQJrT43u6usJ\"><b>Bypass </b>virtualization</a></h3><div\
         \ class=\"gs_a\">IITJ Purtell, W Chun, <a href=\"/citations?user=mtejbKYAAAAJ&amp;hl=en&amp;oi=sra\"\
         >M Carbin</a>\_- US Patent 8,065,687, 2011 - Google Patents</div><div class=\"\
@@ -1362,11 +1362,11 @@ interactions:
         \" data-rp=\"8\"><div class=\"gs_ggs gs_fl\"><div class=\"gs_ggsd\"><div class=\"\
         gs_or_ggsm\" ontouchstart=\"gs_evt_dsp(event)\" tabindex=\"-1\"><a href=\"\
         https://patentimages.storage.googleapis.com/29/03/4f/09965041a102fb/US6246683.pdf\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=8&amp;d=15563881266299381072&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm0QkmiD2YmAIqRpoJQZxoEUc2sXSA&amp;nossl=1\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=8&amp;d=15563881266299381072&amp;ei=MTEQX6z0LoaSmgG4xZXYBQ&amp;scisig=AAGBfm0QkmiD2YmAIqRpoJQZxoEUc2sXSA&amp;nossl=1\"\
         \ data-clk-atid=\"UKUh_IwD_tcJ\"><span class=gs_ctg2>[PDF]</span> googleapis.com</a></div></div></div><div\
         \ class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><a\
         \ id=\"UKUh_IwD_tcJ\" href=\"https://patents.google.com/patent/US6246683B1/en\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=8&amp;d=15563881266299381072&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm05gscUutGlFnLC2ok96FtyZ2N92g&amp;nossl=1\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=8&amp;d=15563881266299381072&amp;ei=MTEQX6z0LoaSmgG4xZXYBQ&amp;scisig=AAGBfm05gscUutGlFnLC2ok96FtyZ2N92g&amp;nossl=1\"\
         \ data-clk-atid=\"UKUh_IwD_tcJ\">Receive processing with network protocol\
         \ <b>bypass</b></a></h3><div class=\"gs_a\">GW Connery, G Jaszewski, R Reid\_\
         - US Patent 6,246,683, 2001 - Google Patents</div><div class=\"gs_rs\">\u2026\
@@ -1396,11 +1396,11 @@ interactions:
         \" data-rp=\"9\"><div class=\"gs_ggs gs_fl\"><div class=\"gs_ggsd\"><div class=\"\
         gs_or_ggsm\" ontouchstart=\"gs_evt_dsp(event)\" tabindex=\"-1\"><a href=\"\
         https://staff.ie.cuhk.edu.hk/~phfung/papers/nss10-httpslock.pdf\" data-clk=\"\
-        hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=9&amp;d=4849958156459396095&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm1mBnEhae4Xtz__1BdYRvJW9pYnxw&amp;nossl=1\"\
+        hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=9&amp;d=4849958156459396095&amp;ei=MTEQX6z0LoaSmgG4xZXYBQ&amp;scisig=AAGBfm1mBnEhae4Xtz__1BdYRvJW9pYnxw&amp;nossl=1\"\
         \ data-clk-atid=\"_0tFQz-DTkMJ\"><span class=gs_ctg2>[PDF]</span> cuhk.edu.hk</a></div></div></div><div\
         \ class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><a\
         \ id=\"_0tFQz-DTkMJ\" href=\"https://ieeexplore.ieee.org/abstract/document/5635495/\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=9&amp;d=4849958156459396095&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm3dv04-In14sClv5-KsbF_9YnyM7w&amp;nossl=1\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=9&amp;d=4849958156459396095&amp;ei=MTEQX6z0LoaSmgG4xZXYBQ&amp;scisig=AAGBfm3dv04-In14sClv5-KsbF_9YnyM7w&amp;nossl=1\"\
         \ data-clk-atid=\"_0tFQz-DTkMJ\">HTTPSLock: Enforcing HTTPS in unmodified\
         \ browsers with <b>cached </b>JavaScript</a></h3><div class=\"gs_a\">APH Fung,\
         \ KW Cheung\_- 2010 Fourth International Conference\_\u2026, 2010 - ieeexplore.ieee.org</div><div\
@@ -1429,12 +1429,12 @@ interactions:
         gs_r gs_or gs_scl\" data-cid=\"6v-EiW8v724J\" data-did=\"6v-EiW8v724J\" data-lid=\"\
         \" data-rp=\"10\"><div class=\"gs_ggs gs_fl\"><div class=\"gs_ggsd\"><div\
         \ class=\"gs_or_ggsm\" ontouchstart=\"gs_evt_dsp(event)\" tabindex=\"-1\"\
-        ><a href=\"https://eprint.iacr.org/2005/280.pdf\" data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=10&amp;d=7993660019700989930&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm214ee58zK9YLP2xphqsymELJJIqg&amp;nossl=1\"\
+        ><a href=\"https://eprint.iacr.org/2005/280.pdf\" data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=10&amp;d=7993660019700989930&amp;ei=MTEQX6z0LoaSmgG4xZXYBQ&amp;scisig=AAGBfm214ee58zK9YLP2xphqsymELJJIqg&amp;nossl=1\"\
         \ data-clk-atid=\"6v-EiW8v724J\"><span class=gs_ctg2>[PDF]</span> iacr.org</a></div></div></div><div\
         \ class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><span\
         \ class=\"gs_ctc\"><span class=\"gs_ct1\">[PDF]</span><span class=\"gs_ct2\"\
         >[PDF]</span></span> <a id=\"6v-EiW8v724J\" href=\"https://eprint.iacr.org/2005/280.pdf\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;oi=ggp&amp;ct=res&amp;cd=10&amp;d=7993660019700989930&amp;ei=vSsQX9qyMIaSmgG4xZXYBQ&amp;scisig=AAGBfm214ee58zK9YLP2xphqsymELJJIqg&amp;nossl=1\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;oi=ggp&amp;ct=res&amp;cd=10&amp;d=7993660019700989930&amp;ei=MTEQX6z0LoaSmgG4xZXYBQ&amp;scisig=AAGBfm214ee58zK9YLP2xphqsymELJJIqg&amp;nossl=1\"\
         \ data-clk-atid=\"6v-EiW8v724J\">Partitioned <b>Cache </b>Architecture as\
         \ a \u0116ide-Channel Defence Mechanism</a></h3><div class=\"gs_a\"><a href=\"\
         /citations?user=z55uDZcAAAAJ&amp;hl=en&amp;oi=sra\">D Page</a> - 2005 - eprint.iacr.org</div><div\
@@ -1511,11 +1511,11 @@ interactions:
       Cache-Control: private, max-age=0
       Content-Encoding: gzip
       Content-Type: text/html; charset=UTF-8
-      Date: Thu, 16 Jul 2020 10:28:13 GMT
-      Expires: Thu, 16 Jul 2020 10:28:13 GMT
+      Date: Thu, 16 Jul 2020 10:51:29 GMT
+      Expires: Thu, 16 Jul 2020 10:51:29 GMT
       P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
       Server: scholar
-      Set-Cookie: GSP=LM=1594895293:S=uMoHbljVTOk5jsns; expires=Sat, 16-Jul-2022 10:28:13
+      Set-Cookie: GSP=LM=1594896689:S=Mw4E8Ay62bKYL0l8; expires=Sat, 16-Jul-2022 10:51:29
         GMT; path=/; domain=scholar.google.gr; HttpOnly; SameSite=None; Secure
       Transfer-Encoding: chunked
       X-Content-Type-Options: nosniff

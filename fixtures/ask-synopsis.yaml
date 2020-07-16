@@ -7,8 +7,7 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like
-        Gecko) Chrome/19.0.1084.46 Safari/536.5
+      - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0
     method: GET
     uri: https://www.ask.com/web?o=0&l=dir&qo=pagination&q=Fake+cache+bypass&qsrc=998&page=1
   response:
@@ -34,15 +33,15 @@ interactions:
         \        window.rtkGPTSlotsTargeting = [\n            [       \n         \
         \       ['ptype', 'web'],\n                ['an', 'organic'],\n          \
         \      ['ad', 'dirN'],\n                ['ag', ''],\n                ['origin',\
-        \ '0'],\n                \n['ldid', ''],\n                ['EventID', 'ADEB2934-D755-4662-ACB4-8183F69C44FA'],\n\
-        \                ['PageSegment', '5'],\n                \n\n\n\n\n       \
+        \ '0'],\n                \n['ldid', ''],\n                ['EventID', '3BBCD9EB-B399-4712-B82D-08CBCD1AE994'],\n\
+        \                ['PageSegment', '2'],\n                \n\n\n\n\n       \
         \         \n            ],\n            {}\n        ];\n        \nwindow.rtkGPTSlotsTargeting[1]['/322166814/iacpl-test.www.ask.com/ask_300x250_HB']\
         \ = [['pos','right-1']];\n        \n\nvar jita_tg_params = {};\n        jita_tg_params['channel']\
         \ = 'web';\n        jita_tg_params['pageType'] = 'resultsPage';\n        jita_tg_params['an']\
         \ = 'organic';\n        jita_tg_params['ad'] = 'dirN';\n        \n\njita_tg_params['origin']\
         \ = '0';\n        jita_tg_params['ldId'] = '';\n        jita_tg_params['EventID']\
-        \ = 'ADEB2934-D755-4662-ACB4-8183F69C44FA';\n        jita_tg_params['PageSegment']\
-        \ = '5';\n        \n\n\n\n\n\n   \n\n    \n</script>\n\n\n<script type=\"\
+        \ = '3BBCD9EB-B399-4712-B82D-08CBCD1AE994';\n        jita_tg_params['PageSegment']\
+        \ = '2';\n        \n\n\n\n\n\n   \n\n    \n</script>\n\n\n<script type=\"\
         text/javascript\" src=\"//delivery.askmediagroup.com/mh1l/xPma/jita.js?dfp=1\"\
         \ async defer></script>\n\n\n\n<style>\n        .content-visible {\n     \
         \       visibility: hidden;\n        }\n    </style>\n\n    <noscript>\n \
@@ -220,10 +219,10 @@ interactions:
         \        }\n        }\n\n        function formatClicktrackUrl(adBlock, adBlockName)\
         \ {\n            var generatedClickTrackUrl;\n            if (!adBlock.clicktrackUrl\
         \ && adBlock.clicktrackSearch && adBlockName) {\n                if (adBlockName\
-        \ === \"topAdBlock\") {\n                    generatedClickTrackUrl = \"https://www.ask.com/web/_clk?qsrc=998&qo=&gclid=&askid=&isSemPixelEnabled=false&pl=%7B%22anuaafl%22%3A%220%22%2C%22anuadc%22%3A%22use1%22%2C%22anuaqs%22%3A%22%22%2C%22anxu%22%3A%22http%3A%2F%2Fwww.ask.com%2Fweb%3Fo%3D0%26l%3Ddir%26qo%3Dpagination%26q%3DFake%2Bcache%2Bbypass%26qsrc%3D998%26page%3D1%22%2C%22anuaad%22%3A%22dirN%22%2C%22anuapbr%22%3A%22%22%2C%22anuaan%22%3A%22%22%2C%22anuaamt%22%3A%22%22%2C%22anuaagc%22%3A%22%22%2C%22anuaadid%22%3A%22%22%2C%22anuaptp%22%3A%22resultsPage%22%2C%22anuachl%22%3A%22web%22%2C%22anuasv%22%3A%22v1%22%2C%22anuaprdd%22%3A%22search%22%2C%22anxa%22%3A%22Archie_Askus%22%2C%22anxp%22%3A%22ask.com%22%2C%22anualcl%22%3A%22us%22%2C%22anuaapp%22%3A%22%7B%5C%22zoneName%5C%22%3A%5C%22center%5C%22%2C%5C%22moduleName%5C%22%3A%5C%22gslTop%5C%22%2C%5C%22providerSource%5C%22%3A%5C%22csa%5C%22%2C%5C%22resultType%5C%22%3A%5C%22gsl%5C%22%2C%5C%22metaInfo%5C%22%3A%7B%5C%22adType%5C%22%3A%5C%22csa%5C%22%2C%5C%22client%5C%22%3A%5C%22aj-cat-intl%5C%22%2C%5C%22clientChannel%5C%22%3A%5C%22ud_desktop%2Corig_page%2Cask-non-dla%5C%22%7D%2C%5C%22pageViewId%5C%22%3A%5C%228767f95e7fa0b2d204b373fafa5137c3%5C%22%2C%5C%22queryOrigination%5C%22%3A%5C%22pagination%5C%22%2C%5C%22templateId%5C%22%3A%5C%22desktop%5C%22%2C%5C%22queryTerm%5C%22%3A%5C%22Fake%20cache%20bypass%5C%22%2C%5C%22category%5C%22%3A%5C%22Technology%5C%22%7D%22%2C%22anuapn%22%3A1%2C%22anuaptl%22%3A%22%22%7D&csaClick=true\"\
+        \ === \"topAdBlock\") {\n                    generatedClickTrackUrl = \"https://www.ask.com/web/_clk?qsrc=998&qo=&gclid=&askid=&isSemPixelEnabled=false&pl=%7B%22anuaafl%22%3A%220%22%2C%22anuadc%22%3A%22use1%22%2C%22anuaqs%22%3A%22%22%2C%22anxu%22%3A%22http%3A%2F%2Fwww.ask.com%2Fweb%3Fo%3D0%26l%3Ddir%26qo%3Dpagination%26q%3DFake%2Bcache%2Bbypass%26qsrc%3D998%26page%3D1%22%2C%22anuaad%22%3A%22dirN%22%2C%22anuapbr%22%3A%22%22%2C%22anuaan%22%3A%22%22%2C%22anuaamt%22%3A%22%22%2C%22anuaagc%22%3A%22%22%2C%22anuaadid%22%3A%22%22%2C%22anuaptp%22%3A%22resultsPage%22%2C%22anuachl%22%3A%22web%22%2C%22anuasv%22%3A%22v1%22%2C%22anuaprdd%22%3A%22search%22%2C%22anxa%22%3A%22Archie_Askus%22%2C%22anxp%22%3A%22ask.com%22%2C%22anualcl%22%3A%22us%22%2C%22anuaapp%22%3A%22%7B%5C%22zoneName%5C%22%3A%5C%22center%5C%22%2C%5C%22moduleName%5C%22%3A%5C%22gslTop%5C%22%2C%5C%22providerSource%5C%22%3A%5C%22csa%5C%22%2C%5C%22resultType%5C%22%3A%5C%22gsl%5C%22%2C%5C%22metaInfo%5C%22%3A%7B%5C%22adType%5C%22%3A%5C%22csa%5C%22%2C%5C%22client%5C%22%3A%5C%22aj-cat-intl%5C%22%2C%5C%22clientChannel%5C%22%3A%5C%22ud_desktop%2Corig_page%2Cask-non-dla%5C%22%7D%2C%5C%22pageViewId%5C%22%3A%5C%223aa8be45df89608075c717c5a69fb580%5C%22%2C%5C%22queryOrigination%5C%22%3A%5C%22pagination%5C%22%2C%5C%22templateId%5C%22%3A%5C%22desktop%5C%22%2C%5C%22queryTerm%5C%22%3A%5C%22Fake%20cache%20bypass%5C%22%2C%5C%22category%5C%22%3A%5C%22Technology%5C%22%7D%22%2C%22anuapn%22%3A1%2C%22anuaptl%22%3A%22%22%7D&csaClick=true\"\
         ;\n                } else if (adBlockName === \"middleAdBlock\") {\n     \
         \               generatedClickTrackUrl = \"\";\n                } else {\n\
-        \                    generatedClickTrackUrl = \"https://www.ask.com/web/_clk?qsrc=998&qo=&gclid=&askid=&isSemPixelEnabled=false&pl=%7B%22anuaafl%22%3A%220%22%2C%22anuadc%22%3A%22use1%22%2C%22anuaqs%22%3A%22%22%2C%22anxu%22%3A%22http%3A%2F%2Fwww.ask.com%2Fweb%3Fo%3D0%26l%3Ddir%26qo%3Dpagination%26q%3DFake%2Bcache%2Bbypass%26qsrc%3D998%26page%3D1%22%2C%22anuaad%22%3A%22dirN%22%2C%22anuapbr%22%3A%22%22%2C%22anuaan%22%3A%22%22%2C%22anuaamt%22%3A%22%22%2C%22anuaagc%22%3A%22%22%2C%22anuaadid%22%3A%22%22%2C%22anuaptp%22%3A%22resultsPage%22%2C%22anuachl%22%3A%22web%22%2C%22anuasv%22%3A%22v1%22%2C%22anuaprdd%22%3A%22search%22%2C%22anxa%22%3A%22Archie_Askus%22%2C%22anxp%22%3A%22ask.com%22%2C%22anualcl%22%3A%22us%22%2C%22anuaapp%22%3A%22%7B%5C%22zoneName%5C%22%3A%5C%22center%5C%22%2C%5C%22moduleName%5C%22%3A%5C%22gslBottom%5C%22%2C%5C%22providerSource%5C%22%3A%5C%22csa%5C%22%2C%5C%22resultType%5C%22%3A%5C%22gsl%5C%22%2C%5C%22metaInfo%5C%22%3A%7B%5C%22adType%5C%22%3A%5C%22csa%5C%22%2C%5C%22client%5C%22%3A%5C%22aj-cat-intl%5C%22%2C%5C%22clientChannel%5C%22%3A%5C%22ud_desktop%2Corig_page%2Cask-non-dla%5C%22%7D%2C%5C%22pageViewId%5C%22%3A%5C%228767f95e7fa0b2d204b373fafa5137c3%5C%22%2C%5C%22queryOrigination%5C%22%3A%5C%22pagination%5C%22%2C%5C%22templateId%5C%22%3A%5C%22desktop%5C%22%2C%5C%22queryTerm%5C%22%3A%5C%22Fake%20cache%20bypass%5C%22%2C%5C%22category%5C%22%3A%5C%22Technology%5C%22%7D%22%2C%22anuapn%22%3A1%2C%22anuaptl%22%3A%22%22%7D&csaClick=true\"\
+        \                    generatedClickTrackUrl = \"https://www.ask.com/web/_clk?qsrc=998&qo=&gclid=&askid=&isSemPixelEnabled=false&pl=%7B%22anuaafl%22%3A%220%22%2C%22anuadc%22%3A%22use1%22%2C%22anuaqs%22%3A%22%22%2C%22anxu%22%3A%22http%3A%2F%2Fwww.ask.com%2Fweb%3Fo%3D0%26l%3Ddir%26qo%3Dpagination%26q%3DFake%2Bcache%2Bbypass%26qsrc%3D998%26page%3D1%22%2C%22anuaad%22%3A%22dirN%22%2C%22anuapbr%22%3A%22%22%2C%22anuaan%22%3A%22%22%2C%22anuaamt%22%3A%22%22%2C%22anuaagc%22%3A%22%22%2C%22anuaadid%22%3A%22%22%2C%22anuaptp%22%3A%22resultsPage%22%2C%22anuachl%22%3A%22web%22%2C%22anuasv%22%3A%22v1%22%2C%22anuaprdd%22%3A%22search%22%2C%22anxa%22%3A%22Archie_Askus%22%2C%22anxp%22%3A%22ask.com%22%2C%22anualcl%22%3A%22us%22%2C%22anuaapp%22%3A%22%7B%5C%22zoneName%5C%22%3A%5C%22center%5C%22%2C%5C%22moduleName%5C%22%3A%5C%22gslBottom%5C%22%2C%5C%22providerSource%5C%22%3A%5C%22csa%5C%22%2C%5C%22resultType%5C%22%3A%5C%22gsl%5C%22%2C%5C%22metaInfo%5C%22%3A%7B%5C%22adType%5C%22%3A%5C%22csa%5C%22%2C%5C%22client%5C%22%3A%5C%22aj-cat-intl%5C%22%2C%5C%22clientChannel%5C%22%3A%5C%22ud_desktop%2Corig_page%2Cask-non-dla%5C%22%7D%2C%5C%22pageViewId%5C%22%3A%5C%223aa8be45df89608075c717c5a69fb580%5C%22%2C%5C%22queryOrigination%5C%22%3A%5C%22pagination%5C%22%2C%5C%22templateId%5C%22%3A%5C%22desktop%5C%22%2C%5C%22queryTerm%5C%22%3A%5C%22Fake%20cache%20bypass%5C%22%2C%5C%22category%5C%22%3A%5C%22Technology%5C%22%7D%22%2C%22anuapn%22%3A1%2C%22anuaptl%22%3A%22%22%7D&csaClick=true\"\
         ;\n                }\n\n                adBlock.clicktrackUrl = generatedClickTrackUrl;\n\
         \                delete adBlock.clicktrackSearch;\n            }\n       \
         \     return adBlock;\n        }\n\n        _googCsa('jsLoadedCallback', function\
@@ -244,7 +243,7 @@ interactions:
         5\",\"fontSizeTitle\":\"18\",\"fontSizeDescription\":\"13\",\"fontSizeDomainLink\"\
         :\"14\",\"fontSizeAttribution\":\"13\",\"lineHeightTitle\":\"24\",\"lineHeightDescription\"\
         :\"18\",\"lineHeightDomainLink\":\"18\",\"verticalSpacing\":\"16\",\"detailedAttribution\"\
-        :true,\"colorTitleLink\":\"#3300b5\",\"clicktrackSearch\":\"qsrc=998&qo=&gclid=&askid=&isSemPixelEnabled=false&pl=%7B%22anuaafl%22%3A%220%22%2C%22anuadc%22%3A%22use1%22%2C%22anuaqs%22%3A%22%22%2C%22anxu%22%3A%22http%3A%2F%2Fwww.ask.com%2Fweb%3Fo%3D0%26l%3Ddir%26qo%3Dpagination%26q%3DFake%2Bcache%2Bbypass%26qsrc%3D998%26page%3D1%22%2C%22anuaad%22%3A%22dirN%22%2C%22anuapbr%22%3A%22%22%2C%22anuaan%22%3A%22%22%2C%22anuaamt%22%3A%22%22%2C%22anuaagc%22%3A%22%22%2C%22anuaadid%22%3A%22%22%2C%22anuaptp%22%3A%22resultsPage%22%2C%22anuachl%22%3A%22web%22%2C%22anuasv%22%3A%22v1%22%2C%22anuaprdd%22%3A%22search%22%2C%22anxa%22%3A%22Archie_Askus%22%2C%22anxp%22%3A%22ask.com%22%2C%22anualcl%22%3A%22us%22%2C%22anuaapp%22%3A%22%7B%5C%22zoneName%5C%22%3A%5C%22center%5C%22%2C%5C%22moduleName%5C%22%3A%5C%22gslTop%5C%22%2C%5C%22providerSource%5C%22%3A%5C%22csa%5C%22%2C%5C%22resultType%5C%22%3A%5C%22gsl%5C%22%2C%5C%22metaInfo%5C%22%3A%7B%5C%22adType%5C%22%3A%5C%22csa%5C%22%2C%5C%22client%5C%22%3A%5C%22aj-cat-intl%5C%22%2C%5C%22clientChannel%5C%22%3A%5C%22ud_desktop%2Corig_page%2Cask-non-dla%5C%22%7D%2C%5C%22pageViewId%5C%22%3A%5C%228767f95e7fa0b2d204b373fafa5137c3%5C%22%2C%5C%22queryOrigination%5C%22%3A%5C%22pagination%5C%22%2C%5C%22templateId%5C%22%3A%5C%22desktop%5C%22%2C%5C%22queryTerm%5C%22%3A%5C%22Fake%20cache%20bypass%5C%22%2C%5C%22category%5C%22%3A%5C%22Technology%5C%22%7D%22%2C%22anuapn%22%3A1%2C%22anuaptl%22%3A%22%22%7D&csaClick=true\"\
+        :true,\"colorTitleLink\":\"#3300b5\",\"clicktrackSearch\":\"qsrc=998&qo=&gclid=&askid=&isSemPixelEnabled=false&pl=%7B%22anuaafl%22%3A%220%22%2C%22anuadc%22%3A%22use1%22%2C%22anuaqs%22%3A%22%22%2C%22anxu%22%3A%22http%3A%2F%2Fwww.ask.com%2Fweb%3Fo%3D0%26l%3Ddir%26qo%3Dpagination%26q%3DFake%2Bcache%2Bbypass%26qsrc%3D998%26page%3D1%22%2C%22anuaad%22%3A%22dirN%22%2C%22anuapbr%22%3A%22%22%2C%22anuaan%22%3A%22%22%2C%22anuaamt%22%3A%22%22%2C%22anuaagc%22%3A%22%22%2C%22anuaadid%22%3A%22%22%2C%22anuaptp%22%3A%22resultsPage%22%2C%22anuachl%22%3A%22web%22%2C%22anuasv%22%3A%22v1%22%2C%22anuaprdd%22%3A%22search%22%2C%22anxa%22%3A%22Archie_Askus%22%2C%22anxp%22%3A%22ask.com%22%2C%22anualcl%22%3A%22us%22%2C%22anuaapp%22%3A%22%7B%5C%22zoneName%5C%22%3A%5C%22center%5C%22%2C%5C%22moduleName%5C%22%3A%5C%22gslTop%5C%22%2C%5C%22providerSource%5C%22%3A%5C%22csa%5C%22%2C%5C%22resultType%5C%22%3A%5C%22gsl%5C%22%2C%5C%22metaInfo%5C%22%3A%7B%5C%22adType%5C%22%3A%5C%22csa%5C%22%2C%5C%22client%5C%22%3A%5C%22aj-cat-intl%5C%22%2C%5C%22clientChannel%5C%22%3A%5C%22ud_desktop%2Corig_page%2Cask-non-dla%5C%22%7D%2C%5C%22pageViewId%5C%22%3A%5C%223aa8be45df89608075c717c5a69fb580%5C%22%2C%5C%22queryOrigination%5C%22%3A%5C%22pagination%5C%22%2C%5C%22templateId%5C%22%3A%5C%22desktop%5C%22%2C%5C%22queryTerm%5C%22%3A%5C%22Fake%20cache%20bypass%5C%22%2C%5C%22category%5C%22%3A%5C%22Technology%5C%22%7D%22%2C%22anuapn%22%3A1%2C%22anuaptl%22%3A%22%22%7D&csaClick=true\"\
         },\"bottomAdBlock\":{\"colorAttribution\":\"#333333\",\"colorDomainLink\"\
         :\"#0E7744\",\"width\":\"99.5%\",\"clickableBackgrounds\":true,\"colorText\"\
         :\"#333333\",\"container\":\"text-ad-block-1\",\"longerHeadlines\":true,\"\
@@ -253,7 +252,7 @@ interactions:
         :\"13\",\"fontSizeDomainLink\":\"14\",\"fontSizeAttribution\":\"13\",\"lineHeightTitle\"\
         :\"24\",\"lineHeightDescription\":\"18\",\"lineHeightDomainLink\":\"18\",\"\
         verticalSpacing\":\"16\",\"detailedAttribution\":true,\"colorTitleLink\":\"\
-        #3300b5\",\"clicktrackSearch\":\"qsrc=998&qo=&gclid=&askid=&isSemPixelEnabled=false&pl=%7B%22anuaafl%22%3A%220%22%2C%22anuadc%22%3A%22use1%22%2C%22anuaqs%22%3A%22%22%2C%22anxu%22%3A%22http%3A%2F%2Fwww.ask.com%2Fweb%3Fo%3D0%26l%3Ddir%26qo%3Dpagination%26q%3DFake%2Bcache%2Bbypass%26qsrc%3D998%26page%3D1%22%2C%22anuaad%22%3A%22dirN%22%2C%22anuapbr%22%3A%22%22%2C%22anuaan%22%3A%22%22%2C%22anuaamt%22%3A%22%22%2C%22anuaagc%22%3A%22%22%2C%22anuaadid%22%3A%22%22%2C%22anuaptp%22%3A%22resultsPage%22%2C%22anuachl%22%3A%22web%22%2C%22anuasv%22%3A%22v1%22%2C%22anuaprdd%22%3A%22search%22%2C%22anxa%22%3A%22Archie_Askus%22%2C%22anxp%22%3A%22ask.com%22%2C%22anualcl%22%3A%22us%22%2C%22anuaapp%22%3A%22%7B%5C%22zoneName%5C%22%3A%5C%22center%5C%22%2C%5C%22moduleName%5C%22%3A%5C%22gslBottom%5C%22%2C%5C%22providerSource%5C%22%3A%5C%22csa%5C%22%2C%5C%22resultType%5C%22%3A%5C%22gsl%5C%22%2C%5C%22metaInfo%5C%22%3A%7B%5C%22adType%5C%22%3A%5C%22csa%5C%22%2C%5C%22client%5C%22%3A%5C%22aj-cat-intl%5C%22%2C%5C%22clientChannel%5C%22%3A%5C%22ud_desktop%2Corig_page%2Cask-non-dla%5C%22%7D%2C%5C%22pageViewId%5C%22%3A%5C%228767f95e7fa0b2d204b373fafa5137c3%5C%22%2C%5C%22queryOrigination%5C%22%3A%5C%22pagination%5C%22%2C%5C%22templateId%5C%22%3A%5C%22desktop%5C%22%2C%5C%22queryTerm%5C%22%3A%5C%22Fake%20cache%20bypass%5C%22%2C%5C%22category%5C%22%3A%5C%22Technology%5C%22%7D%22%2C%22anuapn%22%3A1%2C%22anuaptl%22%3A%22%22%7D&csaClick=true\"\
+        #3300b5\",\"clicktrackSearch\":\"qsrc=998&qo=&gclid=&askid=&isSemPixelEnabled=false&pl=%7B%22anuaafl%22%3A%220%22%2C%22anuadc%22%3A%22use1%22%2C%22anuaqs%22%3A%22%22%2C%22anxu%22%3A%22http%3A%2F%2Fwww.ask.com%2Fweb%3Fo%3D0%26l%3Ddir%26qo%3Dpagination%26q%3DFake%2Bcache%2Bbypass%26qsrc%3D998%26page%3D1%22%2C%22anuaad%22%3A%22dirN%22%2C%22anuapbr%22%3A%22%22%2C%22anuaan%22%3A%22%22%2C%22anuaamt%22%3A%22%22%2C%22anuaagc%22%3A%22%22%2C%22anuaadid%22%3A%22%22%2C%22anuaptp%22%3A%22resultsPage%22%2C%22anuachl%22%3A%22web%22%2C%22anuasv%22%3A%22v1%22%2C%22anuaprdd%22%3A%22search%22%2C%22anxa%22%3A%22Archie_Askus%22%2C%22anxp%22%3A%22ask.com%22%2C%22anualcl%22%3A%22us%22%2C%22anuaapp%22%3A%22%7B%5C%22zoneName%5C%22%3A%5C%22center%5C%22%2C%5C%22moduleName%5C%22%3A%5C%22gslBottom%5C%22%2C%5C%22providerSource%5C%22%3A%5C%22csa%5C%22%2C%5C%22resultType%5C%22%3A%5C%22gsl%5C%22%2C%5C%22metaInfo%5C%22%3A%7B%5C%22adType%5C%22%3A%5C%22csa%5C%22%2C%5C%22client%5C%22%3A%5C%22aj-cat-intl%5C%22%2C%5C%22clientChannel%5C%22%3A%5C%22ud_desktop%2Corig_page%2Cask-non-dla%5C%22%7D%2C%5C%22pageViewId%5C%22%3A%5C%223aa8be45df89608075c717c5a69fb580%5C%22%2C%5C%22queryOrigination%5C%22%3A%5C%22pagination%5C%22%2C%5C%22templateId%5C%22%3A%5C%22desktop%5C%22%2C%5C%22queryTerm%5C%22%3A%5C%22Fake%20cache%20bypass%5C%22%2C%5C%22category%5C%22%3A%5C%22Technology%5C%22%7D%22%2C%22anuapn%22%3A1%2C%22anuaptl%22%3A%22%22%7D&csaClick=true\"\
         }}'),\npageOptions = ask.CSA.pageOptions = csaData.pageOptions,\n        \
         \            csaArgs = ['ads'];\n\n            csaData.pageOptions.query =\
         \ decodeURIComponent(csaData.pageOptions.query);\n\n            if (!pageOptions\
@@ -309,8 +308,8 @@ interactions:
         \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<script>\n        var isDataLayerDefined\
         \ = (typeof dataLayer !== \"undefined\");\n\n        var dataObj = {\n   \
         \         \"ldid\": \"\",\n            \"channel\": \"web\",\n           \
-        \ \"affiliateid\": \"0\",\n            \"sessionid\": \"1650414175\",\n  \
-        \          \"acquisitiondivision\": \"dirN\"\n        };\n\n        \n\n\n\
+        \ \"affiliateid\": \"0\",\n            \"sessionid\": \"824794394\",\n   \
+        \         \"acquisitiondivision\": \"dirN\"\n        };\n\n        \n\n\n\
         if (isDataLayerDefined) {\n            dataLayer.push(dataObj);\n        }\
         \ else {\n            var dataLayer = [dataObj];\n        }\n\n    </script>\n\
         \n    \n    <noscript><iframe src=\"//www.googletagmanager.com/ns.html?id=GTM-T3KVMC\"\
@@ -639,11 +638,11 @@ interactions:
         \                    }\n                } else {\n                    $(event.contextSelector).on(event.type,\
         \ event.elementSelector || null, event.handler);\n                }\n    \
         \        }\n        }\n    });\n</script>\n    \n\n    \n\n\n<script>\n  \
-        \      var _UnifiedApiParams = {\"uniqueUser\":\"AAF146BB-C32F-4420-A4A1-2A47C293A7F1\"\
-        ,\"appId\":\"Archie_Askus\",\"appVersion\":\"8deb6a8\",\"appDate\":\"2020-07-15T10:50:36Z\"\
+        \      var _UnifiedApiParams = {\"uniqueUser\":\"DCAC8364-DA7D-4221-9350-B3BEC307661E\"\
+        ,\"appId\":\"Archie_Askus\",\"appVersion\":\"8deb6a8\",\"appDate\":\"2020-07-15T10:50:34Z\"\
         ,\"logPageView\":false,\"updateSession\":false,\"domain\":\"ask.com\",\"url\"\
         :\"www.ask.com/log/browser/event\",\"backFillRequired\":false,\"eventId\"\
-        :\"ADEB2934-D755-4662-ACB4-8183F69C44FA\",\"maxSession\":30,\"suppressCookies\"\
+        :\"3BBCD9EB-B399-4712-B82D-08CBCD1AE994\",\"maxSession\":30,\"suppressCookies\"\
         :false,\"cookieExpirationMinutes\":129600,\"newSessionOnDomainChange\":false,\"\
         cookieName\":\"uc\"};\n        _UnifiedApiParams.url = ((\"https:\" === window.location.protocol)?\
         \ \"https://\" : \"http://\" ) + _UnifiedApiParams.url;\n    </script>\n\n\
@@ -656,17 +655,17 @@ interactions:
         \               var ask = window.ask;\n                        ask.unified\
         \ = ask.unified || {};\n                        ask.unified.pageContext =\
         \ {\"anuaaf\":\"Archie\",\"anxut\":\"UNIFIED\",\"anuaci\":\"105.112.176.82\"\
-        ,\"anuaafl\":\"0\",\"anxsn\":\"ask-sites-2703139565-vmz9r\",\"anuahm\":\"\
+        ,\"anuaafl\":\"0\",\"anxsn\":\"ask-sites-2703139565-ds7ps\",\"anuahm\":\"\
         GET\",\"anuadc\":\"use1\",\"anuaqs\":\"o=0&l=dir&qo=pagination&q=Fake+cache+bypass&qsrc=998&page=1\"\
         ,\"anxu\":\"http://www.ask.com/web?o=0&l=dir&qo=pagination&q=Fake+cache+bypass&qsrc=998&page=1\"\
         ,\"anuaad\":\"dirN\",\"anuapbr\":\"\",\"anuaan\":\"\",\"anuaamt\":\"\",\"\
         anuaagc\":\"\",\"anuaadid\":\"\",\"ucctr\":\"\",\"ucctn\":\"\",\"ucs\":\"\"\
         ,\"ucdm\":\"\",\"uccnt\":\"\",\"ucpc\":\"\",\"anuadtp\":\"desktop\",\"anxbt\"\
         :\"\",\"anxbv\":\"\",\"anxpt\":\"\",\"anxpv\":\"\",\"anxcd\":\"\",\"anxw\"\
-        :\"\",\"anxh\":\"\",\"anxv\":\"8deb6a8\",\"anxd\":\"2020-07-15T10:50:36.206Z\"\
+        :\"\",\"anxh\":\"\",\"anxv\":\"8deb6a8\",\"anxd\":\"2020-07-15T10:50:34.912Z\"\
         ,\"anuaptp\":\"resultsPage\",\"anuachl\":\"web\",\"anuasv\":\"v1\",\"anuaprdd\"\
         :\"search\",\"anxa\":\"Archie_Askus\",\"anxp\":\"ask.com\",\"anualcl\":\"\
-        us\",\"anuaapp\":\"{\\\"pageViewId\\\":\\\"8767f95e7fa0b2d204b373fafa5137c3\\\
+        us\",\"anuaapp\":\"{\\\"pageViewId\\\":\\\"3aa8be45df89608075c717c5a69fb580\\\
         \",\\\"queryOrigination\\\":\\\"pagination\\\",\\\"templateId\\\":\\\"desktop\\\
         \",\\\"queryTerm\\\":\\\"Fake cache bypass\\\",\\\"category\\\":\\\"Technology\\\
         \"}\",\"anuapn\":1,\"anuaptl\":\"Fake cache bypass, Ask.com - What's Your\
@@ -999,7 +998,7 @@ interactions:
       Content-Encoding: gzip
       Content-Security-Policy: frame-ancestors 'none';
       Content-Type: text/html; charset=utf-8
-      Date: Thu, 16 Jul 2020 10:28:31 GMT
+      Date: Thu, 16 Jul 2020 10:51:46 GMT
       Server: nginx
       Set-Cookie: domain=www.ask.com; Domain=.ask.com; Path=/
       Transfer-Encoding: chunked
@@ -1010,8 +1009,8 @@ interactions:
       X-Cache-Hits: '0'
       X-Frame-Options: DENY
       X-Robots-Tag: noindex, nofollow
-      X-Served-By: cache-bom4740-BOM
-      X-Timer: S1594895311.225036,VS0,VE320
+      X-Served-By: cache-bom4746-BOM
+      X-Timer: S1594896706.258953,VS0,VE290
       X-XSS-Protection: '1'
     status:
       code: 200

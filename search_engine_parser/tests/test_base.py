@@ -49,7 +49,7 @@ class EngineBaseTest(unittest.TestCase):
     """
     @classmethod
     def vcr_search(cls, *args, **kwargs):
-        with vcr.use_cassette('fixtures/{}-synopsis.yaml'.format(cls.name), record_mode='once'):
+        with vcr.use_cassette('fixtures/{}-synopsis.yaml'.format(cls.name), record_mode='new_episodes'):
             cls.results = cls.engine.search(*args, **kwargs)
 
     def setUp(self):
@@ -177,7 +177,7 @@ class TestScraping(unittest.TestCase):
         if not self.engine.name.lower() == "coursera":
             self.assertTrue(len(self.results['descriptions']) >= 8)
         else:
-            self.assertTrue(len(self.results["difficulties"]) >=8)
+            self.assertTrue(len(self.results["difficulties"]) >= 8)
 
     def test_links(self):
         print("{}:::::".format(self.name))

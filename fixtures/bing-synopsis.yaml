@@ -7,8 +7,7 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - Mozilla/5.0 (Windows; Windows NT 6.1) AppleWebKit/536.5 (KHTML, like Gecko)
-        Chrome/19.0.1084.46 Safari/536.5
+      - Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100 101 Firefox/22.0
     method: GET
     uri: https://www.bing.com/search?q=Fake+cache+bypass&offset=0&first=1&count=10&FORM=PERE
   response:
@@ -21,28 +20,17 @@ interactions:
         \ /><link href=\"/search?format=rss&amp;q=Fake+cache+bypass&amp;offset=0&amp;first=1&amp;count=10&amp;FORM=PERE\"\
         \ rel=\"alternate\" title=\"XML\" type=\"text/xml\" /><link href=\"/search?format=rss&amp;q=Fake+cache+bypass&amp;offset=0&amp;first=1&amp;count=10&amp;FORM=PERE\"\
         \ rel=\"alternate\" title=\"RSS\" type=\"application/rss+xml\" /><link href=\"\
-        /sa/simg/bing_p_rr_teal_min.ico\" rel=\"shortcut icon\" /><link href=\"/sa/simg/Roboto_Regular.woff2\"\
-        \ rel=\"preload\" type=\"font/woff2\" as=\"font\" crossorigin=\"anonymous\"\
-        \ /><link href=\"/sa/simg/Roboto_Light.woff2\" rel=\"preload\" type=\"font/woff2\"\
-        \ as=\"font\" crossorigin=\"anonymous\" /><link href=\"/sa/simg/Roboto_Semibold.woff2\"\
-        \ rel=\"preload\" type=\"font/woff2\" as=\"font\" crossorigin=\"anonymous\"\
-        \ /><script type=\"text/javascript\">//<![CDATA[\n_G={ST:(typeof si_ST!=='undefined'?si_ST:new\
-        \ Date),Mkt:\"en-US\",RevIpCC:\"ng\",RTL:false,Ver:\"29\",IG:\"0745E31E38E14066B23723B69F39C5E3\"\
-        ,EventID:\"43B30A830B3947279373032249D338F8\",V:\"web\",P:\"SERP\",DA:\"DUB02\"\
-        ,CID:\"26862E8AA7C76E6C2B9B2183A6DA6F61\",SUIH:\"WBXaJic0Bm39AGllaM-OIw\"\
-        ,adc:\"b_ad\",EF:{cookss:1,},gpUrl:\"\\/fd\\/ls\\/GLinkPing.aspx?\" }; _G.lsUrl=\"\
-        /fd/ls/l?IG=\"+_G.IG+\"&CID=\"+_G.CID ;curUrl=\"https:\\/\\/www.bing.com\\\
-        /search\";function si_T(a){ if(document.images){_G.GPImg=new Image;_G.GPImg.src=_G.gpUrl+'IG='+_G.IG+'&CID='+_G.CID+'&'+a;}return\
+        /sa/simg/bing_p_rr_teal_min.ico\" rel=\"shortcut icon\" /><script type=\"\
+        text/javascript\">//<![CDATA[\n_G={ST:(typeof si_ST!=='undefined'?si_ST:new\
+        \ Date),Mkt:\"en-US\",RevIpCC:\"ng\",RTL:false,Ver:\"29\",IG:\"01017CC749A5487F98343495F2AF156F\"\
+        ,EventID:\"2DE82D2781994437AD64B3DF7E3ACF3D\",V:\"web\",P:\"SERP\",DA:\"DUB02\"\
+        ,CID:\"2122986DE4B16E910F759764E5AC6F09\",SUIH:\"qPHkWuVuKP2ppZyyVRQ9dg\"\
+        ,adc:\"b_ad\",gpUrl:\"\\/fd\\/ls\\/GLinkPing.aspx?\" }; _G.lsUrl=\"/fd/ls/l?IG=\"\
+        +_G.IG+\"&CID=\"+_G.CID ;curUrl=\"https:\\/\\/www.bing.com\\/search\";function\
+        \ si_T(a){ if(document.images){_G.GPImg=new Image;_G.GPImg.src=_G.gpUrl+'IG='+_G.IG+'&CID='+_G.CID+'&'+a;}return\
         \ true;};/*!DisableJavascriptProfiler*/\r\n0;\r\n;/*!DisableJavascriptProfiler*/\n\
         0;/*!DisableJavascriptProfiler*/\r\n0;\r\n;\n//]]></script><style type=\"\
-        text/css\">@font-face{font-family:'Roboto Light';src:url(/sa/simg/Roboto_Light.woff2)\
-        \ format('woff2');unicode-range:U+0-FF,U+131,U+152-153,U+2BB-2BC,U+2C6,U+2DA,U+2DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215}@font-face{font-family:'Roboto';src:url(/sa/simg/Roboto_Regular.woff2)\
-        \ format('woff2');unicode-range:U+0-FF,U+131,U+152-153,U+2BB-2BC,U+2C6,U+2DA,U+2DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215}@font-face{font-family:'Roboto\
-        \ Semibold';src:url(/sa/simg/Roboto_Semibold.woff2) format('woff2');unicode-range:U+0-FF,U+131,U+152-153,U+2BB-2BC,U+2C6,U+2DA,U+2DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215}@font-face{font-family:'Roboto';font-weight:200;src:url(/sa/simg/Roboto_Light.woff2)\
-        \ format('woff2');unicode-range:U+0-FF,U+131,U+152-153,U+2BB-2BC,U+2C6,U+2DA,U+2DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215}@font-face{font-family:'Roboto';font-weight:300;src:url(/sa/simg/Roboto_Light.woff2)\
-        \ format('woff2');unicode-range:U+0-FF,U+131,U+152-153,U+2BB-2BC,U+2C6,U+2DA,U+2DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215}@font-face{font-family:'Roboto';font-weight:600;src:url(/sa/simg/Roboto_Semibold.woff2)\
-        \ format('woff2');unicode-range:U+0-FF,U+131,U+152-153,U+2BB-2BC,U+2C6,U+2DA,U+2DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215}@font-face{font-family:'Roboto';font-weight:700;src:url(/sa/simg/Roboto_Semibold.woff2)\
-        \ format('woff2');unicode-range:U+0-FF,U+131,U+152-153,U+2BB-2BC,U+2C6,U+2DA,U+2DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215}.sw_ddbk:after,.sw_ddw:after,.sw_ddgn:after,.sw_poi:after,.sw_poia:after,.sw_play:after,.sw_playa:after,.sw_playd:after,.sw_playp:after,.sw_st:after,.sw_sth:after,.sw_ste:after,.sw_st2:after,.sw_plus:after,.sw_tpcg:after,.sw_tpcw:after,.sw_tpcbk:after,.sw_arwh:after,.sw_close:after,.sb_pagN:after,.sb_pagP:after,.sw_up:after,.sw_down:after,.b_expandToggle:after,.sw_calc:after,.sw_fbi:after,.sw_twi:after,.b_fLogo:after,.b_cm:after,.sw_rmore:after,.sw_tpo:after,.sw_tpoa:after,.sw_lpoi:after,.sw_skp:after{position:relative;content:url(/sa/simg/SharedSpriteDesktop_ClearX_2x_030520.png?v=123)}.sw_ddbk,.sw_ddw,.sw_ddgn,.sw_poi,.sw_poia,.sw_play,.sw_playa,.sw_playd,.sw_playp,.sw_st,.sw_sth,.sw_ste,.sw_st2,.sw_plus,.sw_tpcg,.sw_tpcw,.sb_clrhov,.sw_arwh,.sb_pagN,.sb_pagP,.sw_up,.sw_down,.b_expandToggle,.sw_calc,.sw_fbi,.sw_twi,.b_fLogo,.b_cm,.sw_rmore,.sw_tpo,.sw_tpoa,.sw_lpoi,.sw_skp,.actExpander\
+        text/css\">.sw_ddbk:after,.sw_ddw:after,.sw_ddgn:after,.sw_poi:after,.sw_poia:after,.sw_play:after,.sw_playa:after,.sw_playd:after,.sw_playp:after,.sw_st:after,.sw_sth:after,.sw_ste:after,.sw_st2:after,.sw_plus:after,.sw_tpcg:after,.sw_tpcw:after,.sw_tpcbk:after,.sw_arwh:after,.sw_close:after,.sb_pagN:after,.sb_pagP:after,.sw_up:after,.sw_down:after,.b_expandToggle:after,.sw_calc:after,.sw_fbi:after,.sw_twi:after,.b_fLogo:after,.b_cm:after,.sw_rmore:after,.sw_tpo:after,.sw_tpoa:after,.sw_lpoi:after,.sw_skp:after{position:relative;content:url(/sa/simg/SharedSpriteDesktop_ClearX_2x_030520.png?v=123)}.sw_ddbk,.sw_ddw,.sw_ddgn,.sw_poi,.sw_poia,.sw_play,.sw_playa,.sw_playd,.sw_playp,.sw_st,.sw_sth,.sw_ste,.sw_st2,.sw_plus,.sw_tpcg,.sw_tpcw,.sb_clrhov,.sw_arwh,.sb_pagN,.sb_pagP,.sw_up,.sw_down,.b_expandToggle,.sw_calc,.sw_fbi,.sw_twi,.b_fLogo,.b_cm,.sw_rmore,.sw_tpo,.sw_tpoa,.sw_lpoi,.sw_skp,.actExpander\
         \ span{position:relative;display:inline-block;overflow:hidden;direction:ltr}.sw_ddbk:after,.sw_ddw:after,.sw_ddgn:after,.sw_poi:after,.sw_poia:after,.sw_play:after,.sw_playa:after,.sw_playd:after,.sw_playp:after,.sw_st:after,.sw_sth:after,.sw_ste:after,.sw_st2:after,.sw_plus:after,.sw_tpcg:after,.sw_tpcw:after,.sw_tpcbk:after,.sw_arwh:after,.sb_pagN:after,.sb_pagP:after,.sw_up:after,.sw_down:after,.b_expandToggle:after,.sw_calc:after,.sw_fbi:after,.sw_twi:after,.b_fLogo:after,.b_cm:after,.sw_rmore:after,.sw_tpo:after,.sw_tpoa:after,.sw_lpoi:after,.sw_skp:after{display:inline-block;transform:scale(.5)}.sw_tpcg,.b_expandToggle,.b_fLogo{display:block}.sw_play,.sw_playa,.sw_playd,.sw_playp,.sw_skp,.sw_fbi,.sw_twi{height:16px;width:16px}.sw_play:after{transform-origin:-630px\
         \ -44px}.sw_playa:after{transform-origin:-666px -44px}.sw_playd:after{transform-origin:-702px\
         \ -44px}.sw_playp:after{transform-origin:-738px -44px}.sw_skp:after{transform-origin:-1290px\
@@ -64,7 +52,7 @@ interactions:
         \ 0}.b_cm{height:10px;width:12px}.b_cm:after{transform-origin:-866px -64px}.sw_calc{height:19px;width:19px}.sw_calc:after{transform-origin:-726px\
         \ 0}.sw_tpo,.sw_tpoa,.sw_rmore{height:12px;width:8px;display:block}.sw_tpo:after,.sw_tpoa:after{transform-origin:-262px\
         \ -50px}.sw_rmore:after{transform-origin:-242px -50px}.sw_lpoi{height:16px;width:10px}.sw_lpoi:after{transform-origin:-1266px\
-        \ -36px}html,body #b_results .b_no{background-color:#fff}.b_footer{background-color:#f5f5f5}#b_results>li\
+        \ -36px}.b_ad .b_vlist2col li{padding-bottom:7px}html,body #b_results .b_no{background-color:#fff}.b_footer{background-color:#ececec}#b_results>li\
         \ a{color:#1a0dab}#b_results>li a:visited{color:#609}#b_results>li{background-color:#fff}#b_results>.b_ad\
         \ a{color:#1a0dab}#b_results>.b_ad a:visited{color:#609}#b_results>.b_pag{background-color:transparent}#b_results>.b_pag\
         \ a:hover{background-color:#f4f4f4}#b_results>.b_pag .sb_pagS_bp:hover{background-color:#fff}#b_results>.b_pag\
@@ -115,12 +103,12 @@ interactions:
         \ .b_ans{padding:10px 20px 0}#b_context .b_ad{padding:10px 20px}#b_results,#b_context,#b_tween>span,.b_hList>li,.c_tlbxTrg,.b_hPanel>span,.ccal\
         \ .ccali,.b_footerRight,.b_hPanel .b_xlText,.b_hPanel .cico,.b_moreLink,.b_label+.b_hList,.lc_bks,.lc_bkl,.fiw,.csrc,.b_algo\
         \ .b_title H2,.b_algo .b_title div,h3{display:inline-block}.b_pointer{cursor:pointer}label,.b_ad\
-        \ .b_adlabel,.c_tlbxTrgIcn{display:block}#b_tween{margin-top:-28px}.b_underSearchbox~#b_tween{margin-top:-2px}#b_tween,#b_tween\
+        \ .b_adlabel,.c_tlbxTrgIcn{display:block}#b_tween{margin-top:-28px;padding-bottom:0}.b_underSearchbox~#b_tween{margin-top:-2px}#b_tween,#b_tween\
         \ .ftrH{height:30px}#b_tween>span{padding-right:25px}#b_results>li{padding:10px\
         \ 20px;margin:0 0 2px}#b_results>.b_ans{padding:12px 20px 0}#b_results>.b_algo{padding:12px\
         \ 20px 0}#b_results>li .b_fullb{margin-left:-20px;margin-right:-20px}#b_results>.b_ad{padding-right:18px;border-right:2px\
-        \ solid #e5e5e5}#b_results>li:first-child{padding-top:10px}#b_results>.b_pag{padding:26px\
-        \ 0 26px 20px}.sb_hbop,.b_hide,.ttl,#sw_tfbb,.sw_next,.sw_prev,#id_d,.b_hidden\
+        \ solid #e5e5e5}#b_results>li:first-child{padding-top:10px}#b_results>.b_pag{padding:18px\
+        \ 0 40px 20px}.sb_hbop,.b_hide,.ttl,#sw_tfbb,.sw_next,.sw_prev,#id_d,.b_hidden\
         \ img{display:none}.b_hidden{visibility:hidden}#b_context .b_ans{margin-bottom:5px}#b_context\
         \ .b_ad{margin-bottom:5px}main,aside,.b_inlineList li,.b_factrow li{display:inline}.b_footerRight,td,th,#b_context,.b_hList>li{vertical-align:top}.b_footer{width:100%;padding:12px\
         \ 0}.c_tlbxTrg{width:15px;height:14px;margin:-1px 6px -3px 2px}.c_tlbxTrgIcn{margin:4px\
@@ -161,8 +149,8 @@ interactions:
         \ .b_caption:last-child,.b_vPanel .b_vList:last-child>li:last-child,.b_vPanel\
         \ .b_footnote:last-child{padding-bottom:0}.b_vList .b_vPanel,.b_vPanel .b_vPanel{margin-bottom:-5px}.b_hList\
         \ .b_vPanel{margin-bottom:-10px}.b_mBMargin{margin-bottom:5px}#b_results .b_no{margin:0\
-        \ 0 80px}.b_rich{padding-top:3px}h2+.b_rich,.btitle+.b_rich{padding-top:2px}.b_algo\
-        \ .b_attribution img{vertical-align:text-bottom}.b_lLeft,.b_floatR_img,.b_suffix{padding-left:10px}.wr_tc,.b_xlLeft,.b_deep,#b_results\
+        \ 0 80px}.b_rich{padding-top:3px}h2+.b_rich{padding-top:2px}.b_algo .b_attribution\
+        \ img{vertical-align:text-bottom}.b_lLeft,.b_floatR_img,.b_suffix{padding-left:10px}.wr_tc,.b_xlLeft,.b_deep,#b_results\
         \ .b_ad .b_vlist2col,#b_tween{padding-left:20px}h2 .b_secondaryText{margin-left:5px}.b_hList.b_imgStrip>li{padding-right:1px}.fiw,.lc_bkl,.b_mRight,.b_label,.csrc{padding-right:5px}.b_lRight,.b_imgStrip\
         \ .imgData,.b_underSearchbox .b_label{padding-right:10px}.b_hPanel>span,.b_hList>li{padding-right:10px}.b_xlRight{padding-right:20px}.b_hList.b_imgStrip>li:last-child,.b_hList>li:last-child,.b_hPanel>span:last-child,td:last-child,th:last-child,#b_tween>span:last-child{padding-right:0}.b_overhangR{margin-right:-30px;padding-right:150px}.wr_tc{margin-right:-150px}.b_tbl{margin-right:-10px}.b_border,.b_button,.b_hlButton,.b_scroll,.b_dropdown{border-width:1px;border-style:solid}.b_button,.b_hlButton{line-height:30px;text-decoration:none;text-align:center;cursor:pointer;padding:0\
         \ 15px;min-width:50px}.lc_bks .cbtn{margin-top:15px}#b_context .b_subModule,#b_results\
@@ -185,23 +173,26 @@ interactions:
         \ label{float:left;margin:7px 10px 0 0}.b_compactSearch input{margin-right:0;float:left}.b_compactSearch\
         \ .cbtn{border-left:0}.b_footer table{width:520px;margin:15px 20px 0 120px}#b_footerItems\
         \ ul{display:block}#b_footerItems li{display:inline;float:left}#b_footerItems\
-        \ span{margin-right:24px;margin-left:48px;float:right}#b_footerItems a{margin-right:48px}#b_footerItems{height:24px;line-height:24px;padding:0\
-        \ 20px 0 120px}.b_footerRight{margin:13px 0 0 50px}.b_1linetrunc{text-overflow:ellipsis;white-space:nowrap}div.cico.b_capImg{margin-bottom:4px}#b_context\
+        \ span{margin-right:24px;margin-left:48px;float:right}#b_footerItems a{margin-right:24px}#b_footerItems{height:24px;line-height:24px;padding:0\
+        \ 20px}.b_footerRight{margin:13px 0 0 50px}.b_1linetrunc{text-overflow:ellipsis;white-space:nowrap}div.cico.b_capImg{margin-bottom:4px}#b_context\
         \ .b_entitySubTitle,#b_results .b_entityTP .b_entitySubTitle{margin-top:-9px}.b_entityTP\
         \ .b_infocardTopR .b_floatR_img,.b_tinyInfocard .b_floatR_img,.b_smallInfoFacts\
-        \ .sml{padding-bottom:10px}.b_vmparent{display:-ms-flexbox;display:-webkit-flex;display:flexbox;display:-webkit-box;display:flex;align-items:center}.b_relative{position:relative}.bdzoom115{zoom:1.15;-ms-zoom:1.15}.bdzoom110{zoom:1.1;-ms-zoom:1.1}.bdzoom105{zoom:1.05;-ms-zoom:1.05}.bdzoom95{zoom:.95;-ms-zoom:.95}z{a:1}input,textarea,h4,h5{font:inherit;font-size:100%}body,.b_no\
-        \ h4,h2 .b_secondaryText,h2 .b_alert{font:13px/normal 'Roboto',Helvetica,Sans-Serif}h1,h2,h3{font:13px/1.2em\
-        \ 'Roboto',Sans-Serif}h2{font-size:20px;line-height:24px}.sb_add h2{line-height:24px}h3,.b_no\
-        \ h1{font-size:18px;line-height:22px}cite{font-style:normal}.sb_alert a{font-style:italic}#b_content,#b_context,.b_expando{line-height:1.2em}cite,#b_context,.b_expando,#vidans2{word-wrap:break-word}#sa_ul\
+        \ .sml{padding-bottom:10px}.b_vmparent{display:-ms-flexbox;display:-webkit-flex;display:flexbox;display:-webkit-box;display:flex;align-items:center}.bdzoom115{zoom:1.15;-ms-zoom:1.15}.bdzoom110{zoom:1.1;-ms-zoom:1.1}.bdzoom105{zoom:1.05;-ms-zoom:1.05}.bdzoom95{zoom:.95;-ms-zoom:.95}z{a:1}input,textarea,h4,h5{font:inherit;font-size:100%}body,.b_no\
+        \ h4,h2 .b_secondaryText,h2 .b_alert{font:13px/normal Arial,Helvetica,Sans-Serif}h1,h2,h3{font:13px/1.2em\
+        \ 'Segoe UI',Arial,Helvetica,Sans-Serif}h2{font-size:20px;line-height:24px}.sb_add\
+        \ h2{line-height:24px}h3,.b_no h1{font-size:18px}cite{font-style:normal}.sb_alert\
+        \ a{font-style:italic}#b_content,#b_context,.b_expando{line-height:1.2em}cite,#b_context,.b_expando,#vidans2{word-wrap:break-word}#sa_ul\
         \ li,.nowrap{white-space:nowrap}.b_footer{line-height:18px}.b_attribution,#b_content\
         \ .b_attribution{font-size:16px;line-height:24px}.ba_title>h2+cite{font-size:16px;line-height:24px;padding-top:1px}.b_subModule\
-        \ h2{font-size:18px;line-height:22px}.b_smText,.b_footnote,.ciot{font-family:'Roboto',Helvetica,Sans-Serif;font-size:11px;line-height:normal}.b_footnote{line-height:16px}.b_ad\
-        \ .b_adlabel,.b_ad .b_adlabel strong{font:12px/normal 'Roboto',Helvetica,Sans-Serif}.b_mText{font:16px/22px\
-        \ 'Roboto',Helvetica,Sans-Serif}.b_focusLabel{font:16px 'Roboto',Sans-Serif;line-height:20px}.b_secondaryFocus{font:13px\
-        \ 'Roboto',Helvetica,Sans-Serif;line-height:18px}.b_focusTextExtraSmall{font:18px\
-        \ 'Roboto',Sans-Serif;line-height:1.3em}h2.b_entityTitle,.b_prominentFocusLabel,.b_xlText{font-size:24px;font-family:'Roboto',Sans-Serif;line-height:1.2em}h2.b_entityTitle{line-height:normal}.b_entitySubTitle{font-size:13px;line-height:18px}.b_focusTextSmall,.b_focusTextMedium,.b_focusTextLarge{font:400\
-        \ 28px 'Roboto',Sans-Serif}.b_focusTextMedium{font-size:40px;line-height:48px}.b_focusTextLarge{font-size:54px;line-height:64px}.b_focusTextSmall{font-size:28px;line-height:38px}h2.b_topTitle{font-size:20px;line-height:24px}.sb_add\
-        \ h2.b_topTitle{line-height:24px}strong,.b_active a,.b_no h4,.b_strong,.b_ad\
+        \ h2{font-size:18px;line-height:22px}.b_smText,.b_footnote,.ciot{font-family:Arial,Helvetica,Sans-Serif;font-size:11px;line-height:normal}.b_footnote{line-height:16px}.b_mText{font:16px/22px\
+        \ 'Segoe UI',Arial,Helvetica,Sans-Serif}.b_ad .b_adlabel,.b_ad .b_adlabel\
+        \ strong{font:12px/normal Arial,Helvetica,Sans-Serif}.b_focusLabel{font:16px\
+        \ 'Segoe UI',Arial,Helvetica,Sans-Serif;line-height:20px}.b_secondaryFocus{font:13px\
+        \ Arial,Helvetica,Sans-Serif;line-height:18px}.b_focusTextExtraSmall{font:18px\
+        \ 'Segoe UI',Arial,Helvetica,Sans-Serif;line-height:1.3em}h2.b_entityTitle,.b_prominentFocusLabel,.b_xlText{font-size:24px;font-family:'Segoe\
+        \ UI',Arial,Helvetica,Sans-Serif;line-height:1.2em}h2.b_entityTitle{line-height:normal}.b_entitySubTitle{font-size:13px;line-height:18px}.b_focusTextSmall,.b_focusTextMedium,.b_focusTextLarge{font:400\
+        \ 28px 'Segoe UI',Arial,Helvetica,Sans-Serif}.b_focusTextMedium{font-size:40px;line-height:48px}.b_focusTextLarge{font-size:54px;line-height:64px}.b_focusTextSmall{font-size:28px;line-height:38px}h2.b_topTitle{font-size:24px;line-height:1.2em}.sb_add\
+        \ h2.b_topTitle{line-height:1.2em}strong,.b_active a,.b_no h4,.b_strong,.b_ad\
         \ .b_adlabel strong,.cbl{font-weight:700}th,h2 strong,h3 strong{font-weight:normal}#b_tween{font-size:12px}#b_tween>span,#b_tween\
         \ .ftrH{line-height:30px}.sb_count{text-transform:capitalize}a,.b_algoheader\
         \ a:hover,.b_topbar a:hover,.b_pag a:hover,.cbtn:hover,.cbtn a:hover,.b_hlButton:hover,.ftrB\
@@ -283,10 +274,10 @@ interactions:
         \ 2px 3px 0 rgba(0,0,0,.1);border-radius:6px}#b_context .b_entityTP .irp{border-radius:6px\
         \ 6px 0 0;overflow:hidden}#b_context .b_ans:not(:first-child)>.b_entityTP{margin-top:-16px}#b_context\
         \ .b_ad:not(:last-child){padding-bottom:15px;border-bottom:1px solid #ebebeb}#b_context\
-        \ .b_ans:not(:last-child){padding-bottom:5px}#b_context .b_ans .b_entityTP{margin-bottom:20px}cite\
-        \ strong{font-weight:normal}z{a:1}z{a:1}z{a:1}.b_scopebar li:hover:not(.b_active){border-bottom:3px\
-        \ solid #ccc}#b_header .scopebar_pipe{border-bottom:none}#b_header .b_scopebar\
-        \ li.b_nohov:hover{border-bottom:none}z{a:1}.sw_close{display:inline-block;position:relative;overflow:hidden;direction:ltr;height:12px;width:12px}.sw_close:after{display:inline-block;transform:scale(.5);transform-origin:-214px\
+        \ .b_ans:not(:last-child){padding-bottom:5px}#b_context .b_ans .b_entityTP{margin-bottom:20px}#b_content\
+        \ .b_algo .b_attribution cite strong{font-weight:normal}z{a:1}z{a:1}z{a:1}.b_scopebar\
+        \ li:hover:not(.b_active){border-bottom:3px solid #ccc}#b_header .scopebar_pipe{border-bottom:none}#b_header\
+        \ .b_scopebar li.b_nohov:hover{border-bottom:none}z{a:1}.sw_close{display:inline-block;position:relative;overflow:hidden;direction:ltr;height:12px;width:12px}.sw_close:after{display:inline-block;transform:scale(.5);transform-origin:-214px\
         \ -64px}.sw_meIc,.sw_spd,.idp_ham,.idp_wlid,.idp_tw{position:relative;overflow:hidden;direction:ltr}.sw_meIc:after,.sw_spd:after,.idp_ham:after,.idp_wlid:after,.idp_tw:after{position:relative;content:url(/sa/simg/SharedSpriteDesktop_ClearX_2x_030520.png?v=123);transform:scale(.5);display:inline-block}.idp_ham{height:14px;width:20px;vertical-align:top;top:17px}.idp_ham:focus{outline-style:solid;outline-offset:5px}.idp_ham:after{transform-origin:-198px\
         \ 0}.idp_ham:hover:after,.idp_ham:active:after,.idp_ham:focus:after{transform-origin:-198px\
         \ -32px}.idp_wlid,.idp_tw,.sw_meIc{height:16px;width:16px}.idp_wlid:after{transform-origin:-768px\
@@ -296,7 +287,7 @@ interactions:
         \ .b_searchboxSubmit{background-color:#fff;border-color:#fff}.b_scopebar,.b_scopebar\
         \ a,.b_scopebar a:visited,.id_button,.id_button:visited{color:#444}.b_scopebar\
         \ .b_active a,.b_scopebar a:hover,.id_button:hover{color:#444}.b_idOpen a#id_l,a#id_rh.openfo{color:#333;background-color:#fff}#bepfo,#id_d{color:#333;background-color:#fff}.wpc_bub\
-        \ a{color:#001ba0}#sw_as{color:#444}.sa_tm strong{color:inherit}.sa_hv{background:#ececec}.sa_hd{color:inherit}#b_header{padding:24px\
+        \ a{color:#001ba0}#sw_as{color:#444}.sa_tm strong{color:#444}.sa_hv{background:#ececec}.sa_hd{color:#444}#b_header{padding:24px\
         \ 0 0 0;background-color:#fff}#b_header #sb_form,.b_logoArea,.b_logo,.b_searchboxForm,.id_button,.id_avatar,.idp_ham,.b_scopebar\
         \ li,.b_scopebar a{display:inline-block}#b_header #sb_form{margin-right:10px}.b_searchbox{width:490px;margin:1px\
         \ 0 1px 1px;padding:0 10px 0 19px;border:0;max-height:none;outline:none;box-sizing:border-box;height:44px;vertical-align:top;border-radius:6px}.b_searchboxSubmit{height:40px;width:40px;text-indent:-99em;border-width:0;border-style:solid;margin:3px\
@@ -320,12 +311,12 @@ interactions:
         \ .b_scopebar ul{height:33px;overflow-y:hidden}.b_scopebar ul{height:39px;overflow-y:hidden}.b_scopebar\
         \ li{padding:3px 0;margin:0 12px;line-height:25px;font-size:11px;letter-spacing:initial}.b_scopebar>ul\
         \ li{text-transform:uppercase}.b_scopebar a{padding:0 8px}.b_scopebar .b_active{border-bottom:3px\
-        \ solid #00809d}#b_header .b_topbar,#b_header .b_scopebar{background:none;margin-bottom:0;overflow-y:inherit}.b_scopehide>.b_active{visibility:visible}.b_scopehide>li{visibility:hidden}.b_logo{font-family:'Roboto',Helvetica,Sans-Serif}a,#b_header\
+        \ solid #00809d}#b_header .b_topbar,#b_header .b_scopebar{background:none;margin-bottom:0;overflow-y:inherit}.b_scopehide>.b_active{visibility:visible}.b_scopehide>li{visibility:hidden}.b_logo{font-family:Arial,Helvetica,Sans-Serif}a,#b_header\
         \ a,#b_header a:hover,.b_toggle,.b_toggle:hover{text-decoration:none}input{font:inherit;font-size:100%}.b_searchboxForm{font:18px/normal\
-        \ 'Roboto',Helvetica,Sans-Serif}.b_searchbox{font-size:16px}.id_button{line-height:50px;height:50px}.b_scopebar\
+        \ 'Segoe UI',Arial,Helvetica,Sans-Serif}.b_searchbox{font-size:16px}.id_button{line-height:50px;height:50px}.b_scopebar\
         \ .b_active a{font-weight:600}.b_scopebar,.b_scopebar li{line-height:30px}.sa_tm{line-height:36px}.b_scopebar\
-        \ li{vertical-align:top}#sa_ul,.pp_title{font:16px/normal 'Roboto',Sans-Serif}#sa_ul\
-        \ .sa_hd{color:#444;font:600 13px/16px 'Roboto',Sans-Serif;cursor:default;text-transform:uppercase;font-weight:bold}#sw_as\
+        \ li{vertical-align:top}#sa_ul,.pp_title{font:16px/normal 'Segoe UI',Arial,Helvetica,Sans-Serif}#sa_ul\
+        \ .sa_hd{color:#444;font:11px/16px 'Segoe UI','Arial','Helvetica','Sans-Serif';cursor:default;text-transform:uppercase;font-weight:bold}#sw_as\
         \ strong{font-weight:bold}z{a:1}#sb_go_par{display:inline-block}#hp_container\
         \ #sb_go_par{display:inline}#sb_go_par:hover::before,#sb_go_par.shtip::before,#sb_go_par[vptest]::before{bottom:-15px;left:26px;z-index:6}#sb_go_par:hover::after,#sb_go_par.shtip::after,#sb_go_par[vptest]::after{top:52px;left:26px;z-index:4}#miniheader\
         \ #sb_go_par:hover::before,#miniheader #sb_go_par:hover::after{left:18px}*[data-sbtip]{position:relative}[vptest]::after,*[data-sbtip]:not(.disableTooltip):hover::after,*[data-sbtip].shtip:not(.disableTooltip)::after{position:absolute;background-color:#666;content:attr(data-sbtip);font:13px/18px\
@@ -338,7 +329,7 @@ interactions:
         \ *[data-sbtip].shtip::before,.as_on *[data-sbtip].shtip::after,.focus_hi\
         \ *[data-sbtip]:hover::before,.focus_hi *[data-sbtip]:hover::after,.focus_hi\
         \ *[data-sbtip].shtip::before,.focus_hi *[data-sbtip].shtip::after{display:none}#id_h\
-        \ #id_l{margin-right:0;display:inline-block}#id_a{vertical-align:top;position:relative;top:8px}#id_rh{padding-left:24px}.idp_ham{margin-left:20px}z{a:1}::-webkit-search-decoration,::-webkit-search-cancel-button,.b_searchbox{-webkit-appearance:none}z{a:1}a{z:1}.b_searchbox\
+        \ #id_l{margin-right:0;display:inline-block}#id_a{vertical-align:top;position:relative;top:8px}#id_rh{padding-left:24px}.idp_ham{margin-left:20px}z{a:1}z{a:1}z{a:1}a{z:1}.b_searchbox\
         \ { width: 579px; } .hasmic .b_searchbox { width: 579px; } .hassbi .b_searchbox\
         \ { width: 543px; } .hasmic.hassbi .b_searchbox { width: 543px; } #b_header\
         \ .b_searchboxForm .b_searchbox.b_softkey { width: 541px; } #b_header .hasmic\
@@ -485,7 +476,7 @@ interactions:
         clickEX\",null,l):(new Image).src=_G.lsUrl+'&Type=Event.ClientInst&DATA=[{\"\
         T\":\"CI.Warning\",\"FID\":\"CI\",\"Name\":\"JSWarning\",\"Text\":'+l.message+\"\
         }]\"}return!0};_w.si_sbwu||(_w.si_sbwu=function(){return!1}),function(){_w._G&&(_G.si_ct_e=\"\
-        click\")}();var wlc_d = 1500, wlc_t =63730492090;;var perf;(function(n){function\
+        click\")}();var wlc_d = 1500, wlc_t =63730493487;;var perf;(function(n){function\
         \ f(n){return i.hasOwnProperty(n)?i[n]:n}function e(n){var t=\"S\";return\
         \ n==0?t=\"P\":n==2&&(t=\"M\"),t}function o(n){for(var c,i=[],t={},r,l=0;l<n.length;l++){var\
         \ a=n[l],o=a.v,s=a.t,h=a.k;s===0&&(h=f(h),o=o.toString(36));s===3?i.push(h+\"\
@@ -665,7 +656,7 @@ interactions:
         \ aria-label=\"Account Rewards and Preferences\" data-priority=\"2\"><a id=\"\
         id_l\" class=\"id_button\" role=\"button\" aria-haspopup=\"true\" aria-controls=\"\
         id_d\" aria-expanded=\"false\" data-clarity-mask=\"true\" href=\"javascript:void(0);\"\
-        \ h=\"ID=SERP,5023.1\"><div>  <span id=\"1BA40C_1_btn\" class=\"cbtn\" data-wire=\"\
+        \ h=\"ID=SERP,5023.1\"><div>  <span id=\"E84601_1_btn\" class=\"cbtn\" data-wire=\"\
         I;button_init;; |\" data-appns=\"SERP\" data-k=\"5047.1\"><input type=\"submit\"\
         \ name=\"submit\" id=\"id_a\" value=\"Sign in\" /></span></div><span id=\"\
         id_n\" style=\"display:none\" aria-hidden=\"true\"></span><img id=\"id_p\"\
@@ -692,7 +683,7 @@ interactions:
         \ h=\"ID=SERP,5020.1\">News</a></li></ul></nav></header><script type=\"text/javascript\"\
         >//<![CDATA[\nBM.trigger();var AwayTimeThreshold = 60;;var Identity; (function(Identity)\
         \ { Identity.sglid =false; Identity.orgIdPhotoUrl =\"https://business.bing.com/api/v3/search/person/photo?id={0}\"\
-        ; })(Identity || (Identity = {}));;var wlc_d =10, wlc_t =63730492090, wlc_wfa\
+        ; })(Identity || (Identity = {}));;var wlc_d =10, wlc_t =63730493487, wlc_wfa\
         \ =false;;_G.AppVer=\"serp_4e70e5c0_31483_1_13854708\";\n//]]></script><script\
         \ type=\"text/javascript\" >//<![CDATA[\r\n_G.FCT=new Date;\r\n//]]></script><script\
         \ type=\"text/javascript\" >//<![CDATA[\r\n_G.BCT=new Date;\r\n//]]></script><script\
@@ -841,30 +832,29 @@ interactions:
         \ auto}#opalpers_text{display:inline-block;width:185px;height:159px}#opalpers_text\
         \ .opalpers_hdr{color:#444;font-size:20px;line-height:24px}#opalpers_text\
         \ .opalpers_bdy{color:#666;font-size:13px;line-height:17px;margin-top:10px}#opalpers_pimg{float:right}</style><style\
-        \ type=\"text/css\">#tabcontrol_6_3AAF63 .tab-head { height: 40px; } #tabcontrol_6_3AAF63\
-        \ .tab-menu { height: 40px; } #tabcontrol_6_3AAF63_menu { height: 40px; }\
-        \ #tabcontrol_6_3AAF63_menu>li { background-color: #ffffff; margin-right:\
-        \ 0px; height: 40px; line-height:40px; font-weight: 700; color: #767676; }\
-        \ #tabcontrol_6_3AAF63_menu>li:hover { color: #111; position:relative; } #tabcontrol_6_3AAF63_menu\
-        \ .tab-active { box-shadow: inset 0 -3px 0 0 #111; background-color: #ffffff;\
-        \ line-height: 40px; color: #111; } #tabcontrol_6_3AAF63_menu .tab-active:hover\
-        \ { color: #111; } #tabcontrol_6_3AAF63_navr, #tabcontrol_6_3AAF63_navl {\
-        \ height: 40px; width: 32px; background-color: #ffffff; } #tabcontrol_6_3AAF63_navr\
-        \ .sv_ch, #tabcontrol_6_3AAF63_navl .sv_ch { fill: #444; } #tabcontrol_6_3AAF63_navr:hover\
-        \ .sv_ch, #tabcontrol_6_3AAF63_navl:hover .sv_ch { fill: #111; } #tabcontrol_6_3AAF63_navr.tab-disable\
-        \ .sv_ch, #tabcontrol_6_3AAF63_navl.tab-disable .sv_ch { fill: #444; opacity:.2;\
-        \ }#tabcontrol_11_3AED69 .tab-head { height: 40px; } #tabcontrol_11_3AED69\
-        \ .tab-menu { height: 40px; } #tabcontrol_11_3AED69_menu { height: 40px; }\
-        \ #tabcontrol_11_3AED69_menu>li { background-color: #ffffff; margin-right:\
-        \ 0px; height: 40px; line-height:40px; font-weight: 700; color: #767676; }\
-        \ #tabcontrol_11_3AED69_menu>li:hover { color: #111; position:relative; }\
-        \ #tabcontrol_11_3AED69_menu .tab-active { box-shadow: inset 0 -3px 0 0 #111;\
-        \ background-color: #ffffff; line-height: 40px; color: #111; } #tabcontrol_11_3AED69_menu\
-        \ .tab-active:hover { color: #111; } #tabcontrol_11_3AED69_navr, #tabcontrol_11_3AED69_navl\
-        \ { height: 40px; width: 32px; background-color: #ffffff; } #tabcontrol_11_3AED69_navr\
-        \ .sv_ch, #tabcontrol_11_3AED69_navl .sv_ch { fill: #444; } #tabcontrol_11_3AED69_navr:hover\
-        \ .sv_ch, #tabcontrol_11_3AED69_navl:hover .sv_ch { fill: #111; } #tabcontrol_11_3AED69_navr.tab-disable\
-        \ .sv_ch, #tabcontrol_11_3AED69_navl.tab-disable .sv_ch { fill: #444; opacity:.2;\
+        \ type=\"text/css\">#tabcontrol_6_3E60 .tab-head { height: 40px; } #tabcontrol_6_3E60\
+        \ .tab-menu { height: 40px; } #tabcontrol_6_3E60_menu { height: 40px; } #tabcontrol_6_3E60_menu>li\
+        \ { background-color: #ffffff; margin-right: 0px; height: 40px; line-height:40px;\
+        \ font-weight: 700; color: #767676; } #tabcontrol_6_3E60_menu>li:hover { color:\
+        \ #111; position:relative; } #tabcontrol_6_3E60_menu .tab-active { box-shadow:\
+        \ inset 0 -3px 0 0 #111; background-color: #ffffff; line-height: 40px; color:\
+        \ #111; } #tabcontrol_6_3E60_menu .tab-active:hover { color: #111; } #tabcontrol_6_3E60_navr,\
+        \ #tabcontrol_6_3E60_navl { height: 40px; width: 32px; background-color: #ffffff;\
+        \ } #tabcontrol_6_3E60_navr .sv_ch, #tabcontrol_6_3E60_navl .sv_ch { fill:\
+        \ #444; } #tabcontrol_6_3E60_navr:hover .sv_ch, #tabcontrol_6_3E60_navl:hover\
+        \ .sv_ch { fill: #111; } #tabcontrol_6_3E60_navr.tab-disable .sv_ch, #tabcontrol_6_3E60_navl.tab-disable\
+        \ .sv_ch { fill: #444; opacity:.2; }#tabcontrol_11_7A32 .tab-head { height:\
+        \ 40px; } #tabcontrol_11_7A32 .tab-menu { height: 40px; } #tabcontrol_11_7A32_menu\
+        \ { height: 40px; } #tabcontrol_11_7A32_menu>li { background-color: #ffffff;\
+        \ margin-right: 0px; height: 40px; line-height:40px; font-weight: 700; color:\
+        \ #767676; } #tabcontrol_11_7A32_menu>li:hover { color: #111; position:relative;\
+        \ } #tabcontrol_11_7A32_menu .tab-active { box-shadow: inset 0 -3px 0 0 #111;\
+        \ background-color: #ffffff; line-height: 40px; color: #111; } #tabcontrol_11_7A32_menu\
+        \ .tab-active:hover { color: #111; } #tabcontrol_11_7A32_navr, #tabcontrol_11_7A32_navl\
+        \ { height: 40px; width: 32px; background-color: #ffffff; } #tabcontrol_11_7A32_navr\
+        \ .sv_ch, #tabcontrol_11_7A32_navl .sv_ch { fill: #444; } #tabcontrol_11_7A32_navr:hover\
+        \ .sv_ch, #tabcontrol_11_7A32_navl:hover .sv_ch { fill: #111; } #tabcontrol_11_7A32_navr.tab-disable\
+        \ .sv_ch, #tabcontrol_11_7A32_navl.tab-disable .sv_ch { fill: #444; opacity:.2;\
         \ }</style><script type=\"text/javascript\">//<![CDATA[\nif (typeof DynScopes\
         \ !== 'undefined') { DynScopes.init(\"\", \"\"); };var EntityPreviewConfig\
         \ = { featureList: \"\", testHooks: false };\n//]]></script><div id=\"b_content\"\
@@ -873,7 +863,7 @@ interactions:
         \ href=\"https://medium.com/homullus/fake-and-free-bypass-on-cookie-with-cloudflare-edge-cache-workers-for-wordpress-72c36d23c174\"\
         \ h=\"ID=SERP,5103.1\">Fake and free Bypass-on-Cookie, with CloudFlare edge\
         \ cache ...</a></h2><div class=\"b_caption\"><div class=\"b_attribution\"\
-        \ u=\"0|5051|4652652384946093|GraeRedzh95DyGgzytq-mCWfmnwPn1o4\"><cite>https://medium.com/homullus/fake-and-free-bypass...</cite><span\
+        \ u=\"0|5051|4652652384946093|GraeRedzh95DyGgzytq-mCWfmnwPn1o4\"><cite>https://medium.com/homullus/<strong>fake</strong>-and-free-<strong>bypass</strong>...</cite><span\
         \ class=\"c_tlbxTrg\"><span class=\"c_tlbxH\" H=\"BASE:CACHEDPAGEDEFAULT\"\
         \ K=\"SERP,5104.1\"></span></span></div><p><strong>Fake</strong> it till you\
         \ make it. First of all, there is definitely no way that we can force a <strong>cache</strong>-layer\
@@ -882,7 +872,7 @@ interactions:
         https://en.wikipedia.org/wiki/Wikipedia:Bypass_your_cache\" h=\"ID=SERP,5118.1\"\
         >Wikipedia:Bypass your cache - Wikipedia</a></h2><div class=\"b_caption\"\
         ><div class=\"b_attribution\" u=\"1|5052|4930343303709450|9K3NiDoQLXTCD-c7lAB8k4-29wnibSGK\"\
-        ><cite>https://en.wikipedia.org/wiki/Wikipedia:Bypass_your_cache</cite><span\
+        ><cite>https://<strong>en.wikipedia.org</strong>/wiki/<strong>Wikipedia</strong>:<strong>Bypass</strong>_your_<strong>cache</strong></cite><span\
         \ class=\"c_tlbxTrg\"><span class=\"c_tlbxH\" H=\"BASE:CACHEDPAGEDEFAULT\"\
         \ K=\"SERP,5119.1\"></span></span></div><p>Occasionally this caching scheme\
         \ goes awry (e.g. the browser insists on showing out-of-date content) making\
@@ -893,18 +883,18 @@ interactions:
         b_algo\"><h2><a href=\"https://sigma.software/about/media/how-bypass-server-cache-when-retrieving-web-content\"\
         \ h=\"ID=SERP,5133.1\">How to Bypass Server Cache When Retrieving Web Content\
         \ ...</a></h2><div class=\"b_caption\"><div class=\"b_attribution\" u=\"2|5053|4700532493517547|xIcPX8dZr_VZjn4jL4j-eKG2nYyVsE8C\"\
-        ><cite>https://sigma.software/about/media/how-bypass...</cite><span class=\"\
-        c_tlbxTrg\"><span class=\"c_tlbxH\" H=\"BASE:CACHEDPAGEDEFAULT\" K=\"SERP,5134.1\"\
-        ></span></span></div><p>Once at a job interview I was asked how to <strong>bypass</strong>\
-        \ the server <strong>cache</strong> when retrieving web content. How can you\
-        \ get a web page bypassing the server <strong>cache</strong>? Resetting the\
-        \ browser <strong>cache</strong> or clearing cookies are client side operations\
-        \ that are familiar to anyone who deals with development and testing of web\
-        \ applications and websites.</p></div></li><li class=\"b_algo\"><h2><a href=\"\
-        https://hacks.mozilla.org/2016/03/referrer-and-cache-control-apis-for-fetch/\"\
+        ><cite>https://sigma.software/about/media/how-<strong>bypass</strong>...</cite><span\
+        \ class=\"c_tlbxTrg\"><span class=\"c_tlbxH\" H=\"BASE:CACHEDPAGEDEFAULT\"\
+        \ K=\"SERP,5134.1\"></span></span></div><p>Once at a job interview I was asked\
+        \ how to <strong>bypass</strong> the server <strong>cache</strong> when retrieving\
+        \ web content. How can you get a web page bypassing the server <strong>cache</strong>?\
+        \ Resetting the browser <strong>cache</strong> or clearing cookies are client\
+        \ side operations that are familiar to anyone who deals with development and\
+        \ testing of web applications and websites.</p></div></li><li class=\"b_algo\"\
+        ><h2><a href=\"https://hacks.mozilla.org/2016/03/referrer-and-cache-control-apis-for-fetch/\"\
         \ h=\"ID=SERP,5147.1\">Referrer and cache control APIs for fetch() - Mozilla\
         \ ...</a></h2><div class=\"b_caption\"><div class=\"b_attribution\" u=\"3|5054|4939203831598752|mS0b2GIAOsbGF2vjromKuUnPUDRHrVVg\"\
-        ><cite>https://hacks.mozilla.org/2016/03/referrer-and-cache-control-apis-for-fetch</cite><span\
+        ><cite>https://hacks.mozilla.org/2016/03/referrer-and-<strong>cache</strong>-control-apis-for-fetch</cite><span\
         \ class=\"c_tlbxTrg\"><span class=\"c_tlbxH\" H=\"BASE:CACHEDPAGEDEFAULT\"\
         \ K=\"SERP,5148.1\"></span></span></div><p>This will make the browser not\
         \ look into the HTTP <strong>cache</strong> on the way to the network, and\
@@ -915,12 +905,12 @@ interactions:
         \ This will cause ...</p></div></li><li class=\"b_algo\"><h2><a href=\"https://en.wikipedia.org/wiki/Bypass_your_cache\"\
         \ h=\"ID=SERP,5162.1\">Web cache - Wikipedia</a></h2><div class=\"b_caption\"\
         ><div class=\"b_attribution\" u=\"4|5055|4774466061404236|wyoAvIY2SWt7LVfHj3fqTXskRtooE-bJ\"\
-        ><cite>https://en.wikipedia.org/wiki/Bypass_your_cache</cite><span class=\"\
-        c_tlbxTrg\"><span class=\"c_tlbxH\" H=\"BASE:CACHEDPAGEDEFAULT\" K=\"SERP,5163.1\"\
-        ></span></span></div><div class=\"b_richcard\"><div class=\"rc_herotabheader\"\
-        ><div id=\"tabcontrol_6_3AAF63\" class=\"tab-container\" data-wire=\"I;tab;;\
-        \ |B;a;;I|\"><div class=\"tab-head HeroTab\"><div class=\"tab-menu tab-flex\"\
-        ><ul id=\"tabcontrol_6_3AAF63_menu\" style=\"margin-left:0px;\" role=\"tablist\"\
+        ><cite>https://<strong>en.wikipedia.org</strong>/wiki/<strong>Bypass</strong>_your_<strong>cache</strong></cite><span\
+        \ class=\"c_tlbxTrg\"><span class=\"c_tlbxH\" H=\"BASE:CACHEDPAGEDEFAULT\"\
+        \ K=\"SERP,5163.1\"></span></span></div><div class=\"b_richcard\"><div class=\"\
+        rc_herotabheader\"><div id=\"tabcontrol_6_3E60\" class=\"tab-container\" data-wire=\"\
+        I;tab;; |B;a;;I|\"><div class=\"tab-head HeroTab\"><div class=\"tab-menu tab-flex\"\
+        ><ul id=\"tabcontrol_6_3E60_menu\" style=\"margin-left:0px;\" role=\"tablist\"\
         \ data-dataurl=\"/richcardFetch?q=Fake+cache+bypass&amp;Treatment=RCNewTemplate&amp;DataSourceType=CDG&amp;Tabs={0}&amp;DataSource=cdgrc_rprc_wikipedia_richcard&amp;DocURLHash=7B2D57C78F77EA4D7B2446DA2813E6C9&amp;DocURL=https%3a%2f%2fen.wikipedia.org%2fwiki%2fBypass_your_cache&amp;TierName=webprecision\"\
         ><li data-dataurl=\"\"\r\n                            id=\"tab_2_head\" data-nc=\"\
         \" data-nr=\"\"\r\n                            class=\"b_dmtab tab-active\
@@ -930,8 +920,8 @@ interactions:
         tab_2\"\r\n                            aria-selected=\"true\">Overview</li><li\
         \ data-dataurl=\"#1%2cSystems\"\r\n                            id=\"tab_3_head\"\
         \ data-nc=\"\" data-nr=\"\"\r\n                            class=\"b_dmtab\"\
-        \r\n                            style=\" flex:1 1 0px;\" data-w=\"62\" data-ow=\"\
-        94\" data-content=\"tab_3\" role=\"tab\"\r\n                            aria-controls=\"\
+        \r\n                            style=\" flex:1 1 0px;\" data-w=\"58\" data-ow=\"\
+        90\" data-content=\"tab_3\" role=\"tab\"\r\n                            aria-controls=\"\
         tab_3\"\r\n                            aria-selected=\"false\">Systems</li><li\
         \ data-dataurl=\"#2%2cCache-control\"\r\n                            id=\"\
         tab_4_head\" data-nc=\"\" data-nr=\"\"\r\n                            class=\"\
@@ -941,7 +931,7 @@ interactions:
         false\">Cache-control</li><li data-dataurl=\"#3%2cLegal+issues\"\r\n     \
         \                       id=\"tab_5_head\" data-nc=\"\" data-nr=\"\"\r\n  \
         \                          class=\"b_dmtab\"\r\n                         \
-        \   style=\" flex:1 1 0px;\" data-w=\"90\" data-ow=\"122\" data-content=\"\
+        \   style=\" flex:1 1 0px;\" data-w=\"84\" data-ow=\"116\" data-content=\"\
         tab_5\" role=\"tab\"\r\n                            aria-controls=\"tab_5\"\
         \r\n                            aria-selected=\"false\">Legal issues</li></ul></div></div><div\
         \ class=\"tab-content\"><div id=\"tab_2\" data-appns=\"SERP\" data-k=\"5269.1\"\
@@ -964,38 +954,38 @@ interactions:
         \ class=\"b_algo\"><h2><a href=\"https://pantheon.io/docs/cache-control/\"\
         \ h=\"ID=SERP,5176.1\">Bypassing Cache with HTTP Headers | Pantheon Docs</a></h2><div\
         \ class=\"b_caption\"><div class=\"b_attribution\" u=\"5|5056|4597272890445929|p_-y90hgu6QqmX3j5pk2H0liKhfhXqYr\"\
-        ><cite>https://pantheon.io/docs/cache-control</cite><span class=\"c_tlbxTrg\"\
-        ><span class=\"c_tlbxH\" H=\"BASE:CACHEDPAGEDEFAULT\" K=\"SERP,5177.1\"></span></span></div><p>The\
-        \ <strong>Cache</strong>-Control header in this example instructs Pantheon's\
-        \ edge caching layer (Varnish) not to <strong>cache</strong> the response\
-        \ for this request. If you run the command again, you should continue to see\
-        \ Age: 0 \u2026</p></div></li><li class=\"b_algo\"><h2><a href=\"https://community.fandom.com/wiki/Help:Bypass_your_cache\"\
-        \ h=\"ID=SERP,5191.1\">Help:Bypass your cache | Community Central | Fandom</a></h2><div\
-        \ class=\"b_caption\"><div class=\"b_attribution\" u=\"6|5057|4976063424562526|jVglnGsUYL7W2nVs1Vh_cjN9GjCkFm54\"\
-        ><cite>https://community.fandom.com/wiki/Help:Bypass_your_cache</cite><span\
+        ><cite>https://pantheon.io/docs/<strong>cache</strong>-control</cite><span\
+        \ class=\"c_tlbxTrg\"><span class=\"c_tlbxH\" H=\"BASE:CACHEDPAGEDEFAULT\"\
+        \ K=\"SERP,5177.1\"></span></span></div><p>The <strong>Cache</strong>-Control\
+        \ header in this example instructs Pantheon's edge caching layer (Varnish)\
+        \ not to <strong>cache</strong> the response for this request. If you run\
+        \ the command again, you \u2026</p></div></li><li class=\"b_algo\"><h2><a\
+        \ href=\"https://community.fandom.com/wiki/Help:Bypass_your_cache\" h=\"ID=SERP,5191.1\"\
+        >Help:Bypass your cache | Community Central | Fandom</a></h2><div class=\"\
+        b_caption\"><div class=\"b_attribution\" u=\"6|5057|4976063424562526|jVglnGsUYL7W2nVs1Vh_cjN9GjCkFm54\"\
+        ><cite>https://community.fandom.com/wiki/Help:<strong>Bypass</strong>_your_<strong>cache</strong></cite><span\
         \ class=\"c_tlbxTrg\"><span class=\"c_tlbxH\" H=\"BASE:CACHEDPAGEDEFAULT\"\
         \ K=\"SERP,5192.1\"></span></span></div><div class=\"b_richcard\"><div class=\"\
-        rc_herotabheader\"><div id=\"tabcontrol_11_3AED69\" class=\"tab-container\"\
+        rc_herotabheader\"><div id=\"tabcontrol_11_7A32\" class=\"tab-container\"\
         \ data-wire=\"I;tab;; |B;a;;I|\"><div class=\"tab-head HeroTab\"><div id=\"\
-        tabcontrol_11_3AED69_navl\" class=\"tab-navl\"><svg xmlns=\"http://www.w3.org/2000/svg\"\
+        tabcontrol_11_7A32_navl\" class=\"tab-navl\"><svg xmlns=\"http://www.w3.org/2000/svg\"\
         \ viewBox=\"0 0 16 16\" enable-background=\"new 0 0 16 16\" width=\"16\" height=\"\
         40\"><path class=\"sv_ch\" d=\"M12.29.235c-.312-.313-.818-.313-1.131 0l-7.2\
         \ 7.2c-.148.148-.234.355-.234.565 0 .21.086.417.234.566l7.2 7.2c.312.313.818.313\
         \ 1.131 0 .313-.312.313-.818 0-1.131l-6.634-6.635 6.634-6.634c.313-.312.312-.819\
         \ 0-1.131z\" /></svg></div><div class=\"tab-menu tab-hasnav\" style=\"width:544px\"\
-        ><ul id=\"tabcontrol_11_3AED69_menu\" style=\"margin-left:0px;\" role=\"tablist\"\
+        ><ul id=\"tabcontrol_11_7A32_menu\" style=\"margin-left:0px;\" role=\"tablist\"\
         \ data-dataurl=\"/richcardFetch?q=Fake+cache+bypass&amp;Treatment=RCNewTemplate&amp;DataSourceType=OS&amp;Tabs={0}&amp;DataSource=VDOMRichCardGDIHL&amp;DocURLHash=D6DA756CD5587F72337D1A30A4166E78&amp;DocURL=https%3a%2f%2fcommunity.fandom.com%2fwiki%2fHelp%3aBypass_your_cache&amp;TierName=webprecision\"\
         ><li data-dataurl=\"\"\r\n                            id=\"tab_7_head\" data-nc=\"\
         \" data-nr=\"\"\r\n                            class=\"b_dmtab tab-active\"\
-        \r\n                            style=\" width:196px;\"\r\n              \
-        \              title=\"When to Bypass Your Cache\" data-w=\"196\" data-ow=\"\
-        228\" data-content=\"tab_7\"\r\n                            tabindex=\"0\"\
+        \r\n                            style=\" width:198px;\" data-w=\"198\" data-ow=\"\
+        230\" data-content=\"tab_7\"\r\n                            tabindex=\"0\"\
         \ role=\"tab\"\r\n                            aria-controls=\"tab_7\"\r\n\
         \                            aria-selected=\"true\">When to Bypass Your Cache</li><li\
         \ data-dataurl=\"#1%2cHow+to+Bypass+Your+Cache\"\r\n                     \
         \       id=\"tab_8_head\" data-nc=\"\" data-nr=\"\"\r\n                  \
-        \          class=\"b_dmtab\"\r\n                            style=\" width:193px;\"\
-        \ data-w=\"193\" data-ow=\"225\" data-content=\"tab_8\" role=\"tab\"\r\n \
+        \          class=\"b_dmtab\"\r\n                            style=\" width:189px;\"\
+        \ data-w=\"189\" data-ow=\"221\" data-content=\"tab_8\" role=\"tab\"\r\n \
         \                           aria-controls=\"tab_8\"\r\n                  \
         \          aria-selected=\"false\">How to Bypass Your Cache</li><li data-dataurl=\"\
         #2%2cForcing+The+Server+to+Re-Render+A+Page\"\r\n                        \
@@ -1007,11 +997,11 @@ interactions:
         \              aria-selected=\"false\">Forcing The Server to Re-Render A Page</li><li\
         \ data-dataurl=\"#3%2cFurther+Help+and+Feedback\"\r\n                    \
         \        id=\"tab_10_head\" data-nc=\"\" data-nr=\"\"\r\n                \
-        \            class=\"b_dmtab\"\r\n                            style=\" width:192px;\"\
-        \ data-w=\"192\" data-ow=\"224\" data-content=\"tab_10\" role=\"tab\"\r\n\
+        \            class=\"b_dmtab\"\r\n                            style=\" width:191px;\"\
+        \ data-w=\"191\" data-ow=\"223\" data-content=\"tab_10\" role=\"tab\"\r\n\
         \                            aria-controls=\"tab_10\"\r\n                \
         \            aria-selected=\"false\">Further Help and Feedback</li></ul></div><div\
-        \ id=\"tabcontrol_11_3AED69_navr\" class=\"tab-navr\"><svg xmlns=\"http://www.w3.org/2000/svg\"\
+        \ id=\"tabcontrol_11_7A32_navr\" class=\"tab-navr\"><svg xmlns=\"http://www.w3.org/2000/svg\"\
         \ viewBox=\"0 0 16 16\" enable-background=\"new 0 0 16 16\" width=\"16\" height=\"\
         40\"><path class=\"sv_ch\" d=\"M3.735 1.366l6.634 6.634-6.634 6.634c-.313.313-.313.819\
         \ 0 1.131.313.313.819.313 1.131 0l7.2-7.2c.148-.148.234-.355.234-.565 0-.21-.086-.417-.234-.566l-7.2-7.2c-.313-.313-.819-.313-1.131\
@@ -1033,7 +1023,7 @@ interactions:
         \ class=\"b_algo\"><h2><a href=\"https://www.wikihow.com/Bypass-Registration-on-Websites-using-the-Google-Cache\"\
         \ h=\"ID=SERP,5206.1\">How to Bypass Registration on Websites using the Google\
         \ Cache</a></h2><div class=\"b_caption\"><div class=\"b_attribution\" u=\"\
-        7|5058|4664089698829632|8TNamZ-PIxZI-5YDh3SPMav5rb2VHPSI\"><cite>https://www.wikihow.com/Bypass-Registration-on...</cite><span\
+        7|5058|4664089698829632|8TNamZ-PIxZI-5YDh3SPMav5rb2VHPSI\"><cite>https://<strong>www.wikihow.com</strong>/<strong>Bypass</strong>-Registration-on...</cite><span\
         \ class=\"c_tlbxTrg\"><span class=\"c_tlbxH\" H=\"BASE:CACHEDPAGEDEFAULT\"\
         \ K=\"SERP,5207.1\"></span></span></div><p><span class=\"news_dt\">12/5/2019</span>&nbsp;&#0183;&#32;How\
         \ to <strong>Bypass</strong> Registration on Websites using the Google <strong>Cache</strong>.\
@@ -1043,7 +1033,7 @@ interactions:
         ><h2><a href=\"https://www.usethistip.com/what-is-browser-cache-and-how-to-bypass.html\"\
         \ h=\"ID=SERP,5221.1\">What is Browser Cache and How to Clear or ByPass it\
         \ ...</a></h2><div class=\"b_caption\"><div class=\"b_attribution\" u=\"8|5059|5046161397712924|wAmS8yw-vt72usu203IJLHIH5902X5Ab\"\
-        ><cite>https://www.usethistip.com/what-is-browser-cache-and-how-to-bypass.html</cite><span\
+        ><cite>https://www.usethistip.com/what-is-browser-<strong>cache</strong>-and-how-to-<strong>bypass</strong>.html</cite><span\
         \ class=\"c_tlbxTrg\"><span class=\"c_tlbxH\" H=\"BASE:CACHEDPAGEDEFAULT\"\
         \ K=\"SERP,5222.1\"></span></span></div><p><span class=\"news_dt\">3/25/2013</span>&nbsp;&#0183;&#32;Hence,\
         \ <strong>cache</strong> is very useful for people using slow internet connection.\
@@ -1064,8 +1054,10 @@ interactions:
         ><a href=\"http://go.microsoft.com/fwlink/?LinkID=617350\" h=\"ID=SERP,5049.1\"\
         >Some results have been removed</a></li><li class=\"b_pag\"><nav role=\"navigation\"\
         \ aria-label=\"More results for Fake cache bypass\"><h4 class=\"b_hide\">Pagination</h4><ul\
-        \ class=\"sb_pagF\"><li><a class=\"sb_pagS sb_pagS_bp b_widePag sb_bp\">1</a></li><li><a\
-        \ class=\"b_widePag sb_bp\" aria-label=\"Page 2\" href=\"/search?q=Fake+cache+bypass&amp;offset=0&amp;count=10&amp;first=11&amp;FORM=PERE\"\
+        \ class=\"sb_pagF\"><li><a class=\"sb_inactP sb_pagP sb_pagP_bp b_widePag\
+        \ sb_bp b_roths\"></a></li><li><a class=\"sb_pagS sb_pagS_bp b_widePag sb_bp\"\
+        >1</a></li><li><a class=\"b_widePag sb_bp\" aria-label=\"Page 2\" href=\"\
+        /search?q=Fake+cache+bypass&amp;offset=0&amp;count=10&amp;first=11&amp;FORM=PERE\"\
         \ h=\"ID=SERP,5301.1\">2</a></li><li><a class=\"b_widePag sb_bp\" aria-label=\"\
         Page 3\" href=\"/search?q=Fake+cache+bypass&amp;offset=0&amp;count=10&amp;first=21&amp;FORM=PERE1\"\
         \ h=\"ID=SERP,5302.1\">3</a></li><li><a class=\"b_widePag sb_bp\" aria-label=\"\
@@ -1168,11 +1160,11 @@ interactions:
         vkeyIcon\");t&&(t.className=\"vkeyRest\",sj_be(t,\"click\",f))})(MultiLingualKeyboardScriptLoader||(MultiLingualKeyboardScriptLoader={}));MultiLingualKeyboardScriptLoader.init(\"\
         USX:English (US International)\",1, 0, true, false);;var Identity = Identity\
         \ || {}; (function(i) { i.wlImgSm =\"https://storage.live.com/users/0x{0}/myprofile/expressionprofile/profilephoto:UserTileStatic/p?ck=1\\\
-        u0026ex=720\\u0026fofoff=1\\u0026sid=22F86997168761562514669E179A60CE\"; i.wlImgLg\
+        u0026ex=720\\u0026fofoff=1\\u0026sid=36A624CA907361C735B02BC3916E6082\"; i.wlImgLg\
         \ =\"https://storage.live.com/users/0x{0}/myprofile/expressionprofile/profilephoto:UserTileMedium/p?ck=1\\\
-        u0026ex=720\\u0026fofoff=1\\u0026sid=22F86997168761562514669E179A60CE\";i.popupLoginUrls\
+        u0026ex=720\\u0026fofoff=1\\u0026sid=36A624CA907361C735B02BC3916E6082\";i.popupLoginUrls\
         \ = {\"WindowsLiveId\":\"https://login.live.com/login.srf?wa=wsignin1.0\\\
-        u0026rpsnv=11\\u0026ct=1594895290\\u0026rver=6.0.5286.0\\u0026wp=MBI_SSL\\\
+        u0026rpsnv=11\\u0026ct=1594896688\\u0026rver=6.0.5286.0\\u0026wp=MBI_SSL\\\
         u0026wreply=https:%2F%2fwww.bing.com%2Fsecure%2FPassport.aspx%3Fpopup%3D1%26ssl%3D1\\\
         u0026lc=4096\\u0026id=264960\"}; })(Identity);;var WireUp,WireConnector,SignalConnector;(function(n){function\
         \ f(n){var u=[],f,t,i,r,e;if(!n)return u;for(f=n.split(\",\"),t=0;t<f.length;++t)(i=f[t],i&&0!==i.length)&&(r=i.split(\"\
@@ -1230,10 +1222,10 @@ interactions:
         u0026d={0}\\u0026mkt=en-WW\\u0026setlang=en-US\\u0026w={1}\",\"CT\":\"Cached\"\
         ,\"NW\":\"0\",\"staticIconClass\":\"sw_ddgn\",\"selectedIconClass\":\"sw_ddw\"\
         ,\"toolboxTriggerClassName\":\"c_tlbxTrg\"};/*!DisableJavascriptProfiler*/\n\
-        0;sj_evt.bind(\"tab_init\", function() { tabcontrol.init(\"tabcontrol_6_3AAF63\"\
-        ,\"We can\\u0027t find any more info about this page right now\",false,0,0,446,524,false,false,0,0,10,false,false,true,true);\
-        \ }, 1);;sj_evt.bind(\"tab_init\", function() { tabcontrol.init(\"tabcontrol_11_3AED69\"\
-        ,\"We can\\u0027t find any more info about this page right now\",false,0,-357,901,1260,false,false,0,0,10,false,false,true,true);\
+        0;sj_evt.bind(\"tab_init\", function() { tabcontrol.init(\"tabcontrol_6_3E60\"\
+        ,\"We can\\u0027t find any more info about this page right now\",false,0,0,436,524,false,false,0,0,10,false,false,true,true);\
+        \ }, 1);;sj_evt.bind(\"tab_init\", function() { tabcontrol.init(\"tabcontrol_11_7A32\"\
+        ,\"We can\\u0027t find any more info about this page right now\",false,0,-354,898,1264,false,false,0,0,10,false,false,true,true);\
         \ }, 1);;_G.QS_type = \"0\";function createQuickSearch(){function f(i){sb_st(function(){var\
         \ f,e,c,s,k,y,h,p,a,d;if(r=null,NodeList.prototype.forEach||(NodeList.prototype.forEach=function(n,t){t=t||window;for(var\
         \ i=0;i<this.length;i++)n.call(t,this[i],i,this)}),f=window.getSelection(),n=f.toString(),e=_ge(\"\
@@ -1271,7 +1263,7 @@ interactions:
         CI.QuickSearch\",\"Init_Error\",\"Exception calling init method - \"+n.message)}})();var\
         \ ipd = { ipt: \"4\", secall: true, pd: false };sj_evt.bind(\"ajax.feedback.initialized\"\
         , function(args) { args[1].debugCollector.setContextValue(\"FederationDebugInfo\"\
-        , \"QueryID : 8eb7370c99eb425183b1682e0d021add\"); });;var fbpkgiid = fbpkgiid\
+        , \"QueryID : 3018bb826bda4c7faa78e3b1d832eb29\"); });;var fbpkgiid = fbpkgiid\
         \ || {}; fbpkgiid.page = 'SERP.5330';;var Feedback;(function(n){var t;(function(){\"\
         use strict\";function u(t,i){var u=t.getAttribute(\"id\"),f;u||(u=\"genId\"\
         +n.length,t.setAttribute(\"id\",u));f=new r(u,i,t.getAttribute(i));n.push(f)}function\
@@ -1326,10 +1318,10 @@ interactions:
         \ n===\"page\"?\"sdk/form\":n}})(t=n.RouteProvider||(n.RouteProvider={}))}(Feedback||(Feedback={}));sa_config={\"\
         f\":\"sb_form\",\"i\":\"sb_form_q\",\"c\":\"sw_as\",\"u\":\"%2fAS%2fSuggestions%3fpt%3dpage.serp%26bq%3dFake%2bcache%2bbypass%26mkt%3den-ng%26qry%3d\"\
         ,\"removeSuggUrl\":\"/historyHandler?oma=delete_matching_queries\\u0026qt=%7b0%7d\\\
-        u0026sig=22F86997168761562514669E179A60CE\\u0026response=json\\u0026FORM=ASRMHS\"\
+        u0026sig=36A624CA907361C735B02BC3916E6082\\u0026response=json\\u0026FORM=ASRMHS\"\
         ,\"searchHistoryUrl\":\"/profile/history?FORM=ASRMHP\",\"enabledDataSources\"\
         :[\"Web\"],\"fetchOnEmpty\":1,\"fetchOnDownArrowKey\":1,\"t\":1,\"suppnores\"\
-        :1,\"handleDuplicateFetch\":1,\"d\":100,\"removeTextLength\":47};sa_loc= {\"\
+        :1,\"handleDuplicateFetch\":1,\"d\":100,\"removeTextLength\":49};sa_loc= {\"\
         Suggestions\":\"Suggestions\",\"Feedback\":\"Feedback on these suggestions\"\
         ,\"SearchRemoved\":\"This search was removed from your %eSearch history%E\"\
         };;var sa_eL=!1;(function(){function e(n,t,i){n&&sj_ue(n,t,e);sa_eL=sa_eL||i;f||(f=!0,sj_evt.fire(\"\
@@ -1437,9 +1429,9 @@ interactions:
         iframe\"),r.style.display=\"none\",r.src=f+\"&checkda=1\",r.setAttribute(\"\
         data-priority\",\"2\"),_d.body.appendChild(r),i&&t&&t(\"SRCHHPGUSR\",\"WTS\"\
         ,i,1,\"/\"))};\n//]]>--></div><div style=\"display:none\"><!--//<![CDATA[\n\
-        (function() { var config ={\"url\":\"https%3a%2f%2flogin.microsoftonline.com%2fcommon%2foauth2%2fauthorize%3fclient_id%3d9ea1ad79-fdb6-4f9a-8bc3-2b70f96e34c7%26response_type%3did_token%26nonce%3d3c071491-cd6c-4496-8e06-4dc2fd0bc48f%26redirect_uri%3dhttps%253a%252f%252fwww.bing.com%252forgid%252fidtoken%252fnosignin%26scope%3dopenid%26response_mode%3dform_post%26msafed%3d0%26prompt%3dnone\"\
+        (function() { var config ={\"url\":\"https%3a%2f%2flogin.microsoftonline.com%2fcommon%2foauth2%2fauthorize%3fclient_id%3d9ea1ad79-fdb6-4f9a-8bc3-2b70f96e34c7%26response_type%3did_token%26nonce%3d89596a10-49bf-4e5c-b5c5-dd3070d40ff9%26redirect_uri%3dhttps%253a%252f%252fwww.bing.com%252forgid%252fidtoken%252fnosignin%26scope%3dopenid%26response_mode%3dform_post%26msafed%3d0%26prompt%3dnone\"\
         ,\"sandbox\":\"allow-forms allow-pointer-lock allow-popups allow-same-origin\
-        \ allow-scripts\",\"currentEpoch\":\"1594895290000\"}; if (false) { if (typeof\
+        \ allow-scripts\",\"currentEpoch\":\"1594896687000\"}; if (false) { if (typeof\
         \ dbg !== \"undefined\") { dbg.trace(\"OrgId\", \"Delaying SSO on postRBComplete\
         \ event\"); } sj_evt.bind('postRBComplete', function() { setTimeout(function()\
         \ {_w.rms.js({'rms:answers:OrgId:SsoFrame':'\\/rp\\/Xp-HPHGHOZznHBwdn7OWdva404Y.gz.js',d:1});sj_evt.fire('ssoFrameExists',\
@@ -1466,25 +1458,9 @@ interactions:
         &v=4&DATA=\",y=[t+\"fp.msedge.net/r.gif?\"+v],p=[f+i,e+i,o+i],w=[f+r+\"?\"\
         +n[0],e+r+\"?\"+n[1],o+r+\"?\"+n[2]],b=[{name:\"CLO\",guid:n[0]},{name:\"\
         CLO\",guid:n[1]},{name:\"CLO\",guid:n[2]}],k=function(){c(w,s,0,y,b,null)};c(p,s,1e3,null,null,k)}})();\n\
-        //]]>--></div><div style=\"display:none\"><!--//<![CDATA[\nfunction addRemoveListenersOnAll(){var\
-        \ t=_ge(\"b_content\"),n,i,r;t&&(n=_d.createElement(\"STYLE\"),n.id=styleIdString,n.innerText=\"\
-        #b_results h2>a {padding: 16px 40px 0 6px;margin: -16px -40px 0 -6px;}\",_d.head&&_d.head.appendChild(n),i=t.getElementsByClassName(\"\
-        b_ad\"),i&&AddRemoveListener(i),r=t.getElementsByClassName(\"b_algo\"),r&&AddRemoveListener(r))}function\
-        \ AddRemoveListener(n){for(var t,i,u=n.length,r=0;r<u;r++)if(t=n[r].getElementsByTagName(\"\
-        CITE\"),t&&t.length>0)for(i=0;i<t.length;i++)sj_be(t[i],\"click\",algo_c)}function\
-        \ mouseMoveAfterTouchHandler(){sj_ue(document,\"mousemove\",mouseMoveAfterTouchHandler);var\
-        \ n=_d.getElementById(styleIdString);n&&n.parentNode&&n.parentNode.removeChild(n);sj_log(\"\
-        CI.TTC\",\"mouse\",\"started\");sj_ue(document,\"mousemove\",mouseMoveAfterTouchHandler)}function\
-        \ touchStartHandlerAll(n){n.pointerType===\"touch\"&&(addRemoveListenersOnAll(),sj_log(\"\
-        CI.TTC\",\"touch\",\"started\"),sj_ue(document,\"pointerdown\",touchStartHandlerAll),document.addEventListener(\"\
-        mousemove\",mouseMoveAfterTouchHandler))}var styleIdString=\"ttcDynStyle\"\
-        ,algo_c=function(n){function i(n){var t=n.getElementsByTagName(\"a\"),i;t&&t.length>0&&(i=t[0],si_ct(i),sj_log(\"\
-        CI.TTC\",\"click\",\"touch\"),_w.open(i.href,\"_self\"))}n=sj_ev(n);var t=sj_et(n);if(t){if(t.tagName==\"\
-        A\")return!0;while(t&&!(t.className.indexOf(\"b_algo\")>=0||t.className.indexOf(\"\
-        sb_add\")>=0)){if(t.tagName==\"BODY\")return;t=t.parentNode}}return t?(i(t),!0):(sj_sp(n),!1)};document.addEventListener(\"\
-        pointerdown\",touchStartHandlerAll);\n//]]>--></div><div style=\"display:none\"\
-        ><!--//<![CDATA[\nvar sj_ajax=function(n,t){function h(){i[u]=s;i.abort&&i.abort()}function\
-        \ o(n,t){typeof n==\"function\"&&n(t,{request:i,appendTo:function(n){i&&sj_appHTML(n,i.responseText)}})}var\
+        //]]>--></div><div style=\"display:none\"><!--//<![CDATA[\n0;\n//]]>--></div><div\
+        \ style=\"display:none\"><!--//<![CDATA[\nvar sj_ajax=function(n,t){function\
+        \ h(){i[u]=s;i.abort&&i.abort()}function o(n,t){typeof n==\"function\"&&n(t,{request:i,appendTo:function(n){i&&sj_appHTML(n,i.responseText)}})}var\
         \ r,i=sj_gx(),u=\"onreadystatechange\",f,e=null,c=sb_st,l=sb_ct,s=function(){};if(!n||!i){o(r,!1);return}t&&(r=t.callback,f=t.timeout);i.open(\"\
         get\",n,!0);i[u]=function(){if(i.readyState===4){var n=!1;e!==null&&l(e);i.status===200&&(n=!0,i[u]=s);o(r,n)}};sj_evt.bind(\"\
         ajax.unload\",h);i.send();f>0&&(e=c(function(){h();o(r,!1)},f))};Feedback.Bootstrap.InitializeFeedback({page:true},\"\
@@ -1495,18 +1471,16 @@ interactions:
       Cache-Control: private, max-age=0
       Content-Encoding: gzip
       Content-Type: text/html; charset=utf-8
-      Date: Thu, 16 Jul 2020 10:28:10 GMT
-      Expires: Thu, 16 Jul 2020 10:27:10 GMT
-      NEL: '{"report_to":"network-errors","max_age":604800,"success_fraction":0.01,"failure_fraction":1.0}'
+      Date: Thu, 16 Jul 2020 10:51:27 GMT
+      Expires: Thu, 16 Jul 2020 10:50:27 GMT
       P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
-      Report-To: '{"group":"network-errors","max_age":604800,"endpoints":[{"url":"https://aefd.nelreports.net/api/report?cat=bingserp"}]}'
-      Set-Cookie: MUIDB=26862E8AA7C76E6C2B9B2183A6DA6F61; path=/; httponly; expires=Tue,
-        10-Aug-2021 10:28:10 GMT
+      Set-Cookie: MUIDB=2122986DE4B16E910F759764E5AC6F09; path=/; httponly; expires=Tue,
+        10-Aug-2021 10:51:27 GMT
       Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
       Transfer-Encoding: chunked
       Vary: Accept-Encoding
-      X-MSEdge-Ref: 'Ref A: 43B30A830B3947279373032249D338F8 Ref B: LOS30EDGE0108
-        Ref C: 2020-07-16T10:28:10Z'
+      X-MSEdge-Ref: 'Ref A: 2DE82D2781994437AD64B3DF7E3ACF3D Ref B: LOS30EDGE0111
+        Ref C: 2020-07-16T10:51:27Z'
     status:
       code: 200
       message: OK
