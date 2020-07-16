@@ -122,6 +122,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "zakaryan2004",
+      "name": "Geg Zakaryan",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/29994884?v=4",
+      "profile": "https://github.com/zakaryan2004",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
