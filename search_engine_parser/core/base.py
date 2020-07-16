@@ -108,6 +108,8 @@ class BaseSearch:
     search_url = None
     # The url after all query params have been set
     _parsed_url = None
+    # boolean that indicates cache hit or miss
+    _cache_hit = False
 
     @abstractmethod
     def parse_soup(self, soup):
@@ -175,15 +177,17 @@ class BaseSearch:
     async def get_source(self, url, cache=True):
         """
         Returns the source code of a webpage.
+        Also sets the _cache_hit if cache was used
 
         :rtype: string
         :param url: URL to pull it's source code
         :return: html source code of a given URL.
         """
         try:
-            html = await self.cache_handler.get_source(self.name, url, self.headers(), cache)
+            html, cache_hit = await self.cache_handler.get_source(self.name, url, self.headers(), cache)
         except Exception as exc:
             raise Exception('ERROR: {}\n'.format(exc))
+        self._cache_hit = cache_hit
         return html
 
     async def get_soup(self, url, cache):

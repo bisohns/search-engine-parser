@@ -34,11 +34,11 @@ interactions:
         \    <meta name=\"twitter:description\" property=\"og:description\" itemprop=\"\
         description\" content=\"Stack Overflow | The World&#x2019;s Largest Online\
         \ Community for Developers\" />\r\n\r\n        <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js\"\
-        ></script>\r\n        <script src=\"https://cdn.sstatic.net/Js/stub.en.js?v=ef5f20bd6d8d\"\
+        ></script>\r\n        <script src=\"https://cdn.sstatic.net/Js/stub.en.js?v=0a3591ccd5d1\"\
         ></script>\r\n    \r\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"\
-        https://cdn.sstatic.net/Shared/stacks.css?v=b3fb80b2a709\" >\r\n        <link\
-        \ rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=346fac3487f7\"\
-        \ >\r\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=69e3ccb694ac\"\
+        https://cdn.sstatic.net/Shared/stacks.css?v=0ee8a05683e7\" >\r\n        <link\
+        \ rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=c5fdf309f06b\"\
+        \ >\r\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=0ad93e7d5552\"\
         \ >\r\n\r\n    \r\n    <link rel=\"alternate\" type=\"application/atom+xml\"\
         \ title=\"Feed of recent questions\" href=\"/feeds\">\r\n    <style>\r\n \
         \       mark {\r\n            background-color: transparent;\r\n         \
@@ -49,20 +49,21 @@ interactions:
         \ false;\r\n            });\r\n        });\r\n    </script>\r\n\r\n      \
         \  \r\n        \r\n        \r\n        \r\n        \r\n        \r\n      \
         \  \r\n\r\n\r\n    <script>\r\n        StackExchange.init({\"locale\":\"en\"\
-        ,\"serverTime\":1592072371,\"routeName\":\"Search/Search\",\"stackAuthUrl\"\
+        ,\"serverTime\":1594854761,\"routeName\":\"Search/Search\",\"stackAuthUrl\"\
         :\"https://stackauth.com\",\"networkMetaHostname\":\"meta.stackexchange.com\"\
         ,\"site\":{\"name\":\"Stack Overflow\",\"description\":\"Q&A for professional\
         \ and enthusiast programmers\",\"isNoticesTabEnabled\":true,\"enableNewTagCreationWarning\"\
         :true,\"insertSpaceAfterNameTabCompletion\":false,\"id\":1,\"childUrl\":\"\
         https://meta.stackoverflow.com\",\"negativeVoteScoreFloor\":null,\"enableSocialMediaInSharePopup\"\
-        :true,\"protocol\":\"https\"},\"user\":{\"fkey\":\"5e38ac49612e967a17a6fb78ea5a7ad83d9653ee9c5113c3700bceb76b76e335\"\
-        ,\"tid\":\"dfd00706-698a-a41e-08b2-30dc39c3ff5c\",\"rep\":0,\"isAnonymous\"\
-        :true,\"isAnonymousNetworkWide\":true},\"events\":{\"postType\":{\"question\"\
+        :true,\"protocol\":\"https\"},\"user\":{\"fkey\":\"978f1abcb54738bd5067fb4e69d94b752da8e4422a3c94900c59cd39acf8d802\"\
+        ,\"tid\":\"7184ece9-7901-b50f-4f46-7ff72c0f9558\",\"rep\":0,\"isAnonymous\"\
+        :true,\"isAnonymousNetworkWide\":true,\"ab\":{\"tutorial_tooltips\":{\"v\"\
+        :\"thanks_reaction_icon\",\"g\":2}}},\"events\":{\"postType\":{\"question\"\
         :1},\"postEditionSection\":{\"title\":1,\"body\":2,\"tags\":3}},\"story\"\
         :{\"minCompleteBodyLength\":75,\"likedTagsMaxLength\":300,\"dislikedTagsMaxLength\"\
         :300},\"jobPreferences\":{\"maxNumDeveloperRoles\":2,\"maxNumIndustries\"\
         :4},\"svgIconPath\":\"https://cdn.sstatic.net/Img/svg-icons\",\"svgIconHash\"\
-        :\"7aa1e7a5b07a\"}, {\"userProfile\":{\"openGraphAPIKey\":\"4a307e43-b625-49bb-af15-ffadf2bda017\"\
+        :\"2816dfc51c0f\"}, {\"userProfile\":{\"openGraphAPIKey\":\"4a307e43-b625-49bb-af15-ffadf2bda017\"\
         },\"userMessaging\":{\"showNewFeatureNotice\":true},\"tags\":{},\"subscriptions\"\
         :{\"defaultMaxTrueUpSeats\":1000},\"snippets\":{\"renderDomain\":\"stacksnippets.net\"\
         ,\"snippetsEnabled\":true},\"slack\":{\"sidebarAdDismissCookie\":\"slack-sidebar-ad\"\
@@ -70,23 +71,26 @@ interactions:
         :true,\"enableImgurHttps\":true,\"enableUserHovercards\":true,\"forceHttpsImages\"\
         :true,\"styleCode\":true},\"paths\":{},\"monitoring\":{\"clientTimingsAbsoluteTimeout\"\
         :30000,\"clientTimingsDebounceTimeout\":1000},\"mentions\":{\"maxNumUsersInDropdown\"\
-        :50},\"markdown\":{\"asteriskIntraWordEmphasis\":true},\"flags\":{\"allowRetractingCommentFlags\"\
-        :true,\"allowRetractingFlags\":true},\"comments\":{},\"accounts\":{\"currentPasswordRequiredForChangingStackIdPassword\"\
+        :50},\"markdown\":{\"asteriskIntraWordEmphasis\":true,\"enableCommonmark\"\
+        :true},\"flags\":{\"allowRetractingCommentFlags\":true,\"allowRetractingFlags\"\
+        :true},\"comments\":{},\"accounts\":{\"currentPasswordRequiredForChangingStackIdPassword\"\
         :true}});\r\n        StackExchange.using.setCacheBreakers({\"js/adops.en.js\"\
-        :\"22a9bd59b1e9\",\"js/ask.en.js\":\"635d2cc64f27\",\"js/begin-edit-event.en.js\"\
-        :\"cb9965ad8784\",\"js/events.en.js\":\"1b5b223be64b\",\"js/explore-qlist.en.js\"\
-        :\"8338a28bee11\",\"js/full-anon.en.js\":\"60dae6125dbf\",\"js/full.en.js\"\
-        :\"601571c327e0\",\"js/help.en.js\":\"76e2886f2122\",\"js/inline-tag-editing.en.js\"\
-        :\"9af5adc3562d\",\"js/keyboard-shortcuts.en.js\":\"252d1950fcd5\",\"js/mobile.en.js\"\
-        :\"dd28a9c9ca2d\",\"js/moderator.en.js\":\"d5e6787e64d9\",\"js/postCollections-transpiled.en.js\"\
-        :\"6c83048256b9\",\"js/post-validation.en.js\":\"de9a2d784730\",\"js/prettify-full.en.js\"\
-        :\"ef13a31da73a\",\"js/question-editor.en.js\":\"\",\"js/review.en.js\":\"\
-        9fb85d0bf129\",\"js/revisions.en.js\":\"d8d5fa1f473d\",\"js/tageditor.en.js\"\
-        :\"1f2a41e0a86e\",\"js/tageditornew.en.js\":\"b9c520e9e5d9\",\"js/tagsuggestions.en.js\"\
-        :\"a9ff449efcdc\",\"js/wmd.en.js\":\"abd739ef2004\",\"js/snippet-javascript-codemirror.en.js\"\
-        :\"1050d42b4212\"});\r\n        StackExchange.using(\"gps\", function() {\r\
-        \n             StackExchange.gps.init(true);\r\n        });\r\n    </script>\r\
-        \n    <noscript id=\"noscript-css\"><style>body,.top-bar{margin-top:1.9em}</style></noscript>\r\
+        :\"22a9bd59b1e9\",\"js/ask.en.js\":\"8cd33efca2ea\",\"js/begin-edit-event.en.js\"\
+        :\"cb9965ad8784\",\"js/events.en.js\":\"8c2d19adf113\",\"js/explore-qlist.en.js\"\
+        :\"8498d0bb288b\",\"js/full-anon.en.js\":\"a4ddfd857174\",\"js/full.en.js\"\
+        :\"4f738f4b3275\",\"js/help.en.js\":\"45dd3cca2f14\",\"js/inline-tag-editing.en.js\"\
+        :\"ba3548fd8639\",\"js/keyboard-shortcuts.en.js\":\"e3a215716a5b\",\"js/mobile.en.js\"\
+        :\"dd28a9c9ca2d\",\"js/moderator.en.js\":\"5a55ea887bf7\",\"js/postCollections-transpiled.en.js\"\
+        :\"0bd276805a0e\",\"js/post-validation.en.js\":\"71608c8def34\",\"js/prettify-full.en.js\"\
+        :\"32dd137db6f1\",\"js/question-editor.en.js\":\"\",\"js/review.en.js\":\"\
+        e2b1d3eb2bfb\",\"js/revisions.en.js\":\"a4bb7dac3796\",\"js/tageditor.en.js\"\
+        :\"ecd6b6af8c6e\",\"js/tageditornew.en.js\":\"5e8733483d0c\",\"js/tagsuggestions.en.js\"\
+        :\"9b2c5d9791d2\",\"js/third-party/stacks-editor/app.bundle.js\":\"72999662ddbd\"\
+        ,\"js/third-party/stacks-editor/app.bundle.en.js\":\"\",\"js/wmd.en.js\":\"\
+        aef02f387525\",\"js/snippet-javascript-codemirror.en.js\":\"ec0f6d058df6\"\
+        ,\"js/markdown-it-loader.en.js\":\"a51a4850b0ea\"});\r\n        StackExchange.using(\"\
+        gps\", function() {\r\n             StackExchange.gps.init(true);\r\n    \
+        \    });\r\n    </script>\r\n    <noscript id=\"noscript-css\"><style>body,.top-bar{margin-top:1.9em}</style></noscript>\r\
         \n    </head>\r\n    <body class=\"unified-theme search-page\">\r\n    <div\
         \ id=\"notify-container\"></div>\r\n    <div id=\"custom-header\"></div>\r\
         \n        \r\n<header class=\"top-bar js-top-bar top-bar__network _fixed\"\
@@ -315,39 +319,45 @@ interactions:
         /users\"\r\n                class=\" js-gps-track nav-links--link\"\r\n  \
         \              \r\n                data-gps-track=\"top_nav.click({is_current:false,\
         \ location:26, destination:3})\">\r\nUsers            </a>\r\n        </li>\r\
-        \n        <li class=\"\">\r\n            <a id=\"nav-jobs\"\r\n          \
-        \      href=\"/jobs?so_medium=StackOverflow&amp;so_source=SiteNav\"\r\n  \
-        \              class=\" js-gps-track nav-links--link\"\r\n               \
-        \ \r\n                data-gps-track=\"top_nav.click({is_current:false, location:26,\
-        \ destination:6})\">\r\nJobs            </a>\r\n        </li>\r\n        \
-        \            </ol>\r\n                </li>\r\n                    <li>\r\n\
-        \                        <ol class=\"nav-links\">\r\n                    \
-        \            <li class=\"grid ai-center jc-space-between ml8 mt24 mb4\">\r\
-        \n                                    <div class=\"grid--cell tt-uppercase\
-        \ fs-fine fc-light\">Teams</div>\r\n                                    <div\
-        \ class=\"grid--cell fs-fine fc-light mr4\">\r\n                         \
-        \               <a href=\"javascript:void(0)\" class=\"s-link s-link__inherit\
-        \ js-gps-track\"\r\n                                            role=\"button\"\
-        \r\n                                            aria-controls=\"popover-teams-create-cta\"\
-        \r\n                                            data-controller=\"s-popover\"\
-        \r\n                                            data-action=\"s-popover#toggle\"\
-        \r\n                                            data-s-popover-placement=\"\
-        bottom-start\"\r\n                                            data-s-popover-toggle-class=\"\
-        is-selected\"\r\n                                            data-gps-track=\"\
-        teams.create.left-sidenav.click({ Action: ShowInfo })\"\r\n              \
-        \                              data-ga=\"[&quot;teams left navigation - anonymous&quot;,&quot;left\
-        \ nav show teams info&quot;,null,null,null]\">\r\n                       \
-        \                     What&#x2019;s this?\r\n                            \
-        \            </a>\r\n\r\n                                    </div>\r\n  \
-        \                              </li>\r\n                                <li\
-        \ class=\"ps-relative\">\r\n                                    <a href=\"\
-        https://stackoverflow.com/teams\"\r\n                                    \
-        \    class=\"pl8 js-gps-track nav-links--link\"\r\n                      \
-        \                  title=\"Stack Overflow for Teams is a private, secure spot\
-        \ for your organization's questions and answers.\"\r\n                   \
-        \                     data-gps-track=\"teams.create.left-sidenav.click({ Action:\
-        \ TeamsClick })\"\r\n                                        data-ga=\"[&quot;teams\
-        \ left navigation - anonymous&quot;,&quot;left nav team click&quot;,&quot;stackoverflow.com/teams&quot;,null,null]\"\
+        \n                            <li class=\"fs-fine tt-uppercase ml8 mt16 mb4\
+        \ fc-light\">Find a Job</li>\r\n        <li class=\"\">\r\n            <a\
+        \ id=\"nav-jobs\"\r\n                href=\"/jobs?so_medium=StackOverflow&amp;so_source=SiteNav\"\
+        \r\n                class=\" js-gps-track nav-links--link\"\r\n          \
+        \      \r\n                data-gps-track=\"top_nav.click({is_current:false,\
+        \ location:26, destination:6})\">\r\nJobs            </a>\r\n        </li>\r\
+        \n        <li class=\"\">\r\n            <a id=\"nav-companies\"\r\n     \
+        \           href=\"/jobs/companies?so_medium=StackOverflow&amp;so_source=SiteNav\"\
+        \r\n                class=\" js-gps-track nav-links--link\"\r\n          \
+        \      \r\n                data-gps-track=\"top_nav.click({is_current:false,\
+        \ location:26, destination:12})\">\r\nCompanies            </a>\r\n      \
+        \  </li>\r\n                    </ol>\r\n                </li>\r\n       \
+        \             <li>\r\n                        <ol class=\"nav-links\">\r\n\
+        \                                <li class=\"grid ai-center jc-space-between\
+        \ ml8 mt24 mb4\">\r\n                                    <div class=\"grid--cell\
+        \ tt-uppercase fs-fine fc-light\">Teams</div>\r\n                        \
+        \            <div class=\"grid--cell fs-fine fc-light mr4\">\r\n         \
+        \                               <a href=\"javascript:void(0)\" class=\"s-link\
+        \ s-link__inherit js-gps-track\"\r\n                                     \
+        \       role=\"button\"\r\n                                            aria-controls=\"\
+        popover-teams-create-cta\"\r\n                                           \
+        \ data-controller=\"s-popover\"\r\n                                      \
+        \      data-action=\"s-popover#toggle\"\r\n                              \
+        \              data-s-popover-placement=\"bottom-start\"\r\n             \
+        \                               data-s-popover-toggle-class=\"is-selected\"\
+        \r\n                                            data-gps-track=\"teams.create.left-sidenav.click({\
+        \ Action: ShowInfo })\"\r\n                                            data-ga=\"\
+        [&quot;teams left navigation - anonymous&quot;,&quot;left nav show teams info&quot;,null,null,null]\"\
+        >\r\n                                            What&#x2019;s this?\r\n \
+        \                                       </a>\r\n\r\n                     \
+        \               </div>\r\n                                </li>\r\n      \
+        \                          <li class=\"ps-relative\">\r\n                \
+        \                    <a href=\"https://stackoverflow.com/teams\"\r\n     \
+        \                                   class=\"pl8 js-gps-track nav-links--link\"\
+        \r\n                                        title=\"Stack Overflow for Teams\
+        \ is a private, secure spot for your organization's questions and answers.\"\
+        \r\n                                        data-gps-track=\"teams.create.left-sidenav.click({\
+        \ Action: TeamsClick })\"\r\n                                        data-ga=\"\
+        [&quot;teams left navigation - anonymous&quot;,&quot;left nav team click&quot;,&quot;stackoverflow.com/teams&quot;,null,null]\"\
         >\r\n                                        <div class=\"grid ai-center\"\
         >\r\n                                            <div class=\"grid--cell s-avatar\
         \ va-middle bg-orange-400\">\r\n                                         \
@@ -429,8 +439,10 @@ interactions:
         \n                    inquestion:1234\r\n                </td>\r\n       \
         \     </tr>\r\n            <tr>\r\n                <th scope=\"row\">Views</th>\r\
         \n                <td class=\"ff-mono\">views:250</td>\r\n            </tr>\r\
-        \n            <tr>\r\n                <th scope=\"row\">Sections</th>\r\n\
-        \                <td class=\"ff-mono\">\r\n                    title:apples<br/>\r\
+        \n            <tr>\r\n                <th scope=\"row\">Code</th>\r\n    \
+        \            <td class=\"ff-mono\">code:\"if (foo != bar)\"</td>\r\n     \
+        \       </tr>\r\n            <tr>\r\n                <th scope=\"row\">Sections</th>\r\
+        \n                <td class=\"ff-mono\">\r\n                    title:apples<br/>\r\
         \n                    body:\"apples oranges\"\r\n                </td>\r\n\
         \            </tr>\r\n            <tr>\r\n                <th scope=\"row\"\
         >URL</th>\r\n                <td class=\"ff-mono\">url:\"*.example.com\"</td>\r\
@@ -495,14 +507,14 @@ interactions:
         \ search-result\" id=\"question-summary-3188672\" data-position=\"1\">\r\n\
         \        <div class=\"statscontainer\">\r\n            <div class=\"stats\"\
         >\r\n                <div class=\"vote\">\r\n                    <div class=\"\
-        votes \">\r\n                        <span class=\"vote-count-post \"><strong>156</strong></span>\r\
+        votes \">\r\n                        <span class=\"vote-count-post \"><strong>157</strong></span>\r\
         \n                        <div class=\"viewcount\">votes</div>\r\n       \
         \             </div>\r\n                </div>\r\n                    <div\
         \ class=\"status answered-accepted\">\r\n                        <strong>27</strong>answers\r\
         \n                    </div>\r\n            </div>\r\n        </div>\r\n \
         \       <div class=\"summary\">\r\n            <div class=\"result-link\"\
         >\r\n                <h3>\r\n\r\n        <a href=\"/questions/3188672/how-to-elegantly-check-if-a-number-is-within-a-range?r=SearchResults\"\
-        \ data-searchsession=\"/questions/3188672/how-to-elegantly-check-if-a-number-is-within-a-range?r=SearchResults&s=1|91.3356\"\
+        \ data-searchsession=\"/questions/3188672/how-to-elegantly-check-if-a-number-is-within-a-range?r=SearchResults&s=1|92.5945\"\
         \ title=\"How to elegantly check if a number is within a range?\" class=\"\
         question-hyperlink\">\r\nQ: How to elegantly check if a number is within a\
         \ range?        </a>\r\n</h3>\r\n            </div>\r\n            <div class=\"\
@@ -534,7 +546,7 @@ interactions:
         \     </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"\
         summary\">\r\n            <div class=\"result-link\">\r\n                <h3>\r\
         \n\r\n        <a href=\"/questions/45041036/postgresql-multidimensional-array-extracting-multiple-non-contiguous-elements?r=SearchResults\"\
-        \ data-searchsession=\"/questions/45041036/postgresql-multidimensional-array-extracting-multiple-non-contiguous-elements?r=SearchResults&s=2|69.3014\"\
+        \ data-searchsession=\"/questions/45041036/postgresql-multidimensional-array-extracting-multiple-non-contiguous-elements?r=SearchResults&s=2|68.6920\"\
         \ title=\"postgresql multidimensional array- extracting multiple non-contiguous\
         \ elements\" class=\"question-hyperlink\">\r\nQ: postgresql multidimensional\
         \ array- extracting multiple non-contiguous elements        </a>\r\n</h3>\r\
@@ -563,7 +575,7 @@ interactions:
         \           </div>\r\n        </div>\r\n        <div class=\"summary\">\r\n\
         \            <div class=\"result-link\">\r\n                <h3>\r\n\r\n \
         \       <a href=\"/questions/15383397/textarea-cant-have-a-default-value/15383603?r=SearchResults#15383603\"\
-        \ data-searchsession=\"/questions/15383397/textarea-cant-have-a-default-value/15383603?r=SearchResults&s=3|56.2636#15383603\"\
+        \ data-searchsession=\"/questions/15383397/textarea-cant-have-a-default-value/15383603?r=SearchResults&s=3|56.2252#15383603\"\
         \ title=\"textarea can&#x27;t have a default value\" class=\"question-hyperlink\"\
         >\r\n            A: textarea can&#39;t have a default value\r\n        </a>\r\
         \n</h3>\r\n            </div>\r\n            <div class=\"excerpt\">\r\n \
@@ -586,7 +598,7 @@ interactions:
         \n                </div>\r\n            </div>\r\n        </div>\r\n     \
         \   <div class=\"summary\">\r\n            <div class=\"result-link\">\r\n\
         \                <h3>\r\n\r\n        <a href=\"/questions/1230773/what-is-the-benefit-of-explicitly-naming-getters-and-setters-as-get-and-se/1230795?r=SearchResults#1230795\"\
-        \ data-searchsession=\"/questions/1230773/what-is-the-benefit-of-explicitly-naming-getters-and-setters-as-get-and-se/1230795?r=SearchResults&s=4|50.1269#1230795\"\
+        \ data-searchsession=\"/questions/1230773/what-is-the-benefit-of-explicitly-naming-getters-and-setters-as-get-and-se/1230795?r=SearchResults&s=4|50.2233#1230795\"\
         \ title=\"What is the benefit of explicitly naming getters and setters as\
         \ &quot;get...&quot; and &quot;set...&quot;?\" class=\"question-hyperlink\"\
         >\r\n            A: What is the benefit of explicitly naming getters and setters\
@@ -611,7 +623,7 @@ interactions:
         \            </div>\r\n                </div>\r\n            </div>\r\n  \
         \      </div>\r\n        <div class=\"summary\">\r\n            <div class=\"\
         result-link\">\r\n                <h3>\r\n\r\n        <a href=\"/questions/37614694/plot-over-an-image-background-in-matlab/37621968?r=SearchResults#37621968\"\
-        \ data-searchsession=\"/questions/37614694/plot-over-an-image-background-in-matlab/37621968?r=SearchResults&s=5|40.7408#37621968\"\
+        \ data-searchsession=\"/questions/37614694/plot-over-an-image-background-in-matlab/37621968?r=SearchResults&s=5|40.7505#37621968\"\
         \ title=\"Plot over an image background in MATLAB\" class=\"question-hyperlink\"\
         >\r\n            A: Plot over an image background in MATLAB\r\n        </a>\r\
         \n</h3>\r\n            </div>\r\n            <div class=\"excerpt\">\r\n \
@@ -641,7 +653,7 @@ interactions:
         \n                </div>\r\n            </div>\r\n        </div>\r\n     \
         \   <div class=\"summary\">\r\n            <div class=\"result-link\">\r\n\
         \                <h3>\r\n\r\n        <a href=\"/questions/219872/graph-rendering-using-3d-acceleration/219951?r=SearchResults#219951\"\
-        \ data-searchsession=\"/questions/219872/graph-rendering-using-3d-acceleration/219951?r=SearchResults&s=6|40.6691#219951\"\
+        \ data-searchsession=\"/questions/219872/graph-rendering-using-3d-acceleration/219951?r=SearchResults&s=6|40.6791#219951\"\
         \ title=\"Graph rendering using 3D acceleration\" class=\"question-hyperlink\"\
         >\r\n            A: Graph rendering using 3D acceleration\r\n        </a>\r\
         \n</h3>\r\n            </div>\r\n            <div class=\"excerpt\">\r\n \
@@ -668,7 +680,7 @@ interactions:
         \n                    </div>\r\n            </div>\r\n        </div>\r\n \
         \       <div class=\"summary\">\r\n            <div class=\"result-link\"\
         >\r\n                <h3>\r\n\r\n        <a href=\"/questions/34741102/inspection-to-ensure-all-variable-declarations-are-initialised?r=SearchResults\"\
-        \ data-searchsession=\"/questions/34741102/inspection-to-ensure-all-variable-declarations-are-initialised?r=SearchResults&s=7|38.1776\"\
+        \ data-searchsession=\"/questions/34741102/inspection-to-ensure-all-variable-declarations-are-initialised?r=SearchResults&s=7|38.3460\"\
         \ title=\"Inspection to ensure all variable declarations are initialised\"\
         \ class=\"question-hyperlink\">\r\nQ: Inspection to ensure all variable declarations\
         \ are initialised        </a>\r\n</h3>\r\n            </div>\r\n         \
@@ -693,14 +705,14 @@ interactions:
         \ search-result\" id=\"question-summary-11950408\" data-position=\"8\">\r\n\
         \        <div class=\"statscontainer\">\r\n            <div class=\"stats\"\
         >\r\n                <div class=\"vote\">\r\n                    <div class=\"\
-        votes \">\r\n                        <span class=\"vote-count-post \"><strong>5</strong></span>\r\
+        votes \">\r\n                        <span class=\"vote-count-post \"><strong>6</strong></span>\r\
         \n                        <div class=\"viewcount\">votes</div>\r\n       \
         \             </div>\r\n                </div>\r\n                    <div\
         \ class=\"status answered\">\r\n                        <strong>5</strong>answers\r\
         \n                    </div>\r\n            </div>\r\n        </div>\r\n \
         \       <div class=\"summary\">\r\n            <div class=\"result-link\"\
         >\r\n                <h3>\r\n\r\n        <a href=\"/questions/11950408/dealing-with-duplicate-ids-in-selenium-webdriver?r=SearchResults\"\
-        \ data-searchsession=\"/questions/11950408/dealing-with-duplicate-ids-in-selenium-webdriver?r=SearchResults&s=8|37.7881\"\
+        \ data-searchsession=\"/questions/11950408/dealing-with-duplicate-ids-in-selenium-webdriver?r=SearchResults&s=8|38.0191\"\
         \ title=\"Dealing with duplicate ids in selenium webdriver\" class=\"question-hyperlink\"\
         >\r\nQ: Dealing with duplicate ids in selenium webdriver        </a>\r\n</h3>\r\
         \n            </div>\r\n            <div class=\"excerpt\">\r\n          \
@@ -734,7 +746,7 @@ interactions:
         \n                </div>\r\n            </div>\r\n        </div>\r\n     \
         \   <div class=\"summary\">\r\n            <div class=\"result-link\">\r\n\
         \                <h3>\r\n\r\n        <a href=\"/questions/7598720/what-exceptions-this-code-may-throw/7599249?r=SearchResults#7599249\"\
-        \ data-searchsession=\"/questions/7598720/what-exceptions-this-code-may-throw/7599249?r=SearchResults&s=9|37.5851#7599249\"\
+        \ data-searchsession=\"/questions/7598720/what-exceptions-this-code-may-throw/7599249?r=SearchResults&s=9|37.6619#7599249\"\
         \ title=\"what exceptions this code may throw ?\" class=\"question-hyperlink\"\
         >\r\n            A: what exceptions this code may throw ?\r\n        </a>\r\
         \n</h3>\r\n            </div>\r\n            <div class=\"excerpt\">\r\n \
@@ -764,7 +776,7 @@ interactions:
         \    </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"\
         summary\">\r\n            <div class=\"result-link\">\r\n                <h3>\r\
         \n\r\n        <a href=\"/questions/31506974/how-can-i-prevent-ckeditor-from-enclosing-urls-in-quotes?r=SearchResults\"\
-        \ data-searchsession=\"/questions/31506974/how-can-i-prevent-ckeditor-from-enclosing-urls-in-quotes?r=SearchResults&s=10|36.8665\"\
+        \ data-searchsession=\"/questions/31506974/how-can-i-prevent-ckeditor-from-enclosing-urls-in-quotes?r=SearchResults&s=10|36.9117\"\
         \ title=\"How can I prevent CKEditor from enclosing URLs in quotes?\" class=\"\
         question-hyperlink\">\r\nQ: How can I prevent CKEditor from enclosing URLs\
         \ in quotes?        </a>\r\n</h3>\r\n            </div>\r\n            <div\
@@ -795,7 +807,7 @@ interactions:
         \n                </div>\r\n            </div>\r\n        </div>\r\n     \
         \   <div class=\"summary\">\r\n            <div class=\"result-link\">\r\n\
         \                <h3>\r\n\r\n        <a href=\"/questions/42492312/100-width-not-working-in-ie-or-chrome/42585480?r=SearchResults#42585480\"\
-        \ data-searchsession=\"/questions/42492312/100-width-not-working-in-ie-or-chrome/42585480?r=SearchResults&s=11|33.4039#42585480\"\
+        \ data-searchsession=\"/questions/42492312/100-width-not-working-in-ie-or-chrome/42585480?r=SearchResults&s=11|33.4840#42585480\"\
         \ title=\"100% width not working in IE or Chrome\" class=\"question-hyperlink\"\
         >\r\n            A: 100% width not working in IE or Chrome\r\n        </a>\r\
         \n</h3>\r\n            </div>\r\n            <div class=\"excerpt\">\r\n \
@@ -821,7 +833,7 @@ interactions:
         \n                </div>\r\n            </div>\r\n        </div>\r\n     \
         \   <div class=\"summary\">\r\n            <div class=\"result-link\">\r\n\
         \                <h3>\r\n\r\n        <a href=\"/questions/6742749/is-it-possible-to-write-a-sql-statement-in-plain-assembly-language-processor-lev/6862456?r=SearchResults#6862456\"\
-        \ data-searchsession=\"/questions/6742749/is-it-possible-to-write-a-sql-statement-in-plain-assembly-language-processor-lev/6862456?r=SearchResults&s=12|32.0662#6862456\"\
+        \ data-searchsession=\"/questions/6742749/is-it-possible-to-write-a-sql-statement-in-plain-assembly-language-processor-lev/6862456?r=SearchResults&s=12|32.1521#6862456\"\
         \ title=\"Is it possible to write a SQL statement in plain assembly language\
         \ processor-level code?\" class=\"question-hyperlink\">\r\n            A:\
         \ Is it possible to write a SQL statement in plain assembly language processor-level\
@@ -849,7 +861,7 @@ interactions:
         \    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\
         \n        <div class=\"summary\">\r\n            <div class=\"result-link\"\
         >\r\n                <h3>\r\n\r\n        <a href=\"/questions/314241/what-oop-coding-practices-should-you-always-make-time-for/314960?r=SearchResults#314960\"\
-        \ data-searchsession=\"/questions/314241/what-oop-coding-practices-should-you-always-make-time-for/314960?r=SearchResults&s=13|31.5311#314960\"\
+        \ data-searchsession=\"/questions/314241/what-oop-coding-practices-should-you-always-make-time-for/314960?r=SearchResults&s=13|31.8424#314960\"\
         \ title=\"What OOP coding practices should you always make time for?\" class=\"\
         question-hyperlink\">\r\n            A: What OOP coding practices should you\
         \ always make time for?\r\n        </a>\r\n</h3>\r\n            </div>\r\n\
@@ -871,7 +883,7 @@ interactions:
         \n                </div>\r\n            </div>\r\n        </div>\r\n     \
         \   <div class=\"summary\">\r\n            <div class=\"result-link\">\r\n\
         \                <h3>\r\n\r\n        <a href=\"/questions/24133516/why-outlook-doesnt-support-background-images-and-other-html-and-css-properties/24133625?r=SearchResults#24133625\"\
-        \ data-searchsession=\"/questions/24133516/why-outlook-doesnt-support-background-images-and-other-html-and-css-properties/24133625?r=SearchResults&s=14|31.1114#24133625\"\
+        \ data-searchsession=\"/questions/24133516/why-outlook-doesnt-support-background-images-and-other-html-and-css-properties/24133625?r=SearchResults&s=14|31.2293#24133625\"\
         \ title=\"Why Outlook doesn&#x27;t support background images and other HTML\
         \ and CSS properties?\" class=\"question-hyperlink\">\r\n            A: Why\
         \ Outlook doesn&#39;t support background images and other HTML and CSS properties?\r\
@@ -898,7 +910,7 @@ interactions:
         \    </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"\
         summary\">\r\n            <div class=\"result-link\">\r\n                <h3>\r\
         \n\r\n        <a href=\"/questions/9841410/what-can-a-clickonce-application-in-an-internet-zone-sandbox-expect-to-get-away?r=SearchResults\"\
-        \ data-searchsession=\"/questions/9841410/what-can-a-clickonce-application-in-an-internet-zone-sandbox-expect-to-get-away?r=SearchResults&s=15|30.6991\"\
+        \ data-searchsession=\"/questions/9841410/what-can-a-clickonce-application-in-an-internet-zone-sandbox-expect-to-get-away?r=SearchResults&s=15|30.5172\"\
         \ title=\"What can a ClickOnce application in an Internet Zone sandbox expect\
         \ to get away with?\" class=\"question-hyperlink\">\r\nQ: What can a ClickOnce\
         \ application in an Internet Zone sandbox expect to get away with?       \
@@ -947,169 +959,170 @@ interactions:
         \r\n           class=\"js-gps-track s-link s-link__inherit\" \r\n        \
         \   data-gps-track=\"posts_hot_network.click({ item_type:1, location:12 })\"\
         >\r\n            Hot Network Questions\r\n        </a>\r\n    </h4>\r\n  \
-        \  <ul>\r\n            <li >\r\n                <div class=\"favicon favicon-travel\"\
-        \ title=\"Travel Stack Exchange\"></div><a href=\"https://travel.stackexchange.com/questions/157648/did-i-miss-eu-customs-on-a-flight-from-brazil-with-stopover-in-portugal-to-germa\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:273 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Did I miss EU customs on a flight\
-        \ from Brazil with stopover in Portugal to Germany?\r\n                </a>\r\
-        \n\r\n            </li>\r\n            <li >\r\n                <div class=\"\
-        favicon favicon-serverfault\" title=\"Server Fault\"></div><a href=\"https://serverfault.com/questions/1021273/all-yum-mirrors-failing-with-errno-1-repomd-xml-does-not-match-metalink\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:2 }); posts_hot_network.click({ item_type:2, location:12\
-        \ })\">\r\n                    All Yum mirrors failing with [Errno -1] repomd.xml\
-        \ does not match metalink\r\n                </a>\r\n\r\n            </li>\r\
-        \n            <li >\r\n                <div class=\"favicon favicon-politics\"\
-        \ title=\"Politics Stack Exchange\"></div><a href=\"https://politics.stackexchange.com/questions/53900/can-the-so-called-capitol-hill-autonomous-zone-in-seattle-be-treated-as-an-ins\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:475 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Can the so-called &quot;Capitol\
-        \ Hill Autonomous Zone&quot; in Seattle be treated as an insurrection against\
-        \ the Federal Government?\r\n                </a>\r\n\r\n            </li>\r\
-        \n            <li >\r\n                <div class=\"favicon favicon-academia\"\
-        \ title=\"Academia Stack Exchange\"></div><a href=\"https://academia.stackexchange.com/questions/150460/can-a-grad-student-take-undergrad-classes\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:415 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Can a grad student take undergrad\
-        \ classes?\r\n                </a>\r\n\r\n            </li>\r\n          \
-        \  <li >\r\n                <div class=\"favicon favicon-dsp\" title=\"Signal\
-        \ Processing Stack Exchange\"></div><a href=\"https://dsp.stackexchange.com/questions/68293/group-delay-of-non-differentiable-unwrapped-phase\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:295 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Group delay of non differentiable\
-        \ unwrapped phase\r\n                </a>\r\n\r\n            </li>\r\n   \
-        \         <li >\r\n                <div class=\"favicon favicon-astronomy\"\
-        \ title=\"Astronomy Stack Exchange\"></div><a href=\"https://astronomy.stackexchange.com/questions/36517/why-do-gas-giants-have-clearly-delineated-surfaces-whereas-the-earths-atmosphe\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:514 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Why do gas giants have clearly\
-        \ delineated surfaces, whereas the Earth&#x27;s atmosphere fades into space?\r\
-        \n                </a>\r\n\r\n            </li>\r\n            <li >\r\n \
-        \               <div class=\"favicon favicon-chess\" title=\"Chess Stack Exchange\"\
-        ></div><a href=\"https://chess.stackexchange.com/questions/29974/scandinavian-defence-queen-e5\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:435 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Scandinavian Defence queen e5\r\
-        \n                </a>\r\n\r\n            </li>\r\n            <li >\r\n \
-        \               <div class=\"favicon favicon-worldbuilding\" title=\"Worldbuilding\
-        \ Stack Exchange\"></div><a href=\"https://worldbuilding.stackexchange.com/questions/178478/why-do-nuclear-powered-spaceship-needs-to-wait-a-few-days-before-restarting-reac\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:579 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Why do nuclear powered spaceship\
-        \ needs to wait a few days before restarting reactor engine?\r\n         \
-        \       </a>\r\n\r\n            </li>\r\n            <li >\r\n           \
-        \     <div class=\"favicon favicon-martialarts\" title=\"Martial Arts Stack\
-        \ Exchange\"></div><a href=\"https://martialarts.stackexchange.com/questions/9941/is-there-any-device-to-practice-defense-while-attacking\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:403 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Is there any device to practice\
-        \ defense while attacking?\r\n                </a>\r\n\r\n            </li>\r\
-        \n            <li >\r\n                <div class=\"favicon favicon-german\"\
-        \ title=\"German Language Stack Exchange\"></div><a href=\"https://german.stackexchange.com/questions/59014/translation-of-the-word-concept-trope\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:253 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Translation of the word/concept\
-        \ &#x201C;trope&#x201D;\r\n                </a>\r\n\r\n            </li>\r\
-        \n            <li >\r\n                <div class=\"favicon favicon-movies\"\
-        \ title=\"Movies &amp; TV Stack Exchange\"></div><a href=\"https://movies.stackexchange.com/questions/109569/why-is-there-a-picture-of-an-native-american-man-on-the-early-test-screens\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:367 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Why is there a picture of an native\
-        \ American man on the early test screens?\r\n                </a>\r\n\r\n\
-        \            </li>\r\n            <li >\r\n                <div class=\"favicon\
-        \ favicon-biology\" title=\"Biology Stack Exchange\"></div><a href=\"https://biology.stackexchange.com/questions/94096/do-viruses-or-bacteria-have-a-flavour\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:375 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Do viruses or bacteria have a flavour?\r\
-        \n                </a>\r\n\r\n            </li>\r\n            <li class=\"\
-        dno js-hidden\">\r\n                <div class=\"favicon favicon-codegolf\"\
-        \ title=\"Code Golf Stack Exchange\"></div><a href=\"https://codegolf.stackexchange.com/questions/206021/shortlex-predecessor\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:200 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Shortlex predecessor\r\n      \
-        \          </a>\r\n\r\n            </li>\r\n            <li class=\"dno js-hidden\"\
-        >\r\n                <div class=\"favicon favicon-mathematica\" title=\"Mathematica\
-        \ Stack Exchange\"></div><a href=\"https://mathematica.stackexchange.com/questions/223880/incorrect-result-from-dsolve-for-diffusion-ibvp\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:387 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Incorrect Result from DSolve for\
-        \ Diffusion IBVP?\r\n                </a>\r\n\r\n            </li>\r\n   \
-        \         <li class=\"dno js-hidden\">\r\n                <div class=\"favicon\
-        \ favicon-bicycles\" title=\"Bicycles Stack Exchange\"></div><a href=\"https://bicycles.stackexchange.com/questions/68827/is-it-possible-to-charge-an-ebike-from-a-12v-solar-powered-battery\"\
+        \  <ul>\r\n            <li >\r\n                <div class=\"favicon favicon-bicycles\"\
+        \ title=\"Bicycles Stack Exchange\"></div><a href=\"https://bicycles.stackexchange.com/questions/69632/shimano-model-number-abbreviations\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
         \ item_type:12, target_site:126 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Is it possible to charge an ebike\
-        \ from a 12V solar powered battery?\r\n                </a>\r\n\r\n      \
-        \      </li>\r\n            <li class=\"dno js-hidden\">\r\n             \
-        \   <div class=\"favicon favicon-physics\" title=\"Physics Stack Exchange\"\
-        ></div><a href=\"https://physics.stackexchange.com/questions/558832/why-do-objects-with-big-size-break-easily\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:151 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Why do objects with big size break\
-        \ easily?\r\n                </a>\r\n\r\n            </li>\r\n           \
-        \ <li class=\"dno js-hidden\">\r\n                <div class=\"favicon favicon-rpg\"\
-        \ title=\"Role-playing Games Stack Exchange\"></div><a href=\"https://rpg.stackexchange.com/questions/170358/what-is-the-utility-of-the-magic-item-unbreakable-arrow\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:122 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    What is the utility of the magic\
-        \ item Unbreakable Arrow?\r\n                </a>\r\n\r\n            </li>\r\
-        \n            <li class=\"dno js-hidden\">\r\n                <div class=\"\
-        favicon favicon-worldbuilding\" title=\"Worldbuilding Stack Exchange\"></div><a\
-        \ href=\"https://worldbuilding.stackexchange.com/questions/178347/is-there-anything-about-photons-and-or-space-time-that-would-allow-the-detection\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:579 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Is there anything about photons\
-        \ and/or space-time that would allow the detection of an energy-based attack\
-        \ from a distance of ten light seconds?\r\n                </a>\r\n\r\n  \
-        \          </li>\r\n            <li class=\"dno js-hidden\">\r\n         \
-        \       <div class=\"favicon favicon-codegolf\" title=\"Code Golf Stack Exchange\"\
-        ></div><a href=\"https://codegolf.stackexchange.com/questions/205988/determine-the-area-enclosed-by-slashes\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:200 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Determine the area enclosed by\
-        \ slashes\r\n                </a>\r\n\r\n            </li>\r\n           \
-        \ <li class=\"dno js-hidden\">\r\n                <div class=\"favicon favicon-skeptics\"\
-        \ title=\"Skeptics Stack Exchange\"></div><a href=\"https://skeptics.stackexchange.com/questions/47850/does-it-take-two-weeks-for-a-single-man-to-produce-enough-sperm-to-impregnate-ev\"\
-        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:212 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Does it take two weeks for a single\
-        \ man to produce enough sperm to impregnate every fertile woman on Earth?\r\
-        \n                </a>\r\n\r\n            </li>\r\n            <li class=\"\
-        dno js-hidden\">\r\n                <div class=\"favicon favicon-scifi\" title=\"\
-        Science Fiction &amp; Fantasy Stack Exchange\"></div><a href=\"https://scifi.stackexchange.com/questions/232691/why-do-some-federation-ships-not-have-deflector-dishes\"\
+        \ location:12 })\">\r\n                    Shimano model number abbreviations\r\
+        \n                </a>\r\n\r\n            </li>\r\n            <li >\r\n \
+        \               <div class=\"favicon favicon-scifi\" title=\"Science Fiction\
+        \ &amp; Fantasy Stack Exchange\"></div><a href=\"https://scifi.stackexchange.com/questions/234503/book-with-short-stories-about-travel-gates-and-a-lizard-race-with-12-digits\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
         \ item_type:12, target_site:186 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Why do some Federation ships not\
-        \ have deflector dishes?\r\n                </a>\r\n\r\n            </li>\r\
+        \ location:12 })\">\r\n                    Book with short stories about travel\
+        \ gates, and a lizard race with 12 digits\r\n                </a>\r\n\r\n\
+        \            </li>\r\n            <li >\r\n                <div class=\"favicon\
+        \ favicon-scifi\" title=\"Science Fiction &amp; Fantasy Stack Exchange\"></div><a\
+        \ href=\"https://scifi.stackexchange.com/questions/234482/why-did-tolkien-describe-religious-cults-in-numenor-only\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:186 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Why did Tolkien describe religious\
+        \ cults in Numenor only?\r\n                </a>\r\n\r\n            </li>\r\
+        \n            <li >\r\n                <div class=\"favicon favicon-puzzling\"\
+        \ title=\"Puzzling Stack Exchange\"></div><a href=\"https://puzzling.stackexchange.com/questions/99964/what-is-the-secret-operator\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:559 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    What is the secret operator?\r\n\
+        \                </a>\r\n\r\n            </li>\r\n            <li >\r\n  \
+        \              <div class=\"favicon favicon-rpg\" title=\"Role-playing Games\
+        \ Stack Exchange\"></div><a href=\"https://rpg.stackexchange.com/questions/171965/are-there-any-melee-alternatives-to-power-word-kill\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:122 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Are there any melee alternatives\
+        \ to Power Word Kill?\r\n                </a>\r\n\r\n            </li>\r\n\
+        \            <li >\r\n                <div class=\"favicon favicon-music\"\
+        \ title=\"Music: Practice &amp; Theory Stack Exchange\"></div><a href=\"https://music.stackexchange.com/questions/101884/mystery-bowing-notation\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:240 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Mystery bowing notation\r\n   \
+        \             </a>\r\n\r\n            </li>\r\n            <li >\r\n     \
+        \           <div class=\"favicon favicon-codereview\" title=\"Code Review\
+        \ Stack Exchange\"></div><a href=\"https://codereview.stackexchange.com/questions/245508/hangman-bot-built-with-performance-in-mind\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:196 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Hangman Bot built with performance\
+        \ in mind\r\n                </a>\r\n\r\n            </li>\r\n           \
+        \ <li >\r\n                <div class=\"favicon favicon-superuser\" title=\"\
+        Super User\"></div><a href=\"https://superuser.com/questions/1568508/pc-uses-speaker-of-headset-instead-of-microphone\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:3 }); posts_hot_network.click({ item_type:2, location:12\
+        \ })\">\r\n                    PC uses speaker of headset instead of microphone\r\
+        \n                </a>\r\n\r\n            </li>\r\n            <li >\r\n \
+        \               <div class=\"favicon favicon-photo\" title=\"Photography Stack\
+        \ Exchange\"></div><a href=\"https://photo.stackexchange.com/questions/117909/will-canons-ef-eos-r-adapter-work-with-the-new-eos-r5-or-will-i-need-something\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:61 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Will Canon&#x27;s EF-EOS R adapter\
+        \ work with the new EOS R5 or will I need something else?\r\n            \
+        \    </a>\r\n\r\n            </li>\r\n            <li >\r\n              \
+        \  <div class=\"favicon favicon-math\" title=\"Mathematics Stack Exchange\"\
+        ></div><a href=\"https://math.stackexchange.com/questions/3757617/inverse-of-sum-of-inverses-of-matrices\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:69 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Inverse of sum of inverses of matrices\r\
+        \n                </a>\r\n\r\n            </li>\r\n            <li >\r\n \
+        \               <div class=\"favicon favicon-english\" title=\"English Language\
+        \ &amp; Usage Stack Exchange\"></div><a href=\"https://english.stackexchange.com/questions/540829/what-to-call-casual-or-commonplace-death\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:97 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    What to call &quot;casual&quot;\
+        \ or &quot;commonplace&quot; death?\r\n                </a>\r\n\r\n      \
+        \      </li>\r\n            <li >\r\n                <div class=\"favicon\
+        \ favicon-money\" title=\"Personal Finance &amp; Money Stack Exchange\"></div><a\
+        \ href=\"https://money.stackexchange.com/questions/127797/any-way-to-undo-no-one-can-claim-me-as-a-dependent-on-my-submitted-tax-return\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:93 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Any way to undo &quot;No one can\
+        \ claim me as a dependent&quot; on my submitted tax return?\r\n          \
+        \      </a>\r\n\r\n            </li>\r\n            <li class=\"dno js-hidden\"\
+        >\r\n                <div class=\"favicon favicon-ell\" title=\"English Language\
+        \ Learners Stack Exchange\"></div><a href=\"https://ell.stackexchange.com/questions/253720/bathroom-or-restroom\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:481 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    &quot;Bathroom&quot; or &quot;Restroom&quot;\r\
+        \n                </a>\r\n\r\n            </li>\r\n            <li class=\"\
+        dno js-hidden\">\r\n                <div class=\"favicon favicon-german\"\
+        \ title=\"German Language Stack Exchange\"></div><a href=\"https://german.stackexchange.com/questions/59326/what-is-the-difference-between-downloaden-runterladen-and-herunterladen\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:253 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    What is the difference between\
+        \ &quot;downloaden&quot;, &quot;runterladen&quot; and &quot;herunterladen&quot;?\r\
+        \n                </a>\r\n\r\n            </li>\r\n            <li class=\"\
+        dno js-hidden\">\r\n                <div class=\"favicon favicon-puzzling\"\
+        \ title=\"Puzzling Stack Exchange\"></div><a href=\"https://puzzling.stackexchange.com/questions/99967/a-day-at-the-circus-pay-attention\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:559 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    A day at the circus (pay attention)\r\
+        \n                </a>\r\n\r\n            </li>\r\n            <li class=\"\
+        dno js-hidden\">\r\n                <div class=\"favicon favicon-astronomy\"\
+        \ title=\"Astronomy Stack Exchange\"></div><a href=\"https://astronomy.stackexchange.com/questions/36947/is-it-true-that-we-see-the-center-of-the-milky-way-for-only-half-of-the-year\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:514 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Is it true that we see the center\
+        \ of the milky-way for only half of the year?\r\n                </a>\r\n\r\
+        \n            </li>\r\n            <li class=\"dno js-hidden\">\r\n      \
+        \          <div class=\"favicon favicon-unix\" title=\"Unix &amp; Linux Stack\
+        \ Exchange\"></div><a href=\"https://unix.stackexchange.com/questions/598611/reversing-a-file-line-wise-and-character-wise\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:106 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Reversing a file line-wise and\
+        \ character-wise\r\n                </a>\r\n\r\n            </li>\r\n    \
+        \        <li class=\"dno js-hidden\">\r\n                <div class=\"favicon\
+        \ favicon-ell\" title=\"English Language Learners Stack Exchange\"></div><a\
+        \ href=\"https://ell.stackexchange.com/questions/253741/what-does-the-word-just-mean-in-this-context\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:481 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    What does the word &quot;just&quot;\
+        \ mean in this context?\r\n                </a>\r\n\r\n            </li>\r\
         \n            <li class=\"dno js-hidden\">\r\n                <div class=\"\
-        favicon favicon-money\" title=\"Personal Finance &amp; Money Stack Exchange\"\
-        ></div><a href=\"https://money.stackexchange.com/questions/126507/is-being-asked-to-pay-for-business-supplies-via-bitcoin-an-employment-scam\"\
+        favicon favicon-literature\" title=\"Literature Stack Exchange\"></div><a\
+        \ href=\"https://literature.stackexchange.com/questions/14901/bilbo-s-song-of-e%c3%a4rendil-in-the-fellowship-of-the-ring\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:93 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    Is being asked to pay for business\
-        \ supplies via Bitcoin an employment scam?\r\n                </a>\r\n\r\n\
-        \            </li>\r\n            <li class=\"dno js-hidden\">\r\n       \
-        \         <div class=\"favicon favicon-money\" title=\"Personal Finance &amp;\
-        \ Money Stack Exchange\"></div><a href=\"https://money.stackexchange.com/questions/126505/how-can-i-determine-if-my-stock-picking-performance-was-due-to-luck-or-due-to-sk\"\
+        \ item_type:12, target_site:668 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Bilbo&#x2019;s song of E&#xE4;rendil\
+        \ in &#x201C;The Fellowship of the Ring&#x201D;\r\n                </a>\r\n\
+        \r\n            </li>\r\n            <li class=\"dno js-hidden\">\r\n    \
+        \            <div class=\"favicon favicon-unix\" title=\"Unix &amp; Linux\
+        \ Stack Exchange\"></div><a href=\"https://unix.stackexchange.com/questions/598634/how-to-add-different-string-to-duplicates-in-a-single-column-of-a-tab-delimited\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:93 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    How can I determine if my stock\
-        \ picking performance was due to luck or due to skill?\r\n               \
-        \ </a>\r\n\r\n            </li>\r\n            <li class=\"dno js-hidden\"\
-        >\r\n                <div class=\"favicon favicon-academia\" title=\"Academia\
-        \ Stack Exchange\"></div><a href=\"https://academia.stackexchange.com/questions/150424/about-writing-to-editor-of-a-journal-to-identify-serious-mistake-in-a-published\"\
+        \ item_type:12, target_site:106 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    How to add different string to\
+        \ duplicates in a single column of a tab delimited file in order to make them\
+        \ unique\r\n                </a>\r\n\r\n            </li>\r\n            <li\
+        \ class=\"dno js-hidden\">\r\n                <div class=\"favicon favicon-rpg\"\
+        \ title=\"Role-playing Games Stack Exchange\"></div><a href=\"https://rpg.stackexchange.com/questions/171945/preparing-for-so-many-quests-on-dragon-of-icespire-peak\"\
         \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
-        \ item_type:12, target_site:415 }); posts_hot_network.click({ item_type:2,\
-        \ location:12 })\">\r\n                    About writing to editor of a journal\
-        \ to identify serious mistake in a published article\r\n                </a>\r\
-        \n\r\n            </li>\r\n    </ul>\r\n\r\n        <a href=\"#\" \r\n   \
-        \        class=\"show-more js-show-more js-gps-track\" \r\n           data-gps-track=\"\
-        posts_hot_network.click({ item_type:3, location:12 })\">\r\n            more\
-        \ hot questions\r\n        </a>\r\n</div></div>\r\n    <script>\r\n      \
-        \  $(\".js-search-results\").on(\"mousedown touchstart\", \"div.result-link\
-        \ a\", function (ev) {\r\n            this.href = $(this).data(\"searchsession\"\
-        );\r\n        });\r\n    </script>\r\n\r\n\r\n        </div>\r\n    </div>\r\
-        \n        \r\n<script>;try{(function(a){function b(a){return'string'==typeof\
+        \ item_type:12, target_site:122 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Preparing for so many quests on\
+        \ Dragon of Icespire peak\r\n                </a>\r\n\r\n            </li>\r\
+        \n            <li class=\"dno js-hidden\">\r\n                <div class=\"\
+        favicon favicon-math\" title=\"Mathematics Stack Exchange\"></div><a href=\"\
+        https://math.stackexchange.com/questions/3757038/how-can-i-prove-that-3-planes-are-arranged-in-a-triangle-like-shape-without-calc\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:69 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    How can I prove that 3 planes are\
+        \ arranged in a triangle-like shape without calculating their intersection\
+        \ lines?\r\n                </a>\r\n\r\n            </li>\r\n            <li\
+        \ class=\"dno js-hidden\">\r\n                <div class=\"favicon favicon-retrocomputing\"\
+        \ title=\"Retrocomputing Stack Exchange\"></div><a href=\"https://retrocomputing.stackexchange.com/questions/15607/why-is-the-clock-frequency-of-the-ps-2-keyboard-protocol-so-high\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:648 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Why is the clock frequency of the\
+        \ PS/2 keyboard protocol so high?\r\n                </a>\r\n\r\n        \
+        \    </li>\r\n            <li class=\"dno js-hidden\">\r\n               \
+        \ <div class=\"favicon favicon-security\" title=\"Information Security Stack\
+        \ Exchange\"></div><a href=\"https://security.stackexchange.com/questions/234641/is-cell-phone-number-based-verification-secure\"\
+        \ class=\"js-gps-track question-hyperlink mb0\" data-gps-track=\"site.switch({\
+        \ item_type:12, target_site:162 }); posts_hot_network.click({ item_type:2,\
+        \ location:12 })\">\r\n                    Is cell phone number based verification\
+        \ secure?\r\n                </a>\r\n\r\n            </li>\r\n    </ul>\r\n\
+        \r\n        <a href=\"#\" \r\n           class=\"show-more js-show-more js-gps-track\"\
+        \ \r\n           data-gps-track=\"posts_hot_network.click({ item_type:3, location:12\
+        \ })\">\r\n            more hot questions\r\n        </a>\r\n</div></div>\r\
+        \n    <script>\r\n        $(\".js-search-results\").on(\"mousedown touchstart\"\
+        , \"div.result-link a\", function (ev) {\r\n            this.href = $(this).data(\"\
+        searchsession\");\r\n        });\r\n    </script>\r\n\r\n\r\n        </div>\r\
+        \n    </div>\r\n        \r\n<script>;try{(function(a){function b(a){return'string'==typeof\
         \ a?document.getElementById(a):a}function c(a){return a=b(a),!!a&&'none'===getComputedStyle(a).display}function\
         \ d(a){return!c(a)}function e(a){return!!a}function f(a){return /^\\s*$/.test(b(a).innerHTML)}function\
         \ g(a){var b=a.style;b.height=b.maxHeight=b.minHeight='auto',b.display='none',[].forEach.call(a.children,g)}function\
@@ -1141,7 +1154,7 @@ interactions:
         \ i=e.filter(function(a){return!x.ll||0>c.indexOf(a.id)}),j=e.filter(function(a){return!!x.ll&&0<=c.indexOf(a.id)});i.forEach(function(a){t(a.id,h),a.setAttribute('data-dfp-zone','true')}),googletag.enableServices(),i.forEach(function(a){googletag.display(a.id)}),x.ll&&(h.enableLazyLoad({fetchMarginPercent:0,renderMarginPercent:0}),j.forEach(function(a){t(a.id,h),a.setAttribute('data-clc-prefilled','true')}),j.forEach(function(a){googletag.display(a.id)}))}}var\
         \ x=function(a){for(var b=[],c=1;c<arguments.length;c++)b[c-1]=arguments[c];for(var\
         \ d,e=0,f=b;e<f.length;e++)for(var g in d=f[e],d)a[g]=d[g];return a}({\"lib\"\
-        :\"https://cdn.sstatic.net/clc/clc.min.js?v=d86ede4e666e\",\"style\":\"https://cdn.sstatic.net/clc/styles/clc.min.css?v=ac5522400b2d\"\
+        :\"https://cdn.sstatic.net/clc/clc.min.js?v=7dce99576e19\",\"style\":\"https://cdn.sstatic.net/clc/styles/clc.min.css?v=481f2e682fba\"\
         ,\"u\":\"https://clc.stackoverflow.com/markup.js\",\"wa\":true,\"kt\":2000,\"\
         tto\":true,\"h\":\"clc.stackoverflow.com\",\"allowed\":\"^(((talent\\\\.)?stackoverflow)|(blog\\\
         \\.codinghorror)|(serverfault|askubuntu)|([^\\\\.]+\\\\.stackexchange))\\\\\
@@ -1161,11 +1174,13 @@ interactions:
         \ sb: !0, 'tag-sponsorship': !0, lb:!0, mlb:!0, smlb:!0, bmlb:!0, 'mobile-below-question':!0};\r\
         \n        clc.options = clc.options || {};\r\n        clc.options.sf = !0;\r\
         \n        clc.options.hb = !1;\r\n        clc.options.ll = !0;\r\n       \
-        \ clc.cmd = clc.cmd || [];\r\n        clc.cmd.push(function () { window.clc_request='AkypCFHGD9gIAAAAAAAAAAACAAAAAQAAAAAAAAAAAJChN0mumLxEUHk';\
+        \ clc.cmd = clc.cmd || [];\r\n        clc.cmd.push(function () { window.clc_request='AjPoL5MUKdgIAAAAAAAAAAACAAAAAQAAAAAAAAAAABqU1tIZ1iJxV4s';\
         \ clc.load(); });\r\n        clc.dfp = clc.dfp || {};\r\n        clc.dfp.targeting\
         \ = {};\r\n        var googletag = googletag || {};\r\n        googletag.cmd\
         \ = googletag.cmd || [];\r\n        googletag.cmd.push(function () { clc.dfp.load();\
-        \ });\r\n\r\n    </script>\r\n\r\n            <footer id=\"footer\" class=\"\
+        \ });\r\n\r\n            StackExchange.ready(function () { googletag.cmd.push(function\
+        \ () { StackExchange.ads.init(googletag, '/ads/report-ad', 'Report this ad')\
+        \ }) });\r\n    </script>\r\n\r\n            <footer id=\"footer\" class=\"\
         site-footer js-footer\" role=\"contentinfo\">\r\n        <div class=\"site-footer--container\"\
         >\r\n                <div class=\"site-footer--logo\">\r\n               \
         \     \r\n                    <a href=\"https://stackoverflow.com\"><svg aria-hidden=\"\
@@ -1696,7 +1711,7 @@ interactions:
         \n                </ul>\r\n\r\n                <p class=\"mt-auto mb24\">\r\
         \nsite design / logo &#169; 2020 Stack Exchange Inc; user contributions licensed\
         \ under <a href=\"https://stackoverflow.com/help/licensing\">cc by-sa</a>.\
-        \                    <span id=\"svnrev\">rev&nbsp;2020.6.12.37048</span>\r\
+        \                    <span id=\"svnrev\">rev&nbsp;2020.7.14.37215</span>\r\
         \n                </p>\r\n            </div>\r\n        </div>\r\n\r\n   \
         \ </footer>\r\n\r\n            <script>StackExchange.ready(function () { StackExchange.responsiveness.addSwitcher();\
         \ })</script>\r\n    <noscript>\r\n        <div id=\"noscript-warning\">Stack\
@@ -1731,39 +1746,37 @@ interactions:
     headers:
       Accept-Ranges: bytes
       Age: '0'
+      Cache-Control: private
       Connection: keep-alive
-      Date: Sat, 13 Jun 2020 18:19:31 GMT
-      Set-Cookie: prov=dfd00706-698a-a41e-08b2-30dc39c3ff5c; domain=.stackoverflow.com;
+      Content-Encoding: gzip
+      Content-Type: text/html; charset=utf-8
+      Date: Wed, 15 Jul 2020 23:12:42 GMT
+      Server: Microsoft-IIS/10.0
+      Set-Cookie: prov=7184ece9-7901-b50f-4f46-7ff72c0f9558; domain=.stackoverflow.com;
         expires=Fri, 01-Jan-2055 00:00:00 GMT; path=/; HttpOnly
+      Transfer-Encoding: chunked
       Vary: Accept-Encoding,Fastly-SSL
       Via: 1.1 varnish
       X-Cache: MISS
       X-Cache-Hits: '0'
       X-DNS-Prefetch-Control: 'off'
-      X-Served-By: cache-lhr7367-LHR
-      X-Timer: S1592072371.980255,VS0,VE118
-      cache-control: private
-      content-encoding: gzip
-      content-type: text/html; charset=utf-8
-      server: Microsoft-IIS/10.0
-      set-cookie: usr=p=%5b10%7c15%5d; expires=Sun, 13 Dec 2020 18:19:31 GMT; path=/;
-        secure; samesite=none; httponly
+      X-Served-By: cache-bom4723-BOM
+      X-Timer: S1594854762.644846,VS0,VE367
       strict-transport-security: max-age=2592000
-      transfer-encoding: chunked
-      x-aspnet-duration-ms: '47'
+      x-aspnet-duration-ms: '72'
       x-elastic-count: '5'
-      x-elastic-duration-ms: '40'
+      x-elastic-duration-ms: '65'
       x-flags: AA
       x-frame-options: SAMEORIGIN
       x-is-crawler: '0'
       x-page-view: '1'
-      x-providence-cookie: dfd00706-698a-a41e-08b2-30dc39c3ff5c
+      x-providence-cookie: 7184ece9-7901-b50f-4f46-7ff72c0f9558
       x-redis-count: '2'
       x-redis-duration-ms: '0'
-      x-request-guid: b20d7552-f11e-4be6-916b-8e4cfa51c1e8
+      x-request-guid: 53dbcff3-5826-4041-a2d0-8ab7cb5eb98c
       x-route-name: Search/Search
       x-sql-count: '2'
-      x-sql-duration-ms: '1'
+      x-sql-duration-ms: '0'
     status:
       code: 200
       message: OK

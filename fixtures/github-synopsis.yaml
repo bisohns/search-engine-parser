@@ -7,7 +7,8 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - Mozilla/5.0 (Windows NT 6.1; rv:11.0) Gecko/20100101 Firefox/11.0
+      - Mozilla/5.0 (Windows; Windows NT 6.1) AppleWebKit/536.5 (KHTML, like Gecko)
+        Chrome/19.0.1084.46 Safari/536.5
     method: GET
     uri: https://github.com/search?q=Preaching+the+choir&p=1&type=None
   response:
@@ -20,12 +21,12 @@ interactions:
         >\n  <link rel=\"dns-prefetch\" href=\"https://avatars3.githubusercontent.com\"\
         >\n  <link rel=\"dns-prefetch\" href=\"https://github-cloud.s3.amazonaws.com\"\
         >\n  <link rel=\"dns-prefetch\" href=\"https://user-images.githubusercontent.com/\"\
-        >\n\n\n\n  <link crossorigin=\"anonymous\" media=\"all\" integrity=\"sha512-xnQIMZDOHZTyEPkXHdiwqBPPUAyzDzAU5iDJa6OfzDqwhJdI+0IyBajpzgDAKoegEWUXs4Ze9+/jGhP/OMD98w==\"\
-        \ rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/frameworks-c674083190ce1d94f210f9171dd8b0a8.css\"\
-        \ />\n  <link crossorigin=\"anonymous\" media=\"all\" integrity=\"sha512-IX5BoM4/CZcF+rw+yhDLhCjHTA1gz+F8rA3dQU3p7CFWAx1qGb+MVztQXTLG7jyLCn2kDGNZkp3pHjbL9Ac4kw==\"\
-        \ rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/site-217e41a0ce3f099705fabc3eca10cb84.css\"\
-        \ />\n    <link crossorigin=\"anonymous\" media=\"all\" integrity=\"sha512-NC0d+qVeTgvgc3XpqnmqrmnpQnjdeOmUq0XiH+8aCQipkK2dTy+BLVTNHCRJtcZxZCDUd7gBO8ccGLa7nVTYTw==\"\
-        \ rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/github-342d1dfaa55e4e0be07375e9aa79aaae.css\"\
+        >\n\n\n\n  <link crossorigin=\"anonymous\" media=\"all\" integrity=\"sha512-/uy49LxdzjR0L36uT6CnmV1omP/8ZHxvOg4zq/dczzABHq9atntjJDmo5B7sV0J+AwVmv0fR0ZyW3EQawzdLFA==\"\
+        \ rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/frameworks-feecb8f4bc5dce34742f7eae4fa0a799.css\"\
+        \ />\n  <link crossorigin=\"anonymous\" media=\"all\" integrity=\"sha512-37pLQI8klDWPjWVVWFB9ITJLwVTTkp3Rt4bVf+yixrViURK9OoGHEJDbTLxBv/rTJhsLm8pb00H2H5AG3hUJfg==\"\
+        \ rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/site-dfba4b408f2494358f8d655558507d21.css\"\
+        \ />\n    <link crossorigin=\"anonymous\" media=\"all\" integrity=\"sha512-D0DQkq+vtv5ktFd2VLqKYg++AB3tECPzX9K4tZ439H+YOu6YsTOmhErVvJZARnzb4AZ6pr9bjOcjk5XUMr8GNQ==\"\
+        \ rel=\"stylesheet\" href=\"https://github.githubassets.com/assets/github-0f40d092afafb6fe64b4577654ba8a62.css\"\
         \ />\n    \n    \n    \n    \n\n\n  <meta name=\"viewport\" content=\"width=device-width\"\
         >\n  \n  <title>Search \xB7 Preaching the choir \xB7 GitHub</title>\n    <meta\
         \ name=\"description\" content=\"GitHub is where people build software. More\
@@ -33,13 +34,14 @@ interactions:
         \ 100 million projects.\">\n    <link rel=\"search\" type=\"application/opensearchdescription+xml\"\
         \ href=\"/opensearch.xml\" title=\"GitHub\">\n  <link rel=\"fluid-icon\" href=\"\
         https://github.com/fluidicon.png\" title=\"GitHub\">\n  <meta property=\"\
-        fb:app_id\" content=\"1401488693436528\">\n\n    <meta property=\"og:url\"\
-        \ content=\"https://github.com\">\n    <meta property=\"og:site_name\" content=\"\
-        GitHub\">\n    <meta property=\"og:title\" content=\"Build software better,\
-        \ together\">\n    <meta property=\"og:description\" content=\"GitHub is where\
-        \ people build software. More than 50 million people use GitHub to discover,\
-        \ fork, and contribute to over 100 million projects.\">\n    <meta property=\"\
-        og:image\" content=\"https://github.githubassets.com/images/modules/open_graph/github-logo.png\"\
+        fb:app_id\" content=\"1401488693436528\">\n  <meta name=\"apple-itunes-app\"\
+        \ content=\"app-id=1477376905\">\n\n    <meta property=\"og:url\" content=\"\
+        https://github.com\">\n    <meta property=\"og:site_name\" content=\"GitHub\"\
+        >\n    <meta property=\"og:title\" content=\"Build software better, together\"\
+        >\n    <meta property=\"og:description\" content=\"GitHub is where people\
+        \ build software. More than 50 million people use GitHub to discover, fork,\
+        \ and contribute to over 100 million projects.\">\n    <meta property=\"og:image\"\
+        \ content=\"https://github.githubassets.com/images/modules/open_graph/github-logo.png\"\
         >\n    <meta property=\"og:image:type\" content=\"image/png\">\n    <meta\
         \ property=\"og:image:width\" content=\"1200\">\n    <meta property=\"og:image:height\"\
         \ content=\"1200\">\n    <meta property=\"og:image\" content=\"https://github.githubassets.com/images/modules/open_graph/github-mark.png\"\
@@ -60,11 +62,11 @@ interactions:
         >\n    <meta property=\"twitter:image:width\" content=\"1200\">\n    <meta\
         \ property=\"twitter:image:height\" content=\"1200\">\n\n  <link rel=\"assets\"\
         \ href=\"https://github.githubassets.com/\">\n  \n\n  <meta name=\"request-id\"\
-        \ content=\"96AA:2AE17:33FC286:4B4AADC:5EE518A9\" data-pjax-transient=\"true\"\
-        /><meta name=\"html-safe-nonce\" content=\"587c8c8c493533179bbbf0e60513360ea872aaba\"\
+        \ content=\"4B9C:60BC:2EE6C:44343:5F0F8D63\" data-pjax-transient=\"true\"\
+        /><meta name=\"html-safe-nonce\" content=\"b4f2b70796fb57da1d0825af956c341cc447bb27\"\
         \ data-pjax-transient=\"true\"/><meta name=\"visitor-payload\" content=\"\
-        eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiI5NkFBOjJBRTE3OjMzRkMyODY6NEI0QUFEQzo1RUU1MThBOSIsInZpc2l0b3JfaWQiOiI2NzUxNjE2ODQzNDc1MzkyNjgyIiwicmVnaW9uX2VkZ2UiOiJhbXMiLCJyZWdpb25fcmVuZGVyIjoiYW1zIn0=\"\
-        \ data-pjax-transient=\"true\"/><meta name=\"visitor-hmac\" content=\"8aee4be1f8628bb01421a302f5ca63a2f496a0c5c674d5b863e5c0eeb9d21b51\"\
+        eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiI0QjlDOjYwQkM6MkVFNkM6NDQzNDM6NUYwRjhENjMiLCJ2aXNpdG9yX2lkIjoiMTM2OTA0Mzc4ODA5MDAxOTE3MSIsInJlZ2lvbl9lZGdlIjoiYW1zIiwicmVnaW9uX3JlbmRlciI6ImFtcyJ9\"\
+        \ data-pjax-transient=\"true\"/><meta name=\"visitor-hmac\" content=\"0a7f6921fe9bf82e7ee6049f93b01d1a7aff57f36e3f186e4b78ee41184767c7\"\
         \ data-pjax-transient=\"true\"/>\n\n\n\n  <meta name=\"github-keyboard-shortcuts\"\
         \ content=\"\" data-pjax-transient=\"true\" />\n\n  \n\n  <meta name=\"selected-link\"\
         \ value=\"code_search\" data-pjax-transient>\n\n    <meta name=\"google-site-verification\"\
@@ -72,19 +74,19 @@ interactions:
         google-site-verification\" content=\"KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU\"\
         >\n  <meta name=\"google-site-verification\" content=\"ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA\"\
         >\n  <meta name=\"google-site-verification\" content=\"GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc\"\
-        >\n\n<meta name=\"octolytics-host\" content=\"collector.githubapp.com\" /><meta\
-        \ name=\"octolytics-app-id\" content=\"github\" /><meta name=\"octolytics-event-url\"\
+        >\n\n  <meta name=\"octolytics-host\" content=\"collector.githubapp.com\"\
+        \ /><meta name=\"octolytics-app-id\" content=\"github\" /><meta name=\"octolytics-event-url\"\
         \ content=\"https://collector.githubapp.com/github-external/browser_event\"\
         \ /><meta name=\"octolytics-dimension-ga_id\" content=\"\" class=\"js-octo-ga-id\"\
-        \ />\n\n\n\n<meta name=\"optimizely-sdk-key\" content=\"cowimJNste4j7QnBNCjaw\"\
-        \ />\n\n    <meta name=\"google-analytics\" content=\"UA-3769691-2\">\n\n\n\
-        <meta class=\"js-ga-set\" name=\"dimension10\" content=\"Responsive\">\n\n\
-        <meta class=\"js-ga-set\" name=\"dimension1\" content=\"Logged Out\">\n\n\n\
-        \n  \n\n      <meta name=\"hostname\" content=\"github.com\">\n    <meta name=\"\
-        user-login\" content=\"\">\n\n\n      <meta name=\"expected-hostname\" content=\"\
-        github.com\">\n\n\n    <meta name=\"enabled-features\" content=\"MARKETPLACE_PENDING_INSTALLATIONS\"\
-        >\n\n  <meta http-equiv=\"x-pjax-version\" content=\"7224aed3c08edc3ad5d7d232605a565c\"\
-        >\n  \n\n      <meta name=\"analytics-param-rename\" content=\"q:ga-q\" data-pjax-transient>\n\
+        \ />\n\n  \n\n  \n\n\n\n\n    <meta name=\"google-analytics\" content=\"UA-3769691-2\"\
+        >\n\n\n<meta class=\"js-ga-set\" name=\"dimension10\" content=\"Responsive\"\
+        \ data-pjax-transient>\n\n<meta class=\"js-ga-set\" name=\"dimension1\" content=\"\
+        Logged Out\">\n\n\n\n  \n\n      <meta name=\"hostname\" content=\"github.com\"\
+        >\n    <meta name=\"user-login\" content=\"\">\n\n\n      <meta name=\"expected-hostname\"\
+        \ content=\"github.com\">\n\n\n    <meta name=\"enabled-features\" content=\"\
+        MARKETPLACE_PENDING_INSTALLATIONS,ACTIONS_MANUAL_RUN\">\n\n  <meta http-equiv=\"\
+        x-pjax-version\" content=\"f38116e99c6720a95632f943073957d4\">\n  \n\n   \
+        \   <meta name=\"analytics-param-rename\" content=\"q:ga-q\" data-pjax-transient>\n\
         \n\n\n\n  <meta name=\"browser-stats-url\" content=\"https://api.github.com/_private/browser/stats\"\
         >\n\n  <meta name=\"browser-errors-url\" content=\"https://api.github.com/_private/browser/errors\"\
         >\n\n  <link rel=\"mask-icon\" href=\"https://github.githubassets.com/pinned-octocat.svg\"\
@@ -101,7 +103,7 @@ interactions:
         \ js-pjax-loader-bar\">\n        <span class=\"progress-pjax-loader-bar top-0\
         \ left-0\" style=\"width: 0%;\"></span>\n      </span>\n\n      \n      \n\
         \n\n\n          <header class=\"Header-old header-logged-out js-details-container\
-        \ Details position-relative f4 py-2\" role=\"banner\">\n  <div class=\"container-lg\
+        \ Details position-relative f4 py-2\" role=\"banner\">\n  <div class=\"container-xl\
         \ d-lg-flex flex-items-center p-responsive\">\n    <div class=\"d-flex flex-justify-between\
         \ flex-items-center\">\n        <a class=\"mr-4\" href=\"https://github.com/\"\
         \ aria-label=\"Homepage\" data-ga-click=\"(Logged out) Header, go to homepage,\
@@ -314,7 +316,7 @@ interactions:
         /_graphql/GetSuggestedNavigationDestinations\"\n          spellcheck=\"false\"\
         \n          autocomplete=\"off\"\n          >\n          <input type=\"hidden\"\
         \ data-csrf=\"true\" class=\"js-data-jump-to-suggestions-path-csrf\" value=\"\
-        AdB1dRRPzGPSnoc/2XWVm2fR9mDBLmXgdxUEk1Lo8scJcDi9gj3tCY9GMJFFsWHIrMcstXRTKVsC/4AREoJ1jw==\"\
+        odE3w3aXnVMzZuZrys1+WkR/vmTbKE91AvIOpYN2mlBl86izYmw+jJe8dZdI+82snlfhVGlaRK9jnlXLbax9EQ==\"\
         \ />\n          <input type=\"hidden\" class=\"js-site-search-type-field\"\
         \ name=\"type\" >\n            <img src=\"https://github.githubassets.com/images/search-key-slash.svg\"\
         \ alt=\"\" class=\"mr-2 header-search-key-slash\">\n\n            <div class=\"\
@@ -466,26 +468,27 @@ interactions:
         \ <div id=\"start-of-content\" class=\"show-on-focus\"></div>\n\n\n\n\n  \
         \  <div id=\"js-flash-container\">\n\n\n  <template class=\"js-flash-template\"\
         >\n    <div class=\"flash flash-full  js-flash-template-container\">\n  <div\
-        \ class=\"container-lg px-2\" >\n    <button class=\"flash-close js-flash-close\"\
-        \ type=\"button\" aria-label=\"Dismiss this message\">\n      <svg class=\"\
-        octicon octicon-x\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"\
+        \ class=\" px-2\" >\n    <button class=\"flash-close js-flash-close\" type=\"\
+        button\" aria-label=\"Dismiss this message\">\n      <svg class=\"octicon\
+        \ octicon-x\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"\
         16\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M3.72 3.72a.75.75\
         \ 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75\
         \ 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75\
         \ 0 010-1.06z\"></path></svg>\n    </button>\n    \n      <div class=\"js-flash-template-message\"\
-        ></div>\n\n  </div>\n</div>\n  </template>\n</div>\n\n\n    \n\n  <include-fragment\
+        ></div>\n\n  </div>\n</div>\n  </template>\n</div>\n\n\n  \n\n  <include-fragment\
         \ class=\"js-notification-shelf-include-fragment\" data-base-src=\"https://github.com/notifications/beta/shelf\"\
-        ></include-fragment>\n\n\n\n  <div class=\"application-main \" data-commit-hovercards-enabled>\n\
-        \      <main id=\"js-pjax-container\" data-pjax-container>\n        \n\n\n\
-        \n    <div class=\"container-lg px-md-2 mt-lg-4 clearfix\">\n\n    <div class=\"\
-        col-12 px-2 py-2 py-md-3 d-lg-none d-flex\">\n      <div class=\"d-flex flex-auto\"\
-        >\n        <!-- '\"` --><!-- </textarea></xmp> --></option></form><form class=\"\
-        js-site-search-form flex-auto\" action=\"/search\" accept-charset=\"UTF-8\"\
-        \ method=\"get\">\n          <input\n            aria-label=\"Search GitHub\"\
-        \n            autocapitalize=\"off\"\n            autocomplete=\"off\"\n \
-        \           autofocus\n            class=\"form-control input-block\"\n  \
-        \          name=\"q\"\n            placeholder=\"Search GitHub\"\n       \
-        \     spellcheck=\"false\"\n            type=\"text\"\n            value=\"\
+        ></include-fragment>\n\n\n\n  <div\n    class=\"application-main \"\n    data-commit-hovercards-enabled\n\
+        \    data-discussion-hovercards-enabled\n    data-issue-and-pr-hovercards-enabled\n\
+        \  >\n      <main id=\"js-pjax-container\" data-pjax-container>\n        \n\
+        \n\n\n    <div class=\"container-lg px-md-2 mt-lg-4 clearfix\">\n\n    <div\
+        \ class=\"col-12 px-2 py-2 py-md-3 d-lg-none d-flex\">\n      <div class=\"\
+        d-flex flex-auto\">\n        <!-- '\"` --><!-- </textarea></xmp> --></option></form><form\
+        \ class=\"js-site-search-form flex-auto\" action=\"/search\" accept-charset=\"\
+        UTF-8\" method=\"get\">\n          <input\n            aria-label=\"Search\
+        \ GitHub\"\n            autocapitalize=\"off\"\n            autocomplete=\"\
+        off\"\n            autofocus\n            class=\"form-control input-block\"\
+        \n            name=\"q\"\n            placeholder=\"Search GitHub\"\n    \
+        \        spellcheck=\"false\"\n            type=\"text\"\n            value=\"\
         Preaching the choir\"\n          >\n          <input type=\"hidden\" class=\"\
         js-site-search-type-field\" name=\"type\">\n        </div>\n        <button\
         \ class=\"btn ml-2 d-none d-md-block\" type=\"submit\">Search</button>\n</form>\
@@ -493,7 +496,7 @@ interactions:
         \    <nav class=\"menu border d-none d-md-block\" data-pjax>\n          <a\
         \ class=\"menu-item selected\" href=\"/search?q=Preaching+the+choir&amp;type=Repositories\"\
         >Repositories<span class=\"ml-1 mt-1 js-codesearch-count Counter Counter--gray\"\
-        \ data-search-type=\"Repositories\">2</span></a>\n          <a class=\"menu-item\"\
+        \ data-search-type=\"Repositories\">3</span></a>\n          <a class=\"menu-item\"\
         \ href=\"/search?q=Preaching+the+choir&amp;type=Code\">Code<include-fragment\
         \ src=\"https://github.com/search/count?p=1&amp;q=Preaching+the+choir&amp;type=Code\"\
         ></include-fragment></a>\n          <a class=\"menu-item\" href=\"/search?q=Preaching+the+choir&amp;type=Commits\"\
@@ -501,9 +504,9 @@ interactions:
         ></include-fragment></a>\n          <a class=\"menu-item\" href=\"/search?q=Preaching+the+choir&amp;type=Issues\"\
         >Issues<include-fragment src=\"https://github.com/search/count?p=1&amp;q=Preaching+the+choir&amp;type=Issues\"\
         ></include-fragment></a>\n          <a class=\"menu-item\" href=\"/search?q=Preaching+the+choir&amp;type=Discussions\"\
-        ><span>Discussions<span class=\"lh-condensed px-1 rounded-1 border border-green\
-        \ ml-2 d-inline-block text-normal text-gray text-small\">Beta</span></span><include-fragment\
-        \ src=\"https://github.com/search/count?p=1&amp;q=Preaching+the+choir&amp;type=Discussions\"\
+        ><span>Discussions<span class=\"Label Label--outline-green Label--inline ml-2\
+        \ text-normal text-gray f6 px-1\" title=\"Feature Release Label: Beta\">Beta</span>\n\
+        \n\n</span><include-fragment src=\"https://github.com/search/count?p=1&amp;q=Preaching+the+choir&amp;type=Discussions\"\
         ></include-fragment></a>\n          <a class=\"menu-item\" href=\"/search?q=Preaching+the+choir&amp;type=RegistryPackages\"\
         >Packages<include-fragment src=\"https://github.com/search/count?p=1&amp;q=Preaching+the+choir&amp;type=RegistryPackages\"\
         ></include-fragment></a>\n            <a class=\"menu-item\" href=\"/search?q=Preaching+the+choir&amp;type=Marketplace\"\
@@ -520,7 +523,7 @@ interactions:
         \ js-codesearch-nav overflow-auto\">\n              <a class=\"UnderlineNav-item\
         \ flex-shrink-0 selected\" href=\"/search?q=Preaching+the+choir&amp;type=Repositories\"\
         >Repositories<span class=\"ml-1 mt-1 js-codesearch-count Counter Counter--gray\"\
-        \ data-search-type=\"Repositories\">2</span></a>\n              <a class=\"\
+        \ data-search-type=\"Repositories\">3</span></a>\n              <a class=\"\
         UnderlineNav-item flex-shrink-0\" href=\"/search?q=Preaching+the+choir&amp;type=Code\"\
         >Code<span class=\"d-none js-codesearch-deferred-count\" data-search-type=\"\
         Code\"></span></a>\n              <a class=\"UnderlineNav-item flex-shrink-0\"\
@@ -530,17 +533,18 @@ interactions:
         >Issues<span class=\"d-none js-codesearch-deferred-count\" data-search-type=\"\
         Issues\"></span></a>\n              <a class=\"UnderlineNav-item flex-shrink-0\"\
         \ href=\"/search?q=Preaching+the+choir&amp;type=Discussions\"><span>Discussions<span\
-        \ class=\"lh-condensed px-1 rounded-1 border border-green ml-2 d-inline-block\
-        \ text-normal text-gray text-small\">Beta</span></span><span class=\"d-none\
-        \ js-codesearch-deferred-count\" data-search-type=\"Discussions\"></span></a>\n\
-        \              <a class=\"UnderlineNav-item flex-shrink-0\" href=\"/search?q=Preaching+the+choir&amp;type=RegistryPackages\"\
-        >Packages<span class=\"d-none js-codesearch-deferred-count\" data-search-type=\"\
-        RegistryPackages\"></span></a>\n                <a class=\"UnderlineNav-item\
-        \ flex-shrink-0\" href=\"/search?q=Preaching+the+choir&amp;type=Marketplace\"\
-        >Marketplace<span class=\"d-none js-codesearch-deferred-count\" data-search-type=\"\
-        Marketplace\"></span></a>\n              <a class=\"UnderlineNav-item flex-shrink-0\"\
-        \ href=\"/search?q=Preaching+the+choir&amp;type=Topics\">Topics<span class=\"\
-        d-none js-codesearch-deferred-count\" data-search-type=\"Topics\"></span></a>\n\
+        \ class=\"Label Label--outline-green Label--inline ml-2 text-normal text-gray\
+        \ f6 px-1\" title=\"Feature Release Label: Beta\">Beta</span>\n\n\n</span><span\
+        \ class=\"d-none js-codesearch-deferred-count\" data-search-type=\"Discussions\"\
+        ></span></a>\n              <a class=\"UnderlineNav-item flex-shrink-0\" href=\"\
+        /search?q=Preaching+the+choir&amp;type=RegistryPackages\">Packages<span class=\"\
+        d-none js-codesearch-deferred-count\" data-search-type=\"RegistryPackages\"\
+        ></span></a>\n                <a class=\"UnderlineNav-item flex-shrink-0\"\
+        \ href=\"/search?q=Preaching+the+choir&amp;type=Marketplace\">Marketplace<span\
+        \ class=\"d-none js-codesearch-deferred-count\" data-search-type=\"Marketplace\"\
+        ></span></a>\n              <a class=\"UnderlineNav-item flex-shrink-0\" href=\"\
+        /search?q=Preaching+the+choir&amp;type=Topics\">Topics<span class=\"d-none\
+        \ js-codesearch-deferred-count\" data-search-type=\"Topics\"></span></a>\n\
         \              <a class=\"UnderlineNav-item flex-shrink-0\" href=\"/search?q=Preaching+the+choir&amp;type=Wikis\"\
         >Wikis<span class=\"d-none js-codesearch-deferred-count\" data-search-type=\"\
         Wikis\"></span></a>\n              <a class=\"UnderlineNav-item flex-shrink-0\"\
@@ -676,7 +680,7 @@ interactions:
         \ </div>\n\n    <div class=\"col-12 col-md-9 float-left px-2 pt-3 pt-md-0\
         \ codesearch-results\">\n      <div class=\"px-2\">\n\n        \n\n  <div\
         \ class=\"d-flex flex-column flex-md-row flex-justify-between border-bottom\
-        \ pb-3 position-relative\">\n    <h3>\n    2 repository results\n\n\n</h3>\n\
+        \ pb-3 position-relative\">\n    <h3>\n    3 repository results\n\n\n</h3>\n\
         \n  </div>\n\n        \n  <ul class=\"repo-list\">\n      \n <li class=\"\
         repo-list-item hx_hit-repo d-flex flex-justify-start py-4 public source\"\
         \ >\n  <div class=\"flex-shrink-0 mr-2\">\n      <svg height=\"16\" style=\"\
@@ -710,17 +714,38 @@ interactions:
         \ the choir&quot;,&quot;result_position&quot;:2,&quot;click_id&quot;:124610315,&quot;result&quot;:{&quot;id&quot;:124610315,&quot;global_relay_id&quot;:&quot;MDEwOlJlcG9zaXRvcnkxMjQ2MTAzMTU=&quot;,&quot;model_name&quot;:&quot;Repository&quot;,&quot;url&quot;:&quot;https://github.com/Prosper-Germoh/PROSPER-GERMOH-BIOGRAPHY&quot;},&quot;originating_url&quot;:&quot;https://github.com/search?q=Preaching+the+choir&amp;p=1&amp;type=None&quot;,&quot;user_id&quot;:null}}\"\
         \ data-hydro-click-hmac=\"15b97e9845373eeefc17c246a5bb340b50e10cd7e13d6a5382036247de56de62\"\
         \ href=\"/Prosper-Germoh/PROSPER-GERMOH-BIOGRAPHY\">Prosper-Germoh/PROSPER-GERMOH-BIOGRAPHY</a>\n\
-        \n    </div>\n\n      <p class=\"mb-1\">\n         Leads a <em>choir</em>\
-        \ under Full Gospel Mission Cameroon and also <em>the</em> founder of \"<em>THE</em>\
-        \ RANSOM WORSHIPPERS\" a group of three s\u2026\n      </p>\n\n    <div>\n\
+        \n    </div>\n\n      <p class=\"mb-1\">\n         practices what he sings\
+        \ and <em>preaches</em> having a prayer cell group called \u201C<em>The</em>\
+        \ Ransom Prayer Cell\u201D located at Grand Mol\u2026\n      </p>\n\n    <div>\n\
         \n      <div class=\"d-flex flex-wrap text-small text-gray\">\n\n\n\n\n  \
         \        <div class=\"mr-3\">\n            Updated <relative-time datetime=\"\
-        2018-03-10T01:15:10Z\" class=\"no-wrap\">Mar 10, 2018</relative-time>\n  \
+        2020-06-18T10:21:05Z\" class=\"no-wrap\">Jun 18, 2020</relative-time>\n  \
+        \        </div>\n\n      </div>\n    </div>\n  </div>\n</li>\n\n      \n <li\
+        \ class=\"repo-list-item hx_hit-repo d-flex flex-justify-start py-4 public\
+        \ source\" >\n  <div class=\"flex-shrink-0 mr-2\">\n      <svg height=\"16\"\
+        \ style=\"color: #6a737d\" class=\"octicon octicon-repo\" viewBox=\"0 0 16\
+        \ 16\" version=\"1.1\" width=\"16\" aria-hidden=\"true\"><path fill-rule=\"\
+        evenodd\" d=\"M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75\
+        \ 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072\
+        \ 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1\
+        \ 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6\
+        \ 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z\"\
+        ></path></svg>\n  </div>\n\n  <div class=\"mt-n1\">\n    <div class=\"f4 text-normal\"\
+        >\n      <a class=\"v-align-middle\" data-hydro-click=\"{&quot;event_type&quot;:&quot;search_result.click&quot;,&quot;payload&quot;:{&quot;page_number&quot;:1,&quot;per_page&quot;:10,&quot;query&quot;:&quot;Preaching\
+        \ the choir&quot;,&quot;result_position&quot;:3,&quot;click_id&quot;:273208506,&quot;result&quot;:{&quot;id&quot;:273208506,&quot;global_relay_id&quot;:&quot;MDEwOlJlcG9zaXRvcnkyNzMyMDg1MDY=&quot;,&quot;model_name&quot;:&quot;Repository&quot;,&quot;url&quot;:&quot;https://github.com/Prosper-Germoh/Prosper-Germoh---Cameroon-Gospel-Musicians&quot;},&quot;originating_url&quot;:&quot;https://github.com/search?q=Preaching+the+choir&amp;p=1&amp;type=None&quot;,&quot;user_id&quot;:null}}\"\
+        \ data-hydro-click-hmac=\"258e489fc8a7fdce037658e07514372e7368e4e060f8a6b12a8a4e5d50f83d1f\"\
+        \ href=\"/Prosper-Germoh/Prosper-Germoh---Cameroon-Gospel-Musicians\">Prosper-Germoh/Prosper-Germoh---Cameroon-Gospel-Musicians</a>\n\
+        \n    </div>\n\n      <p class=\"mb-1\">\n         practices what he sings\
+        \ and <em>preaches</em> having a prayer cell group called \u201C<em>The</em>\
+        \ Ransom Prayer Cell\u201D located at Grand Mol\u2026\n      </p>\n\n    <div>\n\
+        \n      <div class=\"d-flex flex-wrap text-small text-gray\">\n\n\n\n\n  \
+        \        <div class=\"mr-3\">\n            Updated <relative-time datetime=\"\
+        2020-06-18T10:26:31Z\" class=\"no-wrap\">Jun 18, 2020</relative-time>\n  \
         \        </div>\n\n      </div>\n    </div>\n  </div>\n</li>\n\n  </ul>\n\
         \  \n\n      </div>\n    </div>\n\n      <div class=\"px-3 d-block d-sm-none\"\
         >\n        <a href=\"/search/advanced?q=Preaching+the+choir\" class=\"f6\"\
         >Advanced search</a>\n      </div>\n  </div>\n\n\n      </main>\n  </div>\n\
-        \n        \n<div class=\"footer container-lg width-full p-responsive\" role=\"\
+        \n        \n<div class=\"footer container-xl width-full p-responsive\" role=\"\
         contentinfo\">\n  <div class=\"position-relative d-flex flex-row-reverse flex-lg-row\
         \ flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6\
         \ pb-2 mt-6 f6 text-gray border-top border-gray-light \">\n    <ul class=\"\
@@ -776,30 +801,33 @@ interactions:
         \ 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75\
         \ 0 010-1.06z\"></path></svg>\n    </button>\n    You can\u2019t perform that\
         \ action at this time.\n  </div>\n\n\n    <script crossorigin=\"anonymous\"\
-        \ async=\"async\" integrity=\"sha512-WcQmT2vhcClFVOaaAJV/M+HqsJ2Gq/myvl6F3gCVBxykazXTs+i5fvxncSXwyG1CSfcrqmLFw/R/bmFYzprX2A==\"\
+        \ async=\"async\" integrity=\"sha512-bn/3rKJzBl2H64K38R8KaVcT26vKK7BJQC59lwYc+9fjlHzmy0fwh+hzBtsgTdhIi13dxjzNKWhdSN8WTM9qUw==\"\
         \ type=\"application/javascript\" id=\"js-conditional-compat\" data-src=\"\
-        https://github.githubassets.com/assets/compat-bootstrap-59c4264f.js\"></script>\n\
-        \    <script crossorigin=\"anonymous\" integrity=\"sha512-Y86V8OBlvF6I/7e56GKOOt80Yg1RTGA09uqFFX18aiBtevLbKGxB7sVpCn79fukppFIBqyBTB/s6l0Bhn0kidQ==\"\
-        \ type=\"application/javascript\" src=\"https://github.githubassets.com/assets/environment-bootstrap-63ce95f0.js\"\
+        https://github.githubassets.com/assets/compat-bootstrap-6e7ff7ac.js\"></script>\n\
+        \    <script crossorigin=\"anonymous\" integrity=\"sha512-XNLSAtJd4ZwEwjHoDp3kUwQHzrFIGmr4hnTNxaOl19CD7LbW//VRhLG8X9u4fYNYg+vusR8c1MeXG1foPhzJGQ==\"\
+        \ type=\"application/javascript\" src=\"https://github.githubassets.com/assets/environment-bootstrap-5cd2d202.js\"\
         ></script>\n    <script crossorigin=\"anonymous\" async=\"async\" integrity=\"\
-        sha512-jfR+4VdZuPf5Ck+JA3AZuzWGHz9Sb21keZOYuMoNdfMJovIUb9vxfSdvNSchxAwj5oav48KBfa54+wbuuW8Tlg==\"\
-        \ type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendor-8df47ee1.js\"\
+        sha512-zWY8EzLOLze5ZiuCHJoHWcWKbliugmd732H33vQ63ul0B+5ALjXxYdYB8blpdd9MNp6qTuDJpH11XhrxqkXR5A==\"\
+        \ type=\"application/javascript\" src=\"https://github.githubassets.com/assets/vendor-cd663c13.js\"\
         ></script>\n    <script crossorigin=\"anonymous\" async=\"async\" integrity=\"\
-        sha512-bnTRHbVvU80xFKdsRq3F+73vfYnCKrG6J4UPGgli/ihqO3C1SwjXmcR10RCfMbNGphMvxKX7mn6lFQM3Mc25Sw==\"\
-        \ type=\"application/javascript\" src=\"https://github.githubassets.com/assets/frameworks-6e74d11d.js\"\
+        sha512-co+zOTSpzxx6JoM35lmjAiwoxIHgfLg05wD7HYFQeDAahWFam5U/aYNFG4PEy1aJvL6IcJDcp3qcglZJXcG/hg==\"\
+        \ type=\"application/javascript\" src=\"https://github.githubassets.com/assets/frameworks-728fb339.js\"\
         ></script>\n    \n    <script crossorigin=\"anonymous\" async=\"async\" integrity=\"\
-        sha512-WYDfGvwYLFP8eY1vZBdBP+zu2OjhYTlGGdNVx9wbSXzjY0tGrCFO4bDdbexcMhngArJuMmiX9V+hHcJ/mZRfQg==\"\
-        \ type=\"application/javascript\" src=\"https://github.githubassets.com/assets/github-bootstrap-5980df1a.js\"\
+        sha512-yNI5kJN0rhwSY2CFjeBeEufrvnSQXaHNjiWfYqBLvflkNL1ywHoeZ5XP7LdV3Plu+SUk3ZPf08aVcbWHIG04MQ==\"\
+        \ type=\"application/javascript\" src=\"https://github.githubassets.com/assets/github-bootstrap-c8d23990.js\"\
         ></script>\n    \n      <script crossorigin=\"anonymous\" async=\"async\"\
-        \ integrity=\"sha512-4GcSWGoe36+BoWho4gtJcByZe8j43w+lt2/PDe3rmBxRVSgD29YipDwuIywe8fvOd2b2CszBqaPGxSznUtE3Xg==\"\
+        \ integrity=\"sha512-R96MM8s0Y6IohqxZNKDeymadVcVg1KjV6E71KYykaisTYDPGpONjop8kGyNY5DSOJEsFp3737xpcjEo1a333WQ==\"\
+        \ type=\"application/javascript\" data-module-id=\"./Sortable.js\" data-src=\"\
+        https://github.githubassets.com/assets/Sortable-47de8c33.js\"></script>\n\
+        \      <script crossorigin=\"anonymous\" async=\"async\" integrity=\"sha512-4GcSWGoe36+BoWho4gtJcByZe8j43w+lt2/PDe3rmBxRVSgD29YipDwuIywe8fvOd2b2CszBqaPGxSznUtE3Xg==\"\
         \ type=\"application/javascript\" data-module-id=\"./drag-drop.js\" data-src=\"\
         https://github.githubassets.com/assets/drag-drop-e0671258.js\"></script>\n\
-        \      <script crossorigin=\"anonymous\" async=\"async\" integrity=\"sha512-3Vk1NFIOm+TBUMM6pTA6DCUwwLLnc/QIT8jpENm71InvSU8O4p2plDagpst1tH1l+9jOBnneaXZnAskA9a2b3w==\"\
+        \      <script crossorigin=\"anonymous\" async=\"async\" integrity=\"sha512-2k8dDHk0yt52uKvOvgc9cwOXOeJhxBfVP5kPS2BrCdytDmtEIJ2yone26vFENAyk1a2aFQ7KDgEevRQafuAf8A==\"\
         \ type=\"application/javascript\" data-module-id=\"./gist-vendor.js\" data-src=\"\
-        https://github.githubassets.com/assets/gist-vendor-dd593534.js\"></script>\n\
-        \      <script crossorigin=\"anonymous\" async=\"async\" integrity=\"sha512-urN6bhHnHu4C12A+cTH3dOp+CwLaycy2HUXr95hvu5pbYRdF8z6iR+UQcTZutQ6mZG3Njluw2MTZVCNmwcqh8g==\"\
+        https://github.githubassets.com/assets/gist-vendor-da4f1d0c.js\"></script>\n\
+        \      <script crossorigin=\"anonymous\" async=\"async\" integrity=\"sha512-Bc7fK3x3D97t//yKXJFTcKAZWc+DoBkyOGeSrGKN6K1s+A5rkUmH7M+HuvXOQEd+5pBqcB/LKYTbItFp7J4mjg==\"\
         \ type=\"application/javascript\" data-module-id=\"./randomColor.js\" data-src=\"\
-        https://github.githubassets.com/assets/randomColor-bab37a6e.js\"></script>\n\
+        https://github.githubassets.com/assets/randomColor-05cedf2b.js\"></script>\n\
         \    \n    \n  <div class=\"js-stale-session-flash flash flash-warn flash-banner\"\
         \ hidden\n    >\n    <svg class=\"octicon octicon-alert\" viewBox=\"0 0 16\
         \ 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path\
@@ -831,32 +859,32 @@ interactions:
         \  </div>\n</div>\n\n\n  </body>\n</html>\n"
     headers:
       Accept-Ranges: bytes
+      Cache-Control: max-age=0, private, must-revalidate
       Content-Encoding: gzip
-      Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sun, 13 Jun 2021
-        18:19:22 GMT; HttpOnly; Secure; SameSite=Lax
+      Content-Type: text/html; charset=utf-8
+      Date: Wed, 15 Jul 2020 23:12:35 GMT
+      Etag: W/"e43197354cd4fc908536207e5242b4de"
+      Server: GitHub.com
+      Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Thu, 15 Jul 2021
+        23:12:35 GMT; HttpOnly; Secure; SameSite=Lax
       Transfer-Encoding: chunked
-      X-GitHub-Request-Id: 96AA:2AE17:33FC286:4B4AADC:5EE518A9
-      cache-control: max-age=0, private, must-revalidate
+      Vary: X-PJAX, Accept-Encoding, Accept, X-Requested-With, Accept-Encoding
+      X-GitHub-Request-Id: 4B9C:60BC:2EE6C:44343:5F0F8D63
       content-security-policy: 'default-src ''none''; base-uri ''self''; block-all-mixed-content;
         connect-src ''self'' uploads.github.com www.githubstatus.com collector.githubapp.com
         api.github.com www.google-analytics.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com
         github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com
-        cdn.optimizely.com logx.optimizely.com/v1/events wss://live.github.com; font-src
+        cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src
         github.githubassets.com; form-action ''self'' github.com gist.github.com;
         frame-ancestors ''none''; frame-src render.githubusercontent.com; img-src
         ''self'' data: github.githubassets.com identicons.github.com collector.githubapp.com
         github-cloud.s3.amazonaws.com *.githubusercontent.com; manifest-src ''self'';
         media-src ''none''; script-src github.githubassets.com; style-src ''unsafe-inline''
         github.githubassets.com; worker-src github.com/socket-worker.js gist.github.com/socket-worker.js'
-      content-type: text/html; charset=utf-8
-      date: Sat, 13 Jun 2020 18:19:22 GMT
-      etag: W/"274e52daf4896f947ee0011163fa7d1d"
       expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
       referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
-      server: GitHub.com
       status: 200 OK
       strict-transport-security: max-age=31536000; includeSubdomains; preload
-      vary: X-PJAX, Accept-Encoding, Accept, X-Requested-With, Accept-Encoding
       x-content-type-options: nosniff
       x-frame-options: deny
       x-xss-protection: 1; mode=block

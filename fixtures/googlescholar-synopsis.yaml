@@ -7,7 +7,7 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - Mozilla/5.0 (Windows NT 6.1; rv:11.0) Gecko/20100101 Firefox/11.0
+      - Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100 101 Firefox/22.0
     method: GET
     uri: https://scholar.google.gr/scholar?hl=en&start=1&q=Preaching+the+choir
   response:
@@ -857,7 +857,7 @@ interactions:
         \ f=document.querySelector('.gs_or[data-did=\"'+b+'\"]');if(f)if(d=a.h)Ve(f,\"\
         \"+d,!1);else{b=c.replace(\"{id}\",b);var h=cc(b,\"\",function(k,t){200==k&&t&&(Ve(f,t,!0),a.h=t,a.t=Date.now(),Oe(a));clearTimeout(g)}),g=setTimeout(function(){dc(h)},\n\
         1E3)}}}});md.addListener(We);\n}({\"bouncePrefix\":\"http://scholar.google.gr\"\
-        ,\"neverBounce\":!1,\"customAC\":2,\"eventId\":\"rxjlXt_AAYSimAHvkpSoBw\"\
+        ,\"neverBounce\":!1,\"customAC\":2,\"eventId\":\"Wo0PX53tPOPUsQLc7LOoDg\"\
         });</script></head><body><div id=\"gs_top\" onclick=\"\"><style>#gs_md_s,.gs_md_wnw{z-index:1200;position:fixed;top:0;left:0;width:100%;height:100%;visibility:hidden;}#gs_md_s{background-color:#fff;opacity:.5;}.gs_el_ta\
         \ #gs_md_s,.gs_el_ph #gs_md_s{background-color:#666;}.gs_md_wnw{transition:all\
         \ 0s .218s;}#gs_md_s.gs_vis,.gs_md_wnw.gs_vis{visibility:visible;transition:all\
@@ -1036,7 +1036,7 @@ interactions:
         \ gs_ab_st\"><div id=\"gs_ab_ico\" class=\"gs_btnGSL\"><span class=\"gs_ico\"\
         ></span></div><div id=\"gs_ab_ttl\"><div class=\"gs_ab_mdw\"><span class=\"\
         gs_nph gs_nta\">Articles</span><div class=\"gs_oph gs_ota\">Scholar</div></div></div><div\
-        \ id=\"gs_ab_md\"><div class=\"gs_ab_mdw\">About 65,200 results (<b>0.05</b>\
+        \ id=\"gs_ab_md\"><div class=\"gs_ab_mdw\">About 63,000 results (<b>0.04</b>\
         \ sec)</div></div><div id=\"gs_ab_btns\"><a href=\"/citations?hl=en\" class=\"\
         gs_btnPRO gs_in_ib gs_nph gs_nta\"><span class=\"gs_ico\"></span><span class=\"\
         gs_lbl\">My profile</span></a><a href=\"/scholar?scilib=1&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
@@ -1107,87 +1107,23 @@ interactions:
         \ id=\"gs_bdy_sb_ca\" class=\"gs_btnM gs_in_ib\"><span class=\"gs_ico\"></span><span\
         \ class=\"gs_lbl\">Create alert</span></a></div></div></div><div id=\"gs_bdy_ccl\"\
         \ role=\"main\"><div id=\"gs_res_glb\" style=\"display:none\" data-ttl=\"\
-        Preaching the choir - Google Scholar\" data-lph=\"\" data-sva=\"/citations?hl=en&amp;xsrf=&amp;continue=/scholar%3Fq%3DPreaching%2Bthe%2Bchoir%26hl%3Den%26start%3D1%26as_sdt%3D0,5&amp;citilm=1&amp;json=&amp;update_op=library_add&amp;info={id}&amp;ei=rxjlXt_AAYSimAHvkpSoBw\"\
+        Preaching the choir - Google Scholar\" data-lph=\"\" data-sva=\"/citations?hl=en&amp;xsrf=&amp;continue=/scholar%3Fq%3DPreaching%2Bthe%2Bchoir%26hl%3Den%26start%3D1%26as_sdt%3D0,5&amp;citilm=1&amp;json=&amp;update_op=library_add&amp;info={id}&amp;ei=Wo0PX53tPOPUsQLc7LOoDg\"\
         \ data-tra=\"/citations?hl=en&amp;xsrf=&amp;continue=/scholar%3Fq%3DPreaching%2Bthe%2Bchoir%26hl%3Den%26start%3D1%26as_sdt%3D0,5&amp;citilm=1&amp;json=&amp;update_op=trash_citations&amp;s={id}\"\
         \ data-via=\"/citations?view_op=view_citation&amp;continue=/scholar%3Fq%3DPreaching%2Bthe%2Bchoir%26hl%3Den%26start%3D1%26as_sdt%3D0,5&amp;citilm=1&amp;citation_for_view={id}&amp;hl=en&amp;oi=saved\"\
         \ data-exp=\"\" data-mlu=\"\" data-lsl=\"\" data-lpu=\"\" data-lsm=\"Saved\
         \ to &lt;a href=&quot;/scholar?scilib=1&amp;amp;scioq=Preaching+the+choir&amp;amp;hl=en&amp;amp;as_sdt=0,5&quot;&gt;your\
-        \ library&lt;/a&gt;.\" data-ahq=\"\" data-gsb=\"\" data-rfr=\"/scholar?q=related:{id}:scholar.google.com/&amp;output=rfrra&amp;scioq=Preaching%2Bthe%2Bchoir&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;hl=en\"\
+        \ library&lt;/a&gt;.\" data-ahq=\"\" data-gsb=\"\" data-rfr=\"/scholar?q=related:{id}:scholar.google.com/&amp;output=rfrra&amp;scioq=Preaching%2Bthe%2Bchoir&amp;ei=Wo0PX53tPOPUsQLc7LOoDg&amp;hl=en\"\
         ></div><div id=\"gs_res_ccl\"><div id=\"gs_res_ccl_top\"></div><div id=\"\
-        gs_res_ccl_mid\">  <div class=\"gs_r gs_or gs_scl\" data-cid=\"4V7PnHKTr84J\"\
-        \ data-did=\"4V7PnHKTr84J\" data-lid=\"\" data-rp=\"1\"><div class=\"gs_ri\"\
-        ><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><a id=\"4V7PnHKTr84J\"\
-        \ href=\"https://www.sciencedirect.com/science/article/pii/S0099133306001625\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=1&amp;d=14893284613203910369&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm3te0pjd5QaGCH9p1FDxqM-MpNb8g&amp;nossl=1\"\
-        \ data-clk-atid=\"4V7PnHKTr84J\">Beyond <b>preaching </b>to the <b>choir</b>:\
-        \ Information literacy, faculty outreach, and disciplinary journals</a></h3><div\
-        \ class=\"gs_a\"><a href=\"/citations?user=7581ri4AAAAJ&amp;hl=en&amp;oi=sra\"\
-        >CR Stevens</a>\_- The Journal of Academic Librarianship, 2007 - Elsevier</div><div\
-        \ class=\"gs_rs\">Library literature publishes hundreds of articles on information\
-        \ literacy, many emphasizing <br>the importance of collaboration and faculty\
-        \ outreach. A systematic search of fifty-four non-<br>library journals that\
-        \ publish pedagogical articles reveals that some librarians are reaching\_\
-        \u2026</div><div class=\"gs_fl\"><a href=\"javascript:void(0)\" class=\"gs_or_sav\"\
-        \ title=\"Save\" role=\"button\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"\
-        ><path d=\"M8 11.57l3.824 2.308-1.015-4.35 3.379-2.926-4.45-.378L8 2.122 6.261\
-        \ 6.224l-4.449.378 3.379 2.926-1.015 4.35z\"/></svg></a> <a href=\"javascript:void(0)\"\
-        \ class=\"gs_or_cit gs_nph\" title=\"Cite\" role=\"button\" aria-controls=\"\
-        gs_cit\" aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"\
-        ><path d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5 3.5v5h2v.375L9.75\
-        \ 12.5h3L14.5 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=14893284613203910369&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
-        >Cited by 57</a> <a href=\"/scholar?q=related:4V7PnHKTr84J:scholar.google.com/&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        >Related articles</a> <a href=\"/scholar?cluster=14893284613203910369&amp;hl=en&amp;as_sdt=0,5\"\
-        \ class=\"gs_nph\">All 6 versions</a> <a href=\"javascript:void(0)\" title=\"\
-        More\" class=\"gs_or_mor gs_oph\" role=\"button\"><svg viewBox=\"-1 0 17 16\"\
-        \ class=\"gs_or_svg\"><path d=\"M1.5 5.5l2-2L8 8l-4.5 4.5-2-2L4 8zM8.5 5.5l2-2L15\
-        \ 8l-4.5 4.5-2-2L11 8z\"/></svg></a> <a href=\"javascript:void(0)\" title=\"\
-        Fewer\" class=\"gs_or_nvi gs_or_mor\" role=\"button\"><svg viewBox=\"0 0 17\
-        \ 16\" class=\"gs_or_svg\"><path d=\"M8.5 5.5l-2-2L2 8l4.5 4.5 2-2L6 8zM15.5\
-        \ 5.5l-2-2L9 8l4.5 4.5 2-2L13 8z\"/></svg></a></div></div></div>  <div class=\"\
-        gs_r gs_or gs_scl\" data-cid=\"kgZ3QeAPkMUJ\" data-did=\"kgZ3QeAPkMUJ\" data-lid=\"\
-        \" data-rp=\"2\"><div class=\"gs_ggs gs_fl\"><div class=\"gs_ggsd\"><div class=\"\
-        gs_or_ggsm\" ontouchstart=\"gs_evt_dsp(event)\" tabindex=\"-1\"><a href=\"\
-        https://csme.utah.edu/wp-content/uploads/2013/02/Not-Preaching-to-the-Choir11.pdf\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=2&amp;d=14235895877963548306&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm2UltF22c9ikGv5RyS0hweWJ9Yoyw&amp;nossl=1\"\
-        \ data-clk-atid=\"kgZ3QeAPkMUJ\"><span class=gs_ctg2>[PDF]</span> utah.edu</a></div></div></div><div\
+        gs_res_ccl_mid\">  <div class=\"gs_r gs_or gs_scl\" data-cid=\"VH36e0VycaoJ\"\
+        \ data-did=\"VH36e0VycaoJ\" data-lid=\"\" data-rp=\"1\"><div class=\"gs_ggs\
+        \ gs_fl\"><div class=\"gs_ggsd\"><div class=\"gs_or_ggsm\" ontouchstart=\"\
+        gs_evt_dsp(event)\" tabindex=\"-1\"><a href=\"https://www.facetsjournal.com/doi/pdf/10.1139/facets-2018-0002?src=recsys\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=1&amp;d=12281723301574376788&amp;ei=Wo0PX53tPOPUsQLc7LOoDg&amp;scisig=AAGBfm2x0LNjwZTIuoxwZN4MjHRKo-nJcA&amp;nossl=1\"\
+        \ data-clk-atid=\"VH36e0VycaoJ\"><span class=gs_ctg2>[PDF]</span> facetsjournal.com</a></div></div></div><div\
         \ class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><a\
-        \ id=\"kgZ3QeAPkMUJ\" href=\"https://www.jstor.org/stable/3589066\" data-clk=\"\
-        hl=en&amp;sa=T&amp;ct=res&amp;cd=2&amp;d=14235895877963548306&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm0whrK6lOm2RPY8S_V6YRQxrtvCrQ&amp;nossl=1\"\
-        \ data-clk-atid=\"kgZ3QeAPkMUJ\">Not <b>preaching </b>to the <b>choir</b>:\
-        \ Communicating the importance of forest conservation to nontraditional audiences</a></h3><div\
-        \ class=\"gs_a\">NM Nadkarni\_- Conservation Biology, 2004 - JSTOR</div><div\
-        \ class=\"gs_rs\">Recognition of the critical links be-tween humans and nature\
-        \ based on scientifically sound <br>information is key to effective conservation.\
-        \ How-ever, with the increasing dominance of <br>technology, more virtual\
-        \ rather than actual experiences, and the media&#39;s increasing\_\u2026</div><div\
-        \ class=\"gs_fl\"><a href=\"javascript:void(0)\" class=\"gs_or_sav\" title=\"\
-        Save\" role=\"button\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"><path\
-        \ d=\"M8 11.57l3.824 2.308-1.015-4.35 3.379-2.926-4.45-.378L8 2.122 6.261\
-        \ 6.224l-4.449.378 3.379 2.926-1.015 4.35z\"/></svg></a> <a href=\"javascript:void(0)\"\
-        \ class=\"gs_or_cit gs_nph\" title=\"Cite\" role=\"button\" aria-controls=\"\
-        gs_cit\" aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"\
-        ><path d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5 3.5v5h2v.375L9.75\
-        \ 12.5h3L14.5 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=14235895877963548306&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
-        >Cited by 47</a> <a href=\"/scholar?q=related:kgZ3QeAPkMUJ:scholar.google.com/&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        >Related articles</a> <a href=\"/scholar?cluster=14235895877963548306&amp;hl=en&amp;as_sdt=0,5\"\
-        \ class=\"gs_nph\">All 9 versions</a> <a href=\"javascript:void(0)\" title=\"\
-        More\" class=\"gs_or_mor gs_oph\" role=\"button\"><svg viewBox=\"-1 0 17 16\"\
-        \ class=\"gs_or_svg\"><path d=\"M1.5 5.5l2-2L8 8l-4.5 4.5-2-2L4 8zM8.5 5.5l2-2L15\
-        \ 8l-4.5 4.5-2-2L11 8z\"/></svg></a> <a href=\"javascript:void(0)\" title=\"\
-        Fewer\" class=\"gs_or_nvi gs_or_mor\" role=\"button\"><svg viewBox=\"0 0 17\
-        \ 16\" class=\"gs_or_svg\"><path d=\"M8.5 5.5l-2-2L2 8l4.5 4.5 2-2L6 8zM15.5\
-        \ 5.5l-2-2L9 8l4.5 4.5 2-2L13 8z\"/></svg></a></div></div></div>  <div class=\"\
-        gs_r gs_or gs_scl\" data-cid=\"VH36e0VycaoJ\" data-did=\"VH36e0VycaoJ\" data-lid=\"\
-        \" data-rp=\"3\"><div class=\"gs_ggs gs_fl\"><div class=\"gs_ggsd\"><div class=\"\
-        gs_or_ggsm\" ontouchstart=\"gs_evt_dsp(event)\" tabindex=\"-1\"><a href=\"\
-        https://www.facetsjournal.com/doi/full/10.1139/facets-2018-0002\" data-clk=\"\
-        hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=3&amp;d=12281723301574376788&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm33GDdf0rlQ0m62TBhmvUGlJsFitA&amp;nossl=1\"\
-        \ data-clk-atid=\"VH36e0VycaoJ\"><span class=gs_ctg2>[HTML]</span> facetsjournal.com</a></div></div></div><div\
-        \ class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><span\
-        \ class=\"gs_ctc\"><span class=\"gs_ct1\">[HTML]</span><span class=\"gs_ct2\"\
-        >[HTML]</span></span> <a id=\"VH36e0VycaoJ\" href=\"https://www.facetsjournal.com/doi/full/10.1139/facets-2018-0002\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;oi=ggp&amp;ct=res&amp;cd=3&amp;d=12281723301574376788&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm33GDdf0rlQ0m62TBhmvUGlJsFitA&amp;nossl=1\"\
-        \ data-clk-atid=\"VH36e0VycaoJ\">Scientists on Twitter: <b>preaching </b>to\
+        \ id=\"VH36e0VycaoJ\" href=\"https://www.facetsjournal.com/doi/abs/10.1139/facets-2018-0002\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=1&amp;d=12281723301574376788&amp;ei=Wo0PX53tPOPUsQLc7LOoDg&amp;scisig=AAGBfm0VacD_818W664hguAsHGkBTdlqsQ&amp;nossl=1\"\
+        \ data-clk-atid=\"VH36e0VycaoJ\">Scientists on Twitter: <b>Preaching </b>to\
         \ the <b>choir </b>or singing from the rooftops?</a></h3><div class=\"gs_a\"\
         ><a href=\"/citations?user=_8OMcbUAAAAJ&amp;hl=en&amp;oi=sra\">IM C\xF4t\xE9\
         </a>, <a href=\"/citations?user=juP1o-UAAAAJ&amp;hl=en&amp;oi=sra\">ES Darling</a>\_\
@@ -1204,8 +1140,37 @@ interactions:
         \ aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"><path\
         \ d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5 3.5v5h2v.375L9.75 12.5h3L14.5\
         \ 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=12281723301574376788&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
-        >Cited by 60</a> <a href=\"/scholar?q=related:VH36e0VycaoJ:scholar.google.com/&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
+        >Cited by 62</a> <a href=\"/scholar?q=related:VH36e0VycaoJ:scholar.google.com/&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
         >Related articles</a> <a href=\"/scholar?cluster=12281723301574376788&amp;hl=en&amp;as_sdt=0,5\"\
+        \ class=\"gs_nph\">All 10 versions</a> <a href=\"javascript:void(0)\" title=\"\
+        More\" class=\"gs_or_mor gs_oph\" role=\"button\"><svg viewBox=\"-1 0 17 16\"\
+        \ class=\"gs_or_svg\"><path d=\"M1.5 5.5l2-2L8 8l-4.5 4.5-2-2L4 8zM8.5 5.5l2-2L15\
+        \ 8l-4.5 4.5-2-2L11 8z\"/></svg></a> <a href=\"javascript:void(0)\" title=\"\
+        Fewer\" class=\"gs_or_nvi gs_or_mor\" role=\"button\"><svg viewBox=\"0 0 17\
+        \ 16\" class=\"gs_or_svg\"><path d=\"M8.5 5.5l-2-2L2 8l4.5 4.5 2-2L6 8zM15.5\
+        \ 5.5l-2-2L9 8l4.5 4.5 2-2L13 8z\"/></svg></a></div></div></div>  <div class=\"\
+        gs_r gs_or gs_scl\" data-cid=\"4V7PnHKTr84J\" data-did=\"4V7PnHKTr84J\" data-lid=\"\
+        \" data-rp=\"2\"><div class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"\
+        gs_evt_dsp(event)\"><a id=\"4V7PnHKTr84J\" href=\"https://www.sciencedirect.com/science/article/pii/S0099133306001625\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=2&amp;d=14893284613203910369&amp;ei=Wo0PX53tPOPUsQLc7LOoDg&amp;scisig=AAGBfm3te0pjd5QaGCH9p1FDxqM-MpNb8g&amp;nossl=1\"\
+        \ data-clk-atid=\"4V7PnHKTr84J\">Beyond <b>preaching </b>to the <b>choir</b>:\
+        \ Information literacy, faculty outreach, and disciplinary journals</a></h3><div\
+        \ class=\"gs_a\"><a href=\"/citations?user=7581ri4AAAAJ&amp;hl=en&amp;oi=sra\"\
+        >CR Stevens</a>\_- The Journal of Academic Librarianship, 2007 - Elsevier</div><div\
+        \ class=\"gs_rs\">Library literature publishes hundreds of articles on information\
+        \ literacy, many emphasizing <br>the importance of collaboration and faculty\
+        \ outreach. A systematic search of fifty-four non-<br>library journals that\
+        \ publish pedagogical articles reveals that some librarians are reaching\_\
+        \u2026</div><div class=\"gs_fl\"><a href=\"javascript:void(0)\" class=\"gs_or_sav\"\
+        \ title=\"Save\" role=\"button\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"\
+        ><path d=\"M8 11.57l3.824 2.308-1.015-4.35 3.379-2.926-4.45-.378L8 2.122 6.261\
+        \ 6.224l-4.449.378 3.379 2.926-1.015 4.35z\"/></svg></a> <a href=\"javascript:void(0)\"\
+        \ class=\"gs_or_cit gs_nph\" title=\"Cite\" role=\"button\" aria-controls=\"\
+        gs_cit\" aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"\
+        ><path d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5 3.5v5h2v.375L9.75\
+        \ 12.5h3L14.5 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=14893284613203910369&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
+        >Cited by 56</a> <a href=\"/scholar?q=related:4V7PnHKTr84J:scholar.google.com/&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
+        >Related articles</a> <a href=\"/scholar?cluster=14893284613203910369&amp;hl=en&amp;as_sdt=0,5\"\
         \ class=\"gs_nph\">All 6 versions</a> <a href=\"javascript:void(0)\" title=\"\
         More\" class=\"gs_or_mor gs_oph\" role=\"button\"><svg viewBox=\"-1 0 17 16\"\
         \ class=\"gs_or_svg\"><path d=\"M1.5 5.5l2-2L8 8l-4.5 4.5-2-2L4 8zM8.5 5.5l2-2L15\
@@ -1213,10 +1178,73 @@ interactions:
         Fewer\" class=\"gs_or_nvi gs_or_mor\" role=\"button\"><svg viewBox=\"0 0 17\
         \ 16\" class=\"gs_or_svg\"><path d=\"M8.5 5.5l-2-2L2 8l4.5 4.5 2-2L6 8zM15.5\
         \ 5.5l-2-2L9 8l4.5 4.5 2-2L13 8z\"/></svg></a></div></div></div>  <div class=\"\
-        gs_r gs_or gs_scl\" data-cid=\"ba4iv8PT0hsJ\" data-did=\"ba4iv8PT0hsJ\" data-lid=\"\
+        gs_r gs_or gs_scl\" data-cid=\"kgZ3QeAPkMUJ\" data-did=\"kgZ3QeAPkMUJ\" data-lid=\"\
+        \" data-rp=\"3\"><div class=\"gs_ggs gs_fl\"><div class=\"gs_ggsd\"><div class=\"\
+        gs_or_ggsm\" ontouchstart=\"gs_evt_dsp(event)\" tabindex=\"-1\"><a href=\"\
+        https://csme.utah.edu/wp-content/uploads/2013/02/Not-Preaching-to-the-Choir11.pdf\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=3&amp;d=14235895877963548306&amp;ei=Wo0PX53tPOPUsQLc7LOoDg&amp;scisig=AAGBfm2UltF22c9ikGv5RyS0hweWJ9Yoyw&amp;nossl=1\"\
+        \ data-clk-atid=\"kgZ3QeAPkMUJ\"><span class=gs_ctg2>[PDF]</span> utah.edu</a></div></div></div><div\
+        \ class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><a\
+        \ id=\"kgZ3QeAPkMUJ\" href=\"https://www.jstor.org/stable/3589066\" data-clk=\"\
+        hl=en&amp;sa=T&amp;ct=res&amp;cd=3&amp;d=14235895877963548306&amp;ei=Wo0PX53tPOPUsQLc7LOoDg&amp;scisig=AAGBfm0whrK6lOm2RPY8S_V6YRQxrtvCrQ&amp;nossl=1\"\
+        \ data-clk-atid=\"kgZ3QeAPkMUJ\">Not <b>preaching </b>to the <b>choir</b>:\
+        \ Communicating the importance of forest conservation to nontraditional audiences</a></h3><div\
+        \ class=\"gs_a\">NM Nadkarni\_- Conservation Biology, 2004 - JSTOR</div><div\
+        \ class=\"gs_rs\">Recognition of the critical links be-tween humans and nature\
+        \ based on scientifically sound <br>information is key to effective conservation.\
+        \ How-ever, with the increasing dominance of <br>technology, more virtual\
+        \ rather than actual experiences, and the media&#39;s increasing\_\u2026</div><div\
+        \ class=\"gs_fl\"><a href=\"javascript:void(0)\" class=\"gs_or_sav\" title=\"\
+        Save\" role=\"button\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"><path\
+        \ d=\"M8 11.57l3.824 2.308-1.015-4.35 3.379-2.926-4.45-.378L8 2.122 6.261\
+        \ 6.224l-4.449.378 3.379 2.926-1.015 4.35z\"/></svg></a> <a href=\"javascript:void(0)\"\
+        \ class=\"gs_or_cit gs_nph\" title=\"Cite\" role=\"button\" aria-controls=\"\
+        gs_cit\" aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"\
+        ><path d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5 3.5v5h2v.375L9.75\
+        \ 12.5h3L14.5 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=14235895877963548306&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
+        >Cited by 49</a> <a href=\"/scholar?q=related:kgZ3QeAPkMUJ:scholar.google.com/&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
+        >Related articles</a> <a href=\"/scholar?cluster=14235895877963548306&amp;hl=en&amp;as_sdt=0,5\"\
+        \ class=\"gs_nph\">All 9 versions</a> <a href=\"javascript:void(0)\" title=\"\
+        More\" class=\"gs_or_mor gs_oph\" role=\"button\"><svg viewBox=\"-1 0 17 16\"\
+        \ class=\"gs_or_svg\"><path d=\"M1.5 5.5l2-2L8 8l-4.5 4.5-2-2L4 8zM8.5 5.5l2-2L15\
+        \ 8l-4.5 4.5-2-2L11 8z\"/></svg></a> <a href=\"javascript:void(0)\" title=\"\
+        Fewer\" class=\"gs_or_nvi gs_or_mor\" role=\"button\"><svg viewBox=\"0 0 17\
+        \ 16\" class=\"gs_or_svg\"><path d=\"M8.5 5.5l-2-2L2 8l4.5 4.5 2-2L6 8zM15.5\
+        \ 5.5l-2-2L9 8l4.5 4.5 2-2L13 8z\"/></svg></a></div></div></div>  <div class=\"\
+        gs_r gs_or gs_scl\" data-cid=\"Dg8wX8Jpft0J\" data-did=\"Dg8wX8Jpft0J\" data-lid=\"\
         \" data-rp=\"4\"><div class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"\
+        gs_evt_dsp(event)\"><a id=\"Dg8wX8Jpft0J\" href=\"https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1540-6237.2012.00865.x\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=4&amp;d=15960310412989173518&amp;ei=Wo0PX53tPOPUsQLc7LOoDg&amp;scisig=AAGBfm3QPtiv0oos3-SCJaIqlKKj4YBCFw&amp;nossl=1\"\
+        \ data-clk-atid=\"Dg8wX8Jpft0J\"><b>Preaching </b>to the <b>choir</b>? religious\
+        \ leaders and a merican opinion on immigration reform</a></h3><div class=\"\
+        gs_a\"><a href=\"/citations?user=OfgJBywAAAAJ&amp;hl=en&amp;oi=sra\">TM Nteta</a>,\
+        \ <a href=\"/citations?user=DgjG6xgAAAAJ&amp;hl=en&amp;oi=sra\">KJ Wallsten</a>\_\
+        - Social Science Quarterly, 2012 - Wiley Online Library</div><div class=\"\
+        gs_rs\">Objective Do the public declarations of religious leaders concerning\
+        \ immigration influence A <br>merican public opinion on immigration reform?\
+        \ Methods In answering this question, we use <br>the 2004 National Politics\
+        \ Study and employ ordered logistic regression techniques to test\_\u2026\
+        </div><div class=\"gs_fl\"><a href=\"javascript:void(0)\" class=\"gs_or_sav\"\
+        \ title=\"Save\" role=\"button\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"\
+        ><path d=\"M8 11.57l3.824 2.308-1.015-4.35 3.379-2.926-4.45-.378L8 2.122 6.261\
+        \ 6.224l-4.449.378 3.379 2.926-1.015 4.35z\"/></svg></a> <a href=\"javascript:void(0)\"\
+        \ class=\"gs_or_cit gs_nph\" title=\"Cite\" role=\"button\" aria-controls=\"\
+        gs_cit\" aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"\
+        ><path d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5 3.5v5h2v.375L9.75\
+        \ 12.5h3L14.5 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=15960310412989173518&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
+        >Cited by 43</a> <a href=\"/scholar?q=related:Dg8wX8Jpft0J:scholar.google.com/&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
+        >Related articles</a> <a href=\"/scholar?cluster=15960310412989173518&amp;hl=en&amp;as_sdt=0,5\"\
+        \ class=\"gs_nph\">All 7 versions</a> <a href=\"javascript:void(0)\" title=\"\
+        More\" class=\"gs_or_mor gs_oph\" role=\"button\"><svg viewBox=\"-1 0 17 16\"\
+        \ class=\"gs_or_svg\"><path d=\"M1.5 5.5l2-2L8 8l-4.5 4.5-2-2L4 8zM8.5 5.5l2-2L15\
+        \ 8l-4.5 4.5-2-2L11 8z\"/></svg></a> <a href=\"javascript:void(0)\" title=\"\
+        Fewer\" class=\"gs_or_nvi gs_or_mor\" role=\"button\"><svg viewBox=\"0 0 17\
+        \ 16\" class=\"gs_or_svg\"><path d=\"M8.5 5.5l-2-2L2 8l4.5 4.5 2-2L6 8zM15.5\
+        \ 5.5l-2-2L9 8l4.5 4.5 2-2L13 8z\"/></svg></a></div></div></div>  <div class=\"\
+        gs_r gs_or gs_scl\" data-cid=\"ba4iv8PT0hsJ\" data-did=\"ba4iv8PT0hsJ\" data-lid=\"\
+        \" data-rp=\"5\"><div class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"\
         gs_evt_dsp(event)\"><a id=\"ba4iv8PT0hsJ\" href=\"https://www.tandfonline.com/doi/abs/10.1080/08838159909364508\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=4&amp;d=2004897621812096621&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm0C3pinYLSBrAsWv6vK4FXXwfDBAg&amp;nossl=1\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=5&amp;d=2004897621812096621&amp;ei=Wo0PX53tPOPUsQLc7LOoDg&amp;scisig=AAGBfm0C3pinYLSBrAsWv6vK4FXXwfDBAg&amp;nossl=1\"\
         \ data-clk-atid=\"ba4iv8PT0hsJ\"><b>Preaching </b>to the <b>choir</b>: Profiling\
         \ TV advisory ratings users</a></h3><div class=\"gs_a\">R Abelman\_- Journal\
         \ of Broadcasting &amp; Electronic Media, 1999 - Taylor &amp; Francis</div><div\
@@ -1241,40 +1269,10 @@ interactions:
         Fewer\" class=\"gs_or_nvi gs_or_mor\" role=\"button\"><svg viewBox=\"0 0 17\
         \ 16\" class=\"gs_or_svg\"><path d=\"M8.5 5.5l-2-2L2 8l4.5 4.5 2-2L6 8zM15.5\
         \ 5.5l-2-2L9 8l4.5 4.5 2-2L13 8z\"/></svg></a></div></div></div>  <div class=\"\
-        gs_r gs_or gs_scl\" data-cid=\"Dg8wX8Jpft0J\" data-did=\"Dg8wX8Jpft0J\" data-lid=\"\
-        \" data-rp=\"5\"><div class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"\
-        gs_evt_dsp(event)\"><a id=\"Dg8wX8Jpft0J\" href=\"https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1540-6237.2012.00865.x\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=5&amp;d=15960310412989173518&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm3QPtiv0oos3-SCJaIqlKKj4YBCFw&amp;nossl=1\"\
-        \ data-clk-atid=\"Dg8wX8Jpft0J\"><b>Preaching </b>to the <b>choir</b>? religious\
-        \ leaders and a merican opinion on immigration reform</a></h3><div class=\"\
-        gs_a\"><a href=\"/citations?user=OfgJBywAAAAJ&amp;hl=en&amp;oi=sra\">TM Nteta</a>,\
-        \ <a href=\"/citations?user=DgjG6xgAAAAJ&amp;hl=en&amp;oi=sra\">KJ Wallsten</a>\_\
-        - Social Science Quarterly, 2012 - Wiley Online Library</div><div class=\"\
-        gs_rs\">Objective Do the public declarations of religious leaders concerning\
-        \ immigration influence A <br>merican public opinion on immigration reform?\
-        \ Methods In answering this question, we use <br>the 2004 National Politics\
-        \ Study and employ ordered logistic regression techniques to test\_\u2026\
-        </div><div class=\"gs_fl\"><a href=\"javascript:void(0)\" class=\"gs_or_sav\"\
-        \ title=\"Save\" role=\"button\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"\
-        ><path d=\"M8 11.57l3.824 2.308-1.015-4.35 3.379-2.926-4.45-.378L8 2.122 6.261\
-        \ 6.224l-4.449.378 3.379 2.926-1.015 4.35z\"/></svg></a> <a href=\"javascript:void(0)\"\
-        \ class=\"gs_or_cit gs_nph\" title=\"Cite\" role=\"button\" aria-controls=\"\
-        gs_cit\" aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"\
-        ><path d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5 3.5v5h2v.375L9.75\
-        \ 12.5h3L14.5 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=15960310412989173518&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
-        >Cited by 41</a> <a href=\"/scholar?q=related:Dg8wX8Jpft0J:scholar.google.com/&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
-        >Related articles</a> <a href=\"/scholar?cluster=15960310412989173518&amp;hl=en&amp;as_sdt=0,5\"\
-        \ class=\"gs_nph\">All 7 versions</a> <a href=\"javascript:void(0)\" title=\"\
-        More\" class=\"gs_or_mor gs_oph\" role=\"button\"><svg viewBox=\"-1 0 17 16\"\
-        \ class=\"gs_or_svg\"><path d=\"M1.5 5.5l2-2L8 8l-4.5 4.5-2-2L4 8zM8.5 5.5l2-2L15\
-        \ 8l-4.5 4.5-2-2L11 8z\"/></svg></a> <a href=\"javascript:void(0)\" title=\"\
-        Fewer\" class=\"gs_or_nvi gs_or_mor\" role=\"button\"><svg viewBox=\"0 0 17\
-        \ 16\" class=\"gs_or_svg\"><path d=\"M8.5 5.5l-2-2L2 8l4.5 4.5 2-2L6 8zM15.5\
-        \ 5.5l-2-2L9 8l4.5 4.5 2-2L13 8z\"/></svg></a></div></div></div>  <div class=\"\
         gs_r gs_or gs_scl\" data-cid=\"t0utNKv_oisJ\" data-did=\"t0utNKv_oisJ\" data-lid=\"\
         \" data-rp=\"6\"><div class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"\
         gs_evt_dsp(event)\"><a id=\"t0utNKv_oisJ\" href=\"https://journals.sagepub.com/doi/abs/10.4278/0890-1171-4.5.367\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=6&amp;d=3144356600646290359&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm3ZkVM1ni-XPD-h4R0z8qpERzlrlQ&amp;nossl=1\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=6&amp;d=3144356600646290359&amp;ei=Wo0PX53tPOPUsQLc7LOoDg&amp;scisig=AAGBfm3ZkVM1ni-XPD-h4R0z8qpERzlrlQ&amp;nossl=1\"\
         \ data-clk-atid=\"t0utNKv_oisJ\">Self-selection in responding to a health\
         \ risk appraisal: Are we <b>preaching </b>to the <b>choir</b>?</a></h3><div\
         \ class=\"gs_a\">DS Nice, SI Woodruff\_- American Journal of Health\_\u2026\
@@ -1290,9 +1288,9 @@ interactions:
         \ aria-controls=\"gs_cit\" aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\"\
         \ class=\"gs_or_svg\"><path d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5\
         \ 3.5v5h2v.375L9.75 12.5h3L14.5 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=3144356600646290359&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
-        >Cited by 29</a> <a href=\"/scholar?q=related:t0utNKv_oisJ:scholar.google.com/&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
+        >Cited by 31</a> <a href=\"/scholar?q=related:t0utNKv_oisJ:scholar.google.com/&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
         >Related articles</a> <a href=\"/scholar?cluster=3144356600646290359&amp;hl=en&amp;as_sdt=0,5\"\
-        \ class=\"gs_nph\">All 6 versions</a> <a href=\"javascript:void(0)\" title=\"\
+        \ class=\"gs_nph\">All 5 versions</a> <a href=\"javascript:void(0)\" title=\"\
         More\" class=\"gs_or_mor gs_oph\" role=\"button\"><svg viewBox=\"-1 0 17 16\"\
         \ class=\"gs_or_svg\"><path d=\"M1.5 5.5l2-2L8 8l-4.5 4.5-2-2L4 8zM8.5 5.5l2-2L15\
         \ 8l-4.5 4.5-2-2L11 8z\"/></svg></a> <a href=\"javascript:void(0)\" title=\"\
@@ -1302,7 +1300,7 @@ interactions:
         gs_r gs_or gs_scl\" data-cid=\"m659ARYvXpEJ\" data-did=\"m659ARYvXpEJ\" data-lid=\"\
         \" data-rp=\"7\"><div class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"\
         gs_evt_dsp(event)\"><a id=\"m659ARYvXpEJ\" href=\"https://www.tandfonline.com/doi/full/10.1080/00909880902792313\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=7&amp;d=10474861554871152283&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm2AI-rGAd5RXb3zs-uz8_vjNj27eQ&amp;nossl=1\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=7&amp;d=10474861554871152283&amp;ei=Wo0PX53tPOPUsQLc7LOoDg&amp;scisig=AAGBfm2AI-rGAd5RXb3zs-uz8_vjNj27eQ&amp;nossl=1\"\
         \ data-clk-atid=\"m659ARYvXpEJ\">Not just <b>preaching </b>to the <b>choir</b>:\
         \ Communication scholarship does make a difference</a></h3><div class=\"gs_a\"\
         >ML Hummert\_- Journal of Applied Communication Research, 2009 - Taylor &amp;\
@@ -1320,7 +1318,7 @@ interactions:
         \ 3.5v5h2v.375L9.75 12.5h3L14.5 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=10474861554871152283&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
         >Cited by 24</a> <a href=\"/scholar?q=related:m659ARYvXpEJ:scholar.google.com/&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
         >Related articles</a> <a href=\"/scholar?cluster=10474861554871152283&amp;hl=en&amp;as_sdt=0,5\"\
-        \ class=\"gs_nph\">All 3 versions</a> <a href=\"javascript:void(0)\" title=\"\
+        \ class=\"gs_nph\">All 4 versions</a> <a href=\"javascript:void(0)\" title=\"\
         More\" class=\"gs_or_mor gs_oph\" role=\"button\"><svg viewBox=\"-1 0 17 16\"\
         \ class=\"gs_or_svg\"><path d=\"M1.5 5.5l2-2L8 8l-4.5 4.5-2-2L4 8zM8.5 5.5l2-2L15\
         \ 8l-4.5 4.5-2-2L11 8z\"/></svg></a> <a href=\"javascript:void(0)\" title=\"\
@@ -1330,12 +1328,11 @@ interactions:
         gs_r gs_or gs_scl\" data-cid=\"E2gXf0wXldAJ\" data-did=\"E2gXf0wXldAJ\" data-lid=\"\
         \" data-rp=\"8\"><div class=\"gs_ggs gs_fl\"><div class=\"gs_ggsd\"><div class=\"\
         gs_or_ggsm\" ontouchstart=\"gs_evt_dsp(event)\" tabindex=\"-1\"><a href=\"\
-        http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.688.6140&amp;rep=rep1&amp;type=pdf\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=8&amp;d=15029944948736092179&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm0vEH_GBSxxFw6GSUuWxZDu3gmuwA&amp;nossl=1\"\
-        \ data-clk-atid=\"E2gXf0wXldAJ\"><span class=gs_ctg2>[PDF]</span> psu.edu</a></div></div></div><div\
+        https://escholarship.org/content/qt9gt0v6jv/qt9gt0v6jv.pdf\" data-clk=\"hl=en&amp;sa=T&amp;oi=gga&amp;ct=gga&amp;cd=8&amp;d=15029944948736092179&amp;ei=Wo0PX53tPOPUsQLc7LOoDg&amp;scisig=AAGBfm2H7doJ61GhnjKWODUhPXZasg5mtA&amp;nossl=1\"\
+        \ data-clk-atid=\"E2gXf0wXldAJ\"><span class=gs_ctg2>[PDF]</span> escholarship.org</a></div></div></div><div\
         \ class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"gs_evt_dsp(event)\"><a\
         \ id=\"E2gXf0wXldAJ\" href=\"https://onlinelibrary.wiley.com/doi/abs/10.1111/ajps.12228\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=8&amp;d=15029944948736092179&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm0rrz5yCkohfsGOEMdBksRmj5feDQ&amp;nossl=1\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=8&amp;d=15029944948736092179&amp;ei=Wo0PX53tPOPUsQLc7LOoDg&amp;scisig=AAGBfm0rrz5yCkohfsGOEMdBksRmj5feDQ&amp;nossl=1\"\
         \ data-clk-atid=\"E2gXf0wXldAJ\"><b>Preaching </b>to the <b>choir</b>: Americans\
         \ prefer communicating to copartisan elected officials</a></h3><div class=\"\
         gs_a\"><a href=\"/citations?user=Ifl1VQEAAAAJ&amp;hl=en&amp;oi=sra\">DE Broockman</a>,\
@@ -1353,9 +1350,9 @@ interactions:
         gs_cit\" aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"\
         ><path d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5 3.5v5h2v.375L9.75\
         \ 12.5h3L14.5 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=15029944948736092179&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
-        >Cited by 22</a> <a href=\"/scholar?q=related:E2gXf0wXldAJ:scholar.google.com/&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
+        >Cited by 23</a> <a href=\"/scholar?q=related:E2gXf0wXldAJ:scholar.google.com/&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
         >Related articles</a> <a href=\"/scholar?cluster=15029944948736092179&amp;hl=en&amp;as_sdt=0,5\"\
-        \ class=\"gs_nph\">All 9 versions</a> <a href=\"javascript:void(0)\" title=\"\
+        \ class=\"gs_nph\">All 11 versions</a> <a href=\"javascript:void(0)\" title=\"\
         More\" class=\"gs_or_mor gs_oph\" role=\"button\"><svg viewBox=\"-1 0 17 16\"\
         \ class=\"gs_or_svg\"><path d=\"M1.5 5.5l2-2L8 8l-4.5 4.5-2-2L4 8zM8.5 5.5l2-2L15\
         \ 8l-4.5 4.5-2-2L11 8z\"/></svg></a> <a href=\"javascript:void(0)\" title=\"\
@@ -1365,7 +1362,7 @@ interactions:
         gs_r gs_or gs_scl\" data-cid=\"ARnBM0zKs5IJ\" data-did=\"ARnBM0zKs5IJ\" data-lid=\"\
         \" data-rp=\"9\"><div class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"\
         gs_evt_dsp(event)\"><a id=\"ARnBM0zKs5IJ\" href=\"https://www.sciencedirect.com/science/article/pii/S1550830705003800\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=9&amp;d=10571015179003304193&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm0sJt8So47t5UKV2QJxqTAEE6MV6g&amp;nossl=1\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=9&amp;d=10571015179003304193&amp;ei=Wo0PX53tPOPUsQLc7LOoDg&amp;scisig=AAGBfm0sJt8So47t5UKV2QJxqTAEE6MV6g&amp;nossl=1\"\
         \ data-clk-atid=\"ARnBM0zKs5IJ\">Electives in complementary medicine: are\
         \ we <b>preaching </b>to the <b>choir</b>?</a></h3><div class=\"gs_a\"><a\
         \ href=\"/citations?user=i58lRZgAAAAJ&amp;hl=en&amp;oi=sra\">KJ Kemper</a>,\
@@ -1394,7 +1391,7 @@ interactions:
         gs_r gs_or gs_scl\" data-cid=\"h3lIpSED6FEJ\" data-did=\"h3lIpSED6FEJ\" data-lid=\"\
         \" data-rp=\"10\"><div class=\"gs_ri\"><h3 class=\"gs_rt\" ontouchstart=\"\
         gs_evt_dsp(event)\"><a id=\"h3lIpSED6FEJ\" href=\"https://www.tandfonline.com/doi/abs/10.1080/01629770701527043\"\
-        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=10&amp;d=5901970754710829447&amp;ei=rxjlXt_AAYSimAHvkpSoBw&amp;scisig=AAGBfm3LtgX8ER1dbsGKzZRo8jfKlpVFrQ&amp;nossl=1\"\
+        \ data-clk=\"hl=en&amp;sa=T&amp;ct=res&amp;cd=10&amp;d=5901970754710829447&amp;ei=Wo0PX53tPOPUsQLc7LOoDg&amp;scisig=AAGBfm3LtgX8ER1dbsGKzZRo8jfKlpVFrQ&amp;nossl=1\"\
         \ data-clk-atid=\"h3lIpSED6FEJ\">&#39;<b>Preaching </b>to the <b>choir</b>?&#39;An\
         \ analysis of DUP discourses about the Northern Ireland peace process</a></h3><div\
         \ class=\"gs_a\"><a href=\"/citations?user=vs9I0VoAAAAJ&amp;hl=en&amp;oi=sra\"\
@@ -1411,7 +1408,7 @@ interactions:
         gs_cit\" aria-haspopup=\"true\"><svg viewBox=\"-1 0 17 16\" class=\"gs_or_svg\"\
         ><path d=\"M1.5 3.5v5h2v.375L1.75 12.5h3L6.5 8.875V3.5zM9.5 3.5v5h2v.375L9.75\
         \ 12.5h3L14.5 8.875V3.5z\"/></svg></a> <a href=\"/scholar?cites=5901970754710829447&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en\"\
-        >Cited by 25</a> <a href=\"/scholar?q=related:h3lIpSED6FEJ:scholar.google.com/&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
+        >Cited by 26</a> <a href=\"/scholar?q=related:h3lIpSED6FEJ:scholar.google.com/&amp;scioq=Preaching+the+choir&amp;hl=en&amp;as_sdt=0,5\"\
         >Related articles</a> <a href=\"/scholar?cluster=5901970754710829447&amp;hl=en&amp;as_sdt=0,5\"\
         \ class=\"gs_nph\">All 2 versions</a> <a href=\"javascript:void(0)\" title=\"\
         More\" class=\"gs_or_mor gs_oph\" role=\"button\"><svg viewBox=\"-1 0 17 16\"\
@@ -1464,17 +1461,17 @@ interactions:
         ><a href=\"/intl/en/scholar/about.html\">Help</a><a href=\"//www.google.gr/intl/en/policies/privacy/\"\
         >Privacy</a><a href=\"//www.google.gr/intl/en/policies/terms/\">Terms</a></div></div></div></body></html>"
     headers:
-      Alt-Svc: h3-27=":443"; ma=2592000,h3-25=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q050=":443";
-        ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443";
-        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Alt-Svc: h3-29=":443"; ma=2592000,h3-27=":443"; ma=2592000,h3-25=":443"; ma=2592000,h3-T050=":443";
+        ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
+        ma=2592000,quic=":443"; ma=2592000; v="46,43"
       Cache-Control: private, max-age=0
       Content-Encoding: gzip
       Content-Type: text/html; charset=UTF-8
-      Date: Sat, 13 Jun 2020 18:19:27 GMT
-      Expires: Sat, 13 Jun 2020 18:19:27 GMT
+      Date: Wed, 15 Jul 2020 23:12:26 GMT
+      Expires: Wed, 15 Jul 2020 23:12:26 GMT
       P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
       Server: scholar
-      Set-Cookie: GSP=LM=1592072367:S=arytMiXdekiUXK9o; expires=Mon, 13-Jun-2022 18:19:27
+      Set-Cookie: GSP=LM=1594854746:S=LtCsvcEcyI6cgGVt; expires=Fri, 15-Jul-2022 23:12:26
         GMT; path=/; domain=scholar.google.gr; HttpOnly; SameSite=None; Secure
       Transfer-Encoding: chunked
       X-Content-Type-Options: nosniff

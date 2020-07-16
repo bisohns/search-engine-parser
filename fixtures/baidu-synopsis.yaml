@@ -11,11 +11,39 @@ interactions:
       Connection:
       - keep-alive
       Host:
-      - wappass.baidu.com
+      - www.baidu.com
       User-Agent:
       - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0
     method: GET
     uri: https://www.baidu.com/s?wd=Preaching+the+choir&pn=0&oq=Preaching+the+choir
+  response:
+    body: {}
+    headers:
+      Content-Length: '334'
+      Content-Type: text/html; charset=utf-8
+      Date: Wed, 15 Jul 2020 23:12:53 GMT
+      Location: https://wappass.baidu.com/static/captcha/tuxing.html?&ak=c27bbc89afca0463650ac9bde68ebe06&backurl=https%3A%2F%2Fwww.baidu.com%2Fs%3Fwd%3DPreaching%2Bthe%2Bchoir%26pn%3D0%26oq%3DPreaching%2Bthe%2Bchoir&logid=12601530496287533845&signature=c6dcc101e243e3b5a55c4b6c6048a470&timestamp=1594854773
+    status:
+      code: 302
+      message: Found
+    url: https://www.baidu.com/s?wd=Preaching+the+choir&pn=0&oq=Preaching+the+choir
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      Host:
+      - wappass.baidu.com
+      User-Agent:
+      - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0
+    method: GET
+    uri: https://wappass.baidu.com/static/captcha/tuxing.html?&ak=c27bbc89afca0463650ac9bde68ebe06&backurl=https://www.baidu.com/s?wd%3DPreaching%2Bthe%2Bchoir%26pn%3D0%26oq%3DPreaching%2Bthe%2Bchoir&logid=12601530496287533845&signature=c6dcc101e243e3b5a55c4b6c6048a470&timestamp=1594854773
   response:
     body:
       string: "<!DOCTYPE html>\n<html lang=\"zh-CN\">\n<head>\n    <meta charset=\"\
@@ -47,19 +75,19 @@ interactions:
       Connection: keep-alive
       Content-Encoding: gzip
       Content-Type: text/html
-      Date: Sat, 13 Jun 2020 18:19:14 GMT
+      Date: Wed, 15 Jul 2020 23:12:56 GMT
       Etag: W/"5e980feb-5ef"
       Last-Modified: Thu, 16 Apr 2020 07:57:31 GMT
       P3p: CP=" OTI DSP COR IVA OUR IND COM "
       Server: Apache
-      Set-Cookie: BAIDUID=1A12B96A0B8C846805542B472461D872:FG=1; expires=Sun, 13-Jun-21
-        18:19:14 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1
+      Set-Cookie: BAIDUID=664C6E4C4FDE1631C65FF390FEE9872C:FG=1; expires=Thu, 15-Jul-21
+        23:12:56 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1
       Strict-Transport-Security: max-age=31536000
-      Tracecode: '11542091750908054282061402'
+      Tracecode: 07768875040404803338071607
       Transfer-Encoding: chunked
       Vary: Accept-Encoding
     status:
       code: 200
       message: OK
-    url: https://wappass.baidu.com/static/captcha/tuxing.html?&ak=c27bbc89afca0463650ac9bde68ebe06&backurl=https://www.baidu.com/s?wd%3DPreaching%2Bthe%2Bchoir%26pn%3D0%26oq%3DPreaching%2Bthe%2Bchoir&logid=10123463438346272915&signature=6a0208234ca259bfc8e90d6300215db6&timestamp=1592072351
+    url: https://wappass.baidu.com/static/captcha/tuxing.html?&ak=c27bbc89afca0463650ac9bde68ebe06&backurl=https://www.baidu.com/s?wd%3DPreaching%2Bthe%2Bchoir%26pn%3D0%26oq%3DPreaching%2Bthe%2Bchoir&logid=12601530496287533845&signature=c6dcc101e243e3b5a55c4b6c6048a470&timestamp=1594854773
 version: 1

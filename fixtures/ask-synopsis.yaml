@@ -7,22 +7,23 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/72.0.3626.121 Safari/537.36
+      - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0
     method: GET
     uri: https://www.ask.com/web?o=0&l=dir&qo=pagination&q=Preaching+the+choir&qsrc=998&page=1
   response:
     body:
       string: "\n\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <script src=\"\
-        /s/0-4-84/usp-api.min.js\"></script>\n    <meta charset=\"UTF-8\"/>\n    <meta\
+        /s/0-4-97/usp-api.min.js\"></script>\n    <meta charset=\"UTF-8\"/>\n    <meta\
         \ name=\"referrer\" content=\"no-referrer-when-downgrade\" />\n    <meta name=\"\
         viewport\" content=\"width=device-width,initial-scale=1\"/>\n    \n\n    \n\
         \n<title>Preaching the choir, Ask.com - What's Your Question?</title>\n\n\n\
         \n\n<meta property=\"og:title\" content=\"Preaching the choir, Ask.com - What&#39;s\
         \ Your Question?\"/>\n\n\n<meta property=\"og:url\" content=\"https://www.ask.com/web\"\
-        \ />\n\n\n<meta property=\"og:site_name\" content=\"Ask.com\"/>\n\n\n\n\n\n\
-        <meta name=\"robots\" content=\"noindex\" />\n\n\n\n\n\n\n    \n\n<link rel=\"\
-        stylesheet\" type=\"text/css\" href=\"/s/0-4-84/site-ask-sites-askus-web-page.css\"\
+        \ />\n\n\n<meta property=\"og:site_name\" content=\"Ask.com\"/>\n\n\n\n<meta\
+        \ property=\"fb:pages\" content=\"123118179545\"/>\n\n\n\n<meta name=\"twitter:card\"\
+        \ content=\"summary\" />\n    <meta name=\"twitter:site\" content=\"@AskDotCom\"\
+        \ />\n\n\n<meta name=\"robots\" content=\"noindex\" />\n\n\n\n\n\n\n\n   \
+        \ \n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/s/0-4-97/site-ask-sites-askus-web-page.css\"\
         />\n    \n    <script>\n        var App = {};\n        App.events = [];\n\
         \        \n        function loadEvent(fn,partial) {\n            App.events.push({\n\
         \                partial:partial || \"\",\n                contextSelector:\
@@ -32,15 +33,15 @@ interactions:
         \        window.rtkGPTSlotsTargeting = [\n            [       \n         \
         \       ['ptype', 'web'],\n                ['an', 'organic'],\n          \
         \      ['ad', 'dirN'],\n                ['ag', ''],\n                ['origin',\
-        \ '0'],\n                \n['ldid', ''],\n                ['EventID', '232EC528-4F3E-49B6-9982-349850B11811'],\n\
-        \                ['PageSegment', '4'],\n                \n\n\n\n\n       \
+        \ '0'],\n                \n['ldid', ''],\n                ['EventID', '2FF69345-F695-4C63-92D0-B1AFC9B70446'],\n\
+        \                ['PageSegment', '3'],\n                \n\n\n\n\n       \
         \         \n            ],\n            {}\n        ];\n        \nwindow.rtkGPTSlotsTargeting[1]['/322166814/iacpl-test.www.ask.com/ask_300x250_HB']\
         \ = [['pos','right-1']];\n        \n\nvar jita_tg_params = {};\n        jita_tg_params['channel']\
         \ = 'web';\n        jita_tg_params['pageType'] = 'resultsPage';\n        jita_tg_params['an']\
         \ = 'organic';\n        jita_tg_params['ad'] = 'dirN';\n        \n\njita_tg_params['origin']\
         \ = '0';\n        jita_tg_params['ldId'] = '';\n        jita_tg_params['EventID']\
-        \ = '232EC528-4F3E-49B6-9982-349850B11811';\n        jita_tg_params['PageSegment']\
-        \ = '4';\n        \n\n\n\n\n\n   \n\n    \n</script>\n\n\n<script type=\"\
+        \ = '2FF69345-F695-4C63-92D0-B1AFC9B70446';\n        jita_tg_params['PageSegment']\
+        \ = '3';\n        \n\n\n\n\n\n   \n\n    \n</script>\n\n\n<script type=\"\
         text/javascript\" src=\"//delivery.askmediagroup.com/mh1l/xPma/jita.js?dfp=1\"\
         \ async defer></script>\n\n\n\n<style>\n        .content-visible {\n     \
         \       visibility: hidden;\n        }\n    </style>\n\n    <noscript>\n \
@@ -218,10 +219,10 @@ interactions:
         \        }\n        }\n\n        function formatClicktrackUrl(adBlock, adBlockName)\
         \ {\n            var generatedClickTrackUrl;\n            if (!adBlock.clicktrackUrl\
         \ && adBlock.clicktrackSearch && adBlockName) {\n                if (adBlockName\
-        \ === \"topAdBlock\") {\n                    generatedClickTrackUrl = \"https://www.ask.com/web/_clk?qsrc=998&qo=&gclid=&askid=&isSemPixelEnabled=false&pl=%7B%22anuaafl%22%3A%220%22%2C%22anuadc%22%3A%22use1%22%2C%22anuaqs%22%3A%22%22%2C%22anxu%22%3A%22http%3A%2F%2Fwww.ask.com%2Fweb%3Fo%3D0%26l%3Ddir%26qo%3Dpagination%26q%3DPreaching%2Bthe%2Bchoir%26qsrc%3D998%26page%3D1%22%2C%22anuaad%22%3A%22dirN%22%2C%22anuapbr%22%3A%22%22%2C%22anuaan%22%3A%22%22%2C%22anuaamt%22%3A%22%22%2C%22anuaagc%22%3A%22%22%2C%22anuaadid%22%3A%22%22%2C%22anuaptp%22%3A%22resultsPage%22%2C%22anuachl%22%3A%22web%22%2C%22anuasv%22%3A%22v1%22%2C%22anuaprdd%22%3A%22search%22%2C%22anxa%22%3A%22Archie_Askus%22%2C%22anxp%22%3A%22ask.com%22%2C%22anualcl%22%3A%22us%22%2C%22anuaapp%22%3A%22%7B%5C%22zoneName%5C%22%3A%5C%22center%5C%22%2C%5C%22moduleName%5C%22%3A%5C%22gslTop%5C%22%2C%5C%22providerSource%5C%22%3A%5C%22csa%5C%22%2C%5C%22resultType%5C%22%3A%5C%22gsl%5C%22%2C%5C%22metaInfo%5C%22%3A%7B%5C%22adType%5C%22%3A%5C%22csa%5C%22%2C%5C%22client%5C%22%3A%5C%22aj-cat-intl%5C%22%2C%5C%22clientChannel%5C%22%3A%5C%22ud_desktop%2Corig_page%2Cask-non-dla%5C%22%7D%2C%5C%22pageViewId%5C%22%3A%5C%222ab7488647e2b0471277fb7c2f40efda%5C%22%2C%5C%22queryOrigination%5C%22%3A%5C%22pagination%5C%22%2C%5C%22templateId%5C%22%3A%5C%22desktop%5C%22%2C%5C%22queryTerm%5C%22%3A%5C%22Preaching%20the%20choir%5C%22%2C%5C%22category%5C%22%3A%5C%22World%20View%5C%22%7D%22%2C%22anuapn%22%3A1%2C%22anuaptl%22%3A%22%22%7D&csaClick=true\"\
+        \ === \"topAdBlock\") {\n                    generatedClickTrackUrl = \"https://www.ask.com/web/_clk?qsrc=998&qo=&gclid=&askid=&isSemPixelEnabled=false&pl=%7B%22anuaafl%22%3A%220%22%2C%22anuadc%22%3A%22use1%22%2C%22anuaqs%22%3A%22%22%2C%22anxu%22%3A%22http%3A%2F%2Fwww.ask.com%2Fweb%3Fo%3D0%26l%3Ddir%26qo%3Dpagination%26q%3DPreaching%2Bthe%2Bchoir%26qsrc%3D998%26page%3D1%22%2C%22anuaad%22%3A%22dirN%22%2C%22anuapbr%22%3A%22%22%2C%22anuaan%22%3A%22%22%2C%22anuaamt%22%3A%22%22%2C%22anuaagc%22%3A%22%22%2C%22anuaadid%22%3A%22%22%2C%22anuaptp%22%3A%22resultsPage%22%2C%22anuachl%22%3A%22web%22%2C%22anuasv%22%3A%22v1%22%2C%22anuaprdd%22%3A%22search%22%2C%22anxa%22%3A%22Archie_Askus%22%2C%22anxp%22%3A%22ask.com%22%2C%22anualcl%22%3A%22us%22%2C%22anuaapp%22%3A%22%7B%5C%22zoneName%5C%22%3A%5C%22center%5C%22%2C%5C%22moduleName%5C%22%3A%5C%22gslTop%5C%22%2C%5C%22providerSource%5C%22%3A%5C%22csa%5C%22%2C%5C%22resultType%5C%22%3A%5C%22gsl%5C%22%2C%5C%22metaInfo%5C%22%3A%7B%5C%22adType%5C%22%3A%5C%22csa%5C%22%2C%5C%22client%5C%22%3A%5C%22aj-cat-intl%5C%22%2C%5C%22clientChannel%5C%22%3A%5C%22ud_desktop%2Corig_page%2Cask-non-dla%5C%22%7D%2C%5C%22pageViewId%5C%22%3A%5C%2278fe9e03831d9c8b130ae23d2b428353%5C%22%2C%5C%22queryOrigination%5C%22%3A%5C%22pagination%5C%22%2C%5C%22templateId%5C%22%3A%5C%22desktop%5C%22%2C%5C%22queryTerm%5C%22%3A%5C%22Preaching%20the%20choir%5C%22%2C%5C%22category%5C%22%3A%5C%22World%20View%5C%22%7D%22%2C%22anuapn%22%3A1%2C%22anuaptl%22%3A%22%22%7D&csaClick=true\"\
         ;\n                } else if (adBlockName === \"middleAdBlock\") {\n     \
         \               generatedClickTrackUrl = \"\";\n                } else {\n\
-        \                    generatedClickTrackUrl = \"https://www.ask.com/web/_clk?qsrc=998&qo=&gclid=&askid=&isSemPixelEnabled=false&pl=%7B%22anuaafl%22%3A%220%22%2C%22anuadc%22%3A%22use1%22%2C%22anuaqs%22%3A%22%22%2C%22anxu%22%3A%22http%3A%2F%2Fwww.ask.com%2Fweb%3Fo%3D0%26l%3Ddir%26qo%3Dpagination%26q%3DPreaching%2Bthe%2Bchoir%26qsrc%3D998%26page%3D1%22%2C%22anuaad%22%3A%22dirN%22%2C%22anuapbr%22%3A%22%22%2C%22anuaan%22%3A%22%22%2C%22anuaamt%22%3A%22%22%2C%22anuaagc%22%3A%22%22%2C%22anuaadid%22%3A%22%22%2C%22anuaptp%22%3A%22resultsPage%22%2C%22anuachl%22%3A%22web%22%2C%22anuasv%22%3A%22v1%22%2C%22anuaprdd%22%3A%22search%22%2C%22anxa%22%3A%22Archie_Askus%22%2C%22anxp%22%3A%22ask.com%22%2C%22anualcl%22%3A%22us%22%2C%22anuaapp%22%3A%22%7B%5C%22zoneName%5C%22%3A%5C%22center%5C%22%2C%5C%22moduleName%5C%22%3A%5C%22gslBottom%5C%22%2C%5C%22providerSource%5C%22%3A%5C%22csa%5C%22%2C%5C%22resultType%5C%22%3A%5C%22gsl%5C%22%2C%5C%22metaInfo%5C%22%3A%7B%5C%22adType%5C%22%3A%5C%22csa%5C%22%2C%5C%22client%5C%22%3A%5C%22aj-cat-intl%5C%22%2C%5C%22clientChannel%5C%22%3A%5C%22ud_desktop%2Corig_page%2Cask-non-dla%5C%22%7D%2C%5C%22pageViewId%5C%22%3A%5C%222ab7488647e2b0471277fb7c2f40efda%5C%22%2C%5C%22queryOrigination%5C%22%3A%5C%22pagination%5C%22%2C%5C%22templateId%5C%22%3A%5C%22desktop%5C%22%2C%5C%22queryTerm%5C%22%3A%5C%22Preaching%20the%20choir%5C%22%2C%5C%22category%5C%22%3A%5C%22World%20View%5C%22%7D%22%2C%22anuapn%22%3A1%2C%22anuaptl%22%3A%22%22%7D&csaClick=true\"\
+        \                    generatedClickTrackUrl = \"https://www.ask.com/web/_clk?qsrc=998&qo=&gclid=&askid=&isSemPixelEnabled=false&pl=%7B%22anuaafl%22%3A%220%22%2C%22anuadc%22%3A%22use1%22%2C%22anuaqs%22%3A%22%22%2C%22anxu%22%3A%22http%3A%2F%2Fwww.ask.com%2Fweb%3Fo%3D0%26l%3Ddir%26qo%3Dpagination%26q%3DPreaching%2Bthe%2Bchoir%26qsrc%3D998%26page%3D1%22%2C%22anuaad%22%3A%22dirN%22%2C%22anuapbr%22%3A%22%22%2C%22anuaan%22%3A%22%22%2C%22anuaamt%22%3A%22%22%2C%22anuaagc%22%3A%22%22%2C%22anuaadid%22%3A%22%22%2C%22anuaptp%22%3A%22resultsPage%22%2C%22anuachl%22%3A%22web%22%2C%22anuasv%22%3A%22v1%22%2C%22anuaprdd%22%3A%22search%22%2C%22anxa%22%3A%22Archie_Askus%22%2C%22anxp%22%3A%22ask.com%22%2C%22anualcl%22%3A%22us%22%2C%22anuaapp%22%3A%22%7B%5C%22zoneName%5C%22%3A%5C%22center%5C%22%2C%5C%22moduleName%5C%22%3A%5C%22gslBottom%5C%22%2C%5C%22providerSource%5C%22%3A%5C%22csa%5C%22%2C%5C%22resultType%5C%22%3A%5C%22gsl%5C%22%2C%5C%22metaInfo%5C%22%3A%7B%5C%22adType%5C%22%3A%5C%22csa%5C%22%2C%5C%22client%5C%22%3A%5C%22aj-cat-intl%5C%22%2C%5C%22clientChannel%5C%22%3A%5C%22ud_desktop%2Corig_page%2Cask-non-dla%5C%22%7D%2C%5C%22pageViewId%5C%22%3A%5C%2278fe9e03831d9c8b130ae23d2b428353%5C%22%2C%5C%22queryOrigination%5C%22%3A%5C%22pagination%5C%22%2C%5C%22templateId%5C%22%3A%5C%22desktop%5C%22%2C%5C%22queryTerm%5C%22%3A%5C%22Preaching%20the%20choir%5C%22%2C%5C%22category%5C%22%3A%5C%22World%20View%5C%22%7D%22%2C%22anuapn%22%3A1%2C%22anuaptl%22%3A%22%22%7D&csaClick=true\"\
         ;\n                }\n\n                adBlock.clicktrackUrl = generatedClickTrackUrl;\n\
         \                delete adBlock.clicktrackSearch;\n            }\n       \
         \     return adBlock;\n        }\n\n        _googCsa('jsLoadedCallback', function\
@@ -242,7 +243,7 @@ interactions:
         5\",\"fontSizeTitle\":\"18\",\"fontSizeDescription\":\"13\",\"fontSizeDomainLink\"\
         :\"14\",\"fontSizeAttribution\":\"13\",\"lineHeightTitle\":\"24\",\"lineHeightDescription\"\
         :\"18\",\"lineHeightDomainLink\":\"18\",\"verticalSpacing\":\"16\",\"detailedAttribution\"\
-        :true,\"colorTitleLink\":\"#3300b5\",\"clicktrackSearch\":\"qsrc=998&qo=&gclid=&askid=&isSemPixelEnabled=false&pl=%7B%22anuaafl%22%3A%220%22%2C%22anuadc%22%3A%22use1%22%2C%22anuaqs%22%3A%22%22%2C%22anxu%22%3A%22http%3A%2F%2Fwww.ask.com%2Fweb%3Fo%3D0%26l%3Ddir%26qo%3Dpagination%26q%3DPreaching%2Bthe%2Bchoir%26qsrc%3D998%26page%3D1%22%2C%22anuaad%22%3A%22dirN%22%2C%22anuapbr%22%3A%22%22%2C%22anuaan%22%3A%22%22%2C%22anuaamt%22%3A%22%22%2C%22anuaagc%22%3A%22%22%2C%22anuaadid%22%3A%22%22%2C%22anuaptp%22%3A%22resultsPage%22%2C%22anuachl%22%3A%22web%22%2C%22anuasv%22%3A%22v1%22%2C%22anuaprdd%22%3A%22search%22%2C%22anxa%22%3A%22Archie_Askus%22%2C%22anxp%22%3A%22ask.com%22%2C%22anualcl%22%3A%22us%22%2C%22anuaapp%22%3A%22%7B%5C%22zoneName%5C%22%3A%5C%22center%5C%22%2C%5C%22moduleName%5C%22%3A%5C%22gslTop%5C%22%2C%5C%22providerSource%5C%22%3A%5C%22csa%5C%22%2C%5C%22resultType%5C%22%3A%5C%22gsl%5C%22%2C%5C%22metaInfo%5C%22%3A%7B%5C%22adType%5C%22%3A%5C%22csa%5C%22%2C%5C%22client%5C%22%3A%5C%22aj-cat-intl%5C%22%2C%5C%22clientChannel%5C%22%3A%5C%22ud_desktop%2Corig_page%2Cask-non-dla%5C%22%7D%2C%5C%22pageViewId%5C%22%3A%5C%222ab7488647e2b0471277fb7c2f40efda%5C%22%2C%5C%22queryOrigination%5C%22%3A%5C%22pagination%5C%22%2C%5C%22templateId%5C%22%3A%5C%22desktop%5C%22%2C%5C%22queryTerm%5C%22%3A%5C%22Preaching%20the%20choir%5C%22%2C%5C%22category%5C%22%3A%5C%22World%20View%5C%22%7D%22%2C%22anuapn%22%3A1%2C%22anuaptl%22%3A%22%22%7D&csaClick=true\"\
+        :true,\"colorTitleLink\":\"#3300b5\",\"clicktrackSearch\":\"qsrc=998&qo=&gclid=&askid=&isSemPixelEnabled=false&pl=%7B%22anuaafl%22%3A%220%22%2C%22anuadc%22%3A%22use1%22%2C%22anuaqs%22%3A%22%22%2C%22anxu%22%3A%22http%3A%2F%2Fwww.ask.com%2Fweb%3Fo%3D0%26l%3Ddir%26qo%3Dpagination%26q%3DPreaching%2Bthe%2Bchoir%26qsrc%3D998%26page%3D1%22%2C%22anuaad%22%3A%22dirN%22%2C%22anuapbr%22%3A%22%22%2C%22anuaan%22%3A%22%22%2C%22anuaamt%22%3A%22%22%2C%22anuaagc%22%3A%22%22%2C%22anuaadid%22%3A%22%22%2C%22anuaptp%22%3A%22resultsPage%22%2C%22anuachl%22%3A%22web%22%2C%22anuasv%22%3A%22v1%22%2C%22anuaprdd%22%3A%22search%22%2C%22anxa%22%3A%22Archie_Askus%22%2C%22anxp%22%3A%22ask.com%22%2C%22anualcl%22%3A%22us%22%2C%22anuaapp%22%3A%22%7B%5C%22zoneName%5C%22%3A%5C%22center%5C%22%2C%5C%22moduleName%5C%22%3A%5C%22gslTop%5C%22%2C%5C%22providerSource%5C%22%3A%5C%22csa%5C%22%2C%5C%22resultType%5C%22%3A%5C%22gsl%5C%22%2C%5C%22metaInfo%5C%22%3A%7B%5C%22adType%5C%22%3A%5C%22csa%5C%22%2C%5C%22client%5C%22%3A%5C%22aj-cat-intl%5C%22%2C%5C%22clientChannel%5C%22%3A%5C%22ud_desktop%2Corig_page%2Cask-non-dla%5C%22%7D%2C%5C%22pageViewId%5C%22%3A%5C%2278fe9e03831d9c8b130ae23d2b428353%5C%22%2C%5C%22queryOrigination%5C%22%3A%5C%22pagination%5C%22%2C%5C%22templateId%5C%22%3A%5C%22desktop%5C%22%2C%5C%22queryTerm%5C%22%3A%5C%22Preaching%20the%20choir%5C%22%2C%5C%22category%5C%22%3A%5C%22World%20View%5C%22%7D%22%2C%22anuapn%22%3A1%2C%22anuaptl%22%3A%22%22%7D&csaClick=true\"\
         },\"bottomAdBlock\":{\"colorAttribution\":\"#333333\",\"colorDomainLink\"\
         :\"#0E7744\",\"width\":\"99.5%\",\"clickableBackgrounds\":true,\"colorText\"\
         :\"#333333\",\"container\":\"text-ad-block-1\",\"longerHeadlines\":true,\"\
@@ -251,7 +252,7 @@ interactions:
         :\"13\",\"fontSizeDomainLink\":\"14\",\"fontSizeAttribution\":\"13\",\"lineHeightTitle\"\
         :\"24\",\"lineHeightDescription\":\"18\",\"lineHeightDomainLink\":\"18\",\"\
         verticalSpacing\":\"16\",\"detailedAttribution\":true,\"colorTitleLink\":\"\
-        #3300b5\",\"clicktrackSearch\":\"qsrc=998&qo=&gclid=&askid=&isSemPixelEnabled=false&pl=%7B%22anuaafl%22%3A%220%22%2C%22anuadc%22%3A%22use1%22%2C%22anuaqs%22%3A%22%22%2C%22anxu%22%3A%22http%3A%2F%2Fwww.ask.com%2Fweb%3Fo%3D0%26l%3Ddir%26qo%3Dpagination%26q%3DPreaching%2Bthe%2Bchoir%26qsrc%3D998%26page%3D1%22%2C%22anuaad%22%3A%22dirN%22%2C%22anuapbr%22%3A%22%22%2C%22anuaan%22%3A%22%22%2C%22anuaamt%22%3A%22%22%2C%22anuaagc%22%3A%22%22%2C%22anuaadid%22%3A%22%22%2C%22anuaptp%22%3A%22resultsPage%22%2C%22anuachl%22%3A%22web%22%2C%22anuasv%22%3A%22v1%22%2C%22anuaprdd%22%3A%22search%22%2C%22anxa%22%3A%22Archie_Askus%22%2C%22anxp%22%3A%22ask.com%22%2C%22anualcl%22%3A%22us%22%2C%22anuaapp%22%3A%22%7B%5C%22zoneName%5C%22%3A%5C%22center%5C%22%2C%5C%22moduleName%5C%22%3A%5C%22gslBottom%5C%22%2C%5C%22providerSource%5C%22%3A%5C%22csa%5C%22%2C%5C%22resultType%5C%22%3A%5C%22gsl%5C%22%2C%5C%22metaInfo%5C%22%3A%7B%5C%22adType%5C%22%3A%5C%22csa%5C%22%2C%5C%22client%5C%22%3A%5C%22aj-cat-intl%5C%22%2C%5C%22clientChannel%5C%22%3A%5C%22ud_desktop%2Corig_page%2Cask-non-dla%5C%22%7D%2C%5C%22pageViewId%5C%22%3A%5C%222ab7488647e2b0471277fb7c2f40efda%5C%22%2C%5C%22queryOrigination%5C%22%3A%5C%22pagination%5C%22%2C%5C%22templateId%5C%22%3A%5C%22desktop%5C%22%2C%5C%22queryTerm%5C%22%3A%5C%22Preaching%20the%20choir%5C%22%2C%5C%22category%5C%22%3A%5C%22World%20View%5C%22%7D%22%2C%22anuapn%22%3A1%2C%22anuaptl%22%3A%22%22%7D&csaClick=true\"\
+        #3300b5\",\"clicktrackSearch\":\"qsrc=998&qo=&gclid=&askid=&isSemPixelEnabled=false&pl=%7B%22anuaafl%22%3A%220%22%2C%22anuadc%22%3A%22use1%22%2C%22anuaqs%22%3A%22%22%2C%22anxu%22%3A%22http%3A%2F%2Fwww.ask.com%2Fweb%3Fo%3D0%26l%3Ddir%26qo%3Dpagination%26q%3DPreaching%2Bthe%2Bchoir%26qsrc%3D998%26page%3D1%22%2C%22anuaad%22%3A%22dirN%22%2C%22anuapbr%22%3A%22%22%2C%22anuaan%22%3A%22%22%2C%22anuaamt%22%3A%22%22%2C%22anuaagc%22%3A%22%22%2C%22anuaadid%22%3A%22%22%2C%22anuaptp%22%3A%22resultsPage%22%2C%22anuachl%22%3A%22web%22%2C%22anuasv%22%3A%22v1%22%2C%22anuaprdd%22%3A%22search%22%2C%22anxa%22%3A%22Archie_Askus%22%2C%22anxp%22%3A%22ask.com%22%2C%22anualcl%22%3A%22us%22%2C%22anuaapp%22%3A%22%7B%5C%22zoneName%5C%22%3A%5C%22center%5C%22%2C%5C%22moduleName%5C%22%3A%5C%22gslBottom%5C%22%2C%5C%22providerSource%5C%22%3A%5C%22csa%5C%22%2C%5C%22resultType%5C%22%3A%5C%22gsl%5C%22%2C%5C%22metaInfo%5C%22%3A%7B%5C%22adType%5C%22%3A%5C%22csa%5C%22%2C%5C%22client%5C%22%3A%5C%22aj-cat-intl%5C%22%2C%5C%22clientChannel%5C%22%3A%5C%22ud_desktop%2Corig_page%2Cask-non-dla%5C%22%7D%2C%5C%22pageViewId%5C%22%3A%5C%2278fe9e03831d9c8b130ae23d2b428353%5C%22%2C%5C%22queryOrigination%5C%22%3A%5C%22pagination%5C%22%2C%5C%22templateId%5C%22%3A%5C%22desktop%5C%22%2C%5C%22queryTerm%5C%22%3A%5C%22Preaching%20the%20choir%5C%22%2C%5C%22category%5C%22%3A%5C%22World%20View%5C%22%7D%22%2C%22anuapn%22%3A1%2C%22anuaptl%22%3A%22%22%7D&csaClick=true\"\
         }}'),\npageOptions = ask.CSA.pageOptions = csaData.pageOptions,\n        \
         \            csaArgs = ['ads'];\n\n            csaData.pageOptions.query =\
         \ decodeURIComponent(csaData.pageOptions.query);\n\n            if (!pageOptions\
@@ -307,7 +308,7 @@ interactions:
         \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<script>\n        var isDataLayerDefined\
         \ = (typeof dataLayer !== \"undefined\");\n\n        var dataObj = {\n   \
         \         \"ldid\": \"\",\n            \"channel\": \"web\",\n           \
-        \ \"affiliateid\": \"0\",\n            \"sessionid\": \"2090122941\",\n  \
+        \ \"affiliateid\": \"0\",\n            \"sessionid\": \"1012223268\",\n  \
         \          \"acquisitiondivision\": \"dirN\"\n        };\n\n        \n\n\n\
         if (isDataLayerDefined) {\n            dataLayer.push(dataObj);\n        }\
         \ else {\n            var dataLayer = [dataObj];\n        }\n\n    </script>\n\
@@ -393,7 +394,7 @@ interactions:
         \ == \"function\"){\n            ask.CSA.startShowSerpTimeout();\n       \
         \ }\n    </script>\n\n    <div class=\"TopAdsPartial\">\n        <div id=\"\
         text-ad-block-0\" class=\"TopAdsPartial-text-ad-block\"></div>\n    </div>\n\
-        \n\n\n\n\n\n\n\n\n<div class=\"PartialRelatedSearch\">\n\n\n\n<div class=\"\
+        \n\n\n\n\n\n\n<div class=\"PartialRelatedSearch top\">\n\n\n\n<div class=\"\
         PartialRelatedSearch-body \">\n            \n<div class=\"PartialRelatedSearch-columns\"\
         >\n                \n\n<div class=\"PartialRelatedSearch-heading\">Related\
         \ Search</div>\n                    \n\n<ul class=\"PartialRelatedSearch-first-column\"\
@@ -427,16 +428,36 @@ interactions:
         rsText\":\"Modern Choir Songs\",\"destinationDomain\":\"www.ask.com\",\"moduleInZone\"\
         :2,\"resultInModule\":3}' rel='nofollow'>\n                              \
         \              Modern <b>Choir</b> Songs\n</a>\n                         \
-        \               \n\n</li>\n                        \n\n\n\n</ul>\n       \
-        \         <ul class=\"PartialRelatedSearch-second-column\">\n            \
-        \        \n\n\n\n<li class=\"PartialRelatedSearch-item\">\n              \
-        \                  \n\n\n<a  class=\"PartialRelatedSearch-item-link\" href='//www.ask.com/web?q=Choir+Singing&qo=relatedSearchNarrow&o=0&l=dir'\
+        \               \n\n</li>\n                        \n\n\n\n\n<li class=\"\
+        PartialRelatedSearch-item\">\n                                \n\n\n<a  class=\"\
+        PartialRelatedSearch-item-link\" href='//www.ask.com/web?q=Pop+Choir+Songs&qo=relatedSearchNarrow&o=0&l=dir'\
+        \ data-unified='{\"moduleName\":\"relatedSearchMid\",\"resultType\":\"relatedSearch\"\
+        ,\"providerSource\":\"relatedSearch\",\"zoneName\":\"center\",\"bing\":false,\"\
+        yahoo\":false,\"narrow\":true,\"expand\":false,\"names\":false,\"pinned\"\
+        :false,\"k2\":false,\"question\":false,\"language\":\"en\",\"localized\":false,\"\
+        rsText\":\"Pop Choir Songs\",\"destinationDomain\":\"www.ask.com\",\"moduleInZone\"\
+        :2,\"resultInModule\":4}' rel='nofollow'>\n                              \
+        \              Pop <b>Choir</b> Songs\n</a>\n                            \
+        \            \n\n</li>\n                        \n\n\n\n\n<li class=\"PartialRelatedSearch-item\"\
+        >\n                                \n\n\n<a  class=\"PartialRelatedSearch-item-link\"\
+        \ href='//www.ask.com/web?q=Choir+Chairs&qo=relatedSearchNarrow&o=0&l=dir'\
+        \ data-unified='{\"moduleName\":\"relatedSearchMid\",\"resultType\":\"relatedSearch\"\
+        ,\"providerSource\":\"relatedSearch\",\"zoneName\":\"center\",\"bing\":false,\"\
+        yahoo\":false,\"narrow\":true,\"expand\":false,\"names\":false,\"pinned\"\
+        :false,\"k2\":false,\"question\":false,\"language\":\"en\",\"localized\":false,\"\
+        rsText\":\"Choir Chairs\",\"destinationDomain\":\"www.ask.com\",\"moduleInZone\"\
+        :2,\"resultInModule\":5}' rel='nofollow'>\n                              \
+        \              <b>Choir</b> Chairs\n</a>\n                               \
+        \         \n\n</li>\n                        \n\n\n\n</ul>\n             \
+        \   <ul class=\"PartialRelatedSearch-second-column\">\n                  \
+        \  \n\n\n\n<li class=\"PartialRelatedSearch-item\">\n                    \
+        \            \n\n\n<a  class=\"PartialRelatedSearch-item-link\" href='//www.ask.com/web?q=Choir+Singing&qo=relatedSearchNarrow&o=0&l=dir'\
         \ data-unified='{\"moduleName\":\"relatedSearchMid\",\"resultType\":\"relatedSearch\"\
         ,\"providerSource\":\"relatedSearch\",\"zoneName\":\"center\",\"bing\":false,\"\
         yahoo\":false,\"narrow\":true,\"expand\":false,\"names\":false,\"pinned\"\
         :false,\"k2\":false,\"question\":false,\"language\":\"en\",\"localized\":false,\"\
         rsText\":\"Choir Singing\",\"destinationDomain\":\"www.ask.com\",\"moduleInZone\"\
-        :2,\"resultInModule\":4}' rel='nofollow'>\n                              \
+        :2,\"resultInModule\":6}' rel='nofollow'>\n                              \
         \              <b>Choir</b> Singing\n</a>\n                              \
         \          \n\n</li>\n                        \n\n\n\n\n<li class=\"PartialRelatedSearch-item\"\
         >\n                                \n\n\n<a  class=\"PartialRelatedSearch-item-link\"\
@@ -446,7 +467,7 @@ interactions:
         yahoo\":false,\"narrow\":true,\"expand\":false,\"names\":false,\"pinned\"\
         :false,\"k2\":false,\"question\":false,\"language\":\"en\",\"localized\":false,\"\
         rsText\":\"Songs for Choirs to Sing\",\"destinationDomain\":\"www.ask.com\"\
-        ,\"moduleInZone\":2,\"resultInModule\":5}' rel='nofollow'>\n             \
+        ,\"moduleInZone\":2,\"resultInModule\":7}' rel='nofollow'>\n             \
         \                               Songs for <b>Choirs</b> to Sing\n</a>\n  \
         \                                      \n\n</li>\n                       \
         \ \n\n\n\n\n<li class=\"PartialRelatedSearch-item\">\n                   \
@@ -456,10 +477,30 @@ interactions:
         yahoo\":false,\"narrow\":true,\"expand\":false,\"names\":false,\"pinned\"\
         :false,\"k2\":false,\"question\":false,\"language\":\"en\",\"localized\":false,\"\
         rsText\":\"Fun Choir Songs\",\"destinationDomain\":\"www.ask.com\",\"moduleInZone\"\
-        :2,\"resultInModule\":6}' rel='nofollow'>\n                              \
+        :2,\"resultInModule\":8}' rel='nofollow'>\n                              \
         \              Fun <b>Choir</b> Songs\n</a>\n                            \
-        \            \n\n</li>\n                        \n\n</ul>\n            </div>\n\
-        \        </div>\n    \n\n\n\n</div>\n\n\n<div class=\"PartialSearchResults-container\"\
+        \            \n\n</li>\n                        \n\n\n\n\n<li class=\"PartialRelatedSearch-item\"\
+        >\n                                \n\n\n<a  class=\"PartialRelatedSearch-item-link\"\
+        \ href='//www.ask.com/web?q=Children%27s+Choir+Music&qo=relatedSearchNarrow&o=0&l=dir'\
+        \ data-unified='{\"moduleName\":\"relatedSearchMid\",\"resultType\":\"relatedSearch\"\
+        ,\"providerSource\":\"relatedSearch\",\"zoneName\":\"center\",\"bing\":false,\"\
+        yahoo\":false,\"narrow\":true,\"expand\":false,\"names\":false,\"pinned\"\
+        :false,\"k2\":false,\"question\":false,\"language\":\"en\",\"localized\":false,\"\
+        rsText\":\"Children's Choir Music\",\"destinationDomain\":\"www.ask.com\"\
+        ,\"moduleInZone\":2,\"resultInModule\":9}' rel='nofollow'>\n             \
+        \                               Children's <b>Choir</b> Music\n</a>\n    \
+        \                                    \n\n</li>\n                        \n\
+        \n\n\n\n<li class=\"PartialRelatedSearch-item\">\n                       \
+        \         \n\n\n<a  class=\"PartialRelatedSearch-item-link\" href='//www.ask.com/web?q=Best+Gospel+Choir&qo=relatedSearchNarrow&o=0&l=dir'\
+        \ data-unified='{\"moduleName\":\"relatedSearchMid\",\"resultType\":\"relatedSearch\"\
+        ,\"providerSource\":\"relatedSearch\",\"zoneName\":\"center\",\"bing\":false,\"\
+        yahoo\":false,\"narrow\":true,\"expand\":false,\"names\":false,\"pinned\"\
+        :false,\"k2\":false,\"question\":false,\"language\":\"en\",\"localized\":false,\"\
+        rsText\":\"Best Gospel Choir\",\"destinationDomain\":\"www.ask.com\",\"moduleInZone\"\
+        :2,\"resultInModule\":10}' rel='nofollow'>\n                             \
+        \               Best Gospel <b>Choir</b>\n</a>\n                         \
+        \               \n\n</li>\n                        \n\n</ul>\n           \
+        \ </div>\n        </div>\n    \n\n\n\n</div>\n\n\n<div class=\"PartialSearchResults-container\"\
         >\n        \n<div class=\"PartialSearchResults-title\">Web Results</div>\n\
         \        \n<div class=\"PartialSearchResults-body\">\n            \n\n   \
         \             \n\n                    \n\n                        \n\n   \
@@ -489,27 +530,28 @@ interactions:
         \ noopener noreferrer'>PREACH TO THE CHOIR | meaning in the Cambridge English\
         \ ...</a>\n        \n</div>\n    \n<p class=\"PartialSearchResults-item-url\"\
         >dictionary.cambridge.org/dictionary/english/preach-to-the-choir</p>\n   \
-        \ \n<p class=\"PartialSearchResults-item-abstract\">preach to the choir definition:\
-        \ to try to persuade people who already agree with \nyou: . Learn more.</p>\n\
-        \    \n</div>\n\n\n\n\n\n                \n\n                    \n\n    \
-        \                    \n\n                            \n<div class=\"PartialSearchResults-item\"\
-        \ data-zen=\"true\">\n    \n<div class=\"PartialSearchResults-item-title\"\
-        >\n        \n<a class=\"PartialSearchResults-item-title-link result-link\"\
-        \n               \ntarget=\"_blank\" href='https://www.urbandictionary.com/define.php?term=preaching+to+the+choir'\
+        \ \n<p class=\"PartialSearchResults-item-abstract\">8 Jul 2020 ... preach\
+        \ to the choir definition: to try to persuade people who already agree with\
+        \ \nyou: . Learn more.</p>\n    \n</div>\n\n\n\n\n\n                \n\n \
+        \                   \n\n                        \n\n                     \
+        \       \n<div class=\"PartialSearchResults-item\" data-zen=\"true\">\n  \
+        \  \n<div class=\"PartialSearchResults-item-title\">\n        \n<a class=\"\
+        PartialSearchResults-item-title-link result-link\"\n               \ntarget=\"\
+        _blank\" href='https://www.urbandictionary.com/define.php?term=preaching+to+the+choir'\
         \ data-unified='{\"domain\":\"www.urbandictionary.com\",\"contentDesignation\"\
         :\"partner\",\"moduleName\":\"webResults\",\"resultType\":\"searchResult\"\
         ,\"providerSource\":\"delta\",\"treatment\":\"standard\",\"zoneName\":\"center\"\
         ,\"language\":\"\",\"moduleInZone\":3,\"resultInModule\":3}' rel='nofollow\
         \ noopener noreferrer'>preaching to the choir - Urban Dictionary</a>\n   \
         \     \n</div>\n    \n<p class=\"PartialSearchResults-item-url\">www.urbandictionary.com/define.php?term=preaching%20to%20the%20choir</p>\n\
-        \    \n<p class=\"PartialSearchResults-item-abstract\">Preaching to the choir\
-        \ means you are trying to make believers out of people who \nalready believe,\
-        \ or convince people who are already convinced.</p>\n    \n</div>\n\n\n\n\n\
-        \n                \n\n                    \n\n                        \n\n\
-        \                            \n<div class=\"PartialSearchResults-item\" data-zen=\"\
-        true\">\n    \n<div class=\"PartialSearchResults-item-title\">\n        \n\
-        <a class=\"PartialSearchResults-item-title-link result-link\"\n          \
-        \     \ntarget=\"_blank\" href='https://www.gingersoftware.com/content/phrases/preaching-to-the-choir/'\
+        \    \n<p class=\"PartialSearchResults-item-abstract\">The horrible moment\
+        \ when you realise that you have accidentally done \nsomething very slightly\
+        \ wrong which has very bad (usually embarassing) \nimplications for&nbsp;...</p>\n\
+        \    \n</div>\n\n\n\n\n\n                \n\n                    \n\n    \
+        \                    \n\n                            \n<div class=\"PartialSearchResults-item\"\
+        \ data-zen=\"true\">\n    \n<div class=\"PartialSearchResults-item-title\"\
+        >\n        \n<a class=\"PartialSearchResults-item-title-link result-link\"\
+        \n               \ntarget=\"_blank\" href='https://www.gingersoftware.com/content/phrases/preaching-to-the-choir/'\
         \ data-unified='{\"domain\":\"www.gingersoftware.com\",\"contentDesignation\"\
         :\"partner\",\"moduleName\":\"webResults\",\"resultType\":\"searchResult\"\
         ,\"providerSource\":\"delta\",\"treatment\":\"standard\",\"zoneName\":\"center\"\
@@ -524,31 +566,31 @@ interactions:
         \                    \n\n                            \n<div class=\"PartialSearchResults-item\"\
         \ data-zen=\"true\">\n    \n<div class=\"PartialSearchResults-item-title\"\
         >\n        \n<a class=\"PartialSearchResults-item-title-link result-link\"\
+        \n               \ntarget=\"_blank\" href='https://en.wiktionary.org/wiki/preach_to_the_choir'\
+        \ data-unified='{\"domain\":\"en.wiktionary.org\",\"contentDesignation\":\"\
+        partner\",\"moduleName\":\"webResults\",\"resultType\":\"searchResult\",\"\
+        providerSource\":\"delta\",\"treatment\":\"standard\",\"zoneName\":\"center\"\
+        ,\"language\":\"\",\"moduleInZone\":3,\"resultInModule\":5}' rel='nofollow\
+        \ noopener noreferrer'>preach to the choir - Wiktionary</a>\n        \n</div>\n\
+        \    \n<p class=\"PartialSearchResults-item-url\">en.wiktionary.org/wiki/preach_to_the_choir</p>\n\
+        \    \n<p class=\"PartialSearchResults-item-abstract\">Often used to imply\
+        \ that a speaker is addressing the wrong audience or is \ndeliberately addressing\
+        \ a compliant, non-challenging audience. SynonymsEdit &middot; \npreach&nbsp;...</p>\n\
+        \    \n</div>\n\n\n\n\n\n                \n\n                    \n\n    \
+        \                    \n\n                            \n<div class=\"PartialSearchResults-item\"\
+        \ data-zen=\"true\">\n    \n<div class=\"PartialSearchResults-item-title\"\
+        >\n        \n<a class=\"PartialSearchResults-item-title-link result-link\"\
         \n               \ntarget=\"_blank\" href='https://www.phrases.org.uk/meanings/preaching-to-the-choir.html'\
         \ data-unified='{\"domain\":\"www.phrases.org.uk\",\"contentDesignation\"\
         :\"partner\",\"moduleName\":\"webResults\",\"resultType\":\"searchResult\"\
         ,\"providerSource\":\"delta\",\"treatment\":\"standard\",\"zoneName\":\"center\"\
-        ,\"language\":\"\",\"moduleInZone\":3,\"resultInModule\":5}' rel='nofollow\
+        ,\"language\":\"\",\"moduleInZone\":3,\"resultInModule\":6}' rel='nofollow\
         \ noopener noreferrer'>&#39;Preaching to the choir&#39; - meaning and origin.\
         \ - The Phrase Finder</a>\n        \n</div>\n    \n<p class=\"PartialSearchResults-item-url\"\
         >www.phrases.org.uk/meanings/preaching-to-the-choir.html</p>\n    \n<p class=\"\
         PartialSearchResults-item-abstract\">&#39;Preaching to the choir&#39; (also\
         \ sometimes spelled quire) is of US origin. It clearly \nrefers to the pointlessness\
         \ of a preacher attempting to convert those who, by their\n&nbsp;...</p>\n\
-        \    \n</div>\n\n\n\n\n\n                \n\n                    \n\n    \
-        \                    \n\n                            \n<div class=\"PartialSearchResults-item\"\
-        \ data-zen=\"true\">\n    \n<div class=\"PartialSearchResults-item-title\"\
-        >\n        \n<a class=\"PartialSearchResults-item-title-link result-link\"\
-        \n               \ntarget=\"_blank\" href='https://en.wiktionary.org/wiki/preach_to_the_choir'\
-        \ data-unified='{\"domain\":\"en.wiktionary.org\",\"contentDesignation\":\"\
-        partner\",\"moduleName\":\"webResults\",\"resultType\":\"searchResult\",\"\
-        providerSource\":\"delta\",\"treatment\":\"standard\",\"zoneName\":\"center\"\
-        ,\"language\":\"\",\"moduleInZone\":3,\"resultInModule\":6}' rel='nofollow\
-        \ noopener noreferrer'>preach to the choir - Wiktionary</a>\n        \n</div>\n\
-        \    \n<p class=\"PartialSearchResults-item-url\">en.wiktionary.org/wiki/preach_to_the_choir</p>\n\
-        \    \n<p class=\"PartialSearchResults-item-abstract\">Often used to imply\
-        \ that a speaker is addressing the wrong audience or is \ndeliberately addressing\
-        \ a compliant, non-challenging audience. SynonymsEdit &middot; \npreach&nbsp;...</p>\n\
         \    \n</div>\n\n\n\n\n\n                \n\n                    \n\n    \
         \                    \n\n                            \n<div class=\"PartialSearchResults-item\"\
         \ data-zen=\"true\">\n    \n<div class=\"PartialSearchResults-item-title\"\
@@ -567,38 +609,38 @@ interactions:
         \             \n\n                        \n\n                           \
         \ \n<div class=\"PartialSearchResults-item\" data-zen=\"true\">\n    \n<div\
         \ class=\"PartialSearchResults-item-title\">\n        \n<a class=\"PartialSearchResults-item-title-link\
-        \ result-link\"\n               \ntarget=\"_blank\" href='https://english.stackexchange.com/questions/140710/what-is-the-opposite-of-preaching-to-the-choir'\
-        \ data-unified='{\"domain\":\"english.stackexchange.com\",\"contentDesignation\"\
+        \ result-link\"\n               \ntarget=\"_blank\" href='https://www.merriam-webster.com/dictionary/preach%20to%20the%20choir'\
+        \ data-unified='{\"domain\":\"www.merriam-webster.com\",\"contentDesignation\"\
         :\"partner\",\"moduleName\":\"webResults\",\"resultType\":\"searchResult\"\
         ,\"providerSource\":\"delta\",\"treatment\":\"standard\",\"zoneName\":\"center\"\
         ,\"language\":\"\",\"moduleInZone\":3,\"resultInModule\":8}' rel='nofollow\
+        \ noopener noreferrer'>Preach To The Choir | Definition of Preach To The Choir\
+        \ by Merriam ...</a>\n        \n</div>\n    \n<p class=\"PartialSearchResults-item-url\"\
+        >www.merriam-webster.com/dictionary/preach%20to%20the%20choir</p>\n    \n\
+        <p class=\"PartialSearchResults-item-abstract\">Preach to the choir definition\
+        \ is - to speak for or against something to people who \nalready agree with\
+        \ one&#39;s opinions. How to use preach to the choir in a&nbsp;...</p>\n \
+        \   \n</div>\n\n\n\n\n\n                \n\n                    \n\n     \
+        \                   \n\n                            \n<div class=\"PartialSearchResults-item\"\
+        \ data-zen=\"true\">\n    \n<div class=\"PartialSearchResults-item-title\"\
+        >\n        \n<a class=\"PartialSearchResults-item-title-link result-link\"\
+        \n               \ntarget=\"_blank\" href='https://english.stackexchange.com/questions/140710/what-is-the-opposite-of-preaching-to-the-choir'\
+        \ data-unified='{\"domain\":\"english.stackexchange.com\",\"contentDesignation\"\
+        :\"partner\",\"moduleName\":\"webResults\",\"resultType\":\"searchResult\"\
+        ,\"providerSource\":\"delta\",\"treatment\":\"standard\",\"zoneName\":\"center\"\
+        ,\"language\":\"\",\"moduleInZone\":3,\"resultInModule\":9}' rel='nofollow\
         \ noopener noreferrer'>What is the opposite of &quot;preaching to the choir&quot;?\
         \ - English Language ...</a>\n        \n</div>\n    \n<p class=\"PartialSearchResults-item-url\"\
         >english.stackexchange.com/questions/140710/what-is-the-opposite-of-preaching-to-the-choir</p>\n\
         \    \n<p class=\"PartialSearchResults-item-abstract\">10 Mar 2016 ... I think\
         \ casting pearls before swine is a good opposite. It means giving advice,\
         \ \nguidance or direction to those incapable of appreciating or acting upon\
-        \ it.</p>\n    \n</div>\n\n\n\n\n\n                \n\n                  \
-        \  \n\n                        \n\n                            \n<div class=\"\
-        PartialSearchResults-item\" data-zen=\"true\">\n    \n<div class=\"PartialSearchResults-item-title\"\
-        >\n        \n<a class=\"PartialSearchResults-item-title-link result-link\"\
-        \n               \ntarget=\"_blank\" href='https://www.skypeenglishclasses.com/english-idiomatic-expressions-preaching-to-the-choir/'\
-        \ data-unified='{\"domain\":\"www.skypeenglishclasses.com\",\"contentDesignation\"\
-        :\"partner\",\"moduleName\":\"webResults\",\"resultType\":\"searchResult\"\
-        ,\"providerSource\":\"delta\",\"treatment\":\"standard\",\"zoneName\":\"center\"\
-        ,\"language\":\"\",\"moduleInZone\":3,\"resultInModule\":9}' rel='nofollow\
-        \ noopener noreferrer'>Preaching To The Choir - Definition and Study Exercises|\
-        \ LOI English</a>\n        \n</div>\n    \n<p class=\"PartialSearchResults-item-url\"\
-        >www.skypeenglishclasses.com/english-idiomatic-expressions-preaching-to-the-choir</p>\n\
-        \    \n<p class=\"PartialSearchResults-item-abstract\">Preaching to the choir\
-        \ means you are presenting a side of a discussion or \nargument to someone\
-        \ who already agrees with it. In other words, you are wasting \nyour&nbsp;...</p>\n\
-        \    \n</div>\n\n\n\n\n</div>\n    </div>\n\n\n\n\n\n\n\n\n<script>\n    \
-        \    var ask = ask || {};\n        ask.moduleOrdinals = ask.moduleOrdinals\
+        \ it.</p>\n    \n</div>\n\n\n\n\n</div>\n    </div>\n\n\n\n\n\n\n<script>\n\
+        \        var ask = ask || {};\n        ask.moduleOrdinals = ask.moduleOrdinals\
         \ || [];\n        ask.moduleOrdinals.push(4);\n    </script>\n\n    <div class=\"\
         BottomAdsPartial\">\n        <div id=\"text-ad-block-1\" class=\"BottomAdsPartial-text-ad-block\"\
-        ></div>\n    </div>\n\n\n\n\n\n\n\n\n<div class=\"PartialRelatedSearch\">\n\
-        \n\n\n<div class=\"PartialRelatedSearch-body \">\n            \n<div class=\"\
+        ></div>\n    </div>\n\n\n\n\n\n\n<div class=\"PartialRelatedSearch bottom\"\
+        >\n\n\n\n<div class=\"PartialRelatedSearch-body \">\n            \n<div class=\"\
         PartialRelatedSearch-columns\">\n                \n\n<div class=\"PartialRelatedSearch-heading\"\
         >SEE ALSO</div>\n                    \n\n<ul class=\"PartialRelatedSearch-first-column\"\
         >\n                    \n\n<li class=\"PartialRelatedSearch-item\">\n    \
@@ -699,12 +741,18 @@ interactions:
         /web?o=0&amp;l=dir&amp;qo=pagination&amp;q=Preaching%20the%20choir&amp;qsrc=998&amp;page=2\"\
         >\n                            <li class=\"PartialWebPagination-next\">Next</li>\n\
         \                        </a>\n                    \n</ul>\n            \n\
-        \n\n\n\n\n\n\n</div>\n    </div>\n    <div class=\"l-right-content content-visible\"\
-        >\n\n\n\n\n\n<div class=\"PartialRelatedSearch-body\">\n                \n\
-        <div class=\"PartialRelatedSearch-title\">Related Search</div>\n         \
-        \       \n<ul class=\"PartialRelatedSearch-list\">\n                    \n\
-        <li class=\"PartialRelatedSearch-item\">\n                            \n<a\
-        \ class=\"PartialRelatedSearch-item-link\" href='//www.ask.com/web?q=Choir+Songs&qo=relatedSearchNarrow&o=0&l=dir'\
+        \n\n\n\n\n\n\n<div class=\"PartialSpotimWidget-launchScript\">\n    <script\
+        \ async data-spotim-module=\"spotim-launcher\" \n            src=\"https://launcher.spot.im/spot/sp_7dEfrvJK\"\
+        \ \n             \n             data-post-id=\"homepage\"  \n            \
+        \ \n            data-spotim-autorun=\"false\">\n    </script>\n</div>\n\n\n\
+        \n \n<div class=\"PartialSpotimWidget-popularInCommunity\" data-spotim-module=\"\
+        pitc\" \n     data-page-type=\"homepage\" \n data-categories=\"culture,travel,entertainment,music,movies,tv,celebrities\"\
+        \  \n    >\n</div>\n\n\n\n\n\n\n</div>\n    </div>\n    <div class=\"l-right-content\
+        \ content-visible\">\n\n\n\n\n\n<div class=\"PartialRelatedSearch-body\">\n\
+        \                \n<div class=\"PartialRelatedSearch-title\">Related Search</div>\n\
+        \                \n<ul class=\"PartialRelatedSearch-list\">\n            \
+        \        \n<li class=\"PartialRelatedSearch-item\">\n                    \
+        \        \n<a class=\"PartialRelatedSearch-item-link\" href='//www.ask.com/web?q=Choir+Songs&qo=relatedSearchNarrow&o=0&l=dir'\
         \ data-unified='{\"moduleName\":\"relatedSearch\",\"resultType\":\"relatedSearch\"\
         ,\"providerSource\":\"relatedSearch\",\"zoneName\":\"right\",\"narrow\":true,\"\
         expand\":false,\"names\":false,\"k2\":false,\"question\":false,\"language\"\
@@ -776,42 +824,42 @@ interactions:
         \                                Children's <b>Choir</b> Music\n</a>\n   \
         \                     </li>\n                    \n<li class=\"PartialRelatedSearch-item\"\
         >\n                            \n<a class=\"PartialRelatedSearch-item-link\"\
-        \ href='//www.ask.com/web?q=Hallelujah+Chorus&qo=relatedSearchExpand&o=0&l=dir'\
+        \ href='//www.ask.com/web?q=Choir+Chairs&qo=relatedSearchNarrow&o=0&l=dir'\
         \ data-unified='{\"moduleName\":\"relatedSearch\",\"resultType\":\"relatedSearch\"\
-        ,\"providerSource\":\"relatedSearch\",\"zoneName\":\"right\",\"narrow\":false,\"\
-        expand\":true,\"names\":false,\"k2\":false,\"question\":false,\"language\"\
-        :\"en\",\"localized\":false,\"rsText\":\"Hallelujah Chorus\",\"destinationDomain\"\
+        ,\"providerSource\":\"relatedSearch\",\"zoneName\":\"right\",\"narrow\":true,\"\
+        expand\":false,\"names\":false,\"k2\":false,\"question\":false,\"language\"\
+        :\"en\",\"localized\":false,\"rsText\":\"Choir Chairs\",\"destinationDomain\"\
         :\"www.ask.com\",\"moduleInZone\":1,\"resultInModule\":9}' rel='nofollow'>\n\
-        \                                Hallelujah Chorus\n</a>\n               \
-        \         </li>\n                    \n<li class=\"PartialRelatedSearch-item\"\
+        \                                <b>Choir</b> Chairs\n</a>\n             \
+        \           </li>\n                    \n<li class=\"PartialRelatedSearch-item\"\
         >\n                            \n<a class=\"PartialRelatedSearch-item-link\"\
-        \ href='//www.ask.com/web?q=Choral+Music&qo=relatedSearchExpand&o=0&l=dir'\
+        \ href='//www.ask.com/web?q=Best+Gospel+Choir&qo=relatedSearchNarrow&o=0&l=dir'\
         \ data-unified='{\"moduleName\":\"relatedSearch\",\"resultType\":\"relatedSearch\"\
-        ,\"providerSource\":\"relatedSearch\",\"zoneName\":\"right\",\"narrow\":false,\"\
-        expand\":true,\"names\":false,\"k2\":false,\"question\":false,\"language\"\
-        :\"en\",\"localized\":false,\"rsText\":\"Choral Music\",\"destinationDomain\"\
+        ,\"providerSource\":\"relatedSearch\",\"zoneName\":\"right\",\"narrow\":true,\"\
+        expand\":false,\"names\":false,\"k2\":false,\"question\":false,\"language\"\
+        :\"en\",\"localized\":false,\"rsText\":\"Best Gospel Choir\",\"destinationDomain\"\
         :\"www.ask.com\",\"moduleInZone\":1,\"resultInModule\":10}' rel='nofollow'>\n\
-        \                                Choral Music\n</a>\n                    \
-        \    </li>\n                    \n<li class=\"PartialRelatedSearch-item\"\
+        \                                Best Gospel <b>Choir</b>\n</a>\n        \
+        \                </li>\n                    \n<li class=\"PartialRelatedSearch-item\"\
         >\n                            \n<a class=\"PartialRelatedSearch-item-link\"\
-        \ href='//www.ask.com/web?q=Classical+Choral+Music&qo=relatedSearchExpand&o=0&l=dir'\
+        \ href='//www.ask.com/web?q=Choir+Clothing&qo=relatedSearchNarrow&o=0&l=dir'\
         \ data-unified='{\"moduleName\":\"relatedSearch\",\"resultType\":\"relatedSearch\"\
-        ,\"providerSource\":\"relatedSearch\",\"zoneName\":\"right\",\"narrow\":false,\"\
-        expand\":true,\"names\":false,\"k2\":false,\"question\":false,\"language\"\
-        :\"en\",\"localized\":false,\"rsText\":\"Classical Choral Music\",\"destinationDomain\"\
+        ,\"providerSource\":\"relatedSearch\",\"zoneName\":\"right\",\"narrow\":true,\"\
+        expand\":false,\"names\":false,\"k2\":false,\"question\":false,\"language\"\
+        :\"en\",\"localized\":false,\"rsText\":\"Choir Clothing\",\"destinationDomain\"\
         :\"www.ask.com\",\"moduleInZone\":1,\"resultInModule\":11}' rel='nofollow'>\n\
-        \                                Classical Choral Music\n</a>\n          \
-        \              </li>\n                    \n<li class=\"PartialRelatedSearch-item\"\
+        \                                <b>Choir</b> Clothing\n</a>\n           \
+        \             </li>\n                    \n<li class=\"PartialRelatedSearch-item\"\
         >\n                            \n<a class=\"PartialRelatedSearch-item-link\"\
-        \ href='//www.ask.com/web?q=Free+Choral+Music&qo=relatedSearchExpand&o=0&l=dir'\
+        \ href='//www.ask.com/web?q=Sheet+Music+for+Choirs&qo=relatedSearchNarrow&o=0&l=dir'\
         \ data-unified='{\"moduleName\":\"relatedSearch\",\"resultType\":\"relatedSearch\"\
-        ,\"providerSource\":\"relatedSearch\",\"zoneName\":\"right\",\"narrow\":false,\"\
-        expand\":true,\"names\":false,\"k2\":false,\"question\":false,\"language\"\
-        :\"en\",\"localized\":false,\"rsText\":\"Free Choral Music\",\"destinationDomain\"\
+        ,\"providerSource\":\"relatedSearch\",\"zoneName\":\"right\",\"narrow\":true,\"\
+        expand\":false,\"names\":false,\"k2\":false,\"question\":false,\"language\"\
+        :\"en\",\"localized\":false,\"rsText\":\"Sheet Music for Choirs\",\"destinationDomain\"\
         :\"www.ask.com\",\"moduleInZone\":1,\"resultInModule\":12}' rel='nofollow'>\n\
-        \                                Free Choral Music\n</a>\n               \
-        \         </li>\n                    \n</ul>\n\n            </div>\n     \
-        \   \n\n\n\n\n\n\n\n\n\n\n\n<div class=\"PartialRtkAdSlot-ads\"  data-adunitid=\"\
+        \                                Sheet Music for <b>Choirs</b>\n</a>\n   \
+        \                     </li>\n                    \n</ul>\n\n            </div>\n\
+        \        \n\n\n\n\n\n\n\n\n\n\n\n<div class=\"PartialRtkAdSlot-ads\"  data-adunitid=\"\
         xPma\">\n        <div class=\"display-ad-block\" style=\"\">\n           \
         \ <div id=\"RTK_xPma\"></div>\n        </div>\n        \n</div>\n\n    <script>\n\
         \        if (App) {\n            (function () {\n                App.events\
@@ -883,7 +931,7 @@ interactions:
         \ rel='nofollow'>Do Not Sell</a>\n                \n</li>\n        \n<li class=\"\
         PartialFooter-item\">\n            <span class=\"PartialFooter-item-label\
         \ copyright\">\xA9 2020 Ask Media Group, LLC</span>\n        </li>\n    </ul>\n\
-        </div>\n\n\n\n    \n\n</div>\n</div>\n<script src=\"/s/0-4-84/ask-page.min.js\"\
+        </div>\n\n\n\n    \n\n</div>\n</div>\n<script src=\"/s/0-4-97/ask-page.min.js\"\
         ></script>\n<script>\n    $(document).ready(function ($) {\n        var i,\
         \ k, event, readyElementList;\n        if (typeof App.events === \"object\"\
         \ && App.events.length) {\n            for (i = 0, k = App.events.length;\
@@ -899,15 +947,15 @@ interactions:
         \                    }\n                } else {\n                    $(event.contextSelector).on(event.type,\
         \ event.elementSelector || null, event.handler);\n                }\n    \
         \        }\n        }\n    });\n</script>\n    \n\n    \n\n\n<script>\n  \
-        \      var _UnifiedApiParams = {\"uniqueUser\":\"BB9DFD6D-3F9B-4C66-9C9F-1F4F8D44C07D\"\
-        ,\"appId\":\"Archie_Askus\",\"appVersion\":\"1a39f8d\",\"appDate\":\"2020-06-13T16:24:12Z\"\
+        \      var _UnifiedApiParams = {\"uniqueUser\":\"D6DB82AC-355E-47F2-A42D-CAE634E9C054\"\
+        ,\"appId\":\"Archie_Askus\",\"appVersion\":\"8deb6a8\",\"appDate\":\"2020-07-15T10:53:29Z\"\
         ,\"logPageView\":false,\"updateSession\":false,\"domain\":\"ask.com\",\"url\"\
         :\"www.ask.com/log/browser/event\",\"backFillRequired\":false,\"eventId\"\
-        :\"232EC528-4F3E-49B6-9982-349850B11811\",\"maxSession\":30,\"suppressCookies\"\
+        :\"2FF69345-F695-4C63-92D0-B1AFC9B70446\",\"maxSession\":30,\"suppressCookies\"\
         :false,\"cookieExpirationMinutes\":129600,\"newSessionOnDomainChange\":false,\"\
         cookieName\":\"uc\"};\n        _UnifiedApiParams.url = ((\"https:\" === window.location.protocol)?\
         \ \"https://\" : \"http://\" ) + _UnifiedApiParams.url;\n    </script>\n\n\
-        \    <script src=\"/s/0-4-84/unified-api.min.js\"></script>\n    <script>\n\
+        \    <script src=\"/s/0-4-97/unified-api.min.js\"></script>\n    <script>\n\
         \    if(App) {\n        (function () {\n            App.events = App.events\
         \ || [];\n            App.events.push({\n                partial: \"partial-unified-footer\"\
         ,\n                contextSelector: document,\n                elementSelector:\
@@ -915,25 +963,25 @@ interactions:
         \ () {\n                        window.ask = window.ask || {};\n         \
         \               var ask = window.ask;\n                        ask.unified\
         \ = ask.unified || {};\n                        ask.unified.pageContext =\
-        \ {\"anuaaf\":\"Archie\",\"anxut\":\"UNIFIED\",\"anuaci\":\"197.210.71.80\"\
-        ,\"anuaafl\":\"0\",\"anxsn\":\"ask-sites-2151786183-th9lr\",\"anuahm\":\"\
+        \ {\"anuaaf\":\"Archie\",\"anxut\":\"UNIFIED\",\"anuaci\":\"105.112.178.22\"\
+        ,\"anuaafl\":\"0\",\"anxsn\":\"ask-sites-2703139565-kgn5t\",\"anuahm\":\"\
         GET\",\"anuadc\":\"use1\",\"anuaqs\":\"o=0&l=dir&qo=pagination&q=Preaching+the+choir&qsrc=998&page=1\"\
         ,\"anxu\":\"http://www.ask.com/web?o=0&l=dir&qo=pagination&q=Preaching+the+choir&qsrc=998&page=1\"\
         ,\"anuaad\":\"dirN\",\"anuapbr\":\"\",\"anuaan\":\"\",\"anuaamt\":\"\",\"\
         anuaagc\":\"\",\"anuaadid\":\"\",\"ucctr\":\"\",\"ucctn\":\"\",\"ucs\":\"\"\
         ,\"ucdm\":\"\",\"uccnt\":\"\",\"ucpc\":\"\",\"anuadtp\":\"desktop\",\"anxbt\"\
-        :\"Chrome\",\"anxbv\":\"72.0.3626.121\",\"anxpt\":\"Windows\",\"anxpv\":\"\
-        10\",\"anxcd\":\"\",\"anxw\":\"800\",\"anxh\":\"600\",\"anxv\":\"1a39f8d\"\
-        ,\"anxd\":\"2020-06-13T16:24:12.478Z\",\"anuaptp\":\"resultsPage\",\"anuachl\"\
-        :\"web\",\"anuasv\":\"v1\",\"anuaprdd\":\"search\",\"anxa\":\"Archie_Askus\"\
-        ,\"anxp\":\"ask.com\",\"anualcl\":\"us\",\"anuaapp\":\"{\\\"pageViewId\\\"\
-        :\\\"2ab7488647e2b0471277fb7c2f40efda\\\",\\\"queryOrigination\\\":\\\"pagination\\\
-        \",\\\"templateId\\\":\\\"desktop\\\",\\\"queryTerm\\\":\\\"Preaching the\
-        \ choir\\\",\\\"category\\\":\\\"World View\\\"}\",\"anuapn\":1,\"anuaptl\"\
-        :\"Preaching the choir, Ask.com - What's Your Question?\",\"metaInfo\":{\"\
-        adType\":\"csa\",\"client\":\"aj-cat-intl\",\"clientChannel\":\"ud_desktop,orig_page,ask-non-dla\"\
-        }};\n                        ask.unified.payload = {\n                   \
-        \         pageResults: [],\n                            providers: ask.unified.pendingProviders\
+        :\"\",\"anxbv\":\"\",\"anxpt\":\"\",\"anxpv\":\"\",\"anxcd\":\"\",\"anxw\"\
+        :\"\",\"anxh\":\"\",\"anxv\":\"8deb6a8\",\"anxd\":\"2020-07-15T10:53:29.586Z\"\
+        ,\"anuaptp\":\"resultsPage\",\"anuachl\":\"web\",\"anuasv\":\"v1\",\"anuaprdd\"\
+        :\"search\",\"anxa\":\"Archie_Askus\",\"anxp\":\"ask.com\",\"anualcl\":\"\
+        us\",\"anuaapp\":\"{\\\"pageViewId\\\":\\\"78fe9e03831d9c8b130ae23d2b428353\\\
+        \",\\\"queryOrigination\\\":\\\"pagination\\\",\\\"templateId\\\":\\\"desktop\\\
+        \",\\\"queryTerm\\\":\\\"Preaching the choir\\\",\\\"category\\\":\\\"World\
+        \ View\\\"}\",\"anuapn\":1,\"anuaptl\":\"Preaching the choir, Ask.com - What's\
+        \ Your Question?\",\"metaInfo\":{\"adType\":\"csa\",\"client\":\"aj-cat-intl\"\
+        ,\"clientChannel\":\"ud_desktop,orig_page,ask-non-dla\"}};\n             \
+        \           ask.unified.payload = {\n                            pageResults:\
+        \ [],\n                            providers: ask.unified.pendingProviders\
         \ || {}\n                        };\n\n                        if (ask.unified.pendingParams)\
         \ {\n                            for (var key in ask.unified.pendingParams)\
         \ {\n                                ask.unified.payload[key] = ask.unified.pendingParams[key];\n\
@@ -1259,9 +1307,10 @@ interactions:
       Content-Encoding: gzip
       Content-Security-Policy: frame-ancestors 'none';
       Content-Type: text/html; charset=utf-8
-      Date: Sat, 13 Jun 2020 18:18:59 GMT
+      Date: Wed, 15 Jul 2020 23:12:48 GMT
       Server: nginx
       Set-Cookie: domain=www.ask.com; Domain=.ask.com; Path=/
+      Transfer-Encoding: chunked
       Vary: Accept-Encoding
       Via: 1.1 varnish
       X-App-Environment: use1
@@ -1269,10 +1318,9 @@ interactions:
       X-Cache-Hits: '0'
       X-Frame-Options: DENY
       X-Robots-Tag: noindex, nofollow
-      X-Served-By: cache-lhr7370-LHR
-      X-Timer: S1592072339.280087,VS0,VE127
+      X-Served-By: cache-bom4749-BOM
+      X-Timer: S1594854768.780724,VS0,VE273
       X-XSS-Protection: '1'
-      transfer-encoding: chunked
     status:
       code: 200
       message: OK

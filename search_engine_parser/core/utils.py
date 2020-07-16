@@ -40,7 +40,7 @@ class CacheHandler:
         """
         Retrieves source code of webpage from internet or from cache
 
-        :rtype: str
+        :rtype: str, bool
         :param engine: engine of the engine saving
         :param url: URL to pull source code from
         :param headers: request headers to make use of
@@ -52,13 +52,13 @@ class CacheHandler:
         cache_path = os.path.join(self.engine_cache[engine], urlhash)
         if os.path.exists(cache_path) and cache:
             with open(cache_path, 'rb') as stream:
-                return pickle.load(stream)
+                return pickle.load(stream), True
         async with aiohttp.ClientSession() as session:
             async with session.get(url, headers=headers) as resp:
                 html = await resp.text()
                 with open(cache_path, 'wb') as stream:
                     pickle.dump(str(html), stream)
-                return str(html)
+                return str(html), False
 
     def clear(self, engine=None):
         """
