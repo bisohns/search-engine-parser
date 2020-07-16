@@ -49,7 +49,9 @@ def display(results, term, args):
 def get_engine_class(engine):
     """ Return the Engine Class """
     try:
-        module = import_module(f"search_engine_parser.core.engines.{engine.lower()}")
+        module = import_module(
+                "search_engine_parser.core.engines.{}".format(
+                engine.lower()))
         return getattr(module, "Search")
     except (ImportError, ModuleNotFoundError):
         sys.exit('Engine < {} > does not exist'.format(engine))
