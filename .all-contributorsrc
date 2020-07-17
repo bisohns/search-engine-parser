@@ -132,6 +132,15 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "redrussianarmy",
+      "name": "Hakan Boğan",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/24498747?v=4",
+      "profile": "https://www.hakanbogan.com",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
