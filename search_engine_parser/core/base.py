@@ -149,7 +149,8 @@ class BaseSearch:
         search_results = SearchResult()
         for each in results:
             rdict = self.parse_single_result(each, **kwargs)
-            search_results.append(rdict)
+            if rdict:
+                search_results.append(rdict)
         return search_results
 
     def get_params(self, query=None, page=None, offset=None, **kwargs):
@@ -196,7 +197,6 @@ class BaseSearch:
 
         :rtype: `bs4.element.ResultSet`
         """
-        print(url, cache)
         html = await self.get_source(url, cache)
         return BeautifulSoup(html, 'lxml')
 
@@ -213,11 +213,12 @@ class BaseSearch:
         # such as google.de and google.com
         if kwargs.get("url"):
             new_url = urlparse(kwargs.pop("url"))
-            # When passing without scheme e.g google.de, url is parsed as path
+            # When passing url without scheme e.g google.de, url is parsed as path
             if not new_url.netloc:
                 url = url._replace(netloc=new_url.path)
             else:
                 url = url._replace(netloc=new_url.netloc)
+            self.base_url = url.geturl()
         self._parsed_url = url._replace(query=urlencode(params))
 
         return self._parsed_url.geturl()
@@ -257,6 +258,9 @@ class BaseSearch:
         :type page: int
         :return: dictionary. Containing titles, links, netlocs and descriptions.
         """
+        # Pages can only be from 1-N
+        if page == 0:
+            page = 1
         # Get search Page Results
         loop = asyncio.get_event_loop()
         url = self.get_search_url(
@@ -275,5 +279,8 @@ class BaseSearch:
         :type page: int
         :return: dictionary. Containing titles, links, netlocs and descriptions.
         """
+        # Pages can only be from 1-N
+        if page == 0:
+            page = 1
         soup = await self.get_soup(self.get_search_url(query, page, **kwargs), cache=cache)
         return self.get_results(soup, **kwargs)
