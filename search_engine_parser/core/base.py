@@ -259,7 +259,7 @@ class BaseSearch:
         :return: dictionary. Containing titles, links, netlocs and descriptions.
         """
         # Pages can only be from 1-N
-        if page == 0:
+        if page <= 0:
             page = 1
         # Get search Page Results
         loop = asyncio.get_event_loop()
