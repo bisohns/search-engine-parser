@@ -27,7 +27,7 @@ View all [supported engines](https://github.com/bisoncorps/search-engine-parser/
     - [Command line](#command-line)
   - [Code of Conduct](#code-of-conduct)
   - [Contribution](#contribution)
-  - [License (MIT)](#license-mit) 
+  - [License (MIT)](#license-mit)
 ## Popular Supported Engines
 
 Some of the popular search engines include:
@@ -48,6 +48,11 @@ View all [supported engines](https://github.com/bisoncorps/search-engine-parser/
     pip install search-engine-parser
     # Installs `pysearch` cli  tool
     pip install "search-engine-parser[cli]"
+```
+
+Install current version on master branch
+```bash
+  pip install git+https://github.com/bisoncorps/search-engine-parser
 ```
 
 ## Development
@@ -126,7 +131,7 @@ For localization, you can pass the `url` keyword and a localized url. This would
 ```
 
 #### Cache
-The results are automatically cached for engine searches, you can either bypass cache by adding `cache=False` to the `search` or `async_search` method or clear the engines cache 
+The results are automatically cached for engine searches, you can either bypass cache by adding `cache=False` to the `search` or `async_search` method or clear the engines cache
 ```python
     from search_engine_parser.core.engines.github import Search as GitHub
     github = GitHub()
@@ -200,7 +205,7 @@ optional arguments:
 `summary` just shows the summary of each search engine added with descriptions on the return
 
 ```bash
-pysearch --engine google summary 
+pysearch --engine google summary
 ```
 
 Full arguments for the `search` subcommand shown below
@@ -218,7 +223,7 @@ optional arguments:
                         or titles (default: full)
   -r RANK, --rank RANK  ID of Detail to return e.g 5 (default: 0)
   -cc, --clear_cache    Clear cache of engine before searching
-``` 
+```
 
 ## Code of Conduct
 
