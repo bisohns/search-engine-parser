@@ -264,6 +264,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/zakaryan2004"><img src="https://avatars3.githubusercontent.com/u/29994884?v=4" width="100px;" alt=""/><br /><sub><b>Geg Zakaryan</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/commits?author=zakaryan2004" title="Code">💻</a> <a href="https://github.com/bisoncorps/search-engine-parser/issues?q=author%3Azakaryan2004" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://www.hakanbogan.com"><img src="https://avatars1.githubusercontent.com/u/24498747?v=4" width="100px;" alt=""/><br /><sub><b>Hakan Boğan</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/issues?q=author%3Aredrussianarmy" title="Bug reports">🐛</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/NicKoehler"><img src="https://avatars3.githubusercontent.com/u/53040044?v=4" width="100px;" alt=""/><br /><sub><b>NicKoehler</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/issues?q=author%3ANicKoehler" title="Bug reports">🐛</a> <a href="https://github.com/bisoncorps/search-engine-parser/commits?author=NicKoehler" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
