@@ -141,6 +141,16 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "NicKoehler",
+      "name": "NicKoehler",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/53040044?v=4",
+      "profile": "https://github.com/NicKoehler",
+      "contributions": [
+        "bug",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
