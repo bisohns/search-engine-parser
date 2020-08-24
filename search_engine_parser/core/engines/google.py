@@ -29,8 +29,8 @@ class Search(BaseSearch):
         params["q"] = query
         params["gbv"] = 1
         # additional parameters will be considered
-        for key, val in kwargs.items():
-            params[key] = val
+        if kwargs.get("hl"):
+    		params["hl"] = kwargs.get("hl")
         return params
 
     def parse_url(self, url):
