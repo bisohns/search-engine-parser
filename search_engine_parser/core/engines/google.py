@@ -28,6 +28,9 @@ class Search(BaseSearch):
         params["start"] = (page-1) * 10
         params["q"] = query
         params["gbv"] = 1
+        # additional parameters will be considered
+        if kwargs.get("hl"):
+    		params["hl"] = kwargs.get("hl")
         return params
 
     def parse_url(self, url):

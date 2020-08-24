@@ -130,6 +130,12 @@ For localization, you can pass the `url` keyword and a localized url. This would
   results = gsearch.search(*search_args, url="google.de")
 ```
 
+If you need the results on a specific language you can pass the 'hl' keyword and the 2-Letter Country Abbreviation
+```python
+  # Use 'it' to receive italian results
+  results = gsearch.search(*search_args, hl="it")
+```
+
 #### Cache
 The results are automatically cached for engine searches, you can either bypass cache by adding `cache=False` to the `search` or `async_search` method or clear the engines cache
 ```python
