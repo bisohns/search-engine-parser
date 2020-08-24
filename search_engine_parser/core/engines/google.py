@@ -30,7 +30,7 @@ class Search(BaseSearch):
         params["gbv"] = 1
         # additional parameters will be considered
         if kwargs.get("hl"):
-    		params["hl"] = kwargs.get("hl")
+    	    params["hl"] = kwargs.get("hl")
         return params
 
     def parse_url(self, url):
