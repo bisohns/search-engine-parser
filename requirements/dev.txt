@@ -1,10 +1,9 @@
 -r main.txt
-pprint
-sphinx
-sphinx-rtd-theme
-m2r
-pytest
-blessed
-pylint
-parameterized
-vcrpy
+blessed==1.17.8
+m2r==0.2.1
+parameterized==0.7.4
+pylint==2.5.3
+pytest==5.4.3
+sphinx==3.1.2
+sphinx-rtd-theme==0.5.0
+vcrpy==4.0.2
