@@ -1,9 +1,6 @@
-
-
-
 ## Supported Engines
 
-Below is the list of supported engines with their summaries
+Below is a list of supported engines and what they return.
 
 
 |No|Engine|Returns|
