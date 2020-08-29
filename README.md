@@ -1,20 +1,20 @@
 # Search Engine Parser
 
-<span><i>"If it is a search engine, then it can be parsed"</i> - Some random guy</span>
+<span><i>"If it is a search engine, then it can be parsed"</i> - some random guy</span>
 
 ![Demo](assets/animate.gif)
 
 [![Python 3.5|3.6|3.7|3.8](https://img.shields.io/badge/python-3.5%7C3.6%7C3.7%7C3.8-blue)](https://www.python.org/downloads/)
-[![PyPI version](https://badge.fury.io/py/search-engine-parser.png)](https://badge.fury.io/py/search-engine-parser)
+![PyPI version](https://img.shields.io/pypi/v/search-engine-parser)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/search-engine-parser)
 [![Build Status](https://travis-ci.com/bisoncorps/search-engine-parser.svg?branch=master)](https://travis-ci.com/bisoncorps/search-engine-parser)
 [![Documentation Status](https://readthedocs.org/projects/search-engine-parser/badge/?version=latest)](https://search-engine-parser.readthedocs.io/en/latest/?badge=latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg)](#contributors)
 <hr/>
 
-Package to query popular search engines and scrape for result titles, links and descriptions. Aims to scrape the widest range of search engines.
-View all [supported engines](https://github.com/bisoncorps/search-engine-parser/blob/master/docs/supported_engines.md)
+search-engine-parser is a package that lets you query popular search engines and scrape for result titles, links, descriptions and more. It aims to scrape the widest range of search engines.
+View all supported engines [here.](https://github.com/bisoncorps/search-engine-parser/blob/master/docs/supported_engines.md)
 
 - [Search Engine Parser](#search-engine-parser)
   - [Popular Supported Engines](#popular-supported-engines)
@@ -28,9 +28,9 @@ View all [supported engines](https://github.com/bisoncorps/search-engine-parser/
   - [Code of Conduct](#code-of-conduct)
   - [Contribution](#contribution)
   - [License (MIT)](#license-mit)
-## Popular Supported Engines
 
-Some of the popular search engines include:
+## Popular Supported Engines
+Popular search engines supported include:
 
 - Google
 - DuckDuckGo
@@ -39,9 +39,10 @@ Some of the popular search engines include:
 - Baidu
 - YouTube
 
-View all [supported engines](https://github.com/bisoncorps/search-engine-parser/blob/master/docs/supported_engines.md)
+View all supported engines [here.](https://github.com/bisoncorps/search-engine-parser/blob/master/docs/supported_engines.md)
 
 ## Installation
+Install from PyPi:
 
 ```bash
     # install only package dependencies
@@ -50,20 +51,19 @@ View all [supported engines](https://github.com/bisoncorps/search-engine-parser/
     pip install "search-engine-parser[cli]"
 ```
 
-Install current version on master branch
+or from master:
 ```bash
   pip install git+https://github.com/bisoncorps/search-engine-parser
 ```
 
 ## Development
-
-Clone the repository
+Clone the repository:
 
 ```bash
     git clone git@github.com:bisoncorps/search-engine-parser.git
 ```
 
-Create virtual environment and install requirements
+Then create a virtual environment and install the required packages:
 
 ```bash
     mkvirtualenv search_engine_parser
@@ -72,11 +72,9 @@ Create virtual environment and install requirements
 
 
 ## Code Documentation
-
-Found on [Read the Docs](https://search-engine-parser.readthedocs.io/en/latest)
+Code docs can be found on [Read the Docs](https://search-engine-parser.readthedocs.io/en/latest).
 
 ## Running the tests
-
 ```bash
     pytest
 ```
@@ -84,8 +82,7 @@ Found on [Read the Docs](https://search-engine-parser.readthedocs.io/en/latest)
 ## Usage
 
 ### Code
-
-Query Results can be scraped from popular search engines as shown in the example snippet below
+Query results can be scraped from popular search engines, as shown in the example snippet below.
 
 ```python
   import pprint
@@ -124,20 +121,20 @@ Query Results can be scraped from popular search engines as shown in the example
   print(gresults[0])
 ```
 
-For localization, you can pass the `url` keyword and a localized url. This would use the url to query and parse using the same engine's parser
+For localization, you can pass the `url` keyword and a localized url. This queries and parses the localized url using the same engine's parser:
 ```python
   # Use google.de instead of google.com
   results = gsearch.search(*search_args, url="google.de")
 ```
 
-If you need the results on a specific language you can pass the 'hl' keyword and the 2-Letter Country Abbreviation
+If you need results in a specific language you can pass the 'hl' keyword and the 2-letter country abbreviation (here's a [handy list](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)):
 ```python
   # Use 'it' to receive italian results
   results = gsearch.search(*search_args, hl="it")
 ```
 
 #### Cache
-The results are automatically cached for engine searches, you can either bypass cache by adding `cache=False` to the `search` or `async_search` method or clear the engines cache
+The results are automatically cached for engine searches. You can either bypass the cache by adding `cache=False` to the `search` or `async_search` method or clear the engine's cache:
 ```python
     from search_engine_parser.core.engines.github import Search as GitHub
     github = GitHub()
@@ -151,34 +148,34 @@ The results are automatically cached for engine searches, you can either bypass 
 ```
 
 #### Async
-search-engine-parser supports `async` hence you could use codes like
+search-engine-parser supports `async`:
 ```python
    results = await gsearch.async_search(*search_args)
 ```
 
 #### Results
-The `SearchResults` after the searching
+The `SearchResults` after searching:
 ```python
-  >>> results = gsearch.search("preaching the choir", 1)
+  >>> results = gsearch.search("preaching to the choir", 1)
   >>> results
   <search_engine_parser.core.base.SearchResult object at 0x7f907426a280>
-  # The object supports retreiving individual results by iteration of just by type (links, descriptions, titles)
-  >>> results[0] # Returns the first <SearchItem>
-  >>> results[0]["description"] # Get the description of the first item
-  >>> results[0]["link"] # get the link of the first item
-  >>> results["descriptions"] # Returns a list of all descriptions from all results
+  # the object supports retrieving individual results by iteration of just by type (links, descriptions, titles)
+  >>> results[0] # returns the first <SearchItem>
+  >>> results[0]["description"] # gets the description of the first item
+  >>> results[0]["link"] # gets the link of the first item
+  >>> results["descriptions"] # returns a list of all descriptions from all results
 ```
-It can be iterated like a normal list to return individual SearchItem
+It can be iterated like a normal list to return individual `SearchItem`s.
 
 ### Command line
 
-Search engine parser comes with a CLI tool known as `pysearch` e.g
+search-engine-parser comes with a CLI tool known as `pysearch`. You can use it as such:
 
 ```bash
 pysearch --engine bing search --query "Preaching to the choir" --type descriptions
 ```
 
-Result
+Result:
 
 ```bash
 'Preaching to the choir' originated in the USA in the 1970s. It is a variant of the earlier 'preaching to the converted', which dates from England in the late 1800s and has the same meaning. Origin - the full story 'Preaching to the choir' (also sometimes spelled quire) is of US origin.
@@ -205,10 +202,10 @@ optional arguments:
                         google.de
   -e ENGINE, --engine ENGINE
                         Engine to use for parsing the query e.g google, yahoo,
-                        bing,duckduckgo (default: google)
+                        bing, duckduckgo (default: google)
 ```
 
-`summary` just shows the summary of each search engine added with descriptions on the return
+`summary` returns the summary of the specified search engine:
 
 ```bash
 pysearch --engine google summary
@@ -232,17 +229,13 @@ optional arguments:
 ```
 
 ## Code of Conduct
-
-All actions performed should adhere to the [code of conduct](https://github.com/bisoncorps/search-engine-parser/blob/master/CODE_OF_CONDUCT.md)
-
+Make sure to adhere to the [code of conduct](https://github.com/bisoncorps/search-engine-parser/blob/master/CODE_OF_CONDUCT.md) at all times.
 
 ## Contribution
-
-Before making any contribution, please follow the [contribution guide](https://github.com/bisoncorps/search-engine-parser/blob/master/CONTRIBUTING.md)
+Before making any contributions, please read the [contribution guide](https://github.com/bisoncorps/search-engine-parser/blob/master/CONTRIBUTING.md).
 
 ## License (MIT)
-
-This project is opened under the [MIT 2.0 License](https://github.com/bisoncorps/search-engine-parser/blob/master/LICENSE) which allows very broad use for both academic and commercial purposes.
+This project is licensed under the [MIT 2.0 License](https://github.com/bisoncorps/search-engine-parser/blob/master/LICENSE) which allows very broad use for both academic and commercial purposes.
 
 ## Contributors ✨
 
