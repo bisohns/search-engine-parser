@@ -1,5 +1,5 @@
 """@desc
-		Making use of the parser through cli
+        Making use of the parser through cli
 """
 from __future__ import print_function
 
@@ -33,7 +33,6 @@ def display(results, term, args):
                     print(k.strip(), " : ", v)
         print("\n")
 
-
     if args.rank and args.rank > 10:
         sys.exit(
             "Results are only limited to 10, specify a different page number instead")
@@ -50,7 +49,7 @@ def get_engine_class(engine):
     """ Return the Engine Class """
     try:
         module = import_module(
-                "search_engine_parser.core.engines.{}".format(
+            "search_engine_parser.core.engines.{}".format(
                 engine.lower()))
         return getattr(module, "Search")
     except (ImportError, ModuleNotFoundError):
@@ -90,7 +89,7 @@ def main(args):  # pylint: disable=too-many-branches
             args.query, args.page, return_type=ReturnType(args.type), url=args.url)
         duration = datetime.now() - start
         display(results, term, args)
-        print("Total search took -> %s seconds" %(duration))
+        print("Total search took -> %s seconds" % (duration))
     except NoResultsOrTrafficError as exc:
         print('\n', '{}'.format(term.red(str(exc))))
 
@@ -140,8 +139,7 @@ def create_parser():
     parser.add_argument(
         '-cc', '--clear-cache',
         action='store_true',
-        help='Clear cache of engine before searching'
-        )
+        help='Clear cache of engine before searching')
 
     parser.add_argument(
         '-r',
@@ -152,7 +150,11 @@ def create_parser():
     return parser
 
 
-if __name__ == '__main__':
+def runner():
     parser = create_parser()
     args = parser.parse_args(sys.argv[1:])
     main(args)
+
+
+if __name__ == '__main__':
+    runner()
