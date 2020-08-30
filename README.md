@@ -272,6 +272,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/NicKoehler"><img src="https://avatars3.githubusercontent.com/u/53040044?v=4" width="100px;" alt=""/><br /><sub><b>NicKoehler</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/issues?q=author%3ANicKoehler" title="Bug reports">🐛</a> <a href="https://github.com/bisoncorps/search-engine-parser/commits?author=NicKoehler" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/chris4540"><img src="https://avatars1.githubusercontent.com/u/12794588?v=4" width="100px;" alt=""/><br /><sub><b>ChrisLin</b></sub></a><br /><a href="https://github.com/bisoncorps/search-engine-parser/issues?q=author%3Achris4540" title="Bug reports">🐛</a> <a href="https://github.com/bisoncorps/search-engine-parser/commits?author=chris4540" title="Code">💻</a></td>
   </tr>
 </table>
 
