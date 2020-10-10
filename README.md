@@ -5,8 +5,8 @@
 ![Demo](assets/animate.gif)
 
 [![Python 3.5|3.6|3.7|3.8](https://img.shields.io/badge/python-3.5%7C3.6%7C3.7%7C3.8-blue)](https://www.python.org/downloads/)
-![PyPI version](https://img.shields.io/pypi/v/search-engine-parser)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/search-engine-parser)
+[![PyPI version](https://img.shields.io/pypi/v/search-engine-parser)](https://pypi.org/project/search-engine-parser/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/search-engine-parser)](https://pypi.org/project/search-engine-parser/)
 [![Build Status](https://travis-ci.com/bisoncorps/search-engine-parser.svg?branch=master)](https://travis-ci.com/bisoncorps/search-engine-parser)
 [![Documentation Status](https://readthedocs.org/projects/search-engine-parser/badge/?version=latest)](https://search-engine-parser.readthedocs.io/en/latest/?badge=latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
