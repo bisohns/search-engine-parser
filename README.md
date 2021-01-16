@@ -134,7 +134,7 @@ If you need results in a specific language you can pass the 'hl' keyword and the
 ```
 
 #### Cache
-The results are automatically cached for engine searches. You can either bypass the cache by adding `cache=False` to the `search` or `async_search` method or clear the engine's cache:
+The results are automatically cached for engine searches. You can either bypass the cache by adding `cache=False` to the `search` or `async_search` method or clear the engine's cache
 ```python
     from search_engine_parser.core.engines.github import Search as GitHub
     github = GitHub()
@@ -146,6 +146,18 @@ The results are automatically cached for engine searches. You can either bypass 
     github.clear_cache()
     github.search("search-engine-parser")
 ```
+
+#### Proxy
+Adding a proxy entails sending details to the search function
+```python
+    from search_engine_parser.core.engines.github import Search as GitHub
+    github = GitHub()
+    github.search("search-engine-parser", 
+        # http proxies supported only
+        proxy='http://123.12.1.0',
+        proxy_auth=('username', 'password'))
+```
+
 
 #### Async
 search-engine-parser supports `async`:

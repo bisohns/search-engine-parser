@@ -175,29 +175,41 @@ class BaseSearch:
             return self.cache_handler.clear()
         return self.cache_handler.clear(self.name)
 
-    async def get_source(self, url, cache=True):
+    async def get_source(self, url, cache=True, proxy=None, proxy_auth=None):
         """
         Returns the source code of a webpage.
         Also sets the _cache_hit if cache was used
 
         :rtype: string
         :param url: URL to pull it's source code
+        :param proxy: proxy address to make use off
+        :type proxy: str
+        :param proxy_auth: (user, password) tuple to authenticate proxy
+        :type proxy_auth: (str, str)
         :return: html source code of a given URL.
         """
         try:
-            html, cache_hit = await self.cache_handler.get_source(self.name, url, self.headers(), cache)
+            html, cache_hit = await self.cache_handler.get_source(self.name, url, self.headers(), cache, proxy, proxy_auth)
         except Exception as exc:
             raise Exception('ERROR: {}\n'.format(exc))
         self._cache_hit = cache_hit
         return html
 
-    async def get_soup(self, url, cache):
+    async def get_soup(self, url, cache, proxy, proxy_auth):
         """
         Get the html soup of a query
+        :param url: url to obrain soup from
+        :type url: str
+        :param cache: cache request or not
+        :type cache: bool
+        :param proxy: proxy address to make use off
+        :type proxy: str
+        :param proxy_auth: (user, password) tuple to authenticate proxy
+        :type proxy_auth: (str, str)
 
         :rtype: `bs4.element.ResultSet`
         """
-        html = await self.get_source(url, cache)
+        html = await self.get_source(url, cache, proxy, proxy_auth)
         return BeautifulSoup(html, 'lxml')
 
     def get_search_url(self, query=None, page=None, **kwargs):
@@ -248,7 +260,7 @@ class BaseSearch:
 
         return search_results
 
-    def search(self, query=None, page=1, cache=True, **kwargs):
+    def search(self, query=None, page=1, cache=True, proxy=None, proxy_auth=None, **kwargs):
         """
         Query the search engine
 
@@ -256,6 +268,10 @@ class BaseSearch:
         :type query: str
         :param page: Page to be displayed, defaults to 1
         :type page: int
+        :param proxy: proxy address to make use off
+        :type proxy: str
+        :param proxy_auth: (user, password) tuple to authenticate proxy
+        :type proxy_auth: (str, str)
         :return: dictionary. Containing titles, links, netlocs and descriptions.
         """
         # Pages can only be from 1-N
@@ -266,10 +282,12 @@ class BaseSearch:
         url = self.get_search_url(
                     query, page, **kwargs)
         soup = loop.run_until_complete(
-            self.get_soup(url, cache=cache))
+            self.get_soup(url, cache=cache,
+                         proxy=proxy,
+                         proxy_auth=proxy_auth))
         return self.get_results(soup, **kwargs)
 
-    async def async_search(self, query=None, page=1, cache=True, **kwargs):
+    async def async_search(self, query=None, page=1, cache=True, proxy=None, proxy_auth=None, **kwargs):
         """
         Query the search engine but in async mode
 
@@ -277,10 +295,14 @@ class BaseSearch:
         :type query: str
         :param page: Page to be displayed, defaults to 1
         :type page: int
+        :param proxy: proxy address to make use off
+        :type proxy: str
+        :param proxy_auth: (user, password) tuple to authenticate proxy
+        :type proxy_auth: (str, str)
         :return: dictionary. Containing titles, links, netlocs and descriptions.
         """
         # Pages can only be from 1-N
         if page == 0:
             page = 1
-        soup = await self.get_soup(self.get_search_url(query, page, **kwargs), cache=cache)
+        soup = await self.get_soup(self.get_search_url(query, page, **kwargs), cache=cache, proxy=proxy, proxy_auth=(proxy_user, proxy_password))
         return self.get_results(soup, **kwargs)

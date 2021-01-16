@@ -43,15 +43,24 @@ class CacheHandler:
             if not os.path.exists(cache):
                 os.makedirs(cache)
 
-    async def get_source(self, engine, url, headers, cache=True):
+    async def get_source(self, engine, url, headers, cache=True,
+                        proxy=None, proxy_auth=None):
         """
         Retrieves source code of webpage from internet or from cache
 
         :rtype: str, bool
         :param engine: engine of the engine saving
+        :type engine: str
         :param url: URL to pull source code from
+        :type url: str
         :param headers: request headers to make use of
+        :type headers: dict
         :param cache: use cache or not
+        :type cache: bool
+        :param proxy: proxy address to make use off
+        :type proxy: str
+        :param proxy_auth: (user, password) tuple to authenticate proxy
+        :type proxy_auth: (str, str)
         """
         encodedUrl = url.encode("utf-8")
         urlhash = hashlib.sha256(encodedUrl).hexdigest()
@@ -60,8 +69,13 @@ class CacheHandler:
         if os.path.exists(cache_path) and cache:
             with open(cache_path, 'rb') as stream:
                 return pickle.load(stream), True
+        get_vars = { 'url':url, 'headers':headers }
+        if proxy and proxy_auth:
+            auth = aiohttp.BasicAuth(*proxy_auth)
+            get_vars.update({'proxy':proxy, 'proxy_auth': auth})
+
         async with aiohttp.ClientSession() as session:
-            async with session.get(url, headers=headers) as resp:
+            async with session.get(**get_vars) as resp:
                 html = await resp.text()
                 with open(cache_path, 'wb') as stream:
                     pickle.dump(str(html), stream)
