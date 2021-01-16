@@ -3,6 +3,7 @@ import random
 import pickle
 import hashlib
 import aiohttp
+from fake_useragent import UserAgent
 
 FILEPATH = os.path.dirname(os.path.abspath(__file__))
 
@@ -21,7 +22,13 @@ USER_AGENT_LIST = [
 
 
 def get_rand_user_agent():
-    return random.choice(USER_AGENT_LIST)
+    user_agent = random.choice(USER_AGENT_LIST)
+    try:
+        user_agent = UserAgent().random
+    except:
+       pass
+    return user_agent
+    
 
 
 class CacheHandler:
