@@ -86,7 +86,7 @@ def main(args):  # pylint: disable=too-many-branches
         # Display full details: Header, Link, Description
         start = datetime.now()
         results = engine.search(
-            args.query, args.page, return_type=ReturnType(args.type), url=args.url)
+            args.query, args.page, return_type=ReturnType(args.type), url=args.url, proxy=args.proxy, proxy_auth=(args.proxy_user, args.proxy_password))
         duration = datetime.now() - start
         display(results, term, args)
         print("Total search took -> %s seconds" % (duration))
@@ -146,6 +146,21 @@ def create_parser():
         '--rank',
         type=int,
         help='ID of Detail to return e.g 5 (default: 0)')
+
+    parser.add_argument(
+        '--proxy',
+        required=False,
+        help='Proxy address to make use of')
+
+    parser.add_argument(
+        '--proxy-user',
+        required='--proxy' in sys.argv,
+        help='Proxy user to make use of')
+
+    parser.add_argument(
+        '--proxy-password',
+        required='--proxy' in sys.argv,
+        help='Proxy password to make use of')
 
     return parser
 
