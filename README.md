@@ -112,6 +112,8 @@ Query results can be scraped from popular search engines, as shown in the exampl
 
   # print first title from google search
   print(gresults["titles"][0])
+  # print first cleaned link from google-search -- `'hrefs'` is only available in GoogleSearch
+  print(gresults['hrefs'][0])
   # print 10th link from yahoo search
   print(yresults["links"][9])
   # print 6th description from bing search

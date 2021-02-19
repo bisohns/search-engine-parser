@@ -2,7 +2,11 @@
 		Parser for google search results
 """
 import sys
-from urllib.parse import urljoin
+from urllib.parse import (
+    urljoin,
+    parse_qs
+)
+import urllib.parse as urlparse
 
 from search_engine_parser.core.base import BaseSearch, ReturnType, SearchItem
 
@@ -66,7 +70,7 @@ class Search(BaseSearch):
         r_elem = els[0]
 
         # Get the text and link
-        if return_type in (ReturnType.FULL, return_type.TITLE):
+        if return_type in (ReturnType.FULL, ReturnType.TITLE):
             h3_tag = r_elem.find('h3')
             if h3_tag:
                 title = h3_tag.text
@@ -78,6 +82,7 @@ class Search(BaseSearch):
             link_tag = r_elem.find('a')
             if link_tag:
                 raw_link = link_tag.get('href')
+                results['hrefs'] = self.extract_href(raw_link)
                 results['links'] = self.parse_url(raw_link)
 
         if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):
@@ -87,7 +92,19 @@ class Search(BaseSearch):
                 link_tag = desc_tag.find('a')
                 if link_tag:
                     raw_link = link_tag.get('href')
+                    results['hrefs'] = self.extract_href(raw_link)
                     results['links'] = self.parse_url(raw_link)
             desc = desc_tag.text
             results['descriptions'] = desc
         return results
+
+    def extract_href(self, url):
+        """Overwrite BaseSearch::extract_href."""
+        parsed = urlparse.urlparse(url)
+        url_qs = parse_qs(parsed.query)
+        if 'q' in url_qs:
+            return url_qs['q']
+        elif 'url' in url_qs:
+            return url_qs['url']
+        # Add more cases here.
+        return None
