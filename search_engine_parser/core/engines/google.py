@@ -66,7 +66,7 @@ class Search(BaseSearch):
         r_elem = els[0]
 
         # Get the text and link
-        if return_type in (ReturnType.FULL, return_type.TITLE):
+        if return_type in (ReturnType.FULL, ReturnType.TITLE):
             h3_tag = r_elem.find('h3')
             if h3_tag:
                 title = h3_tag.text
