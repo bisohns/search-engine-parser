@@ -25,6 +25,7 @@ View all supported engines [here.](https://github.com/bisoncorps/search-engine-p
   - [Usage](#usage)
     - [Code](#code)
     - [Command line](#command-line)
+  - [FAQ](docs/faq.md)
   - [Code of Conduct](#code-of-conduct)
   - [Contribution](#contribution)
   - [License (MIT)](#license-mit)
@@ -39,7 +40,7 @@ Popular search engines supported include:
 - Baidu
 - YouTube
 
-View all supported engines [here.](https://github.com/bisoncorps/search-engine-parser/blob/master/docs/supported_engines.md)
+View all supported engines [here.](docs/supported_engines.md)
 
 ## Installation
 Install from PyPi:
@@ -241,13 +242,13 @@ optional arguments:
 ```
 
 ## Code of Conduct
-Make sure to adhere to the [code of conduct](https://github.com/bisoncorps/search-engine-parser/blob/master/CODE_OF_CONDUCT.md) at all times.
+Make sure to adhere to the [code of conduct](CODE_OF_CONDUCT.md) at all times.
 
 ## Contribution
-Before making any contributions, please read the [contribution guide](https://github.com/bisoncorps/search-engine-parser/blob/master/CONTRIBUTING.md).
+Before making any contributions, please read the [contribution guide](CONTRIBUTING.md).
 
 ## License (MIT)
-This project is licensed under the [MIT 2.0 License](https://github.com/bisoncorps/search-engine-parser/blob/master/LICENSE) which allows very broad use for both academic and commercial purposes.
+This project is licensed under the [MIT 2.0 License](LICENSE) which allows very broad use for both academic and commercial purposes.
 
 ## Contributors ✨
 
