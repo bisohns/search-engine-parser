@@ -306,12 +306,3 @@ class BaseSearch:
             page = 1
         soup = await self.get_soup(self.get_search_url(query, page, **kwargs), cache=cache, proxy=proxy, proxy_auth=(proxy_user, proxy_password))
         return self.get_results(soup, **kwargs)
-
-    def extract_href(self, url):
-        """Extracts the page URL that is linked on the SERP.
-
-        :param url: (string) The SERP url.
-        :return: Union[str, None] The page URL, or None if `url` could not be parsed.
-        """
-        raise NotImplementedError(
-            "subclasses must define method <extract_href>")
