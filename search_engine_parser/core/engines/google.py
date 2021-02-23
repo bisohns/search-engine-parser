@@ -2,7 +2,12 @@
 		Parser for google search results
 """
 import sys
-from urllib.parse import urljoin
+from urllib.parse import (
+    urljoin,
+    parse_qs,
+    unquote
+)
+import urllib.parse as urlparse
 
 from search_engine_parser.core.base import BaseSearch, ReturnType, SearchItem
 
@@ -34,7 +39,7 @@ class Search(BaseSearch):
         return params
 
     def parse_url(self, url):
-        return urljoin(self.base_url, url)
+        return self.clean_url(urljoin(self.base_url, url))
 
     def parse_soup(self, soup):
         """
@@ -78,7 +83,9 @@ class Search(BaseSearch):
             link_tag = r_elem.find('a')
             if link_tag:
                 raw_link = link_tag.get('href')
-                results['links'] = self.parse_url(raw_link)
+                raw_url = urljoin(self.base_url, raw_link)
+                results['raw_urls'] = raw_url
+                results['links'] = self.clean_url(raw_url)
 
         if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):
             # Second Div contains Description
@@ -87,7 +94,25 @@ class Search(BaseSearch):
                 link_tag = desc_tag.find('a')
                 if link_tag:
                     raw_link = link_tag.get('href')
-                    results['links'] = self.parse_url(raw_link)
+                    raw_url = urljoin(self.base_url, raw_link)
+                    results['raw_urls'] = raw_url
+                    results['links'] = self.clean_url(raw_url)
             desc = desc_tag.text
             results['descriptions'] = desc
         return results
+
+    def clean_url(self, url):
+        """
+        Extract clean URL from the SERP URL.
+
+        >clean_url('https://www.google.com/url?q=https://english.stackexchange.com/questions/140710/what-is-the-opposite-of-preaching-to-the-choir&sa=U&ved=2ahUKEwi31MGyzvnuAhXyyDgGHXXACOYQFnoECAkQAg&usg=AOvVaw1GdXON-JIWGu-dGjHfgljl')
+        https://english.stackexchange.com/questions/140710/what-is-the-opposite-of-preaching-to-the-choir
+        """
+        parsed = urlparse.urlparse(url)
+        url_qs = parse_qs(parsed.query)
+        if 'q' in url_qs:
+            return unquote(url_qs['q'][0])
+        elif 'url' in url_qs:
+            return unquote(url_qs['url'][0])
+        # Add more cases here.
+        return url
