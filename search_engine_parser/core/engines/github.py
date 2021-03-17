@@ -91,7 +91,7 @@ class Search(BaseSearch):
 
             if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):
                 desc = single_result.find('p', class_="mb-1")
-                rdict["descriptions"] = desc.text
+                rdict["descriptions"] = getattr(desc, 'text', '')
 
             if return_type in (ReturnType.FULL,):
                 stars_and_lang_div = single_result.find(
