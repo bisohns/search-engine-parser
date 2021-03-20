@@ -33,10 +33,11 @@ def get_rand_user_agent():
 
 class CacheHandler:
     def __init__(self):
-        if not os.path.exists(os.path.join(FILEPATH, "cache")):
-            os.makedirs("cache")
         self.cache = os.path.join(FILEPATH, "cache")
-        enginelist = os.listdir(os.path.join(FILEPATH, "engines"))
+        engine_path = os.path.join(FILEPATH, "engines")
+        if not os.path.exists(self.cache):
+            os.makedirs(self.cache)
+        enginelist = os.listdir(engine_path)
         self.engine_cache = {i[:-3]: os.path.join(self.cache, i[:-3]) for i in enginelist if i not in
                              ("__init__.py")}
         for cache in self.engine_cache.values():
