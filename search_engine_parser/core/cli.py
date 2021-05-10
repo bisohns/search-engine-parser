@@ -119,12 +119,6 @@ def create_parser():
         help='A custom link to use as base url for search e.g google.de')
 
     parser.add_argument(
-        '-q',
-        '--query',
-        help='Query string to search engine for',
-    )
-
-    parser.add_argument(
         '-p',
         '--page',
         type=int,
@@ -161,6 +155,10 @@ def create_parser():
         '--proxy-password',
         required='--proxy' in sys.argv,
         help='Proxy password to make use of')
+
+    parser.add_argument(
+        'query', type=str, nargs='?',
+        help='Query string to search engine for')
 
     return parser
 
