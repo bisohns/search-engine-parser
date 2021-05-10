@@ -1,0 +1,568 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      User-Agent:
+      - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.19582
+    method: GET
+    uri: https://www.google.com/search?start=0&q=Hello&gbv=1
+  response:
+    body:
+      string: "<!doctype html><html lang=\"en-NG\"><head><meta charset=\"UTF-8\"><meta\
+        \ content=\"origin\" name=\"referrer\"> <link href=\"/searchdomaincheck?format=opensearch\"\
+        \ title=\"Google Search\" rel=\"search\" type=\"application/opensearchdescription+xml\"\
+        > <meta content=\"/images/branding/googleg/1x/googleg_standard_color_128dp.png\"\
+        \ itemprop=\"image\"><title>Hello - Google Search</title><script nonce=\"\
+        2cIjVIgEkvtovNxhOIPm7g==\">(function(){\ndocument.documentElement.addEventListener(\"\
+        submit\",function(b){var a;if(a=b.target){var c=a.getAttribute(\"data-submitfalse\"\
+        );a=\"1\"==c||\"q\"==c&&!a.elements.q.value?!0:!1}else a=!1;a&&(b.preventDefault(),b.stopPropagation())},!0);document.documentElement.addEventListener(\"\
+        click\",function(b){var a;a:{for(a=b.target;a&&a!=document.documentElement;a=a.parentElement)if(\"\
+        A\"==a.tagName){a=\"1\"==a.getAttribute(\"data-nohref\");break a}a=!1}a&&b.preventDefault()},!0);}).call(this);(function(){\n\
+        var a=window.performance;window.start=Date.now();a:{var b=window;if(a){var\
+        \ c=a.timing;if(c){var d=c.navigationStart,f=c.responseStart;if(f>d&&f<=window.start){window.start=f;b.wsrt=f-d;break\
+        \ a}}a.now&&(b.wsrt=Math.floor(a.now()))}}window.google=window.google||{};var\
+        \ h=function(g){g&&g.target.setAttribute(\"data-iml\",Date.now())};document.documentElement.addEventListener(\"\
+        load\",h,!0);google.rglh=function(){document.documentElement.removeEventListener(\"\
+        load\",h,!0)};}).call(this);(function(){var gbvu='/search?q\\x3dHello\\x26gbv\\\
+        x3d2\\x26sei\\x3dwbWZYLT1Mu-_3LUPj_6X6AE';(function(){\nvar d=function(c,a){this.g=a===b?c:\"\
+        \"};d.prototype.h=!0;d.prototype.toString=function(){return this.g.toString()};var\
+        \ e=/^(?:(?:https?|mailto|ftp):|[^:/?#]*(?:[/?#]|$))/i,b={};var f,g=\"1\"\
+        ;if(document&&document.getElementById)if(\"undefined\"!=typeof XMLHttpRequest)g=\"\
+        2\";else if(\"undefined\"!=typeof ActiveXObject){var h,k,l=[\"MSXML2.XMLHTTP.6.0\"\
+        ,\"MSXML2.XMLHTTP.3.0\",\"MSXML2.XMLHTTP\",\"Microsoft.XMLHTTP\"];for(h=0;k=l[h++];)try{new\
+        \ ActiveXObject(k);g=\"2\";break}catch(c){}}f=g;if(\"2\"==f&&-1==location.search.indexOf(\"\
+        &gbv=2\")){var m=gbvu,n=document.getElementById(\"gbv\");n&&(n.value=f);m&&window.setTimeout(function(){var\
+        \ c=location;if(m instanceof d)var a=m;else a=m,a instanceof d||(a=\"object\"\
+        ==typeof a&&a.h?a.g.toString():String(a),e.test(a)||(a=\"about:invalid#zClosurez\"\
+        ),a=new d(a,b));c.href=a instanceof d&&a.constructor===d?a.g:\"type_error:SafeUrl\"\
+        },0)};}).call(this);})();</script><style>body{margin:0 auto;max-width:736px;padding:0\
+        \ 8px;}a{color:#1967D2;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,.10)}a:visited{color:#4B11A8}a:hover{text-decoration:underline}img{border:0}html{font-family:Roboto,Helvetica\
+        \ Neue,Arial,sans-serif;font-size:14px;line-height:20px;-webkit-text-size-adjust:100%;color:#3c4043;word-wrap:break-word;background-color:#fff}.bRsWnc{background-color:#fff;border-top:1px\
+        \ solid #dadce0;height:39px;overflow:hidden}.N6RWV{height:51px;-webkit-overflow-scrolling:touch;overflow-x:auto;overflow-y:hidden}.Uv67qb{-webkit-box-pack:justify;font-size:12px;line-height:37px;justify-content:space-between;justify-content:space-between}.Uv67qb\
+        \ a,.Uv67qb span{color:#70757a;display:block;flex:none;padding:0 16px;text-align:center;text-transform:uppercase;}span.OXXup{border-bottom:2px\
+        \ solid #4285f4;color:#4285f4;font-weight:bold}a.eZt8xd:visited{color:#70757a}.FElbsf{border-left:1px\
+        \ solid rgba(0,0,0,.12)}header article{overflow:visible}.Pg70bf{height:39px;display:-webkit-box;display:flex;display:flex;width:100%}.H0PQec{position:relative;flex:1}.sbc{display:flex;width:100%}.Pg70bf\
+        \ input{margin:2px 4px 2px 8px;}.x{width:26px;color:#70757a;font:27px/38px\
+        \ arial, sans-serif;line-height:40px;}#qdClwb{flex:0 0 auto;width:39px;height:39px;border-bottom:0;padding:0;border-top-right-radius:8px;background-color:#1a73e8;border:1px\
+        \ solid #1558d6;background-image:url('data:image/svg+xml,\\00003csvg height=\"\
+        37px\" width=\"37px\" xmlns=\"http://www.w3.org/2000/svg\">\\00003cg fill=\"\
+        none\" stroke=\"%23fff\">\\00003cellipse cx=\"16.5\" cy=\"16\" rx=\"5.4\"\
+        \ ry=\"5.4\" stroke-width=\"2px\">\\00003c/ellipse>\\00003cpath d=\"M22 21.3l4.3\
+        \ 4.3\" stroke-linecap=\"round\" stroke-width=\"2px\">\\00003c/path>\\00003c/g>\\\
+        00003c/svg>');}.sc{font-size:;position:absolute;top:39px;left:0;right:0;box-shadow:0px\
+        \ 2px 5px rgba(0,0,0,.2);z-index:2;background-color:#fff}.sc>div{padding:10px\
+        \ 10px;padding-left:16px;padding-left:14px;border-top:1px solid #dfe1e5}.scs{background-color:#f8f9fa;}.noHIxc{display:block;font-size:16px;padding:0\
+        \ 0 0 8px;flex:1;height:35px;outline:none;border:none;width:100%;-webkit-tap-highlight-color:rgba(0,0,0,.00);overflow:hidden;}.sbc\
+        \ input[type=text]{background:none}.sml .cOl4Id{display:none}.l{display:none}.l\
+        \ svg{margin-top:9px}.sml header{background:none}.sml .l{display:block;padding:0\
+        \ 8px}.bz1lBb{background:#fff;border-radius:8px 8px 0 0;box-shadow:0 1px 6px\
+        \ rgba(32, 33, 36, 0.18);margin-top:10px}.KP7LCb{border-radius:0 0 8px 8px;box-shadow:0\
+        \ 2px 3px rgba(32, 33, 36, 0.18);margin-bottom:10px;overflow:hidden}.cOl4Id{text-align:center;padding:14px\
+        \ 0 3px 0;height:35px}.S591j{height:100%}footer{text-align:center;margin-top:18px}footer\
+        \ a,footer a:visited,.smiUbb{color:#70757a}.xeDNfc{margin:0 13px}#EOlPnc{margin-top:36px}#EOlPnc>div{margin:20px}.Srfpq{color:#70757a}</style></head><body\
+        \ jsmodel=\"TvHxbe\"><header id=\"hdr\"><script nonce=\"2cIjVIgEkvtovNxhOIPm7g==\"\
+        >(function(){\nvar k=this||self,l=function(){},m=function(a){var b=typeof\
+        \ a;return\"object\"==b&&null!=a||\"function\"==b},n=function(a,b){function\
+        \ c(){}c.prototype=b.prototype;a.l=b.prototype;a.prototype=new c;a.prototype.constructor=a;a.m=function(d,e,g){for(var\
+        \ f=Array(arguments.length-2),h=2;h<arguments.length;h++)f[h-2]=arguments[h];return\
+        \ b.prototype[e].apply(d,f)}};var p=Array.prototype.indexOf?function(a,b){return\
+        \ Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof\
+        \ a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c<a.length;c++)if(c\
+        \ in a&&a[c]===b)return c;return-1},q=Array.prototype.filter?function(a,b){return\
+        \ Array.prototype.filter.call(a,b,void 0)}:function(a,b){for(var c=a.length,d=[],e=0,g=\"\
+        string\"===typeof a?a.split(\"\"):a,f=0;f<c;f++)if(f in g){var h=g[f];b.call(void\
+        \ 0,h,f,a)&&(d[e++]=h)}return d};var r=function(a){return\"string\"==typeof\
+        \ a.className?a.className:a.getAttribute&&a.getAttribute(\"class\")||\"\"\
+        },t=function(a,b){\"string\"==typeof a.className?a.className=b:a.setAttribute&&a.setAttribute(\"\
+        class\",b)},u=function(a,b){a.classList?b=a.classList.contains(b):(a=a.classList?a.classList:r(a).match(/\\\
+        S+/g)||[],b=0<=p(a,b));return b},x=function(){var a=v,b=w;a.classList?a.classList.remove(b):u(a,b)&&t(a,q(a.classList?a.classList:r(a).match(/\\\
+        S+/g)||[],function(c){return c!=b}).join(\" \"))};var y;a:{var z=k.navigator;if(z){var\
+        \ A=z.userAgent;if(A){y=A;break a}}y=\"\"};var B=function(a){B[\" \"](a);return\
+        \ a};B[\" \"]=l;var C=-1!=y.indexOf(\"Gecko\")&&!(-1!=y.toLowerCase().indexOf(\"\
+        webkit\")&&-1==y.indexOf(\"Edge\"))&&!(-1!=y.indexOf(\"Trident\")||-1!=y.indexOf(\"\
+        MSIE\"))&&-1==y.indexOf(\"Edge\");var D=function(){if(!k.addEventListener||!Object.defineProperty)return!1;var\
+        \ a=!1,b=Object.defineProperty({},\"passive\",{get:function(){a=!0}});try{k.addEventListener(\"\
+        test\",l,b),k.removeEventListener(\"test\",l,b)}catch(c){}return a}();var\
+        \ E=function(a,b){this.type=a;this.target=b};E.prototype.g=function(){};var\
+        \ G=function(a){E.call(this,a?a.type:\"\");this.relatedTarget=this.target=null;this.button=this.screenY=this.screenX=this.clientY=this.clientX=0;this.key=\"\
+        \";this.keyCode=0;this.metaKey=this.shiftKey=this.altKey=this.ctrlKey=!1;this.state=null;this.pointerId=0;this.pointerType=\"\
+        \";this.h=null;if(a){var b=this.type=a.type,c=a.changedTouches&&a.changedTouches.length?a.changedTouches[0]:null;this.target=a.target||a.srcElement;var\
+        \ d=a.relatedTarget;if(d){if(C){a:{try{B(d.nodeName);var e=!0;break a}catch(g){}e=\n\
+        !1}e||(d=null)}}else\"mouseover\"==b?d=a.fromElement:\"mouseout\"==b&&(d=a.toElement);this.relatedTarget=d;c?(this.clientX=void\
+        \ 0!==c.clientX?c.clientX:c.pageX,this.clientY=void 0!==c.clientY?c.clientY:c.pageY,this.screenX=c.screenX||0,this.screenY=c.screenY||0):(this.clientX=void\
+        \ 0!==a.clientX?a.clientX:a.pageX,this.clientY=void 0!==a.clientY?a.clientY:a.pageY,this.screenX=a.screenX||0,this.screenY=a.screenY||0);this.button=a.button;this.keyCode=a.keyCode||0;this.key=a.key||\"\
+        \";this.ctrlKey=a.ctrlKey;this.altKey=a.altKey;this.shiftKey=a.shiftKey;this.metaKey=a.metaKey;this.pointerId=a.pointerId||0;this.pointerType=\"\
+        string\"===typeof a.pointerType?a.pointerType:F[a.pointerType]||\"\";this.state=a.state;this.h=a;a.defaultPrevented&&G.l.g.call(this)}};n(G,E);var\
+        \ F={2:\"touch\",3:\"pen\",4:\"mouse\"};G.prototype.g=function(){G.l.g.call(this);var\
+        \ a=this.h;a.preventDefault?a.preventDefault():a.returnValue=!1};var H=\"\
+        closure_listenable_\"+(1E6*Math.random()|0);var I=0;var J=function(a,b,c,d,e){this.listener=a;this.g=null;this.src=b;this.type=c;this.capture=!!d;this.i=e;this.key=++I;this.h=this.j=!1},K=function(a){a.h=!0;a.listener=null;a.g=null;a.src=null;a.i=null};var\
+        \ L=function(a){this.src=a;this.g={};this.h=0};L.prototype.add=function(a,b,c,d,e){var\
+        \ g=a.toString();a=this.g[g];a||(a=this.g[g]=[],this.h++);var f;a:{for(f=0;f<a.length;++f){var\
+        \ h=a[f];if(!h.h&&h.listener==b&&h.capture==!!d&&h.i==e)break a}f=-1}-1<f?(b=a[f],c||(b.j=!1)):(b=new\
+        \ J(b,this.src,g,!!d,e),b.j=c,a.push(b));return b};var M=\"closure_lm_\"+(1E6*Math.random()|0),N={},O=0,Q=function(a,b,c,d,e){if(d&&d.once)return\
+        \ P(a,b,c,d,e);if(Array.isArray(b)){for(var g=0;g<b.length;g++)Q(a,b[g],c,d,e);return\
+        \ null}c=R(c);return a&&a[H]?a.g(b,c,m(d)?!!d.capture:!!d,e):S(a,b,c,!1,d,e)},S=function(a,b,c,d,e,g){if(!b)throw\
+        \ Error(\"a\");var f=m(e)?!!e.capture:!!e,h=T(a);h||(a[M]=h=new L(a));c=h.add(b,c,d,f,g);if(c.g)return\
+        \ c;d=U();c.g=d;d.src=a;d.listener=c;if(a.addEventListener)D||(e=f),void 0===e&&(e=!1),a.addEventListener(b.toString(),d,e);else\
+        \ if(a.attachEvent)a.attachEvent(V(b.toString()),d);else if(a.addListener&&a.removeListener)a.addListener(d);else\
+        \ throw Error(\"b\");O++;return c},U=function(){var a=aa,b=function(c){return\
+        \ a.call(b.src,b.listener,c)};return b},P=function(a,b,c,d,e){if(Array.isArray(b)){for(var\
+        \ g=0;g<b.length;g++)P(a,b[g],c,d,e);return null}c=R(c);return a&&a[H]?a.h(b,c,m(d)?!!d.capture:!!d,e):S(a,b,c,!0,d,e)},W=function(a){if(\"\
+        number\"!==typeof a&&a&&!a.h){var b=a.src;if(b&&b[H])b.i(a);else{var c=a.type,d=a.g;b.removeEventListener?b.removeEventListener(c,d,a.capture):b.detachEvent?b.detachEvent(V(c),d):b.addListener&&b.removeListener&&b.removeListener(d);O--;if(c=T(b)){d=a.type;if(d\
+        \ in c.g){var e=c.g[d],g=p(e,a),f;(f=0<=g)&&Array.prototype.splice.call(e,g,1);f&&(K(a),0==c.g[d].length&&(delete\
+        \ c.g[d],c.h--))}0==c.h&&(c.src=null,b[M]=null)}else K(a)}}},V=function(a){return\
+        \ a in N?N[a]:N[a]=\"on\"+a},aa=function(a,b){if(a.h)a=!0;else{b=new G(b,this);var\
+        \ c=a.listener,d=a.i||a.src;a.j&&W(a);a=c.call(d,b)}return a},T=function(a){a=a[M];return\
+        \ a instanceof L?a:null},X=\"__closure_events_fn_\"+(1E9*Math.random()>>>0),R=function(a){if(\"\
+        function\"===typeof a)return a;a[X]||(a[X]=function(b){return a.handleEvent(b)});return\
+        \ a[X]};var w,v=document.documentElement,Y;function ba(){W(Y);Y=P(v,\"mousedown\"\
+        ,function(){x();Z()},{capture:!0})}function Z(){W(Y);Y=Q(v,\"keydown\",function(a){if(9==a.keyCode){a=v;var\
+        \ b=w;if(a.classList)a.classList.add(b);else if(!u(a,b)){var c=r(a);t(a,c+(0<c.length?\"\
+        \ \"+b:b))}ba()}})};w=\"zAoYTe\";Z();}).call(this);(function(){var c=500;(function(){\n\
+        window.screen&&window.screen.width<=c&&window.screen.height<=c&&document.getElementById(\"\
+        hdr\").classList.add(\"sml\");}).call(this);})();</script><div class=\"cOl4Id\"\
+        ><a href=\"/?sa=X&amp;ved=0ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0QOwgC\"><svg stroke=\"\
+        #4285f4\" aria-label=\"Google\" fill=\"none\" height=\"36\" stroke-width=\"\
+        18\" viewbox=\"0 0 520 174\" width=\"92\"><path d=\"M69 70.4l61 0m-9 3.5a56\
+        \ 57 0 1 1-17-47\" stroke-width=\"19px\"></path><ellipse stroke=\"#ea4335\"\
+        \ cx=\"179\" cy=\"90\" rx=\"33\" ry=\"34\"></ellipse><ellipse stroke=\"#fbbc04\"\
+        \ cx=\"270\" cy=\"90\" rx=\"33\" ry=\"34\"></ellipse><ellipse cx=\"358\" cy=\"\
+        90\" rx=\"32\" ry=\"34\" stroke-width=\"17px\"></ellipse><path d=\"M391 49l0\
+        \ 73l-2 0a 22 22-30 0 1-59 24\"></path><path style=\"stroke:#34a853\" d=\"\
+        M423 5l0 130\"></path><path stroke=\"#ea4335\" d=\"M509 110a32 35-3 1 1 3-29M517\
+        \ 76l-63 24\" stroke-width=\"16px\"></path></svg></a></div><div class=\"bz1lBb\"\
+        ><form class=\"Pg70bf\" id=\"sf\"><a class=\"l\" href=\"/?gbv=1&amp;output=search&amp;sa=X&amp;ved=0ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0QPAgE\"\
+        ><svg stroke=\"#4285f4\" aria-label=\"Google\" fill=\"none\" height=\"22\"\
+        \ stroke-width=\"18\" viewbox=\"0 0 520 174\" width=\"66\"><ellipse stroke=\"\
+        #ea4335\" cx=\"179\" cy=\"90\" rx=\"33\" ry=\"34\"></ellipse><ellipse stroke=\"\
+        #fbbc04\" cx=\"270\" cy=\"90\" rx=\"33\" ry=\"34\"></ellipse><ellipse cx=\"\
+        359\" cy=\"90\" rx=\"31\" ry=\"34\"></ellipse><path d=\"M69 70l61 0m-9 4a56\
+        \ 57 0 1 1-17-47M391 49l0 72l-2 0a 16 17 24 0 1-58 24\"></path><path stroke=\"\
+        #34a853\" d=\"M423 5l0 130\"></path><path stroke=\"#ea4335\" d=\"M509 110a32\
+        \ 35-3 1 1 3-29M517 76l-63 24\"></path></svg></a><input name=\"gbv\" value=\"\
+        1\" type=\"hidden\"><div class=\"H0PQec\"><div class=\"sbc esbc\"><input class=\"\
+        noHIxc\" value=\"Hello\" autocapitalize=\"none\" autocomplete=\"off\" name=\"\
+        q\" spellcheck=\"false\" type=\"text\"><input name=\"oq\" type=\"hidden\"\
+        ><input name=\"aqs\" type=\"hidden\"><div class=\"sc\"></div></div></div><button\
+        \ id=\"qdClwb\" type=\"submit\"></button></form></div></header><div id=\"\
+        main\"><div><div class=\"KP7LCb\"> <div class=\"bRsWnc\"> <div class=\"N6RWV\"\
+        > <div class=\"Pg70bf Uv67qb\"> <span class=\"OXXup\">All</span><a class=\"\
+        eZt8xd\" href=\"/search?q=Hello&amp;gbv=1&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=0ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q_AUICCgB\"\
+        >Videos</a><a class=\"eZt8xd\" href=\"/search?q=Hello&amp;gbv=1&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q_AUICSgC\"\
+        >Images</a><a class=\"eZt8xd\" href=\"https://maps.google.com/maps?q=Hello&amp;gbv=1&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q_AUICigD\"\
+        >Maps</a>  <a href=\"/search?q=Hello&amp;gbv=1&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=0ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q_AUICygE\"\
+        >News</a>  <a href=\"/search?q=Hello&amp;gbv=1&amp;source=lnms&amp;tbm=bks&amp;sa=X&amp;ved=0ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q_AUIDCgF\"\
+        >Books</a>  <div class=\"FElbsf\"><a href=\"/advanced_search\" style=\"white-space:nowrap\"\
+        \ id=\"st-toggle\" role=\"button\">Search tools</a></div> </div> </div> </div>\
+        \ </div><div class=\"Pg70bf wEsjbd ZINbbc xpd O9g5cc uUPGi\" style=\"display:none\"\
+        \ id=\"st-card\"><style>.wEsjbd{background-color:#fff;height:44px;white-space:nowrap}.coPU8c{height:60px;-webkit-overflow-scrolling:touch;overflow-x:auto;overflow-y:hidden}.Xj2aue{height:44px;overflow:hidden}.RnNGze{margin:11px\
+        \ 16px}.wEsjbd div,.wEsjbd a,.wEsjbd li{outline-width:0;outline:none}</style><div\
+        \ class=\"Xj2aue\"><div class=\"coPU8c\"><div class=\"RnNGze\"><style>.PA9J5{display:inline-block}.RXaOfd{display:inline-block;height:22px;position:relative;padding-top:0;padding-bottom:0;padding-right:16px;padding-left:0;line-height:22px;cursor:pointer;text-transform:uppercase;font-size:12px;color:#70757a}.sa1toc{display:none;position:absolute;background:#fff;border:1px\
+        \ solid #d6d6d6;box-shadow:0 2px 4px rgba(0,0,0,0.3);margin:0;white-space:nowrap;z-index:103;line-height:17px;padding-top:5px;padding-bottom:5px;padding-left:0}.PA9J5:hover\
+        \ .sa1toc{display:block}.mGSy8d a:active,.RXaOfd:active{color:#4285f4}</style><div\
+        \ class=\"PA9J5\"><div class=\"RXaOfd\" role=\"button\" tabindex=\"0\"><style>.TWMOUc{display:inline-block;padding-right:14px;white-space:nowrap}.vQYuGf{font-weight:bold}.OmTIzf{border-color:#909090\
+        \ transparent;border-style:solid;border-width:4px 4px 0 4px;width:0;height:0;margin-left:-10px;top:50%;margin-top:-2px;position:absolute}.RXaOfd:active\
+        \ .OmTIzf{border-color:#4285f4 transparent}</style><div class=\"TWMOUc\">Any\
+        \ time</div><span class=\"OmTIzf\"></span></div><ul class=\"sa1toc ozatM\"\
+        ><style>.ozatM{font-size:12px;text-transform:uppercase}.ozatM .yNFsl,.ozatM\
+        \ li{list-style-type:none;list-style-position:outside;list-style-image:none}.yNFsl.SkUj4c,.yNFsl\
+        \ a{color:rgba(0,0,0,0.54);text-decoration:none;padding:6px 44px 6px 14px;line-height:17px;display:block}.SkUj4c{background-image:url(//ssl.gstatic.com/ui/v1/menu/checkmark2.png);background-position:right\
+        \ center;background-repeat:no-repeat}.SkUj4c:active{background-color:#f8f9fa}</style><li\
+        \ class=\"yNFsl SkUj4c\">Any time</li><li class=\"yNFsl\"><a href=\"/search?q=Hello&amp;gbv=1&amp;source=lnt&amp;tbs=qdr:h&amp;sa=X&amp;ved=0ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0QpwUIDg\"\
+        >Past hour</a></li><li class=\"yNFsl\"><a href=\"/search?q=Hello&amp;gbv=1&amp;source=lnt&amp;tbs=qdr:d&amp;sa=X&amp;ved=0ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0QpwUIDw\"\
+        >Past 24 hours</a></li><li class=\"yNFsl\"><a href=\"/search?q=Hello&amp;gbv=1&amp;source=lnt&amp;tbs=qdr:w&amp;sa=X&amp;ved=0ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0QpwUIEA\"\
+        >Past week</a></li><li class=\"yNFsl\"><a href=\"/search?q=Hello&amp;gbv=1&amp;source=lnt&amp;tbs=qdr:m&amp;sa=X&amp;ved=0ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0QpwUIEQ\"\
+        >Past month</a></li><li class=\"yNFsl\"><a href=\"/search?q=Hello&amp;gbv=1&amp;source=lnt&amp;tbs=qdr:y&amp;sa=X&amp;ved=0ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0QpwUIEg\"\
+        >Past year</a></li></ul></div><div class=\"PA9J5\"><div class=\"RXaOfd\" role=\"\
+        button\" tabindex=\"0\"><div class=\"TWMOUc\">All results</div><span class=\"\
+        OmTIzf\"></span></div><ul class=\"sa1toc ozatM\"><li class=\"yNFsl SkUj4c\"\
+        >All results</li><li class=\"yNFsl\"><a href=\"/search?q=Hello&amp;gbv=1&amp;source=lnt&amp;tbs=li:1&amp;sa=X&amp;ved=0ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0QpwUIFA\"\
+        >Verbatim</a></li></ul></div></div></div></div><script nonce=\"2cIjVIgEkvtovNxhOIPm7g==\"\
+        >(function(){\nvar a=document.getElementById(\"st-toggle\"),b=document.getElementById(\"\
+        st-card\");a&&b&&a.addEventListener(\"click\",function(c){b.style.display=b.style.display?\"\
+        \":\"none\";c.preventDefault()},!1);}).call(this);</script></div></div><style>.ZINbbc{background-color:#fff;margin-bottom:10px;box-shadow:0\
+        \ 1px 6px rgba(32, 33, 36, 0.28);border-radius:8px}.uUPGi{font-size:14px;line-height:20px;}.O9g5cc>*:first-child{border-top-left-radius:8px;border-top-right-radius:8px}.O9g5cc>*:last-child{border-bottom-left-radius:8px;border-bottom-right-radius:8px}.O9g5cc>.qxDOhb>*:first-child{border-top-left-radius:8px;border-top-right-radius:8px}.O9g5cc>.qxDOhb>*:last-child{border-bottom-left-radius:8px;border-bottom-right-radius:8px}a.fdYsqf{color:#4B11A8}.SXn0g{overflow:hidden}.BFi9Zb{overflow:hidden;position:relative}.ncYoxe{margin:0\
+        \ auto}.p1CInd{position:relative}.GGhfB{position:relative;width:100%}.V4qMPc{position:absolute;top:0;left:0;right:0;bottom:0}.UQMLtd{height:100%;width:100%;text-align:center}.zEom6{display:inline-block;height:100%;vertical-align:middle}.R0jTRc{vertical-align:middle}.EYOsld{display:inline-block;position:relative}.Xpig{width:100%;height:100%}.Y1FOVb{max-width:100%;max-height:100%}.HMoqlc{background-color:rgba(0,0,0,.12)}.qW7zYd{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.X8r0X{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4IiBmaWxsPSIjZmZmIj48cGF0aCBkPSJNMjQgNEMxMi45NSA0IDQgMTIuOTUgNCAyNHM4Ljk1IDIwIDIwIDIwIDIwLTguOTUgMjAtMjBTMzUuMDUgNCAyNCA0em0tNCAyOVYxNWwxMiA5LTEyIDl6Ii8+PC9zdmc+);background-repeat:no-repeat;background-position:center}.SiONwe{background:rgba(32,\
+        \ 33, 36, 0.5);position:absolute;border-radius:4px;padding:2px 6px}.BNeawe{white-space:pre-line;word-wrap:break-word}.wyrwXc{font-size:12px;line-height:16px}.wyrwXc.HrGdeb{color:#fff}.wyrwXc.AP7Wnd{color:#202124}.kCrYT{padding:12px\
+        \ 16px 12px}.deIvCb{font-size:16px;line-height:20px;font-weight:400}.deIvCb.HrGdeb{color:#fff}.deIvCb.AP7Wnd{color:#202124}.tAd8D{font-size:14px;line-height:20px}.tAd8D.HrGdeb{color:rgba(255,255,255,.70)}.tAd8D.AP7Wnd{color:#70757a}.ZTv9Bb{display:block}.nVTMpe{border-radius:8px}.zBAuLc{font-weight:normal;line-height:normal;margin:0;padding:0}.x54gtf{height:1px;background-color:#dfe1e5;margin:0\
+        \ 16px}.Q0HXG{height:1px;background-color:#dfe1e5}.X7NTVe{display:table;width:100%;padding-right:16px;box-sizing:border-box}.tHmfQe{display:table-cell;padding:12px\
+        \ 0 12px 16px}.UHtrk{width:72px}.HBTM6d{width:30px}.XS7yGd{display:table-cell;text-align:center;vertical-align:middle;padding:12px\
+        \ 0 12px 8px}.am3QBf{display:table;vertical-align:top}.Xb5VRe{color:#1967D2}a:visited\
+        \ .Xb5VRe{color:#4B11A8}.Xb5VRe.tr0dw{color:#fff}a:visited .Xb5VRe.tr0dw{color:rgba(255,255,255,.70)}.r0bn4c.tr0dw{color:rgba(255,255,255,.70)}.r0bn4c.rQMQod{color:#70757a}.wITvVb{margin:0;padding:12px\
+        \ 16px 12px}.FCUp0c{font-weight:bold}.LKSyXe{height:1px;background-color:#dfe1e5;margin:0\
+        \ 16px}.vhXRgc{padding:14px}.cREFlf{display:inline-block;color:#3c4043}.s3v9rd{font-size:14px;line-height:20px}.s3v9rd.HrGdeb{color:#fff}.s3v9rd.AP7Wnd{color:#202124}.M56Nqc{padding:0\
+        \ 16px 12px}.Z8j5ae>div>div{border-radius:8px;box-shadow:none;border:1px solid\
+        \ #dadce0;margin-bottom:0}.lnWbdd{display:table;width:100%}.kvKEAb{display:table-cell;vertical-align:top}.nXE3Ob{padding-top:12px}.iafz5e{float:right;padding-left:16px}.zv7zOb{border-radius:8px;display:block}.Ap5OSd{padding-bottom:12px}.iBp4i{font-size:24px;line-height:28px;font-weight:400}.iBp4i.HrGdeb{color:#fff}.iBp4i.AP7Wnd{color:#202124}.uEec3{font-size:12px;line-height:16px}.uEec3.HrGdeb{color:rgba(255,255,255,.70)}.uEec3.AP7Wnd{color:#70757a}.PDHNXc{display:table;width:100%;padding-top:16px;padding-bottom:16px;margin-bottom:-12px}.iU269d{display:table-cell;vertical-align:top}.TeHtNe{vertical-align:middle}.kXUfPb{color:#3c4043;font-size:14px;text-align:center}.Vp9uZ{display:block;white-space:pre-line;word-wrap:break-word}.kXUfPb.Vp9uZ{line-height:20px}.RtoYlb{padding:18px}.oTWEpb{padding-top:12px}.n1Qedd{overflow:hidden;text-align:center}.KMAGC{margin:0\
+        \ auto;display:block}.ho0sdc{margin:0 -50%;display:inline-block}.vvjwJb{color:#1967D2;font-size:16px;line-height:20px}a:visited\
+        \ .vvjwJb,.vvjwJb a:visited{color:#4B11A8}.vvjwJb.HrGdeb{color:#fff}a:visited\
+        \ .vvjwJb.HrGdeb,.vvjwJb.HrGdeb a:visited{color:rgba(255,255,255,.70)}.UPmit{font-size:14px;line-height:20px}.UPmit.HrGdeb{color:rgba(255,255,255,.70)}.UPmit.AP7Wnd{color:#0d652d}.rl7ilb{display:block;clear:both}.lcJF1d{border-radius:8px;margin-left:16px;float:right;}.GXKcHe{display:inline-block}.mSx1Ee{padding-left:48px;margin:0}.v9i61e{padding-bottom:8px}.XLloXe{color:#1967D2;font-size:14px;line-height:20px}a:visited\
+        \ .XLloXe,.XLloXe a:visited{color:#4B11A8}.XLloXe.HrGdeb{color:#fff}a:visited\
+        \ .XLloXe.HrGdeb,.XLloXe.HrGdeb a:visited{color:rgba(255,255,255,.70)}.Xdlr0d{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0\
+        \ -8px;padding:16px 0 16px 24px;padding-top:2px;margin-top:-2px;transform:translate3d(0,0,0)}.idg8be{display:table;border-collapse:separate;border-spacing:8px\
+        \ 0;margin:0 -8px;padding-right:16px}.BVG0Nb{display:table-cell;vertical-align:top;background-color:#fff;border-radius:8px;box-shadow:0\
+        \ 1px 6px rgba(32, 33, 36, 0.28);overflow:hidden}.WddBJd{display:block;margin:0\
+        \ auto}.mHhylf{display:table-cell;vertical-align:middle}.WZ5GJf{align-items:center;padding:0\
+        \ 20px;min-width:112px}.qN9Ked,.DXk5Me{margin:0 auto}.DXk5Me{margin-bottom:12px}.Dk7jOe{display:block;margin:0\
+        \ auto}.Qi9Fd{background:#fff;border:0;border-radius:999px;display:block;height:56px;justify-content:center;width:56px;z-index:0}.Qi9Fd{box-shadow:0\
+        \ 1px 6px rgba(32, 33, 36, 0.28),inset 0 0 0 0 rgba(0,0,0,0.10),inset 0 0\
+        \ 0 0 rgba(255,255,255,0.50)}.Qi9Fd:focus{outline:none}.Qi9Fd .hWHuJ{display:block;margin:0\
+        \ auto}.ji5jpf{text-align:center}.mEUgP{font-weight:bold;font-size:16px;color:#000;margin:0;padding:12px\
+        \ 16px 12px}.iIWm4b{box-sizing:border-box;min-height:48px}.gGQDvd{padding:14px;position:relative}.Q71vJc{display:block;position:relative;width:100%}.kjGX2{position:absolute;left:0;vertical-align:bottom;width:100%;padding-left:48px;display:inline-block;color:#3c4043}.ieB2Dd{width:40px;height:40px;overflow:hidden;margin-top:-10px;margin-bottom:-16px;margin-right:8px;border-radius:4px;display:inline-block;border-radius:50%;padding:10px}.S003Ke{flex:none}.z1asCe{display:inline-block;fill:currentColor;height:24px;line-height:24px;position:relative;width:24px}.z1asCe\
+        \ svg{display:block;height:100%;width:100%}.ZoN4Lb{color:rgba(0,0,0,.54)}.nAXVG{color:#70757a}.IxQsL{color:rgba(0,0,0,.26)}.xFO1De{color:#fff}.ooFpK{color:rgba(255,255,255,.30)}.mtnwac{color:#4285f4}.WxeeKb{color:#34a853}.hIVRU{color:#f29900}.EXaTMc{color:#fbbc04}.sxn46d{color:#000}.gqMTF{color:#1a73e8}.zpn8Mb{color:#d93025}.dEUPmd{color:#1e8e3e}.PJNo1{color:#fbbc04}.lRVwie{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.rLshyf,.BmP5tf{padding-top:12px;padding-bottom:12px}.YOx3Ab{padding-left:16px;}.w1C3Le,.BmP5tf,.G5NbBd,.CS4w5b{padding-left:16px;padding-right:16px;}.G5NbBd{padding-bottom:12px}.CS4w5b{padding-top:12px}.nMymef{display:flex}.G5eFlf{flex:1;display:block}.nMymef\
+        \ span{text-align:center}</style><div><!--SW_C_X--></div><div><div class=\"\
+        ZINbbc xpd O9g5cc uUPGi\"><a href=\"/url?q=https://www.youtube.com/watch%3Fv%3DYQHsXMglC9A&amp;sa=U&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0QyCkwAHoECA8QAQ&amp;usg=AOvVaw07iofvBPvW1i0af9prt4i-\"\
+        ><div class=\"SXn0g p1CInd\"><div class=\"ncYoxe\" style=\"max-width:555px\"\
+        ><div class=\"GGhfB\" style=\"padding-top:74.95495495495496%\"><div class=\"\
+        V4qMPc\"><div style=\"width:100%;margin-left:0%\"><div class=\"GGhfB\" style=\"\
+        padding-top:74.95495495495496%\"><div class=\"V4qMPc\"><img class=\"EYOsld\
+        \ Xpig\" alt=\"\" src=\"https://img.youtube.com/vi/YQHsXMglC9A/sddefault.jpg?sqp=-oaymwEGCKsEEKAD&amp;rs=AMzJL3khcBA7TdehZ6w6Da6aIWN0JCwrnw\"\
+        ></div></div></div></div></div></div><div class=\"qW7zYd HMoqlc\"></div><div\
+        \ class=\"qW7zYd X8r0X\" style=\"background-size:36px\"></div><div class=\"\
+        qW7zYd\"><div class=\"SiONwe\" style=\"bottom:4px;right:4px\"><div class=\"\
+        BNeawe wyrwXc HrGdeb\">6:07</div></div></div></div></a><div class=\"kCrYT\"\
+        ><span><div class=\"BNeawe deIvCb AP7Wnd\">Adele - Hello - YouTube</div></span><span><div\
+        \ class=\"BNeawe tAd8D AP7Wnd\">https://www.youtube.com/watch?v=YQHsXMglC9A</div></span></div></div></div><div><div\
+        \ class=\"ZINbbc xpd O9g5cc uUPGi\"><div class=\"kCrYT\"><div class=\"q4vBJc\"\
+        ></div><span><h2 class=\"zBAuLc\"><div class=\"BNeawe deIvCb AP7Wnd\">See\
+        \ results about</div></h2></span></div><div class=\"Q0HXG\"></div><div class=\"\
+        X7NTVe\"><a class=\"tHmfQe\" href=\"/search?gbv=1&amp;q=lionel+richie+hello&amp;stick=H4sIAAAAAAAAAONgVuLRT9c3LDYwLaq0yDYCAFFeu4MQAAAA&amp;sa=X&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q6RMwC3oECAQQAw\"\
+        ><div class=\"am3QBf\"><div><span><h3 class=\"zBAuLc\"><div class=\"BNeawe\
+        \ deIvCb AP7Wnd\"><span class=\"rQMQod Xb5VRe\">Hello (Song by Lionel Richie)</span></div></h3></span><span><div\
+        \ class=\"BNeawe tAd8D AP7Wnd\">Artist: <span class=\"r0bn4c rQMQod\">Lionel\
+        \ Richie</span>\nAlbum: <span class=\"r0bn4c rQMQod\">Can't Slow Down</span></div></span></div></div></a><div\
+        \ class=\"UHtrk XS7yGd\"><a href=\"/search?gbv=1&amp;q=lionel+richie+hello&amp;stick=H4sIAAAAAAAAAONgVuLRT9c3LDYwLaq0yDYCAFFeu4MQAAAA&amp;sa=X&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q6RMwC3oECAQQBg\"\
+        ><img class=\"ZTv9Bb nVTMpe\" alt=\"\" src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR55ZnjJ77wdQcMTymXadNtVKbsjWl71GrkPRS0mBG404Y5DjuHCKo_AeQxEaapqES_gy8\"\
+        \ style=\"max-width:72px;max-height:72px\"></a></div></div><div class=\"Q0HXG\"\
+        ></div><div class=\"X7NTVe\"><a class=\"tHmfQe\" href=\"/search?gbv=1&amp;q=Hello!+(magazine)&amp;stick=H4sIAAAAAAAAAONgVuLUz9U3MDGvLEoHAA2Oh4cNAAAA&amp;sa=X&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q6RMwDHoECAQQCA\"\
+        ><div class=\"am3QBf\"><div><span><h3 class=\"zBAuLc\"><div class=\"BNeawe\
+        \ deIvCb AP7Wnd\"><span class=\"rQMQod Xb5VRe\">Hello! (Magazine)</span></div></h3></span><span><div\
+        \ class=\"BNeawe tAd8D AP7Wnd\">Hello! is a royalist weekly magazine specializing\
+        \ in celebrity news and human-interest stories, published in the United Kingdom\
+        \ since 1988. It is the United Kingdom local edition of \xA1Hola!, the Spanish\
+        \ weekly magazine.</div></span></div></div></a></div></div></div><div class=\"\
+        ZINbbc xpd O9g5cc uUPGi\"><div><h2 class=\"wITvVb\"><span><div class=\"BNeawe\
+        \ deIvCb AP7Wnd\"><span class=\"FCUp0c rQMQod\">People also ask</span></div></span></h2><div\
+        \ class=\"LKSyXe\"></div><div class=\"cREFlf\"><span><div class=\"BNeawe s3v9rd\
+        \ AP7Wnd\">Who wrote Hello?</div></span></div><div class=\"M56Nqc\"><div class=\"\
+        Z8j5ae\"><div><div class=\"ZINbbc xpd O9g5cc uUPGi\"><div><div><div><div class=\"\
+        kCrYT\"><div><div><div><div class=\"BNeawe iBp4i AP7Wnd\"><div><div class=\"\
+        BNeawe iBp4i AP7Wnd\">Lionel Richie</div></div></div></div></div><div class=\"\
+        nXE3Ob\"><span><div class=\"BNeawe uEec3 AP7Wnd\"><span class=\"r0bn4c rQMQod\"\
+        >Hello</span> / <span class=\"FCUp0c rQMQod\">Lyricists</span></div></span></div></div></div></div></div></div></div></div></div><div><div\
+        \ class=\"PDHNXc\"><div class=\"iU269d TeHtNe\"><span class=\"kXUfPb Vp9uZ\"\
+        ><a class=\"RtoYlb\" href=\"https://www.google.com/search?gbv=1&amp;ei=wbWZYLT1Mu-_3LUPj_6X6AE&amp;q=Who+wrote+Hello?&amp;sa=X&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Qzmd6BAgQEAM\"\
+        >More results</a></span></div></div></div></div><div class=\"LKSyXe\"></div><div\
+        \ class=\"cREFlf\"><span><div class=\"BNeawe s3v9rd AP7Wnd\">Who is Adele\
+        \ Hello video?</div></span></div><div class=\"M56Nqc\"><div class=\"Z8j5ae\"\
+        ><div><div class=\"ZINbbc xpd O9g5cc uUPGi\"><div class=\"kCrYT\"><div><div\
+        \ class=\"BNeawe s3v9rd AP7Wnd\"><div><div class=\"BNeawe s3v9rd AP7Wnd\"\
+        >\u2014 -- When <span class=\"FCUp0c rQMQod\">Adele</span> premiered the music\
+        \ <span class=\"FCUp0c rQMQod\">video</span> for \"<span class=\"FCUp0c rQMQod\"\
+        >Hello</span>,\" the first single from her latest album \"25,\" many were\
+        \ surprised to see a familiar face as her love interest -- Tristan Wilds.\
+        \ \"The Wire\" actor told ABC News that he couldn't believe his luck either.</div></div></div></div></div><div\
+        \ class=\"x54gtf\"></div><div class=\"kCrYT\"><a href=\"/url?q=https://abcnews.go.com/Entertainment/actor-tristan-wilds-reflects-starring-adeles-music-video/story%3Fid%3D35844569&amp;sa=U&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0QFnoECAwQAg&amp;usg=AOvVaw3CkxJm_ukLCMYnueVKByjM\"\
+        ><span><div class=\"BNeawe vvjwJb AP7Wnd\">Actor Tristan Wilds Reflects on\
+        \ Starring in Adele's 'Hello' Music Video</div></span><span><div class=\"\
+        BNeawe UPmit AP7Wnd\">abcnews.go.com &gt; Entertainment &gt; story</div></span></a></div></div></div></div><div><div\
+        \ class=\"PDHNXc\"><div class=\"iU269d TeHtNe\"><span class=\"kXUfPb Vp9uZ\"\
+        ><a class=\"RtoYlb\" href=\"https://www.google.com/search?gbv=1&amp;ei=wbWZYLT1Mu-_3LUPj_6X6AE&amp;q=Who+is+Adele+Hello+video?&amp;sa=X&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Qzmd6BAgQEAY\"\
+        >More results</a></span></div></div></div></div><div class=\"LKSyXe\"></div><div\
+        \ class=\"cREFlf\"><span><div class=\"BNeawe s3v9rd AP7Wnd\">What is Adele's\
+        \ first song?</div></span></div><div class=\"M56Nqc\"><div class=\"Z8j5ae\"\
+        ><div><div class=\"ZINbbc xpd O9g5cc uUPGi\"><div class=\"kCrYT\"><div><div\
+        \ class=\"BNeawe s3v9rd AP7Wnd\"><div><div class=\"BNeawe s3v9rd AP7Wnd\"\
+        >\"<span class=\"FCUp0c rQMQod\">Chasing Pavements</span>\" (2009)\n\n The\
+        \ first of Adele's songs to hit the Billboard Hot 100, \u201C<span class=\"\
+        FCUp0c rQMQod\">Chasing Pavements</span>,\u201D the lead single from her debut\
+        \ album, peaked at No. 21 on February 28, 2009. The singer says she wrote\
+        \ the song after an argument with her then-boyfriend in a London club. \"\
+        It was six in the morning.</div></div></div></div></div><div class=\"x54gtf\"\
+        ></div><div class=\"kCrYT\"><a href=\"/url?q=https://www.biography.com/musician/adele&amp;sa=U&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0QFnoECA0QAg&amp;usg=AOvVaw29XRIvE6nVcr3DHo79vvXO\"\
+        ><span><div class=\"BNeawe vvjwJb AP7Wnd\">Adele - Songs, Albums &amp; Age\
+        \ - Biography</div></span><span><div class=\"BNeawe UPmit AP7Wnd\">www.biography.com\
+        \ &gt; musician &gt; adele</div></span></a></div></div></div></div><div><div\
+        \ class=\"PDHNXc\"><div class=\"iU269d TeHtNe\"><span class=\"kXUfPb Vp9uZ\"\
+        ><a class=\"RtoYlb\" href=\"https://www.google.com/search?gbv=1&amp;ei=wbWZYLT1Mu-_3LUPj_6X6AE&amp;q=What+is+Adele's+first+song?&amp;sa=X&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Qzmd6BAgQEAk\"\
+        >More results</a></span></div></div></div></div><div class=\"LKSyXe\"></div><div\
+        \ class=\"cREFlf\"><span><div class=\"BNeawe s3v9rd AP7Wnd\">How much money\
+        \ did Hello by Adele make?</div></span></div><div class=\"M56Nqc\"><div class=\"\
+        Z8j5ae\"><div><div class=\"ZINbbc xpd O9g5cc uUPGi\"><div class=\"kCrYT\"\
+        ><div><div class=\"BNeawe s3v9rd AP7Wnd\"><div><div class=\"BNeawe s3v9rd\
+        \ AP7Wnd\">Greg Kurstin, songwriter-producer on \"<span class=\"FCUp0c rQMQod\"\
+        >Hello</span>\": $2,433,000.</div></div></div></div></div><div class=\"x54gtf\"\
+        ></div><div class=\"kCrYT\"><a href=\"/url?q=https://djbooth.net/features/2016-02-11-adele-25-album-money-producer-songwriter&amp;sa=U&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0QFnoECA4QAg&amp;usg=AOvVaw0kcJZkvj_yL62CyW5Fiugp\"\
+        ><span><div class=\"BNeawe vvjwJb AP7Wnd\">How Much Money Everyone Made Off\
+        \ Adele's \"25\" Album - DJBooth</div></span><span><div class=\"BNeawe UPmit\
+        \ AP7Wnd\">djbooth.net &gt; 2016-02-11-adele-25-album-money-producer-songwriter</div></span></a></div></div></div></div><div><div\
+        \ class=\"PDHNXc\"><div class=\"iU269d TeHtNe\"><span class=\"kXUfPb Vp9uZ\"\
+        ><a class=\"RtoYlb\" href=\"https://www.google.com/search?gbv=1&amp;ei=wbWZYLT1Mu-_3LUPj_6X6AE&amp;q=How+much+money+did+Hello+by+Adele+make?&amp;sa=X&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Qzmd6BAgQEAw\"\
+        >More results</a></span></div></div></div></div></div></div><div><div class=\"\
+        ZINbbc xpd O9g5cc uUPGi\"><div class=\"kCrYT\"><a href=\"/url?q=https://www.youtube.com/watch%3Fv%3DmHONNcZbwDY&amp;sa=U&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0QtwIwF3oECAMQAQ&amp;usg=AOvVaw3pGoB808PwcDMa2xSRMPbX\"\
+        ><h3 class=\"zBAuLc\"><div class=\"BNeawe vvjwJb AP7Wnd\">Lionel Richie -\
+        \ Hello (Official Music Video) - YouTube</div></h3><div class=\"BNeawe UPmit\
+        \ AP7Wnd\">www.youtube.com \u203A watch</div></a></div><div class=\"x54gtf\"\
+        ></div><div class=\"kCrYT\"><a href=\"/url?q=https://www.youtube.com/watch%3Fv%3DmHONNcZbwDY&amp;sa=U&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0QuAIwF3oECAMQAg&amp;usg=AOvVaw19G9VnaBxTogChj3rk9-Bo\"\
+        ><div class=\"lcJF1d SXn0g GXKcHe p1CInd\"><div style=\"width:120px;height:67px;position:static\"\
+        ><img class=\"EYOsld\" alt=\"Video for Hello\" src=\"https://i.ytimg.com/vi/mHONNcZbwDY/default.jpg?sqp=-oaymwEECHgQQw&amp;rs=AMzJL3moJ63G9S5AWihHwEcoMKFOclYG-Q\"\
+        \ style=\"width:120px;height:67px\"></div><div class=\"qW7zYd HMoqlc\"></div><div\
+        \ class=\"qW7zYd X8r0X\" style=\"background-size:36px\"></div></div></a><div><div\
+        \ class=\"BNeawe s3v9rd AP7Wnd\"><div><div><div class=\"BNeawe s3v9rd AP7Wnd\"\
+        ><span class=\"r0bn4c rQMQod\">20 Nov 2020</span><span class=\"r0bn4c rQMQod\"\
+        > \xB7 </span>Lionel Richie - Hello (Official Music Video). 17M views. 153K.\
+        \ 4K. Share. Save. Report ...Duration: <span class=\"r0bn4c rQMQod\">5:27</span><br>Posted:\
+        \ <span class=\"r0bn4c rQMQod\">20 Nov 2020</span></div></div></div></div></div><div\
+        \ class=\"rl7ilb\"></div></div></div></div><div><div class=\"ZINbbc xpd O9g5cc\
+        \ uUPGi\"><div class=\"kCrYT\"><a href=\"/url?q=https://www.youtube.com/watch%3Fv%3DDfG6VKnjrVw&amp;sa=U&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0QtwIwGHoECAIQAQ&amp;usg=AOvVaw3bG3pvHunCnoEeuyNR292i\"\
+        ><h3 class=\"zBAuLc\"><div class=\"BNeawe vvjwJb AP7Wnd\">Adele - Hello (Live\
+        \ at the NRJ Awards) - YouTube</div></h3><div class=\"BNeawe UPmit AP7Wnd\"\
+        >www.youtube.com \u203A watch</div></a></div><div class=\"x54gtf\"></div><div\
+        \ class=\"kCrYT\"><a href=\"/url?q=https://www.youtube.com/watch%3Fv%3DDfG6VKnjrVw&amp;sa=U&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0QuAIwGHoECAIQAg&amp;usg=AOvVaw2RMENpkkusiwaeLjnPlvQr\"\
+        ><div class=\"lcJF1d SXn0g GXKcHe p1CInd\"><div style=\"width:120px;height:67px;position:static\"\
+        ><img class=\"EYOsld\" alt=\"Video for Hello\" src=\"https://i.ytimg.com/vi/DfG6VKnjrVw/default.jpg?sqp=-oaymwEECHgQQw&amp;rs=AMzJL3n9Dmk0IwOy4SjST0N4jm4xTDLybQ\"\
+        \ style=\"width:120px;height:67px\"></div><div class=\"qW7zYd HMoqlc\"></div><div\
+        \ class=\"qW7zYd X8r0X\" style=\"background-size:36px\"></div></div></a><div><div\
+        \ class=\"BNeawe s3v9rd AP7Wnd\"><div><div><div class=\"BNeawe s3v9rd AP7Wnd\"\
+        ><span class=\"r0bn4c rQMQod\">9 Nov 2015</span><span class=\"r0bn4c rQMQod\"\
+        > \xB7 </span>'Hello' is taken from the new album, 25, out November 20. http://adele.\u200B\
+        comAvailable now ...Duration: <span class=\"r0bn4c rQMQod\">5:08</span><br>Posted:\
+        \ <span class=\"r0bn4c rQMQod\">9 Nov 2015</span></div></div></div></div></div><div\
+        \ class=\"rl7ilb\"></div></div></div></div><div><div class=\"ZINbbc xpd O9g5cc\
+        \ uUPGi\"><div class=\"kCrYT\"><a href=\"/url?q=https://en.wikipedia.org/wiki/Hello_(Adele_song)&amp;sa=U&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0QFjAZegQICRAB&amp;usg=AOvVaw3ze5wt5Ua9GvLP0GEt_gB-\"\
+        ><h3 class=\"zBAuLc\"><div class=\"BNeawe vvjwJb AP7Wnd\">Hello (Adele song)\
+        \ - Wikipedia</div></h3><div class=\"BNeawe UPmit AP7Wnd\">en.wikipedia.org\
+        \ \u203A wiki \u203A Hello_(Adele_song)</div></a></div><div class=\"x54gtf\"\
+        ></div><div class=\"kCrYT\"><div><div class=\"BNeawe s3v9rd AP7Wnd\"><div><div><div\
+        \ class=\"BNeawe s3v9rd AP7Wnd\">\"Hello\" is a song recorded by English singer-songwriter\
+        \ Adele, released on 23 October 2015 by XL Recordings as the lead single from\
+        \ her third studio album, 25\_...\n<span class=\"BNeawe\"><a href=\"/url?q=https://en.wikipedia.org/wiki/Hello_(Adele_song)%23Writing_and_composition&amp;sa=U&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q0gIwGXoECAkQAg&amp;usg=AOvVaw1xAyuqtuc-X2XOATuhDIBj\"\
+        ><span class=\"XLloXe AP7Wnd\">Writing and composition</span></a></span> \xB7\
+        \ <span class=\"BNeawe\"><a href=\"/url?q=https://en.wikipedia.org/wiki/Hello_(Adele_song)%23Chart_performance&amp;sa=U&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q0gIwGXoECAkQAw&amp;usg=AOvVaw3ugKjcmE9hNCffJNxvArbc\"\
+        ><span class=\"XLloXe AP7Wnd\">Chart performance</span></a></span> \xB7 <span\
+        \ class=\"BNeawe\"><a href=\"/url?q=https://en.wikipedia.org/wiki/Hello_(Adele_song)%23Accolades&amp;sa=U&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q0gIwGXoECAkQBA&amp;usg=AOvVaw3dkl73UsE1G_aiHrrDVgDs\"\
+        ><span class=\"XLloXe AP7Wnd\">Accolades</span></a></span> \xB7 <span class=\"\
+        BNeawe\"><a href=\"/url?q=https://en.wikipedia.org/wiki/Hello_(Adele_song)%23Music_video&amp;sa=U&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q0gIwGXoECAkQBQ&amp;usg=AOvVaw3FEypjVm6b_gB2-CfJFoly\"\
+        ><span class=\"XLloXe AP7Wnd\">Music video</span></a></span>\n\nReleased:\
+        \ <span class=\"r0bn4c rQMQod\">23 October 2015</span>\nSongwriter(s): <span\
+        \ class=\"BNeawe\"><a href=\"/url?q=https://en.wikipedia.org/wiki/Adele&amp;sa=U&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Qs2YwGXoECAkQCQ&amp;usg=AOvVaw1xmC4S7fyHVCgIzTgvWiwv\"\
+        ><span class=\"XLloXe AP7Wnd\">Adele Adkins</span></a></span><span class=\"\
+        r0bn4c rQMQod\">; </span><span class=\"BNeawe\"><a href=\"/url?q=https://en.wikipedia.org/wiki/Greg_Kurstin&amp;sa=U&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Qs2YwGXoECAkQCg&amp;usg=AOvVaw3VkxKpq7rINxy0I5tQfnnA\"\
+        ><span class=\"XLloXe AP7Wnd\">Greg Kurstin</span></a></span>\nGenre: <span\
+        \ class=\"BNeawe\"><a href=\"/url?q=https://en.wikipedia.org/wiki/Soul_music&amp;sa=U&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Qs2YwGXoECAkQDA&amp;usg=AOvVaw3WSEkStLl7_fX4GI4PAydS\"\
+        ><span class=\"XLloXe AP7Wnd\">Soul</span></a></span>\nProducer(s): <span\
+        \ class=\"BNeawe\"><a href=\"/url?q=https://en.wikipedia.org/wiki/Greg_Kurstin&amp;sa=U&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Qs2YwGXoECAkQDg&amp;usg=AOvVaw0vczFZhc3fR5xB_bi5IobS\"\
+        ><span class=\"XLloXe AP7Wnd\">Greg Kurstin</span></a></span></div></div></div></div></div></div></div></div><div><div\
+        \ class=\"ZINbbc xpd O9g5cc uUPGi\"><div class=\"kCrYT\"><div class=\"BNeawe\
+        \ deIvCb AP7Wnd\"><span class=\"BNeawe\"><a href=\"https://www.google.com/search?gbv=1&amp;ei=wbWZYLT1Mu-_3LUPj_6X6AE&amp;q=Hello&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0QsAR6BAgBEAE\"\
+        ><span class=\"deIvCb AP7Wnd\"><span class=\"FCUp0c rQMQod\">Images</span></span></a></span></div><div\
+        \ class=\"BNeawe tAd8D AP7Wnd\"><span class=\"BNeawe\"><a href=\"https://www.google.com/search?gbv=1&amp;ei=wbWZYLT1Mu-_3LUPj_6X6AE&amp;q=Hello&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q7Al6BAgBEAI\"\
+        ><span class=\"tAd8D AP7Wnd\"><span class=\"rQMQod Xb5VRe\">View all</span></span></a></span></div></div><div><div><div><div\
+        \ class=\"Xdlr0d\"><div class=\"idg8be\"><a class=\"BVG0Nb\" href=\"https://www.google.com/imgres?imgurl=https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/-127wiki.jpg/1200px--127wiki.jpg&amp;imgrefurl=https://en.wikipedia.org/wiki/Hello&amp;h=1500&amp;w=1200&amp;tbnid=CcMDBquY7EhMFM&amp;q=Hello&amp;tbnh=150&amp;tbnw=120&amp;usg=AI4_-kQ187rtjv8RtsV27i3iGZYBXz9llw&amp;vet=1&amp;docid=ZW__FDER0tJ4uM&amp;sa=X&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q9QEwGnoECAEQBA\"\
+        ><div><img class=\"WddBJd\" style=\"max-width:none;height:128px;max-height:128px\"\
+        \ alt=\"upload.wikimedia.org/wikipedia/commons/thumb/5/59/...\" src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvpMsb7NHcz_DUD0x4wiHpQ9RhlcmYLPG8Htu-ApRjmg1rE4aYXAlD0SrRxA&amp;s\"\
+        ></div></a><a class=\"BVG0Nb\" href=\"https://www.google.com/imgres?imgurl=https://www.himgs.com/imagenes/hello/social/hello-fb-logo.png&amp;imgrefurl=https://www.hellomagazine.com/&amp;h=1000&amp;w=1000&amp;tbnid=vXrYcLDrmW1NjM&amp;q=Hello&amp;tbnh=149&amp;tbnw=149&amp;usg=AI4_-kQ0e14K-lIornrab3UOW2xpKXY8dg&amp;vet=1&amp;docid=hxjkDmKHGvIaYM&amp;sa=X&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q9QEwG3oECAEQBg\"\
+        ><div><img class=\"WddBJd\" style=\"max-width:none;height:128px;max-height:128px\"\
+        \ alt=\"www.himgs.com/imagenes/hello/social/hello-fb-logo....\" src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuJI3e4IIdKUPPuZEiWRzw6sM-FF72gyhxvS-Mlc0p7X1MzmFyx8cRuVGJ7Q&amp;s\"\
+        ></div></a><a class=\"BVG0Nb\" href=\"https://www.google.com/imgres?imgurl=https://supersimple.com/wp-content/uploads/hello-2-1080-740.jpg&amp;imgrefurl=https://supersimple.com/song/hello/&amp;h=740&amp;w=1080&amp;tbnid=VhVLFf60neF_VM&amp;q=Hello&amp;tbnh=103&amp;tbnw=150&amp;usg=AI4_-kQxoy64oV9vJDRRvWHUeSYtdZKeqQ&amp;vet=1&amp;docid=10rqg5qx9kFQOM&amp;sa=X&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q9QEwHHoECAEQCA\"\
+        ><div><img class=\"WddBJd\" style=\"max-width:none;height:128px;max-height:128px\"\
+        \ alt=\"supersimple.com/wp-content/uploads/hello-2-1080-74...\" src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWyKTkxxKSGfsgmt4nI8GQA5mqrY_hs9aYu2k1yJ9QitnO2sLMukwB8Gw4fXI&amp;s\"\
+        ></div></a><a class=\"BVG0Nb\" href=\"https://www.google.com/imgres?imgurl=https://i.ytimg.com/vi/tVlcKp3bWH8/maxresdefault.jpg&amp;imgrefurl=https://supersimple.com/song/hello/&amp;h=720&amp;w=1280&amp;tbnid=HA_IwI6Tbyo0dM&amp;q=Hello&amp;tbnh=84&amp;tbnw=150&amp;usg=AI4_-kTPUanNYjaDKjFN9vcgXwogIm9OMg&amp;vet=1&amp;docid=10rqg5qx9kFQOM&amp;sa=X&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q9QEwHXoECAEQCg\"\
+        ><div><img class=\"WddBJd\" style=\"max-width:none;height:128px;max-height:128px\"\
+        \ alt=\"i.ytimg.com/vi/tVlcKp3bWH8/maxresdefault.jpg\" src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8d1xSeRTrEY_4XHmvH-s7AwJszWJHMOZ64hDg6zgikfNPrqSdTRn2Mx8h53I&amp;s\"\
+        ></div></a><a class=\"BVG0Nb\" href=\"https://www.google.com/imgres?imgurl=https://i.ytimg.com/vi/4-jBiumYmXk/maxresdefault.jpg&amp;imgrefurl=https://www.youtube.com/watch?v%3D4-jBiumYmXk&amp;h=720&amp;w=1280&amp;tbnid=XYhN9MU8OHbsNM&amp;q=Hello&amp;tbnh=84&amp;tbnw=150&amp;usg=AI4_-kT3XIHleyMNz1CqkWaXxYTE2RMRvg&amp;vet=1&amp;docid=qhOH4lgPfxUL6M&amp;sa=X&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q9QEwHnoECAEQDA\"\
+        ><div><img class=\"WddBJd\" style=\"max-width:none;height:128px;max-height:128px\"\
+        \ alt=\"i.ytimg.com/vi/4-jBiumYmXk/maxresdefault.jpg\" src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT9zMbDGC1vtr0LfkljgA5k-YIzIz9hzRgSfww7bhJtSKjuaZGpF-e3_fglUw&amp;s\"\
+        ></div></a><a class=\"BVG0Nb\" href=\"https://www.google.com/imgres?imgurl=https://upload.wikimedia.org/wikipedia/en/8/85/Adele_-_Hello_%2528Official_Single_Cover%2529.png&amp;imgrefurl=https://en.wikipedia.org/wiki/Hello_(Adele_song)&amp;h=300&amp;w=300&amp;tbnid=AMMt-ZkRkoAnqM&amp;q=Hello&amp;tbnh=116&amp;tbnw=116&amp;usg=AI4_-kQdKmXjMmvlV0-mjpuYhhh8qvbecw&amp;vet=1&amp;docid=z7n3yz7lb8hoXM&amp;sa=X&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q9QEwH3oECAEQDg\"\
+        ><div><img class=\"WddBJd\" style=\"max-width:none;height:128px;max-height:128px\"\
+        \ alt=\"upload.wikimedia.org/wikipedia/en/8/85/Adele_-_Hel...\" src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvIFMusPgWH-e9pzqSpMDHuP1S-BUfCQ_i-dBPbmJE69swlQXjcvfSTZtMag&amp;s\"\
+        ></div></a><div class=\"mHhylf\"><div class=\"WZ5GJf\"><a class=\"qN9Ked\"\
+        \ href=\"https://www.google.com/search?gbv=1&amp;ei=wbWZYLT1Mu-_3LUPj_6X6AE&amp;q=Hello&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q7Al6BAgBEA8\"\
+        ><button class=\"DXk5Me Qi9Fd\" tabindex=\"-1\"><span class=\"hWHuJ\"><img\
+        \ class=\"Dk7jOe\" alt=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYAgMAAACdGdVrAAAADFBMVEVMaXFChfRChfRChfT0tCPZAAAAA3RSTlMAgFJEkGxNAAAAL0lEQVR4AWPADxgdwBT3BTDF9AUiuhdC6WNK/v///y+UggrClSA07EWVglmEFwAA5eYSExeCwigAAAAASUVORK5CYII=\"\
+        \ style=\"max-width:24px;max-height:24px\"></span></button><div class=\"BNeawe\
+        \ ji5jpf tAd8D AP7Wnd\">View all</div></a></div></div></div></div></div></div></div></div></div><div><div\
+        \ class=\"ZINbbc xpd O9g5cc uUPGi\"><div class=\"kCrYT\"><a href=\"/url?q=https://www.azlyrics.com/lyrics/adele/hello.html&amp;sa=U&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0QFjAgegQIBhAB&amp;usg=AOvVaw3Xj0YtDg4wXGw6Gw1YiuIP\"\
+        ><h3 class=\"zBAuLc\"><div class=\"BNeawe vvjwJb AP7Wnd\">Adele - Hello Lyrics\
+        \ | AZLyrics.com</div></h3><div class=\"BNeawe UPmit AP7Wnd\">www.azlyrics.com\
+        \ \u203A A \u203A Adele Lyrics</div></a></div><div class=\"x54gtf\"></div><div\
+        \ class=\"kCrYT\"><div><div class=\"BNeawe s3v9rd AP7Wnd\"><div><div><div\
+        \ class=\"BNeawe s3v9rd AP7Wnd\">Hello, it's me. I was wondering if after\
+        \ all these years you'd like to meet. To go over everything. They say that\
+        \ time's supposed to heal ya. But I ain't done much\_...</div></div></div></div></div></div></div></div><div><div\
+        \ class=\"ZINbbc xpd O9g5cc uUPGi\"><div class=\"kCrYT\"><a href=\"/url?q=https://www.hellomagazine.com/&amp;sa=U&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0QFjAhegQIBxAB&amp;usg=AOvVaw3BocRzd4Y1gVNpTHABA6en\"\
+        ><h3 class=\"zBAuLc\"><div class=\"BNeawe vvjwJb AP7Wnd\">HELLO! - Daily royal,\
+        \ celebrity, fashion, beauty &amp; lifestyle news</div></h3><div class=\"\
+        BNeawe UPmit AP7Wnd\">www.hellomagazine.com</div></a></div><div class=\"x54gtf\"\
+        ></div><div class=\"kCrYT\"><div><div class=\"BNeawe s3v9rd AP7Wnd\"><div><div><div\
+        \ class=\"BNeawe s3v9rd AP7Wnd\">HELLO! brings you the latest celebrity &amp;\
+        \ royal news from the UK &amp; around the world, magazine exclusives, fashion,\
+        \ beauty, lifestyle news, celeb babies,\_...</div></div></div></div></div></div></div></div><div><div\
+        \ class=\"ZINbbc xpd O9g5cc uUPGi\"><div class=\"kCrYT\"><a href=\"/url?q=https://www.metrolyrics.com/hello-lyrics-adele.html&amp;sa=U&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0QFjAiegQIBRAB&amp;usg=AOvVaw23QkYiAxaaJ4V0iRYSOnmR\"\
+        ><h3 class=\"zBAuLc\"><div class=\"BNeawe vvjwJb AP7Wnd\">Adele - Hello Lyrics\
+        \ | MetroLyrics</div></h3><div class=\"BNeawe UPmit AP7Wnd\">www.metrolyrics.com\
+        \ \u203A hello-lyrics-adele</div></a></div><div class=\"x54gtf\"></div><div\
+        \ class=\"kCrYT\"><div><div class=\"BNeawe s3v9rd AP7Wnd\"><div><div><div\
+        \ class=\"BNeawe s3v9rd AP7Wnd\">Lyrics to 'Hello' by Adele: Hello, it's me\
+        \ I was wondering if after all these years you\u200B'd like to meet To go\
+        \ over everything They say that time's supposed to heal ya\_...</div></div></div></div></div></div></div></div><div><div\
+        \ class=\"ZINbbc xpd O9g5cc uUPGi\"><div class=\"kCrYT\"><a href=\"/url?q=https://supersimple.com/song/hello/&amp;sa=U&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0QtwIwI3oECAoQAQ&amp;usg=AOvVaw1DSWR5MJstPdAzQUqI41zD\"\
+        ><h3 class=\"zBAuLc\"><div class=\"BNeawe vvjwJb AP7Wnd\">Hello! - Super Simple\
+        \ Songs</div></h3><div class=\"BNeawe UPmit AP7Wnd\">supersimple.com \u203A\
+        \ Songs \u203A Hello! - Super Simple</div></a></div><div class=\"x54gtf\"\
+        ></div><div class=\"kCrYT\"><div><div class=\"BNeawe s3v9rd AP7Wnd\"><div><div><div\
+        \ class=\"BNeawe s3v9rd AP7Wnd\"><span class=\"r0bn4c rQMQod\">8 Jan 2019</span><span\
+        \ class=\"r0bn4c rQMQod\"> \xB7 </span>See where you can watch Super Simple\
+        \ ad-free. Listen. Start off your lesson with \u201CHello!\u201D, a fun and\
+        \ ...Duration: <span class=\"r0bn4c rQMQod\">1:19</span><br>Posted: <span\
+        \ class=\"r0bn4c rQMQod\">8 Jan 2019</span></div></div></div></div></div></div></div></div><div><div\
+        \ class=\"ZINbbc xpd O9g5cc uUPGi\"><div class=\"kCrYT\"><a href=\"/url?q=https://hellotractor.com/&amp;sa=U&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0QFjAkegQICBAB&amp;usg=AOvVaw0te3Fbm_FL6u4xoN-2NsuW\"\
+        ><h3 class=\"zBAuLc\"><div class=\"BNeawe vvjwJb AP7Wnd\">Hello Tractor |\
+        \ Break Ground</div></h3><div class=\"BNeawe UPmit AP7Wnd\">hellotractor.com</div></a></div><div\
+        \ class=\"x54gtf\"></div><div class=\"kCrYT\"><div><div class=\"BNeawe s3v9rd\
+        \ AP7Wnd\"><div><div><div class=\"BNeawe s3v9rd AP7Wnd\">Hello Tractor's award-winning\
+        \ software helps agricultural equipment dealers, banks, owners and farmers\
+        \ earn more. Data from our IoT fleet management platform,\_...</div></div></div></div></div></div></div></div><div><div\
+        \ class=\"ZINbbc xpd O9g5cc uUPGi\"><div></div><div class=\"mEUgP\"><span><div\
+        \ class=\"BNeawe\">Related searches</div></span></div><div class=\"x54gtf\"\
+        ></div><div><div class=\"gGQDvd iIWm4b\"><a class=\"Q71vJc\" href=\"/search?gbv=1&amp;q=Hello+meaning&amp;sa=X&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q1QIwJXoECAAQAg\"\
+        ><accordion-entry-search-icon><span class=\"ieB2Dd S003Ke ZoN4Lb z1asCe MZy1Rb\"\
+        \ style=\"height:20px;line-height:20px;width:20px\"><svg focusable=\"false\"\
+        \ xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 24 24\"><path d=\"M15.5\
+        \ 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59\
+        \ 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01\
+        \ 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z\"></path></svg></span></accordion-entry-search-icon><div\
+        \ class=\"kjGX2\"><span><div class=\"BNeawe s3v9rd AP7Wnd lRVwie\">Hello meaning</div></span></div></a></div></div><div\
+        \ class=\"x54gtf\"></div><div><div class=\"gGQDvd iIWm4b\"><a class=\"Q71vJc\"\
+        \ href=\"/search?gbv=1&amp;q=Hello+word&amp;sa=X&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q1QIwJnoECAAQBA\"\
+        ><accordion-entry-search-icon><span class=\"ieB2Dd S003Ke ZoN4Lb z1asCe MZy1Rb\"\
+        \ style=\"height:20px;line-height:20px;width:20px\"><svg focusable=\"false\"\
+        \ xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 24 24\"><path d=\"M15.5\
+        \ 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59\
+        \ 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01\
+        \ 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z\"></path></svg></span></accordion-entry-search-icon><div\
+        \ class=\"kjGX2\"><span><div class=\"BNeawe s3v9rd AP7Wnd lRVwie\">Hello word</div></span></div></a></div></div><div\
+        \ class=\"x54gtf\"></div><div><div class=\"gGQDvd iIWm4b\"><a class=\"Q71vJc\"\
+        \ href=\"/search?gbv=1&amp;q=HELLO+magazine&amp;sa=X&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q1QIwJ3oECAAQBg\"\
+        ><accordion-entry-search-icon><span class=\"ieB2Dd S003Ke ZoN4Lb z1asCe MZy1Rb\"\
+        \ style=\"height:20px;line-height:20px;width:20px\"><svg focusable=\"false\"\
+        \ xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 24 24\"><path d=\"M15.5\
+        \ 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59\
+        \ 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01\
+        \ 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z\"></path></svg></span></accordion-entry-search-icon><div\
+        \ class=\"kjGX2\"><span><div class=\"BNeawe s3v9rd AP7Wnd lRVwie\">HELLO magazine</div></span></div></a></div></div><div\
+        \ class=\"x54gtf\"></div><div><div class=\"gGQDvd iIWm4b\"><a class=\"Q71vJc\"\
+        \ href=\"/search?gbv=1&amp;q=Hello+definition&amp;sa=X&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q1QIwKHoECAAQCA\"\
+        ><accordion-entry-search-icon><span class=\"ieB2Dd S003Ke ZoN4Lb z1asCe MZy1Rb\"\
+        \ style=\"height:20px;line-height:20px;width:20px\"><svg focusable=\"false\"\
+        \ xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 24 24\"><path d=\"M15.5\
+        \ 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59\
+        \ 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01\
+        \ 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z\"></path></svg></span></accordion-entry-search-icon><div\
+        \ class=\"kjGX2\"><span><div class=\"BNeawe s3v9rd AP7Wnd lRVwie\">Hello definition</div></span></div></a></div></div><div\
+        \ class=\"x54gtf\"></div><div><div class=\"gGQDvd iIWm4b\"><a class=\"Q71vJc\"\
+        \ href=\"/search?gbv=1&amp;q=Hello+Neighbor&amp;sa=X&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q1QIwKXoECAAQCg\"\
+        ><accordion-entry-search-icon><span class=\"ieB2Dd S003Ke ZoN4Lb z1asCe MZy1Rb\"\
+        \ style=\"height:20px;line-height:20px;width:20px\"><svg focusable=\"false\"\
+        \ xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 24 24\"><path d=\"M15.5\
+        \ 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59\
+        \ 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01\
+        \ 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z\"></path></svg></span></accordion-entry-search-icon><div\
+        \ class=\"kjGX2\"><span><div class=\"BNeawe s3v9rd AP7Wnd lRVwie\">Hello Neighbor</div></span></div></a></div></div><div\
+        \ class=\"x54gtf\"></div><div><div class=\"gGQDvd iIWm4b\"><a class=\"Q71vJc\"\
+        \ href=\"/search?gbv=1&amp;q=Hello+Hello&amp;sa=X&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q1QIwKnoECAAQDA\"\
+        ><accordion-entry-search-icon><span class=\"ieB2Dd S003Ke ZoN4Lb z1asCe MZy1Rb\"\
+        \ style=\"height:20px;line-height:20px;width:20px\"><svg focusable=\"false\"\
+        \ xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 24 24\"><path d=\"M15.5\
+        \ 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59\
+        \ 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01\
+        \ 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z\"></path></svg></span></accordion-entry-search-icon><div\
+        \ class=\"kjGX2\"><span><div class=\"BNeawe s3v9rd AP7Wnd lRVwie\">Hello Hello</div></span></div></a></div></div><div\
+        \ class=\"x54gtf\"></div><div><div class=\"gGQDvd iIWm4b\"><a class=\"Q71vJc\"\
+        \ href=\"/search?gbv=1&amp;q=Hello+song&amp;sa=X&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q1QIwK3oECAAQDg\"\
+        ><accordion-entry-search-icon><span class=\"ieB2Dd S003Ke ZoN4Lb z1asCe MZy1Rb\"\
+        \ style=\"height:20px;line-height:20px;width:20px\"><svg focusable=\"false\"\
+        \ xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 24 24\"><path d=\"M15.5\
+        \ 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59\
+        \ 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01\
+        \ 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z\"></path></svg></span></accordion-entry-search-icon><div\
+        \ class=\"kjGX2\"><span><div class=\"BNeawe s3v9rd AP7Wnd lRVwie\">Hello song</div></span></div></a></div></div><div\
+        \ class=\"x54gtf\"></div><div><div class=\"gGQDvd iIWm4b\"><a class=\"Q71vJc\"\
+        \ href=\"/search?gbv=1&amp;q=Conkarah+Hello&amp;sa=X&amp;ved=2ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q1QIwLHoECAAQEA\"\
+        ><accordion-entry-search-icon><span class=\"ieB2Dd S003Ke ZoN4Lb z1asCe MZy1Rb\"\
+        \ style=\"height:20px;line-height:20px;width:20px\"><svg focusable=\"false\"\
+        \ xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 24 24\"><path d=\"M15.5\
+        \ 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59\
+        \ 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01\
+        \ 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z\"></path></svg></span></accordion-entry-search-icon><div\
+        \ class=\"kjGX2\"><span><div class=\"BNeawe s3v9rd AP7Wnd lRVwie\">Conkarah\
+        \ Hello</div></span></div></a></div></div></div></div><footer> <div>  <div\
+        \ class=\"ZINbbc xpd O9g5cc uUPGi BmP5tf\"><div class=\"nMymef MUxGbd lyLwlc\"\
+        ><a class=\"nBDE1b G5eFlf\" href=\"/search?q=Hello&amp;gbv=1&amp;ei=wbWZYLT1Mu-_3LUPj_6X6AE&amp;start=10&amp;sa=N\"\
+        \ aria-label=\"Next page\">Next &gt;</a></div></div> </div>  <div id=\"EOlPnc\"\
+        ><div class=\"Srfpq\"><span class=\"unknown_loc\"></span><span id=\"xxxXMc\"\
+        >Federal Capital Territory</span><span id=\"ttWoPb\">&nbsp;-&nbsp;</span><span>From\
+        \ your Internet address</span><span>&nbsp;-&nbsp;</span><a href=\"/url?q=https://support.google.com/websearch%3Fp%3Dws_settings_location%26hl%3Den-NG&amp;sa=U&amp;ved=0ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Qty4IggE&amp;usg=AOvVaw3cF-OqFwEiQC_f-_cbWcIO\"\
+        >Learn more</a></div><div><a href=\"/url?q=https://accounts.google.com/ServiceLogin%3Fcontinue%3Dhttps://www.google.com/search%253Fstart%253D0%2526q%253DHello%2526gbv%253D1%26hl%3Den&amp;sa=U&amp;ved=0ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Qxs8CCIMB&amp;usg=AOvVaw1_q0CcSke6LcCbMcAWUqR5\"\
+        >Sign in</a></div><div><a class=\"xeDNfc\" href=\"https://www.google.com/preferences?hl=en-NG&amp;fg=1&amp;sa=X&amp;ved=0ahUKEwj02ZPtlsDwAhXvH7cAHQ__BR0Q5fUCCIQB\"\
+        >Settings</a><a class=\"xeDNfc\" href=\"https://policies.google.com/privacy?hl=en-NG&amp;fg=1\"\
+        >Privacy</a><a class=\"xeDNfc\" href=\"https://policies.google.com/terms?hl=en-NG&amp;fg=1\"\
+        >Terms</a></div></div> </footer><script nonce=\"2cIjVIgEkvtovNxhOIPm7g==\"\
+        >(function(){\nfunction b(a){for(a=a.target||a.srcElement;a&&\"A\"!=a.nodeName;)a=a.parentElement;a&&(a.href||\"\
+        \").match(/\\/search.*[?&]tbm=isch/)&&(a.href+=\"&biw=\"+document.documentElement.clientWidth,a.href+=\"\
+        &bih=\"+document.documentElement.clientHeight)}document.addEventListener(\"\
+        click\",b,!1);document.addEventListener(\"touchStart\",b,!1);}).call(this);</script></div><!--\
+        \ cctlcm 5 cctlcm --><textarea class=\"csi\" name=\"csi\" style=\"display:none\"\
+        ></textarea><script nonce=\"2cIjVIgEkvtovNxhOIPm7g==\">(function(){var e='wbWZYLT1Mu-_3LUPj_6X6AE';var\
+        \ sn='web';(function(){\nfunction y(a){var c=coh,b=ioh;if(!a||z(a))return\
+        \ 0;if(!a.getBoundingClientRect)return 1;var d=function(f){return f.getBoundingClientRect()};return!1===c||!A(a,d)||b?H(a,d):0}function\
+        \ A(a,c){var b;a:{for(b=a;b&&null!==b;b=b.parentElement)if(\"hidden\"===b.style.overflow)break\
+        \ a;b=null}if(!b)return!1;a=c(a);c=c(b);return a.bottom<c.top||a.top>=c.bottom||a.right<c.left||a.left>=c.right}\n\
+        function z(a){return\"none\"===a.style.display?!0:document.defaultView&&document.defaultView.getComputedStyle?(a=document.defaultView.getComputedStyle(a),!!a&&(\"\
+        hidden\"===a.visibility||\"0px\"===a.height&&\"0px\"===a.width)):!1}\nfunction\
+        \ H(a,c){var b=c(a);a=b.left+window.pageXOffset;c=b.top+window.pageYOffset;var\
+        \ d=b.width;b=b.height;var f=0;if(0>=b&&0>=d)return f;var n=window.innerHeight||document.documentElement.clientHeight;0>c+b?f=2:c>=n&&(f=4);if(0>a+d||a>=(window.innerWidth||document.documentElement.clientWidth))f|=8;f||(f=1,c+b>n&&(f|=4));return\
+        \ f};var I=e,J=sn,K=[];function L(a,c,b){a=\"/gen_204?atyp=csi&s=\"+(J||\"\
+        web\")+\"&t=\"+a+(\"&lite=1&ei=\"+I+\"&conn=\"+(window.navigator&&window.navigator.connection?window.navigator.connection.type:-1)+c);c=\"\
+        &rt=\";for(var d in b)a+=\"\"+c+d+\".\"+b[d],c=\",\";return a}function M(a){a={prt:a};window.wsrt&&(a.wsrt=window.wsrt);return\
+        \ a}function N(a){window.ping?window.ping(a):(new Image).src=a}\n(function(){for(var\
+        \ a=(new Date).getTime()-window.start,c=M(a),b=0,d=0,f=0,n=document.getElementsByTagName(\"\
+        img\"),p=\"&imn=\"+n.length+\"&biw=\"+window.innerWidth+\"&bih=\"+window.innerHeight,O=function(h,q){h.onload=function(){d=(new\
+        \ Date).getTime()-window.start;q&&++u==f&&(b=d,B());h.onload=null}},B=function(){p+=\"\
+        &ima=\"+f;c.aft=b;N(L(\"aft\",p,c))},u=0,P=0,g=void 0;g=n[P++];){var r=y(g),t=!!(r&1);t&&++f;var\
+        \ m=g.hasAttribute(\"data-ilite\"),v=g.hasAttribute(\"data-deferred\")||m,C=g.getAttribute(\"\
+        data-src\")||\ng.getAttribute(\"data-lzysrc\");K.push([r,v,!v&&C,google.ldi&&g.id&&google.ldi[g.id]||m&&C]);m=(r=g.complete&&(m||!v))&&Number(g.getAttribute(\"\
+        data-iml\"))||0;r&&m?(t&&++u,m&&(g=m-window.start,t&&(b=Math.max(b,g)),d=Math.max(d,g))):O(g,t)}b||(b=a);d||(d=b);u==f&&B();google.rglh&&google.rglh();window.addEventListener(\"\
+        load\",function(){window.setTimeout(function(){c.ol=(new Date).getTime()-window.start;c.iml=d;var\
+        \ h=window.performance&&window.performance.timing;h&&(c.rqst=h.responseEnd-h.requestStart,c.rspt=h.responseEnd-h.responseStart);for(var\
+        \ q=h=0,D=0,E=0,F=0,Q=0,k;k=K[Q++];){var l=k[0],w=k[1],R=k[2];k=k[3];var S=0==l,x=l&8,G=l&4;l=1==l||2==l||x&&!G;!l||x||w&&!k||++D;w&&(l&&k&&++h,G&&!k&&++q);S||x?R||++F:w||++E}p+=\"\
+        &ime=\"+D+(\"&imex=\"+E+\"&imeh=\"+F)+(\"&imea=\"+h+\"&imeb=\"+q);N(L(\"all\"\
+        ,p,c))},0)},!1)})();}).call(this);})();</script><script nonce=\"2cIjVIgEkvtovNxhOIPm7g==\"\
+        >(function(){(function(){google.csct={};google.csct.ps='AOvVaw1c3VsdKF_8xIs1rznph02u\\\
+        x26ust\\x3d1620772673868008';})();})();(function(){(function(){google.csct.rd=true;})();})();google.drty&&google.drty();</script></body></html>"
+    headers:
+      Alt-Svc: h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443";
+        ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443";
+        ma=2592000; v="46,43"
+      Cache-Control: private, max-age=0
+      Content-Encoding: gzip
+      Content-Type: text/html; charset=UTF-8
+      Date: Mon, 10 May 2021 22:37:53 GMT
+      Expires: '-1'
+      P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+      Server: gws
+      Set-Cookie: NID=215=Z8xuay2BVPtxPeW5rfGf04Ru_EUe5b4JkCiwcENV3E3VqyKmqunwp_wXXkohidRUDacC9Z7z9zpvMbS2YPLNKXohq-R5Pc-FKTGo3hfu6VYjo_o6i1dWCbYTD_12jgONv93bLlc6YiaZbx27CAgH_waNEpJfyQyP8X2chVxb-II;
+        expires=Tue, 09-Nov-2021 22:37:53 GMT; path=/; domain=.google.com; Secure;
+        HttpOnly; SameSite=none
+      Transfer-Encoding: chunked
+      X-Frame-Options: SAMEORIGIN
+      X-XSS-Protection: '0'
+    status:
+      code: 200
+      message: OK
+    url: https://www.google.com/search?start=0&q=Hello&gbv=1
+version: 1

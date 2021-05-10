@@ -1,0 +1,1123 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      Cookie:
+      - prov=9f39e7b3-6857-d9c2-763d-8afccb0db0cd
+      Host:
+      - stackoverflow.com
+      User-Agent:
+      - Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2224.3
+        Safari/537.36
+    method: GET
+    uri: https://stackoverflow.com/nocaptcha?s=2ec00a50-d613-4b7c-a628-599d2bbe758b
+  response:
+    body:
+      string: "<!DOCTYPE html>\r\n\r\n\r\n    <html class=\"html__responsive  html__fixed-top-bar\"\
+        >\r\n\r\n    <head>\r\n\r\n        <title>Human verification - Stack Overflow</title>\r\
+        \n        <link rel=\"shortcut icon\" href=\"https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196\"\
+        >\r\n        <link rel=\"apple-touch-icon\" href=\"https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a\"\
+        >\r\n        <link rel=\"image_src\" href=\"https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a\"\
+        > \r\n        <link rel=\"search\" type=\"application/opensearchdescription+xml\"\
+        \ title=\"Stack Overflow\" href=\"/opensearch.xml\">\r\n        <meta name=\"\
+        viewport\" content=\"width=device-width, height=device-height, initial-scale=1.0,\
+        \ minimum-scale=1.0\">\r\n        <meta property=\"og:type\" content= \"website\"\
+        \ />\r\n        <meta property=\"og:url\" content=\"https://stackoverflow.com/nocaptcha?s=2ec00a50-d613-4b7c-a628-599d2bbe758b\"\
+        />\r\n        <meta property=\"og:site_name\" content=\"Stack Overflow\" />\r\
+        \n        <meta property=\"og:image\" itemprop=\"image primaryImageOfPage\"\
+        \ content=\"https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded\"\
+        \ />\r\n        <meta name=\"twitter:card\" content=\"summary\"/>\r\n    \
+        \    <meta name=\"twitter:domain\" content=\"stackoverflow.com\"/>\r\n   \
+        \     <meta name=\"twitter:title\" property=\"og:title\" itemprop=\"name\"\
+        \ content=\"Human verification\" />\r\n        <meta name=\"twitter:description\"\
+        \ property=\"og:description\" itemprop=\"description\" content=\"Stack Overflow\
+        \ | The World&#x2019;s Largest Online Community for Developers\" />\r\n\r\n\
+        \        <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js\"\
+        ></script>\r\n        <script src=\"https://cdn.sstatic.net/Js/stub.en.js?v=a7033288dbed\"\
+        ></script>\r\n    \r\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"\
+        https://cdn.sstatic.net/Shared/stacks.css?v=7099ce185e68\">\r\n        <link\
+        \ rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=d81f84368fef\"\
+        >\r\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=517135d20231\"\
+        >\r\n\r\n    \r\n        \r\n        \r\n        \r\n        <link rel=\"\
+        stylesheet\" type=\"text/css\" href=\"https://cdn.sstatic.net/Shared/Channels/channels.css?v=3586f8d1f1e0\"\
+        >\r\n        \r\n        \r\n        \r\n\r\n\r\n    <script>\r\n        StackExchange.init({\"\
+        locale\":\"en\",\"serverTime\":1620686515,\"routeName\":\"Captcha/NoCaptcha\"\
+        ,\"stackAuthUrl\":\"https://stackauth.com\",\"networkMetaHostname\":\"meta.stackexchange.com\"\
+        ,\"site\":{\"name\":\"Stack Overflow\",\"description\":\"Q&A for professional\
+        \ and enthusiast programmers\",\"isNoticesTabEnabled\":true,\"enableNewTagCreationWarning\"\
+        :true,\"insertSpaceAfterNameTabCompletion\":false,\"id\":1,\"cookieDomain\"\
+        :\".stackoverflow.com\",\"childUrl\":\"https://meta.stackoverflow.com\",\"\
+        styleCodeWithHighlightjs\":true,\"negativeVoteScoreFloor\":null,\"enableSocialMediaInSharePopup\"\
+        :true,\"protocol\":\"https\"},\"user\":{\"fkey\":\"51d79da96878129210a40413cf68fb07abb1da657ec9a851bf6296f1f96fdcf1\"\
+        ,\"tid\":\"9f39e7b3-6857-d9c2-763d-8afccb0db0cd\",\"rep\":0,\"isAnonymous\"\
+        :true,\"isAnonymousNetworkWide\":true},\"events\":{\"postType\":{\"question\"\
+        :1},\"postEditionSection\":{\"title\":1,\"body\":2,\"tags\":3}},\"story\"\
+        :{\"minCompleteBodyLength\":75,\"likedTagsMaxLength\":300,\"dislikedTagsMaxLength\"\
+        :300},\"jobPreferences\":{\"maxNumDeveloperRoles\":2,\"maxNumIndustries\"\
+        :4},\"svgIconPath\":\"https://cdn.sstatic.net/Img/stacks-icons\",\"svgIconHash\"\
+        :\"7eb510ec72e5\"}, {\"userProfile\":{\"openGraphAPIKey\":\"4a307e43-b625-49bb-af15-ffadf2bda017\"\
+        },\"userMessaging\":{\"showNewFeatureNotice\":true},\"tags\":{},\"subscriptions\"\
+        :{\"defaultBasicMaxTrueUpSeats\":250,\"defaultFreemiumMaxTrueUpSeats\":50,\"\
+        defaultMaxTrueUpSeats\":1000},\"snippets\":{\"renderDomain\":\"stacksnippets.net\"\
+        ,\"snippetsEnabled\":true},\"slack\":{\"sidebarAdDismissCookie\":\"slack-sidebar-ad\"\
+        ,\"sidebarAdDismissCookieExpirationDays\":60.0},\"site\":{\"allowImageUploads\"\
+        :true,\"enableImgurHttps\":true,\"enableUserHovercards\":true,\"forceHttpsImages\"\
+        :true,\"styleCode\":true},\"questions\":{\"enableQuestionTitleLengthLiveWarning\"\
+        :true,\"maxTitleSize\":150,\"questionTitleLengthStartLiveWarningChars\":50},\"\
+        intercom\":{\"appId\":\"inf0secd\",\"hostBaseUrl\":\"https://stacksnippets.net\"\
+        },\"paths\":{},\"monitoring\":{\"clientTimingsAbsoluteTimeout\":30000,\"clientTimingsDebounceTimeout\"\
+        :1000},\"mentions\":{\"maxNumUsersInDropdown\":50},\"markdown\":{\"enableTables\"\
+        :true},\"legal\":{\"oneTrustConfigId\":\"c3d9f1e3-55f3-4eba-b268-46cee4c6789c\"\
+        },\"flags\":{\"allowRetractingCommentFlags\":true,\"allowRetractingFlags\"\
+        :true},\"elections\":{\"opaVoteResultsBaseUrl\":\"https://www.opavote.com/results/\"\
+        },\"comments\":{},\"accounts\":{\"currentPasswordRequiredForChangingStackIdPassword\"\
+        :true}});\r\n        StackExchange.using.setCacheBreakers({\"js/adops.en.js\"\
+        :\"22a9bd59b1e9\",\"js/ask.en.js\":\"91b4450eec6e\",\"js/begin-edit-event.en.js\"\
+        :\"b6f47dd7a88c\",\"js/copy-transpiled.en.js\":\"b91817f36d7e\",\"js/cm.en.js\"\
+        :\"f6b0f217b5a2\",\"js/events.en.js\":\"cf2ee89fdd30\",\"js/explore-qlist.en.js\"\
+        :\"a6f836ff8aa6\",\"js/full-anon.en.js\":\"ce063be8eb11\",\"js/full.en.js\"\
+        :\"5ffb8a8e967d\",\"js/help.en.js\":\"2c6f9524a8ea\",\"js/highlightjs-loader.en.js\"\
+        :\"2daf53a7f3b7\",\"js/inline-tag-editing.en.js\":\"c94308b035ef\",\"js/keyboard-shortcuts.en.js\"\
+        :\"86e8f5eba107\",\"js/markdown-it-loader.en.js\":\"fa0a8b69601f\",\"js/modElections.en.js\"\
+        :\"55fc5818f6b0\",\"js/mobile.en.js\":\"ed3df618ee8f\",\"js/moderator.en.js\"\
+        :\"ff92a5eeadf0\",\"js/postCollections-transpiled.en.js\":\"844f16f7e0e9\"\
+        ,\"js/post-validation.en.js\":\"49b2ce29c217\",\"js/prettify-full.en.js\"\
+        :\"0a5e0e4cac9a\",\"js/question-editor.en.js\":\"\",\"js/review.en.js\":\"\
+        2aa278d53a5c\",\"js/review-v2-transpiled.en.js\":\"5a82478368a8\",\"js/revisions.en.js\"\
+        :\"b4e68bf9aff9\",\"js/stacks-editor.en.js\":\"2d53a15c3be9\",\"js/tageditor.en.js\"\
+        :\"fef4fb391b7f\",\"js/tageditornew.en.js\":\"af6b9d2ac2ec\",\"js/tagsuggestions.en.js\"\
+        :\"0e556bc8053b\",\"js/unlimited-transpiled.en.js\":\"e3fc7ffe664a\",\"js/wmd.en.js\"\
+        :\"d2d24485477d\",\"js/snippet-javascript-codemirror.en.js\":\"1d32d2fbd27d\"\
+        });\r\n        StackExchange.using(\"gps\", function() {\r\n             StackExchange.gps.init(false);\r\
+        \n        });\r\n    </script>\r\n    <noscript id=\"noscript-css\"><style>body,.top-bar{margin-top:1.9em}</style></noscript>\r\
+        \n    </head>\r\n    <body class=\"unified-theme\">\r\n    <div id=\"notify-container\"\
+        ></div>\r\n    <div id=\"custom-header\"></div>\r\n        \r\n<header class=\"\
+        top-bar js-top-bar top-bar__network\">\r\n    <div class=\"wmx12 mx-auto grid\
+        \ ai-center h100\" role=\"menubar\">\r\n        <div class=\"-main grid--cell\"\
+        >\r\n                <a href=\"#\" class=\"left-sidebar-toggle p0 ai-center\
+        \ jc-center js-left-sidebar-toggle\" role=\"menuitem\" aria-haspopup=\"true\"\
+        \ aria-controls=\"left-sidebar\" aria-expanded=\"false\"><span class=\"ps-relative\"\
+        ></span></a>\r\n                <div class=\"topbar-dialog leftnav-dialog\
+        \ js-leftnav-dialog dno\">\r\n                    <div class=\"left-sidebar\
+        \ js-unpinned-left-sidebar\" data-can-be=\"left-sidebar\" data-is-here-when=\"\
+        sm\"></div>\r\n                </div>\r\n                    <a href=\"https://stackoverflow.com\"\
+        \ class=\"-logo js-gps-track\"\r\n                        data-gps-track=\"\
+        top_nav.click({is_current:false, location:19, destination:8})\">\r\n     \
+        \                   <span class=\"-img _glyph\">Stack Overflow</span>\r\n\
+        \                    </a>\r\n\r\n\r\n\r\n        </div>\r\n\r\n          \
+        \  <ol class=\"list-reset grid gs4\" role=\"presentation\">\r\n\r\n      \
+        \              <li class=\"grid--cell md:d-none\">\r\n                   \
+        \     <a href=\"/company\" class=\"-marketing-link js-gps-track\"\r\n    \
+        \                       data-gps-track=\"top_nav.products.click({location:19,\
+        \ destination:7})\"\r\n                            data-ga=\"[&quot;top navigation&quot;,&quot;about\
+        \ menu click&quot;,null,null,null]\">About</a>\r\n                    </li>\r\
+        \n\r\n                <li class=\"grid--cell\">\r\n                    <a\
+        \ href=\"#\"\r\n                        class=\"-marketing-link js-gps-track\
+        \ js-products-menu\"\r\n                        aria-controls=\"products-popover\"\
+        \r\n                        data-controller=\"s-popover\"\r\n            \
+        \            data-action=\"s-popover#toggle\"\r\n                        data-s-popover-placement=\"\
+        bottom\"\r\n                        data-s-popover-toggle-class=\"is-selected\"\
+        \r\n                        data-gps-track=\"top_nav.products.click({location:19,\
+        \ destination:1})\"\r\n                        data-ga=\"[&quot;top navigation&quot;,&quot;products\
+        \ menu click&quot;,null,null,null]\">\r\n                        Products\r\
+        \n                    </a>\r\n                </li>\r\n\r\n              \
+        \      <li class=\"grid--cell md:d-none\">\r\n                        <a href=\"\
+        /teams\" class=\"-marketing-link js-gps-track\"\r\n                      \
+        \     data-gps-track=\"top_nav.products.click({location:19, destination:7})\"\
+        \r\n                            data-ga=\"[&quot;top navigation&quot;,&quot;learn\
+        \ more - teams&quot;,null,null,null]\">For Teams</a>\r\n                 \
+        \   </li>\r\n            </ol>\r\n            <div class=\"s-popover ws2 mtn2\
+        \ p0\"\r\n                    id=\"products-popover\"\r\n                \
+        \    role=\"menu\"\r\n                    aria-hidden=\"true\">\r\n      \
+        \          <div class=\"s-popover--arrow\"></div>\r\n                <ol class=\"\
+        list-reset s-anchors s-anchors__inherit\">\r\n                    <li class=\"\
+        m6\">\r\n                        <a href=\"/questions\" class=\"bar-sm p6\
+        \ d-block h:bg-black-100 js-gps-track\"\r\n                           data-gps-track=\"\
+        top_nav.products.click({location:19, destination:2})\"\r\n               \
+        \            data-ga=\"[&quot;top navigation&quot;,&quot;public qa submenu\
+        \ click&quot;,null,null,null]\">\r\n                            <span class=\"\
+        fs-body1 d-block\">Stack Overflow</span>\r\n                            <span\
+        \ class=\"fs-caption d-block fc-light\">Public questions &amp; answers</span>\r\
+        \n                        </a>\r\n                    </li>\r\n          \
+        \          <li class=\"m6\">\r\n                        <a href=\"/teams\"\
+        \ class=\"bar-sm p6 d-block h:bg-black-100 js-gps-track\"\r\n            \
+        \               data-gps-track=\"top_nav.products.click({location:19, destination:3})\"\
+        \r\n                           data-ga=\"[&quot;top navigation&quot;,&quot;teams\
+        \ submenu click&quot;,null,null,null]\">\r\n                            <span\
+        \ class=\"fs-body1 d-block\">Stack Overflow for Teams</span>\r\n         \
+        \                   <span class=\"fs-caption d-block fc-light\">Where developers\
+        \ &amp; technologists share private knowledge with coworkers</span>\r\n  \
+        \                      </a>\r\n                    </li>\r\n             \
+        \       <li class=\"m6\">\r\n                        <a href=\"/jobs?so_source=ProductsMenu&so_medium=StackOverflow\"\
+        \ class=\"bar-sm p6 d-block h:bg-black-100 js-gps-track\"\r\n            \
+        \                data-gps-track=\"top_nav.products.click({location:19, destination:9})\"\
+        \r\n                            data-ga=\"[&quot;top navigation&quot;,&quot;jobs\
+        \ submenu click&quot;,null,null,null]\">\r\n                            <span\
+        \ class=\"fs-body1 d-block\">Jobs</span>\r\n                            <span\
+        \ class=\"fs-caption d-block fc-light\">Programming &amp; related technical\
+        \ career opportunities</span>\r\n                        </a>\r\n        \
+        \            </li>\r\n                    <li class=\"m6\">\r\n          \
+        \              <a href=\"https://stackoverflow.com/talent\" class=\"bar-sm\
+        \ p6 d-block h:bg-black-100 js-gps-track\"\r\n                           data-gps-track=\"\
+        top_nav.products.click({location:19, destination:5})\"\r\n               \
+        \            data-ga=\"[&quot;top navigation&quot;,&quot;talent submenu click&quot;,null,null,null]\"\
+        >\r\n                            <span class=\"fs-body1 d-block\">Talent</span>\r\
+        \n                            <span class=\"fs-caption d-block fc-light\"\
+        >Recruit tech talent &amp; build your employer brand</span>\r\n          \
+        \              </a>\r\n                    </li>\r\n                    <li\
+        \ class=\"m6\">\r\n                        <a href=\"https://stackoverflow.com/advertising\"\
+        \ class=\"bar-sm p6 d-block h:bg-black-100 js-gps-track\"\r\n            \
+        \               data-gps-track=\"top_nav.products.click({location:19, destination:6})\"\
+        \r\n                           data-ga=\"[&quot;top navigation&quot;,&quot;advertising\
+        \ submenu click&quot;,null,null,null]\">\r\n                            <span\
+        \ class=\"fs-body1 d-block\">Advertising</span>\r\n                      \
+        \      <span class=\"fs-caption d-block fc-light\">Reach developers &amp;\
+        \ technologists worldwide</span>\r\n                        </a>\r\n     \
+        \               </li>\r\n                    <li class=\"bg-black-025 bt bc-black-075\
+        \ py6 px6 bbr-sm\">\r\n                        <a href=\"/company\" class=\"\
+        fc-light d-block py6 px6 h:fc-black-800 js-gps-track\"\r\n               \
+        \             data-gps-track=\"top_nav.products.click({location:19, destination:7})\"\
+        \r\n                            data-ga=\"[&quot;top navigation&quot;,&quot;about\
+        \ submenu click&quot;,null,null,null]\">About the company</a>\r\n        \
+        \            </li>\r\n                </ol>\r\n            </div>\r\n\r\n\
+        \            <form id=\"search\" role=\"search\" action=/search class=\"grid--cell\
+        \ fl-grow1 searchbar px12 js-searchbar \" autocomplete=\"off\">\r\n      \
+        \              <div class=\"ps-relative\">\r\n                        <input\
+        \ name=\"q\"\r\n                               type=\"text\"\r\n         \
+        \                      placeholder=\"Search&#x2026;\"\r\n                \
+        \               value=\"\"\r\n                               autocomplete=\"\
+        off\"\r\n                               maxlength=\"240\"\r\n            \
+        \                   class=\"s-input s-input__search js-search-field \"\r\n\
+        \                               aria-label=\"Search\"\r\n                \
+        \               aria-controls=\"top-search\" \r\n                        \
+        \       data-controller=\"s-popover\"\r\n                               data-action=\"\
+        focus->s-popover#show\"\r\n                               data-s-popover-placement=\"\
+        bottom-start\"/>\r\n                        <svg aria-hidden=\"true\" class=\"\
+        s-input-icon s-input-icon__search svg-icon iconSearch\" width=\"18\" height=\"\
+        18\" viewBox=\"0 0 18 18\"><path d=\"M18 16.5l-5.14-5.18h-.35a7 7 0 10-1.19\
+        \ 1.19v.35L16.5 18l1.5-1.5zM12 7A5 5 0 112 7a5 5 0 0110 0z\"/></svg>\r\n \
+        \                       <div class=\"s-popover p0 wmx100 wmn4 sm:wmn-initial\
+        \ js-top-search-popover\" id=\"top-search\" role=\"menu\">\r\n    <div class=\"\
+        s-popover--arrow\"></div>\r\n    <div class=\"js-spinner p24 grid ai-center\
+        \ jc-center d-none\">\r\n        <div class=\"s-spinner s-spinner__sm fc-orange-400\"\
+        >\r\n            <div class=\"v-visible-sr\">Loading&#x2026;</div>\r\n   \
+        \     </div>\r\n    </div>\r\n\r\n    <span class=\"v-visible-sr js-screen-reader-info\"\
+        ></span>\r\n    <div class=\"js-ac-results overflow-y-auto hmx3 d-none\"></div>\r\
+        \n\r\n    <div class=\"js-search-hints\" aria-describedby=\"Tips for searching\"\
+        ></div>\r\n</div>\r\n                    </div>\r\n            </form>\r\n\
+        \        \r\n        \r\n\r\n<ol class=\"overflow-x-auto ml-auto -secondary\
+        \ grid ai-center list-reset h100 user-logged-out\" role=\"presentation\">\r\
+        \n        <li class=\"-item searchbar-trigger\"><a href=\"#\" class=\"-link\
+        \ js-searchbar-trigger\" role=\"button\" aria-label=\"Search\" aria-haspopup=\"\
+        true\" aria-controls=\"search\" title=\"Click to show search\"><svg aria-hidden=\"\
+        true\" class=\"svg-icon iconSearch\" width=\"18\" height=\"18\" viewBox=\"\
+        0 0 18 18\"><path d=\"M18 16.5l-5.14-5.18h-.35a7 7 0 10-1.19 1.19v.35L16.5\
+        \ 18l1.5-1.5zM12 7A5 5 0 112 7a5 5 0 0110 0z\"/></svg></a></li>\r\n\r\n  \
+        \          <li class=\"-ctas\">\r\n                            <a href=\"\
+        https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2fnocaptcha\"\
+        \ class=\"login-link s-btn s-btn__filled py8 js-gps-track\" rel=\"nofollow\"\
+        \r\n                               data-gps-track=\"login.click\" data-ga=\"\
+        [&quot;top navigation&quot;,&quot;login button click&quot;,null,null,null]\"\
+        >Log in</a>\r\n                            <a href=\"https://stackoverflow.com/users/signup?ssrc=head&returnurl=%2fusers%2fstory%2fcurrent\"\
+        \ class=\"login-link s-btn s-btn__primary py8\" rel=\"nofollow\" data-ga=\"\
+        [&quot;sign up&quot;,&quot;Sign Up Navigation&quot;,&quot;Header&quot;,null,null]\"\
+        >Sign up</a>\r\n\r\n            </li>\r\n\r\n    <li class=\"js-topbar-dialog-corral\"\
+        \ role=\"presentation\">\r\n            \r\n\r\n    <div class=\"topbar-dialog\
+        \ siteSwitcher-dialog dno\" role=\"menu\">\r\n        <div class=\"header\"\
+        >\r\n            <h3>\r\n                <a href=\"https://stackoverflow.com\"\
+        >current community</a>\r\n            </h3>\r\n        </div>\r\n        <div\
+        \ class=\"modal-content bg-powder-050\">\r\n            <ul class=\"current-site\"\
+        >\r\n                    <li class=\"grid\">\r\n                         \
+        \   <div class=\"fl1\">\r\n                <a href=\"https://stackoverflow.com\"\
+        \r\n       class=\"current-site-link site-link js-gps-track grid gs8 gsx\"\
+        \r\n       data-id=\"1\"\r\n       data-gps-track=\"site_switcher.click({\
+        \ item_type:3 })\">\r\n        <div class=\"favicon favicon-stackoverflow\
+        \ site-icon grid--cell\" title=\"Stack Overflow\"></div>\r\n        <span\
+        \ class=\"grid--cell fl1\">\r\n            Stack Overflow\r\n        </span>\r\
+        \n    </a>\r\n\r\n    </div>\r\n    <div class=\"related-links\">\r\n    \
+        \        <a href=\"https://stackoverflow.com/help\" class=\"js-gps-track\"\
+        \ data-gps-track=\"site_switcher.click({ item_type:14 })\">help</a>\r\n  \
+        \          <a href=\"https://chat.stackoverflow.com/?tab=site&amp;host=stackoverflow.com\"\
+        \ class=\"js-gps-track\" data-gps-track=\"site_switcher.click({ item_type:6\
+        \ })\">chat</a>\r\n    </div>\r\n\r\n                    </li>\r\n       \
+        \             <li class=\"related-site grid\">\r\n                       \
+        \     <div class=\"L-shaped-icon-container\">\r\n        <span class=\"L-shaped-icon\"\
+        ></span>\r\n    </div>\r\n\r\n                            <a href=\"https://meta.stackoverflow.com\"\
+        \r\n       class=\" site-link js-gps-track grid gs8 gsx\"\r\n       data-id=\"\
+        552\"\r\n       data-gps-track=\"site.switch({ target_site:552, item_type:3\
+        \ }),site_switcher.click({ item_type:4 })\">\r\n        <div class=\"favicon\
+        \ favicon-stackoverflowmeta site-icon grid--cell\" title=\"Meta Stack Overflow\"\
+        ></div>\r\n        <span class=\"grid--cell fl1\">\r\n            Meta Stack\
+        \ Overflow\r\n        </span>\r\n    </a>\r\n\r\n                    </li>\r\
+        \n            </ul>\r\n        </div>\r\n\r\n        <div class=\"header\"\
+        \ id=\"your-communities-header\">\r\n            <h3>\r\nyour communities\
+        \            </h3>\r\n\r\n        </div>\r\n        <div class=\"modal-content\"\
+        \ id=\"your-communities-section\">\r\n\r\n                <div class=\"call-to-login\"\
+        >\r\n<a href=\"https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=%2fusers%2fstory%2fcurrent\"\
+        \ class=\"login-link js-gps-track\" data-gps-track=\"site_switcher.click({\
+        \ item_type:10 })\">Sign up</a> or <a href=\"https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fnocaptcha\"\
+        \ class=\"login-link js-gps-track\" data-gps-track=\"site_switcher.click({\
+        \ item_type:11 })\">log in</a> to customize your list.                </div>\r\
+        \n        </div>\r\n\r\n        <div class=\"header\">\r\n            <h3><a\
+        \ href=\"https://stackexchange.com/sites\">more stack exchange communities</a>\r\
+        \n            </h3>\r\n            <a href=\"https://stackoverflow.blog\"\
+        \ class=\"fr\">company blog</a>\r\n        </div>\r\n        <div class=\"\
+        modal-content\">\r\n                <div class=\"child-content\"></div>\r\n\
+        \        </div>        \r\n    </div>\r\n\r\n    </li>\r\n</ol>\r\n\r\n  \
+        \  </div>\r\n</header>\r\n\r\n    <script>\r\n        StackExchange.ready(function\
+        \ () { StackExchange.topbar.init(); });\r\nStackExchange.scrollPadding.setPaddingTop(50,\
+        \ 10);    </script>\r\n\r\n\r\n\r\n\r\n\r\n    <div class=\"container\">\r\
+        \n            \r\n\r\n\r\n<div id=\"left-sidebar\" data-is-here-when=\"md\
+        \ lg\" class=\"left-sidebar js-pinned-left-sidebar ps-relative\">\r\n    <div\
+        \ class=\"left-sidebar--sticky-container js-sticky-leftnav\">\r\n        <nav\
+        \ role=\"navigation\">\r\n            <ol class=\"nav-links\">\r\n       \
+        \ <li class=\"\">\r\n            <a\r\n               href=\"/\"\r\n     \
+        \          class=\"pl8 js-gps-track nav-links--link\"\r\n               \r\
+        \n               data-gps-track=\"top_nav.click({is_current:false, location:19,\
+        \ destination:8})\" \r\n               aria-controls=\"\" data-controller=\"\
+        \" data-s-popover-placement=\"right\">\r\n                    <div class=\"\
+        grid ai-center\">\r\n                        <div class=\"grid--cell truncate\"\
+        >\r\n                            Home\r\n                        </div>\r\n\
+        \                    </div>\r\n            </a>\r\n        </li>\r\n     \
+        \           <li>\r\n                    <ol class=\"nav-links\">\r\n     \
+        \                       <li class=\"fs-fine tt-uppercase ml8 mt16 mb4 fc-light\"\
+        >Public</li>\r\n\r\n        <li class=\"\">\r\n            <a id=\"nav-questions\"\
+        \r\n               href=\"/questions\"\r\n               class=\"pl8 js-gps-track\
+        \ nav-links--link -link__with-icon\"\r\n               \r\n              \
+        \ data-gps-track=\"top_nav.click({is_current:false, location:19, destination:1})\"\
+        \ \r\n               aria-controls=\"\" data-controller=\"\" data-s-popover-placement=\"\
+        right\">\r\n<svg aria-hidden=\"true\" class=\"svg-icon iconGlobe\" width=\"\
+        18\" height=\"18\" viewBox=\"0 0 18 18\"><path d=\"M9 1C4.64 1 1 4.64 1 9c0\
+        \ 4.36 3.64 8 8 8 4.36 0 8-3.64 8-8 0-4.36-3.64-8-8-8zM8 15.32a6.46 6.46 0\
+        \ 01-4.3-2.74 6.46 6.46 0 01-.93-5.01L7 11.68v.8c0 .88.12 1.32 1 1.32v1.52zm5.72-2c-.2-.66-1-1.32-1.72-1.32h-1v-2c0-.44-.56-1-1-1H6V7h1c.44\
+        \ 0 1-.56 1-1V5h2c.88 0 1.4-.72 1.4-1.6v-.33a6.45 6.45 0 013.83 4.51 6.45\
+        \ 6.45 0 01-1.51 5.73v.01z\"/></svg>                    <span class=\"-link--channel-name\"\
+        >Questions</span>\r\n            </a>\r\n        </li>\r\n\r\n        <li\
+        \ class=\"\">\r\n            <a id=\"nav-tags\"\r\n               href=\"\
+        /tags\"\r\n               class=\" js-gps-track nav-links--link\"\r\n    \
+        \           \r\n               data-gps-track=\"top_nav.click({is_current:false,\
+        \ location:19, destination:2})\" \r\n               aria-controls=\"\" data-controller=\"\
+        \" data-s-popover-placement=\"right\">\r\n                    <div class=\"\
+        grid ai-center\">\r\n                        <div class=\"grid--cell truncate\"\
+        >\r\n                            Tags\r\n                        </div>\r\n\
+        \                    </div>\r\n            </a>\r\n        </li>\r\n     \
+        \   <li class=\"\">\r\n            <a id=\"nav-users\"\r\n               href=\"\
+        /users\"\r\n               class=\" js-gps-track nav-links--link\"\r\n   \
+        \            \r\n               data-gps-track=\"top_nav.click({is_current:false,\
+        \ location:19, destination:3})\" \r\n               aria-controls=\"\" data-controller=\"\
+        \" data-s-popover-placement=\"right\">\r\n                    <div class=\"\
+        grid ai-center\">\r\n                        <div class=\"grid--cell truncate\"\
+        >\r\n                            Users\r\n                        </div>\r\
+        \n                    </div>\r\n            </a>\r\n        </li>\r\n    \
+        \                        <li class=\"fs-fine tt-uppercase ml8 mt16 mb4 fc-light\"\
+        >Find a Job</li>\r\n        <li class=\"\">\r\n            <a id=\"nav-jobs\"\
+        \r\n               href=\"/jobs?so_medium=StackOverflow&amp;so_source=SiteNav\"\
+        \r\n               class=\" js-gps-track nav-links--link\"\r\n           \
+        \    \r\n               data-gps-track=\"top_nav.click({is_current:false,\
+        \ location:19, destination:6})\" \r\n               aria-controls=\"\" data-controller=\"\
+        \" data-s-popover-placement=\"right\">\r\n                    <div class=\"\
+        grid ai-center\">\r\n                        <div class=\"grid--cell truncate\"\
+        >\r\n                            Jobs\r\n                        </div>\r\n\
+        \                    </div>\r\n            </a>\r\n        </li>\r\n     \
+        \   <li class=\"\">\r\n            <a id=\"nav-companies\"\r\n           \
+        \    href=\"/jobs/companies?so_medium=StackOverflow&amp;so_source=SiteNav\"\
+        \r\n               class=\" js-gps-track nav-links--link\"\r\n           \
+        \    \r\n               data-gps-track=\"top_nav.click({is_current:false,\
+        \ location:19, destination:12})\" \r\n               aria-controls=\"\" data-controller=\"\
+        \" data-s-popover-placement=\"right\">\r\n                    <div class=\"\
+        grid ai-center\">\r\n                        <div class=\"grid--cell truncate\"\
+        >\r\n                            Companies\r\n                        </div>\r\
+        \n                    </div>\r\n            </a>\r\n        </li>\r\n    \
+        \                </ol>\r\n                </li>\r\n                    <li>\r\
+        \n                        <ol class=\"nav-links\">\r\n                   \
+        \                 \r\n\r\n<div class=\"js-freemium-cta ps-relative\">\r\n\r\
+        \n    <div class=\"fs-fine tt-uppercase ml8 mt16 mb8 fc-light\">Teams</div>\r\
+        \n\r\n    <div class=\"bt bl bb bc-black-075 p12 pb6 fc-black-600 blr-sm overflow-hidden\"\
+        >\r\n        <strong class=\"fc-black-750 mb6\">Stack Overflow for Teams</strong>\r\
+        \n        \u2013 Collaborate and share knowledge with a private group.\r\n\
+        \        \r\n        <img class=\"wmx100 mx-auto my8 h-auto d-block\" width=\"\
+        139\" height=\"114\" src=\"https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg?v=47faa659a05e\"\
+        \ alt=\"\">\r\n\r\n        <a href=\"https://stackoverflow.com/teams/create/free?utm_source=so-owned&amp;utm_medium=side-bar&amp;utm_campaign=campaign-38&amp;utm_content=cta\"\
+        \ \r\n           class=\"w100 s-btn s-btn__primary s-btn__xs js-gps-track\"\
+        \r\n           data-gps-track=\"teams.create.left-sidenav.click({ Action:\
+        \ 6 })\"\r\n           data-ga=\"[&quot;teams left navigation - anonymous&quot;,&quot;left\
+        \ nav free cta&quot;,&quot;stackoverflow.com/teams/create/free&quot;,null,null]\"\
+        >Create a free Team</a>\r\n        <a href=\"https://stackoverflow.com/teams\"\
+        \ \r\n           class=\"w100 s-btn s-btn__muted s-btn__xs js-gps-track\"\r\
+        \n           data-gps-track=\"teams.create.left-sidenav.click({ Action: 5\
+        \ })\"\r\n           data-ga=\"[&quot;teams left navigation - anonymous&quot;,&quot;left\
+        \ nav free cta&quot;,&quot;stackoverflow.com/teams&quot;,null,null]\">What\
+        \ is Teams?</a>\r\n    </div>\r\n</div>\r\n\r\n                          \
+        \      <li class=\"grid ai-center jc-space-between ml8 mt24 mb4 js-create-team-cta\
+        \ d-none\">\r\n                                    <div class=\"grid--cell\
+        \ tt-uppercase fs-fine fc-light\">Teams</div>\r\n                        \
+        \            <div class=\"grid--cell fs-fine fc-light mr4\">\r\n         \
+        \                               <a href=\"javascript:void(0)\" class=\"s-link\
+        \ s-link__inherit js-gps-track\"\r\n                                     \
+        \       role=\"button\"\r\n                                            aria-controls=\"\
+        popover-teams-create-cta\"\r\n                                           \
+        \ data-controller=\"s-popover\"\r\n                                      \
+        \      data-action=\"s-popover#toggle\"\r\n                              \
+        \              data-s-popover-placement=\"bottom-start\"\r\n             \
+        \                               data-s-popover-toggle-class=\"is-selected\"\
+        \r\n                                            data-gps-track=\"teams.create.left-sidenav.click({\
+        \ Action: ShowInfo })\"\r\n                                            data-ga=\"\
+        [&quot;teams left navigation - anonymous&quot;,&quot;left nav show teams info&quot;,null,null,null]\"\
+        >\r\n                                            What&#x2019;s this?\r\n \
+        \                                       </a>\r\n\r\n                     \
+        \               </div>\r\n                                </li>\r\n      \
+        \                          <li class=\"ps-relative js-create-team-cta d-none\"\
+        >\r\n                                    <a href=\"https://stackoverflow.com/teams/create/free?utm_source=so-owned&amp;utm_medium=side-bar&amp;utm_campaign=campaign-38&amp;utm_content=cta\"\
+        \r\n                                       class=\"pl8 js-gps-track nav-links--link\"\
+        \r\n                                       title=\"Stack Overflow for Teams\
+        \ is a private, secure spot for your organization's questions and answers.\"\
+        \r\n                                       data-gps-track=\"teams.create.left-sidenav.click({\
+        \ Action: FreemiumTeamsCreateClick })\"\r\n                              \
+        \         data-ga=\"[&quot;teams left navigation - anonymous&quot;,&quot;left\
+        \ nav team click&quot;,&quot;stackoverflow.com/teams/create/free&quot;,null,null]\"\
+        >\r\n                                        <div class=\"grid ai-center\"\
+        >\r\n                                            <div class=\"grid--cell s-avatar\
+        \ va-middle bg-orange-400\">\r\n                                         \
+        \       <div class=\"s-avatar--letter mtn1\">\r\n                        \
+        \                            <svg aria-hidden=\"true\" class=\"svg-icon iconBriefcaseSm\"\
+        \ width=\"14\" height=\"14\" viewBox=\"0 0 14 14\"><path d=\"M4 3a1 1 0 011-1h4a1\
+        \ 1 0 011 1v1h.5c.83 0 1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5h-7A1.5 1.5 0\
+        \ 012 10.5v-5C2 4.67 2.67 4 3.5 4H4V3zm5 1V3H5v1h4z\"/></svg>\r\n        \
+        \                                        </div>\r\n                      \
+        \                          <svg aria-hidden=\"true\" class=\"native s-avatar--badge\
+        \ svg-icon iconShieldXSm\" width=\"9\" height=\"10\" viewBox=\"0 0 9 10\"\
+        ><path d=\"M0 1.84L4.5 0 9 1.84v3.17C9 7.53 6.3 10 4.5 10 2.7 10 0 7.53 0\
+        \ 5.01V1.84z\" fill=\"var(--white)\"/><path d=\"M1 2.5L4.5 1 8 2.5v2.51C8\
+        \ 7.34 5.34 9 4.5 9 3.65 9 1 7.34 1 5.01V2.5zm2.98 3.02L3.2 7h2.6l-.78-1.48a.4.4\
+        \ 0 01.15-.38c.34-.24.73-.7.73-1.14 0-.71-.5-1.23-1.41-1.23-.92 0-1.39.52-1.39\
+        \ 1.23 0 .44.4.9.73 1.14.12.08.18.23.15.38z\" fill=\"var(--black-500)\"/></svg>\r\
+        \n                                            </div>\r\n                 \
+        \                           <div class=\"grid--cell pl6\">\r\n           \
+        \                                     Create free Team\r\n               \
+        \                             </div>\r\n                                 \
+        \       </div>\r\n                                    </a>\r\n           \
+        \                     </li>\r\n                        </ol>\r\n         \
+        \           </li>\r\n            </ol>\r\n        </nav>\r\n    </div>\r\n\
+        \r\n\r\n\r\n        <div class=\"s-popover\"\r\n             id=\"popover-teams-create-cta\"\
+        \r\n             role=\"menu\"\r\n             aria-hidden=\"true\">\r\n \
+        \           <div class=\"s-popover--arrow\"></div>\r\n\r\n            <div\
+        \ class=\"ps-relative overflow-hidden\">\r\n                <p class=\"mb2\"\
+        ><strong>Teams</strong></p>\r\n                <p class=\"mb12 fs-caption\
+        \ fc-black-400\">Q&amp;A for work</p>\r\n                <p class=\"mb12 fs-caption\
+        \ fc-medium\">Connect and share knowledge within a single location that is\
+        \ structured and easy to search.</p>\r\n                <a href=\"https://stackoverflow.com/teams\"\
+        \r\n                   class=\"js-gps-track s-btn s-btn__primary s-btn__xs\"\
+        \r\n                   data-gps-track=\"teams.create.left-sidenav.click({\
+        \ Action: CtaClick })\"\r\n                   data-ga=\"[&quot;teams left\
+        \ navigation - anonymous&quot;,&quot;left nav cta&quot;,&quot;stackoverflow.com/teams&quot;,null,null]\"\
+        >\r\n                    Learn more\r\n                </a>\r\n          \
+        \  </div>\r\n\r\n            <div class=\"ps-absolute t8 r8\">\r\n       \
+        \         <svg aria-hidden=\"true\" class=\"fc-orange-500 svg-spot spotPeople\"\
+        \ width=\"48\" height=\"48\" viewBox=\"0 0 48 48\"><path d=\"M13.5 28a4.5\
+        \ 4.5 0 100-9 4.5 4.5 0 000 9zM7 30a1 1 0 011-1h11a1 1 0 011 1v5h11v-5a1 1\
+        \ 0 011-1h12a1 1 0 011 1v10a2 2 0 01-2 2H33v5a1 1 0 01-1 1H20a1 1 0 01-1-1v-5H8a1\
+        \ 1 0 01-1-1V30zm25-6.5a4.5 4.5 0 109 0 4.5 4.5 0 00-9 0zM24.5 34a4.5 4.5\
+        \ 0 100-9 4.5 4.5 0 000 9z\" opacity=\".2\"/><path d=\"M16.4 26.08A6 6 0 107.53\
+        \ 26C5.64 26.06 4 27.52 4 29.45V40a1 1 0 001 1h9a1 1 0 100-2h-4v-7a1 1 0 10-2\
+        \ 0v7H6v-9.55c0-.73.67-1.45 1.64-1.45H16a1 1 0 00.4-1.92zM12 18a4 4 0 110\
+        \ 8 4 4 0 010-8zm16.47 14a6 6 0 10-8.94 0A3.6 3.6 0 0016 35.5V46a1 1 0 001\
+        \ 1h14a1 1 0 001-1V35.5c0-1.94-1.64-3.42-3.53-3.5zM20 28a4 4 0 118 0 4 4 0\
+        \ 01-8 0zm-.3 6h8.6c1 0 1.7.75 1.7 1.5V45h-2v-7a1 1 0 10-2 0v7h-4v-7a1 1 0\
+        \ 10-2 0v7h-2v-9.5c0-.75.7-1.5 1.7-1.5zM42 22c0 1.54-.58 2.94-1.53 4A3.5 3.5\
+        \ 0 0144 29.45V40a1 1 0 01-1 1h-9a1 1 0 110-2h4v-7a1 1 0 112 0v7h2v-9.55A1.5\
+        \ 1.5 0 0040.48 28H32a1 1 0 01-.4-1.92A6 6 0 1142 22zm-2 0a4 4 0 10-8 0 4\
+        \ 4 0 008 0z\"/><path d=\"M17 10a1 1 0 011-1h12a1 1 0 110 2H18a1 1 0 01-1-1zm1-5a1\
+        \ 1 0 100 2h12a1 1 0 100-2H18zm-4-4a1 1 0 00-1 1v12a1 1 0 001 1h5.09l4.2 4.2a1\
+        \ 1 0 001.46-.04l3.7-4.16H34a1 1 0 001-1V2a1 1 0 00-1-1H14zm1 12V3h18v10h-5a1\
+        \ 1 0 00-.75.34l-3.3 3.7-3.74-3.75a1 1 0 00-.71-.29H15z\" opacity=\".35\"\
+        /></svg>\r\n            </div>\r\n        </div>\r\n\r\n</div>\r\n\r\n\r\n\
+        \r\n        <div id=\"content\" class=\"snippet-hidden\">\r\n\r\n        \
+        \    \r\n\r\n<div class=\"grid grid__center w100 h100\">\r\n    <div class=\"\
+        grid ai-center jc-center gs32 md:fd-column\">\r\n        <div class=\"grid--cell\
+        \ sm:d-none\">\r\n            <img class=\"wmx100\" src=\"https://cdn.sstatic.net/Sites/stackoverflow/img/captcha.svg\"\
+        \ alt=\"The Humans Are Dead by the Flight of the Conchords\">\r\n        </div>\r\
+        \n        <div class=\"grid--cell wmx5\">\r\n            <h1 class=\"fs-headline1\
+        \ mb12\">Human verification</h1>\r\n            <div class=\"fs-body2 mb24\"\
+        >\r\n    <p><b>Are you a human being?</b> We apologize for the confusion,\
+        \ but we can&#39;t <i>quite</i> tell if you&#39;re a person or a script. Please\
+        \ don&#39;t take this personally. Bots and scripts can be remarkably lifelike\
+        \ these days!</p>\r\n    <p>Check the <a href='http://en.wikipedia.org/wiki/Captcha'\
+        \ target='_blank' rel='noreferrer'>CAPTCHA</a> box, and we&#39;ll be out of\
+        \ your way.</p>\r\n</div>\r\n                <form method=\"post\" action=\"\
+        /nocaptcha?s=2ec00a50-d613-4b7c-a628-599d2bbe758b\" id=\"nocaptcha-form\"\
+        >\r\n                    \r\n\r\n<script type=\"text/javascript\">\r\n   \
+        \ var onloadCallback = function () {\r\n        grecaptcha.render('no-captcha-here',\
+        \ {\r\n            'sitekey': '6Lfmm70ZAAAAADvPzM6OhZ8Adi40-78E-aYfc1ZS',\r\
+        \n            'size': 'compact',\r\n\r\n                'callback': function()\
+        \ {\r\n                    $('#nocaptcha-form').submit();\r\n            \
+        \    },\r\n                        });\r\n    };\r\n</script>\r\n\r\n<div\
+        \ id=\"no-captcha-here\"></div>\r\n<noscript>\r\n    <div>\r\n        <div\
+        \ style=\"width: 302px; height: 422px; position: relative;\">\r\n        \
+        \    <div style=\"width: 302px; height: 422px; position: absolute;\">\r\n\
+        \                <iframe src=\"https://www.google.com/recaptcha/api/fallback?k=6Lfmm70ZAAAAADvPzM6OhZ8Adi40-78E-aYfc1ZS\"\
+        \r\n                        frameborder=\"0\" scrolling=\"no\"\r\n       \
+        \                 style=\"width: 302px; height:422px; border-style: none;\"\
+        ></iframe>\r\n            </div>\r\n        </div>\r\n        <div style=\"\
+        width: 300px; height: 60px; border-style: none;\r\n                      \
+        \                  bottom: 12px; left: 25px; margin: 0px; padding: 0px; right:\
+        \ 25px;\r\n                                        background: #f9f9f9; border:\
+        \ 1px solid #c1c1c1; border-radius: 3px;\">\r\n            <textarea id=\"\
+        g-recaptcha-response\" name=\"g-recaptcha-response\"\r\n                 \
+        \       class=\"g-recaptcha-response\"\r\n                        style=\"\
+        width: 250px; height: 40px; border: 1px solid #c1c1c1;\r\n               \
+        \                                 margin: 10px 25px; padding: 0px; resize:\
+        \ none;\">\r\n                            </textarea>\r\n        </div>\r\n\
+        \    </div>\r\n    <button class=\"s-btn s-btn__primary\" id=\"submit-nocaptcha-noscript\"\
+        >Submit</button>\r\n</noscript>\r\n\r\n<div class=\"js-auth-item\">\r\n  \
+        \  <div class=\"js-catpcha-error-container\">\r\n        <p class=\"s-input-message\
+        \ m0 p0 js-error-message\"></p>\r\n    </div>\r\n</div>\r\n\r\n<script src=\"\
+        https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit&hl=en\"\
+        \ async defer></script>\r\n                </form>\r\n        </div>\r\n \
+        \   </div>\r\n</div>\r\n\r\n        </div>\r\n    </div>\r\n\r\n         \
+        \   <footer id=\"footer\" class=\"site-footer js-footer\" role=\"contentinfo\"\
+        >\r\n        <div class=\"site-footer--container\">\r\n                <div\
+        \ class=\"site-footer--logo\">\r\n                    \r\n               \
+        \     <a href=\"https://stackoverflow.com\"><svg aria-hidden=\"true\" class=\"\
+        native svg-icon iconLogoGlyphMd\" width=\"32\" height=\"37\" viewBox=\"0 0\
+        \ 32 37\"><path d=\"M26 33v-9h4v13H0V24h4v9h22z\" fill=\"#BCBBBB\"/><path\
+        \ d=\"M21.5 0l-2.7 2 9.9 13.3 2.7-2L21.5 0zM26 18.4L13.3 7.8l2.1-2.5 12.7\
+        \ 10.6-2.1 2.5zM9.1 15.2l15 7 1.4-3-15-7-1.4 3zm14 10.79l.68-2.95-16.1-3.35L7\
+        \ 23l16.1 2.99zM23 30H7v-3h16v3z\" fill=\"#F48024\"/></svg></a>\r\n      \
+        \          </div>\r\n            <nav class=\"site-footer--nav\">\r\n    \
+        \                <div class=\"site-footer--col site-footer--col__visible js-footer-col\"\
+        \ data-name=\"default\">\r\n                        <h5 class=\"-title\"><a\
+        \ href=\"https://stackoverflow.com\" class=\"js-gps-track\" data-gps-track=\"\
+        footer.click({ location: 19, link: 15})\">Stack Overflow</a></h5>\r\n    \
+        \                    <ul class=\"-list js-primary-footer-links\">\r\n    \
+        \                        <li class=\"-item\"><a href=\"/questions\" class=\"\
+        js-gps-track -link\" data-gps-track=\"footer.click({ location: 19, link: 16})\"\
+        >Questions</a></li>\r\n                                <li class=\"-item\"\
+        ><a href=\"https://stackoverflow.com/jobs\" class=\"js-gps-track -link\" data-gps-track=\"\
+        footer.click({ location: 19, link: 17})\">Jobs</a></li>\r\n              \
+        \                  <li class=\"-item\"><a href=\"https://stackoverflow.com/jobs/directory/developer-jobs\"\
+        \ class=\"js-gps-track -link\" data-gps-track=\"footer.click({ location: 19,\
+        \ link: 11})\">Developer Jobs Directory</a></li>\r\n                     \
+        \                <li class=\"-item\"><a href=\"https://stackoverflow.com/jobs/salary\"\
+        \ class=\"js-gps-track -link\" data-gps-track=\"footer.click({ location: 19,\
+        \ link: 28})\">Salary Calculator</a></li>\r\n                            \
+        \    <li class=\"-item\"><a href=\"/help\" class=\"js-gps-track -link\" data-gps-track=\"\
+        footer.click({ location: 19, link: 3 })\">Help</a></li>\r\n              \
+        \                  <li class=\"-item\"><a onclick='StackExchange.switchMobile(\"\
+        on\")' class=\"js-gps-track -link\" data-gps-track=\"footer.click({ location:\
+        \ 19, link: 12 })\">Mobile</a></li>\r\n                        </ul>\r\n \
+        \                   </div>\r\n                    <div class=\"site-footer--col\
+        \ site-footer--col__visible js-footer-col\" data-name=\"default\">\r\n   \
+        \                     <h5 class=\"-title\"><a href=\"https://stackoverflowbusiness.com\"\
+        \ class=\"js-gps-track\" data-gps-track=\"footer.click({ location: 19, link:\
+        \ 19 })\">Products</a></h5>\r\n                        <ul class=\"-list\"\
+        >\r\n                            <li class=\"-item\"><a href=\"https://stackoverflow.com/teams\"\
+        \ class=\"js-gps-track -link\" \r\n                                      \
+        \           data-ga=\"[&quot;teams traffic&quot;,&quot;footer - site nav&quot;,&quot;stackoverflow.com/teams&quot;,null,{&quot;dimension4&quot;:&quot;teams&quot;}]\"\
+        \r\n                                                 data-gps-track=\"footer.click({\
+        \ location: 19, link: 29 })\">Teams</a></li>\r\n                         \
+        \   <li class=\"-item\"><a href=\"https://stackoverflow.com/talent\" class=\"\
+        js-gps-track -link\" data-gps-track=\"footer.click({ location: 19, link: 20\
+        \ })\">Talent</a></li>\r\n                            <li class=\"-item\"\
+        ><a href=\"https://stackoverflow.com/advertising\" class=\"js-gps-track -link\"\
+        \ data-gps-track=\"footer.click({ location: 19, link: 21 })\">Advertising</a></li>\r\
+        \n                            <li class=\"-item\"><a href=\"https://stackoverflow.com/enterprise\"\
+        \ class=\"js-gps-track -link\" data-gps-track=\"footer.click({ location: 19,\
+        \ link: 22 })\">Enterprise</a></li>\r\n                        </ul>\r\n \
+        \                   </div>\r\n                <div class=\"site-footer--col\
+        \ site-footer--col__visible js-footer-col\" data-name=\"default\">\r\n   \
+        \                 <h5 class=\"-title\"><a class=\"js-gps-track\" data-gps-track=\"\
+        footer.click({ location: 19, link: 1 })\" href=\"https://stackoverflow.com/company\"\
+        >Company</a></h5>\r\n                    <ul class=\"-list\">\r\n        \
+        \                    <li class=\"-item\"><a class=\"js-gps-track -link\" data-gps-track=\"\
+        footer.click({ location: 19, link: 1 })\" href=\"https://stackoverflow.com/company\"\
+        >About</a></li>\r\n                        <li class=\"-item\"><a class=\"\
+        js-gps-track -link\" data-gps-track=\"footer.click({ location: 19, link: 27\
+        \ })\" href=\"https://stackoverflow.com/company/press\">Press</a></li>\r\n\
+        \                            <li class=\"-item\"><a class=\"js-gps-track -link\"\
+        \ data-gps-track=\"footer.click({ location: 19, link: 9 })\" href=\"https://stackoverflow.com/company/work-here\"\
+        >Work Here</a></li>\r\n                        <li class=\"-item\"><a class=\"\
+        js-gps-track -link\" data-gps-track=\"footer.click({ location: 19, link: 7\
+        \ })\" href=\"https://stackoverflow.com/legal\">Legal</a></li>\r\n       \
+        \                 <li class=\"-item\"><a class=\"js-gps-track -link\" data-gps-track=\"\
+        footer.click({ location: 19, link: 8 })\" href=\"https://stackoverflow.com/legal/privacy-policy\"\
+        >Privacy Policy</a></li>\r\n                        <li class=\"-item\"><a\
+        \ class=\"js-gps-track -link\" data-gps-track=\"footer.click({ location: 19,\
+        \ link: 37 })\" href=\"https://stackoverflow.com/legal/terms-of-service\"\
+        >Terms of Service</a></li>\r\n                            <li class=\"-item\"\
+        ><a class=\"js-gps-track -link\" data-gps-track=\"footer.click({ location:\
+        \ 19, link: 13 })\" href=\"https://stackoverflow.com/company/contact\">Contact\
+        \ Us</a></li>\r\n                            <li class=\"-item\" id=\"consent-footer-link\"\
+        ><a class=\"js-gps-track -link js-cookie-settings\" data-gps-track=\"footer.click({\
+        \ location: 19, link: 38 })\" href=\"#\" data-consent-popup-loader=\"footer\"\
+        >Cookie Settings</a></li>\r\n                        <li class=\"-item\"><a\
+        \ class=\"js-gps-track -link\" data-gps-track=\"footer.click({ location: 19,\
+        \ link: 39 })\" href=\"https://stackoverflow.com/legal/cookie-policy\">Cookie\
+        \ Policy</a></li>\r\n                    </ul>\r\n                </div>\r\
+        \n                <div class=\"site-footer--col site-footer--categories-nav\
+        \ site-footer--col__visible\">\r\n                    <a href=\"#\" class=\"\
+        site-footer--back js-footer-back\"><svg aria-hidden=\"true\" class=\"svg-icon\
+        \ iconArrowLeftAlt\" width=\"18\" height=\"18\" viewBox=\"0 0 18 18\"><path\
+        \ d=\"M10.58 16L12 14.59 6.4 9 12 3.41 10.57 2l-7 7 7 7z\"/></svg></a>\r\n\
+        \                    <div>\r\n                        <h5 class=\"-title\"\
+        ><a href=\"https://stackexchange.com\" data-gps-track=\"footer.click({ location:\
+        \ 19, link: 30 })\">Stack Exchange<br> Network</a></h5>\r\n              \
+        \          <ul class=\"-list\">\r\n                            <li class=\"\
+        -item\"><a href=\"#\" class=\"-link _expandable js-footer-category-trigger\
+        \ js-gps-track\" data-gps-track=\"footer.click({ location: 19, link: 24 })\"\
+        \ data-target=\"Technology\">Technology</a></li>\r\n                     \
+        \       <li class=\"-item\"><a href=\"#\" class=\"-link _expandable js-footer-category-trigger\
+        \ js-gps-track\" data-gps-track=\"footer.click({ location: 19, link: 24 })\"\
+        \ data-target=\"Life / Arts\">Life / Arts</a></li>\r\n                   \
+        \         <li class=\"-item\"><a href=\"#\" class=\"-link _expandable js-footer-category-trigger\
+        \ js-gps-track\" data-gps-track=\"footer.click({ location: 19, link: 24 })\"\
+        \ data-target=\"Culture / Recreation\">Culture / Recreation</a></li>\r\n \
+        \                           <li class=\"-item\"><a href=\"#\" class=\"-link\
+        \ _expandable js-footer-category-trigger js-gps-track\" data-gps-track=\"\
+        footer.click({ location: 19, link: 24 })\" data-target=\"Science\">Science</a></li>\r\
+        \n                            <li class=\"-item\"><a href=\"#\" class=\"-link\
+        \ _expandable js-footer-category-trigger js-gps-track\" data-gps-track=\"\
+        footer.click({ location: 19, link: 24 })\" data-target=\"Other\">Other</a></li>\r\
+        \n                        </ul>\r\n                    </div>\r\n        \
+        \        </div>\r\n                <div class=\"site-footer--categories\"\
+        >\r\n                        <div class=\"site-footer--col site-footer--category\
+        \ js-footer-col\" data-name=\"Technology\">\r\n        <ul class=\"-list\"\
+        >\r\n                <li class=\"-item\"><a href=\"https://stackoverflow.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"professional and enthusiast programmers\">Stack Overflow</a></li>\r\
+        \n                <li class=\"-item\"><a href=\"https://serverfault.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"system and network administrators\">Server Fault</a></li>\r\
+        \n                <li class=\"-item\"><a href=\"https://superuser.com\" class=\"\
+        -link js-gps-track\" data-gps-track=\"footer.click({ location: 4, link: 25\
+        \ })\" title=\"computer enthusiasts and power users\">Super User</a></li>\r\
+        \n                <li class=\"-item\"><a href=\"https://webapps.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"power users of web applications\">Web Applications</a></li>\r\
+        \n                <li class=\"-item\"><a href=\"https://askubuntu.com\" class=\"\
+        -link js-gps-track\" data-gps-track=\"footer.click({ location: 4, link: 25\
+        \ })\" title=\"Ubuntu users and developers\">Ask Ubuntu</a></li>\r\n     \
+        \           <li class=\"-item\"><a href=\"https://webmasters.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"pro webmasters\">Webmasters</a></li>\r\n         \
+        \       <li class=\"-item\"><a href=\"https://gamedev.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"professional and independent game developers\">Game\
+        \ Development</a></li>\r\n                    </ul></div><div class=\"site-footer--col\
+        \ site-footer--category js-footer-col\" data-name=\"Technology\"><ul class=\"\
+        -list\">\r\n                <li class=\"-item\"><a href=\"https://tex.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"users of TeX, LaTeX, ConTeXt, and related typesetting\
+        \ systems\">TeX - LaTeX</a></li>\r\n                <li class=\"-item\"><a\
+        \ href=\"https://softwareengineering.stackexchange.com\" class=\"-link js-gps-track\"\
+        \ data-gps-track=\"footer.click({ location: 4, link: 25 })\" title=\"professionals,\
+        \ academics, and students working within the systems development life cycle\"\
+        >Software Engineering</a></li>\r\n                <li class=\"-item\"><a href=\"\
+        https://unix.stackexchange.com\" class=\"-link js-gps-track\" data-gps-track=\"\
+        footer.click({ location: 4, link: 25 })\" title=\"users of Linux, FreeBSD\
+        \ and other Un*x-like operating systems\">Unix &amp; Linux</a></li>\r\n  \
+        \              <li class=\"-item\"><a href=\"https://apple.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"power users of Apple hardware and software\">Ask Different\
+        \ (Apple)</a></li>\r\n                <li class=\"-item\"><a href=\"https://wordpress.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"WordPress developers and administrators\">WordPress\
+        \ Development</a></li>\r\n                <li class=\"-item\"><a href=\"https://gis.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"cartographers, geographers and GIS professionals\"\
+        >Geographic Information Systems</a></li>\r\n                <li class=\"-item\"\
+        ><a href=\"https://electronics.stackexchange.com\" class=\"-link js-gps-track\"\
+        \ data-gps-track=\"footer.click({ location: 4, link: 25 })\" title=\"electronics\
+        \ and electrical engineering professionals, students, and enthusiasts\">Electrical\
+        \ Engineering</a></li>\r\n                    </ul></div><div class=\"site-footer--col\
+        \ site-footer--category js-footer-col\" data-name=\"Technology\"><ul class=\"\
+        -list\">\r\n                <li class=\"-item\"><a href=\"https://android.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"enthusiasts and power users of the Android operating\
+        \ system\">Android Enthusiasts</a></li>\r\n                <li class=\"-item\"\
+        ><a href=\"https://security.stackexchange.com\" class=\"-link js-gps-track\"\
+        \ data-gps-track=\"footer.click({ location: 4, link: 25 })\" title=\"information\
+        \ security professionals\">Information Security</a></li>\r\n             \
+        \   <li class=\"-item\"><a href=\"https://dba.stackexchange.com\" class=\"\
+        -link js-gps-track\" data-gps-track=\"footer.click({ location: 4, link: 25\
+        \ })\" title=\"database professionals who wish to improve their database skills\
+        \ and learn from others in the community\">Database Administrators</a></li>\r\
+        \n                <li class=\"-item\"><a href=\"https://drupal.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"Drupal developers and administrators\">Drupal Answers</a></li>\r\
+        \n                <li class=\"-item\"><a href=\"https://sharepoint.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"SharePoint enthusiasts\">SharePoint</a></li>\r\n \
+        \               <li class=\"-item\"><a href=\"https://ux.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"user experience researchers and experts\">User Experience</a></li>\r\
+        \n                <li class=\"-item\"><a href=\"https://mathematica.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"users of Wolfram Mathematica\">Mathematica</a></li>\r\
+        \n                    </ul></div><div class=\"site-footer--col site-footer--category\
+        \ js-footer-col\" data-name=\"Technology\"><ul class=\"-list\">\r\n      \
+        \          <li class=\"-item\"><a href=\"https://salesforce.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"Salesforce administrators, implementation experts,\
+        \ developers and anybody in-between\">Salesforce</a></li>\r\n            \
+        \    <li class=\"-item\"><a href=\"https://expressionengine.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"administrators, end users, developers and designers\
+        \ for ExpressionEngine&#xAE; CMS\">ExpressionEngine&#xAE; Answers</a></li>\r\
+        \n                <li class=\"-item\"><a href=\"https://pt.stackoverflow.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"programadores profissionais e entusiastas\">Stack\
+        \ Overflow em Portugu&#xEA;s</a></li>\r\n                <li class=\"-item\"\
+        ><a href=\"https://blender.stackexchange.com\" class=\"-link js-gps-track\"\
+        \ data-gps-track=\"footer.click({ location: 4, link: 25 })\" title=\"people\
+        \ who use Blender to create 3D graphics, animations, or games\">Blender</a></li>\r\
+        \n                <li class=\"-item\"><a href=\"https://networkengineering.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"network engineers\">Network Engineering</a></li>\r\
+        \n                <li class=\"-item\"><a href=\"https://crypto.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"software developers, mathematicians and others interested\
+        \ in cryptography\">Cryptography</a></li>\r\n                <li class=\"\
+        -item\"><a href=\"https://codereview.stackexchange.com\" class=\"-link js-gps-track\"\
+        \ data-gps-track=\"footer.click({ location: 4, link: 25 })\" title=\"peer\
+        \ programmer code reviews\">Code Review</a></li>\r\n                    </ul></div><div\
+        \ class=\"site-footer--col site-footer--category js-footer-col\" data-name=\"\
+        Technology\"><ul class=\"-list\">\r\n                <li class=\"-item\"><a\
+        \ href=\"https://magento.stackexchange.com\" class=\"-link js-gps-track\"\
+        \ data-gps-track=\"footer.click({ location: 4, link: 25 })\" title=\"users\
+        \ of the Magento e-Commerce platform\">Magento</a></li>\r\n              \
+        \  <li class=\"-item\"><a href=\"https://softwarerecs.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"people seeking specific software recommendations\"\
+        >Software Recommendations</a></li>\r\n                <li class=\"-item\"\
+        ><a href=\"https://dsp.stackexchange.com\" class=\"-link js-gps-track\" data-gps-track=\"\
+        footer.click({ location: 4, link: 25 })\" title=\"practitioners of the art\
+        \ and science of signal, image and video processing\">Signal Processing</a></li>\r\
+        \n                <li class=\"-item\"><a href=\"https://emacs.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"those using, extending or developing Emacs\">Emacs</a></li>\r\
+        \n                <li class=\"-item\"><a href=\"https://raspberrypi.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"users and developers of hardware and software for\
+        \ Raspberry Pi\">Raspberry Pi</a></li>\r\n                <li class=\"-item\"\
+        ><a href=\"https://ru.stackoverflow.com\" class=\"-link js-gps-track\" data-gps-track=\"\
+        footer.click({ location: 4, link: 25 })\" title=\"&#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x438;&#x441;&#x442;&#x43E;&#x432;\"\
+        >Stack Overflow &#x43D;&#x430; &#x440;&#x443;&#x441;&#x441;&#x43A;&#x43E;&#x43C;</a></li>\r\
+        \n                <li class=\"-item\"><a href=\"https://codegolf.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"programming puzzle enthusiasts and code golfers\"\
+        >Code Golf</a></li>\r\n                    </ul></div><div class=\"site-footer--col\
+        \ site-footer--category js-footer-col\" data-name=\"Technology\"><ul class=\"\
+        -list\">\r\n                <li class=\"-item\"><a href=\"https://es.stackoverflow.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"programadores y profesionales de la inform&#xE1;tica\"\
+        >Stack Overflow en espa&#xF1;ol</a></li>\r\n                <li class=\"-item\"\
+        ><a href=\"https://ethereum.stackexchange.com\" class=\"-link js-gps-track\"\
+        \ data-gps-track=\"footer.click({ location: 4, link: 25 })\" title=\"users\
+        \ of Ethereum, the decentralized application platform and smart contract enabled\
+        \ blockchain\">Ethereum</a></li>\r\n                <li class=\"-item\"><a\
+        \ href=\"https://datascience.stackexchange.com\" class=\"-link js-gps-track\"\
+        \ data-gps-track=\"footer.click({ location: 4, link: 25 })\" title=\"Data\
+        \ science professionals, Machine Learning specialists, and those interested\
+        \ in learning more about the field\">Data Science</a></li>\r\n           \
+        \     <li class=\"-item\"><a href=\"https://arduino.stackexchange.com\" class=\"\
+        -link js-gps-track\" data-gps-track=\"footer.click({ location: 4, link: 25\
+        \ })\" title=\"developers of open-source hardware and software that is compatible\
+        \ with Arduino\">Arduino</a></li>\r\n                <li class=\"-item\"><a\
+        \ href=\"https://bitcoin.stackexchange.com\" class=\"-link js-gps-track\"\
+        \ data-gps-track=\"footer.click({ location: 4, link: 25 })\" title=\"Bitcoin\
+        \ crypto-currency enthusiasts\">Bitcoin</a></li>\r\n                <li class=\"\
+        -item\"><a href=\"https://sqa.stackexchange.com\" class=\"-link js-gps-track\"\
+        \ data-gps-track=\"footer.click({ location: 4, link: 25 })\" title=\"software\
+        \ quality control experts, automation engineers, and software testers\">Software\
+        \ Quality Assurance &amp; Testing</a></li>\r\n                <li class=\"\
+        -item\"><a href=\"https://sound.stackexchange.com\" class=\"-link js-gps-track\"\
+        \ data-gps-track=\"footer.click({ location: 4, link: 25 })\" title=\"sound\
+        \ engineers, producers, editors, and enthusiasts\">Sound Design</a></li>\r\
+        \n                    </ul></div><div class=\"site-footer--col site-footer--category\
+        \ js-footer-col\" data-name=\"Technology\"><ul class=\"-list\">\r\n      \
+        \          <li class=\"-item\"><a href=\"https://windowsphone.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"enthusiasts and power users of Windows Phone OS\"\
+        >Windows Phone</a></li>\r\n                <li class=\"-item\">\r\n      \
+        \              <a href=\"https://stackexchange.com/sites#technology\" class=\"\
+        -link js-gps-track\" data-gps-track=\"footer.click({ location: 4, link: 26\
+        \ })\">\r\n                        <strong>\r\n                          \
+        \  more (28)\r\n                        </strong>\r\n                    </a>\r\
+        \n                </li>\r\n        </ul>\r\n    </div>\r\n    <div class=\"\
+        site-footer--col site-footer--category js-footer-col\" data-name=\"Life /\
+        \ Arts\">\r\n        <ul class=\"-list\">\r\n                <li class=\"\
+        -item\"><a href=\"https://photo.stackexchange.com\" class=\"-link js-gps-track\"\
+        \ data-gps-track=\"footer.click({ location: 4, link: 25 })\" title=\"professional,\
+        \ enthusiast and amateur photographers\">Photography</a></li>\r\n        \
+        \        <li class=\"-item\"><a href=\"https://scifi.stackexchange.com\" class=\"\
+        -link js-gps-track\" data-gps-track=\"footer.click({ location: 4, link: 25\
+        \ })\" title=\"science fiction and fantasy enthusiasts\">Science Fiction &amp;\
+        \ Fantasy</a></li>\r\n                <li class=\"-item\"><a href=\"https://graphicdesign.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"Graphic Design professionals, students, and enthusiasts\"\
+        >Graphic Design</a></li>\r\n                <li class=\"-item\"><a href=\"\
+        https://movies.stackexchange.com\" class=\"-link js-gps-track\" data-gps-track=\"\
+        footer.click({ location: 4, link: 25 })\" title=\"movie and TV enthusiasts\"\
+        >Movies &amp; TV</a></li>\r\n                <li class=\"-item\"><a href=\"\
+        https://music.stackexchange.com\" class=\"-link js-gps-track\" data-gps-track=\"\
+        footer.click({ location: 4, link: 25 })\" title=\"musicians, students, and\
+        \ enthusiasts\">Music: Practice &amp; Theory</a></li>\r\n                <li\
+        \ class=\"-item\"><a href=\"https://worldbuilding.stackexchange.com\" class=\"\
+        -link js-gps-track\" data-gps-track=\"footer.click({ location: 4, link: 25\
+        \ })\" title=\"writers/artists using science, geography and culture to construct\
+        \ imaginary worlds and settings\">Worldbuilding</a></li>\r\n             \
+        \   <li class=\"-item\"><a href=\"https://video.stackexchange.com\" class=\"\
+        -link js-gps-track\" data-gps-track=\"footer.click({ location: 4, link: 25\
+        \ })\" title=\"engineers, producers, editors, and enthusiasts spanning the\
+        \ fields of video, and media creation\">Video Production</a></li>\r\n    \
+        \                </ul></div><div class=\"site-footer--col site-footer--category\
+        \ js-footer-col\" data-name=\"Life / Arts\"><ul class=\"-list\">\r\n     \
+        \           <li class=\"-item\"><a href=\"https://cooking.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"professional and amateur chefs\">Seasoned Advice (cooking)</a></li>\r\
+        \n                <li class=\"-item\"><a href=\"https://diy.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"contractors and serious DIYers\">Home Improvement</a></li>\r\
+        \n                <li class=\"-item\"><a href=\"https://money.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"people who want to be financially literate\">Personal\
+        \ Finance &amp; Money</a></li>\r\n                <li class=\"-item\"><a href=\"\
+        https://academia.stackexchange.com\" class=\"-link js-gps-track\" data-gps-track=\"\
+        footer.click({ location: 4, link: 25 })\" title=\"academics and those enrolled\
+        \ in higher education\">Academia</a></li>\r\n                <li class=\"\
+        -item\"><a href=\"https://law.stackexchange.com\" class=\"-link js-gps-track\"\
+        \ data-gps-track=\"footer.click({ location: 4, link: 25 })\" title=\"legal\
+        \ professionals, students, and others with experience or interest in law\"\
+        >Law</a></li>\r\n                <li class=\"-item\"><a href=\"https://fitness.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"physical fitness professionals, athletes, trainers,\
+        \ and those providing health-related needs\">Physical Fitness</a></li>\r\n\
+        \                <li class=\"-item\"><a href=\"https://gardening.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"gardeners and landscapers\">Gardening &amp; Landscaping</a></li>\r\
+        \n                    </ul></div><div class=\"site-footer--col site-footer--category\
+        \ js-footer-col\" data-name=\"Life / Arts\"><ul class=\"-list\">\r\n     \
+        \           <li class=\"-item\"><a href=\"https://parenting.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"parents, grandparents, nannies and others with a parenting\
+        \ role\">Parenting</a></li>\r\n                <li class=\"-item\">\r\n  \
+        \                  <a href=\"https://stackexchange.com/sites#lifearts\" class=\"\
+        -link js-gps-track\" data-gps-track=\"footer.click({ location: 4, link: 26\
+        \ })\">\r\n                        <strong>\r\n                          \
+        \  more (10)\r\n                        </strong>\r\n                    </a>\r\
+        \n                </li>\r\n        </ul>\r\n    </div>\r\n    <div class=\"\
+        site-footer--col site-footer--category js-footer-col\" data-name=\"Culture\
+        \ / Recreation\">\r\n        <ul class=\"-list\">\r\n                <li class=\"\
+        -item\"><a href=\"https://english.stackexchange.com\" class=\"-link js-gps-track\"\
+        \ data-gps-track=\"footer.click({ location: 4, link: 25 })\" title=\"linguists,\
+        \ etymologists, and serious English language enthusiasts\">English Language\
+        \ &amp; Usage</a></li>\r\n                <li class=\"-item\"><a href=\"https://skeptics.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"scientific skepticism\">Skeptics</a></li>\r\n    \
+        \            <li class=\"-item\"><a href=\"https://judaism.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"those who base their lives on Jewish law and tradition\
+        \ and anyone interested in learning more\">Mi Yodeya (Judaism)</a></li>\r\n\
+        \                <li class=\"-item\"><a href=\"https://travel.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"road warriors and seasoned travelers\">Travel</a></li>\r\
+        \n                <li class=\"-item\"><a href=\"https://christianity.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"committed Christians, experts in Christianity and\
+        \ those interested in learning more\">Christianity</a></li>\r\n          \
+        \      <li class=\"-item\"><a href=\"https://ell.stackexchange.com\" class=\"\
+        -link js-gps-track\" data-gps-track=\"footer.click({ location: 4, link: 25\
+        \ })\" title=\"speakers of other languages learning English\">English Language\
+        \ Learners</a></li>\r\n                <li class=\"-item\"><a href=\"https://japanese.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"students, teachers, and linguists wanting to discuss\
+        \ the finer points of the Japanese language\">Japanese Language</a></li>\r\
+        \n                    </ul></div><div class=\"site-footer--col site-footer--category\
+        \ js-footer-col\" data-name=\"Culture / Recreation\"><ul class=\"-list\">\r\
+        \n                <li class=\"-item\"><a href=\"https://chinese.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"students, teachers, and linguists wanting to discuss\
+        \ the finer points of the Chinese language\">Chinese Language</a></li>\r\n\
+        \                <li class=\"-item\"><a href=\"https://french.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"students, teachers, and linguists wanting to discuss\
+        \ the finer points of the French language\">French Language</a></li>\r\n \
+        \               <li class=\"-item\"><a href=\"https://german.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"speakers of German wanting to discuss the finer points\
+        \ of the language and translation\">German Language</a></li>\r\n         \
+        \       <li class=\"-item\"><a href=\"https://hermeneutics.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"professors, theologians, and those interested in exegetical\
+        \ analysis of biblical texts\">Biblical Hermeneutics</a></li>\r\n        \
+        \        <li class=\"-item\"><a href=\"https://history.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"historians and history buffs\">History</a></li>\r\n\
+        \                <li class=\"-item\"><a href=\"https://spanish.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"linguists, teachers, students and Spanish language\
+        \ enthusiasts in general wanting to discuss the finer points of the language\"\
+        >Spanish Language</a></li>\r\n                <li class=\"-item\"><a href=\"\
+        https://islam.stackexchange.com\" class=\"-link js-gps-track\" data-gps-track=\"\
+        footer.click({ location: 4, link: 25 })\" title=\"Muslims, experts in Islam,\
+        \ and those interested in learning more about Islam\">Islam</a></li>\r\n \
+        \                   </ul></div><div class=\"site-footer--col site-footer--category\
+        \ js-footer-col\" data-name=\"Culture / Recreation\"><ul class=\"-list\">\r\
+        \n                <li class=\"-item\"><a href=\"https://rus.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"&#x43B;&#x438;&#x43D;&#x433;&#x432;&#x438;&#x441;&#x442;&#x43E;&#x432;\
+        \ &#x438; &#x44D;&#x43D;&#x442;&#x443;&#x437;&#x438;&#x430;&#x441;&#x442;&#x43E;&#x432;\
+        \ &#x440;&#x443;&#x441;&#x441;&#x43A;&#x43E;&#x433;&#x43E; &#x44F;&#x437;&#x44B;&#x43A;&#x430;\"\
+        >&#x420;&#x443;&#x441;&#x441;&#x43A;&#x438;&#x439; &#x44F;&#x437;&#x44B;&#x43A;</a></li>\r\
+        \n                <li class=\"-item\"><a href=\"https://russian.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"students, teachers, and linguists wanting to discuss\
+        \ the finer points of the Russian language\">Russian Language</a></li>\r\n\
+        \                <li class=\"-item\"><a href=\"https://gaming.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"passionate videogamers on all platforms\">Arqade (gaming)</a></li>\r\
+        \n                <li class=\"-item\"><a href=\"https://bicycles.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"people who build and repair bicycles, people who train\
+        \ cycling, or commute on bicycles\">Bicycles</a></li>\r\n                <li\
+        \ class=\"-item\"><a href=\"https://rpg.stackexchange.com\" class=\"-link\
+        \ js-gps-track\" data-gps-track=\"footer.click({ location: 4, link: 25 })\"\
+        \ title=\"gamemasters and players of tabletop, paper-and-pencil role-playing\
+        \ games\">Role-playing Games</a></li>\r\n                <li class=\"-item\"\
+        ><a href=\"https://anime.stackexchange.com\" class=\"-link js-gps-track\"\
+        \ data-gps-track=\"footer.click({ location: 4, link: 25 })\" title=\"anime\
+        \ and manga fans\">Anime &amp; Manga</a></li>\r\n                <li class=\"\
+        -item\"><a href=\"https://puzzling.stackexchange.com\" class=\"-link js-gps-track\"\
+        \ data-gps-track=\"footer.click({ location: 4, link: 25 })\" title=\"those\
+        \ who create, solve, and study puzzles\">Puzzling</a></li>\r\n           \
+        \         </ul></div><div class=\"site-footer--col site-footer--category js-footer-col\"\
+        \ data-name=\"Culture / Recreation\"><ul class=\"-list\">\r\n            \
+        \    <li class=\"-item\"><a href=\"https://mechanics.stackexchange.com\" class=\"\
+        -link js-gps-track\" data-gps-track=\"footer.click({ location: 4, link: 25\
+        \ })\" title=\"mechanics and DIY enthusiast owners of cars, trucks, and motorcycles\"\
+        >Motor Vehicle Maintenance &amp; Repair</a></li>\r\n                <li class=\"\
+        -item\"><a href=\"https://boardgames.stackexchange.com\" class=\"-link js-gps-track\"\
+        \ data-gps-track=\"footer.click({ location: 4, link: 25 })\" title=\"people\
+        \ who like playing board games, designing board games or modifying the rules\
+        \ of existing board games\">Board &amp; Card Games</a></li>\r\n          \
+        \      <li class=\"-item\"><a href=\"https://bricks.stackexchange.com\" class=\"\
+        -link js-gps-track\" data-gps-track=\"footer.click({ location: 4, link: 25\
+        \ })\" title=\"LEGO&#xAE; and building block enthusiasts\">Bricks</a></li>\r\
+        \n                <li class=\"-item\"><a href=\"https://homebrew.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"dedicated home brewers and serious enthusiasts\">Homebrewing</a></li>\r\
+        \n                <li class=\"-item\"><a href=\"https://martialarts.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"students and teachers of all martial arts\">Martial\
+        \ Arts</a></li>\r\n                <li class=\"-item\"><a href=\"https://outdoors.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"people who love being outdoors enjoying nature and\
+        \ wilderness, and learning about the required skills and equipment\">The Great\
+        \ Outdoors</a></li>\r\n                <li class=\"-item\"><a href=\"https://poker.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"serious players and enthusiasts of poker\">Poker</a></li>\r\
+        \n                    </ul></div><div class=\"site-footer--col site-footer--category\
+        \ js-footer-col\" data-name=\"Culture / Recreation\"><ul class=\"-list\">\r\
+        \n                <li class=\"-item\"><a href=\"https://chess.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"serious players and enthusiasts of chess\">Chess</a></li>\r\
+        \n                <li class=\"-item\"><a href=\"https://sports.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"participants in team and individual sport activities\"\
+        >Sports</a></li>\r\n                <li class=\"-item\">\r\n             \
+        \       <a href=\"https://stackexchange.com/sites#culturerecreation\" class=\"\
+        -link js-gps-track\" data-gps-track=\"footer.click({ location: 4, link: 26\
+        \ })\">\r\n                        <strong>\r\n                          \
+        \  more (16)\r\n                        </strong>\r\n                    </a>\r\
+        \n                </li>\r\n        </ul>\r\n    </div>\r\n    <div class=\"\
+        site-footer--col site-footer--category js-footer-col\" data-name=\"Science\"\
+        >\r\n        <ul class=\"-list\">\r\n                <li class=\"-item\"><a\
+        \ href=\"https://mathoverflow.net\" class=\"-link js-gps-track\" data-gps-track=\"\
+        footer.click({ location: 4, link: 25 })\" title=\"professional mathematicians\"\
+        >MathOverflow</a></li>\r\n                <li class=\"-item\"><a href=\"https://math.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"people studying math at any level and professionals\
+        \ in related fields\">Mathematics</a></li>\r\n                <li class=\"\
+        -item\"><a href=\"https://stats.stackexchange.com\" class=\"-link js-gps-track\"\
+        \ data-gps-track=\"footer.click({ location: 4, link: 25 })\" title=\"people\
+        \ interested in statistics, machine learning, data analysis, data mining,\
+        \ and data visualization\">Cross Validated (stats)</a></li>\r\n          \
+        \      <li class=\"-item\"><a href=\"https://cstheory.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"theoretical computer scientists and researchers in\
+        \ related fields\">Theoretical Computer Science</a></li>\r\n             \
+        \   <li class=\"-item\"><a href=\"https://physics.stackexchange.com\" class=\"\
+        -link js-gps-track\" data-gps-track=\"footer.click({ location: 4, link: 25\
+        \ })\" title=\"active researchers, academics and students of physics\">Physics</a></li>\r\
+        \n                <li class=\"-item\"><a href=\"https://chemistry.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"scientists, academics, teachers, and students in the\
+        \ field of chemistry\">Chemistry</a></li>\r\n                <li class=\"\
+        -item\"><a href=\"https://biology.stackexchange.com\" class=\"-link js-gps-track\"\
+        \ data-gps-track=\"footer.click({ location: 4, link: 25 })\" title=\"biology\
+        \ researchers, academics, and students\">Biology</a></li>\r\n            \
+        \        </ul></div><div class=\"site-footer--col site-footer--category js-footer-col\"\
+        \ data-name=\"Science\"><ul class=\"-list\">\r\n                <li class=\"\
+        -item\"><a href=\"https://cs.stackexchange.com\" class=\"-link js-gps-track\"\
+        \ data-gps-track=\"footer.click({ location: 4, link: 25 })\" title=\"students,\
+        \ researchers and practitioners of computer science\">Computer Science</a></li>\r\
+        \n                <li class=\"-item\"><a href=\"https://philosophy.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"those interested in the study of the fundamental nature\
+        \ of knowledge, reality, and existence\">Philosophy</a></li>\r\n         \
+        \       <li class=\"-item\"><a href=\"https://linguistics.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"professional linguists and others with an interest\
+        \ in linguistic research and theory\">Linguistics</a></li>\r\n           \
+        \     <li class=\"-item\"><a href=\"https://psychology.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"practitioners, researchers, and students in cognitive\
+        \ science, psychology, neuroscience, and psychiatry\">Psychology &amp; Neuroscience</a></li>\r\
+        \n                <li class=\"-item\"><a href=\"https://scicomp.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"scientists using computers to solve scientific problems\"\
+        >Computational Science</a></li>\r\n                <li class=\"-item\">\r\n\
+        \                    <a href=\"https://stackexchange.com/sites#science\" class=\"\
+        -link js-gps-track\" data-gps-track=\"footer.click({ location: 4, link: 26\
+        \ })\">\r\n                        <strong>\r\n                          \
+        \  more (10)\r\n                        </strong>\r\n                    </a>\r\
+        \n                </li>\r\n        </ul>\r\n    </div>\r\n    <div class=\"\
+        site-footer--col site-footer--category js-footer-col\" data-name=\"Other\"\
+        >\r\n        <ul class=\"-list\">\r\n                <li class=\"-item\"><a\
+        \ href=\"https://meta.stackexchange.com\" class=\"-link js-gps-track\" data-gps-track=\"\
+        footer.click({ location: 4, link: 25 })\" title=\"meta-discussion of the Stack\
+        \ Exchange family of Q&amp;A websites\">Meta Stack Exchange</a></li>\r\n \
+        \               <li class=\"-item\"><a href=\"https://stackapps.com\" class=\"\
+        -link js-gps-track\" data-gps-track=\"footer.click({ location: 4, link: 25\
+        \ })\" title=\"apps, scripts, and development with the Stack Exchange API\"\
+        >Stack Apps</a></li>\r\n                <li class=\"-item\"><a href=\"https://api.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"programmatic interaction with Stack Exchange sites\"\
+        >API</a></li>\r\n                <li class=\"-item\"><a href=\"https://data.stackexchange.com\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 4,\
+        \ link: 25 })\" title=\"querying Stack Exchange data using SQL\">Data</a></li>\r\
+        \n        </ul>\r\n    </div>\r\n\r\n                </div>\r\n          \
+        \  </nav>\r\n            <div class=\"site-footer--copyright fs-fine\">\r\n\
+        \                <ul class=\"-list\">\r\n                    <li class=\"\
+        -item\"><a class=\"js-gps-track -link\" data-gps-track=\"footer.click({ location:\
+        \ 19, link:4 })\" href=\"https://stackoverflow.blog?blb=1\">Blog</a></li>\r\
+        \n                    <li class=\"-item\"><a href=\"https://www.facebook.com/officialstackoverflow/\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 19,\
+        \ link: 31 })\">Facebook</a></li>\r\n                    <li class=\"-item\"\
+        ><a href=\"https://twitter.com/stackoverflow\" class=\"-link js-gps-track\"\
+        \ data-gps-track=\"footer.click({ location: 19, link: 32 })\">Twitter</a></li>\r\
+        \n                    <li class=\"-item\"><a href=\"https://linkedin.com/company/stack-overflow\"\
+        \ class=\"-link js-gps-track\" data-gps-track=\"footer.click({ location: 19,\
+        \ link: 33 })\">LinkedIn</a></li>\r\n                    <li class=\"-item\"\
+        ><a href=\"https://www.instagram.com/thestackoverflow\" class=\"-link js-gps-track\"\
+        \ data-gps-track=\"footer.click({ location: 19, link: 36 })\">Instagram</a></li>\r\
+        \n                </ul>\r\n\r\n                <p class=\"mt-auto mb24\">\r\
+        \nsite design / logo &#169; 2021 Stack Exchange Inc; user contributions licensed\
+        \ under <a href=\"https://stackoverflow.com/help/licensing\">cc by-sa</a>.\
+        \                    <span id=\"svnrev\">rev&nbsp;2021.5.10.39250</span>\r\
+        \n                </p>\r\n            </div>\r\n        </div>\r\n\r\n   \
+        \ </footer>\r\n\r\n            <script>StackExchange.ready(function () { StackExchange.responsiveness.addSwitcher();\
+        \ })</script>\r\n    <noscript>\r\n        <div id=\"noscript-warning\">Stack\
+        \ Overflow works best with JavaScript enabled\r\n            <img src=\"https://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif\"\
+        \ alt=\"\" class=\"dno\">\r\n        </div>\r\n    </noscript>\r\n\r\n   \
+        \         <script>\r\n(function(i, s, o, g, r, a, m) {\r\n               \
+        \ i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q\
+        \ || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),\r\
+        \n                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g;\
+        \ m.parentNode.insertBefore(a, m);\r\n            })(window, document, 'script',\
+        \ 'https://www.google-analytics.com/analytics.js', 'ga');\r\n\r\n        \
+        \    StackExchange.ready(function () {\r\n\r\n                StackExchange.ga.init({\r\
+        \n                    autoLink: [\"stackoverflow.blog\",\"info.stackoverflowsolutions.com\"\
+        ,\"stackoverflowsolutions.com\"],\r\n                    sendTitles: true,\r\
+        \n                    tracker: window.ga,\r\n                    trackingCodes:\
+        \ [\r\n                        'UA-108242619-1'\r\n                    ],\r\
+        \n                        checkDimension: 'dimension42'\r\n              \
+        \  });\r\n\r\n\r\n\r\n\r\n\r\n                    StackExchange.ga.setDimension('dimension3',\
+        \ 'Captcha/NoCaptcha');\r\n\r\n\r\n                StackExchange.ga.trackPageView();\r\
+        \n            });\r\n                </script>\r\n\r\n        \r\n       \
+        \         <div class=\"ff-sans ps-fixed z-nav-fixed ws4 sm:w-auto p32 sm:p16\
+        \ bg-black-750 fc-white bar-lg b16 l16 r16 js-consent-banner\">\r\n      \
+        \              <svg aria-hidden=\"true\" class=\"mln4 mb24 sm:d-none svg-spot\
+        \ spotCookieLg\" style=\"color: var(--theme-button-filled-background-color)\"\
+        \ width=\"96\" height=\"96\" viewBox=\"0 0 96 96\">\r\n                  \
+        \      <path d=\"M35 45.5a7.5 7.5 0 11-15 0 7.5 7.5 0 0115 0zM63.5 63a7.5\
+        \ 7.5 0 100-15 7.5 7.5 0 000 15zm-19 19a7.5 7.5 0 100-15 7.5 7.5 0 000 15z\"\
+        \ opacity=\".2\"/>\r\n                        <path d=\"M56.99 2.53a23.1 23.1\
+        \ 0 0114.66 6.15h.01l.01.02c.57.55.61 1.27.5 1.74v.07a10.95 10.95 0 01-3.07\
+        \ 4.77 9 9 0 01-6.9 2.5 10.34 10.34 0 01-9.72-10.44v-.08a10 10 0 011.03-3.74l.01-.03.02-.02c.28-.5.82-.92\
+        \ 1.52-.95.63-.02 1.27-.02 1.93.01zm12.04 7.83a20.1 20.1 0 00-12.2-4.83l-.92-.03c-.23.6-.38\
+        \ 1.25-.43 1.94a7.34 7.34 0 006.95 7.34 6 6 0 004.64-1.7c.94-.88 1.6-1.9 1.96-2.72zm15.3\
+        \ 8.76a6.84 6.84 0 00-5.09-.24 7.9 7.9 0 00-3.28 2.05 1.8 1.8 0 00-.3 1.95l.02.02v.02a15.16\
+        \ 15.16 0 008.74 7.47c.64.23 1.32.08 1.8-.33a6.63 6.63 0 001.63-1.97l.01-.03.01-.03c1.67-3.5-.12-7.32-3.54-8.91zm-5.5\
+        \ 3.28c.36-.25.82-.5 1.35-.67.92-.3 1.92-.35 2.89.1 2.14 1 2.92 3.14 2.11\
+        \ 4.88-.12.21-.26.41-.43.6l-.26-.1a12.29 12.29 0 01-5.66-4.81zM32 24a2 2 0\
+        \ 11-4 0 2 2 0 014 0zm12 21a2 2 0 11-4 0 2 2 0 014 0zm36 4a2 2 0 11-4 0 2\
+        \ 2 0 014 0zm-7 21a2 2 0 11-4 0 2 2 0 014 0zM59 81a2 2 0 11-4 0 2 2 0 014\
+        \ 0zM22 63a2 2 0 11-4 0 2 2 0 014 0zm27 7a9 9 0 11-18 0 9 9 0 0118 0zm-3 0a6\
+        \ 6 0 10-12 0 6 6 0 0012 0zM33 41a9 9 0 11-18 0 9 9 0 0118 0zm-15 0a6 6 0\
+        \ 1012 0 6 6 0 00-12 0zm50 11a9 9 0 11-18 0 9 9 0 0118 0zm-3 0a6 6 0 10-12\
+        \ 0 6 6 0 0012 0zM44.08 4.24c.31.48.33 1.09.05 1.58a17.46 17.46 0 00-2.36\
+        \ 8.8c0 9.55 7.58 17.24 16.85 17.24 2.97 0 5.75-.78 8.16-2.15a1.5 1.5 0 012.1.66\
+        \ 12.08 12.08 0 0011 6.74 12.4 12.4 0 007.85-2.75 1.5 1.5 0 012.38.74A45.76\
+        \ 45.76 0 0192 48.16c0 24.77-19.67 44.9-44 44.9S4 72.93 4 48.16C4 25.23 20.84\
+        \ 6.28 42.64 3.58a1.5 1.5 0 011.44.66zM40.22 7C21.32 10.71 7 27.7 7 48.16c0\
+        \ 23.17 18.39 41.9 41 41.9s41-18.73 41-41.9c0-3.52-.42-6.93-1.22-10.2a15.5\
+        \ 15.5 0 01-7.9 2.15c-5.5 0-10.36-2.83-12.97-7.1a19.46 19.46 0 01-8.28 1.85c-11\
+        \ 0-19.86-9.1-19.86-20.24 0-2.7.52-5.26 1.45-7.62zM92 91a2 2 0 100-4 2 2 0\
+        \ 000 4zM7 8.5a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zM82.5 90a1.5 1.5 0 100-3 1.5\
+        \ 1.5 0 000 3zm9.5-7.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM13.5 8a1.5 1.5 0\
+        \ 100-3 1.5 1.5 0 000 3zM80 14.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM53.5 20a1.5\
+        \ 1.5 0 100-3 1.5 1.5 0 000 3z\"/>\r\n                    </svg>\r\n     \
+        \               <p class=\"fs-body2 fw-bold mb4\">\r\n                   \
+        \     Your privacy\r\n                    </p>\r\n                    <p class=\"\
+        mb16 s-anchors s-anchors__inherit s-anchors__underlined\">\r\n           \
+        \             By clicking \u201CAccept all cookies\u201D, you agree Stack\
+        \ Exchange can store cookies on your device and disclose information in accordance\
+        \ with our <a href=\"https://stackoverflow.com/legal/cookie-policy\">Cookie\
+        \ Policy</a>.\r\n                    </p>\r\n                    <div class=\"\
+        grid gs8 ai-stretch fd-column sm:fd-row\">\r\n                        <button\
+        \ class=\"grid--cell s-btn s-btn__primary js-accept-cookies js-consent-banner-hide\"\
+        >\r\n                            Accept all cookies\r\n                  \
+        \      </button>\r\n\r\n                        <button class=\"grid--cell\
+        \ s-btn s-btn__filled js-cookie-settings\" data-consent-popup-loader=\"banner\"\
+        >\r\n                            Customize settings\r\n                  \
+        \      </button>\r\n                    </div>\r\n                </div>\r\
+        \n    <div id=\"onetrust-consent-sdk\" class=\"d-none\"></div>\r\n    <div\
+        \ id=\"onetrust-banner-sdk\" data-controller=\"s-modal\"></div>\r\n    <div\
+        \ id=\"ot-pc-content\" class=\"d-none\"></div>\r\n    <div id=\"onetrust-style\"\
+        \ class=\"d-none\">&nbsp;</div>\r\n    <div class=\"d-none js-consent-banner-version\"\
+        \ data-consent-banner-version=\"baseline\"></div>\r\n\r\n    \r\n    </body>\r\
+        \n    </html>\r\n"
+    headers:
+      Accept-Ranges: bytes
+      Cache-Control: private
+      Connection: keep-alive
+      Content-Encoding: gzip
+      Content-Type: text/html; charset=utf-8
+      Date: Mon, 10 May 2021 22:41:55 GMT
+      Transfer-Encoding: chunked
+      Vary: Accept-Encoding,Fastly-SSL
+      Via: 1.1 varnish
+      X-Cache: MISS
+      X-Cache-Hits: '0'
+      X-DNS-Prefetch-Control: 'off'
+      X-Served-By: cache-lhr7339-LHR
+      X-Timer: S1620686516.678937,VS0,VE75
+      content-security-policy: upgrade-insecure-requests; frame-ancestors 'self' https://stackexchange.com
+      feature-policy: microphone 'none'; speaker 'none'
+      strict-transport-security: max-age=15552000
+      x-frame-options: SAMEORIGIN
+      x-request-guid: 142131b9-2bfc-487b-8c98-8410a6d69416
+    status:
+      code: 200
+      message: OK
+    url: https://stackoverflow.com/nocaptcha?s=2ec00a50-d613-4b7c-a628-599d2bbe758b
+version: 1

@@ -4,7 +4,7 @@
 
 ![Demo](assets/animate.gif)
 
-[![Python 3.5|3.6|3.7|3.8](https://img.shields.io/badge/python-3.5%7C3.6%7C3.7%7C3.8-blue)](https://www.python.org/downloads/)
+[![Python 3.6|3.7|3.8|3.9](https://img.shields.io/badge/python-3.5%7C3.6%7C3.7%7C3.8-blue)](https://www.python.org/downloads/)
 [![PyPI version](https://img.shields.io/pypi/v/search-engine-parser)](https://pypi.org/project/search-engine-parser/)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/search-engine-parser)](https://pypi.org/project/search-engine-parser/)
 [![Build Status](https://travis-ci.com/bisoncorps/search-engine-parser.svg?branch=master)](https://travis-ci.com/bisoncorps/search-engine-parser)
@@ -153,7 +153,7 @@ Adding a proxy entails sending details to the search function
 ```python
     from search_engine_parser.core.engines.github import Search as GitHub
     github = GitHub()
-    github.search("search-engine-parser", 
+    github.search("search-engine-parser",
         # http proxies supported only
         proxy='http://123.12.1.0',
         proxy_auth=('username', 'password'))
@@ -185,7 +185,7 @@ It can be iterated like a normal list to return individual `SearchItem`s.
 search-engine-parser comes with a CLI tool known as `pysearch`. You can use it as such:
 
 ```bash
-pysearch --engine bing search --query "Preaching to the choir" --type descriptions
+pysearch --engine bing  --type descriptions "Preaching to the choir"
 ```
 
 Result:
@@ -196,50 +196,39 @@ Result:
 
 ![Demo](assets/example.gif)
 
-There is a needed argument for the CLI i.e `-e Engine` followed by either of two subcommands in the CLI i.e `search` and `summary`
-
 ```bash
-
-usage: pysearch [-h] [-u URL] [-e ENGINE] {search,summary} ...
+usage: pysearch [-h] [-V] [-e ENGINE] [--show-summary] [-u URL] [-p PAGE]
+                [-t TYPE] [-cc] [-r RANK] [--proxy PROXY]
+                [--proxy-user PROXY_USER] [--proxy-password PROXY_PASSWORD]
+                query
 
 SearchEngineParser
 
 positional arguments:
-  {search,summary}      help for subcommands
-    search              search help
-    summary             summary help
+  query                 Query string to search engine for
 
 optional arguments:
   -h, --help            show this help message and exit
-  -u URL, --url URL     A custom link to use as base url for search e.g
-                        google.de
+  -V, --version         show program's version number and exit
   -e ENGINE, --engine ENGINE
                         Engine to use for parsing the query e.g google, yahoo,
-                        bing, duckduckgo (default: google)
-```
-
-`summary` returns the summary of the specified search engine:
-
-```bash
-pysearch --engine google summary
-```
-
-Full arguments for the `search` subcommand shown below
-
-```bash
-
-usage: pysearch search [-h] -q QUERY [-p PAGE] [-t TYPE] [-r RANK]
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -q QUERY, --query QUERY
-                        Query string to search engine for
+                        bing,duckduckgo (default: google)
+  --show-summary        Shows the summary of an engine
+  -u URL, --url URL     A custom link to use as base url for search e.g
+                        google.de
   -p PAGE, --page PAGE  Page of the result to return details for (default: 1)
   -t TYPE, --type TYPE  Type of detail to return i.e full, links, desciptions
                         or titles (default: full)
+  -cc, --clear-cache    Clear cache of engine before searching
   -r RANK, --rank RANK  ID of Detail to return e.g 5 (default: 0)
-  -cc, --clear_cache    Clear cache of engine before searching
+  --proxy PROXY         Proxy address to make use of
+  --proxy-user PROXY_USER
+                        Proxy user to make use of
+  --proxy-password PROXY_PASSWORD
+                        Proxy password to make use of
 ```
+
+
 
 ## Code of Conduct
 Make sure to adhere to the [code of conduct](CODE_OF_CONDUCT.md) at all times.

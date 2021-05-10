@@ -9,7 +9,7 @@ from parameterized import parameterized_class
 
 from search_engine_parser.core.exceptions import NoResultsOrTrafficError
 
-SEARCH_ARGS = ('Preaching to the choir', 1)
+SEARCH_ARGS = ('Hello', 1)
 
 
 def get_engines():
@@ -47,10 +47,6 @@ class EngineBaseTest(unittest.TestCase):
 
     provides tests for engine methods
     """
-    @classmethod
-    def vcr_search(cls, *args, **kwargs):
-        with vcr.use_cassette('fixtures/{}-synopsis.yaml'.format(cls.name), record_mode='new_episodes'):
-            cls.results = cls.engine.search(*args, **kwargs)
 
     def setUp(self):
         from search_engine_parser.core.engines.google import Search # pylint: disable=import-outside-toplevel
@@ -77,8 +73,12 @@ class EngineBaseTest(unittest.TestCase):
         from search_engine_parser.core.engines.yahoo import Search as YahooSearch # pylint: disable=import-outside-toplevel
         gengine = GoogleSearch()
         yahoo_engine = YahooSearch()
-        gresults = gengine.search(query="Hello From the Other Side")
-        yresults = yahoo_engine.search(query="this is example Bob")
+        gresults = None
+        gresults = None
+        with vcr.use_cassette('fixtures/google-test-diff-synopsis.yaml', record_mode='once'):
+            gresults = gengine.search(query="What's up from this side")
+        with vcr.use_cassette('fixtures/yahoo-test-diff-synopsis.yaml', record_mode='once'):
+            yresults = yahoo_engine.search(query="this is example Bob")
         for key in gresults[0]:
             self.assertNotEqual(gresults[0].get(key, "GSearch"), yresults[0].get(key, "Ysearch"))
 
@@ -106,7 +106,8 @@ class TestScraping(unittest.TestCase):
 
     @classmethod
     def vcr_search(cls, *args, **kwargs):
-        with vcr.use_cassette('fixtures/{}-synopsis.yaml'.format(cls.name), record_mode='once'):
+        print(cls.name)
+        with vcr.use_cassette('fixtures/{}-{}-synopsis.yaml'.format(cls.name, args[0].replace(" ", "-")), record="once"):
             cls.results = cls.engine.search(*args, **kwargs)
 
     @classmethod
@@ -115,7 +116,7 @@ class TestScraping(unittest.TestCase):
         Test that the cache was used
         """
         try:
-            cls.vcr_search(*SEARCH_ARGS)
+            cls.vcr_search(*SEARCH_ARGS, cache=True)
             if cls.engine._cache_hit == False:
                 assert False, "{} cache - unexpected miss".format(
                     cls.engine.name)
@@ -129,9 +130,8 @@ class TestScraping(unittest.TestCase):
         """
         Test that the cache was used
         """
-        search_args = ('Another random test', 1)
         try:
-            cls.vcr_search(*search_args)
+            cls.vcr_search(*SEARCH_ARGS, cache=False)
             if cls.engine._cache_hit == True:
                 assert False, "{} cache - unexpected hit".format(
                     cls.engine.name)
@@ -147,10 +147,8 @@ class TestScraping(unittest.TestCase):
         """
         # wrongly set cls.engine._cache_hit
         cls.engine._cache_hit = True
-        search_args = ('Fake cache bypass', 1)
-        search_kwargs = {"cache": False}
         try:
-            cls.vcr_search(*search_args, **search_kwargs)
+            cls.vcr_search(*SEARCH_ARGS, cache=False)
             if cls.engine._cache_hit == True:
                 assert False, "{} cache - not bypassed".format(
                     cls.engine.name)
@@ -170,18 +168,21 @@ class TestScraping(unittest.TestCase):
         Test that the returned results have valid data. 8 is just a chosen value as most search
         engines return values more than that
         """
-        self.assertTrue(len(self.results['titles']) >= 8)
-        self.assertTrue(len(self.results['links']) >= 8)
-        # coursera does not return descriptions for 
+        self.assertTrue(len(self.results['titles']) >= 4)
+        self.assertTrue(len(self.results['links']) >= 4)
+        # coursera does not return descriptions for
         # Preaching to the choir
         if not self.engine.name.lower() == "coursera":
-            self.assertTrue(len(self.results['descriptions']) >= 8)
+            self.assertTrue(len(self.results['descriptions']) >= 4)
         else:
-            self.assertTrue(len(self.results["difficulties"]) >= 8)
+            self.assertTrue(len(self.results["difficulties"]) >= 4)
 
     def test_links(self):
-        print("{}:::::".format(self.name))
         for link in self.results['links']:
+            print("{}:::::{}".format(self.name, link))
+            # Sometimes googlescholar returns empty links for citation type results
+            if not link and self.name.lower() == "googlescholar":
+                continue
             self.assertTrue(validate_url(link))
 
     def test_results_length_are_the_same(self):

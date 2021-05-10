@@ -21,6 +21,6 @@ class CliTests(unittest.TestCase):
 
     @patch('search_engine_parser.core.cli.get_engine_class', return_value=engine_class_mock)
     def test_query(self, engine_class):
-        args = self.parser.parse_args(["-e", "google", "--query", "Preach"])
+        args = self.parser.parse_args(["-e", "google", "Preach"])
         # If it executes properly it should return None
         self.assertTrue(cli.main(args) is None)

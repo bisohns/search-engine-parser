@@ -1,0 +1,466 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      User-Agent:
+      - Mozilla/5.0 (Windows NT 4.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/37.0.2049.0 Safari/537.36
+    method: GET
+    uri: https://www.google.com/search?start=0&q=What's+up+from+this+side&gbv=1
+  response:
+    body:
+      string: "<!doctype html><html lang=\"en-NG\"><head><meta charset=\"UTF-8\"><meta\
+        \ content=\"origin\" name=\"referrer\"><meta content=\"/images/branding/googleg/1x/googleg_standard_color_128dp.png\"\
+        \ itemprop=\"image\"><title>What's up from this side - Google Search</title><script\
+        \ nonce=\"yVQsj1FCvTj//V0jSNFz6w==\">(function(){\ndocument.documentElement.addEventListener(\"\
+        submit\",function(b){var a;if(a=b.target){var c=a.getAttribute(\"data-submitfalse\"\
+        );a=\"1\"==c||\"q\"==c&&!a.elements.q.value?!0:!1}else a=!1;a&&(b.preventDefault(),b.stopPropagation())},!0);document.documentElement.addEventListener(\"\
+        click\",function(b){var a;a:{for(a=b.target;a&&a!=document.documentElement;a=a.parentElement)if(\"\
+        A\"==a.tagName){a=\"1\"==a.getAttribute(\"data-nohref\");break a}a=!1}a&&b.preventDefault()},!0);}).call(this);(function(){\n\
+        var a=window.performance;window.start=Date.now();a:{var b=window;if(a){var\
+        \ c=a.timing;if(c){var d=c.navigationStart,f=c.responseStart;if(f>d&&f<=window.start){window.start=f;b.wsrt=f-d;break\
+        \ a}}a.now&&(b.wsrt=Math.floor(a.now()))}}window.google=window.google||{};var\
+        \ h=function(g){g&&g.target.setAttribute(\"data-iml\",Date.now())};document.documentElement.addEventListener(\"\
+        load\",h,!0);google.rglh=function(){document.documentElement.removeEventListener(\"\
+        load\",h,!0)};}).call(this);(function(){var gbvu='/search?q\\x3dWhat%27s+up+from+this+side\\\
+        x26gbv\\x3d2\\x26sei\\x3dwLaZYKz0Ltnmz7sP7uKlsAI';(function(){\nvar d=function(c,a){this.g=a===b?c:\"\
+        \"};d.prototype.h=!0;d.prototype.toString=function(){return this.g.toString()};var\
+        \ e=/^(?:(?:https?|mailto|ftp):|[^:/?#]*(?:[/?#]|$))/i,b={};var f,g=\"1\"\
+        ;if(document&&document.getElementById)if(\"undefined\"!=typeof XMLHttpRequest)g=\"\
+        2\";else if(\"undefined\"!=typeof ActiveXObject){var h,k,l=[\"MSXML2.XMLHTTP.6.0\"\
+        ,\"MSXML2.XMLHTTP.3.0\",\"MSXML2.XMLHTTP\",\"Microsoft.XMLHTTP\"];for(h=0;k=l[h++];)try{new\
+        \ ActiveXObject(k);g=\"2\";break}catch(c){}}f=g;if(\"2\"==f&&-1==location.search.indexOf(\"\
+        &gbv=2\")){var m=gbvu,n=document.getElementById(\"gbv\");n&&(n.value=f);m&&window.setTimeout(function(){var\
+        \ c=location;if(m instanceof d)var a=m;else a=m,a instanceof d||(a=\"object\"\
+        ==typeof a&&a.h?a.g.toString():String(a),e.test(a)||(a=\"about:invalid#zClosurez\"\
+        ),a=new d(a,b));c.href=a instanceof d&&a.constructor===d?a.g:\"type_error:SafeUrl\"\
+        },0)};}).call(this);})();</script><style>body{margin:0 auto;max-width:736px;padding:0\
+        \ 8px;}a{color:#1967D2;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,.10)}a:visited{color:#4B11A8}a:hover{text-decoration:underline}img{border:0}html{font-family:Roboto,Helvetica\
+        \ Neue,Arial,sans-serif;font-size:14px;line-height:20px;-webkit-text-size-adjust:100%;color:#3c4043;word-wrap:break-word;background-color:#fff}.bRsWnc{background-color:#fff;border-top:1px\
+        \ solid #dadce0;height:39px;overflow:hidden}.N6RWV{height:51px;-webkit-overflow-scrolling:touch;overflow-x:auto;overflow-y:hidden}.Uv67qb{-webkit-box-pack:justify;font-size:12px;line-height:37px;justify-content:space-between;justify-content:space-between}.Uv67qb\
+        \ a,.Uv67qb span{color:#70757a;display:block;flex:none;padding:0 16px;text-align:center;text-transform:uppercase;}span.OXXup{border-bottom:2px\
+        \ solid #4285f4;color:#4285f4;font-weight:bold}a.eZt8xd:visited{color:#70757a}.FElbsf{border-left:1px\
+        \ solid rgba(0,0,0,.12)}header article{overflow:visible}.Pg70bf{height:39px;display:-webkit-box;display:flex;display:flex;width:100%}.H0PQec{position:relative;flex:1}.sbc{display:flex;width:100%}.Pg70bf\
+        \ input{margin:2px 4px 2px 8px;}.x{width:26px;color:#70757a;font:27px/38px\
+        \ arial, sans-serif;line-height:40px;}#qdClwb{flex:0 0 auto;width:39px;height:39px;border-bottom:0;padding:0;border-top-right-radius:8px;background-color:#1a73e8;border:1px\
+        \ solid #1558d6;background-image:url('data:image/svg+xml,\\00003csvg height=\"\
+        37px\" width=\"37px\" xmlns=\"http://www.w3.org/2000/svg\">\\00003cg fill=\"\
+        none\" stroke=\"%23fff\">\\00003cellipse cx=\"16.5\" cy=\"16\" rx=\"5.4\"\
+        \ ry=\"5.4\" stroke-width=\"2px\">\\00003c/ellipse>\\00003cpath d=\"M22 21.3l4.3\
+        \ 4.3\" stroke-linecap=\"round\" stroke-width=\"2px\">\\00003c/path>\\00003c/g>\\\
+        00003c/svg>');}.sc{font-size:;position:absolute;top:39px;left:0;right:0;box-shadow:0px\
+        \ 2px 5px rgba(0,0,0,.2);z-index:2;background-color:#fff}.sc>div{padding:10px\
+        \ 10px;padding-left:16px;padding-left:14px;border-top:1px solid #dfe1e5}.scs{background-color:#f8f9fa;}.noHIxc{display:block;font-size:16px;padding:0\
+        \ 0 0 8px;flex:1;height:35px;outline:none;border:none;width:100%;-webkit-tap-highlight-color:rgba(0,0,0,.00);overflow:hidden;}.sbc\
+        \ input[type=text]{background:none}.sml .cOl4Id{display:none}.l{display:none}.l\
+        \ svg{margin-top:9px}.sml header{background:none}.sml .l{display:block;padding:0\
+        \ 8px}.bz1lBb{background:#fff;border-radius:8px 8px 0 0;box-shadow:0 1px 6px\
+        \ rgba(32, 33, 36, 0.18);margin-top:10px}.KP7LCb{border-radius:0 0 8px 8px;box-shadow:0\
+        \ 2px 3px rgba(32, 33, 36, 0.18);margin-bottom:10px;overflow:hidden}.cOl4Id{text-align:center;padding:14px\
+        \ 0 3px 0;height:35px}.S591j{height:100%}footer{text-align:center;margin-top:18px}footer\
+        \ a,footer a:visited,.smiUbb{color:#70757a}.xeDNfc{margin:0 13px}#EOlPnc{margin-top:36px}#EOlPnc>div{margin:20px}.Srfpq{color:#70757a}</style></head><body\
+        \ jsmodel=\"TvHxbe\"><header id=\"hdr\"><script nonce=\"yVQsj1FCvTj//V0jSNFz6w==\"\
+        >(function(){\nvar k=this||self,l=function(){},m=function(a){var b=typeof\
+        \ a;return\"object\"==b&&null!=a||\"function\"==b},n=function(a,b){function\
+        \ c(){}c.prototype=b.prototype;a.l=b.prototype;a.prototype=new c;a.prototype.constructor=a;a.m=function(d,e,g){for(var\
+        \ f=Array(arguments.length-2),h=2;h<arguments.length;h++)f[h-2]=arguments[h];return\
+        \ b.prototype[e].apply(d,f)}};var p=Array.prototype.indexOf?function(a,b){return\
+        \ Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof\
+        \ a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c<a.length;c++)if(c\
+        \ in a&&a[c]===b)return c;return-1},q=Array.prototype.filter?function(a,b){return\
+        \ Array.prototype.filter.call(a,b,void 0)}:function(a,b){for(var c=a.length,d=[],e=0,g=\"\
+        string\"===typeof a?a.split(\"\"):a,f=0;f<c;f++)if(f in g){var h=g[f];b.call(void\
+        \ 0,h,f,a)&&(d[e++]=h)}return d};var r=function(a){return\"string\"==typeof\
+        \ a.className?a.className:a.getAttribute&&a.getAttribute(\"class\")||\"\"\
+        },t=function(a,b){\"string\"==typeof a.className?a.className=b:a.setAttribute&&a.setAttribute(\"\
+        class\",b)},u=function(a,b){a.classList?b=a.classList.contains(b):(a=a.classList?a.classList:r(a).match(/\\\
+        S+/g)||[],b=0<=p(a,b));return b},x=function(){var a=v,b=w;a.classList?a.classList.remove(b):u(a,b)&&t(a,q(a.classList?a.classList:r(a).match(/\\\
+        S+/g)||[],function(c){return c!=b}).join(\" \"))};var y;a:{var z=k.navigator;if(z){var\
+        \ A=z.userAgent;if(A){y=A;break a}}y=\"\"};var B=function(a){B[\" \"](a);return\
+        \ a};B[\" \"]=l;var C=-1!=y.indexOf(\"Gecko\")&&!(-1!=y.toLowerCase().indexOf(\"\
+        webkit\")&&-1==y.indexOf(\"Edge\"))&&!(-1!=y.indexOf(\"Trident\")||-1!=y.indexOf(\"\
+        MSIE\"))&&-1==y.indexOf(\"Edge\");var D=function(){if(!k.addEventListener||!Object.defineProperty)return!1;var\
+        \ a=!1,b=Object.defineProperty({},\"passive\",{get:function(){a=!0}});try{k.addEventListener(\"\
+        test\",l,b),k.removeEventListener(\"test\",l,b)}catch(c){}return a}();var\
+        \ E=function(a,b){this.type=a;this.target=b};E.prototype.g=function(){};var\
+        \ G=function(a){E.call(this,a?a.type:\"\");this.relatedTarget=this.target=null;this.button=this.screenY=this.screenX=this.clientY=this.clientX=0;this.key=\"\
+        \";this.keyCode=0;this.metaKey=this.shiftKey=this.altKey=this.ctrlKey=!1;this.state=null;this.pointerId=0;this.pointerType=\"\
+        \";this.h=null;if(a){var b=this.type=a.type,c=a.changedTouches&&a.changedTouches.length?a.changedTouches[0]:null;this.target=a.target||a.srcElement;var\
+        \ d=a.relatedTarget;if(d){if(C){a:{try{B(d.nodeName);var e=!0;break a}catch(g){}e=\n\
+        !1}e||(d=null)}}else\"mouseover\"==b?d=a.fromElement:\"mouseout\"==b&&(d=a.toElement);this.relatedTarget=d;c?(this.clientX=void\
+        \ 0!==c.clientX?c.clientX:c.pageX,this.clientY=void 0!==c.clientY?c.clientY:c.pageY,this.screenX=c.screenX||0,this.screenY=c.screenY||0):(this.clientX=void\
+        \ 0!==a.clientX?a.clientX:a.pageX,this.clientY=void 0!==a.clientY?a.clientY:a.pageY,this.screenX=a.screenX||0,this.screenY=a.screenY||0);this.button=a.button;this.keyCode=a.keyCode||0;this.key=a.key||\"\
+        \";this.ctrlKey=a.ctrlKey;this.altKey=a.altKey;this.shiftKey=a.shiftKey;this.metaKey=a.metaKey;this.pointerId=a.pointerId||0;this.pointerType=\"\
+        string\"===typeof a.pointerType?a.pointerType:F[a.pointerType]||\"\";this.state=a.state;this.h=a;a.defaultPrevented&&G.l.g.call(this)}};n(G,E);var\
+        \ F={2:\"touch\",3:\"pen\",4:\"mouse\"};G.prototype.g=function(){G.l.g.call(this);var\
+        \ a=this.h;a.preventDefault?a.preventDefault():a.returnValue=!1};var H=\"\
+        closure_listenable_\"+(1E6*Math.random()|0);var I=0;var J=function(a,b,c,d,e){this.listener=a;this.g=null;this.src=b;this.type=c;this.capture=!!d;this.i=e;this.key=++I;this.h=this.j=!1},K=function(a){a.h=!0;a.listener=null;a.g=null;a.src=null;a.i=null};var\
+        \ L=function(a){this.src=a;this.g={};this.h=0};L.prototype.add=function(a,b,c,d,e){var\
+        \ g=a.toString();a=this.g[g];a||(a=this.g[g]=[],this.h++);var f;a:{for(f=0;f<a.length;++f){var\
+        \ h=a[f];if(!h.h&&h.listener==b&&h.capture==!!d&&h.i==e)break a}f=-1}-1<f?(b=a[f],c||(b.j=!1)):(b=new\
+        \ J(b,this.src,g,!!d,e),b.j=c,a.push(b));return b};var M=\"closure_lm_\"+(1E6*Math.random()|0),N={},O=0,Q=function(a,b,c,d,e){if(d&&d.once)return\
+        \ P(a,b,c,d,e);if(Array.isArray(b)){for(var g=0;g<b.length;g++)Q(a,b[g],c,d,e);return\
+        \ null}c=R(c);return a&&a[H]?a.g(b,c,m(d)?!!d.capture:!!d,e):S(a,b,c,!1,d,e)},S=function(a,b,c,d,e,g){if(!b)throw\
+        \ Error(\"a\");var f=m(e)?!!e.capture:!!e,h=T(a);h||(a[M]=h=new L(a));c=h.add(b,c,d,f,g);if(c.g)return\
+        \ c;d=U();c.g=d;d.src=a;d.listener=c;if(a.addEventListener)D||(e=f),void 0===e&&(e=!1),a.addEventListener(b.toString(),d,e);else\
+        \ if(a.attachEvent)a.attachEvent(V(b.toString()),d);else if(a.addListener&&a.removeListener)a.addListener(d);else\
+        \ throw Error(\"b\");O++;return c},U=function(){var a=aa,b=function(c){return\
+        \ a.call(b.src,b.listener,c)};return b},P=function(a,b,c,d,e){if(Array.isArray(b)){for(var\
+        \ g=0;g<b.length;g++)P(a,b[g],c,d,e);return null}c=R(c);return a&&a[H]?a.h(b,c,m(d)?!!d.capture:!!d,e):S(a,b,c,!0,d,e)},W=function(a){if(\"\
+        number\"!==typeof a&&a&&!a.h){var b=a.src;if(b&&b[H])b.i(a);else{var c=a.type,d=a.g;b.removeEventListener?b.removeEventListener(c,d,a.capture):b.detachEvent?b.detachEvent(V(c),d):b.addListener&&b.removeListener&&b.removeListener(d);O--;if(c=T(b)){d=a.type;if(d\
+        \ in c.g){var e=c.g[d],g=p(e,a),f;(f=0<=g)&&Array.prototype.splice.call(e,g,1);f&&(K(a),0==c.g[d].length&&(delete\
+        \ c.g[d],c.h--))}0==c.h&&(c.src=null,b[M]=null)}else K(a)}}},V=function(a){return\
+        \ a in N?N[a]:N[a]=\"on\"+a},aa=function(a,b){if(a.h)a=!0;else{b=new G(b,this);var\
+        \ c=a.listener,d=a.i||a.src;a.j&&W(a);a=c.call(d,b)}return a},T=function(a){a=a[M];return\
+        \ a instanceof L?a:null},X=\"__closure_events_fn_\"+(1E9*Math.random()>>>0),R=function(a){if(\"\
+        function\"===typeof a)return a;a[X]||(a[X]=function(b){return a.handleEvent(b)});return\
+        \ a[X]};var w,v=document.documentElement,Y;function ba(){W(Y);Y=P(v,\"mousedown\"\
+        ,function(){x();Z()},{capture:!0})}function Z(){W(Y);Y=Q(v,\"keydown\",function(a){if(9==a.keyCode){a=v;var\
+        \ b=w;if(a.classList)a.classList.add(b);else if(!u(a,b)){var c=r(a);t(a,c+(0<c.length?\"\
+        \ \"+b:b))}ba()}})};w=\"zAoYTe\";Z();}).call(this);(function(){var c=500;(function(){\n\
+        window.screen&&window.screen.width<=c&&window.screen.height<=c&&document.getElementById(\"\
+        hdr\").classList.add(\"sml\");}).call(this);})();</script><div class=\"cOl4Id\"\
+        ><a href=\"/?sa=X&amp;ved=0ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQOwgC\"><svg stroke=\"\
+        #4285f4\" aria-label=\"Google\" fill=\"none\" height=\"36\" stroke-width=\"\
+        18\" viewbox=\"0 0 520 174\" width=\"92\"><path d=\"M69 70.4l61 0m-9 3.5a56\
+        \ 57 0 1 1-17-47\" stroke-width=\"19px\"></path><ellipse stroke=\"#ea4335\"\
+        \ cx=\"179\" cy=\"90\" rx=\"33\" ry=\"34\"></ellipse><ellipse stroke=\"#fbbc04\"\
+        \ cx=\"270\" cy=\"90\" rx=\"33\" ry=\"34\"></ellipse><ellipse cx=\"358\" cy=\"\
+        90\" rx=\"32\" ry=\"34\" stroke-width=\"17px\"></ellipse><path d=\"M391 49l0\
+        \ 73l-2 0a 22 22-30 0 1-59 24\"></path><path style=\"stroke:#34a853\" d=\"\
+        M423 5l0 130\"></path><path stroke=\"#ea4335\" d=\"M509 110a32 35-3 1 1 3-29M517\
+        \ 76l-63 24\" stroke-width=\"16px\"></path></svg></a></div><div class=\"bz1lBb\"\
+        ><form class=\"Pg70bf\" id=\"sf\"><a class=\"l\" href=\"/?gbv=1&amp;output=search&amp;sa=X&amp;ved=0ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQPAgE\"\
+        ><svg stroke=\"#4285f4\" aria-label=\"Google\" fill=\"none\" height=\"22\"\
+        \ stroke-width=\"18\" viewbox=\"0 0 520 174\" width=\"66\"><ellipse stroke=\"\
+        #ea4335\" cx=\"179\" cy=\"90\" rx=\"33\" ry=\"34\"></ellipse><ellipse stroke=\"\
+        #fbbc04\" cx=\"270\" cy=\"90\" rx=\"33\" ry=\"34\"></ellipse><ellipse cx=\"\
+        359\" cy=\"90\" rx=\"31\" ry=\"34\"></ellipse><path d=\"M69 70l61 0m-9 4a56\
+        \ 57 0 1 1-17-47M391 49l0 72l-2 0a 16 17 24 0 1-58 24\"></path><path stroke=\"\
+        #34a853\" d=\"M423 5l0 130\"></path><path stroke=\"#ea4335\" d=\"M509 110a32\
+        \ 35-3 1 1 3-29M517 76l-63 24\"></path></svg></a><input name=\"gbv\" value=\"\
+        1\" type=\"hidden\"><div class=\"H0PQec\"><div class=\"sbc esbc\"><input class=\"\
+        noHIxc\" value=\"What's up from this side\" autocapitalize=\"none\" autocomplete=\"\
+        off\" name=\"q\" spellcheck=\"false\" type=\"text\"><input name=\"oq\" type=\"\
+        hidden\"><input name=\"aqs\" type=\"hidden\"><div class=\"sc\"></div></div></div><button\
+        \ id=\"qdClwb\" type=\"submit\"></button></form></div></header><div id=\"\
+        main\"><div><div class=\"KP7LCb\"> <div class=\"bRsWnc\"> <div class=\"N6RWV\"\
+        > <div class=\"Pg70bf Uv67qb\"> <span class=\"OXXup\">All</span><a class=\"\
+        eZt8xd\" href=\"/search?q=What%27s+up+from+this+side&amp;gbv=1&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQ_AUICCgB\"\
+        >Images</a><a class=\"eZt8xd\" href=\"https://maps.google.com/maps?q=What%27s+up+from+this+side&amp;gbv=1&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQ_AUICSgC\"\
+        >Maps</a><a class=\"eZt8xd\" href=\"/search?q=What%27s+up+from+this+side&amp;gbv=1&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=0ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQ_AUICigD\"\
+        >Videos</a>  <a href=\"/search?q=What%27s+up+from+this+side&amp;gbv=1&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=0ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQ_AUICygE\"\
+        >News</a>  <a href=\"/search?q=What%27s+up+from+this+side&amp;gbv=1&amp;source=lnms&amp;tbm=bks&amp;sa=X&amp;ved=0ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQ_AUIDCgF\"\
+        >Books</a>  <div class=\"FElbsf\"><a href=\"/advanced_search\" style=\"white-space:nowrap\"\
+        \ id=\"st-toggle\" role=\"button\">Search tools</a></div> </div> </div> </div>\
+        \ </div><div class=\"Pg70bf wEsjbd ZINbbc xpd O9g5cc uUPGi\" style=\"display:none\"\
+        \ id=\"st-card\"><style>.wEsjbd{background-color:#fff;height:44px;white-space:nowrap}.coPU8c{height:60px;-webkit-overflow-scrolling:touch;overflow-x:auto;overflow-y:hidden}.Xj2aue{height:44px;overflow:hidden}.RnNGze{margin:11px\
+        \ 16px}.wEsjbd div,.wEsjbd a,.wEsjbd li{outline-width:0;outline:none}</style><div\
+        \ class=\"Xj2aue\"><div class=\"coPU8c\"><div class=\"RnNGze\"><style>.PA9J5{display:inline-block}.RXaOfd{display:inline-block;height:22px;position:relative;padding-top:0;padding-bottom:0;padding-right:16px;padding-left:0;line-height:22px;cursor:pointer;text-transform:uppercase;font-size:12px;color:#70757a}.sa1toc{display:none;position:absolute;background:#fff;border:1px\
+        \ solid #d6d6d6;box-shadow:0 2px 4px rgba(0,0,0,0.3);margin:0;white-space:nowrap;z-index:103;line-height:17px;padding-top:5px;padding-bottom:5px;padding-left:0}.PA9J5:hover\
+        \ .sa1toc{display:block}.mGSy8d a:active,.RXaOfd:active{color:#4285f4}</style><div\
+        \ class=\"PA9J5\"><div class=\"RXaOfd\" role=\"button\" tabindex=\"0\"><style>.TWMOUc{display:inline-block;padding-right:14px;white-space:nowrap}.vQYuGf{font-weight:bold}.OmTIzf{border-color:#909090\
+        \ transparent;border-style:solid;border-width:4px 4px 0 4px;width:0;height:0;margin-left:-10px;top:50%;margin-top:-2px;position:absolute}.RXaOfd:active\
+        \ .OmTIzf{border-color:#4285f4 transparent}</style><div class=\"TWMOUc\">Any\
+        \ time</div><span class=\"OmTIzf\"></span></div><ul class=\"sa1toc ozatM\"\
+        ><style>.ozatM{font-size:12px;text-transform:uppercase}.ozatM .yNFsl,.ozatM\
+        \ li{list-style-type:none;list-style-position:outside;list-style-image:none}.yNFsl.SkUj4c,.yNFsl\
+        \ a{color:rgba(0,0,0,0.54);text-decoration:none;padding:6px 44px 6px 14px;line-height:17px;display:block}.SkUj4c{background-image:url(//ssl.gstatic.com/ui/v1/menu/checkmark2.png);background-position:right\
+        \ center;background-repeat:no-repeat}.SkUj4c:active{background-color:#f8f9fa}</style><li\
+        \ class=\"yNFsl SkUj4c\">Any time</li><li class=\"yNFsl\"><a href=\"/search?q=What%27s+up+from+this+side&amp;gbv=1&amp;source=lnt&amp;tbs=qdr:h&amp;sa=X&amp;ved=0ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQpwUIDg\"\
+        >Past hour</a></li><li class=\"yNFsl\"><a href=\"/search?q=What%27s+up+from+this+side&amp;gbv=1&amp;source=lnt&amp;tbs=qdr:d&amp;sa=X&amp;ved=0ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQpwUIDw\"\
+        >Past 24 hours</a></li><li class=\"yNFsl\"><a href=\"/search?q=What%27s+up+from+this+side&amp;gbv=1&amp;source=lnt&amp;tbs=qdr:w&amp;sa=X&amp;ved=0ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQpwUIEA\"\
+        >Past week</a></li><li class=\"yNFsl\"><a href=\"/search?q=What%27s+up+from+this+side&amp;gbv=1&amp;source=lnt&amp;tbs=qdr:m&amp;sa=X&amp;ved=0ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQpwUIEQ\"\
+        >Past month</a></li><li class=\"yNFsl\"><a href=\"/search?q=What%27s+up+from+this+side&amp;gbv=1&amp;source=lnt&amp;tbs=qdr:y&amp;sa=X&amp;ved=0ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQpwUIEg\"\
+        >Past year</a></li></ul></div><div class=\"PA9J5\"><div class=\"RXaOfd\" role=\"\
+        button\" tabindex=\"0\"><div class=\"TWMOUc\">All results</div><span class=\"\
+        OmTIzf\"></span></div><ul class=\"sa1toc ozatM\"><li class=\"yNFsl SkUj4c\"\
+        >All results</li><li class=\"yNFsl\"><a href=\"/search?q=What%27s+up+from+this+side&amp;gbv=1&amp;source=lnt&amp;tbs=li:1&amp;sa=X&amp;ved=0ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQpwUIFA\"\
+        >Verbatim</a></li></ul></div></div></div></div><script nonce=\"yVQsj1FCvTj//V0jSNFz6w==\"\
+        >(function(){\nvar a=document.getElementById(\"st-toggle\"),b=document.getElementById(\"\
+        st-card\");a&&b&&a.addEventListener(\"click\",function(c){b.style.display=b.style.display?\"\
+        \":\"none\";c.preventDefault()},!1);}).call(this);</script></div></div><style>.ZINbbc{background-color:#fff;margin-bottom:10px;box-shadow:0\
+        \ 1px 6px rgba(32, 33, 36, 0.28);border-radius:8px}.uUPGi{font-size:14px;line-height:20px;}.O9g5cc>*:first-child{border-top-left-radius:8px;border-top-right-radius:8px}.O9g5cc>*:last-child{border-bottom-left-radius:8px;border-bottom-right-radius:8px}.O9g5cc>.qxDOhb>*:first-child{border-top-left-radius:8px;border-top-right-radius:8px}.O9g5cc>.qxDOhb>*:last-child{border-bottom-left-radius:8px;border-bottom-right-radius:8px}.rl7ilb{display:block;clear:both}.kCrYT{padding:12px\
+        \ 16px 12px}a.fdYsqf{color:#4B11A8}.zBAuLc{font-weight:normal;line-height:normal;margin:0;padding:0}.BNeawe{white-space:pre-line;word-wrap:break-word}.vvjwJb{color:#1967D2;font-size:16px;line-height:20px}a:visited\
+        \ .vvjwJb,.vvjwJb a:visited{color:#4B11A8}.vvjwJb.HrGdeb{color:#fff}a:visited\
+        \ .vvjwJb.HrGdeb,.vvjwJb.HrGdeb a:visited{color:rgba(255,255,255,.70)}.UPmit{font-size:14px;line-height:20px}.UPmit.HrGdeb{color:rgba(255,255,255,.70)}.UPmit.AP7Wnd{color:#0d652d}.x54gtf{height:1px;background-color:#dfe1e5;margin:0\
+        \ 16px}.Q0HXG{height:1px;background-color:#dfe1e5}.Ap5OSd{padding-bottom:12px}.s3v9rd{font-size:14px;line-height:20px}.s3v9rd.HrGdeb{color:#fff}.s3v9rd.AP7Wnd{color:#202124}.mSx1Ee{padding-left:48px;margin:0}.v9i61e{padding-bottom:8px}.r0bn4c.tr0dw{color:rgba(255,255,255,.70)}.r0bn4c.rQMQod{color:#70757a}.XLloXe{color:#1967D2;font-size:14px;line-height:20px}a:visited\
+        \ .XLloXe,.XLloXe a:visited{color:#4B11A8}.XLloXe.HrGdeb{color:#fff}a:visited\
+        \ .XLloXe.HrGdeb,.XLloXe.HrGdeb a:visited{color:rgba(255,255,255,.70)}.deIvCb{font-size:16px;line-height:20px;font-weight:400}.deIvCb.HrGdeb{color:#fff}.deIvCb.AP7Wnd{color:#202124}.FCUp0c{font-weight:bold}.tAd8D{font-size:14px;line-height:20px}.tAd8D.HrGdeb{color:rgba(255,255,255,.70)}.tAd8D.AP7Wnd{color:#70757a}.Xb5VRe{color:#1967D2}a:visited\
+        \ .Xb5VRe{color:#4B11A8}.Xb5VRe.tr0dw{color:#fff}a:visited .Xb5VRe.tr0dw{color:rgba(255,255,255,.70)}.Xdlr0d{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0\
+        \ -8px;padding:16px 0 16px 24px;padding-top:2px;margin-top:-2px;transform:translate3d(0,0,0)}.idg8be{display:table;border-collapse:separate;border-spacing:8px\
+        \ 0;margin:0 -8px;padding-right:16px}.BVG0Nb{display:table-cell;vertical-align:top;background-color:#fff;border-radius:8px;box-shadow:0\
+        \ 1px 6px rgba(32, 33, 36, 0.28);overflow:hidden}.WddBJd{display:block;margin:0\
+        \ auto}.R0jTRc{vertical-align:middle}.mHhylf{display:table-cell;vertical-align:middle}.WZ5GJf{align-items:center;padding:0\
+        \ 20px;min-width:112px}.qN9Ked,.DXk5Me{margin:0 auto}.DXk5Me{margin-bottom:12px}.Dk7jOe{display:block;margin:0\
+        \ auto}.Qi9Fd{background:#fff;border:0;border-radius:999px;display:block;height:56px;justify-content:center;width:56px;z-index:0}.Qi9Fd{box-shadow:0\
+        \ 1px 6px rgba(32, 33, 36, 0.28),inset 0 0 0 0 rgba(0,0,0,0.10),inset 0 0\
+        \ 0 0 rgba(255,255,255,0.50)}.Qi9Fd:focus{outline:none}.Qi9Fd .hWHuJ{display:block;margin:0\
+        \ auto}.ji5jpf{text-align:center}.mEUgP{font-weight:bold;font-size:16px;color:#000;margin:0;padding:12px\
+        \ 16px 12px}.iIWm4b{box-sizing:border-box;min-height:48px}.gGQDvd{padding:14px;position:relative}.Q71vJc{display:block;position:relative;width:100%}.kjGX2{position:absolute;left:0;vertical-align:bottom;width:100%;padding-left:48px;display:inline-block;color:#3c4043}.ieB2Dd{width:40px;height:40px;overflow:hidden;margin-top:-10px;margin-bottom:-16px;margin-right:8px;border-radius:4px;display:inline-block;border-radius:50%;padding:10px}.S003Ke{flex:none}.z1asCe{display:inline-block;fill:currentColor;height:24px;line-height:24px;position:relative;width:24px}.z1asCe\
+        \ svg{display:block;height:100%;width:100%}.ZoN4Lb{color:rgba(0,0,0,.54)}.nAXVG{color:#70757a}.IxQsL{color:rgba(0,0,0,.26)}.xFO1De{color:#fff}.ooFpK{color:rgba(255,255,255,.30)}.mtnwac{color:#4285f4}.WxeeKb{color:#34a853}.hIVRU{color:#f29900}.EXaTMc{color:#fbbc04}.sxn46d{color:#000}.gqMTF{color:#1a73e8}.zpn8Mb{color:#d93025}.dEUPmd{color:#1e8e3e}.PJNo1{color:#fbbc04}.lRVwie{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.rLshyf,.BmP5tf{padding-top:12px;padding-bottom:12px}.YOx3Ab{padding-left:16px;}.w1C3Le,.BmP5tf,.G5NbBd,.CS4w5b{padding-left:16px;padding-right:16px;}.G5NbBd{padding-bottom:12px}.CS4w5b{padding-top:12px}.nMymef{display:flex}.G5eFlf{flex:1;display:block}.nMymef\
+        \ span{text-align:center}</style><div><!--SW_C_X--></div><div><div class=\"\
+        ZINbbc xpd O9g5cc uUPGi\"><div class=\"kCrYT\"><a href=\"/url?q=https://www.healthline.com/health/pregnancy/sleeping-positions-in-pregnancy&amp;sa=U&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQFjAAegQICBAB&amp;usg=AOvVaw2IjD1diNSzpq9tAX0fulR1\"\
+        ><h3 class=\"zBAuLc\"><div class=\"BNeawe vvjwJb AP7Wnd\">Sleeping Positions\
+        \ in Pregnancy: Right Side vs. Left Side, More</div></h3><div class=\"BNeawe\
+        \ UPmit AP7Wnd\">www.healthline.com \u203A health \u203A pregnancy \u203A\
+        \ sleeping-positions-in-pregnancy</div></a></div><div class=\"x54gtf\"></div><div\
+        \ class=\"kCrYT\"><div><div class=\"BNeawe s3v9rd AP7Wnd\"><div><div><div\
+        \ class=\"BNeawe s3v9rd AP7Wnd\">What Are the Best Sleeping Positions When\
+        \ You're Pregnant? ... there is an association between stillbirths and sleeping\
+        \ positions up to 30 weeks of pregnancy.</div></div></div></div></div></div></div></div><div><div\
+        \ class=\"ZINbbc xpd O9g5cc uUPGi\"><div class=\"kCrYT\"><a href=\"/url?q=https://www.healthgrades.com/right-care/symptoms-and-conditions/what-pain-on-your-right-side-could-mean&amp;sa=U&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQFjABegQIBxAB&amp;usg=AOvVaw3Pdw3S5jec9XQmmOZYvcf8\"\
+        ><h3 class=\"zBAuLc\"><div class=\"BNeawe vvjwJb AP7Wnd\">What Pain on Your\
+        \ Right Side Could Mean - Healthgrades</div></h3><div class=\"BNeawe UPmit\
+        \ AP7Wnd\">www.healthgrades.com \u203A Right Care \u203A Symptoms and Conditions</div></a></div><div\
+        \ class=\"x54gtf\"></div><div class=\"kCrYT\"><div><div class=\"BNeawe s3v9rd\
+        \ AP7Wnd\"><div><div><div class=\"BNeawe s3v9rd AP7Wnd\"><span class=\"r0bn4c\
+        \ rQMQod\">21 Jan 2021</span><span class=\"r0bn4c rQMQod\"> \xB7 </span>Types\
+        \ and Symptoms of Right-Sided Abdominal Pain. Pain on the right-side of your\
+        \ abdomen may be sharp or dull and last a short time (acute\_...</div></div></div></div></div></div></div></div><div><div\
+        \ class=\"ZINbbc xpd O9g5cc uUPGi\"><div class=\"kCrYT\"><a href=\"/url?q=https://www.whattoexpect.com/pregnancy/sleep-solutions/pregnancy-sleep-positions/&amp;sa=U&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQFjACegQICRAB&amp;usg=AOvVaw2n58E3lPu7Z_mLl4tEJkLe\"\
+        ><h3 class=\"zBAuLc\"><div class=\"BNeawe vvjwJb AP7Wnd\">Sleeping Positions\
+        \ During Pregnancy: How to Sleep When Pregnant</div></h3><div class=\"BNeawe\
+        \ UPmit AP7Wnd\">www.whattoexpect.com \u203A Pregnancy \u203A Your Health</div></a></div><div\
+        \ class=\"x54gtf\"></div><div class=\"kCrYT\"><div><div class=\"BNeawe s3v9rd\
+        \ AP7Wnd\"><div><div><div class=\"BNeawe s3v9rd AP7Wnd\"><span class=\"r0bn4c\
+        \ rQMQod\">16 Mar 2021</span><span class=\"r0bn4c rQMQod\"> \xB7 </span>Stomach,\
+        \ back or side? ... sleeping positions; Pregnancy pillows to help you sleep;\
+        \ What if you wake up sleeping on your back in pregnancy?</div></div></div></div></div></div></div></div><div><div\
+        \ class=\"ZINbbc xpd O9g5cc uUPGi\"><div class=\"kCrYT\"><a href=\"/url?q=https://en.wikipedia.org/wiki/What%2527s_Up%253F_(4_Non_Blondes_song)&amp;sa=U&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQFjADegQIABAB&amp;usg=AOvVaw1VKXgf7esQLigaqsx2usI2\"\
+        ><h3 class=\"zBAuLc\"><div class=\"BNeawe vvjwJb AP7Wnd\">What's Up? (4 Non\
+        \ Blondes song) - Wikipedia</div></h3><div class=\"BNeawe UPmit AP7Wnd\">en.wikipedia.org\
+        \ \u203A wiki \u203A What's_Up?_(4_Non_Blondes_song)</div></a></div><div class=\"\
+        x54gtf\"></div><div class=\"kCrYT\"><div><div class=\"BNeawe s3v9rd AP7Wnd\"\
+        ><div><div><div class=\"BNeawe s3v9rd AP7Wnd\">from the album Bigger, Better,\
+        \ Faster, More! B-side, \"What's Up?\" (piano version). Released, June 11,\
+        \ 1993.\n\nSongwriter(s): <span class=\"BNeawe\"><a href=\"/url?q=https://en.wikipedia.org/wiki/Linda_Perry&amp;sa=U&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQs2YwA3oECAAQBA&amp;usg=AOvVaw0ON1LqvqRcrqyYvnLk4QPC\"\
+        ><span class=\"XLloXe AP7Wnd\">Linda Perry</span></a></span>\nB-side: <span\
+        \ class=\"r0bn4c rQMQod\">\"What's Up?\" (piano version)</span>\nProducer(s):\
+        \ <span class=\"BNeawe\"><a href=\"/url?q=https://en.wikipedia.org/wiki/David_Tickle&amp;sa=U&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQs2YwA3oECAAQBw&amp;usg=AOvVaw36Natwvb-5HrS-3d11RCbV\"\
+        ><span class=\"XLloXe AP7Wnd\">David Tickle</span></a></span>\nReleased: <span\
+        \ class=\"r0bn4c rQMQod\">June 11, 1993</span></div></div></div></div></div></div></div></div><div><div\
+        \ class=\"ZINbbc xpd O9g5cc uUPGi\"><div class=\"kCrYT\"><a href=\"/url?q=https://www.npr.org/sections/goatsandsoda/2021/04/09/985775938/coronavirus-vaccine-faqs-whats-up-with-side-effects-should-you-still-double-mask&amp;sa=U&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQFjAEegQIChAB&amp;usg=AOvVaw2ElDjYGQyp0F20Mt-_obHP\"\
+        ><h3 class=\"zBAuLc\"><div class=\"BNeawe vvjwJb AP7Wnd\">Vaccine Side Effects:\
+        \ What Are They? What If I Don't Have Any ...</div></h3><div class=\"BNeawe\
+        \ UPmit AP7Wnd\">www.npr.org \u203A sections \u203A goatsandsoda \u203A 2021/04/09\
+        \ \u203A coronavirus-vaccin...</div></a></div><div class=\"x54gtf\"></div><div\
+        \ class=\"kCrYT\"><div><div class=\"BNeawe s3v9rd AP7Wnd\"><div><div><div\
+        \ class=\"BNeawe s3v9rd AP7Wnd\"><span class=\"r0bn4c rQMQod\">9 Apr 2021</span><span\
+        \ class=\"r0bn4c rQMQod\"> \xB7 </span>Coronavirus Vaccine FAQs: What's Up\
+        \ With Side Effects? Should You Still Double Mask?</div></div></div></div></div></div></div></div><div><div\
+        \ class=\"ZINbbc xpd O9g5cc uUPGi\"><div class=\"kCrYT\"><a href=\"/url?q=https://www.webmd.com/sleep-disorders/best-sleep-positions&amp;sa=U&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQFjAFegQIBBAB&amp;usg=AOvVaw1hnxMpg7qc4XvFDL_a_GfC\"\
+        ><h3 class=\"zBAuLc\"><div class=\"BNeawe vvjwJb AP7Wnd\">How Your Sleep Position\
+        \ Affects Your Sleep Quality - WebMD</div></h3><div class=\"BNeawe UPmit AP7Wnd\"\
+        >www.webmd.com \u203A Sleep Disorders \u203A Reference</div></a></div><div\
+        \ class=\"x54gtf\"></div><div class=\"kCrYT\"><div><div class=\"BNeawe s3v9rd\
+        \ AP7Wnd\"><div><div><div class=\"BNeawe s3v9rd AP7Wnd\"><span class=\"r0bn4c\
+        \ rQMQod\">17 Feb 2021</span><span class=\"r0bn4c rQMQod\"> \xB7 </span>Is\
+        \ it better to sleep on your side, back, or belly? ... What's the Best Position\
+        \ to Sleep In? ... is favored by more than 4 out of 10 people, especially\
+        \ among women\u200B, who are twice as likely as men to sleep curled up on\
+        \ their side.</div></div></div></div></div></div></div></div><div><div class=\"\
+        ZINbbc xpd O9g5cc uUPGi\"><div class=\"kCrYT\"><a href=\"/url?q=https://www.webmd.com/migraines-headaches/why-wake-up-with-headache-morning&amp;sa=U&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQFjAGegQIAhAB&amp;usg=AOvVaw3RY4PXtqF0to2KpMLUhn1O\"\
+        ><h3 class=\"zBAuLc\"><div class=\"BNeawe vvjwJb AP7Wnd\">Headaches: What's\
+        \ Up With My Head in the Morning? - WebMD</div></h3><div class=\"BNeawe UPmit\
+        \ AP7Wnd\">www.webmd.com \u203A Migraine &amp; Headaches \u203A Reference</div></a></div><div\
+        \ class=\"x54gtf\"></div><div class=\"kCrYT\"><div><div class=\"BNeawe s3v9rd\
+        \ AP7Wnd\"><div><div><div class=\"BNeawe s3v9rd AP7Wnd\"><span class=\"r0bn4c\
+        \ rQMQod\">9 May 2019</span><span class=\"r0bn4c rQMQod\"> \xB7 </span>If\
+        \ you wake up in the morning with a pounding headache, you're not alone. Morning\
+        \ headaches -- or at any time of the day -- are something\_...</div></div></div></div></div></div></div></div><div><div\
+        \ class=\"ZINbbc xpd O9g5cc uUPGi\"><div class=\"kCrYT\"><a href=\"/url?q=https://www.medicalnewstoday.com/articles/319406&amp;sa=U&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQFjAHegQIARAB&amp;usg=AOvVaw0mrLWOXf8691lna5AXtr0e\"\
+        ><h3 class=\"zBAuLc\"><div class=\"BNeawe vvjwJb AP7Wnd\">Headache on the\
+        \ left side: Symptoms, causes, and treatment</div></h3><div class=\"BNeawe\
+        \ UPmit AP7Wnd\">www.medicalnewstoday.com \u203A articles</div></a></div><div\
+        \ class=\"x54gtf\"></div><div class=\"kCrYT\"><div><div class=\"BNeawe s3v9rd\
+        \ AP7Wnd\"><div><div><div class=\"BNeawe s3v9rd AP7Wnd\">severe pain lasts\
+        \ between 30-60 minutes; less intense pain may continue for up to 3 hours.\
+        \ Other related symptoms may include\_...</div></div></div></div></div></div></div></div><div><div\
+        \ class=\"ZINbbc xpd O9g5cc uUPGi\"><div class=\"kCrYT\"><a href=\"https://books.google.com.ng/books?id=ksDE8r-hso0C&amp;pg=PA54&amp;lpg=PA54&amp;dq=What's+up+from+this+side&amp;source=bl&amp;ots=PzGjCfHFKU&amp;sig=ACfU3U2zLqPidyHKjn1crHAp_JU8mcmmAQ&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQ6AEwCHoECAMQAQ\"\
+        ><h3 class=\"zBAuLc\"><div class=\"BNeawe vvjwJb AP7Wnd\">This Side Up: Making\
+        \ Decisions about Drugs</div></h3><div class=\"BNeawe UPmit AP7Wnd\">books.google.com.ng\
+        \ \u203A books</div></a></div><div class=\"x54gtf\"></div><div class=\"kCrYT\"\
+        ><div><div class=\"BNeawe s3v9rd AP7Wnd\"><div><div><div class=\"BNeawe s3v9rd\
+        \ AP7Wnd\">What's on your mind , Pam ? Um .... Do you know anything about\
+        \ drugs ? What drugs ? Little orange pills called peaches . Where did you\
+        \ get these pills ? I don't\u200B\_...</div></div></div></div></div></div></div></div><div><div\
+        \ class=\"ZINbbc xpd O9g5cc uUPGi\"><div class=\"kCrYT\"><div class=\"BNeawe\
+        \ deIvCb AP7Wnd\"><span class=\"BNeawe\"><a href=\"https://www.google.com/search?gbv=1&amp;ei=wLaZYKz0Ltnmz7sP7uKlsAI&amp;q=What's+up+from+this+side&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQsAR6BAgFEAE\"\
+        ><span class=\"deIvCb AP7Wnd\"><span class=\"FCUp0c rQMQod\">Images</span></span></a></span></div><div\
+        \ class=\"BNeawe tAd8D AP7Wnd\"><span class=\"BNeawe\"><a href=\"https://www.google.com/search?gbv=1&amp;ei=wLaZYKz0Ltnmz7sP7uKlsAI&amp;q=What's+up+from+this+side&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQ7Al6BAgFEAI\"\
+        ><span class=\"tAd8D AP7Wnd\"><span class=\"rQMQod Xb5VRe\">View all</span></span></a></span></div></div><div><div><div><div\
+        \ class=\"Xdlr0d\"><div class=\"idg8be\"><a class=\"BVG0Nb\" href=\"https://www.google.com/imgres?imgurl=https://post.healthline.com/wp-content/uploads/2020/02/289683_Sunny_Side_Up_Baby_Facebook-1200x628.png&amp;imgrefurl=https://www.healthline.com/health/pregnancy/sunny-side-up-baby&amp;h=628&amp;w=1200&amp;tbnid=cWuejv2dR6JU2M&amp;q=What's+up+from+this+side&amp;tbnh=79&amp;tbnw=150&amp;usg=AI4_-kS_5e4GhDKPLSCJRNo-MUVd7nBx4A&amp;vet=1&amp;docid=GpBBySOkCLJxTM&amp;sa=X&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQ9QEwCXoECAUQBA\"\
+        ><div><img class=\"WddBJd\" style=\"max-width:none;height:128px;max-height:128px\"\
+        \ alt=\"post.healthline.com/wp-content/uploads/2020/02/289...\" src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTCz2uK4bL8aAUDzlM7JUPPGqtiMohS5bZ4mWNUIxel7xjY1X44WbxTkSh8t8&amp;s\"\
+        ></div></a><a class=\"BVG0Nb\" href=\"https://www.google.com/imgres?imgurl=https://post.medicalnewstoday.com/wp-content/uploads/2019/09/Female_Waking_Up_1200x628-facebook.jpg&amp;imgrefurl=https://www.healthline.com/health/best-time-to-sleep&amp;h=628&amp;w=1200&amp;tbnid=7qcfx9yhGPs0OM&amp;q=What's+up+from+this+side&amp;tbnh=79&amp;tbnw=150&amp;usg=AI4_-kSE5UuBnZoWxxJdx2C8wWguc5qXGA&amp;vet=1&amp;docid=PQtzNu-kIVaBzM&amp;sa=X&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQ9QEwCnoECAUQBg\"\
+        ><div><img class=\"WddBJd\" style=\"max-width:none;height:128px;max-height:128px\"\
+        \ alt=\"post.medicalnewstoday.com/wp-content/uploads/2019/...\" src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv2gWsjXH-DCFC52yciq1P566AfjgGNkccJeOpiryepV28XdXHMToUUU2d6jo&amp;s\"\
+        ></div></a><a class=\"BVG0Nb\" href=\"https://www.google.com/imgres?imgurl=http://a.scpr.org/i/735b112dcb2a81893d36c32c99e04d8f/232699-full.jpg&amp;imgrefurl=https://www.scpr.org/news/2021/04/09/97369/coronavirus-vaccine-faqs-what-s-up-with-side-effec/&amp;h=682&amp;w=1024&amp;tbnid=PMtquWw4WX5iNM&amp;q=What's+up+from+this+side&amp;tbnh=100&amp;tbnw=150&amp;usg=AI4_-kSUqwOXtsWJKwYIMPkkwSE6OlnZWA&amp;vet=1&amp;docid=8C1e1IIsFjY74M&amp;sa=X&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQ9QEwC3oECAUQCA\"\
+        ><div><img class=\"WddBJd\" style=\"max-width:none;height:128px;max-height:128px\"\
+        \ alt=\"a.scpr.org/i/735b112dcb2a81893d36c32c99e04d8f/2326...\" src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMAUENzKmMvrsdpVFJxM8y7HrSfJSlny0F6iGDNdHw1vTcp0eEjknXHQZ4WBE&amp;s\"\
+        ></div></a><a class=\"BVG0Nb\" href=\"https://www.google.com/imgres?imgurl=https://post.healthline.com/wp-content/uploads/2019/07/Baby_Sleeping_1200x628-facebook.jpg&amp;imgrefurl=https://www.healthline.com/health/baby-sleeping-on-side&amp;h=628&amp;w=1200&amp;tbnid=rkYExdzKU2wkJM&amp;q=What's+up+from+this+side&amp;tbnh=79&amp;tbnw=150&amp;usg=AI4_-kQ03VJrHQ8ZNfGZaVe6c9v_fRlfOA&amp;vet=1&amp;docid=_fSCKN06ytdpMM&amp;sa=X&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQ9QEwDHoECAUQCg\"\
+        ><div><img class=\"WddBJd\" style=\"max-width:none;height:128px;max-height:128px\"\
+        \ alt=\"post.healthline.com/wp-content/uploads/2019/07/Bab...\" src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ2SfHldKBDwCACeATyOwfXCJkypZofownvRt_UOzlPoj9v72tC7_jDNwp1A8&amp;s\"\
+        ></div></a><a class=\"BVG0Nb\" href=\"https://www.google.com/imgres?imgurl=https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/c6fd9e2/2147483647/strip/true/crop/5184x3375%2B0%2B41/resize/768x500!/quality/75/?url%3Dhttps%253A%252F%252Fd26ua9paks4zq.cloudfront.net%252F8f%252F8d%252F40fbda394aaea67ad55dd4035961%252Fimage-gettyimages-184972038.jpg&amp;imgrefurl=https://www.healthgrades.com/right-care/symptoms-and-conditions/what-pain-on-your-right-side-could-mean&amp;h=500&amp;w=768&amp;tbnid=p84o2zGN9SlKsM&amp;q=What's+up+from+this+side&amp;tbnh=92&amp;tbnw=142&amp;usg=AI4_-kR7Ry9xc_lUm3_5VBRxdcdw7mWRwA&amp;vet=1&amp;docid=zwTB5Tqv6_jetM&amp;sa=X&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQ9QEwDXoECAUQDA\"\
+        ><div><img class=\"WddBJd\" style=\"max-width:none;height:128px;max-height:128px\"\
+        \ alt=\"d33ljpvc0tflz5.cloudfront.net/dims3/MMH/c6fd9e2/21...\" src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxC407s4Bot7EiwyQBz9z7wcQ1VBdplg1021VOTHs7K8u-dvUcZHvuLfPdbw&amp;s\"\
+        ></div></a><a class=\"BVG0Nb\" href=\"https://www.google.com/imgres?imgurl=https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/320858_2200-732x549.jpg&amp;imgrefurl=https://www.medicalnewstoday.com/articles/pain-on-left-side-of-body&amp;h=549&amp;w=732&amp;tbnid=iKG5-zYRB5MB2M&amp;q=What's+up+from+this+side&amp;tbnh=106&amp;tbnw=141&amp;usg=AI4_-kSgq-m0FYvQWIKGsRSGInbuMIQIlA&amp;vet=1&amp;docid=jo_H8eQ2KpuG0M&amp;sa=X&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQ9QEwDnoECAUQDg\"\
+        ><div><img class=\"WddBJd\" style=\"max-width:none;height:128px;max-height:128px\"\
+        \ alt=\"post.medicalnewstoday.com/wp-content/uploads/sites...\" src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeaGOWWbTZuDEZ8d0_qmjn9I2Eevx4EgH0HGTOw6cU5wyi1bdOGFKRD88cTfA&amp;s\"\
+        ></div></a><div class=\"mHhylf\"><div class=\"WZ5GJf\"><a class=\"qN9Ked\"\
+        \ href=\"https://www.google.com/search?gbv=1&amp;ei=wLaZYKz0Ltnmz7sP7uKlsAI&amp;q=What's+up+from+this+side&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQ7Al6BAgFEA8\"\
+        ><button class=\"DXk5Me Qi9Fd\" tabindex=\"-1\"><span class=\"hWHuJ\"><img\
+        \ class=\"Dk7jOe\" alt=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYAgMAAACdGdVrAAAADFBMVEVMaXFChfRChfRChfT0tCPZAAAAA3RSTlMAgFJEkGxNAAAAL0lEQVR4AWPADxgdwBT3BTDF9AUiuhdC6WNK/v///y+UggrClSA07EWVglmEFwAA5eYSExeCwigAAAAASUVORK5CYII=\"\
+        \ style=\"max-width:24px;max-height:24px\"></span></button><div class=\"BNeawe\
+        \ ji5jpf tAd8D AP7Wnd\">View all</div></a></div></div></div></div></div></div></div></div></div><div><div\
+        \ class=\"ZINbbc xpd O9g5cc uUPGi\"><div></div><div class=\"mEUgP\"><span><div\
+        \ class=\"BNeawe\">Related searches</div></span></div><div class=\"x54gtf\"\
+        ></div><div><div class=\"gGQDvd iIWm4b\"><a class=\"Q71vJc\" href=\"/search?gbv=1&amp;q=How+long+can+you+lay+on+your+back+when+pregnant&amp;sa=X&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQ1QIwD3oECAYQAg\"\
+        ><accordion-entry-search-icon><span class=\"ieB2Dd S003Ke ZoN4Lb z1asCe MZy1Rb\"\
+        \ style=\"height:20px;line-height:20px;width:20px\"><svg focusable=\"false\"\
+        \ xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 24 24\"><path d=\"M15.5\
+        \ 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59\
+        \ 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01\
+        \ 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z\"></path></svg></span></accordion-entry-search-icon><div\
+        \ class=\"kjGX2\"><span><div class=\"BNeawe s3v9rd AP7Wnd lRVwie\">How long\
+        \ can you lay on your back when pregnant</div></span></div></a></div></div><div\
+        \ class=\"x54gtf\"></div><div><div class=\"gGQDvd iIWm4b\"><a class=\"Q71vJc\"\
+        \ href=\"/search?gbv=1&amp;q=Sleeping+position+during+pregnancy+first+3+months&amp;sa=X&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQ1QIwEHoECAYQBA\"\
+        ><accordion-entry-search-icon><span class=\"ieB2Dd S003Ke ZoN4Lb z1asCe MZy1Rb\"\
+        \ style=\"height:20px;line-height:20px;width:20px\"><svg focusable=\"false\"\
+        \ xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 24 24\"><path d=\"M15.5\
+        \ 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59\
+        \ 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01\
+        \ 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z\"></path></svg></span></accordion-entry-search-icon><div\
+        \ class=\"kjGX2\"><span><div class=\"BNeawe s3v9rd AP7Wnd lRVwie\">Sleeping\
+        \ position during pregnancy first 3 months</div></span></div></a></div></div><div\
+        \ class=\"x54gtf\"></div><div><div class=\"gGQDvd iIWm4b\"><a class=\"Q71vJc\"\
+        \ href=\"/search?gbv=1&amp;q=Wrong+sleeping+positions+during+pregnancy&amp;sa=X&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQ1QIwEXoECAYQBg\"\
+        ><accordion-entry-search-icon><span class=\"ieB2Dd S003Ke ZoN4Lb z1asCe MZy1Rb\"\
+        \ style=\"height:20px;line-height:20px;width:20px\"><svg focusable=\"false\"\
+        \ xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 24 24\"><path d=\"M15.5\
+        \ 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59\
+        \ 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01\
+        \ 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z\"></path></svg></span></accordion-entry-search-icon><div\
+        \ class=\"kjGX2\"><span><div class=\"BNeawe s3v9rd AP7Wnd lRVwie\">Wrong sleeping\
+        \ positions during pregnancy</div></span></div></a></div></div><div class=\"\
+        x54gtf\"></div><div><div class=\"gGQDvd iIWm4b\"><a class=\"Q71vJc\" href=\"\
+        /search?gbv=1&amp;q=How+to+get+up+from+bed+during+pregnancy&amp;sa=X&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQ1QIwEnoECAYQCA\"\
+        ><accordion-entry-search-icon><span class=\"ieB2Dd S003Ke ZoN4Lb z1asCe MZy1Rb\"\
+        \ style=\"height:20px;line-height:20px;width:20px\"><svg focusable=\"false\"\
+        \ xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 24 24\"><path d=\"M15.5\
+        \ 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59\
+        \ 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01\
+        \ 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z\"></path></svg></span></accordion-entry-search-icon><div\
+        \ class=\"kjGX2\"><span><div class=\"BNeawe s3v9rd AP7Wnd lRVwie\">How to\
+        \ get up from bed during pregnancy</div></span></div></a></div></div><div\
+        \ class=\"x54gtf\"></div><div><div class=\"gGQDvd iIWm4b\"><a class=\"Q71vJc\"\
+        \ href=\"/search?gbv=1&amp;q=Third+trimester+pregnancy+sleeping+positions&amp;sa=X&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQ1QIwE3oECAYQCg\"\
+        ><accordion-entry-search-icon><span class=\"ieB2Dd S003Ke ZoN4Lb z1asCe MZy1Rb\"\
+        \ style=\"height:20px;line-height:20px;width:20px\"><svg focusable=\"false\"\
+        \ xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 24 24\"><path d=\"M15.5\
+        \ 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59\
+        \ 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01\
+        \ 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z\"></path></svg></span></accordion-entry-search-icon><div\
+        \ class=\"kjGX2\"><span><div class=\"BNeawe s3v9rd AP7Wnd lRVwie\">Third trimester\
+        \ pregnancy sleeping positions</div></span></div></a></div></div><div class=\"\
+        x54gtf\"></div><div><div class=\"gGQDvd iIWm4b\"><a class=\"Q71vJc\" href=\"\
+        /search?gbv=1&amp;q=Sleeping+position+during+pregnancy+first+3+months+images&amp;sa=X&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQ1QIwFHoECAYQDA\"\
+        ><accordion-entry-search-icon><span class=\"ieB2Dd S003Ke ZoN4Lb z1asCe MZy1Rb\"\
+        \ style=\"height:20px;line-height:20px;width:20px\"><svg focusable=\"false\"\
+        \ xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 24 24\"><path d=\"M15.5\
+        \ 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59\
+        \ 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01\
+        \ 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z\"></path></svg></span></accordion-entry-search-icon><div\
+        \ class=\"kjGX2\"><span><div class=\"BNeawe s3v9rd AP7Wnd lRVwie\">Sleeping\
+        \ position during pregnancy first 3 months images</div></span></div></a></div></div><div\
+        \ class=\"x54gtf\"></div><div><div class=\"gGQDvd iIWm4b\"><a class=\"Q71vJc\"\
+        \ href=\"/search?gbv=1&amp;q=It+hurts+to+sleep+on+my+side+while+pregnant&amp;sa=X&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQ1QIwFXoECAYQDg\"\
+        ><accordion-entry-search-icon><span class=\"ieB2Dd S003Ke ZoN4Lb z1asCe MZy1Rb\"\
+        \ style=\"height:20px;line-height:20px;width:20px\"><svg focusable=\"false\"\
+        \ xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 24 24\"><path d=\"M15.5\
+        \ 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59\
+        \ 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01\
+        \ 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z\"></path></svg></span></accordion-entry-search-icon><div\
+        \ class=\"kjGX2\"><span><div class=\"BNeawe s3v9rd AP7Wnd lRVwie\">It hurts\
+        \ to sleep on my side while pregnant</div></span></div></a></div></div><div\
+        \ class=\"x54gtf\"></div><div><div class=\"gGQDvd iIWm4b\"><a class=\"Q71vJc\"\
+        \ href=\"/search?gbv=1&amp;q=Sleeping+position+during+Pregnancy+5th+Month+Images&amp;sa=X&amp;ved=2ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQ1QIwFnoECAYQEA\"\
+        ><accordion-entry-search-icon><span class=\"ieB2Dd S003Ke ZoN4Lb z1asCe MZy1Rb\"\
+        \ style=\"height:20px;line-height:20px;width:20px\"><svg focusable=\"false\"\
+        \ xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 24 24\"><path d=\"M15.5\
+        \ 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59\
+        \ 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01\
+        \ 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z\"></path></svg></span></accordion-entry-search-icon><div\
+        \ class=\"kjGX2\"><span><div class=\"BNeawe s3v9rd AP7Wnd lRVwie\">Sleeping\
+        \ position during Pregnancy 5th Month Images</div></span></div></a></div></div></div></div><footer>\
+        \ <div>  <div class=\"ZINbbc xpd O9g5cc uUPGi BmP5tf\"><div class=\"nMymef\
+        \ MUxGbd lyLwlc\"><a class=\"nBDE1b G5eFlf\" href=\"/search?q=What%27s+up+from+this+side&amp;gbv=1&amp;ei=wLaZYKz0Ltnmz7sP7uKlsAI&amp;start=10&amp;sa=N\"\
+        \ aria-label=\"Next page\">Next &gt;</a></div></div> </div>  <div id=\"EOlPnc\"\
+        ><div class=\"Srfpq\"><span class=\"unknown_loc\"></span><span id=\"xxxXMc\"\
+        >Federal Capital Territory</span><span id=\"ttWoPb\">&nbsp;-&nbsp;</span><span>From\
+        \ your Internet address</span><span>&nbsp;-&nbsp;</span><a href=\"/url?q=https://support.google.com/websearch%3Fp%3Dws_settings_location%26hl%3Den-NG&amp;sa=U&amp;ved=0ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQty4IVw&amp;usg=AOvVaw1KeC9MmK7rgDvyN9y9PvsR\"\
+        >Learn more</a></div><div><a href=\"/url?q=https://accounts.google.com/ServiceLogin%3Fcontinue%3Dhttps://www.google.com/search%253Fstart%253D0%2526q%253DWhat%252527s%252Bup%252Bfrom%252Bthis%252Bside%2526gbv%253D1%26hl%3Den&amp;sa=U&amp;ved=0ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQxs8CCFg&amp;usg=AOvVaw1CuN1zUBT64yEUryE5rSvs\"\
+        >Sign in</a></div><div><a class=\"xeDNfc\" href=\"https://www.google.com/preferences?hl=en-NG&amp;fg=1&amp;sa=X&amp;ved=0ahUKEwis1Nvml8DwAhVZ83MBHW5xCSYQ5fUCCFk\"\
+        >Settings</a><a class=\"xeDNfc\" href=\"https://policies.google.com/privacy?hl=en-NG&amp;fg=1\"\
+        >Privacy</a><a class=\"xeDNfc\" href=\"https://policies.google.com/terms?hl=en-NG&amp;fg=1\"\
+        >Terms</a></div></div> </footer><script nonce=\"yVQsj1FCvTj//V0jSNFz6w==\"\
+        >(function(){\nfunction b(a){for(a=a.target||a.srcElement;a&&\"A\"!=a.nodeName;)a=a.parentElement;a&&(a.href||\"\
+        \").match(/\\/search.*[?&]tbm=isch/)&&(a.href+=\"&biw=\"+document.documentElement.clientWidth,a.href+=\"\
+        &bih=\"+document.documentElement.clientHeight)}document.addEventListener(\"\
+        click\",b,!1);document.addEventListener(\"touchStart\",b,!1);}).call(this);</script></div><!--\
+        \ cctlcm 5 cctlcm --><textarea class=\"csi\" name=\"csi\" style=\"display:none\"\
+        ></textarea><script nonce=\"yVQsj1FCvTj//V0jSNFz6w==\">(function(){var e='wLaZYKz0Ltnmz7sP7uKlsAI';var\
+        \ sn='web';(function(){\nfunction y(a){var c=coh,b=ioh;if(!a||z(a))return\
+        \ 0;if(!a.getBoundingClientRect)return 1;var d=function(f){return f.getBoundingClientRect()};return!1===c||!A(a,d)||b?H(a,d):0}function\
+        \ A(a,c){var b;a:{for(b=a;b&&null!==b;b=b.parentElement)if(\"hidden\"===b.style.overflow)break\
+        \ a;b=null}if(!b)return!1;a=c(a);c=c(b);return a.bottom<c.top||a.top>=c.bottom||a.right<c.left||a.left>=c.right}\n\
+        function z(a){return\"none\"===a.style.display?!0:document.defaultView&&document.defaultView.getComputedStyle?(a=document.defaultView.getComputedStyle(a),!!a&&(\"\
+        hidden\"===a.visibility||\"0px\"===a.height&&\"0px\"===a.width)):!1}\nfunction\
+        \ H(a,c){var b=c(a);a=b.left+window.pageXOffset;c=b.top+window.pageYOffset;var\
+        \ d=b.width;b=b.height;var f=0;if(0>=b&&0>=d)return f;var n=window.innerHeight||document.documentElement.clientHeight;0>c+b?f=2:c>=n&&(f=4);if(0>a+d||a>=(window.innerWidth||document.documentElement.clientWidth))f|=8;f||(f=1,c+b>n&&(f|=4));return\
+        \ f};var I=e,J=sn,K=[];function L(a,c,b){a=\"/gen_204?atyp=csi&s=\"+(J||\"\
+        web\")+\"&t=\"+a+(\"&lite=1&ei=\"+I+\"&conn=\"+(window.navigator&&window.navigator.connection?window.navigator.connection.type:-1)+c);c=\"\
+        &rt=\";for(var d in b)a+=\"\"+c+d+\".\"+b[d],c=\",\";return a}function M(a){a={prt:a};window.wsrt&&(a.wsrt=window.wsrt);return\
+        \ a}function N(a){window.ping?window.ping(a):(new Image).src=a}\n(function(){for(var\
+        \ a=(new Date).getTime()-window.start,c=M(a),b=0,d=0,f=0,n=document.getElementsByTagName(\"\
+        img\"),p=\"&imn=\"+n.length+\"&biw=\"+window.innerWidth+\"&bih=\"+window.innerHeight,O=function(h,q){h.onload=function(){d=(new\
+        \ Date).getTime()-window.start;q&&++u==f&&(b=d,B());h.onload=null}},B=function(){p+=\"\
+        &ima=\"+f;c.aft=b;N(L(\"aft\",p,c))},u=0,P=0,g=void 0;g=n[P++];){var r=y(g),t=!!(r&1);t&&++f;var\
+        \ m=g.hasAttribute(\"data-ilite\"),v=g.hasAttribute(\"data-deferred\")||m,C=g.getAttribute(\"\
+        data-src\")||\ng.getAttribute(\"data-lzysrc\");K.push([r,v,!v&&C,google.ldi&&g.id&&google.ldi[g.id]||m&&C]);m=(r=g.complete&&(m||!v))&&Number(g.getAttribute(\"\
+        data-iml\"))||0;r&&m?(t&&++u,m&&(g=m-window.start,t&&(b=Math.max(b,g)),d=Math.max(d,g))):O(g,t)}b||(b=a);d||(d=b);u==f&&B();google.rglh&&google.rglh();window.addEventListener(\"\
+        load\",function(){window.setTimeout(function(){c.ol=(new Date).getTime()-window.start;c.iml=d;var\
+        \ h=window.performance&&window.performance.timing;h&&(c.rqst=h.responseEnd-h.requestStart,c.rspt=h.responseEnd-h.responseStart);for(var\
+        \ q=h=0,D=0,E=0,F=0,Q=0,k;k=K[Q++];){var l=k[0],w=k[1],R=k[2];k=k[3];var S=0==l,x=l&8,G=l&4;l=1==l||2==l||x&&!G;!l||x||w&&!k||++D;w&&(l&&k&&++h,G&&!k&&++q);S||x?R||++F:w||++E}p+=\"\
+        &ime=\"+D+(\"&imex=\"+E+\"&imeh=\"+F)+(\"&imea=\"+h+\"&imeb=\"+q);N(L(\"all\"\
+        ,p,c))},0)},!1)})();}).call(this);})();</script><script nonce=\"yVQsj1FCvTj//V0jSNFz6w==\"\
+        >(function(){(function(){google.csct={};google.csct.ps='AOvVaw2EuWTNdcxx16-Y9iEtLTwk\\\
+        x26ust\\x3d1620772928809510';})();})();(function(){(function(){google.csct.rd=true;})();})();(function(){(function(){google.csct.pi=true;})();})();google.drty&&google.drty();</script></body></html>"
+    headers:
+      Alt-Svc: h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443";
+        ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443";
+        ma=2592000; v="46,43"
+      Cache-Control: private, max-age=0
+      Content-Encoding: gzip
+      Content-Type: text/html; charset=UTF-8
+      Date: Mon, 10 May 2021 22:42:08 GMT
+      Expires: '-1'
+      P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+      Server: gws
+      Set-Cookie: NID=215=rVPWmS1G2lW5MGCmTaatc3YVI_ccbrQp4PddJcghvzn1wwdgLp4luP3VR-mrO6uVitEQ39KwXOcLViXc7XTLkomaQAMEm55-SBREGE3Du0blbRgPykUZGE83P1JISplsmehM-OdCVYPLizMBg333SWLW3PBGMxEZmIBURu0UHu4;
+        expires=Tue, 09-Nov-2021 22:42:08 GMT; path=/; domain=.google.com; Secure;
+        HttpOnly
+      Transfer-Encoding: chunked
+      X-Frame-Options: SAMEORIGIN
+      X-XSS-Protection: '0'
+    status:
+      code: 200
+      message: OK
+    url: https://www.google.com/search?start=0&q=What's+up+from+this+side&gbv=1
+version: 1

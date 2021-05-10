@@ -1,0 +1,1423 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      User-Agent:
+      - Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/29.0.1547.2 Safari/537.36
+    method: GET
+    uri: https://yandex.com/search/?text=Hello&p=1
+  response:
+    body:
+      string: "<!DOCTYPE html><html class=i-ua_js_no lang=en><meta charset=utf-8><meta\
+        \ http-equiv=X-UA-Compatible content=\"IE=edge\"><title>Yandex</title><script\
+        \ nonce=6341>document.documentElement.className=\"i-ua_js_yes i-ua_svg_yes\"\
+        +((screen.deviceXDPI&&screen.logicalXDPI&&screen.deviceXDPI/screen.logicalXDPI||window.devicePixelRatio)>1?\"\
+        \ i-ua_retina_yes\":\"\");</script><link rel=search title=Yandex type=\"application/opensearchdescription+xml\"\
+        \ href=\"/search/opensearch.xml\"><meta name=referrer content=origin><style\
+        \ nonce=6341 data-role=css data-stylesheet=header>body{margin:0}.b-page__body{font-family:Helvetica,Arial,sans-serif}.i-ua_platform_ios.b-page__body{cursor:pointer;-webkit-tap-highlight-color:transparent}.b-page__body{margin:0;font-size:.8em;color:#000;background:#fff}.i-ua_platform_ios.b-page__body{cursor:auto}html{height:100%}.b-page__body{height:100%;padding:0;font-family:Arial,Helvetica,sans-serif}.b-page__body{font-size:13px;line-height:1.154}.b-page.b-page_js_inited.b-page_overflow_hidden{overflow:hidden}.b-page_offset_top{padding-top:32px}.b-page_change_yes{will-change:padding-top;transition:padding-top\
+        \ .3s .1s ease-in-out}.b-page_appsearch .serp-header{display:none}.b-page_initial-scroll_yes{overflow-y:scroll}.b-page_initial-scroll_yes.b-page_js_inited{overflow-y:auto}.b-page_initial-scroll_yes.b-page_js_inited.b-page_overflow_yes{overflow:hidden}.a11y-fast-nav{position:absolute;top:-9999px;left:-9999px}.serp-header{position:relative;font-family:Arial,sans-serif;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.serp-header__main{display:table;box-sizing:border-box;width:100%;table-layout:fixed;box-shadow:none!important}.serp-header__under{position:relative}.serp-header__logo,.serp-header__search2,.serp-header__nav{display:table-cell;height:39px;vertical-align:top}.serp-header__logo\
+        \ .logo.logo_name_ys-en-87x35{background-position:0 3px}.serp-header_head-auth_yes\
+        \ .serp-header__search2{width:100%}.serp-header__nav{padding-left:20px;text-align:right;vertical-align:top;white-space:nowrap}.serp-header\
+        \ .serp-user_enter_yes,.serp-header .serp-user_type_enter{margin-top:3px;padding-left:7px;vertical-align:top}.serp-header{height:55px}.serp-header__main{padding:14px\
+        \ 16px 0}.serp-header_head-auth_yes .serp-header__main{min-width:500px;table-layout:auto}.serp-header__wrapper{position:fixed;width:100%;height:55px;background:#fff;transform:translateZ(0)}.serp-header__search2{position:relative;z-index:1;width:638px;padding-top:1px}.serp-header__nav{position:relative;z-index:2}.serp-header\
+        \ .notifier{display:inline-block;margin-right:18px}.serp-header .notifier__icon{margin-top:1px}.serp-header__logo{width:100px;min-width:100px}@media\
+        \ (max-width:1060px){.yaplus_available_yes .link__inner{display:none}}@media\
+        \ (max-width:960px){.serp-header__logo{width:auto;min-width:auto}.logo[class][class]{width:18px;height:35px;margin-right:9px;background-position:0\
+        \ 4px}.serp-header .logo.logo_name_ys-ru-86x35{background-image:url(//yastatic.net/s3/web4static/_/v2/SSIxUPEp7tr5cbP0cCIM-2_62g8.svg)}.serp-header\
+        \ .logo.logo_name_ys-en-87x35{background-image:url(//yastatic.net/s3/web4static/_/v2/DTIqAt1p7IWGR0nbQsniMk5jPJg.svg)}}@media\
+        \ (max-width:722px){.header-favorites-button[class],.notifier[class][class],.yaplus[class],.input__voice-search[class][class],.input__settings[class],.market-cart[class]{display:none}}.serp-header__back-button-container{display:none}.serp-header{min-width:600px}.serp-header[class]{z-index:10005}.logo{display:inline-block;background-repeat:no-repeat;background-position:center;background-size:contain}@media\
+        \ print{.logo{-webkit-print-color-adjust:exact}}.logo_name_ys-ru-86x35{width:86px;height:35px;background-image:url(//yastatic.net/islands/_/RQWGFypkIRAzEbaERs_Sq8zKRzY.svg)}.logo_name_ys-en-87x35{width:87px;height:35px;background-image:url(//yastatic.net/islands/_/W5E8s3ZxddTVAc2-tL5VvgPy6ZY.svg)}.logo_type_link{overflow:hidden;white-space:nowrap;text-indent:100%;outline:0}.z-index-group_level_0{z-index:1000}.z-index-group_level_1{z-index:2000}.z-index-group_level_2{z-index:3000}.z-index-group_level_3{z-index:4000}.z-index-group_level_4{z-index:5000}.z-index-group_level_5{z-index:6000}.z-index-group_level_6{z-index:7000}.z-index-group_level_7{z-index:8000}.z-index-group_level_8{z-index:9000}.z-index-group_level_9{z-index:10000}.z-index-group_level_10{z-index:11000}.z-index-group_level_11{z-index:12000}.z-index-group_level_31{z-index:32000}.service{position:relative;display:inline-block;margin:0;font-size:15px;line-height:16px;text-align:center}.serp-navigation\
+        \ .service{font-family:Arial,Helvetica,sans-serif}.serp-navigation .service:focus{outline:0}.service__name{display:block}.service__url{display:inline-block;text-decoration:none}[touch-action=auto]{touch-action:auto}[touch-action=pan-y]{touch-action:pan-y}[touch-action=pan-x]{touch-action:pan-x}[touch-action=pan-x\_\
+        pan-y],[touch-action=\"pan-y pan-x\"]{touch-action:pan-x pan-y}.link{text-decoration:none;outline:0;touch-action:manipulation}.utilityfocus\
+        \ .link:focus{outline:2px solid #fc0}.link[aria-disabled=true]{pointer-events:none;color:#ddd}.link{cursor:pointer}.link__icon{transition:opacity\
+        \ .15s ease-out}.link[aria-disabled=true]{cursor:default}.link[aria-disabled=true]:hover{color:#ddd}.link__inner{color:inherit}.link_theme_normal{color:#04b}.link_theme_normal:hover{color:#c00}.link_theme_normal{color:navy}.link_theme_normal:visited{color:#551a8b}.link_theme_normal.link_hovered_yes{color:#d00}.link_theme_outer{color:#070}.link_theme_outer:hover{color:#c00}.link_theme_outer{color:#006000}.link_theme_outer.link_hovered_yes{color:#d00}.link_theme_black{color:#000}.link_theme_black:hover{color:#c00}.link_theme_black{color:#000}.link_theme_black.link_hovered_yes{color:#d00}.link_theme_ghost{color:#999}.link_theme_ghost:hover{color:#000}.link_theme_ghost.link_hovered_yes{color:#d00}.link_theme_minor{color:navy}.link_theme_minor:visited{color:#551a8b}.link_theme_minor.link_hovered_yes{color:#d00}.link_theme_clear{color:inherit}.link_theme_white{color:#fff}.link_theme_black-text{color:#333}.link_theme_black-text.link_hovered_yes{color:#d00}.link_theme_neoblue{color:#8b93a5}.link_theme_neoblue.link_hovered_yes{color:#d00}.link_nowrap_yes{white-space:nowrap}.link_underline_yes{text-decoration:underline}.navigation__region{margin:0;padding:0;list-style:none}.serp-navigation{position:relative;min-height:35px}.navigation{position:fixed;overflow:hidden;box-sizing:border-box;width:100%;height:39px;margin-bottom:0;padding-left:116px;background-color:#fff;box-shadow:0\
+        \ 1px rgba(0,0,0,.1);transform:translateZ(0)}@media (max-width:960px){.navigation{padding-left:44px}}.navigation\
+        \ .navigation__region{position:relative;box-sizing:border-box;max-height:100%}.navigation\
+        \ .navigation__item .service::before{display:none}.navigation .navigation__item{position:relative;display:inline-block;height:100%;padding:0;font-size:14px;line-height:36px;vertical-align:middle}.navigation__item_name_all{top:0}.navigation\
+        \ .navigation__item .service{display:block;height:36px;padding:0;font-size:inherit;line-height:inherit}.navigation\
+        \ .navigation__item .service__name{display:inherit;padding:0 4px;font-size:inherit;line-height:inherit}.navigation\
+        \ .navigation__item .service__url{display:inherit;margin:0 4px;padding:0;text-decoration:none;color:#999}.navigation\
+        \ .navigation__item .service_hoverable_yes{color:#999}.navigation .navigation__item_state_selected{padding:0;font-weight:700}.navigation\
+        \ .navigation__item_state_selected .service__name{position:relative;display:inline;margin:0\
+        \ 8px;padding:0}.navigation .navigation__item:first-child .service__name{margin-left:2px;padding-left:0}.navigation\
+        \ .navigation__item .service__url:hover .service__name{color:#c00}.navigation\
+        \ .navigation__item_state_selected .service__name::after{position:absolute;bottom:-13px;left:0;display:block;width:100%;content:'';border-top:3px\
+        \ solid #000}.navigation .navigation__item_state_selected .service__url{margin-right:0;margin-left:0;color:#000}.navigation\
+        \ .navigation__item .service__url:visited{color:#999}.navigation .navigation__item_state_selected\
+        \ .service__url:visited,.navigation .navigation__item_state_selected .service__url\
+        \ .service__name:hover{color:#000}.navigation .navigation__item_state_selected\
+        \ .service::before{content:none}.navigation .navigation__item:first-child\
+        \ .service__url{margin-left:0}.utilityfocus .navigation .navigation__item\
+        \ .service__url:focus{outline:0}.utilityfocus .navigation .navigation__item\
+        \ .service__url:focus::after{position:absolute;right:8px;bottom:-3px;left:8px;height:3px;content:'';background:#fc0}.navigation__item\
+        \ .service__name{font-size:13px;line-height:36px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.navigation__item_state_selected\
+        \ .service{z-index:2;opacity:0}.navigation__item_state_selected .navigation__item-over{display:block}.navigation__item_state_selected\
+        \ .service__name{font-weight:400}.navigation__item:first-child .navigation__item-over{text-align:left}.navigation__item-over{position:absolute;top:0;display:none;width:100%;text-align:center}.navigation__item-over:before{display:inline;padding-bottom:10px;content:attr(data-name);border-bottom:3px\
+        \ solid}.search2{display:inline-table}.serp-header .search2{max-width:638px;margin:0}.search2_buttons-outside_1{padding-right:60px}.search2_buttons-outside_2{padding-right:110px}@media\
+        \ (max-width:930px){.serp-header .search2_buttons-outside_2{padding-right:60px}}@media\
+        \ (max-width:722px){.serp-header .search2_buttons-outside_1[class],.serp-header\
+        \ .search2_buttons-outside_2[class]{padding-right:0}}.serp-header .search2__input\
+        \ .input__control{font-size:18px}.search2__input{display:table-cell;vertical-align:top}.serp-header\
+        \ .search2__input{width:100%}.serp-header .search2__input{position:relative;height:40px}.serp-header:not(.serp-header_kids)\
+        \ .search2__input::after{position:absolute;z-index:-1;top:0;right:0;bottom:0;width:4px;content:'';background:#fc0}.search2__button{display:table-cell}.input{position:relative;display:inline-block;width:100%}.input_disabled_yes,.input_disabled_yes\
+        \ .input__control{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.input_disabled_yes\
+        \ .input__box,.input_disabled_yes .input__control{cursor:default}.input__settings,.input__voice-search,.input__button,.input_show-mic_yes\
+        \ .serp-header__voice-search-container{position:absolute;top:-3px;right:-154px;width:42px;height:42px;margin:0;padding:0;cursor:pointer;border:0;border-radius:50%;outline:0;background-color:#e6e6e6}.input__voice-search,.input_show-mic_yes\
+        \ .serp-header__voice-search-container{background-image:url(//yastatic.net/s3/web4static/_/v2/4M-7LMiHA0Gfhsv1TPwdeLHb3hA.svg);background-repeat:no-repeat;background-position:center}.input__settings{background-image:url(//yastatic.net/s3/web4static/_/v2/cRpWOVFEazl8wyn9pSRVJiwY4Jg.svg);background-position:center}.input_show-mic_yes\
+        \ .input__settings,.input_voice-search_yes .input__settings,.input_voice-search_yes\
+        \ .input__box:not(.input__box_cbir_yes) .input__cbir-button{right:-204px}.input__settings:focus,.input__settings:hover,.input__voice-search:focus,.input__voice-search:hover,.input__button:focus,.input__button:hover{background-color:#dbdbdb}@media\
+        \ (max-width:700px){.input__settings,.input__voice-search[class][class]{display:none}}@media\
+        \ (max-width:930px){.input_voice-search_yes .input__settings,.input_show-mic_yes\
+        \ .input__settings{display:none}}.input__box{position:relative;display:block;box-sizing:border-box;cursor:text}.input__box:before{position:absolute;top:0;right:0;bottom:0;left:0;padding:0;content:'';background-clip:padding-box}.input__box{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.input__control{position:relative;z-index:3;box-sizing:border-box;width:100%;margin:0;padding:0;font-size:100%;vertical-align:top;color:#000;border:0\
+        \ solid transparent;outline:0;background:0 0;-webkit-tap-highlight-color:transparent;-webkit-appearance:none}.input__control::-webkit-search-decoration{-webkit-appearance:none}.input__control::-webkit-search-cancel-button{display:none}.input__control::-ms-clear{display:none}.input__control:-webkit-autofill{border-top-width:2px;border-bottom-width:2px;background-clip:content-box;-webkit-box-shadow:inset\
+        \ 0 0 0 50px #fff;-webkit-text-fill-color:#000}.input__control::-webkit-input-placeholder{-webkit-text-fill-color:#999}.input__control{text-overflow:clip;border:0\
+        \ solid transparent}.input .input__control:-webkit-autofill{height:1.4em}.input\
+        \ .input__control:-webkit-autofill{height:auto}.input__clear{position:absolute;z-index:5;top:0;right:0;visibility:hidden;margin:0;padding:0;pointer-events:none;opacity:0;background-repeat:no-repeat;background-position:50%\
+        \ 50%;transition:visibility 0s linear .1s,opacity .1s ease-out}.input_disabled_yes\
+        \ .input__clear{display:none}.input_size_xs .input__clear,.input_size_s .input__clear{background-image:url(//yastatic.net/islands/_/B8eOwa4HB-JnzSOAZiWnu0hWGAk.svg)}.input_size_m\
+        \ .input__clear{background-image:url(//yastatic.net/islands/_/eS-nxtWWJ1LfBWLfd096swuFjH4.svg)}.input_size_l\
+        \ .input__clear{background-image:url(//yastatic.net/s3/web4static/_/v2/kNNHdGrMmnePggKQWuru_0JAy_Y.svg)}.input__clear_visibility_visible{visibility:visible;cursor:pointer;pointer-events:auto;opacity:.3;transition:opacity\
+        \ .1s ease-out}.input__clear_visibility_visible:hover{opacity:.8}.input_settings-inside_yes\
+        \ .input__settings{position:absolute;z-index:5;cursor:pointer;background-repeat:no-repeat}.input_settings-inside_yes\
+        \ .input__settings:hover{opacity:.8}.websearch-button{display:inline-block;overflow:hidden;margin:0;cursor:pointer;text-align:center;white-space:nowrap;border:0;border-radius:0;outline:0;background:0\
+        \ 0}.websearch-button::-moz-focus-inner{padding:0;border:0}.websearch-button__text{position:relative;display:inline-block;box-sizing:border-box;width:79px;margin-right:9px;padding-left:5px;color:#000;border-width:2px\
+        \ 0;border-style:solid}.websearch-button:active .websearch-button__text{border-color:#f7c408;background-color:#f7c408}.websearch-button{height:40px;margin-right:10px;margin-left:-2px;padding:0}.websearch-button__text{width:84px;height:40px;margin-right:0;padding:5px;font:16px/30px\
+        \ arial,sans-serif;border:0;border-radius:0 10px 10px 0;background-color:#fc0}.input_theme_websearch2{box-sizing:border-box;height:40px;border:2px\
+        \ solid #fc0;border-radius:10px 5px 5px 10px;background:#fff}.input__ahead,.input_theme_websearch2\
+        \ .input__box{padding-right:36px}.input_theme_websearch2 .input__box::before{border-radius:2px}.input_theme_websearch2\
+        \ .input__control{height:36px;font-family:inherit;border-right-width:0;border-left-width:11px}.input_theme_websearch2\
+        \ .input__clear{right:0;width:36px;height:36px;opacity:.2;background-image:url(//yastatic.net/s3/web4static/_/v2/f0vM6kFiHLugimNeqhQEGoZgpUE.svg)}.input_theme_websearch2\
+        \ .input__clear:hover{opacity:.8}.input_theme_websearch2 .input__cbir{top:0;height:36px;margin-left:2px;line-height:34px}.input_theme_websearch2\
+        \ .input__ahead-hint{margin-left:-2px;line-height:36px}.input_empty .input__ahead,.input_empty.input_theme_websearch2\
+        \ .input__box{padding-right:0}@media (min-width:1560px){.serp-header .search2{max-width:780px}}@media\
+        \ (min-width:1560px){.serp-header .search2[class],.navigation__region[class]{margin-left:24px}.main__center[class]{margin-left:124px}.main__carousel[class],.related__above[class]{margin-left:-140px}.related__above[class]\
+        \ .scroller__wrap{padding-left:140px}.serp-footer__wrapper{margin-left:24px}.EntityCarousel_theme_gray\
+        \ .Scroller-Wrap[class],.EntityCarousel_theme_dark .Scroller-Wrap[class]{padding-left:140px}.EntityCarousel_theme_gray\
+        \ .EntityCarousel-Header[class],.EntityCarousel_theme_dark .EntityCarousel-Header[class]{padding-left:140px}.EntityCarousel_favorite-tabs.EntityCarousel_theme_dark\
+        \ .Scroller[class]{margin-left:140px}.EntityCarousel_theme_white .EntityCarousel-MoreButton[class],\
+        \ .EntityCarousel_theme_dark .EntityCarousel-MoreButton[class]{left:817px}}</style><link\
+        \ rel=\"shortcut icon\" href=\"//yastatic.net/s3/web4static/_/v2/v9YNE_BX0evwMHbDyd0NZv8ReK0.png\"\
+        ><meta property=og:type content=website><meta property=og:site_name content=Yandex><meta\
+        \ property=og:title content=Hello><meta property=og:url content=\"https://yandex.com/search/?text=Hello&amp;p=1\"\
+        ><meta property=og:image content=\"https://yastatic.net/s3/web4static/_/v2/pqo8zoL5qQB4WZNxEFhHSvTHb1g.png\"\
+        ><meta property=twitter:site content=\"@yandex\"><body class=\"b-page b-page_tld_com\
+        \ b-page_ajax_yes b-page_initial-scroll_yes b-page_tmpl_xjst i-device-info\
+        \ user-location-updater typo typo_text_m typo_line_m overlay Theme Theme_color_yandex-default\
+        \ Theme_root_serp-desktop serp-metrika b-page__body i-global i-ua i-device-info\
+        \ user-location-updater typo typo_text_m typo_line_m overlay Theme Theme_color_yandex-default\
+        \ Theme_root_serp-desktop serp-metrika i-bem\" data-bem='{\"b-page\":{\"yabro\"\
+        :false,\"isFontDecoderEnabled\":true,\"device\":{\"name\":\"chrome\",\"version\"\
+        :\"29_0_1547_2\"}},\"i-device-info\":{},\"user-location-updater\":{\"delay\"\
+        :0,\"period\":900},\"overlay\":{\"uniqId\":\"overlay\"},\"serp-metrika\":{\"\
+        counter\":\"11803342\"},\"i-global\":{},\"i-ua\":{}}' data-log-node=mgm40><script\
+        \ nonce=6341>window.Ya=window.Ya||{};Ya.SerpContext={\"lang\":\"en\",\"tld\"\
+        :\"com\",\"content-region\":\"com\",\"click-host\":\"//yandex.com/clck\",\"\
+        passport-host\":\"https://passport.yandex.com\",\"pass-host\":\"https://pass.yandex.com\"\
+        ,\"social-host\":\"https://social.yandex.com\",\"export-host\":\"//export.yandex.com\"\
+        ,\"login\":\"\",\"lego-static-host\":\"//yastatic.net/web4/0x3e13f5e57bf/\"\
+        ,\"nonce\":\"6341\",\"keyno\":0,\"framebuster\":[],\"reqid\":\"1620686514133827-228575849588484563100145-production-app-host-vla-web-yp-107\"\
+        ,\"shownResult\":-1,\"pg\":null,\"pid\":\"\",\"uid\":\"\",\"id\":\"www\",\"\
+        retpath\":\"https://yandex.com/search/?text=Hello&p=1&ncrnd=85711\",\"yandexuid\"\
+        :\"1848456311620686514\",\"query\":\"Hello\",\"static-host\":\"//yastatic.net/web4/0x3e13f5e57bf/\"\
+        ,\"ajaxUrl\":\"//yandex.com/search/\",\"ugcUpdateUrl\":\"/search/ugcupdate?\"\
+        ,\"geoanswer\":\"/search/geoanswer\",\"serpRequestExtraParams\":{},\"lr\"\
+        :20742,\"rlr\":20742,\"sk\":\"y93229e369d452d6356e1811b170618c5\",\"disableNoopener\"\
+        :true,\"fastAjax\":1,\"baobabHash\":1047964,\"enableRequestIdHeader\":false,\"\
+        clckId\":\"mgm40\",\"templateVersion\":\"releases/frontend/web4/v1.1223.0#3e13f5e57bfdbf75a061c873e7773f1fd901b495\"\
+        ,\"staticVersion\":\"0x3e13f5e57bf\",\"isIOSNoSafari\":false,\"counterService\"\
+        :\"web\",\"disableWpridCookie\":false}</script><script nonce=6341>window.Ya=window.Ya||{},Ya.startPageLoad=Date.now(),Ya.jserrors=[],Ya.onerror=function(){Ya.jserrors.push(arguments)},window.onerror=function(){Ya.onerror.apply(null,arguments)};if(Ya.isHeaderReceived)\
+        \ throw new Error(\"More than one header received\");Ya.isHeaderReceived=1;var\
+        \ _borschik=function(h){return!(h in _borschik)&&(_borschik[h]=!0)};_borschik(\"\
+        vaX-I\")&&function(i,t){if(i.Ya=i.Ya||{},Ya.Rum)throw new Error(\"Rum: interface\
+        \ is already defined\");var n=i.performance,e=n&&n.timing&&n.timing.navigationStart||Ya.startPageLoad||+new\
+        \ Date,s=i.requestAnimationFrame;Ya.Rum={enabled:!!n,vsStart:document.visibilityState,vsChanged:!1,_defTimes:[],_defRes:[],_deltaMarks:{},_markListeners:{},_settings:{},_vars:{},init:function(i,t){this._settings=i,this._vars=t},getTime:n&&n.now?function(){return\
+        \ n.now()}:Date.now?function(){return Date.now()-e}:function(){return new\
+        \ Date-e},time:function(i){this._deltaMarks[i]=[this.getTime()]},timeEnd:function(i,t){var\
+        \ n=this._deltaMarks[i];n&&0!==n.length&&n.push(this.getTime(),t)},sendTimeMark:function(i,t,n,e){undefined===t&&(t=this.getTime()),this._defTimes.push([i,t,e]),this.mark(i,t)},sendResTiming:function(i,t){this._defRes.push([i,t])},sendRaf:function(i){var\
+        \ t=this.getSetting(\"forcePaintTimeSending\");if(s&&(t||!this.isVisibilityChanged())){var\
+        \ n=this,e=\"2616.\"+i;s((function(){!t&&n.isVisibilityChanged()||(n.getSetting(\"\
+        sendFirstRaf\")&&n.sendTimeMark(e+\".205\"),s((function(){!t&&n.isVisibilityChanged()||n.sendTimeMark(e+\"\
+        .1928\")})))}))}},isVisibilityChanged:function(){return this.vsStart&&(\"\
+        visible\"!==this.vsStart||this.vsChanged)},mark:n&&n.mark?function(i,t){n.mark(i+(t?\"\
+        : \"+t:\"\"))}:function(){},getSetting:function(i){var t=this._settings[i];return\
+        \ null===t?null:t||\"\"},on:function(i,t){\"function\"==typeof t&&(this._markListeners[i]=this._markListeners[i]||[]).push(t)},sendTrafficData:function(){},finalizeLayoutShiftScore:function(){},finalizeLargestContentfulPaint:function(){}},document.addEventListener&&document.addEventListener(\"\
+        visibilitychange\",(function i(){Ya.Rum.vsChanged=!0,document.removeEventListener(\"\
+        visibilitychange\",i)}))}(window);Ya.Rum.init({},{\"143\":\"1119.1034.153\"\
+        ,\"287\":20742,\"-project\":\"web4\",\"-page\":\"serp\",\"-platform\":\"desktop\"\
+        ,\"-env\":\"production\",\"-version\":\"0x3e13f5e57bf\"});_borschik(\"qi3zY\"\
+        )&&function(){if(window.PerformanceLongTaskTiming){var e=function(e,n){return(e=e.concat(n)).length>300&&(e=e.slice(e.length-300)),e},n=Ya.Rum._tti={events:[],eventsAfterTTI:[],fired:!1,observer:new\
+        \ PerformanceObserver((function(r){var t=r.getEntries();n.events=e(n.events,t),n.fired&&(n.eventsAfterTTI=e(n.eventsAfterTTI,t))}))};n.observer.observe({entryTypes:[\"\
+        longtask\"]})}}();</script><div class=a11y-fast-nav id=search-result-fast-nav\
+        \ a11y-label=\"Quick navigation\"><a class=a11y-fast-nav__link href=\"#search-result-aside\"\
+        >To advanced results</a><a class=a11y-fast-nav__link href=\"#search-result\"\
+        >To basic results</a><a class=a11y-fast-nav__link href=\"//yandex.com/support/search/troubleshooting/accessibility.html\"\
+        >Feedback on special features</a></div><header class=\"serp-header serp-header_html_yes\
+        \ serp-header_head-auth_yes serp-header_yaplus_yes serp-header_favorites_yes\
+        \ serp-header_messenger_yes z-index-group z-index-group_level_9   i-bem\"\
+        \ data-bem='{\"serp-header\":{\"live\":true}}' data-log-node=\"mgm41\" ck=\"\
+        \"><div class=\"serp-header__wrapper\"><script nonce=\"6341\">Ya.Rum.sendRaf(183)</script><div\
+        \ class=\"serp-header__main\"><div class=\"serp-header__back-button-container\"\
+        ><div class=\"back-button i-bem\" data-bem='{\"back-button\":{}}' role=\"\
+        button\" aria-label=\"Back\" data-log-node=\"mgm43\" ck=\"\" data-counter=\"\
+        [&quot;b&quot;]\"><div class=\"back-button__text\">Back</div></div></div><div\
+        \ class=\"serp-header__logo\"><a class=\"logo logo_type_link logo_name_ys-en-87x35\
+        \ link\" href=\"//yandex.com?from=tabbar\" title=\"\" data-log-node=\"mgm42\"\
+        \ ck=\"\" data-counter=\"[&quot;b&quot;]\" style=\"\">Yandex</a></div><div\
+        \ class=\"serp-header__search2\"><form class=\"search2 search2_buttons-outside_1\
+        \ search2_search_yes serp mini-suggest i-bem\" data-bem='{\"search2\":{\"\
+        ajaxKey\":\"search2__ajax\"},\"serp\":{\"uniqId\":\"search\"}}' role=\"search\"\
+        \ action=\"/search/\" aria-label=\"\u041F\u043E\u0438\u0441\u043A \u0432 \u0438\
+        \u043D\u0442\u0435\u0440\u043D\u0435\u0442\u0435\"><div class=\"search2__input\"\
+        ><span class=\"input input_voice-search_check input_autofocus_yes input_theme_websearch2\
+        \ input_settings-inside_yes input_search_yes serp  i-bem\" data-bem='{\"input\"\
+        :{\"ajaxKey\":\"search2__input\",\"shortcut\":true,\"counterClear\":[\"183.477\"\
+        ],\"live\":false},\"serp\":{\"uniqId\":\"search\"}}' data-log-node=\"mgm44\"\
+        \ ck=\"\"><span class=\"input__box\"><span class=\"input__clear mini-suggest__input-clear\
+        \ input__clear_visibility_visible\" unselectable=\"on\" role=\"button\" aria-hidden=\"\
+        true\" data-log-node=\"mgm45\" ck=\"\">\_</span><input class=\"input__control\
+        \ mini-suggest__input\" id=\"uniq16197654438171\" name=\"text\" value=\"Hello\"\
+        \ aria-labelledby=\"labeluniq16197654438171 hintuniq16197654438171\" aria-label=\"\
+        \u0417\u0430\u043F\u0440\u043E\u0441\" type=\"text\" accesskey=\"s\" maxlength=\"\
+        400\" autocomplete=\"off\" autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"\
+        false\" aria-autocomplete=\"list\" data-log-node=\"mgm44\" ck=\"\"><span class=\"\
+        serp-header__voice-search-container\"></span><button class=\"input__settings\"\
+        \ type=\"button\" title=\"Advanced search\"></button></span></span><input\
+        \ type=hidden name=\"lr\" value=\"20742\" /></div><div class=\"search2__button\"\
+        ><button class=\"websearch-button mini-suggest__button\" type=\"submit\" tabindex=\"\
+        0\"><div class=\"websearch-button__text\">Search</div></button></div></form></div><div\
+        \ class=\"serp-header__nav\"><span class=\"serp-header__market-favorites-container\"\
+        ></span><span class=\"serp-header__market-cart-container\"></span><span class=\"\
+        serp-header__messenger-container\"></span><span class=\"serp-header__yaplus-container\"\
+        ></span><span class=\"serp-header__notifier-container\"></span></div></div></div></header><div\
+        \ class=\"serp-navigation z-index-group z-index-group_level_8\"><nav class=\"\
+        navigation navigation_update-queries_yes navigation_type_horizontal serp i-bem\"\
+        \ data-bem='{\"navigation\":{},\"serp\":{\"uniqId\":\"search\"}}' aria-label=\"\
+        Search for the same\" aria-live=\"polite\" role=\"navigation\" data-log-node=\"\
+        mgm47\" ck=\"\"><ul class=\"navigation__region\" role=\"list\"><li class=\"\
+        navigation__item navigation__item_state_selected navigation__item_name_search\"\
+        \ role=\"listitem\" data-log-node=\"mgm48\" ck=\"\"><div class=\"service service_name_search\"\
+        ><a class=\"service__url link link_theme_normal\" aria-current=\"page\" href=\"\
+        //yandex.com?from=tabbar\" data-log-node=\"mgm49\" ck=\"\" data-counter=\"\
+        [&quot;b&quot;]\"><span class=\"service__name\">Web</span></a></div><div class=\"\
+        navigation__item-over\" data-name=\"Web\"></div></li><li class=\"navigation__item\
+        \ navigation__item_name_images\" role=\"listitem\" data-log-node=\"mgm4a\"\
+        \ ck=\"\"><div class=\"service service_name_images\"><a class=\"service__url\
+        \ link link_theme_normal\" target=\"_blank\" href=\"//yandex.com/images/search?text=Hello&amp;from=tabbar\"\
+        \ data-log-node=\"mgm4b\" ck=\"\" data-counter=\"[&quot;b&quot;]\"><span class=\"\
+        service__name\">Images</span></a></div><div class=\"navigation__item-over\"\
+        \ data-name=\"Images\"></div></li><li class=\"navigation__item navigation__item_name_video\"\
+        \ role=\"listitem\" data-log-node=\"mgm4c\" ck=\"\"><div class=\"service service_name_video\"\
+        ><a class=\"service__url link link_theme_normal\" target=\"_blank\" href=\"\
+        //yandex.com/video/search?text=Hello&amp;from=tabbar\" data-log-node=\"mgm4d\"\
+        \ ck=\"\" data-counter=\"[&quot;b&quot;]\"><span class=\"service__name\">Video</span></a></div><div\
+        \ class=\"navigation__item-over\" data-name=\"Video\"></div></li><li class=\"\
+        navigation__item navigation__item_name_news\" role=\"listitem\" data-log-node=\"\
+        mgm4e\" ck=\"\"><div class=\"service service_name_news\"><a class=\"service__url\
+        \ link link_theme_normal\" target=\"_blank\" href=\"//newssearch.yandex.com/news/search?text=Hello&amp;from=tabbar\"\
+        \ data-log-node=\"mgm4f\" ck=\"\" data-counter=\"[&quot;b&quot;]\"><span class=\"\
+        service__name\">News</span></a></div><div class=\"navigation__item-over\"\
+        \ data-name=\"News\"></div></li><li class=\"navigation__item navigation__item_name_translate\"\
+        \ role=\"listitem\" data-log-node=\"mgm4g\" ck=\"\"><div class=\"service service_name_translate\"\
+        ><a class=\"service__url link link_theme_normal\" target=\"_blank\" href=\"\
+        //translate.yandex.com?text=Hello&amp;from=tabbar\" data-log-node=\"mgm4h\"\
+        \ ck=\"\" data-counter=\"[&quot;b&quot;]\"><span class=\"service__name\">Translate</span></a></div><div\
+        \ class=\"navigation__item-over\" data-name=\"Translate\"></div></li><li class=\"\
+        navigation__item navigation__item_name_disk\" role=\"listitem\" data-log-node=\"\
+        mgm4i\" ck=\"\"><div class=\"service service_name_disk\"><a class=\"service__url\
+        \ link link_theme_normal\" target=\"_blank\" href=\"//disk.yandex.com?from=tabbar\"\
+        \ data-log-node=\"mgm4j\" ck=\"\" data-counter=\"[&quot;b&quot;]\"><span class=\"\
+        service__name\">Disk</span></a></div><div class=\"navigation__item-over\"\
+        \ data-name=\"Disk\"></div></li><li class=\"navigation__item navigation__item_name_mail\"\
+        \ role=\"listitem\" data-log-node=\"mgm4k\" ck=\"\"><div class=\"service service_name_mail\"\
+        ><a class=\"service__url link link_theme_normal\" target=\"_blank\" href=\"\
+        //mail.yandex.com?from=tabbar\" data-log-node=\"mgm4l\" ck=\"\" data-counter=\"\
+        [&quot;b&quot;]\"><span class=\"service__name\">Mail</span></a></div><div\
+        \ class=\"navigation__item-over\" data-name=\"Mail\"></div></li><li class=\"\
+        navigation__item navigation__item_name_ads\" role=\"listitem\" data-log-node=\"\
+        mgm4m\" ck=\"\"><div class=\"service service_name_ads\"><a class=\"service__url\
+        \ link link_theme_normal\" target=\"_blank\" href=\"//yandex.com/search/direct?text=Hello&amp;from=tabbar\"\
+        \ data-log-node=\"mgm4n\" ck=\"\" data-counter=\"[&quot;b&quot;]\"><span class=\"\
+        service__name\">Ads</span></a></div><div class=\"navigation__item-over\" data-name=\"\
+        Ads\"></div></li></ul></nav></div><style nonce=6341 data-role=css data-stylesheet=main>.button2{display:inline-block;overflow:visible;box-sizing:border-box;margin:0;padding:0;font-family:'Helvetica\
+        \ Neue',Helvetica,Arial,sans-serif;-moz-user-focus:ignore;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;text-align:center;white-space:nowrap;text-decoration:none;background:0\
+        \ 0;-webkit-tap-highlight-color:transparent;touch-action:manipulation}.button2[aria-disabled=true],.button2_disabled_yes{pointer-events:none}.button2::-moz-focus-inner{padding:0;border:0}.button2:before{position:absolute;z-index:-1;top:0;right:0;bottom:0;left:0;content:''}.button2{cursor:pointer}.button2[aria-disabled=true],.button2_disabled_yes{cursor:default}.button2{position:relative;z-index:0;font-family:inherit;text-align:center;border:0;border-radius:4px;outline:0;background:0\
+        \ 0;transition:transform .1s linear,color .15s ease-out}.button2::before{padding:0;border-radius:4px;background-clip:padding-box;transition:background\
+        \ .15s linear,border-color .15s ease-out}.button2_hidden_yes{display:none}.button2.button2_pressed_yes{transform:scale(.96)}.button2__text-icon{margin-right:5px}.button2__text{position:relative;display:inline-block;resize:none;white-space:nowrap;pointer-events:none}.input_theme_normal,.input_theme_normal\
+        \ .input__control{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#000}.input_disabled_yes.input_theme_normal\
+        \ .input__control{color:#aaa;-webkit-text-fill-color:#aaa}.input_theme_normal\
+        \ .input__control::-webkit-input-placeholder{opacity:1;color:#999}.input_theme_normal\
+        \ .input__control:-ms-input-placeholder{opacity:1;color:#999}.input_theme_normal\
+        \ .input__control::-ms-input-placeholder{opacity:1;color:#999}.input_theme_normal\
+        \ .input__control::placeholder,.input_theme_normal .input__hint{opacity:1;color:#999}.input_theme_normal\
+        \ .input__box:before{border:1px solid rgba(0,0,0,.2);background-color:#fff;background-clip:padding-box}.input_theme_normal.input_hovered_yes\
+        \ .input__box:before{border-color:rgba(0,0,0,.3)}.input_theme_normal.input_focused_yes\
+        \ .input__box:before{border:2px solid #ffdb4d}.input_theme_normal.input_disabled_yes\
+        \ .input__box:before{border-width:0;background-color:rgba(0,0,0,.08)}.input_theme_normal\
+        \ .input__box:before{transition:.1s ease-out;transition-property:border-color,border-width,background-color}.input_theme_normal.input_type_textarea\
+        \ .input__box:before{transition-property:border-color,border-width,top,left,right,bottom}.input_theme_normal,.input_theme_normal\
+        \ .input__control{font-family:inherit}@media all and (min-width:0){.input_theme_normal\
+        \ .input__box{background:#fff}}.input_theme_normal,.input_theme_normal .input__control{color:#333}.main{position:relative}.main{box-sizing:border-box;min-width:600px;min-height:100%;margin-top:-411px;padding-top:411px;padding-bottom:6px}.main_hidden-content_yes{display:table;width:100%;height:100%}.main_hidden-content_yes\
+        \ .main__top,.main_hidden-content_yes .main__center{display:none}.main_super-position_yes{z-index:2147483647}.main__result-wrapper{display:inline-block;margin:0\
+        \ 0 20px -36px;padding:20px 16px 20px 36px;white-space:normal;border-radius:8px;box-shadow:0\
+        \ 0 6px 0 rgba(0,0,0,.04),0 4px 10px 0 rgba(13,35,67,.25)}.main__result-wrapper:empty{display:none}.main__result-wrapper\
+        \ .favicon__icon{position:relative;top:4px}.main__result-wrapper .serp-item{margin:0}.main__carousel{position:relative;z-index:10}.main__carousel{position:relative;z-index:10}.main__carousel{min-width:990px;margin-left:-116px}.main__center{z-index:0;padding-left:30px}.main__center{margin-left:100px;padding-top:31px;padding-left:16px}@media\
+        \ (max-width:960px){.main__center{margin-left:16px;padding-left:28px}}.b-page_hide-serp_yes\
+        \ .carousel{margin-bottom:0}.b-page_hide-serp_yes .main{padding-bottom:0}.b-page_hide-serp_yes\
+        \ .main__content{display:none}.b-page_hide-serp_yes .serp-footer{display:none}.content{white-space:nowrap}.content__left,.content__right{display:inline-block;vertical-align:top;white-space:normal}.content__left{width:536px}.content__right{margin-left:50px}.content__right_cols_6{width:260px}.content__right_cols_8{width:352px}.content__right_cols_10{width:444px}.content__right_cols_12{width:536px}.content__right_wide{width:calc(100%\
+        \ - 716px);min-width:260px;max-width:1280px}.button2_theme_default{color:#000}.button2_theme_default::before{background-color:#e6e6e6}.button2_theme_default.button2_hovered_yes::before{background-color:#dbdbdb}.button2_theme_default.button2_checked_yes::before{background-color:#515151}.utilityfocus\
+        \ .button2_theme_default.button2_focused_yes::before{border:2px solid #a1a1a1}.button2_theme_default.button2_pressed_yes::before{background-color:#dbdbdb}.button2_theme_default.button2_pressed_yes.button2_checked_yes::before{background-color:#515151}.button2_theme_default.button2_checked_yes{color:#fff}.button2_theme_default.button2_view_action.button2_hovered_yes::before{background-color:#f2c200}.button2_theme_default.button2_view_action.button2_checked_yes::before{background-color:#594700}.utilityfocus\
+        \ .button2_theme_default.button2_view_action.button2_focused_yes::before{border:2px\
+        \ solid #b38f00}.button2_theme_default.button2_view_action.button2_pressed_yes::before{background-color:#f2c200}.button2_theme_default.button2_view_action.button2_pressed_yes.button2_checked_yes::before{background-color:#594700}.button2_theme_default.button2_view_action::before{background-color:#fc0}.button2_theme_default.button2_disabled_yes{opacity:.4}.button2_theme_default.button2_disabled_yes\
+        \ .icon{opacity:.9}.favicon{top:3px}.favicon__icon{width:16px;height:16px}.favicon{position:absolute;left:-22px}.favicon__icon{display:block}.content__right\
+        \ .serp-adv-item{width:260px}.content__right .serp-adv-item .organic__path{margin-right:14px}.serp-adv__add{display:inline-block;margin:5px\
+        \ 10px 0 0}.serp-adv__add .link{text-decoration:underline}.serp-adv__add_hidden_yes{display:none}.serp-adv__add{margin:0}.serp-adv__all+.serp-adv__add{display:block;margin-top:-10px}.serp-adv__all{display:inline-block;margin-top:5px}.serp-adv__all\
+        \ .link{text-decoration:underline}.serp-adv__all{margin-top:0;margin-bottom:10px}.serp-adv__found{font-weight:700}.serp-adv__head{margin-bottom:16px}.serp-adv__head-link{color:#666!important}.serp-adv__head-link.link_hovered_yes{color:#d00!important}.serp-adv__displayed{margin-top:5px}.serp-adv__displayed{margin-top:0}.serp-adv__banner{overflow:hidden;width:200px;height:300px;margin-bottom:12px;background:rgba(0,0,0,.06)}.serp-adv__banner\
+        \ .serp-adv__image{border:0}.serp-list__plain-visible{display:none}.serp-list_right_yes:not(:empty){margin-bottom:26px}.serp-list_right_yes:not(:first-of-type):not(:empty){margin-top:20px}.serp-item{position:relative}.serp-item-vmbp{display:none}.serp-item-mif{display:none}.serp-item{color:#333}.serp-item{margin-bottom:26px}.serp-item_feedback::after{position:absolute;top:-11px;right:-18px;bottom:-11px;left:-28px;content:'';outline:2px\
+        \ solid #ca362c}.a11y-hidden{position:absolute;left:-32767px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.serp-list_left_yes{margin:0;padding:0;list-style:none}.serp-list_left_yes\
+        \ .serp-item{text-align:inherit}.popup2__tail{position:absolute;z-index:1;width:10px;height:10px}.popup2_direction_top-left\
+        \ .popup2__tail,.popup2_direction_top-center .popup2__tail,.popup2_direction_top-right\
+        \ .popup2__tail{transform:rotate(-45deg)}.popup2_direction_bottom-left .popup2__tail,.popup2_direction_bottom-center\
+        \ .popup2__tail,.popup2_direction_bottom-right .popup2__tail{transform:rotate(135deg)}.popup2_direction_left-top\
+        \ .popup2__tail,.popup2_direction_left-center .popup2__tail,.popup2_direction_left-bottom\
+        \ .popup2__tail{transform:rotate(-135deg)}.popup2_direction_right-top .popup2__tail,.popup2_direction_right-center\
+        \ .popup2__tail,.popup2_direction_right-bottom .popup2__tail{transform:rotate(45deg)}.click{cursor:pointer}.advanced-search\
+        \ .input__clear[class]{background-image:url(//yastatic.net/s3/web4static/_/v2/LthL8YYlqfhygfTe5IR0qpXE1oU.svg);background-repeat:no-repeat;background-size:auto}.advanced-search\
+        \ .input__clear{background-position:-179px -50px}.typo{font-family:Arial,Helvetica,sans-serif}.typo_line_l.typo_text_m{line-height:1em}.typo_line_m{line-height:1em}.typo_line_m.typo_text_s{line-height:15px}.typo_line_m.typo_text_m{line-height:17px}.typo_line_m.typo_text_l{line-height:24px}.typo_line_m.typo_text_xl{line-height:32px}.typo_line_m.typo_text_xxl{line-height:34px}.typo_line_s{line-height:1em}.typo_line_s.typo_text_s,.typo_line_s.typo_text_xl{line-height:1em}.typo_line_s.typo_text_m{line-height:16px}.typo_line_s.typo_text_l{line-height:1em}.typo_text_l{font-size:18px;line-height:1em}.typo_text_m{font-size:13px;line-height:1em}.typo_text_s{font-size:11px;line-height:1em}.typo_text_xl{font-size:28px;line-height:1em}.typo_text_xxl{font-size:32px;line-height:1em}.typo_type_bold{font-weight:700}.typo_type_caps{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}.typo_type_greenurl{font-size:14px;line-height:17px}.typo_type_italic{font-style:italic}.verified{display:inline-block;line-height:1em;white-space:nowrap}.verified-list{display:inline-block;white-space:nowrap}.verified-list__wrapper{display:flex;overflow:hidden;flex-direction:row;flex-wrap:wrap;height:20px}.verified-list__item{margin-bottom:10px}.verified__text{display:inline-block;margin-left:3px}.verified__icon{position:relative;top:-1px;display:inline-block;width:20px;height:20px;vertical-align:middle;background-repeat:no-repeat;background-position:center;background-size:contain}.verified\
+        \ .verified__link.verified__link_popup_yes{display:none}.verified-list{vertical-align:bottom}.verified__text{position:relative;z-index:-1;top:1px}.verified__link_popup_yes.verified__link:hover{color:#fff}@media\
+        \ (min-width:1560px){.content__right[class]{width:596px}.content__right_cols_6[class]{width:290px}.content__right_cols_8[class]{width:392px}.content__right_cols_10[class]{width:494px}.content__right_cols_12[class]{width:596px}.content__right_wide[class]{width:calc(100%\
+        \ - 853px)}}</style><script nonce=6341>Ya.clck=\"//yandex.com/clck/safeclick/data=AiuY0DBWFJ5fN_r-AEszkzwctETCZ7hlJMmCRVhAQy7V4Mo4Lf9cfBXczBxXjXPNw2Y4ZTiV76e4zYgRLsDBgbmcFprXgUR8lb7M9SrnSQCcdT0cxVTVgn2DKAEqLKVD7W5Ejd5ORi5D2R59SB_SNusNdLlvC0VJ9hymL84Tq1PZHTI6jqGiLOiW-GzFQVoHDpcNoLT3N2EKUvBQ_f2TixKN2TJKPUiQHShbg0Rs6jiSAYWTpuz1wVk0iVFCdBakiWSdDGiS_Zt8dsLGfxLVc9ln7SFBudfklK2ByzPbT1yF0hKwcv76qOrKessvibpFZOVBbM6QMSHz8SlrfaIlWBvdsmI8lk7nKo33Z5nkT4RwAjcbnN0wJWQiHnLaXZerWYOI31YTeLtucL-iCB-BOifGjqxLElFA3EetZOaWoLPQmANuGlL-c81l8o7U04ndyyAXzHjVaZ2xLHyeIOBNhKvrSw6g09pxjpbkcbtUObAWAr80JaGsu1PmaVe4B0sMjvR5tuL66RsviOUHts8z3NQYh3AYYRG4NLI-BR_IFVfHSW2oqGelUFWi4h9DuK3z26xuAChnqC438Nmy5gFRj1PyeM_2LuhWi1OtUEGiDvnN_2iBENnexyADdZEhsyIkfoz8M0xaRValjRvoUJBQlyNY1lCR_c07EkCJ8016gm9aGFp-Be_17gGk66wNEmZXzyk90E4ZbzDq8ygb0NoJClFwdHFhKBv-ki59RJFP9OowGhlviAz8WdjGp2kBwspWmiUBOO2In4j497lZ97syWY4Ci1H18BO4/sign=aee60266b1aacca172647947210dac50/keyno=0/ref=orjY4mGPRjkh5N2Mxdt9IijjiAnZEKSkq3IJ1QKHpokcZikItU8Eq4yP8qWDJp8e/installation_info=eyJnZW8iOiJ2bGEiLCJjdHlwZSI6InByb2QiLCJ2ZXJ0aWNhbCI6IldFQiJ9\"\
+        ;!function(e){\"use strict\";var t;function a(e){var a=r(\"i-global\");return\
+        \ a?a.param(e):(t||(t=Ya.SerpContext),t&&t[e])}function r(t){return e.BEM&&e.BEM.blocks&&e.BEM.blocks[t]}var\
+        \ n=/baobab_event_id=(\\w+)/;e.Ya=e.Ya||{};var o=e.Ya.Serp=e.Ya.Serp||{};Ya.getTechCounter=function(e,t){return{event:\"\
+        tech\",type:e,data:t}},o.CHelpers={getEventId:function(e){return e.toString(36)+Math.floor(36*Math.random()*36).toString(36)},getFastData:function(e){var\
+        \ t=function(e){for(;e&&e.getAttribute;){if(e.getAttribute(\"data-fast\"))return\
+        \ e;e=e.parentNode}}(e);if(t){var a=t.getAttribute(\"data-fast-name\")||void\
+        \ 0;return{wzrd:a,subtype:t.getAttribute(\"data-fast-subtype\")||void 0,organic:a?void\
+        \ 0:1,id:t.getAttribute(\"data-fast-id\")||void 0}}},getParam:a,getMc:function(){var\
+        \ e=r(\"i-mcounter\");return e?e.get():null},getHdTime:e.performance&&performance.now?function(){var\
+        \ e=performance.now(),t=a(\"ajaxActionTime\"),r=t?e-t:e;return Math.round(1e3*r)/1e3}:function(){},addMetrikaCookie:function(t){var\
+        \ a=e.location,r=Ya.headerData&&Ya.headerData.value;if(!r)try{r=decodeURIComponent((a.search.match(/[?&]text=([^&]*)/)||[])[1])}catch(s){e.logSerpJsError(s)}if(t&&r){var\
+        \ n;if(t.getAttribute&&t.getAttribute(\"data-sc-host\"))n=t.getAttribute(\"\
+        data-sc-host\");else if(t.hostname){var o=t.hostname,i=o.match(/^(www\\.)?yandex\\\
+        .(ru|kz|by|ua|com|com\\.tr|net|fr)$/)&&t.pathname||\"\";n=o+i}if(n){var u=Ya.Serp.CHelpers.getParam(\"\
+        reqid\"),c=Ya.Serp.CHelpers.getParam(\"scPath\")||a.pathname,d=[r,n.replace(/^(m\\\
+        .)?beru\\.ru($|\\/|\\?)/,\"$1pokupki.market.yandex.ru$2\"),c,u].map(encodeURIComponent).join(\"\
+        :\"),f=Date.now();document.cookie=\"sc_\"+f+\"=\"+d+\";path=/watch;domain=.\"\
+        +a.hostname.replace(/^www\\./,\"\")+\";expires=\"+new Date(f+6e5).toUTCString()+(Ya.Serp.CHelpers.getParam(\"\
+        enableSamesiteSc\")?\";SameSite=None\":\"\")+\";secure\"}}},injectCounterEventId:function(e,t){if(!e||!t)return\
+        \ e;var a=n.exec(e);if(a)return e.replace(a[1],t);var r=\"baobab_event_id=\"\
+        +t,o=-1===e.indexOf(\"?\");return e+(o?\"?\":\"&\")+r},isCounterEventIdRequired:function(e){return\
+        \ e.hasAttribute(\"data-event-required\")}}}(window);!function(e,r,t){\"use\
+        \ strict\";var a,n=[];function o(){if(Ya.clck){var e=n.join(\"\\r\\n\");if(n=[],a=null,!t.sendBeacon||-1!==t.userAgent.indexOf(\"\
+        Chrome/\")||!t.sendBeacon(Ya.clck,e)){var r=new XMLHttpRequest;r.open(\"POST\"\
+        ,Ya.clck),r.send(e)}}}function i(e,r,t,a){a=a||{},r&&0===r.indexOf(\"690.1861.2452\"\
+        )&&(r=null,a.baobabOnly=!0,t&&(a.data=a.data||{},a.data.oldVars=t)),e=e&&(e[0]||(e.domElem?e.domElem[0]:e));var\
+        \ n=a.clck||Ya.clck;if(n){var o=c(e,r,t,a,n);return o&&n+o.join(\"\")}}function\
+        \ c(r,t,a,n,o){n=n||{},t||(n.baobabOnly=!0);var i=!0===n.sts?Ya.Serp.CHelpers.getParam(\"\
+        sts\"):n.sts,c=[],s=Ya.Serp.CHelpers.getMc();c.push(\"-js-ready=\"+(e.BEM&&e.BEM._serpInited||0)),s&&c.push(\"\
+        -mc=\"+s);var l,u,d,v=n.rawEvent||n.nodeId||Boolean(r&&r.getAttribute&&r.getAttribute(\"\
+        data-log-node\")),p=r&&r.baobabOnly||n.baobabOnly;v&&(u=n.rawEvent||function(r,t){var\
+        \ a=t.event||\"click\",n=t.data||{},o=Date.now(),i=t.eventId||r&&r.getAttribute(\"\
+        data-log-event-id\")||Ya.Serp.CHelpers.getEventId(o),c={event:a,id:t.nodeId||r.getAttribute(\"\
+        data-log-node\"),type:\"tech\"===a?t.type:void 0,cts:o,data:n,\"event-id\"\
+        :i,behaviour:t.behaviour,service:t.service||Ya.SerpContext.counterService,subservice:t.subservice||Ya.SerpContext.counterSubservice,fast:t.fast||Ya.Serp.CHelpers.getFastData(r)};t.overlayTrigger&&(Ya.lastBaobabEventId=i);r&&(r.lastEventId=i,Ya.Serp.CHelpers.isCounterEventIdRequired(r)?r.href=Ya.Serp.CHelpers.injectCounterEventId(r.href,i):Ya.directBaobabEventId=i);var\
+        \ s=Ya.Serp.CHelpers.getHdTime();s&&(c.hdtime=s);t.dynamic&&(c.behaviour={type:\"\
+        dynamic\"});e.BEM&&BEM.blocks[\"i-mcounter\"]&&(c.mc=BEM.blocks[\"i-mcounter\"\
+        ].get());return c}(r,n),l=encodeURIComponent(JSON.stringify([u])),c.push(\"\
+        -baobab-event-json=\"+(/[\\[\\]{}:,]/.test(d=l)?d.replace(/\\[/g,\"%5B\").replace(/\\\
+        ]/g,\"%5D\").replace(/{/g,\"%7B\").replace(/}/g,\"%7D\").replace(/:/g,\"%3A\"\
+        ).replace(/,/g,\"%2C\"):d))),function(r,t,a,n){var o;n||t?t||!n||a.baobabOnly||r&&r.baobabOnly||(o=\"\
+        Triggered invalid baobabOnly counter\"):o=\"Triggered empty counter\";if(!o)return;var\
+        \ i=new Error(o);i.additional={node:r&&r.className,data:a.data},i.catchType=\"\
+        counters:invalid\",e.logSerpJsError&&logSerpJsError(i)}(r,t,n,v);var b=function(e,r,t){var\
+        \ a=Ya.SerpContext.counterSignTables;if(!a)return;if(-1===t.indexOf(\"keyno=\"\
+        +Ya.SerpContext.keyno))return;var n=!a.perf,o=function(e,r,t){var a=e&&e.event;if(!r)return\
+        \ a;var n=r.split(\".\");if(\"690\"!==n[0])return a;var o=n[1];if(t)return\"\
+        1033\"===o?\"690.1033\":r;if(\"2096\"===o||\"1033\"===o||\"1201\"===o)return\"\
+        perf\";return\"tech\"}(e,r,n),i=a[o];void 0===i&&(i=a.default);return i}(u,t,o);return\
+        \ a&&(Array.isArray(a)&&(a=a.join()),c.push(a.replace(/\\//g,\"%2F\"))),[n.counterParams?\"\
+        /\"+n.counterParams.join(\"/\"):\"\",p?\"/events=\"+l:\"/path=\"+t+\"/vars=\"\
+        +c.join()+\"/cts=\"+Date.now(),i?\"/sts=\"+i:\"\",n.tree?\"/counters=\"+n.tree:\"\
+        \",b?\"/table=\"+b:\"\",\"/*\",n.logHref||r&&r.href||\"//yandex.ru/\"]}function\
+        \ s(e,r){var t=new Error(r);return t.additional={value:e,scripts:l()},t}function\
+        \ l(){var e,t,a,n,o,i=[],c=r.getElementsByTagName(\"script\");for(o=0;o<c.length;o++)t=(e=c[o]).src,a=e.id,n={},t&&(n.src=t),a&&(n.id=a),i.push(n);return\
+        \ i}e.w=function(e,t,a,n){var o=i(e,t,a,n);o&&(r.createElement(\"IMG\").src=o)},e.wb=function(e,a,n,o){var\
+        \ c=i(e,a,n,o);c&&(t.sendBeacon&&t.sendBeacon(c,\" \")||(r.createElement(\"\
+        IMG\").src=c))},e.b=function(r,t){if(t=t||{},r){if(\"string\"==typeof r)throw\
+        \ s(r,'Parameter \"link\" should not be a string.')}else if(t&&\"string\"\
+        ==typeof t)throw s(t,'Parameter \"params\" should not be a string.');t.baobabOnly=!0,e.w(r,null,null,t)},e.wbt=function(e,r,t,i){null!=a&&clearTimeout(a);var\
+        \ s=c(e,r,t,i,Ya.clck);s&&n.push([\"/reqid=\"+Ya.Serp.CHelpers.getParam(\"\
+        reqid\")].concat(s).join(\"\")),n.length<42?a=setTimeout(o,15):o()}}(window,document,navigator);;w=wb;;_borschik(\"\
+        Oy2M6\")&&function(e){window.w=function(o,i,n,r){e.apply(this,arguments),!o&&r&&\"\
+        click\"===r.event&&r.logHref&&((o=document.createElement(\"a\")).href=r.logHref),o&&Ya.Serp.CHelpers.addMetrikaCookie(o)}}(w);;;(function(IS_BEACON_ENABLED){function\
+        \ isDirectLink(e,t){var r=t&&\".serp-item[\"+t+\"]\",a=e.mozMatchesSelector?\"\
+        mozMatchesSelector\":\"matches\";return r&&e[a]&&e[a](r+\" *\")}var rc=window.rc=function(e,t){var\
+        \ r,a,n=e.getAttribute&&e.getAttribute(\"data-log-node\"),i=/msie|trident/i.test(navigator.userAgent),o=(new\
+        \ Date).getTime();if(e.realHref=e.realHref||e.href,t=t.replace(/=8(?=&|$)/,\"\
+        =\"+Ya.SerpContext.keyno),n&&(r={event:\"click\",id:n,cts:o,fast:Ya.Serp.CHelpers.getFastData(e),service:Ya.SerpContext.counterService},i||(a=Ya.Serp.CHelpers.getEventId(o),r[\"\
+        event-id\"]=a)),t+=\"&cts=\"+o,r&&(t+=\"%40%40events%3D\"+encodeURIComponent(JSON.stringify([r]))),!i){var\
+        \ c=Ya.Serp.CHelpers.getMc(),s=Ya.Serp.CHelpers.getHdTime();c&&(t+=\"&mc=\"\
+        +c),s&&(t+=\"&hdtime=\"+s)}Ya.Serp.CHelpers.isCounterEventIdRequired(e)&&(t=Ya.Serp.CHelpers.injectCounterEventId(t,a)),e.href=t,IS_BEACON_ENABLED&&navigator.sendBeacon&&(e.onclick=function(r){var\
+        \ a=window.BEM&&BEM.blocks[\"i-global\"]&&BEM.blocks[\"i-global\"].param(\"\
+        cloakAds\");if(this!==e||r.button||a)return{};!isDirectLink(e,rc.adAttrName)&&navigator.sendBeacon(t.replace(/^http:/,location.protocol),\"\
+        \ \")&&(e.href=e.realHref,Ya.Serp.CHelpers.addMetrikaCookie(e))})};})(false);function\
+        \ sh(n){return w(!1,\"1082\",!1,{tree:encodeURIComponent(JSON.stringify(n))})}_borschik(\"\
+        Yycva\")&&function(){var e=\"Root_inited\",r=\"StaticRenderer\";function t(t){var\
+        \ n=t&&t.parentNode;if(!n||!n.querySelector)return!1;try{if(!Boolean(n.querySelector(\"\
+        .Root_inited *\")&&!n.querySelector(\".Root_inited\")))return!1;if(!Boolean(n.querySelector(\"\
+        .StaticRenderer *\")&&!n.querySelector(\".StaticRenderer\")))return!0}catch(o){return!1}for(;n;){if(-1!==n.className.indexOf(r))return!1;if(-1!==n.className.indexOf(e))return!0;n=n.parentNode}return!1}window.Ya.triggerDelegatedCounter=function(e,r){var\
+        \ n,o;try{n=e.target}catch(u){return}for(r=r||{};n&&n.getAttribute;){var a,i=window.rc&&window.rc.dataCounterAttrName||\"\
+        data-counter\",d=n.getAttribute(i);d&&(a=JSON.parse(d)),!a||o&&o[1]===a[1]&&o[2]===a[2]||(t(n)||(\"\
+        rc\"===a[0]?rc(n,a[1]):\"w\"===a[0]?(r.logHref=a[3],w(n,a[1],a[2],r)):\"b\"\
+        ===a[0]&&(r.logHref=a[1],b(n,r))),o=a),n.mousedownHandler&&(n.mousedownHandler(),n.mousedownHandler=void\
+        \ 0),n=n.parentNode}},window.addEventListener(\"mousedown\",window.Ya.triggerDelegatedCounter)}();</script><script\
+        \ src=\"https://yastatic.net/nearest.js\" crossorigin=\"\" async></script><script\
+        \ nonce=6341>Ya.Rum.sendTimeMark(\"2325\")</script><style nonce=6341 data-stylesheet=bundles-assets>.serp-user__registration-button.button2[class]{margin-right:12px;font-size:15px}@media\
+        \ screen and (min-width:900px) and (max-width:1334px){.serp-user__registration-button.button2[class]{margin-right:10px}.serp-user__registration-button.button2[class]\
+        \ .button2__text{margin:0 8px}}@media screen and (max-width:900px){.serp-user__registration-button.button2[class]{display:none}}.serp-user__registration-button.button2[class]::before{border:#e6e6e6;background-color:#e6e6e6}.serp-user__registration-button.button2[class]:hover::before,.serp-user__registration-button.button2[class]:active::before{border:0}.serp-user__login-link.button2[class],.serp-user__login-link.button2_theme_action.button2[class]:hover,.serp-user__login-link.button2_theme_action:not([aria-disabled=true]).button2[class]:active{color:#fff}.serp-user__login-link.button2[class]::before,.serp-user__login-link.button2_theme_action.button2[class]:hover::before,.serp-user__login-link.button2_theme_action:not([aria-disabled=true]).button2[class]:active::before{background:#04b}.utilityfocus\
+        \ .serp-user__login-link.button2[class][class]:focus::before,.utilityfocus\
+        \ .serp-user__login-link.button2_theme_action.button2[class]:hover[class]:focus::before,.utilityfocus\
+        \ .serp-user__login-link.button2_theme_action:not([aria-disabled=true]).button2[class]:active[class]:focus::before{animation:none}.serp-user__login-link.button2[class]\
+        \ .icon_type_user,.serp-user__login-link.button2_theme_action.button2[class]:hover\
+        \ .icon_type_user,.serp-user__login-link.button2_theme_action:not([aria-disabled=true]).button2[class]:active\
+        \ .icon_type_user{background-image:url(//yastatic.net/s3/web4static/_/v2/T4hVIVQ-wOtXSI3ds5fuhKZumM8.svg)}@media\
+        \ screen and (min-width:900px) and (max-width:1334px){.serp-user .serp-user__login-link.button2[class]\
+        \ .button2__text{margin:0 10px}}.serp-user_enter_yes{display:inline-block;white-space:nowrap}.serp-user_hidden_yes{display:none}.serp-user__login-wrapper{position:relative;display:inline-block}.serp-user__login-wrapper\
+        \ .serp-user__switch-account-link{position:absolute;right:0;bottom:-19px;width:100%;font-size:12px;line-height:14px;text-align:center;color:#999}.serp-user__registration-link.link[class]{margin-right:15px;font-size:15px;color:#333}@media\
+        \ screen and (max-width:900px){.serp-user__registration-link.link[class]{display:none}}.serp-user__registration-link.link[class]:hover{color:#d00}.serp-user\
+        \ .serp-user__login-link.button2{min-width:86px;height:36px;font-size:15px;line-height:36px}.serp-user\
+        \ .serp-user__login-link.button2 .button2__text{margin:0 18px 0 16px}.serp-user__user-login{display:inline-block;font-size:15px;color:#000}.serp-user__user-login-name{display:inline-block}.serp-user__user-login-name::first-letter{color:red}.serp-user_enter_yes\
+        \ .serp-user__login-default{display:none}@media screen and (max-width:900px){.serp-user_enter_yes\
+        \ .serp-user__login-default{display:block}}@media screen and (max-width:900px){.serp-user_enter_yes\
+        \ .serp-user__login-welcome[class]{display:none}}.serp-user_enter_yes .serp-user__user-login{padding-right:10px}.serp-user__promo-popup.popup2[class]{z-index:10001;margin-top:5px;font-size:14px;line-height:17px}@media\
+        \ screen and (max-width:900px){.serp-user__promo-popup.popup2[class]{display:none}}.button2__control{display:none}.button2.button2.button2_pseudo-pressed_yes::before{border-color:rgba(0,0,0,.3);background-color:#f6f5f3}.button2_theme_pseudo{position:relative;z-index:0;color:#000;border:0;outline:0}.button2_view_classic.button2_theme_pseudo:before{border:1px\
+        \ solid;border-color:rgba(0,0,0,.2);border-radius:3px;background-color:transparent;background-clip:padding-box}.utilityfocus.utilityfocus\
+        \ .button2_view_classic.button2_theme_pseudo:focus[class]:before,.utilityfocus.utilityfocus\
+        \ .button2_view_classic.button2_theme_pseudo.button2_focused_yes[class]:before{border-width:2px;border-color:#ffdb4d}.button2_view_classic.button2_theme_pseudo:not([aria-disabled=true]):active:before,.button2_view_classic.button2_theme_pseudo.button2_pressed_yes:before{background-color:rgba(0,0,0,.05)}.button2_view_classic.button2_theme_pseudo.button2_checked_yes:before{border-color:rgba(153,122,0,.5);background-color:#ffeba0}.button2_view_classic.button2_theme_pseudo.button2_checked_yes:not([aria-disabled=true]):active:before,.button2_view_classic.button2_theme_pseudo.button2_checked_yes.button2_pressed_yes:before{border-color:rgba(129,103,0,.6);background-color:#fee481}.button2_view_classic.button2_theme_pseudo[aria-disabled=true]:before,.button2_view_classic.button2_theme_pseudo.button2_disabled_yes:before{border-color:rgba(0,0,0,.08);background-color:rgba(0,0,0,.08)}.button2_view_classic.button2_theme_pseudo[aria-disabled=true].button2_checked_yes:before,.button2_view_classic.button2_theme_pseudo.button2_disabled_yes.button2_checked_yes:before{border-color:rgba(0,0,0,.15);background-color:rgba(0,0,0,.15)}.button2_theme_pseudo[aria-disabled=true]\
+        \ .button2__text,.button2_theme_pseudo[aria-disabled=true] .button2__icon,.button2_theme_pseudo.button2_disabled_yes\
+        \ .button2__text,.button2_theme_pseudo.button2_disabled_yes .button2__icon{opacity:.5}.button2_view_classic.button2_theme_pseudo:before{transition:.1s\
+        \ ease-out;transition-property:border-color,border-width,background-color}.button2_view_classic.button2_theme_pseudo:not([aria-disabled=true]):hover:before,.button2_view_classic.button2_theme_pseudo.button2_hovered_yes:before{border-color:rgba(0,0,0,.3)}.button2_view_classic.button2_theme_pseudo.button2_checked_yes:not([aria-disabled=true]):hover:before,.button2_view_classic.button2_theme_pseudo.button2_checked_yes.button2_hovered_yes:before{border-color:rgba(118,94,0,.65)}.button2_size_m{height:32px;font-size:15px;line-height:32px}.button2_size_m\
+        \ .button2__text{margin:0 15px}.button2_size_m .button2__icon{width:32px}.button2_size_m\
+        \ .button2__icon.icon_type_arrow{width:35px}.button2_size_m .button2__icon_side_left~.button2__text{margin-left:29px}.button2_size_m\
+        \ .button2__icon_side_right~.button2__text{margin-right:29px}.button2.button2_size_m{font-size:13px}.button2.button2_size_m{height:auto;line-height:36px}.button2.button2_size_m\
+        \ .button2__text{margin:0 13px}.button2.button2_size_m .button2__icon_side_right~.button2__text{margin-right:33px}.button2.button2_size_m\
+        \ .button2__icon_side_left~.button2__text{margin-left:33px}.button2.button2_size_m\
+        \ .button2__icon{width:36px}.button2_theme_action{position:relative;z-index:0;color:#000;border:0;outline:0}.button2_view_classic.button2_theme_action:before{border-radius:3px;background-color:#ffdb4d}.button2_view_classic.button2.button2_theme_action:not([aria-disabled=true]):active:before,.button2_view_classic.button2.button2_theme_action.button2_pressed_yes[class]:before{background-color:#fc0}.button2_view_classic.button2_theme_action[aria-disabled=true]:before,.button2_view_classic.button2_theme_action.button2_disabled_yes:before{background-color:rgba(0,0,0,.08)}.button2_theme_action[aria-disabled=true]\
+        \ .button2__text,.button2_theme_action[aria-disabled=true] .button2__icon,.button2_theme_action.button2_disabled_yes\
+        \ .button2__text,.button2_theme_action.button2_disabled_yes .button2__icon{opacity:.5}.button2_view_classic.button2_theme_action.button2_progress_yes:before{background-color:#ffd426;background-image:repeating-linear-gradient(-45deg,#ffd426,#ffd426\
+        \ 4px,#f7c600 4px,#f7c600 8px);background-size:34px 34px}.button2.button2_theme_action.button2_progress_yes\
+        \ .button2__text,.button2.button2_theme_action.button2_progress_yes .button2__icon{opacity:1}@keyframes\
+        \ button2-progress{0%{background-position:-12px 0}to{background-position:0\
+        \ 0}}.button2.button2_theme_action.button2_progress_yes:before{animation-name:button2-progress;animation-duration:.5s;animation-timing-function:linear;animation-iteration-count:infinite}.button2_view_classic.button2_theme_action:before{transition:background-color\
+        \ .1s ease-out 0s}.button2_view_classic.button2_theme_action:not([aria-disabled=true]):hover:before,.button2_view_classic.button2_theme_action.button2_hovered_yes:before{background-color:#ffd633}.utilityfocus\
+        \ .button2_view_classic.button2_theme_action:not([aria-disabled=true]):focus:before,.utilityfocus\
+        \ .button2_view_classic.button2_theme_action.button2_focused_yes:before{animation:button2-action-focus\
+        \ 1s infinite linear}@keyframes button2-action-focus{0%,to{background-color:#fc0}40%,60%{background-color:#ffe066}}.button2\
+        \ .button2__icon{position:relative;pointer-events:none}.button2 .button2__icon_side_left{position:absolute;top:0;left:0}.button2\
+        \ .button2__icon_side_right{position:absolute;top:0;right:0}.icon{display:inline-block;background-repeat:no-repeat;background-position:50%}.icon:after{visibility:hidden;content:'\\\
+        00A0'}.icon{width:16px}.icon{display:inline-block;background-repeat:no-repeat;background-position:50%}.icon:after{visibility:hidden;content:'\\\
+        00A0'}.icon{width:16px}.icon_type_user{background-image:url(//yastatic.net/s3/web4static/_/v2/ikAUDbPStTX2qjjdBdZwXkcKcR0.svg)}.popup2_theme_normal{visibility:hidden;box-sizing:border-box;margin:-9999px\
+        \ 0 0 -9999px;border:1px solid rgba(0,0,0,.06);animation-duration:.1s;animation-timing-function:ease-out;animation-fill-mode:forwards}.popup2_theme_normal\
+        \ .popup2__tail:before{position:absolute;top:1px;right:1px;bottom:0;left:0;content:'';border:1px\
+        \ solid transparent;border-bottom-color:rgba(0,0,0,.06);border-left-color:rgba(0,0,0,.06)}.popup2_theme_normal\
+        \ .popup2__tail:after{position:absolute;top:0;right:0;bottom:1px;left:1px;content:'';background-image:linear-gradient(to\
+        \ top right,#fff 50%,transparent 50%)}.popup2_theme_normal:before{position:absolute;top:0;right:0;bottom:0;left:0;content:'';border-radius:.1px;background:#fff;box-shadow:0\
+        \ 10px 20px -5px rgba(0,0,0,.4)}.popup2_theme_normal.popup2_visible_yes:before{z-index:-1}.popup2_theme_normal.popup2_js_inited{display:block}.popup2_theme_normal.popup2_visible_yes{visibility:visible;margin:0}.popup2_theme_normal.popup2_direction_bottom-left,.popup2_theme_normal.popup2_direction_bottom-center,.popup2_theme_normal.popup2_direction_bottom-right{animation-name:popup2_theme_normal_bottom}.popup2_theme_normal.popup2_direction_bottom-left.popup2_visible_yes,.popup2_theme_normal.popup2_direction_bottom-center.popup2_visible_yes,.popup2_theme_normal.popup2_direction_bottom-right.popup2_visible_yes{animation-name:popup2_theme_normal_bottom_visible}.popup2_theme_normal.popup2_direction_top-left,.popup2_theme_normal.popup2_direction_top-center,.popup2_theme_normal.popup2_direction_top-right{animation-name:popup2_theme_normal_top}.popup2_theme_normal.popup2_direction_top-left.popup2_visible_yes,.popup2_theme_normal.popup2_direction_top-center.popup2_visible_yes,.popup2_theme_normal.popup2_direction_top-right.popup2_visible_yes{animation-name:popup2_theme_normal_top_visible}.popup2_theme_normal.popup2_direction_right-top,.popup2_theme_normal.popup2_direction_right-center,.popup2_theme_normal.popup2_direction_right-bottom{animation-name:popup2_theme_normal_right}.popup2_theme_normal.popup2_direction_right-top.popup2_visible_yes,.popup2_theme_normal.popup2_direction_right-center.popup2_visible_yes,.popup2_theme_normal.popup2_direction_right-bottom.popup2_visible_yes{animation-name:popup2_theme_normal_right_visible}.popup2_theme_normal.popup2_direction_left-top,.popup2_theme_normal.popup2_direction_left-center,.popup2_theme_normal.popup2_direction_left-bottom{animation-name:popup2_theme_normal_left}.popup2_theme_normal.popup2_direction_left-top.popup2_visible_yes,.popup2_theme_normal.popup2_direction_left-center.popup2_visible_yes,.popup2_theme_normal.popup2_direction_left-bottom.popup2_visible_yes{animation-name:popup2_theme_normal_left_visible}@keyframes\
+        \ popup2_theme_normal_bottom{0%{visibility:visible;margin:0;opacity:1;transform:translateY(0)}99%{margin:0;transform:translateY(10px)}to{visibility:hidden;margin:-9999px\
+        \ 0 0 -9999px;opacity:0}}@keyframes popup2_theme_normal_bottom_visible{0%{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}@keyframes\
+        \ popup2_theme_normal_top{0%{visibility:visible;margin:0;opacity:1;transform:translateY(0)}99%{margin:0;transform:translateY(-10px)}to{visibility:hidden;margin:-9999px\
+        \ 0 0 -9999px;opacity:0}}@keyframes popup2_theme_normal_top_visible{0%{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}@keyframes\
+        \ popup2_theme_normal_right{0%{visibility:visible;margin:0;opacity:1;transform:translateX(0)}99%{margin:0;transform:translateX(10px)}to{visibility:hidden;margin:-9999px\
+        \ 0 0 -9999px;opacity:0}}@keyframes popup2_theme_normal_right_visible{0%{opacity:0;transform:translateX(10px)}to{opacity:1;transform:translateX(0)}}@keyframes\
+        \ popup2_theme_normal_left{0%{visibility:visible;margin:0;opacity:1;transform:translateX(0)}99%{margin:0;transform:translateX(-10px)}to{visibility:hidden;margin:-9999px\
+        \ 0 0 -9999px;opacity:0}}@keyframes popup2_theme_normal_left_visible{0%{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:translateX(0)}}.button2_theme_clear{position:relative;z-index:0;color:#000;border:0;outline:0}.button2_view_classic.button2_theme_clear:before{border-radius:3px}.button2_theme_clear\
+        \ .button2__text,.button2_theme_clear .button2__icon{opacity:.3}.button2.button2_theme_clear.button2_checked_yes:not([aria-disabled=true])\
+        \ .button2__text,.button2.button2_theme_clear.button2_checked_yes:not([aria-disabled=true])\
+        \ .button2__icon,.button2.button2_theme_clear.button2_checked_yes:not(.button2_disabled_yes)\
+        \ .button2__text,.button2.button2_theme_clear.button2_checked_yes:not(.button2_disabled_yes)\
+        \ .button2__icon{opacity:.8}.utilityfocus .button2_view_classic.button2_theme_clear:focus:before,.utilityfocus\
+        \ .button2_view_classic.button2_theme_clear.button2_focused_yes[class]:before{border:2px\
+        \ solid #ffdb4d}.button2_view_classic.button2_theme_clear.button2_checked_yes:not([aria-disabled=true]):active:before,.button2_view_classic.button2_theme_clear.button2_checked_yes.button2_pressed_yes:before{background-color:transparent}.button2_view_classic.button2_theme_clear[aria-disabled=true]:before,.button2_view_classic.button2_theme_clear.button2_disabled_yes:before{background-color:rgba(0,0,0,.08)}.button2_view_classic.button2_theme_clear[aria-disabled=true].button2_checked_yes:before,.button2_view_classic.button2_theme_clear.button2_disabled_yes.button2_checked_yes:before{background-color:rgba(0,0,0,.15)}.button2_view_classic.button2_theme_clear:before{transition:background-color\
+        \ .1s ease-out}.button2_theme_clear .button2__text,.button2_theme_clear .button2__icon{transition:opacity\
+        \ .1s ease-out}.button2_theme_clear:not([aria-disabled=true]):hover .button2__text,.button2_theme_clear:not([aria-disabled=true]):hover\
+        \ .button2__icon,.button2_theme_clear.button2_hovered_yes .button2__text,.button2_theme_clear.button2_hovered_yes\
+        \ .button2__icon{opacity:.8}.button2_size_l{height:38px;font-size:18px;line-height:38px}.button2_size_l\
+        \ .button2__text{margin:0 18px}.button2_size_l .button2__icon{width:38px}.button2_size_l\
+        \ .button2__icon.icon_type_arrow{width:38px}.button2_size_l .button2__icon_side_left~.button2__text{margin-left:35px}.button2_size_l\
+        \ .button2__icon_side_right~.button2__text{margin-right:35px}.button2_size_l[class]{height:44px;font-size:15px;line-height:44px}.icon_type_back{background-image:url(//yastatic.net/s3/web4static/_/v2/Ui3dNPVwhZCVu1hGi_v4rTnpGH0.svg)}.icon_type_close-x{background-image:url(//yastatic.net/s3/web4static/_/v2/kIAykctwarBUe3W-WfBklBYdSGw.svg)}.offer-reviews-tooltip{z-index:1002;box-sizing:border-box;padding:10px\
+        \ 12px}.offer-reviews-tooltip[class]{width:auto}.offer-reviews-tooltip__tail{position:absolute;transform:translate(-50%,0)\
+        \ rotate(45deg)}.offer-reviews-tooltip_theme_dark{max-width:200px;color:#fff;background:#000;box-shadow:0\
+        \ 1ex 2ex -.5ex rgba(0,0,0,.5)}.offer-reviews-tooltip_theme_dark[class]{margin-top:12px}.offer-reviews-tooltip_theme_dark\
+        \ .offer-reviews-tooltip__message{font-size:13px;line-height:17px}.offer-reviews-tooltip_theme_dark\
+        \ .offer-reviews-tooltip__tail{top:-6px;left:3px;width:12px;height:12px;background:#000}.offer-reviews-tooltip_theme_dark[class]{max-width:170px}.offer-reviews-tooltip__link{display:block;margin-top:4px;font-size:13px;line-height:16px;cursor:pointer;text-decoration:none;color:#999}.offer-reviews-tooltip__link:hover{color:#fff}.icon_type_party-16[class]{width:16px;background-image:url(//yastatic.net/s3/web4static/_/v2/Mqwnc5RCahsGSPw3bBZ9av2Ej3c.svg)}.icon_type_party-20[class]{width:20px;background-image:url(//yastatic.net/s3/web4static/_/v2/rBRQ2p-cfqZteg8DIM-msuYZduQ.svg)}.OrganicText+.organic__key-value[class]{margin-top:5px}.OrganicText+.organic__list[class]{margin-top:4px}.pager__item_cee[class]{font-family:Consolas,Menlo,Monaco,'Lucida\
+        \ Console','Liberation Mono','DejaVu Sans Mono','Bitstream Vera Sans Mono','Courier\
+        \ New',monospace,sans-serif}.pager__item_cee.pager__item_kind_begin[class]{padding-right:32px}.pager__item_cee.pager__item_kind_next[class]{padding-left:32px}.fold_theme_arrows[class]\
+        \ .fold__show-more{max-width:536px}.path_company-name[class]{display:flex;align-items:baseline}.path_company-name[class]\
+        \ .path__elem_first{overflow:hidden;flex-shrink:99999;font-weight:700;line-height:16px;text-overflow:ellipsis}.path_company-name[class]\
+        \ .path__item{display:flex;overflow:hidden;align-items:baseline}.path_company-name[class]\
+        \ .path__item .path__elem_first{overflow:hidden;flex-shrink:99999;font-weight:700;line-height:16px;text-overflow:ellipsis}.suggest-subsearch__searchrow\
+        \ .suggest-subsearch__input{width:calc(100% - 36px)}.grid_mode_static .grid__row_flex_yes{justify-content:space-between}@media\
+        \ (min-width: 1560px){.serp .content__left{width:596px}.serp .serp-footer__left{width:596px}.serp\
+        \ .misspell__message{max-width:596px}.serp .fact-layout.fact-layout{width:596px}.serp\
+        \ .composite__item .grid__col_mode_static.grid__col_width_4{width:188.0000px}.serp\
+        \ .composite__item .grid__col_mode_static.grid__col_width_9{width:443.0000px}.serp\
+        \ .composite__item .grid__col_mode_static.grid__col_width_12{width:596.0000px}.serp\
+        \ .colorpalette__table{width:596px}.scroller_with-fixed-label_yes .scroller__direct-label[class]{right:60px}.serp\
+        \ .content__right{margin-left:100px}.entity-cinema[class]{max-width:1336px}}.promo-popup_theme_ffffff{border:0}.promo-popup_theme_ffffff::before{top:-1px;right:-1px;bottom:-1px;left:-1px;border-radius:8px;box-shadow:0\
+        \ 0 2px 0 rgba(0,0,0,.1),0 2px 6px 0 rgba(0,0,0,.1)}.promo-popup_theme_ffffff\
+        \ .promo-popup__tail.popup2__tail{top:-8px;margin-left:0;transform:none}.promo-popup_theme_ffffff\
+        \ .promo-popup__tail.popup2__tail::after{width:20px;background:url(//yastatic.net/s3/web4static/_/v2/N4yiahQM2jF6dLiNwI42jZA6TfU.svg)\
+        \ no-repeat;box-shadow:none}.b-page_tld_com-tr .promo-popup_theme_ffffff{max-width:173px}.b-page_tld_com-tr\
+        \ .promo-popup_theme_ffffff .promo-popup__message{white-space:normal}.promo-popup_theme_ffffff\
+        \ .promo-popup__content{padding:14px 21px 17px}.promo-popup_theme_ffffff .promo-popup__message{display:block;padding-right:25px;font-size:16px;line-height:21px}.promo-popup_theme_ffffff\
+        \ .promo-popup__icons{margin:11px -3px -1px}.promo-popup_theme_ffffff .promo-popup__icon{display:inline-block;vertical-align:middle;transition:transform\
+        \ .15s ease-in-out}.promo-popup_theme_ffffff .promo-popup__icon:hover{transform:scale(1.15)}.promo-popup_theme_ffffff\
+        \ .promo-popup__icon:active{transform:scale(1.05)}.promo-popup_theme_ffffff\
+        \ .promo-popup__cross{position:absolute;top:1px;right:4px;width:40px;height:40px;cursor:pointer;opacity:.4;transition:.2s}.promo-popup_theme_ffffff\
+        \ .promo-popup__cross:hover{opacity:1;transition:0s}.promo-popup_theme_ffffff\
+        \ .promo-popup__cross::before,.promo-popup_theme_ffffff .promo-popup__cross::after{position:absolute;width:1px;height:18px;margin-top:13px;margin-left:50%;content:'\
+        \ ';background:#000}.promo-popup_theme_ffffff .promo-popup__cross::before{transform:rotate(45deg)}.promo-popup_theme_ffffff\
+        \ .promo-popup__cross::after{transform:rotate(-45deg)}.favicon_page_1 .favicon__icon,.Favicon-Page1.Favicon-Icon{background-image:url(//favicon.yandex.net/favicon/v2/https://en.wiktionary.org/wiki/hello;https://habr.com/ru/company/englishdom/blog/529116/;https://hotplayer.ru/%3fs=hello;https://ru.glosbe.com/en/ru/hello;https://wooordhunt.ru/word/hello;https://en.kartaslov.ru/;https://englex.ru/ways-to-say-hello-in-english/;https://m.translate.ru/dictionary/en-ru/hello;https://hello-russia.ru/projects/;https://www.babla.ru/?size=32&stub=1);background-size:16px\
+        \ 160px}.overlay__panel{display:none}.related,.pager-counter,.pager,.more,.region-change,.competitors,.serp-footer,.paranja{visibility:hidden}.light-popup,.popup2{position:absolute;display:none}</style><div\
+        \ class=\"main serp i-bem\" data-bem='{\"serp\":{\"uniqId\":\"search\"}}'><div\
+        \ class=main__center><div class=main__top data-log-node=mgm42v><div class=\"\
+        advanced-search-loader i-bem\" data-bem='{\"advanced-search-loader\":{}}'\
+        \ data-log-node=mgm42w></div><div class=\"main__carousel serp i-bem\" data-bem='{\"\
+        main__carousel\":{\"pathLinksCount\":0,\"updateCarousel\":false},\"serp\"\
+        :{\"uniqId\":\"search\"}}'></div><div class=\"main__result serp i-bem\" data-bem='{\"\
+        main__result\":{},\"serp\":{\"uniqId\":\"search\"}}'><div class=main__result-wrapper></div></div></div><div\
+        \ class=main__content><div class=\"content i-bem\" data-bem='{\"content\"\
+        :{\"sizes\":[{\"width\":0,\"cols\":6},{\"width\":1094,\"cols\":8},{\"width\"\
+        :1186,\"cols\":10},{\"width\":1278,\"cols\":12}]}}'><div class=content__left\
+        \ data-log-node=mgm42x><ul class=\"serp-list serp-list_left_yes\" id=search-result\
+        \ role=main aria-label=\"\u0420\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442\
+        \u044B \u043F\u043E\u0438\u0441\u043A\u0430\"><style nonce=6341 data-stylesheet=progressive>.Link{text-decoration:none;outline:0;touch-action:manipulation;-webkit-tap-highlight-color:transparent}.Link[aria-disabled=true]{pointer-events:none}\n\
+        .Link_fontWeight_bold{font-weight:700}\n.Link{cursor:pointer}.Link[aria-disabled=true]{cursor:default}\n\
+        .Typo{font-family:Arial,Helvetica,sans-serif}.Typo_text_l{font-size:18px;line-height:1em}.Typo_text_m{font-size:13px;line-height:1em}.Typo_text_s{font-size:11px;line-height:1em}.Typo_text_xl{font-size:28px;line-height:1em}.Typo_line_l.Typo_text_m{line-height:1em}.Typo_line_m{line-height:1em}.Typo_line_m.Typo_text_s{line-height:15px}.Typo_line_m.Typo_text_m{line-height:17px}.Typo_line_m.Typo_text_l{line-height:24px}.Typo_line_m.Typo_text_xl{line-height:32px}.Typo_line_s{line-height:1em}.Typo_line_s.Typo_text_s,.Typo_line_s.Typo_text_xl{line-height:1em}.Typo_line_s.Typo_text_m{line-height:16px}.Typo_line_s.Typo_text_l{line-height:1em}.Typo_type_caps{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}.Typo_type_greenurl{font-size:14px;line-height:17px}.Typo_type_bold{font-weight:700}.Typo_type_italic{font-style:italic}\n\
+        .Link_theme_normal{color:navy}.Link_theme_normal:visited{color:#551a8b}.Link_theme_normal:hover{color:#d00}.utilityfocus\
+        \ .Link_theme_normal:focus{outline:2px solid #fc0}\n.Link_theme_outer{color:#006000}.Link_theme_outer:hover{color:#d00}.utilityfocus\
+        \ .Link_theme_outer:focus{outline:2px solid #fc0}\n.OrganicTitle{margin:0}.OrganicTitle-LinkText\
+        \ .Rub{display:inline-block;margin-bottom:-1px}.OrganicTitle-Link_wrap .OrganicTitle-LinkText{display:inline}\n\
+        .Path{display:inline-block;white-space:nowrap}.Path-Item{-webkit-font-smoothing:antialiased}.Path-Separator{margin:0\
+        \ .3em;font-family:Verdana;line-height:1;-webkit-font-smoothing:auto}.Path-Item\
+        \ .Favicon{position:relative;left:0;display:inline-block;margin-top:-2px;padding-right:5px}.Path{color:#006000}\n\
+        .Favicon{position:absolute;left:-22px}\n.Favicon{top:3px}.Favicon_rounded\
+        \ .Favicon-Icon{border-radius:50%}\n.Extralinks{display:inline-block}.Extralinks-Popup{padding:4px\
+        \ 0}\n.Extralinks{width:11px;height:12px;margin-left:2px;cursor:pointer;vertical-align:middle;opacity:.5;background:50%\
+        \ 50% no-repeat url(//yastatic.net/s3/web4static/_/v2/static/media/extralinks@desktop.4b0f57ca.svg);transition:opacity\
+        \ .3s}.Extralinks:hover{opacity:1}.Extralinks-Popup{min-width:140px}\n.OrganicTitle{position:relative;padding:0;font-weight:400}.OrganicTitle-Link,.OrganicTitle-LinkText{overflow:hidden;text-overflow:ellipsis}.OrganicTitle-Link{display:inline-block;overflow:hidden;max-width:100%;vertical-align:top;white-space:nowrap}.OrganicTitle-Link_wrap{white-space:normal}\n\
+        .OrganicTitle-Link{margin:-10px -2px -2px -10px;padding:10px 2px 2px 10px}.utilityfocus\
+        \ .OrganicTitle-Link[class]:focus{outline:0}.utilityfocus .OrganicTitle-Link:focus\
+        \ .OrganicTitle-LinkText{outline:2px solid #fc0}\n.FewLines{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden;word-wrap:break-word;overflow-wrap:break-word}.FewLines_lines_2{-webkit-line-clamp:2}.FewLines_lines_3{-webkit-line-clamp:3}.FewLines_lines_4{-webkit-line-clamp:4}.FewLines_lines_5{-webkit-line-clamp:5}.FewLines_lines_6{-webkit-line-clamp:6}.FewLines_lines_7{-webkit-line-clamp:7}.FewLines_lines_8{-webkit-line-clamp:8}.FewLines_lines_9{-webkit-line-clamp:9}\n\
+        .FewLines_lines_2{max-height:34px}.FewLines_lines_3{max-height:51px}.FewLines_lines_4{max-height:68px}.FewLines_lines_5{max-height:85px}.FewLines_lines_6{max-height:102px}.FewLines_lines_7{max-height:119px}.FewLines_lines_8{max-height:136px}.FewLines_lines_9{max-height:153px}\n\
+        .OneLine{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}\n.TextContainer{word-wrap:break-word}\n\
+        .Organic-Path{display:inline-block;overflow:hidden;max-width:93%;font-size:14px;vertical-align:top;text-overflow:ellipsis}.wrapper_thumb-position_right\
+        \ .Organic-Path{max-width:74%}\n.Organic:not(.SerpOrganic) .OrganicTitle{display:block}.Organic:not(.SerpOrganic)\
+        \ .OrganicTitle-Link,.Organic:not(.SerpOrganic) .OrganicTitle-LinkText{overflow:visible;white-space:normal}.Organic:not(.SerpOrganic)\
+        \ .Organic-Subtitle{font-size:14px}.Organic:not(.SerpOrganic) .Organic-Subtitle+.Organic-ContentWrapper{margin-top:2px}\n\
+        .PriceValue{white-space:nowrap}.PriceValue span+span{margin-left:.2em}\n@font-face{font-family:Rouble;src:url(//yastatic.net/s3/web4static/_/v2/nJixwm0OqgASX6inTUjwSLGebcg.woff);font-weight:400}@font-face{font-family:Rouble;src:url(//yastatic.net/s3/web4static/_/v2/mmVxPz3_7qdQcYIdFbQYarPBLCw.woff);font-weight:700}.Rub[class]{display:inline-block;margin-bottom:-1px;margin-left:0;font-family:Rouble,Arial,Helvetica,sans-serif}\n\
+        .Price-OldValue{margin-left:6px;line-height:1em;text-decoration:line-through;color:#999}\n\
+        .Price_theme_bold{font-weight:700}.Price_theme_bold .Price-OldValue{font-weight:400}\n\
+        </style><script nonce=6341>Ya.Rum.sendRaf(85)</script><li class=serp-item\
+        \ data-fast=1 data-cid=\"0\" data-log-node=mgm42y data-first-snippet><div\
+        \ class=\"Organic Organic_type_legacy organic\"><h2 class=\"OrganicTitle Typo\
+        \ Typo_text_l Typo_line_m organic__title-wrapper\"><a class=\"Link Link_theme_normal\
+        \ OrganicTitle-Link OrganicTitle-Link_wrap organic__url link\" tabindex=\"\
+        0\" target=\"_blank\" data-counter=\"[&quot;b&quot;]\" data-log-node=\"mgm4w000\"\
+        \ href=\"https://en.wiktionary.org/wiki/hello\"><div class=\"Favicon Favicon_size_m\"\
+        ><div class=\"Favicon-Icon Favicon-Page1\" style=\"background-position-y:0;width:16px;height:16px\"\
+        ></div></div><div class=\"OrganicTitle-LinkText organic__url-text\"><b>hello</b>\
+        \ - Wiktionary</div></a></h2><div class=\"Organic-Subtitle organic__subtitle\"\
+        ><div class=\"Path Organic-Path path organic__path\"><a class=\"Link Link_theme_outer\
+        \ Path-Item link path__item\" tabindex=\"0\" data-counter=\"[&quot;b&quot;]\"\
+        \ data-log-node=\"mgm4w002\" href=\"https://en.wiktionary.org/wiki/hello\"\
+        \ target=\"_blank\"><b>en.wiktionary.org</b><span class=\"Path-Separator\"\
+        \ aria-hidden=\"true\">\u203A</span>wiki/hello</a></div><div class=\"VanillaReact\
+        \ Extralinks Extralinks_id_mgm4w003 Organic-Extralinks\" data-vnl=\"{&quot;items&quot;:[{&quot;url&quot;:&quot;https://yandexwebcache.net/yandbtm?lang=en&amp;fmode=inject&amp;tm=1620686514&amp;tld=com&amp;la=1618742400&amp;text=Hello&amp;url=https%3A%2F%2Fen.wiktionary.org%2Fwiki%2Fhello&amp;l10n=en&amp;mime=html&amp;sign=9d3d902cec2ec4f79248c3ee23c659dd&amp;keyno=0&quot;,&quot;counter&quot;:{&quot;logNodeData&quot;:{&quot;name&quot;:&quot;safedcopy&quot;}},&quot;variant&quot;:&quot;copy&quot;},{&quot;url&quot;:&quot;/search/?text=site%3Aen.wiktionary.org%20Hello&amp;lr=20742&amp;noreask=1&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;counter&quot;:{&quot;redir&quot;:false,&quot;token&quot;:&quot;sitemore&quot;},&quot;variant&quot;:&quot;more&quot;},{&quot;counter&quot;:{&quot;logNodeData&quot;:{&quot;name&quot;:&quot;abuse&quot;,&quot;attrs&quot;:{&quot;behaviour&quot;:{&quot;type&quot;:&quot;dynamic&quot;}}}},&quot;variant&quot;:&quot;feedback&quot;,&quot;feedback&quot;:{&quot;counter&quot;:[&quot;80.22.3557.1436.1030&quot;]},&quot;uniqId&quot;:&quot;mgm4w003&quot;}]}\"\
+        \ data-log-node=\"mgm4w003\" data-counter=\"[&quot;b&quot;]\"></div></div><div\
+        \ class=\"TextContainer Organic-ContentWrapper text-container Typo Typo_text_m\
+        \ Typo_line_m\"><b>Hello</b> (first attested in 1826), from holla, hollo (attested\
+        \ 1588). This variant of hallo is often credited to Thomas Edison as a coinage\
+        \ for telephone use, but its appearance in print predates the invention of\
+        \ the telephone by several decades.</div></div><script nonce=6341 data-type=force-paint>(document.querySelector(\"\
+        .serp-item\")||{}).offsetHeight</script><style nonce=6341 data-stylesheet=progressive>.organic{position:relative}.organic__last-seen_middledot{float:left;margin-right:4px}.organic__subtitle_overflow_yes{overflow:hidden;height:18px}.direct-label{display:inline-block;align-self:center;width:59px;min-width:59px;height:15px;margin-left:12px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;background-repeat:no-repeat;background-size:59px\
+        \ 15px}.direct-label_align_left{margin-right:12px;margin-left:0}.clearfix:after{display:block;clear:both;height:0;content:''}.organic__title-wrapper{margin:0;padding:0;font-weight:400}.organic__title-wrapper{position:relative}.organic__path{display:inline-block;overflow:hidden;max-width:100%;vertical-align:top;text-overflow:ellipsis}.organic__path{max-width:93%}.path{display:inline-block;white-space:nowrap;color:#006000}.path_ellipsis{display:block;overflow:hidden;text-overflow:ellipsis}.path__item{outline:0}.path,.path__item{-webkit-font-smoothing:antialiased}.path__separator{margin:0\
+        \ .3em;font-family:Verdana;line-height:1;-webkit-font-smoothing:auto}.path__item\
+        \ .favicon{position:relative;left:0;display:inline-block;margin-top:-2px;padding-right:5px}.organic__subtitle{position:relative}.organic__subtitle+.organic__content-wrapper{margin-top:2px}.organic__subtitle{font-size:14px;line-height:17px}.wrapper_thumb-position_right[class]\
+        \ .OrganicTitle-Link{max-width:79%;white-space:nowrap}.organic_title-type_supertitle[class]\
+        \ .OrganicTitle-Link{margin-bottom:2px}.organic__title-wrapper_hint-wrap[class]\
+        \ .OrganicTitle-Link{display:inline;white-space:normal}.organic__title-wrapper_one-line[class]\
+        \ .Favicon{left:8px}.main__result-wrapper[class] .OrganicTitle-Link .Favicon-Icon{position:relative;top:4px}.Link_theme_ghost{color:#999}\n\
+        .Icon{display:inline-block;background-repeat:no-repeat;background-position:50%}.Icon::after{visibility:hidden;content:'\\\
+        A0'}\n.Link_theme_ghost:hover{color:#d00}.utilityfocus .Link_theme_ghost:focus{outline:2px\
+        \ solid #fc0}\n.Icon_hasGlyph{position:relative}.Icon_hasGlyph svg{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}.Icon_hasGlyph\
+        \ svg,.Icon_hasGlyph svg *{fill:currentColor}\n.Cut{-webkit-hyphens:manual;-ms-hyphens:manual;hyphens:manual}.Cut-Invisible{display:none}.Cut-Invisible:focus{outline:0}.Cut-Ellipsis{white-space:normal}.Cut_open\
+        \ .Cut-Invisible{display:inline}.Cut_open .Cut-More{display:none}.Cut_clickableContent{cursor:pointer}\n\
+        .Icon_type_cross{background-image:url(//yastatic.net/s3/web4static/_/v2/static/media/cross-m.2a4093c5.svg)}.Icon_size_s.Icon_type_cross,.Icon_size_xs.Icon_type_cross{background-image:url(//yastatic.net/s3/web4static/_/v2/static/media/cross-s.b24eae07.svg)}\n\
+        .ExtendedText-Full,.ExtendedText-Control,.ExtendedText-Control:checked~.ExtendedText-Short{display:none}.ExtendedText-Control:checked~.ExtendedText-Full{display:inline}.ExtendedText-Toggle{white-space:nowrap;pointer-events:auto}.ExtendedText\
+        \ .Link{pointer-events:auto}.ExtendedText{pointer-events:none}.ExtendedText\
+        \ .ExtendedText-Toggle_arrow{position:relative;display:inline-block;padding-right:.6em}\n\
+        .ExtendedText-Toggle_arrow::after,.ExtendedText-Toggle_arrow::before{position:absolute;right:-4px;box-sizing:border-box;width:10px;height:2px;content:'';border-radius:0\
+        \ 2px 2px 0;background:currentColor}.ExtendedText-Toggle_arrow::after{transform:rotate(45deg)\
+        \ scale(.6) translate(8px,8px)}.ExtendedText-Toggle_arrow::before{transform:rotate(-45deg)\
+        \ scale(.6) translate(-12px,12px)}\n.Icon_glyph_type-cross svg{width:14px;height:14px}.Icon_glyph_type-cross.Icon_size_xs\
+        \ svg{width:10px;height:10px}\n.KeyValue .KeyValue-Row+.KeyValue-Row{margin-top:5px}.KeyValue_noGap\
+        \ .KeyValue-Row+.KeyValue-Row{margin-top:0}\n.KeyValue_layout_toc .KeyValue-Row{display:flex;justify-content:space-between;width:100%}.KeyValue_layout_toc\
+        \ .KeyValue-ItemTitle{float:left;overflow-x:hidden;max-width:90%;white-space:nowrap;text-overflow:ellipsis}.KeyValue_layout_toc\
+        \ .KeyValue-ItemValue{float:right}.KeyValue_layout_toc .KeyValue-ItemValueWrapper{flex-grow:1}.KeyValue_layout_toc\
+        \ .KeyValue-ItemValueWrapper::after{position:relative;bottom:5px;display:block;overflow:hidden;content:'\\\
+        A0';border-bottom:1px dotted rgba(0,0,0,.1)}\n.KeyValue_layout_default .KeyValue-ItemTitle{font-weight:700;line-height:1}.KeyValue_layout_default\
+        \ .KeyValue-ItemTitle::after{content:': '}.KeyValue_layout_default .KeyValue-ItemTitle,.KeyValue_layout_default\
+        \ .KeyValue-ItemValueWrapper,.KeyValue_layout_default .KeyValue-ItemValue{display:inline}\n\
+        .KeyValue_layout_vertical .KeyValue-Row{margin-bottom:12px}.KeyValue_layout_vertical\
+        \ .KeyValue-Row+.KeyValue-Row{margin-top:0}.KeyValue_layout_vertical .KeyValue-ItemTitle{font-weight:700}\n\
+        .KeyValue_layout_inline{display:inline}.KeyValue_layout_inline .KeyValue-ItemTitle{font-weight:700;line-height:1;white-space:nowrap}.KeyValue_layout_inline\
+        \ .KeyValue-ItemTitle::after{content:': '}.KeyValue_layout_inline .KeyValue-ItemTitle,.KeyValue_layout_inline\
+        \ .KeyValue-ItemValueWrapper,.KeyValue_layout_inline .KeyValue-ItemValue{display:inline}.KeyValue_layout_inline\
+        \ .KeyValue-Row{display:inline}.KeyValue_layout_inline .KeyValue-Row:not(:last-child){margin-right:.5em}.KeyValue_layout_inline\
+        \ .KeyValue-Row::after{content:' '}\n.KeyValue_columns_two{-webkit-column-count:2;column-count:2}.KeyValue_columns_two.KeyValue_columnsSize_s{-webkit-column-width:260px;column-width:260px}.KeyValue_columns_two.KeyValue_columnsSize_m{-webkit-column-width:317px;column-width:317px}.KeyValue_columns_two\
+        \ .KeyValue-Row{display:inline-block;width:100%;-webkit-column-break-inside:avoid;break-inside:avoid;page-break-inside:avoid}\n\
+        .Paragraph+.Paragraph{margin-top:4px}\n.Icon_type_crossBold12Black{width:16px;height:16px;background-image:url(//yastatic.net/s3/web4static/_/v2/static/media/CrossBold_12_black.7f37c25c.svg)}\n\
+        .Icon_type_check16Black{width:16px;height:16px;background-image:url(//yastatic.net/s3/web4static/_/v2/static/media/Check_16_black.b9fd1b4f.svg)}\n\
+        .Icon_type_meal12Black{width:16px;height:16px;background-image:url(//yastatic.net/s3/web4static/_/v2/static/media/Meal_12_black.65553f96.svg)}\n\
+        .TextWithIcon-Icon.TextWithIcon-Icon_align_left[class]{margin-right:.25em}\n\
+        .TextWithIcon-Icon_source_url{width:16px;background-size:contain}span.TextWithIcon\
+        \ .TextWithIcon-Icon.Icon::after{content:unset}\n.Icon_type_warningInline{width:12px;height:12px;vertical-align:baseline;background-image:url(//yastatic.net/s3/web4static/_/v2/static/media/ErrorFilled_16_grey-text.c4d5e4d7.svg);background-size:12px\
+        \ 12px}span.TextWithIcon:hover .Icon_type_warningInline{background-image:url(//yastatic.net/s3/web4static/_/v2/static/media/ErrorFilled_16_red-hover.d5166c2d.svg)}\n\
+        .Icon_type_settings12White{width:12px;background-image:url(//yastatic.net/s3/web4static/_/v2/static/media/Settings_12_white.d5feb5d7.svg);background-position:0\
+        \ 0}\n.TextWithIcon-Icon.TextWithIcon-Icon_align_right[class]{margin-left:.25em}\n\
+        .Warning{position:relative;display:inline-block;padding:3px 12px 4px;color:rgba(0,0,0,.45);border:1px\
+        \ solid #f6f5f2;background:#f6f5f2}.Warning_overflow{cursor:pointer}.Warning-Item{margin:0\
+        \ 3px}.Warning-Item:first-child{margin-left:0}.Warning-Item:last-child{margin-right:0}.Warning-Item+.Warning-Item::before{margin-right:5px;content:'\\\
+        2022'}.Warning.Warning_expanded .Warning-Text_short,.Warning.Warning_overflow:not(.Warning_expanded)\
+        \ .Warning-Text_full{display:none}.Warning_size_m{padding:2px 15px;font-size:12px;line-height:14px}.Warning_size_s{padding:0\
+        \ 3px 1px;font-size:9px;line-height:11px}.Warning_offsetTop_small{margin-top:5px}.Warning_padding_small[class]{padding-top:3px;padding-bottom:3px}.Warning_padding_medium{padding-top:7px;padding-bottom:7px}.Warning_limitWidth_low{width:53%}.Warning_limitWidth_medium{width:87%}.Warning_align_center{text-align:center}.Warning_align_left{text-align:left}.Warning_display_block{display:block}.Warning_display_inline{position:relative;top:-1px;display:inline-block}.Warning_display_inline-block{display:inline-block}.Warning_flex{display:table;box-sizing:border-box;border:0}.Warning_flex\
+        \ .Warning-Item{display:table-cell;text-align:center;vertical-align:middle}.Warning_flex\
+        \ .Warning-Wrapper{display:table-cell;text-align:center;vertical-align:middle}.Warning_flex\
+        \ .Warning-Wrapper .Warning-Item{display:inline}.TextContainer .Warning-PaddingLeft{display:inline-block;width:16px}.OrganicText\
+        \ *+.Warning-PaddingLeft{display:inline-block;width:10px}\n.Warning_size_s{padding:1px\
+        \ 3px;line-height:normal}.Warning_size_m{padding:3px 12px 4px}.Warning_offsetTop_small[class]{margin-top:4px}.Warning_offsetTop_big[class]{margin-top:16px}.Warning_limitWidth_medium{width:88%}.Warning_type_med-bno,.Warning_type_med-2bno,.Warning_type_guarantee{width:100%}\n\
+        .TextContainer_align_center{text-align:center}\n.TextContainer_align_right{text-align:right}\n\
+        .TextContainer_bottomMargin_xs{margin-bottom:4px}\n.TextContainer_bottomMargin_m{margin-bottom:12px}\n\
+        .TextContainer_bottomMargin_l{margin-bottom:16px}\n.TextContainer_color_black{color:#333}\n\
+        .TextContainer__green{color:#006000}\n.TextContainer_color_link{color:navy}\n\
+        .TextContainer_color_muted{color:#999}\n.TextContainer_color_white{color:#fff}\n\
+        .TextContainer_topMargin_xs{margin-top:4px}\n.TextContainer_topMargin_m{margin-top:12px}\n\
+        .TextContainer_topMargin_l{margin-top:16px}\n.TextContainer_ellipsis{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}\n\
+        .TextContainer_noWrap{white-space:nowrap}\n.LastSeen{color:#999}.LastSeen+.Paragraph,.LastSeen+.paragraph{display:inline}.LastSeen::after{content:'\
+        \ '}.LastSeen_middledot[class]{float:left;margin-right:4px}.LastSeen_middledot[class]::after{content:'\
+        \ \\B7   '}\n.Price_outdated{position:relative;display:inline-block;color:#999}.Price_outdated::after{position:absolute;top:50%;right:0;left:0;content:'';border-top:1px\
+        \ solid}\n</style><li class=serp-item data-fast=1 data-cid=1 data-log-node=mgm42z><div\
+        \ class=\"organic typo typo_text_m typo_line_s i-bem\" data-bem='{\"organic\"\
+        :{}}'><h2 class=\"organic__title-wrapper typo typo_text_l typo_line_m\" aria-labelledby=uniq6009478><a\
+        \ class=\"Link Link_theme_normal OrganicTitle-Link OrganicTitle-Link_wrap\
+        \ Typo Typo_text_l Typo_line_m organic__url link\" tabindex=\"0\" target=\"\
+        _blank\" data-counter=\"[&quot;b&quot;]\" data-log-node=\"mgm4w010\" href=\"\
+        https://habr.com/ru/company/englishdom/blog/529116/\"><div class=\"Favicon\
+        \ Favicon_size_m favicon\"><div class=\"Favicon-Icon Favicon-Page1\" style=\"\
+        background-position-y:-16px;width:16px;height:16px\"></div></div><div class=\"\
+        OrganicTitle-LinkText organic__url-text\" id=\"uniq6009478\">\u041F\u043E\u0447\
+        \u0435\u043C\u0443 \u043C\u044B \u0433\u043E\u0432\u043E\u0440\u0438\u043C\
+        \ <b>hello</b> \u0438 hi: \u0438\u0441\u0442\u043E\u0440\u0438\u044F \u0430\
+        \u043D\u0433\u043B\u0438\u0439\u0441\u043A\u0438\u0445... / \u0425\u0430\u0431\
+        \u0440</div></a></h2><div class=\"organic__subtitle typo typo_type_greenurl\"\
+        ><div class=\"path organic__path\" data-log-node=mgm430><a class=\"link link_theme_outer\
+        \ path__item i-bem\" data-bem='{\"link\":{}}' rel=\"\" data-log-node=mgm431\
+        \ tabindex=\"0\" target=_blank href=\"https://habr.com/ru/company/englishdom/blog/529116/\"\
+        \ data-counter=\"[&quot;b&quot;]\"><b>habr.com</b><span class=path__separator\
+        \ aria-label=\" \">\u203A</span>ru/company/englishdom/blog/529116/</a></div><div\
+        \ class=\"VanillaReact Extralinks Extralinks_id_mgm4w020 Organic-Extralinks\"\
+        \ data-vnl=\"{&quot;items&quot;:[{&quot;variant&quot;:&quot;translate&quot;,&quot;url&quot;:&quot;//translate.yandex.com/translate?srv=yasearch&amp;url=https%3A%2F%2Fhabr.com%2Fru%2Fcompany%2Fenglishdom%2Fblog%2F529116%2F&amp;lang=rus-eng&amp;ui=eng&quot;,&quot;counter&quot;:{&quot;token&quot;:&quot;translation&quot;}},{&quot;url&quot;:&quot;https://yandexwebcache.net/yandbtm?lang=ru&amp;fmode=inject&amp;tm=1620686514&amp;tld=com&amp;la=1620216832&amp;text=Hello&amp;url=https%3A%2F%2Fhabr.com%2Fru%2Fcompany%2Fenglishdom%2Fblog%2F529116%2F&amp;l10n=en&amp;mime=html&amp;sign=ae3e5088bd5a15fec190c712911befb7&amp;keyno=0&quot;,&quot;counter&quot;:{&quot;logNodeData&quot;:{&quot;name&quot;:&quot;safedcopy&quot;}},&quot;variant&quot;:&quot;copy&quot;},{&quot;url&quot;:&quot;/search/?text=site%3Ahabr.com%20Hello&amp;lr=20742&amp;noreask=1&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;counter&quot;:{&quot;redir&quot;:false,&quot;token&quot;:&quot;sitemore&quot;},&quot;variant&quot;:&quot;more&quot;},{&quot;counter&quot;:{&quot;logNodeData&quot;:{&quot;name&quot;:&quot;abuse&quot;,&quot;attrs&quot;:{&quot;behaviour&quot;:{&quot;type&quot;:&quot;dynamic&quot;}}}},&quot;variant&quot;:&quot;feedback&quot;,&quot;feedback&quot;:{&quot;counter&quot;:[&quot;80.22.3557.1436.1030&quot;]},&quot;uniqId&quot;:&quot;mgm4w020&quot;}],&quot;directions&quot;:[&quot;bottom&quot;]}\"\
+        \ data-log-node=\"mgm4w020\" data-counter=\"[&quot;b&quot;]\"></div></div><div\
+        \ class=organic__content-wrapper><div class=\"TextContainer OrganicText organic__text\
+        \ text-container Typo Typo_text_m Typo_line_m\">\xAB<b>Hello</b>\xBB \u043C\
+        \u043E\u0433\u043B\u043E \u0432\u044B\u0433\u043B\u044F\u0434\u0435\u0442\u044C\
+        \ \u0441\u043E\u0432\u0441\u0435\u043C \u043F\u043E-\u0434\u0440\u0443\u0433\
+        \u043E\u043C\u0443. \xAB<b>Hello</b>\xBB \u2014 \u044D\u0442\u043E \u0441\u0430\
+        \u043C\u043E\u0435 \u043F\u043E\u043F\u0443\u043B\u044F\u0440\u043D\u043E\u0435\
+        \_... \u0421\u043B\u043E\u0432\u043E \xAB<b>Hello</b>\xBB \u0440\u0430\u043D\
+        \u0435\u0435 \u0431\u044B\u043B\u043E \u0430\u043C\u0435\u0440\u0438\u043A\
+        \u0430\u043D\u0438\u0437\u043C\u043E\u043C, \u0430 \u0441\u0435\u0439\u0447\
+        \u0430\u0441 \u043E\u043D\u043E \u0442\u0430\u043A \u0436\u0435 \u0440\u0430\
+        \u0441\u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0435\u043D\u043E...</div></div></div><li\
+        \ class=serp-item data-fast=1 data-cid=2 data-log-node=mgm432><div class=\"\
+        organic typo typo_text_m typo_line_s i-bem\" data-bem='{\"organic\":{}}'><h2\
+        \ class=\"organic__title-wrapper typo typo_text_l typo_line_m\" aria-labelledby=uniq6009479><a\
+        \ class=\"Link Link_theme_normal OrganicTitle-Link OrganicTitle-Link_wrap\
+        \ Typo Typo_text_l Typo_line_m organic__url link\" tabindex=\"0\" target=\"\
+        _blank\" data-counter=\"[&quot;b&quot;]\" data-log-node=\"mgm4w040\" href=\"\
+        https://hotplayer.ru/?s=HELLO\"><div class=\"Favicon Favicon_size_m favicon\"\
+        ><div class=\"Favicon-Icon Favicon-Page1\" style=\"background-position-y:-32px;width:16px;height:16px\"\
+        ></div></div><div class=\"OrganicTitle-LinkText organic__url-text\" id=\"\
+        uniq6009479\"><b>Hello</b> \u0441\u043A\u0430\u0447\u0430\u0442\u044C mp3\
+        \ \u0431\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u043E \u0438 \u0441\u043B\
+        \u0443\u0448\u0430\u0442\u044C \u043E\u043D\u043B\u0430\u0439\u043D \u043D\
+        \u0430...</div></a></h2><div class=\"organic__subtitle typo typo_type_greenurl\"\
+        ><div class=\"path organic__path\" data-log-node=mgm433><a class=\"link link_theme_outer\
+        \ path__item i-bem\" data-bem='{\"link\":{}}' rel=\"\" data-log-node=mgm434\
+        \ tabindex=\"0\" target=_blank href=\"https://hotplayer.ru/?s=HELLO\" data-counter=\"\
+        [&quot;b&quot;]\"><b>hotplayer.ru</b><span class=path__separator aria-label=\"\
+        \ \">\u203A</span>?s=HELLO</a></div><div class=\"VanillaReact Extralinks Extralinks_id_mgm4w050\
+        \ Organic-Extralinks\" data-vnl=\"{&quot;items&quot;:[{&quot;variant&quot;:&quot;translate&quot;,&quot;url&quot;:&quot;//translate.yandex.com/translate?srv=yasearch&amp;url=https%3A%2F%2Fhotplayer.ru%2F%3Fs%3DHELLO&amp;lang=rus-eng&amp;ui=eng&quot;,&quot;counter&quot;:{&quot;token&quot;:&quot;translation&quot;}},{&quot;url&quot;:&quot;https://yandexwebcache.net/yandbtm?lang=ru&amp;fmode=inject&amp;tm=1620686514&amp;tld=com&amp;la=1620456320&amp;text=Hello&amp;url=https%3A%2F%2Fhotplayer.ru%2F%3Fs%3DHELLO&amp;l10n=en&amp;mime=html&amp;sign=170ab4eca31566d3ebfa50ff49e162ed&amp;keyno=0&quot;,&quot;counter&quot;:{&quot;logNodeData&quot;:{&quot;name&quot;:&quot;safedcopy&quot;}},&quot;variant&quot;:&quot;copy&quot;},{&quot;url&quot;:&quot;/search/?text=site%3Ahotplayer.ru%20Hello&amp;lr=20742&amp;noreask=1&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;counter&quot;:{&quot;redir&quot;:false,&quot;token&quot;:&quot;sitemore&quot;},&quot;variant&quot;:&quot;more&quot;},{&quot;counter&quot;:{&quot;logNodeData&quot;:{&quot;name&quot;:&quot;abuse&quot;,&quot;attrs&quot;:{&quot;behaviour&quot;:{&quot;type&quot;:&quot;dynamic&quot;}}}},&quot;variant&quot;:&quot;feedback&quot;,&quot;feedback&quot;:{&quot;counter&quot;:[&quot;80.22.3557.1436.1030&quot;]},&quot;uniqId&quot;:&quot;mgm4w050&quot;}],&quot;directions&quot;:[&quot;bottom&quot;]}\"\
+        \ data-log-node=\"mgm4w050\" data-counter=\"[&quot;b&quot;]\"></div></div><div\
+        \ class=organic__content-wrapper><div class=\"TextContainer OrganicText organic__text\
+        \ text-container Typo Typo_text_m Typo_line_m\">\u0421\u043B\u0443\u0448\u0430\
+        \u0439\u0442\u0435 \u0438 \u0441\u043A\u0430\u0447\u0438\u0432\u0430\u0439\
+        \u0442\u0435 <b>hello</b> \u0431\u0435\u0441\u043F\u043B\u0430\u0442\u043D\
+        \u043E \u043D\u0430 \u0425\u043E\u0442\u043F\u043B\u0435\u0435\u0440\u0435\
+        \ \u0432 mp3.</div></div></div><li class=serp-item data-fast=1 data-cid=3\
+        \ data-log-node=mgm435><div class=\"organic typo typo_text_m typo_line_s i-bem\"\
+        \ data-bem='{\"organic\":{}}'><h2 class=\"organic__title-wrapper typo typo_text_l\
+        \ typo_line_m\" aria-labelledby=uniq6009480><a class=\"Link Link_theme_normal\
+        \ OrganicTitle-Link OrganicTitle-Link_wrap Typo Typo_text_l Typo_line_m organic__url\
+        \ link\" tabindex=\"0\" target=\"_blank\" data-counter=\"[&quot;b&quot;]\"\
+        \ data-log-node=\"mgm4w070\" href=\"https://ru.glosbe.com/en/ru/hello\"><div\
+        \ class=\"Favicon Favicon_size_m favicon\"><div class=\"Favicon-Icon Favicon-Page1\"\
+        \ style=\"background-position-y:-48px;width:16px;height:16px\"></div></div><div\
+        \ class=\"OrganicTitle-LinkText organic__url-text\" id=\"uniq6009480\"><b>hello</b>\
+        \ \u043D\u0430 \u0440\u0443\u0441\u0441\u043A\u0438\u0439 - \u0410\u043D\u0433\
+        \u043B\u0438\u0439\u0441\u043A\u0438\u0439-\u0420\u0443\u0441\u0441\u043A\u0438\
+        \u0439 | Glosbe</div></a></h2><div class=\"organic__subtitle typo typo_type_greenurl\"\
+        ><div class=\"path organic__path\" data-log-node=mgm436><a class=\"link link_theme_outer\
+        \ path__item i-bem\" data-bem='{\"link\":{}}' rel=\"\" data-log-node=mgm437\
+        \ tabindex=\"0\" target=_blank href=\"https://ru.glosbe.com/en/ru/hello\"\
+        \ data-counter=\"[&quot;b&quot;]\"><b>ru.glosbe.com</b><span class=path__separator\
+        \ aria-label=\" \">\u203A</span>\u0421\u043B\u043E\u0432\u0430\u0440\u044C\
+        \ \u0430\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u0438\u0439<span class=path__separator\
+        \ aria-label=\" \">\u203A</span>\u0420\u0443\u0441\u0441\u043A\u0438\u0439\
+        <span class=path__separator aria-label=\" \">\u203A</span>hello</a></div><div\
+        \ class=\"VanillaReact Extralinks Extralinks_id_mgm4w080 Organic-Extralinks\"\
+        \ data-vnl=\"{&quot;items&quot;:[{&quot;variant&quot;:&quot;translate&quot;,&quot;url&quot;:&quot;//translate.yandex.com/translate?srv=yasearch&amp;url=https%3A%2F%2Fru.glosbe.com%2Fen%2Fru%2Fhello&amp;lang=rus-eng&amp;ui=eng&quot;,&quot;counter&quot;:{&quot;token&quot;:&quot;translation&quot;}},{&quot;url&quot;:&quot;https://yandexwebcache.net/yandbtm?lang=ru&amp;fmode=inject&amp;tm=1620686514&amp;tld=com&amp;la=1620280960&amp;text=Hello&amp;url=https%3A%2F%2Fru.glosbe.com%2Fen%2Fru%2Fhello&amp;l10n=en&amp;mime=html&amp;sign=155efa42ae3b14b8c601279e10b5b9ca&amp;keyno=0&quot;,&quot;counter&quot;:{&quot;logNodeData&quot;:{&quot;name&quot;:&quot;safedcopy&quot;}},&quot;variant&quot;:&quot;copy&quot;},{&quot;url&quot;:&quot;/search/?text=site%3Aru.glosbe.com%20Hello&amp;lr=20742&amp;noreask=1&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;counter&quot;:{&quot;redir&quot;:false,&quot;token&quot;:&quot;sitemore&quot;},&quot;variant&quot;:&quot;more&quot;},{&quot;counter&quot;:{&quot;logNodeData&quot;:{&quot;name&quot;:&quot;abuse&quot;,&quot;attrs&quot;:{&quot;behaviour&quot;:{&quot;type&quot;:&quot;dynamic&quot;}}}},&quot;variant&quot;:&quot;feedback&quot;,&quot;feedback&quot;:{&quot;counter&quot;:[&quot;80.22.3557.1436.1030&quot;]},&quot;uniqId&quot;:&quot;mgm4w080&quot;}],&quot;directions&quot;:[&quot;bottom&quot;]}\"\
+        \ data-log-node=\"mgm4w080\" data-counter=\"[&quot;b&quot;]\"></div></div><div\
+        \ class=organic__content-wrapper><div class=\"TextContainer OrganicText organic__text\
+        \ text-container Typo Typo_text_m Typo_line_m\">\u041F\u0440\u043E\u0432\u0435\
+        \u0440\u044C\u0442\u0435 &#x27;<b>hello</b>&#x27; \u043F\u0435\u0440\u0435\
+        \u0432\u043E\u0434 \u043D\u0430 \u0440\u0443\u0441\u0441\u043A\u0438\u0439\
+        . \u0421\u043C\u043E\u0442\u0440\u0438\u0442\u0435 \u043F\u0440\u0438\u043C\
+        \u0435\u0440\u044B \u043F\u0435\u0440\u0435\u0432\u043E\u0434\u0430 <b>hello</b>\
+        \ \u0432 \u043F\u0440\u0435\u0434\u043B\u043E\u0436\u0435\u043D\u0438\u044F\
+        \u0445, \u0441\u043B\u0443\u0448\u0430\u0439\u0442\u0435 \u043F\u0440\u043E\
+        \u0438\u0437\u043D\u043E\u0448\u0435\u043D\u0438\u0435 \u0438 \u0438\u0437\
+        \u0443\u0447\u0430\u0439\u0442\u0435 \u0433\u0440\u0430\u043C\u043C\u0430\u0442\
+        \u0438\u043A\u0443.</div></div></div><li class=serp-item data-fast=1 data-cid=4\
+        \ data-log-node=mgm438><div class=\"organic typo typo_text_m typo_line_s i-bem\"\
+        \ data-bem='{\"organic\":{}}'><h2 class=\"organic__title-wrapper typo typo_text_l\
+        \ typo_line_m\" aria-labelledby=uniq6009481><a class=\"Link Link_theme_normal\
+        \ OrganicTitle-Link OrganicTitle-Link_wrap Typo Typo_text_l Typo_line_m organic__url\
+        \ link\" tabindex=\"0\" target=\"_blank\" data-counter=\"[&quot;b&quot;]\"\
+        \ data-log-node=\"mgm4w0a0\" href=\"https://WooordHunt.ru/word/hello\"><div\
+        \ class=\"Favicon Favicon_size_m favicon\"><div class=\"Favicon-Icon Favicon-Page1\"\
+        \ style=\"background-position-y:-64px;width:16px;height:16px\"></div></div><div\
+        \ class=\"OrganicTitle-LinkText organic__url-text\" id=\"uniq6009481\"><b>Hello</b>:\
+        \ \u043F\u0435\u0440\u0435\u0432\u043E\u0434, \u043F\u0440\u043E\u0438\u0437\
+        \u043D\u043E\u0448\u0435\u043D\u0438\u0435, \u0442\u0440\u0430\u043D\u0441\
+        \u043A\u0440\u0438\u043F\u0446\u0438\u044F, \u043F\u0440\u0438\u043C\u0435\
+        \u0440\u044B...</div></a></h2><div class=\"organic__subtitle typo typo_type_greenurl\"\
+        ><div class=\"path organic__path\" data-log-node=mgm439><a class=\"link link_theme_outer\
+        \ path__item i-bem\" data-bem='{\"link\":{}}' rel=\"\" data-log-node=mgm43a\
+        \ tabindex=\"0\" target=_blank href=\"https://WooordHunt.ru/word/hello\" data-counter=\"\
+        [&quot;b&quot;]\"><b>WooordHunt.ru</b><span class=path__separator aria-label=\"\
+        \ \">\u203A</span>word/hello</a></div><div class=\"VanillaReact Extralinks\
+        \ Extralinks_id_mgm4w0b0 Organic-Extralinks\" data-vnl=\"{&quot;items&quot;:[{&quot;variant&quot;:&quot;translate&quot;,&quot;url&quot;:&quot;//translate.yandex.com/translate?srv=yasearch&amp;url=https%3A%2F%2FWooordHunt.ru%2Fword%2Fhello&amp;lang=rus-eng&amp;ui=eng&quot;,&quot;counter&quot;:{&quot;token&quot;:&quot;translation&quot;}},{&quot;url&quot;:&quot;https://yandexwebcache.net/yandbtm?lang=ru&amp;fmode=inject&amp;tm=1620686514&amp;tld=com&amp;la=1620441984&amp;text=Hello&amp;url=https%3A%2F%2FWooordHunt.ru%2Fword%2Fhello&amp;l10n=en&amp;mime=html&amp;sign=7010a6416552929f16e6400b75575fd7&amp;keyno=0&quot;,&quot;counter&quot;:{&quot;logNodeData&quot;:{&quot;name&quot;:&quot;safedcopy&quot;}},&quot;variant&quot;:&quot;copy&quot;},{&quot;url&quot;:&quot;/search/?text=site%3AWooordHunt.ru%20Hello&amp;lr=20742&amp;noreask=1&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;counter&quot;:{&quot;redir&quot;:false,&quot;token&quot;:&quot;sitemore&quot;},&quot;variant&quot;:&quot;more&quot;},{&quot;counter&quot;:{&quot;logNodeData&quot;:{&quot;name&quot;:&quot;abuse&quot;,&quot;attrs&quot;:{&quot;behaviour&quot;:{&quot;type&quot;:&quot;dynamic&quot;}}}},&quot;variant&quot;:&quot;feedback&quot;,&quot;feedback&quot;:{&quot;counter&quot;:[&quot;80.22.3557.1436.1030&quot;]},&quot;uniqId&quot;:&quot;mgm4w0b0&quot;}],&quot;directions&quot;:[&quot;bottom&quot;]}\"\
+        \ data-log-node=\"mgm4w0b0\" data-counter=\"[&quot;b&quot;]\"></div></div><div\
+        \ class=organic__content-wrapper><div class=\"TextContainer OrganicText organic__text\
+        \ text-container Typo Typo_text_m Typo_line_m\">\u041F\u0435\u0440\u0435\u0432\
+        \u043E\u0434 \u0441\u043B\u043E\u0432\u0430 <b>hello</b>, \u0430\u043C\u0435\
+        \u0440\u0438\u043A\u0430\u043D\u0441\u043A\u043E\u0435 \u0438 \u0431\u0440\
+        \u0438\u0442\u0430\u043D\u0441\u043A\u043E\u0435 \u043F\u0440\u043E\u0438\u0437\
+        \u043D\u043E\u0448\u0435\u043D\u0438\u0435, \u0442\u0440\u0430\u043D\u0441\
+        \u043A\u0440\u0438\u043F\u0446\u0438\u044F, \u0441\u043B\u043E\u0432\u043E\
+        \u0441\u043E\u0447\u0435\u0442\u0430\u043D\u0438\u044F, \u043E\u0434\u043D\
+        \u043E\u043A\u043E\u0440\u0435\u043D\u043D\u044B\u0435 \u0441\u043B\u043E\u0432\
+        \u0430, \u043F\u0440\u0438\u043C\u0435\u0440\u044B \u0438\u0441\u043F\u043E\
+        \u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F.</div></div></div><li\
+        \ class=serp-item data-fast=1 data-cid=5 data-log-node=mgm43b><div class=\"\
+        organic typo typo_text_m typo_line_s i-bem\" data-bem='{\"organic\":{}}'><h2\
+        \ class=\"organic__title-wrapper typo typo_text_l typo_line_m\" aria-labelledby=uniq6009482><a\
+        \ class=\"Link Link_theme_normal OrganicTitle-Link OrganicTitle-Link_wrap\
+        \ Typo Typo_text_l Typo_line_m organic__url link\" tabindex=\"0\" target=\"\
+        _blank\" data-counter=\"[&quot;b&quot;]\" data-log-node=\"mgm4w0d0\" href=\"\
+        https://en.kartaslov.ru/%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4-%D0%B2-%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B5/hello\"\
+        ><div class=\"Favicon Favicon_size_m favicon\"><div class=\"Favicon-Icon Favicon-Page1\"\
+        \ style=\"background-position-y:-80px;width:16px;height:16px\"></div></div><div\
+        \ class=\"OrganicTitle-LinkText organic__url-text\" id=\"uniq6009482\"><b>HELLO</b>\
+        \ \u2014 \u043F\u0435\u0440\u0435\u0432\u043E\u0434 \u043D\u0430 \u0440\u0443\
+        \u0441\u0441\u043A\u0438\u0439 c \u043F\u0440\u0438\u043C\u0435\u0440\u0430\
+        \u043C\u0438 \u043F\u0440\u0435\u0434\u043B\u043E\u0436\u0435\u043D\u0438\u0439\
+        </div></a></h2><div class=\"organic__subtitle typo typo_type_greenurl\"><div\
+        \ class=\"path organic__path\" data-log-node=mgm43c><a class=\"link link_theme_outer\
+        \ path__item i-bem\" data-bem='{\"link\":{}}' rel=\"\" data-log-node=mgm43d\
+        \ tabindex=\"0\" target=_blank href=\"https://en.kartaslov.ru/%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4-%D0%B2-%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B5/hello\"\
+        \ data-counter=\"[&quot;b&quot;]\"><b>en.kartaslov.ru</b><span class=path__separator\
+        \ aria-label=\" \">\u203A</span>\u043F\u0435\u0440\u0435\u0432\u043E\u0434\
+        -\u0432-\u043A\u043E\u043D\u0442\u0435\u043A\u0441\u0442\u0435/hello</a></div><div\
+        \ class=\"VanillaReact Extralinks Extralinks_id_mgm4w0e0 Organic-Extralinks\"\
+        \ data-vnl=\"{&quot;items&quot;:[{&quot;variant&quot;:&quot;translate&quot;,&quot;url&quot;:&quot;//translate.yandex.com/translate?srv=yasearch&amp;url=https%3A%2F%2Fen.kartaslov.ru%2F%25D0%25BF%25D0%25B5%25D1%2580%25D0%25B5%25D0%25B2%25D0%25BE%25D0%25B4-%25D0%25B2-%25D0%25BA%25D0%25BE%25D0%25BD%25D1%2582%25D0%25B5%25D0%25BA%25D1%2581%25D1%2582%25D0%25B5%2Fhello&amp;lang=rus-eng&amp;ui=eng&quot;,&quot;counter&quot;:{&quot;token&quot;:&quot;translation&quot;}},{&quot;url&quot;:&quot;https://yandexwebcache.net/yandbtm?lang=ru&amp;fmode=inject&amp;tm=1620686514&amp;tld=com&amp;la=1620367744&amp;text=Hello&amp;url=https%3A%2F%2Fen.kartaslov.ru%2F%25D0%25BF%25D0%25B5%25D1%2580%25D0%25B5%25D0%25B2%25D0%25BE%25D0%25B4-%25D0%25B2-%25D0%25BA%25D0%25BE%25D0%25BD%25D1%2582%25D0%25B5%25D0%25BA%25D1%2581%25D1%2582%25D0%25B5%2Fhello&amp;l10n=en&amp;mime=html&amp;sign=7fe7f25ec9ce55b9d76b7c41a1e09b5f&amp;keyno=0&quot;,&quot;counter&quot;:{&quot;logNodeData&quot;:{&quot;name&quot;:&quot;safedcopy&quot;}},&quot;variant&quot;:&quot;copy&quot;},{&quot;url&quot;:&quot;/search/?text=site%3Aen.kartaslov.ru%20Hello&amp;lr=20742&amp;noreask=1&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;counter&quot;:{&quot;redir&quot;:false,&quot;token&quot;:&quot;sitemore&quot;},&quot;variant&quot;:&quot;more&quot;},{&quot;counter&quot;:{&quot;logNodeData&quot;:{&quot;name&quot;:&quot;abuse&quot;,&quot;attrs&quot;:{&quot;behaviour&quot;:{&quot;type&quot;:&quot;dynamic&quot;}}}},&quot;variant&quot;:&quot;feedback&quot;,&quot;feedback&quot;:{&quot;counter&quot;:[&quot;80.22.3557.1436.1030&quot;]},&quot;uniqId&quot;:&quot;mgm4w0e0&quot;}],&quot;directions&quot;:[&quot;bottom&quot;]}\"\
+        \ data-log-node=\"mgm4w0e0\" data-counter=\"[&quot;b&quot;]\"></div></div><div\
+        \ class=organic__content-wrapper><div class=\"TextContainer OrganicText organic__text\
+        \ text-container Typo Typo_text_m Typo_line_m\">\u041F\u0435\u0440\u0435\u0432\
+        \u043E\u0434 <b>HELLO</b> \u043D\u0430 \u0440\u0443\u0441\u0441\u043A\u0438\
+        \u0439: \u043F\u0440\u0438\u0432\u0435\u0442, \u0437\u0434\u0440\u0430\u0432\
+        \u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0430\u043B\u043B\u043E, \u043F\
+        \u043E\u0437\u0434\u043E\u0440\u043E\u0432\u0430\u0442\u044C\u0441\u044F,\
+        \ \u0434\u043E\u0431\u0440\u044B\u0439 \u0434\u0435\u043D\u044C... \u041F\u0435\
+        \u0440\u0435\u0445\u043E\u0434\u0438\u0442\u0435 \u043D\u0430 \u0441\u0430\
+        \u0439\u0442 \u0434\u043B\u044F \u043F\u043E\u043B\u043D\u043E\u0433\u043E\
+        \ \u0441\u043F\u0438\u0441\u043A\u0430 \u043F\u0435\u0440\u0435\u0432\u043E\
+        \u0434\u043E\u0432 \u0441 \u043F\u0440\u0438\u043C\u0435\u0440\u0430\u043C\
+        \u0438 \u043F\u0440\u0435\u0434\u043B\u043E\u0436\u0435\u043D\u0438\u0439\
+        .</div></div></div><li class=serp-item data-fast=1 data-cid=6 data-log-node=mgm43e><div\
+        \ class=\"organic typo typo_text_m typo_line_s i-bem\" data-bem='{\"organic\"\
+        :{}}'><h2 class=\"organic__title-wrapper typo typo_text_l typo_line_m\" aria-labelledby=uniq6009483><a\
+        \ class=\"Link Link_theme_normal OrganicTitle-Link OrganicTitle-Link_wrap\
+        \ Typo Typo_text_l Typo_line_m organic__url link\" tabindex=\"0\" target=\"\
+        _blank\" data-counter=\"[&quot;b&quot;]\" data-log-node=\"mgm4w0g0\" href=\"\
+        https://Englex.ru/ways-to-say-hello-in-english/\"><div class=\"Favicon Favicon_size_m\
+        \ favicon\"><div class=\"Favicon-Icon Favicon-Page1\" style=\"background-position-y:-96px;width:16px;height:16px\"\
+        ></div></div><div class=\"OrganicTitle-LinkText organic__url-text\" id=\"\
+        uniq6009483\">13 \u043F\u0440\u0438\u0432\u0435\u0442\u0441\u0442\u0432\u0438\
+        \u0439 \u0432 \u0430\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u043E\u043C\
+        \ \u044F\u0437\u044B\u043A\u0435</div></a></h2><div class=\"organic__subtitle\
+        \ typo typo_type_greenurl\"><div class=\"path organic__path\" data-log-node=mgm43f><a\
+        \ class=\"link link_theme_outer path__item i-bem\" data-bem='{\"link\":{}}'\
+        \ rel=\"\" data-log-node=mgm43g tabindex=\"0\" target=_blank href=\"https://Englex.ru/ways-to-say-hello-in-english/\"\
+        \ data-counter=\"[&quot;b&quot;]\"><b>Englex.ru</b><span class=path__separator\
+        \ aria-label=\" \">\u203A</span>ways-to-say-hello-in-english/</a></div><div\
+        \ class=\"VanillaReact Extralinks Extralinks_id_mgm4w0h0 Organic-Extralinks\"\
+        \ data-vnl=\"{&quot;items&quot;:[{&quot;variant&quot;:&quot;translate&quot;,&quot;url&quot;:&quot;//translate.yandex.com/translate?srv=yasearch&amp;url=https%3A%2F%2FEnglex.ru%2Fways-to-say-hello-in-english%2F&amp;lang=rus-eng&amp;ui=eng&quot;,&quot;counter&quot;:{&quot;token&quot;:&quot;translation&quot;}},{&quot;url&quot;:&quot;https://yandexwebcache.net/yandbtm?lang=ru&amp;fmode=inject&amp;tm=1620686514&amp;tld=com&amp;la=1620123136&amp;text=Hello&amp;url=https%3A%2F%2FEnglex.ru%2Fways-to-say-hello-in-english%2F&amp;l10n=en&amp;mime=html&amp;sign=741ae3c3f4a6820dd75a2c01d9092e9a&amp;keyno=0&quot;,&quot;counter&quot;:{&quot;logNodeData&quot;:{&quot;name&quot;:&quot;safedcopy&quot;}},&quot;variant&quot;:&quot;copy&quot;},{&quot;url&quot;:&quot;/search/?text=site%3AEnglex.ru%20Hello&amp;lr=20742&amp;noreask=1&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;counter&quot;:{&quot;redir&quot;:false,&quot;token&quot;:&quot;sitemore&quot;},&quot;variant&quot;:&quot;more&quot;},{&quot;counter&quot;:{&quot;logNodeData&quot;:{&quot;name&quot;:&quot;abuse&quot;,&quot;attrs&quot;:{&quot;behaviour&quot;:{&quot;type&quot;:&quot;dynamic&quot;}}}},&quot;variant&quot;:&quot;feedback&quot;,&quot;feedback&quot;:{&quot;counter&quot;:[&quot;80.22.3557.1436.1030&quot;]},&quot;uniqId&quot;:&quot;mgm4w0h0&quot;}],&quot;directions&quot;:[&quot;bottom&quot;]}\"\
+        \ data-log-node=\"mgm4w0h0\" data-counter=\"[&quot;b&quot;]\"></div></div><div\
+        \ class=organic__content-wrapper><div class=\"TextContainer OrganicText organic__text\
+        \ text-container Typo Typo_text_m Typo_line_m\">\u201C<b>Hello</b>, it\u2019\
+        s me,\u201D \u2014 \u043F\u043E\u0435\u0442 \u043D\u0435\u0431\u0435\u0437\
+        \u044B\u0437\u0432\u0435\u0441\u0442\u043D\u0430\u044F \u0410\u0434\u0435\u043B\
+        \u044C. \u0412 \u044D\u0442\u043E\u0439 \u0441\u0442\u0430\u0442\u044C\u0435\
+        \ \u043F\u043E\u043F\u0440\u043E\u0431\u0443\u0435\u043C \u043E\u0442\u0432\
+        \u0435\u0442\u0438\u0442\u044C \u0435\u0439, \u0430 \u0434\u043B\u044F \u044D\
+        \u0442\u043E\u0433\u043E \u0438\u0437\u0443\u0447\u0438\u043C, \u043A\u0430\
+        \u043A \u043C\u043E\u0436\u043D\u043E \u0441\u043A\u0430\u0437\u0430\u0442\
+        \u044C \xAB\u043F\u0440\u0438\u0432\u0435\u0442\xBB \u043F\u043E-\u0430\u043D\
+        \u0433\u043B\u0438\u0439\u0441\u043A\u0438 \u043D\u0435\u0441\u043A\u043E\u043B\
+        \u044C\u043A\u0438\u043C\u0438 \u0440\u0430\u0437\u043D\u044B\u043C\u0438\
+        ...</div></div></div><li class=serp-item data-fast=1 data-cid=7 data-log-node=mgm43h><div\
+        \ class=\"organic typo typo_text_m typo_line_s i-bem\" data-bem='{\"organic\"\
+        :{}}'><h2 class=\"organic__title-wrapper typo typo_text_l typo_line_m\" aria-labelledby=uniq6009484><a\
+        \ class=\"Link Link_theme_normal OrganicTitle-Link OrganicTitle-Link_wrap\
+        \ Typo Typo_text_l Typo_line_m organic__url link\" tabindex=\"0\" target=\"\
+        _blank\" data-counter=\"[&quot;b&quot;]\" data-log-node=\"mgm4w0j0\" href=\"\
+        https://m.translate.ru/dictionary/en-ru/Hello\"><div class=\"Favicon Favicon_size_m\
+        \ favicon\"><div class=\"Favicon-Icon Favicon-Page1\" style=\"background-position-y:-112px;width:16px;height:16px\"\
+        ></div></div><div class=\"OrganicTitle-LinkText organic__url-text\" id=\"\
+        uniq6009484\"><b>hello</b> - \u043F\u0435\u0440\u0435\u0432\u043E\u0434 \u0441\
+        \ \u0430\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u043E\u0433\u043E \u043D\
+        \u0430 \u0440\u0443\u0441\u0441\u043A\u0438\u0439 , \u0442\u0440\u0430\u043D\
+        \u0441\u043A\u0440\u0438\u043F\u0446\u0438\u044F...</div></a></h2><div class=\"\
+        organic__subtitle typo typo_type_greenurl\"><div class=\"path organic__path\"\
+        \ data-log-node=mgm43i><a class=\"link link_theme_outer path__item i-bem\"\
+        \ data-bem='{\"link\":{}}' rel=\"\" data-log-node=mgm43j tabindex=\"0\" target=_blank\
+        \ href=\"https://m.translate.ru/dictionary/en-ru/Hello\" data-counter=\"[&quot;b&quot;]\"\
+        ><b>m.translate.ru</b><span class=path__separator aria-label=\" \">\u203A\
+        </span>dictionary/en-ru/Hello</a></div><div class=\"VanillaReact Extralinks\
+        \ Extralinks_id_mgm4w0k0 Organic-Extralinks\" data-vnl=\"{&quot;items&quot;:[{&quot;variant&quot;:&quot;translate&quot;,&quot;url&quot;:&quot;//translate.yandex.com/translate?srv=yasearch&amp;url=https%3A%2F%2Fm.translate.ru%2Fdictionary%2Fen-ru%2FHello&amp;lang=rus-eng&amp;ui=eng&quot;,&quot;counter&quot;:{&quot;token&quot;:&quot;translation&quot;}},{&quot;url&quot;:&quot;https://yandexwebcache.net/yandbtm?lang=ru&amp;fmode=inject&amp;tm=1620686514&amp;tld=com&amp;la=1620455680&amp;text=Hello&amp;url=https%3A%2F%2Fm.translate.ru%2Fdictionary%2Fen-ru%2FHello&amp;l10n=en&amp;mime=html&amp;sign=6c4583b2c6f3efc96eb4f85b044a2513&amp;keyno=0&quot;,&quot;counter&quot;:{&quot;logNodeData&quot;:{&quot;name&quot;:&quot;safedcopy&quot;}},&quot;variant&quot;:&quot;copy&quot;},{&quot;url&quot;:&quot;/search/?text=site%3Am.translate.ru%20Hello&amp;lr=20742&amp;noreask=1&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;counter&quot;:{&quot;redir&quot;:false,&quot;token&quot;:&quot;sitemore&quot;},&quot;variant&quot;:&quot;more&quot;},{&quot;counter&quot;:{&quot;logNodeData&quot;:{&quot;name&quot;:&quot;abuse&quot;,&quot;attrs&quot;:{&quot;behaviour&quot;:{&quot;type&quot;:&quot;dynamic&quot;}}}},&quot;variant&quot;:&quot;feedback&quot;,&quot;feedback&quot;:{&quot;counter&quot;:[&quot;80.22.3557.1436.1030&quot;]},&quot;uniqId&quot;:&quot;mgm4w0k0&quot;}],&quot;directions&quot;:[&quot;bottom&quot;]}\"\
+        \ data-log-node=\"mgm4w0k0\" data-counter=\"[&quot;b&quot;]\"></div></div><div\
+        \ class=organic__content-wrapper><div class=\"TextContainer OrganicText organic__text\
+        \ text-container Typo Typo_text_m Typo_line_m\"><b>hello</b> [\u02C8he\u02C8\
+        l\u0259u], \u041D\u0430\u0440\u0435\u0447\u0438\u0435 , \u043F\u0440\u0438\
+        \u0432\u0435\u0442 , \u0437\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\
+        \u0439\u0442\u0435 , \u0445\u0435\u043B\u043B\u043E , \u0445\u044D\u043B\u043B\
+        \u043E. \u0421\u043B\u043E\u0432\u043E\u0441\u043E\u0447\u0435\u0442\u0430\
+        \u043D\u0438\u044F. \u041A\u043E\u043D\u0442\u0435\u043A\u0441\u0442\u044B\
+        .</div></div></div><li class=serp-item data-fast=1 data-cid=8 data-log-node=mgm43k><div\
+        \ class=\"organic typo typo_text_m typo_line_s i-bem\" data-bem='{\"organic\"\
+        :{}}'><h2 class=\"organic__title-wrapper typo typo_text_l typo_line_m\" aria-labelledby=uniq6009485><a\
+        \ class=\"Link Link_theme_normal OrganicTitle-Link OrganicTitle-Link_wrap\
+        \ Typo Typo_text_l Typo_line_m organic__url link\" tabindex=\"0\" target=\"\
+        _blank\" data-counter=\"[&quot;b&quot;]\" data-log-node=\"mgm4w0m0\" href=\"\
+        https://hello-russia.ru/projects/\"><div class=\"Favicon Favicon_size_m favicon\"\
+        ><div class=\"Favicon-Icon Favicon-Page1\" style=\"background-position-y:-128px;width:16px;height:16px\"\
+        ></div></div><div class=\"OrganicTitle-LinkText organic__url-text\" id=\"\
+        uniq6009485\">\u041F\u0440\u043E\u0435\u043A\u0442\u044B - <b>Hello</b> Russia</div></a></h2><div\
+        \ class=\"organic__subtitle typo typo_type_greenurl\"><div class=\"path organic__path\"\
+        \ data-log-node=mgm43l><a class=\"link link_theme_outer path__item i-bem\"\
+        \ data-bem='{\"link\":{}}' rel=\"\" data-log-node=mgm43m tabindex=\"0\" target=_blank\
+        \ href=\"https://hello-russia.ru/projects/\" data-counter=\"[&quot;b&quot;]\"\
+        ><b>hello-russia.ru</b><span class=path__separator aria-label=\" \">\u203A\
+        </span>projects/</a></div><div class=\"VanillaReact Extralinks Extralinks_id_mgm4w0n0\
+        \ Organic-Extralinks\" data-vnl=\"{&quot;items&quot;:[{&quot;variant&quot;:&quot;translate&quot;,&quot;url&quot;:&quot;//translate.yandex.com/translate?srv=yasearch&amp;url=https%3A%2F%2Fhello-russia.ru%2Fprojects%2F&amp;lang=rus-eng&amp;ui=eng&quot;,&quot;counter&quot;:{&quot;token&quot;:&quot;translation&quot;}},{&quot;url&quot;:&quot;https://yandexwebcache.net/yandbtm?lang=ru&amp;fmode=inject&amp;tm=1620686514&amp;tld=com&amp;la=1619224960&amp;text=Hello&amp;url=https%3A%2F%2Fhello-russia.ru%2Fprojects%2F&amp;l10n=en&amp;mime=html&amp;sign=3ff2eb3930113d530529048c9dfc58ac&amp;keyno=0&quot;,&quot;counter&quot;:{&quot;logNodeData&quot;:{&quot;name&quot;:&quot;safedcopy&quot;}},&quot;variant&quot;:&quot;copy&quot;},{&quot;url&quot;:&quot;/search/?text=site%3Ahello-russia.ru%20Hello&amp;lr=20742&amp;noreask=1&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;counter&quot;:{&quot;redir&quot;:false,&quot;token&quot;:&quot;sitemore&quot;},&quot;variant&quot;:&quot;more&quot;},{&quot;counter&quot;:{&quot;logNodeData&quot;:{&quot;name&quot;:&quot;abuse&quot;,&quot;attrs&quot;:{&quot;behaviour&quot;:{&quot;type&quot;:&quot;dynamic&quot;}}}},&quot;variant&quot;:&quot;feedback&quot;,&quot;feedback&quot;:{&quot;counter&quot;:[&quot;80.22.3557.1436.1030&quot;]},&quot;uniqId&quot;:&quot;mgm4w0n0&quot;}],&quot;directions&quot;:[&quot;bottom&quot;]}\"\
+        \ data-log-node=\"mgm4w0n0\" data-counter=\"[&quot;b&quot;]\"></div></div><div\
+        \ class=organic__content-wrapper><div class=\"TextContainer OrganicText organic__text\
+        \ text-container Typo Typo_text_m Typo_line_m\">\xA92016-2020 <b>Hello</b>\
+        \ Russia. \u0427\u0442\u043E\u0431\u044B \u043F\u043E\u043B\u0443\u0447\u0430\
+        \u0442\u044C \u043D\u0430\u0448\u0438 \u0430\u043D\u043E\u043D\u0441\u044B\
+        \ \u0438 \u043F\u0440\u0435\u0434\u043B\u043E\u0436\u0435\u043D\u0438\u044F\
+        , \u0432\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0444\u043E\u0440\u043C\
+        \u0443 \u043F\u043E\u0434\u043F\u0438\u0441\u043A\u0438. \u041C\u044B \u043D\
+        \u0435 \u0440\u0430\u0441\u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u044F\
+        \u0435\u043C \u0438 \u043D\u0435 \u043F\u043E\u043B\u0443\u0447\u0430\u0435\
+        \u043C \u0432\u0430\u0448\u0438 \u043B\u0438\u0447\u043D\u044B\u0435 \u0434\
+        \u0430\u043D\u043D\u044B\u0435...</div></div></div><li class=serp-item data-fast=1\
+        \ data-cid=9 data-log-node=mgm43n><div class=\"organic typo typo_text_m typo_line_s\
+        \ i-bem\" data-bem='{\"organic\":{}}'><h2 class=\"organic__title-wrapper typo\
+        \ typo_text_l typo_line_m\" aria-labelledby=uniq6009486><a class=\"Link Link_theme_normal\
+        \ OrganicTitle-Link OrganicTitle-Link_wrap Typo Typo_text_l Typo_line_m organic__url\
+        \ link\" tabindex=\"0\" target=\"_blank\" data-counter=\"[&quot;b&quot;]\"\
+        \ data-log-node=\"mgm4w0p0\" href=\"https://www.babla.ru/%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9/hello\"\
+        ><div class=\"Favicon Favicon_size_m favicon\"><div class=\"Favicon-Icon Favicon-Page1\"\
+        \ style=\"background-position-y:-144px;width:16px;height:16px\"></div></div><div\
+        \ class=\"OrganicTitle-LinkText organic__url-text\" id=\"uniq6009486\"><b>HELLO</b>!\
+        \ - \u041F\u0435\u0440\u0435\u0432\u043E\u0434 \u043D\u0430 \u0440\u0443\u0441\
+        \u0441\u043A\u0438\u0439 - bab.la</div></a></h2><div class=\"organic__subtitle\
+        \ typo typo_type_greenurl\"><div class=\"path organic__path\" data-log-node=mgm43o><a\
+        \ class=\"link link_theme_outer path__item i-bem\" data-bem='{\"link\":{}}'\
+        \ rel=\"\" data-log-node=mgm43p tabindex=\"0\" target=_blank href=\"https://www.babla.ru/%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9/hello\"\
+        \ data-counter=\"[&quot;b&quot;]\"><b>babla.ru</b><span class=path__separator\
+        \ aria-label=\" \">\u203A</span>\u0430\u043D\u0433\u043B\u0438\u0439\u0441\
+        \u043A\u0438\u0439-\u0440\u0443\u0441\u0441\u043A\u0438\u0439/hello</a></div><div\
+        \ class=\"VanillaReact Extralinks Extralinks_id_mgm4w0q0 Organic-Extralinks\"\
+        \ data-vnl=\"{&quot;items&quot;:[{&quot;variant&quot;:&quot;translate&quot;,&quot;url&quot;:&quot;//translate.yandex.com/translate?srv=yasearch&amp;url=https%3A%2F%2Fwww.babla.ru%2F%25D0%25B0%25D0%25BD%25D0%25B3%25D0%25BB%25D0%25B8%25D0%25B9%25D1%2581%25D0%25BA%25D0%25B8%25D0%25B9-%25D1%2580%25D1%2583%25D1%2581%25D1%2581%25D0%25BA%25D0%25B8%25D0%25B9%2Fhello&amp;lang=rus-eng&amp;ui=eng&quot;,&quot;counter&quot;:{&quot;token&quot;:&quot;translation&quot;}},{&quot;url&quot;:&quot;https://yandexwebcache.net/yandbtm?lang=ru&amp;fmode=inject&amp;tm=1620686514&amp;tld=com&amp;la=1618581632&amp;text=Hello&amp;url=https%3A%2F%2Fwww.babla.ru%2F%25D0%25B0%25D0%25BD%25D0%25B3%25D0%25BB%25D0%25B8%25D0%25B9%25D1%2581%25D0%25BA%25D0%25B8%25D0%25B9-%25D1%2580%25D1%2583%25D1%2581%25D1%2581%25D0%25BA%25D0%25B8%25D0%25B9%2Fhello&amp;l10n=en&amp;mime=html&amp;sign=3d914b15b794ac6a0c09d399693014f7&amp;keyno=0&quot;,&quot;counter&quot;:{&quot;logNodeData&quot;:{&quot;name&quot;:&quot;safedcopy&quot;}},&quot;variant&quot;:&quot;copy&quot;},{&quot;url&quot;:&quot;/search/?text=site%3Awww.babla.ru%20Hello&amp;lr=20742&amp;noreask=1&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;counter&quot;:{&quot;redir&quot;:false,&quot;token&quot;:&quot;sitemore&quot;},&quot;variant&quot;:&quot;more&quot;},{&quot;counter&quot;:{&quot;logNodeData&quot;:{&quot;name&quot;:&quot;abuse&quot;,&quot;attrs&quot;:{&quot;behaviour&quot;:{&quot;type&quot;:&quot;dynamic&quot;}}}},&quot;variant&quot;:&quot;feedback&quot;,&quot;feedback&quot;:{&quot;counter&quot;:[&quot;80.22.3557.1436.1030&quot;]},&quot;uniqId&quot;:&quot;mgm4w0q0&quot;}],&quot;directions&quot;:[&quot;bottom&quot;]}\"\
+        \ data-log-node=\"mgm4w0q0\" data-counter=\"[&quot;b&quot;]\"></div></div><div\
+        \ class=organic__content-wrapper><div class=\"TextContainer OrganicText organic__text\
+        \ text-container Typo Typo_text_m Typo_line_m\">\u041F\u0435\u0440\u0435\u0432\
+        \u043E\u0434 &#x27;<b>hello</b>!&#x27; \u0441 \u0430\u043D\u0433\u043B\u0438\
+        \u0439\u0441\u043A\u043E\u0433\u043E \u043D\u0430 \u0440\u0443\u0441\u0441\
+        \u043A\u0438\u0439 \u0438 \u043C\u043D\u043E\u0433\u0438\u0435 \u0434\u0440\
+        \u0443\u0433\u0438\u0435 \u043F\u0435\u0440\u0435\u0432\u043E\u0434\u044B\
+        \ \u0441 \u043F\u043E\u043C\u043E\u0449\u044C\u044E \u0431\u0435\u0441\u043F\
+        \u043B\u0430\u0442\u043D\u043E\u0433\u043E \u043E\u043D\u043B\u0430\u0439\u043D\
+        \ \u0441\u043B\u043E\u0432\u0430\u0440\u044F.</div></div></div></ul><div class=\"\
+        pager-counter i-bem\" data-bem='{\"pager-counter\":{\"counter\":[\"690.405.487\"\
+        ]}}'></div><div class=\"pager i-bem\" data-bem='{\"pager\":{\"id\":\"pager\"\
+        ,\"nextPage\":2,\"prevPage\":0}}' role=navigation aria-label=Pages aria-labelledby=pager__header_id\
+        \ data-log-node=mgm43q><h2 class=\"pager__header a11y-hidden\" id=pager__header_id>\u0421\
+        \u0442\u0440\u0430\u043D\u0438\u0446\u044B \u0440\u0435\u0437\u0443\u043B\u044C\
+        \u0442\u0430\u0442\u043E\u0432 \u043F\u043E\u0438\u0441\u043A\u0430</h2><div\
+        \ class=pager__items role=list><a class=\"link link_theme_none link_target_serp\
+        \ pager__item pager__item_kind_page i-bem\" data-bem='{\"link\":{}}' aria-label=\"\
+        \u0421\u0442\u0440\u0430\u043D\u0438\u0446\u0430 1\" data-log-node=mgm43r\
+        \ tabindex=0 href=\"/search/?text=Hello&amp;p=0&amp;lr=20742\" data-counter=\"\
+        [&quot;b&quot;]\">1</a><span class=\"pager__item pager__item_current_yes pager__item_kind_page\"\
+        \ aria-label=\"\u0422\u0435\u043A\u0443\u0449\u0430\u044F \u0441\u0442\u0440\
+        \u0430\u043D\u0438\u0446\u0430 2\">2</span><a class=\"link link_theme_none\
+        \ link_target_serp pager__item pager__item_kind_page i-bem\" data-bem='{\"\
+        link\":{}}' aria-label=\"\u0421\u0442\u0440\u0430\u043D\u0438\u0446\u0430\
+        \ 3\" data-log-node=mgm43s tabindex=0 href=\"/search/?text=Hello&amp;p=2&amp;lr=20742\"\
+        \ data-counter=\"[&quot;b&quot;]\">3</a><a class=\"link link_theme_none link_target_serp\
+        \ pager__item pager__item_kind_page i-bem\" data-bem='{\"link\":{}}' aria-label=\"\
+        \u0421\u0442\u0440\u0430\u043D\u0438\u0446\u0430 4\" data-log-node=mgm43t\
+        \ tabindex=0 href=\"/search/?text=Hello&amp;p=3&amp;lr=20742\" data-counter=\"\
+        [&quot;b&quot;]\">4</a><a class=\"link link_theme_none link_target_serp pager__item\
+        \ pager__item_kind_page i-bem\" data-bem='{\"link\":{}}' aria-label=\"\u0421\
+        \u0442\u0440\u0430\u043D\u0438\u0446\u0430 5\" data-log-node=mgm43u tabindex=0\
+        \ href=\"/search/?text=Hello&amp;p=4&amp;lr=20742\" data-counter=\"[&quot;b&quot;]\"\
+        >5</a><a class=\"link link_theme_none link_target_serp pager__item pager__item_kind_next\
+        \ i-bem\" data-bem='{\"link\":{}}' aria-label=\"\u0421\u043B\u0435\u0434\u0443\
+        \u044E\u0449\u0430\u044F \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0430\"\
+        \ data-log-node=mgm43v tabindex=0 href=\"/search/?text=Hello&amp;p=2&amp;lr=20742\"\
+        \ data-counter=\"[&quot;b&quot;]\">next</a></div></div></div><div class=\"\
+        content__right content__right_cols_12\" id=search-result-aside data-log-node=mgm43w><div\
+        \ class=\"serp-list serp-list_right_yes\"><div class=serp-adv__found> 12\_\
+        million\_results found</div></div></div><div class=competitors role=region\
+        \ aria-label=\"Try seaching on other search engines\" data-log-node=mgm43x><div\
+        \ class=competitors__list><a class=\"link link_theme_none competitors__link\
+        \ i-bem\" data-bem='{\"link\":{}}' rel=\"noopener noreferrer\" data-log-node=mgm43y\
+        \ target=_blank tabindex=0 href=\"//www.bing.com/search?q=Hello\" data-counter=\"\
+        [&quot;b&quot;]\">Bing</a><a class=\"link link_theme_none competitors__link\
+        \ i-bem\" data-bem='{\"link\":{}}' rel=\"noopener noreferrer\" data-log-node=mgm43z\
+        \ target=_blank tabindex=0 href=\"//www.google.com/search?ie=UTF-8&amp;q=Hello\"\
+        \ data-counter=\"[&quot;b&quot;]\">Google</a></div></div></div><div class=\"\
+        inquire i-bem\" data-bem='{\"inquire\":{\"inquire\":{},\"duwa\":null,\"cag\"\
+        :false,\"dvf\":1,\"tad\":3000}}'></div></div></div><div class=\"serp-user\
+        \ serp-user_hidden_yes serp-user_enter_yes serp main__serp-auth serp-header__user\
+        \ i-bem\" data-bem='{\"serp-user\":{\"uniqId\":\"user-place\"},\"serp\":{\"\
+        uniqId\":\"search\"},\"main__serp-auth\":{}}' data-log-node=mgm440><a class=\"\
+        button2 button2_size_m button2_theme_pseudo button2_type_link button2_view_classic\
+        \ serp-user__registration-button i-bem\" data-bem='{\"button2\":{}}' tabindex=0\
+        \ data-log-node=mgm441 target=_self href=\"https://passport.yandex.com/registration?retpath=https%3A%2F%2Fyandex.com%2Fsearch%2F%3Ftext%3DHello%26p%3D1%26lr%3D20742%26ncrnd%3D76183&amp;origin=serp_desktop_auth_new\"\
+        \ data-counter=\"[&quot;b&quot;]\"><span class=button2__text>Registration</span></a><a\
+        \ class=\"button2 button2_size_m button2_theme_action button2_type_link button2_view_classic\
+        \ serp-user__login-link i-bem\" data-bem='{\"button2\":{}}' tabindex=0 data-log-node=mgm442\
+        \ target=_self href=\"https://passport.yandex.com/auth?retpath=https%3A%2F%2Fyandex.com%2Fsearch%2F%3Ftext%3DHello%26p%3D1%26lr%3D20742%26ncrnd%3D76183&amp;origin=serp_desktop_auth_new\"\
+        \ data-counter=\"[&quot;b&quot;]\"><span class=button2__text><span class=\"\
+        icon icon_type_user button2__text-icon\"></span>Log in</span></a><div class=\"\
+        popup2 popup2_target_anchor popup2_theme_clear popup2_hiding_yes popup2_view_classic\
+        \ promo-popup promo-popup_theme_ffffff promo-popup_shadow_yes promo-popup_type_promo\
+        \ promo-popup_social_yes i-zalogin-cookie serp-user serp-user__promo-popup\
+        \ i-bem\" data-bem='{\"popup2\":{\"mainOffset\":12,\"directions\":[\"bottom-right\"\
+        ]},\"promo-popup\":{\"counters\":{\"show\":[\"690.1861.2452\"],\"close\":[\"\
+        690.1861.2452\"]}},\"i-zalogin-cookie\":{\"lockTime\":7},\"serp-user\":{\"\
+        uniqId\":\"user-place\"},\"serp-user__promo-popup\":{\"index\":1}}' data-log-node=mgm443><div\
+        \ class=\"popup2__content promo-popup__content\"><div class=\"promo-popup__message\
+        \ promo-popup__message_size_l\"><div class=html>Log in for a more personalized\
+        \ search experience</div></div><div class=\"promo-popup__icons promo-popup__icons_hidden_on-first-view\"\
+        ><a class=\"button2 button2_size_l button2_theme_clear button2_type_link button2_view_classic\
+        \ i-bem\" data-bem='{\"button2\":{}}' tabindex=0 data-log-node=mgm444 target=_self\
+        \ href=\"https://passport.yandex.com/auth?retpath=https%3A%2F%2Fyandex.com%2Fsearch%2F%3Ftext%3DHello%26p%3D1%26lr%3D20742%26ncrnd%3D76183&amp;origin=serp_social_popup\"\
+        \ data-counter=\"[&quot;b&quot;]\"><span class=button2__text>Log in</span></a><a\
+        \ class=\"link link_theme_normal promo-popup__social-icon promo-popup__social-icon_type_vk\
+        \ promo-popup__social-icon_bg_vk-white i-bem\" data-bem='{\"link\":{}}' data-log-node=mgm445\
+        \ target=_self tabindex=0 href=\"https://passport.yandex.com/auth/social/start?retpath=https%3A%2F%2Fyandex.com%2Fsearch%2F%3Ftext%3DHello%26p%3D1%26lr%3D20742%26ncrnd%3D76183&amp;origin=serp_social_popup&amp;provider=vk&amp;consumer=serp&amp;display=page&amp;place=fragment\"\
+        \ data-counter=\"[&quot;b&quot;]\"></a><a class=\"link link_theme_normal promo-popup__social-icon\
+        \ promo-popup__social-icon_type_fb promo-popup__social-icon_bg_fb-white i-bem\"\
+        \ data-bem='{\"link\":{}}' data-log-node=mgm446 target=_self tabindex=0 href=\"\
+        https://passport.yandex.com/auth/social/start?retpath=https%3A%2F%2Fyandex.com%2Fsearch%2F%3Ftext%3DHello%26p%3D1%26lr%3D20742%26ncrnd%3D76183&amp;origin=serp_social_popup&amp;provider=fb&amp;consumer=serp&amp;display=page&amp;place=fragment\"\
+        \ data-counter=\"[&quot;b&quot;]\"></a><div class=\"promo-popup__social-icon\
+        \ promo-popup__social-icon_type_show-more-button\"></div><div class=promo-popup__hidden_icons><a\
+        \ class=\"link link_theme_normal promo-popup__social-icon promo-popup__social-icon_type_gg\
+        \ promo-popup__social-icon_bg_gg-white i-bem\" data-bem='{\"link\":{}}' data-log-node=mgm447\
+        \ target=_self tabindex=0 href=\"https://passport.yandex.com/auth/social/start?retpath=https%3A%2F%2Fyandex.com%2Fsearch%2F%3Ftext%3DHello%26p%3D1%26lr%3D20742%26ncrnd%3D76183&amp;origin=serp_social_popup&amp;provider=gg&amp;consumer=serp&amp;display=page&amp;place=fragment\"\
+        \ data-counter=\"[&quot;b&quot;]\"></a><a class=\"link link_theme_normal promo-popup__social-icon\
+        \ promo-popup__social-icon_type_ok promo-popup__social-icon_bg_ok-white i-bem\"\
+        \ data-bem='{\"link\":{}}' data-log-node=mgm448 target=_self tabindex=0 href=\"\
+        https://passport.yandex.com/auth/social/start?retpath=https%3A%2F%2Fyandex.com%2Fsearch%2F%3Ftext%3DHello%26p%3D1%26lr%3D20742%26ncrnd%3D76183&amp;origin=serp_social_popup&amp;provider=ok&amp;consumer=serp&amp;display=page&amp;place=fragment\"\
+        \ data-counter=\"[&quot;b&quot;]\"></a><a class=\"link link_theme_normal promo-popup__social-icon\
+        \ promo-popup__social-icon_type_mr promo-popup__social-icon_bg_mr-white i-bem\"\
+        \ data-bem='{\"link\":{}}' data-log-node=mgm449 target=_self tabindex=0 href=\"\
+        https://passport.yandex.com/auth/social/start?retpath=https%3A%2F%2Fyandex.com%2Fsearch%2F%3Ftext%3DHello%26p%3D1%26lr%3D20742%26ncrnd%3D76183&amp;origin=serp_social_popup&amp;provider=mr&amp;consumer=serp&amp;display=page&amp;place=fragment\"\
+        \ data-counter=\"[&quot;b&quot;]\"></a><a class=\"link link_theme_normal promo-popup__social-icon\
+        \ promo-popup__social-icon_type_tw promo-popup__social-icon_bg_tw-white i-bem\"\
+        \ data-bem='{\"link\":{}}' data-log-node=mgm44a target=_self tabindex=0 href=\"\
+        https://passport.yandex.com/auth/social/start?retpath=https%3A%2F%2Fyandex.com%2Fsearch%2F%3Ftext%3DHello%26p%3D1%26lr%3D20742%26ncrnd%3D76183&amp;origin=serp_social_popup&amp;provider=tw&amp;consumer=serp&amp;display=page&amp;place=fragment\"\
+        \ data-counter=\"[&quot;b&quot;]\"></a></div></div><div class=promo-popup__cross></div></div><div\
+        \ class=\"popup2__tail promo-popup__tail\"></div></div></div><div class=\"\
+        main__distr-popup serp i-bem\" data-bem='{\"serp\":{\"uniqId\":\"search\"\
+        }}'></div><div class=\"main__direct-abuse-modal serp i-bem\" data-bem='{\"\
+        serp\":{\"uniqId\":\"search\"}}'></div></div><div class=\"extra-content serp\
+        \ i-bem\" data-bem='{\"extra-content\":{\"uniqId\":\"extra-content\",\"names\"\
+        :{}},\"serp\":{\"uniqId\":\"search\"}}'></div><div class=\"serp-footer scroll-spy\
+        \ typo typo_text_m typo_line_m serp i-bem\" data-bem='{\"serp-footer\":{},\"\
+        scroll-spy\":{\"visibilityConditions\":{\"area\":0,\"x\":0,\"y\":0.01}},\"\
+        serp\":{\"uniqId\":\"search\"}}' role=contentinfo data-log-node=mgm44b><div\
+        \ class=serp-footer__search-settings><div class=serp-footer__wrapper><span\
+        \ class=\"region-change serp-footer__region\" role=complementary aria-label=\"\
+        Change region\" data-log-node=mgm44c><a class=\"link link_theme_clear region-change__link\
+        \ serp-footer__retpath i-bem\" data-bem='{\"link\":{}}' data-log-node=mgm44d\
+        \ tabindex=0 href=\"//yandex.com/tune/geo?retpath=https%3A%2F%2Fyandex.com%2Fsearch%2F%3Ftext%3DHello%26p%3D1\"\
+        \ data-counter=\"[&quot;b&quot;]\">Abuja</a></span><a class=\"link link_theme_clear\
+        \ serp-footer__link serp-footer__link_title_yes serp-footer__settings footer__settings\
+        \ serp serp-footer__retpath i-bem\" data-bem='{\"link\":{},\"serp\":{\"uniqId\"\
+        :\"search\"}}' data-log-node=mgm44e target=_self tabindex=0 href=\"//yandex.com/tune/search?retpath=https%3A%2F%2Fyandex.com%2Fsearch%2F%3Ftext%3DHello%26p%3D1%26lr%3D20742%26ncrnd%3D76183\"\
+        \ data-counter=\"[&quot;b&quot;]\">Settings</a><a class=\"link link_theme_clear\
+        \ serp-footer__link serp-footer__help i-bem\" data-bem='{\"link\":{}}' rel=\"\
+        \" data-log-node=mgm44f target=_blank tabindex=0 href=\"//yandex.com/support/search/\"\
+        \ data-counter=\"[&quot;b&quot;]\">Help</a><a class=\"link link_theme_clear\
+        \ serp-footer__link serp-footer__feedback i-bem\" data-bem='{\"link\":{}}'\
+        \ rel=\"\" data-log-node=mgm44g target=_blank tabindex=0 href=\"//yandex.com/support/search/troubleshooting/form.html\"\
+        \ data-counter=\"[&quot;b&quot;]\">Feedback</a><span class=\"link link_theme_clear\
+        \ serp-footer__link serp-footer__family-mode serp-footer__family-mode_filter_moderate\
+        \ i-bem\" data-bem='{\"link\":{}}' rel=\"\" data-log-node=mgm44h target=_blank\
+        \ tabindex=0 role=button data-counter=\"[&quot;b&quot;]\">Turn on Family search</span><a\
+        \ class=\"link link_theme_normal serp-footer__link serp-footer__lang i-bem\"\
+        \ data-bem='{\"link\":{}}' data-log-node=mgm44i tabindex=0 href=\"//yandex.com/tune/lang?retpath=https%3A%2F%2Fyandex.com%2Fsearch%2F%3Ftext%3DHello%26p%3D1%26lr%3D20742%26ncrnd%3D76183\"\
+        \ data-counter=\"[&quot;b&quot;]\">Eng</a></div></div><div class=serp-footer__main><div\
+        \ class=serp-footer__wrapper><div class=serp-footer__left><div class=\"serp-footer__cols\
+        \ serp-footer__cols_num_2\"><div class=serp-footer__col><a class=\"link link_theme_clear\
+        \ serp-footer__link serp-footer__link_title_yes serp-footer__business serp-footer__col-item\
+        \ i-bem\" data-bem='{\"link\":{}}' rel=\"\" data-log-node=mgm44j target=_blank\
+        \ tabindex=0 href=\"//yandex.com/b2b\" data-counter=\"[&quot;b&quot;]\">For\
+        \ business</a><a class=\"link link_theme_clear serp-footer__link serp-footer__direct\
+        \ serp-footer__col-item i-bem\" data-bem='{\"link\":{}}' rel=\"\" data-log-node=mgm44k\
+        \ target=_blank tabindex=0 href=\"https://direct.yandex.com/?utm_source=yandex_portal&amp;utm_medium=serp_navi_links&amp;utm_campaign=20180516\"\
+        \ data-counter=\"[&quot;b&quot;]\">Direct</a><a class=\"link link_theme_clear\
+        \ serp-footer__link serp-footer__cloud serp-footer__col-item i-bem\" data-bem='{\"\
+        link\":{}}' rel=\"\" data-log-node=mgm44l target=_blank tabindex=0 href=\"\
+        //cloud.yandex.com/?utm_source=yaserp&amp;utm_medium=podvallist&amp;utm_campaign=forbusiness\"\
+        \ data-counter=\"[&quot;b&quot;]\">Cloud</a><a class=\"link link_theme_clear\
+        \ serp-footer__link serp-footer__kassa serp-footer__col-item i-bem\" data-bem='{\"\
+        link\":{}}' rel=\"\" data-log-node=mgm44m target=_blank tabindex=0 href=\"\
+        //checkout.yandex.com/?_openstat=promo;serp_footer_en&amp;source=serp_footer_en\"\
+        \ data-counter=\"[&quot;b&quot;]\">Checkout</a></div><div class=serp-footer__col><a\
+        \ class=\"link link_theme_clear serp-footer__link serp-footer__link_title_yes\
+        \ serp-footer__yandex serp-footer__col-item i-bem\" data-bem='{\"link\":{}}'\
+        \ rel=\"\" data-log-node=mgm44n target=_blank tabindex=0 href=\"//yandex.com\"\
+        \ data-counter=\"[&quot;b&quot;]\">Yandex</a><a class=\"link link_theme_clear\
+        \ serp-footer__link serp-footer__about serp-footer__col-item i-bem\" data-bem='{\"\
+        link\":{}}' rel=\"\" data-log-node=mgm44o target=_blank tabindex=0 href=\"\
+        https://company.yandex.com\" data-counter=\"[&quot;b&quot;]\">About Yandex</a><a\
+        \ class=\"link link_theme_clear serp-footer__link serp-footer__vacancy serp-footer__col-item\
+        \ i-bem\" data-bem='{\"link\":{}}' rel=\"\" data-log-node=mgm44p target=_blank\
+        \ tabindex=0 href=\"//yandex.com/jobs\" data-counter=\"[&quot;b&quot;]\">Jobs</a><a\
+        \ class=\"link link_theme_clear serp-footer__link serp-footer__blog serp-footer__col-item\
+        \ i-bem\" data-bem='{\"link\":{}}' rel=\"\" data-log-node=mgm44q target=_blank\
+        \ tabindex=0 href=\"//yandex.com/company/blog\" data-counter=\"[&quot;b&quot;]\"\
+        >Blog</a><a class=\"link link_theme_clear serp-footer__link serp-footer__contacts\
+        \ serp-footer__col-item i-bem\" data-bem='{\"link\":{}}' rel=\"\" data-log-node=mgm44r\
+        \ target=_blank tabindex=0 href=\"//yandex.com/company/contacts\" data-counter=\"\
+        [&quot;b&quot;]\">Contacts</a></div></div><div class=serp-footer__copyright-links><div\
+        \ class=serp-footer__links-separated><div class=copyright data-log-node=mgm44s>\xA9\
+        \_<span class=copyright__dates>2012\u20132021</span>\_\_<span class=copyright__name>Yandex</span></div></div></div></div><div\
+        \ class=serp-footer__right></div></div></div></div><div class=\"paranja paranja_state_close\
+        \ paranja_theme_normal z-index-group\"></div><div class=\"serp serp__spin\
+        \ i-bem\" data-bem='{\"serp\":{\"uniqId\":\"search\",\"connectionError\":{\"\
+        message\":\"Check your internet connection\"},\"resultError\":{\"message\"\
+        :\"Failed to receive results\"}}}'></div><div class=overlay__panel data-bem='{\"\
+        overlay__panel\":{\"uniqId\":\"overlay-panel\"}}' data-log-node=mgm44t><div\
+        \ class=overlay__panel-inner><div class=overlay__header data-log-node=mgm44u><button\
+        \ class=\"button2 button2_size_m button2_theme_clear button2_view_classic\
+        \ overlay__action-left i-bem\" data-bem='{\"button2\":{}}' type=button autocomplete=off\
+        \ tabindex=0 data-log-node=mgm44v data-counter=\"[&quot;b&quot;]\"><span class=\"\
+        icon icon_size_m icon_type_back button2__icon\"></span></button><button class=\"\
+        button2 button2_size_m button2_theme_clear button2_view_classic overlay__action-right\
+        \ i-bem\" data-bem='{\"button2\":{}}' type=button autocomplete=off tabindex=0\
+        \ data-log-node=mgm44w data-counter=\"[&quot;b&quot;]\"><span class=\"icon\
+        \ icon_size_m icon_type_close-x button2__icon\"></span></button></div><div\
+        \ class=overlay__content tabindex=1 data-log-node=mgm44x></div><div class=\"\
+        overlay__spin overlay__spin_hidden\"><div class=\"spin2 spin2_size_l spin2_progress_yes\
+        \ spin2_view_default spin2_tone_default\"></div></div></div></div><style nonce=6341\
+        \ data-stylesheet=deferrable></style><div class=\"Root\" id=\"f1wzpkyi-NbOSQan\"\
+        \ data-state-id=\"NbOSQam\" data-type=\"lazy-load\"></div><script nonce=6341>Ya=Ya||{},Ya.Search=Ya.Search||{},Ya.Search.Suggest=Ya.Search.Suggest||{},Ya.Search.Suggest.main=JSON.parse(\"\
+        {\\\"params\\\":{\\\"url\\\":\\\"//yandex.com/suggest/suggest-ya.cgi?srv=serp_com_desktop&wiz=TrWth&yu=1848456311620686514&lr=20742&uil=en&fact=1&icon=1&hl=1&v=4&n=10&mob=0&portal=1&platform=desktop&history=1&safeclick=1&skip_clickdaemon_host=1&show_experiment=222&show_experiment=224&rich_nav=1&use_verified=1&verified_nav=1&rich_phone=1&extend_fw=1&use_favicon=1&maybe_ads=1&mt_wizard=1&latin=1\\\
+        \",\\\"deleteUrl\\\":\\\"//yandex.com/suggest/suggest-delete-text?srv=web&text_to_delete=\\\
+        \",\\\"faviconUrl\\\":\\\"//favicon.yandex.net/favicon/v2/\\\",\\\"clickHost\\\
+        \":\\\"//yandex.com/clck\\\",\\\"navSource\\\":\\\"/search/suggest/\\\",\\\
+        \"sameSiteSupport\\\":\\\"\\\",\\\"counter\\\":{\\\"service\\\":\\\"serp_com_desktop\\\
+        \",\\\"url\\\":\\\"//yandex.com/clck/jclck\\\",\\\"yandexuid\\\":\\\"1848456311620686514\\\
+        \",\\\"timeout\\\":300,\\\"src\\\":true,\\\"params\\\":{\\\"dtype\\\":\\\"\
+        stred\\\",\\\"pid\\\":\\\"0\\\",\\\"cid\\\":\\\"2873\\\"}},\\\"logParams\\\
+        \":{\\\"suggest\\\":\\\"mgm42s\\\",\\\"feedback\\\":\\\"mgm42t\\\",\\\"login\\\
+        \":\\\"mgm42u\\\",\\\"counters\\\":{\\\"suggest\\\":1,\\\"feedback\\\":1,\\\
+        \"login\\\":1}},\\\"feedbackText\\\":\\\"Report\\\",\\\"feedbackUrl\\\":\\\
+        \"//yandex.com/suggest-complain/complain\\\",\\\"direct\\\":{\\\"label\\\"\
+        :\\\"ad\\\",\\\"counter_delay\\\":5000,\\\"adb\\\":false},\\\"reRequestUrl\\\
+        \":\\\"//yandex.com/suggest/ad-rerequest-ya.cgi?srv=serp_com_desktop&wiz=TrWth&yu=1848456311620686514&lr=20742&uil=en&fact=1&icon=1&hl=1&v=4&n=10&mob=0&portal=1&platform=desktop&history=1&safeclick=1&skip_clickdaemon_host=1&show_experiment=222&show_experiment=224&rich_nav=1&use_verified=1&verified_nav=1&rich_phone=1&extend_fw=1&use_favicon=1&maybe_ads=1&mt_wizard=1&latin=1\\\
+        \",\\\"reRequestTimeout\\\":200,\\\"a11y\\\":{\\\"nav\\\":\\\"external link\\\
+        \"},\\\"loginText\\\":\\\"Sign in and sync search history across your devices\\\
+        \",\\\"loginUrl\\\":\\\"https://passport.yandex.com/auth?origin=serp_desktop_suggest\\\
+        \",\\\"isLoggedIn\\\":false},\\\"mods\\\":{\\\"request\\\":\\\"xhr\\\",\\\"\
+        search\\\":\\\"yes\\\",\\\"personal\\\":\\\"yes\\\",\\\"rich\\\":\\\"yes\\\
+        \",\\\"arrows\\\":\\\"yes\\\",\\\"feedback\\\":\\\"yes\\\",\\\"direct\\\"\
+        :\\\"yes\\\",\\\"has-value\\\":\\\"yes\\\",\\\"re-request\\\":\\\"yes\\\"\
+        ,\\\"hide-delay\\\":\\\"yes\\\",\\\"login\\\":\\\"yes\\\",\\\"favicon\\\"\
+        :\\\"yes\\\"}}\"),Ya.Search.Suggest.main.node=document.querySelector(\".search2\"\
+        );</script><script src=\"//yastatic.net/s3/web4static/_/v2/JZsFC2-tifDd3jGS4BZMD1RuzbU.js\"\
+        \ crossorigin=\"\" id=mini-suggest__js async></script><script nonce=6341 id=before-static>Ya.sendSerpPageOpen=function(e,a,n){var\
+        \ s=Ya.Rum.vsChanged;w(null,\"471.143.842\",\"-nav-type=\"+e+\",-vis=\"+a+\"\
+        ,-vis-changed=\"+s,{event:\"tech\",type:\"serp-page-open\",nodeId:Ya.SerpContext.clckId,sts:n,data:{navType:e,vis:a,visChanged:s}}),Ya.isPageVisible=\"\
+        visible\"===a};Ya.sendSerpPageOpen(window.performance?window.performance.navigation.type:\"\
+        load\",Ya.Rum.vsStart||\"unknown\",Ya.startPageLoad);addEventListener(\"DOMContentLoaded\"\
+        ,(function(){setTimeout((function n(){if(!window.BEM)return setTimeout(n,50);BEM.channel(\"\
+        ajax\").on(\"successCallbacksStarted\",(function(){Ya.sendSerpPageOpen(\"\
+        ajax\",document.visibilityState||\"unknown\",Date.now())}))}),0)}));Ya.Rum.sendTimeMark(\"\
+        2417\");Ya.define=Ya.define||function(e,n,t){function r(e){for(var t=0;t<e.length;t++)if(!n[e[t]])return!1;return!0}function\
+        \ i(i,a){if(!n[i]){if(n[i]=!0,a)try{var f;Ya.logDefineScript&&(f=Ya.Rum.getTime()),a(),Ya.logDefineScript&&Ya.Rum.sendTimeMark(\"\
+        tech.script.delta\",Ya.Rum.getTime()-f,!0,{\"-name\":encodeURIComponent(i)})}catch(o){o.catchType=\"\
+        module:\"+i,window.logSerpJsError&&logSerpJsError(o)}Object.keys(e).forEach((function(n){var\
+        \ i=e[n];i&&r(i.deps)&&(delete e[n],t.push(i))}))}}var a=!1;function f(n,f,o){var\
+        \ d={name:n,deps:f||[],fn:o};r(d.deps)?(t.push(d),function(){if(!a){for(a=!0;t.length>0;){var\
+        \ e=t.shift();i(e.name,e.fn)}a=!1}}()):e[n]=d}return f.modules=e,f}({},{},[]),Ya.defineExternal=Ya.defineExternal||function\
+        \ e(n,t,r){if(window[n])Ya.define(t);else try{var i=document.querySelector(\"\
+        #\"+t);i&&i.addEventListener(\"load\",(function(){Ya.define(t)}))}catch(a){r=r||0,setTimeout(e.bind(null,n,t,r),1e3),r++<10&&(a.catchType=\"\
+        ya-define-external:\"+(t||\"empty\"),window.logSerpJsError(a))}},Ya.defineWhen=Ya.defineWhen||function(e,n,t){var\
+        \ r=Object.keys(Ya.define.modules).filter((function(e){return n.test(e)}));Ya.define(e,r,t)};Ya.jserrorsPrev=Ya.jserrors,Ya.jserrors=[],Ya.jserrorsByTypeCount={690.2354:0,690.2361:0,690.2854:0,690.2609:0},Ya.logSerpJsErrorPrev=window.logSerpJsError,Ya.serverHostname=\"\
+        yandex.com\",Ya.clientHostname=window.location.hostname,Ya.logSerpErrorMessagesMap={},window.logSerpJsError=function(e){Ya.onerror(e.message,e.fileName,e.lineNumber,e.columnNumber,e,e.catchType||\"\
+        unknown\"),Ya.logSerpJsErrorPrev&&Ya.logSerpJsErrorPrev.apply(this,arguments)},Ya.isExternalError=function(e,r,o){if(e=String(e||\"\
+        \"),o=String(o||\"\"),\"\"!==Ya.serverHostname&&-1===Ya.serverHostname.indexOf(Ya.clientHostname))return!0;return\
+        \ Boolean(e&&(-1!==e.indexOf(\"kaspersky-labs.com/\")||/(?:miscellaneous|extension)_bindings/.test(e)||/^(?:chrome|file):/.test(e)||/^(?:moz|chrome)-extension:\\\
+        /\\//.test(e)||0===e.indexOf(\"resource://\")||-1!==e.indexOf(\"webnetc.top\"\
+        )||-1!==e.indexOf(\"local.adguard.com\"))||navigator.userAgent&&/\\bOPR\\\
+        b/.test(navigator.userAgent)||r&&(/(?:__adgRemoveDirect|adUsageStorageVars|ucapi|gj\\\
+        .track\\.uc\\.cn|__show__deepen)/.test(r)||/__firefox__\\.(?:favicons|metadata|reader)\\\
+        ./.test(r)||/ntp is not defined/.test(r)||-1!==r.indexOf(\"__gCrWeb\")||/TypeError:\
+        \ Cannot read property 'getReadMode(?:Config|Extract|Render)' of undefined/.test(r)||/ReferenceError:\
+        \ topMsg is not defined/.test(r))||o&&(/@blob:https:/.test(o)||/wrapPropertyAccess.+\\\
+        n.+abortOnRead.+\\n.+queryAndProxyIframe/.test(o)||/(?:moz|chrome)-extension:\\\
+        /\\//.test(o)||/adguard.*\\.user\\.js/i.test(o)||/Object\\.[\\w. \\[\\]]+JSONParse.+\\\
+        (.+main.js.+\\)\\n[\\w\\W]*XMLHttpRequest\\.[\\w.]+\\.onload.+\\(.+main.js.+\\\
+        )/.test(o)||/KasperskyLab.+JSONParse.+main.js.+\\n.+onload.+main.js/.test(o))||(a=navigator.standalone,n=window.BEM&&BEM.blocks&&BEM.blocks[\"\
+        i-global\"],s=n&&n.param(\"isIOSNoSafari\")&&!a,t=n&&n.param(\"isAndroidWebView\"\
+        ),s||t)||/Uncaught TypeError: Cannot read property 'disconnect' of null/.test(r)&&/<anonymous>:1:825/.test(o));var\
+        \ a,n,s,t},Ya.isClientError=function(e,r,o,a){return null!=a||\"ResizeObserver\
+        \ loop limit exceeded\"===r||\"ResizeObserver loop completed with undelivered\
+        \ notifications.\"===r},Ya.onerror=function(e,r,o,a,n,s){if(e&&\"string\"\
+        ==typeof e&&!(Ya.jsLibError||Ya.disableLogging&&\"Error logging disabled by\
+        \ new ua in old browser\"!==e)){var t,i,l,d=n&&n.stack;if(i=/^script error/i.test(e)?\"\
+        690.2609\":Ya.isExternalError(r,e,d)?\"690.2854\":Ya.isClientError(r,e,d,s)?\"\
+        690.2354\":\"690.2361\",!((l=Ya.jserrorsByTypeCount[i])>100)){var c=n&&n.additional;c&&\"\
+        object\"!=typeof c&&(c={additional:c});var p,g,u=e.match(/TypeError: (c\\\
+        d+) is not a function/);if(u){var f,m=u[1];e=m in window?\"TypeError: JSONP\
+        \ callback is set to \"+(null===(f=window[m])?\"null\":typeof f):\"TypeError:\
+        \ JSONP callback is not set (not in window)\"}if(Ya.logSerpErrorMessagesMap[e]){if(10===Ya.logSerpErrorMessagesMap[e])return;Ya.logSerpErrorMessagesMap[e]++}else\
+        \ Ya.logSerpErrorMessagesMap[e]=1;window.BEM&&BEM.blocks&&BEM.blocks[\"i-global\"\
+        ]&&(p=BEM.blocks[\"i-global\"].param(\"staticVersion\"),g=\"\"!==BEM.blocks[\"\
+        i-global\"].param(\"login\")),p&&((c=c||{}).sameStaticVersion=\"0x3e13f5e57bf\"\
+        ===p,c.serverStaticVersion=p);var b=\"\";if((t={143:\"1119.1034.153\",\"-platform\"\
+        :\"desktop\",\"-version\":\"0x3e13f5e57bf\",\"-env\":\"production\",\"-region\"\
+        :\"20742\",\"-project\":\"web4\",\"-cdn\":window.YaStaticRegion||\"unknown\"\
+        ,\"-source\":s,\"-label\":s,\"-msg\":e,\"-url\":r,\"-line\":o,\"-col\":a,\"\
+        -stack\":d,\"-block\":n&&n.blockName,\"-ua\":navigator.userAgent,\"-referrer\"\
+        :window.location.href,\"-silent\":l>10?\"yes\":\"no\",\"-loggedin\":g})[\"\
+        -adb\"]=b,c)try{t[\"-additional\"]=JSON.stringify(c)}catch(y){t[\"-additional\"\
+        ]='{\"error\":\"Cannot stringify additional info\"}'}var E,w=[];for(E in t)t.hasOwnProperty(E)&&null!=t[E]&&w.push(E+\"\
+        =\"+encodeURIComponent(t[E]).replace(/\\*/g,\"%2A\"));wb(null,i,w.join(\"\
+        ,\"),{counterParams:[\"dtype=stred\",\"pid=1\",\"cid=73018\"]}),Ya.jserrors.push({message:e,url:r,line:o,col:a,error:n,additional:c}),Ya.jserrorsByTypeCount[i]++}}},Ya.jserrorsPrev.forEach((function(e){Ya.onerror.apply(null,e)}));_borschik(\"\
+        MVfX9\")&&function(e,t){function n(){for(var e={},n=[\".b-page\",\".main .content__left\"\
+        ,\".main\",\".main__top\",\".serp-header\",\".header3\",\".navigation\",\"\
+        .serp-footer\",\".related\",\".pager\",\".more\",\".region-change\",\".competitors\"\
+        ],i=0;i<n.length;i++){var o=r(t.querySelector(n[i]+\"[data-log-node]\"));o&&o.id&&(e[o.id]=a(o))}return\
+        \ e}function i(e){if(-1!==e.className.indexOf(\"card__divided\"))for(var t=e.nextElementSibling;t;){var\
+        \ n=t.className;if(-1!==n.indexOf(\"card__divider_closing\"))return t;if(-1!==n.indexOf(\"\
+        serp-item\"))break;t=t.nextElementSibling}}function o(e,t,n){for(var o=t.querySelectorAll(n),d=[],l=0;l<o.length;l++){var\
+        \ m=o[l],s=r(m);if(s){var c=r(i(m));c&&(s.oh=s.oh+c.oh+Math.max(s.mb,c.mt),s.mb=c.mb),d.push(s)}}for(l=0;l<d.length;l++){var\
+        \ f=d[l];e[f.id]=a(f,d[l-1],d[l+1])}return e}function a(e,t,n){var i=e.oh+((t?Math.max(e.mt-t.mb,0):e.mt)||0)+((n?Math.max(e.mb-n.mt,0):e.mb)||0)+((t&&n?Math.min(t.mb,n.mt):0)||0);return[e.left,e.top,e.ow,e.oh,i]}function\
+        \ r(n){if(n){var i=getComputedStyle(n),o=n.getBoundingClientRect(),a={id:n.getAttribute(\"\
+        data-log-node\"),left:o.left+e.pageXOffset-t.documentElement.clientLeft,top:o.top+e.pageYOffset-t.documentElement.clientTop,ow:0,oh:0,mt:0,mb:0};if(\"\
+        none\"!==i.display){var r=parseInt(getComputedStyle(n,\":before\").marginTop||0),d=parseInt(getComputedStyle(n,\"\
+        :after\").marginBottom||0);a.ow=n.offsetWidth,a.oh=n.offsetHeight,a.mt=Math.max(parseInt(i.marginTop)||0,r),a.mb=Math.max(parseInt(i.marginBottom)||0,d)}return\
+        \ a}}Ya.sendLayoutCoords=function(){b(null,{event:\"tech\",type:\"coords\"\
+        ,nodeId:Ya.SerpContext.clckId,data:{nodes:Ya.getBlocksLayout(),pageNodes:n()}})},Ya.sendPageLayout=function(){if(t.documentElement.clientWidth<=0||t.documentElement.clientHeight<=0)return\
+        \ setTimeout((function(){Ya.sendPageLayout()}),1e3);\"onvisibilitychange\"\
+        in t&&\"visible\"!==t.visibilityState&&!1===Ya.isPageVisible?t.addEventListener(\"\
+        visibilitychange\",(function e(){\"visible\"===t.visibilityState&&(t.removeEventListener(\"\
+        visibilitychange\",e),Ya.sendLayoutCoords())})):Ya.sendLayoutCoords()},Ya.getBlocksLayout=function(){var\
+        \ e=t.querySelector('[data-log-node=\"'+Ya.SerpContext.clckId+'\"]')||t.body,n=o({},e,\"\
+        .serp-list .distr-default-search, .serp-item\");return o(n,e,\".misspell__level\"\
+        )},Ya.sendPageLayout()}(window,document);Ya.sendPageLoadedAsap=2;!function(){function\
+        \ e(r,t,i){if(t<=0||\"hermione-test\"===r.id)setTimeout(i,0);else{for(var\
+        \ n=document.createElement(\"script\"),o=r.attributes,a=0;a<o.length;a++)n.setAttribute(o[a].name,o[a].value);n.setAttribute(\"\
+        retry\",1),n.addEventListener(\"error\",(function(r){e(r.target,t-1,i)})),n.addEventListener(\"\
+        load\",(function(){Ya.define(n.id)})),setTimeout((function(){r.parentNode.removeChild(r),document.body.appendChild(n)}),1e3)}}function\
+        \ r(e,r,t){var i=new Error(r);i.additional={scriptId:e,originalMessage:t};var\
+        \ n=window.performance&&window.performance.navigation&&window.performance.navigation.type;n&&(i.additional.navigationType=n),window.logSerpJsError(i),Ya.jsLibError=!0}addEventListener(\"\
+        error\",(function(t){var i=t.target;i&&i.nodeName&&\"SCRIPT\"===i.nodeName.toUpperCase()&&i.getAttribute(\"\
+        data-rcid\")&&i.id&&!i.getAttribute(\"retry\")&&(t.error?Ya.jsLibError=!0:\"\
+        hermione-test\"!==i.id?e(i,10,(function(){r(i.id,\"Script load error\",t.message)})):r(i.id,\"\
+        HermioneTestError\",t.message))}),!0)}();</script><script src=\"//yastatic.net/s3/web4static/_/v2/kjB7lBuv2DNpJjTmXoI-dumiH98.js\"\
+        \ crossorigin=\"\" async></script><script src=\"//yastatic.net/jquery/2.1.4/jquery.min.js\"\
+        \ crossorigin=\"\" id=jquery async data-rcid=2104></script><script src=\"\
+        //yastatic.net/react/17.0.2/react-with-dom-and-polyfills.min.js\" crossorigin=\"\
+        \" id=react-with-dom async data-rcid=2953></script><script src=\"//yastatic.net/s3/web4static/_/v2/GhypO-VK79KZRRHKU-62BS5MI4w.js\"\
+        \ crossorigin=\"\" id=main-js async data-rcid=2095></script><script src=\"\
+        //yastatic.net/s3/web4static/_/v2/main-chunk.acf3694b5074befe8c32.js\" crossorigin=\"\
+        \" id=main-react-js async data-rcid=3733></script><script nonce=6341>Ya.defineExternal(\"\
+        $\",\"jquery\"),Ya.asyncScripts=1;</script><noframes id=\"lazy-react-state\"\
+        \ style=\"display:none\">{\"NbOSQam\":{\"extralinksPopupProps\":{\"abuseLink\"\
+        :\"https://yandex.com/search/abuse?sign=aa6ea12c86b11456100a90608967453c&keyno=0\"\
+        },\"conditionLoadList\":{\"marketCart\":false,\"marketCartOnboarding\":false,\"\
+        marketCartButtonOnboarding\":false,\"marketFavoritesOnboarding\":false,\"\
+        lastSeen\":true}}}</noframes><script nonce=6341 id=after-static>Ya.Rum.sendTimeMark(\"\
+        2300\");(function(e){e.innerHTML=\"Hello \u2014 Yandex:  12\_million\_results\
+        \ found\";document.title=e.firstChild?e.firstChild.nodeValue:\"\"})(document.createElement(\"\
+        i\"));!function(e){function n(){for(var e=document.querySelectorAll(\".search2\
+        \ .input__control[name=text]\"),n=0;n<e.length;n++)e[n].value=\"Hello\"}n(),addEventListener(\"\
+        pageshow\",(function(e){if(e.persisted)n();else if(window.MSInputMethodContext&&window.performance){var\
+        \ r=performance.timing.responseEnd-performance.timing.requestStart<=50,t=performance.navigation&&2===performance.navigation.type;r&&t&&n()}})),window.Ya=window.Ya||{},Ya.Search=Ya.Search||{},Ya.Search.restoreQuery=n}();Ya.headerData={\"\
+        value\":\"Hello\",\"hiddenInputs\":\"\\u003cinput type=hidden name=lr value=20742>\"\
+        };Ya.define(\"after-static\",[\"jquery\", \"BEM\", \"BEM.I18N\"],function(){_borschik(\"\
+        FuukV\")&&(_borschik(\"Rn6Zp\")&&BEM.DOM.decl({block:\"serp-user\"},{onSetMod:{js:function(){this.insertIntoHeader()}},insertIntoHeader:function(){BEM.DOM.append(this._getSerpHeader().elem(\"\
+        nav\"),this.domElem.detach()),this.delMod(\"hidden\")},_getSerpHeader:function(){return\
+        \ this._getPage().findBlockInside(\"serp-header\")},_getPage:function(){return\
+        \ this._page||(this._page=this.findBlockOn(BEM.DOM.scope,\"b-page\"))}},{live:function(){this.liveInitOnBlockEvent(\"\
+        init\",\"serp\")}}),_borschik(\"ESGnt\")&&BEM.DOM.decl({block:\"serp-user\"\
+        },{onSetMod:{js:function(){this.cookies=BEM.blocks[\"i-cookie\"].get(),this.bindTo(\"\
+        close\",\"click\",this._closeLoginAuth),this.__base.apply(this,arguments)}},_closeLoginAuth:function(){this.setMod(\"\
+        login-info\",\"hidden\"),this.cookies&&this._setCookie()},_setCookie:function(){this.cookies.yp(\"\
+        zlgn_ckl\",1,this.cookies.getExpirationDate(7))}}),_borschik(\"r-yyi\")&&BEM.DOM.decl({block:\"\
+        serp-user\",modName:\"enter\",modVal:\"yes\"},{onSetMod:{js:function(){this.__base.apply(this,arguments),this._initPopups()}},_initPopups:function(){this.promoPopup=this.findBlockOn(\"\
+        promo-popup\",\"promo-popup\"),this.promoPopup&&this._initPromoPopup()},_initPromoPopup:function(){var\
+        \ o=this.elemParams(\"promo-popup\").index||0,i=BEM.blocks[\"i-cookie\"].get();i.ypBit(\"\
+        ln_tp\",o)||(this.promoPopup.bindTo(\"click\",function(){i.ypBit(\"ln_tp\"\
+        ,o,!0,i.getExpirationDate(365));var t=(this.elemParams(\"promo-popup\").counters||{}).closeByClick;t&&BEM.blocks.counter.log(t),this.promoPopup.hidePopup()}.bind(this)),setTimeout(function(){this.promoPopup.showPopup($(this.elem(\"\
+        login-link\")[0])),i.ypBit(\"ln_tp\",o,!0,i.getExpirationDate(1)),this._listenAnotherPopupsShown(this.promoPopup,function(){this.promoPopup.hidePopup()}.bind(this))}.bind(this),600))},onAjaxSuccess:function(o){var\
+        \ i=(o||{}).params||{};i.login&&this.findBlocksOn(\"login-link\",\"button2\"\
+        ).forEach((function(o){o.setUrl(i.login)})),i.registration&&this.findBlocksOn(\"\
+        registration-link\",\"link\").forEach((function(o){o.domElem.attr(\"href\"\
+        ,i.registration)}))}}),_borschik(\"Ag68L\")&&BEM.DOM.decl({block:\"serp-user\"\
+        ,modName:\"enter\",modVal:\"yes\"},{_initPromoPopup:function(){var o=this.elemParams(\"\
+        promo-popup\").index||0,i=BEM.blocks[\"i-cookie\"].get(),t=this.promoPopup.elem(\"\
+        cross\"),n=Boolean(t.length);i.ypBit(\"ln_tp\",o)||(this.promoPopup.bindTo(n?t:\"\
+        \",\"click\",function(){i.ypBit(\"ln_tp\",o,!0,i.getExpirationDate(365));var\
+        \ t=(this.elemParams(\"promo-popup\").counters||{}).closeByClick;t&&BEM.blocks.counter.log(t,null,{node:this.promoPopup,data:{tags:{close:1}},dynamic:!0}),this.promoPopup.hidePopup()}.bind(this)),setTimeout(function(){this.promoPopup.showPopup(this.elem(\"\
+        login-link\")),i.ypBit(\"ln_tp\",o,!0,i.getExpirationDate(1)),this._listenAnotherPopupsShown(this.promoPopup,function(){this.promoPopup.hidePopup()}.bind(this))}.bind(this),600))},_listenAnotherPopupsShown:function(o,i){this._getPage().findBlocksInside(\"\
+        popup2\").forEach((function(o){o.onFirst(\"beforeOpen\",i)})),BEM.channel(\"\
+        main-suggest\").onFirst(\"show\",i)},onAjaxSuccess:function(o){this.__base.apply(this,arguments);var\
+        \ i=this.findBlockInside(\"promo-popup\");i&&i.findBlocksOn(\"icon\",\"link\"\
+        ).forEach((function(i){var t=BEM.blocks.uri.parse(i.domElem.attr(\"href\"\
+        )).replaceParam(\"retpath\",decodeURIComponent(o.params.retpath)).toString();i.domElem.attr(\"\
+        href\",t)}))}}));_borschik(\"puRv3\")&&\"undefined\"!=typeof BEM&&BEM.I18N&&BEM.I18N.decl(\"\
+        user\",{\"\u041F\u043E\u0447\u0442\u0430\":\"Mail\"},{lang:\"en\"});_borschik(\"\
+        QE3uX\")&&(_borschik(\"16ins\")&&BEM.DOM.decl({block:\"button2\",modName:\"\
+        has-control\",modVal:\"yes\"},{onSetMod:{checked:{yes:function(){this.__base.apply(this,arguments),this.elem(\"\
+        control\").prop(\"checked\",!0).attr(\"aria-checked\",\"true\")},\"\":function(){this.__base.apply(this,arguments),this.elem(\"\
+        control\").prop(\"checked\",!1).removeAttr(\"aria-checked\").removeAttr(\"\
+        checked\")}}},getVal:function(){return this.elem(\"control\").val()},setVal:function(e){return\
+        \ this.elem(\"control\").val(e),this},_processClick:function(e){this.__base.apply(this,arguments),this.hasMod(\"\
+        type\",\"radio\")&&this.setMod(\"checked\",\"yes\"),this.hasMod(\"type\",\"\
+        check\")&&this.toggleMod(\"checked\",\"yes\")},getDefaultParams:function(){return\
+        \ $.extend(this.__base(),{prvntKeys:[\"SPACE\"],clickKeys:[\"SPACE\"]})}}),_borschik(\"\
+        olpYg\")&&BEM.DOM.decl({block:\"button2\",modName:\"type\",modVal:\"check\"\
+        },{_onClick:function(){this.__base.apply(this,arguments),this.toggleMod(\"\
+        checked\",\"yes\")}}));_borschik(\"r0il1\")&&_borschik(\"9xWoP\")&&BEM.DOM.decl({block:\"\
+        popup2\",modName:\"theme\",modVal:\"normal\"},{getDefaultParams:function(){return\
+        \ $.extend(this.__base(),{mainOffset:5,viewportOffset:5})}});(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        8c93cc\",\"8c93cc\"],{MqGZ:function(c,n,w){}}]);(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        d866fa\"],{RNCD:function(n,w,o){}}]);(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        847cf9\"],{\"6kOi\":function(n,w,o){}}]);(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        141f50\"],{ErLV:function(e,r,a){\"use strict\";a.d(r,\"a\",(function(){return\
+        \ s}));var n=a(\"cDcd\"),t=a.n(n),c=a(\"WvKr\"),l=a(\"jvHO\"),u=a(\"GEm1\"\
+        ),o=(a(\"6kOi\"),Object(u.a)(\"OldValue\")),s=function(e){var r=Object(c.useComponentRegistry)(u.b).PriceCurrency;return\
+        \ t.a.createElement(\"span\",{className:Object(u.a)(null,[e.className]),role:e.ariaLabel?\"\
+        text\":void 0,\"aria-label\":e.ariaLabel},t.a.createElement(l.a,{value:e.value,withCents:e.withCents}),e.currency&&t.a.createElement(t.a.Fragment,null,\"\
+        \_\",t.a.createElement(r,{currency:e.currency,showAbbr:e.showAbbr,rurSymbolFont:e.rurSymbolFont})),e.oldValue?t.a.createElement(\"\
+        span\",{className:o},t.a.createElement(l.a,{value:e.oldValue,withCents:e.withCents}),e.currency&&t.a.createElement(t.a.Fragment,null,\"\
+        \_\",t.a.createElement(r,{currency:e.currency,showAbbr:e.showAbbr,rurSymbolFont:e.rurSymbolFont}))):void\
+        \ 0)};s.displayName=\"Price\"},GEm1:function(e,r,a){\"use strict\";a.d(r,\"\
+        a\",(function(){return t})),a.d(r,\"b\",(function(){return c}));var n=a(\"\
+        Dps+\"),t=Object(n.cn)(\"Price\"),c=t()}}]);(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        c7f518\"],{Cyk7:function(i,n,t){\"use strict\";t.d(n,\"a\",(function(){return\
+        \ r}));var e=t(\"WvKr\"),s=t(\"FdlL\"),w=t(\"DqCX\"),a=t(\"pyi2\"),c=new e.Registry({id:w.a}).set(\"\
+        Rub\",a.a),r=Object(e.withRegistry)(c)(s.a)}}]);(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        a7c653\"],{sltu:function(e,n,r){\"use strict\";r.d(n,\"a\",(function(){return\
+        \ a}));var t=r(\"WvKr\"),i=r(\"ErLV\"),c=r(\"GEm1\"),s=r(\"Cyk7\"),w=new t.Registry({id:c.b}).set(\"\
+        PriceCurrency\",s.a),a=Object(t.withRegistry)(w)(i.a)}}]);(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        4507dd\"],{Y2lC:function(n,w,o){}}]);(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        0f7fbc\"],{Maq1:function(e,a,n){\"use strict\";n.d(a,\"a\",(function(){return\
+        \ t}));var c=n(\"rKag\"),o=n(\"GEm1\"),t=(n(\"Y2lC\"),Object(c.createClassNameModifier)(o.b,{theme:\"\
+        bold\"}))}}]);Ya.define(\"components-experiments/direct_offer_info\",[\"react-with-dom\"\
+        ],(function(){(window.webpackJsonp=window.webpackJsonp||[]).push([[\"3c42fb\"\
+        ],{1434:function(n,t,e){n.exports=e(\"DzMu\")},DzMu:function(n,t,e){\"use\
+        \ strict\";e.r(t),e.d(t,\"PriceExp\",(function(){return p}));var c=e(\"xLSp\"\
+        ),r=e(\"ldVd\"),f=e(\"mrSG\"),i=e(\"cDcd\"),o=e.n(i),u=e(\"Maq1\"),a=e(\"\
+        sltu\"),d=Object(u.a)(a.a),s=function(n){var t=o.a.createElement(d,Object(f.__assign)({},n));return\
+        \ n.from?o.a.createElement(\"b\",null,\"\u043E\u0442 \",t):t},p={features:[{type:\"\
+        offer_info\"}],condition:function(n){return 2===Number(n.flags.direct_offer_info)},patch:[{id:r.b,fill:function(n){n.set(\"\
+        Price\",s)}}]};Object(c.b)([p])},cDcd:function(n,t){n.exports=React},faye:function(n,t){n.exports=ReactDOM},ldVd:function(n,t,e){\"\
+        use strict\";e.d(t,\"a\",(function(){return r})),e.d(t,\"b\",(function(){return\
+        \ f})),e.d(t,\"c\",(function(){return i})),e.d(t,\"d\",(function(){return\
+        \ o}));var c=e(\"Dps+\"),r=Object(c.cn)(\"OrganicMeta\"),f=r(),i=(r(\"MapLink\"\
+        ),r(\"Items\")),o=r(\"Warning\")}},[[1434,\"24365b\",\"8c93cc\",\"d866fa\"\
+        ,\"847cf9\",\"141f50\",\"c7f518\",\"a7c653\",\"4507dd\",\"0f7fbc\"]]])}));(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        4ba985\"],{jL66:function(n,w,o){}}]);(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        5eb923\"],{LaCw:function(w,n,o){}}]);(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        6cd790\"],{b5SE:function(n,w,o){}}]);(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        64ee37\"],{EACy:function(n,w,o){}}]);(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        f5bd55\",\"f5bd55\"],{psY9:function(n,p,w){}}]);(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        917736\"],{g3fO:function(n,w,o){}}]);(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        883099\"],{\"9qkh\":function(n,w,o){}}]);(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        e850ef\"],{cGDR:function(n,w,o){}}]);(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        215a3e\"],{NITt:function(n,w,o){}}]);(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        e02cc1\"],{\"sD+O\":function(n,w,c){}}]);(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        4805b1\"],{\"070C\":function(n,w,o){}}]);(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        b682b2\"],{\"9HHB\":function(n,w,o){}}]);(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        3784e0\"],{\"oPQ/\":function(n,o,w){}}]);(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        341ae0\"],{YZ22:function(n,w,o){}}]);(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        d38c05\"],{M2DU:function(n,w,o){}}]);(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        3c721c\"],{\"2aTJ\":function(n,w,c){}}]);(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        df5d64\"],{vaxf:function(n,w,o){}}]);(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        c6449f\"],{Cjzr:function(n,w,o){}}]);Ya.define(\"static/chunks/features/OrganicLegacy@desktop.en\"\
+        ,[\"react-with-dom\"],(function(){(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        c85f4a\"],{\"3lfe\":function(e,c,n){},581:function(e,c,n){n(\"WEPz\"),e.exports=n(\"\
+        ShCT\")},ShCT:function(e,c,n){\"use strict\";n.r(c);n(\"Y6wp\")},WEPz:function(e,c,n){n.r(c);var\
+        \ t=n(\"MMKl\");Object(t.setI18nLang)(\"en\")},Ztor:function(e,c,n){}},[[581,\"\
+        24365b\",\"4ba985\",\"5eb923\",\"6cd790\",\"64ee37\",\"f5bd55\",\"917736\"\
+        ,\"883099\",\"e850ef\",\"215a3e\",\"e02cc1\",\"4805b1\",\"b682b2\",\"3784e0\"\
+        ,\"341ae0\",\"d38c05\",\"3c721c\",\"df5d64\",\"c6449f\"]]])}));Ya.define(\"\
+        static/chunks/features/OrganicExtralinks_vanilla@desktop.en\",[],(function(){(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        af635f\"],{1045:function(n,t,c){c(\"WEPz\"),n.exports=c(\"jctl\")},WEPz:function(n,t,c){c.r(t);var\
+        \ e=c(\"MMKl\");Object(e.setI18nLang)(\"en\")},jctl:function(n,t,c){\"use\
+        \ strict\";c.r(t);c(\"Y6wp\")}},[[1045,\"24365b\",\"4805b1\",\"b682b2\"]]])}));Ya.define(\"\
+        static/chunks/libs~features/EntityMusicPopup@desktop~features/LazyLoader@desktop\"\
+        ,[\"react-with-dom\"],(function(){(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        4e3f21\"],{\"90U+\":function(e,t,n){\"use strict\";n.d(t,\"a\",(function(){return\
+        \ i}));var c=n(\"mrSG\"),u=n(\"cDcd\"),r=function(e){return(e+1)%1e6},i=function(){return\
+        \ Object(c.__read)(Object(u.useReducer)(r,0),2)[1]}}}])}));Ya.define(\"static/chunks/features/LazyLoader@desktop.en\"\
+        ,[\"react-with-dom\"],(function(){(window.webpackJsonp=window.webpackJsonp||[]).push([[\"\
+        7d2c33\"],{240:function(n,e,t){t(\"WEPz\"),n.exports=t(\"T55T\")},T55T:function(n,e,t){\"\
+        use strict\";t.r(e),t.d(e,\"App\",(function(){return o}));var c=t(\"xLSp\"\
+        ),a=t(\"5icn\"),o=Object(c.a)(\"LazyLoader\")(a.a)},WEPz:function(n,e,t){t.r(e);var\
+        \ c=t(\"MMKl\");Object(c.setI18nLang)(\"en\")},cDcd:function(n,e){n.exports=React},faye:function(n,e){n.exports=ReactDOM}},[[240,\"\
+        24365b\",\"4e3f21\"]]])}));!function(e){function n(){removeEventListener(\"\
+        DOMContentLoaded\",n),removeEventListener(\"load\",n),setTimeout((function(){var\
+        \ e=new XMLHttpRequest;e.onload=function(){Ya.AppendAsset(e.responseText,\"\
+        style\")},e.open(\"GET\",\"//yastatic.net/s3/web4static/_/v2/i12y_LBCRB7ewPzLRLGUlxdH7fc.css\"\
+        ),e.send()}),0)}\"loading\"===document.readyState?(addEventListener(\"DOMContentLoaded\"\
+        ,n),addEventListener(\"load\",n)):n()}();setTimeout((function(){BEM.blocks.metrika.createCounter({\"\
+        id\":\"11803342\",\"accurateTrackBounce\":true,\"clickmap\":false,\"experiments\"\
+        :\"1_991p0BCCHKQBN88-r7_Bz9zdhRVGFF6coVnM81ulWxDJjX654BiEqsxJJQVNre-i3vWMu04JCqOJDU7ZKPU0wsXEqbqAtjGtaVwZW0Q5PvSDavsbLAcJz7w57Uo3_FD6oepMqDmfY5p0MUvxvayl7LCoYMDqcaXqEcopf7UjeOVI89ALn8dhcxQ4PVZFMXbWYyPHyJ6dFZTQfK90ufITCOy5uTF4k_aCK_7Y0uBXk4DoMnGvLRXbtbS7am47sK7QyiLfhJVHOOIZxA-f9LCdG-oCC9QEQd2iBZKbWKIcx83Ukm7lVYdhLxTmCcfH91IUjrjylmuVWvXx9k6E6sVWK_ilLJF146dqHHW3jqiDRE_fJ_paewsdE0Q9F0b9dR3J4AcLE_s1MN1vP0T8Kz_eMy-tw8sKrTVrYHryOshUBRupbsJ_OPE9isJOKuvckzpnG16Oqcp1XzuoMI0kVOyP3oOtD93TqE8eRtWtldTqTsX3nXdVygUv-J5oI06hxBwwDcIYvM3Gd9IPhgSbRCobgBIhZJ-giGMNyj8oOK-sLw5M3X77ZtHNPKVFNWEFqfnU0jHaoBVCc,\"\
+        ,\"trackLinks\":true,\"webvisor\":false})}),0);$(function(){window.Ya=window.Ya||{};Ya.Serp=Ya.Serp||{};Ya.Serp.amt={\"\
+        las\":\"0f7fbc.0;141f50.0;215a3e.0;215a3e.1;23f73a.0;30b8a3.0;341ae0.0;341ae0.1;3431aa.0;3784e0.0;3784e0.1;3bbf4e.0;3c42fb.0;3c721c.0;3c721c.1;4507dd.0;4507dd.1;452734.0;4805b1.0;4805b1.1;4ba985.0;4ba985.1;4e3f21.0;5eb923.0;5eb923.1;64ee37.0;64ee37.1;6cd790.0;6cd790.1;7d2c33.0;847cf9.0;847cf9.1;883099.0;883099.1;8c93cc.0;8c93cc.1;917736.0;917736.1;NbOSQam;a0c3fc.0;a7c653.0;af635f.0;b13520.0;b682b2.0;b682b2.1;b7bf58.0;b909e7.0;beauty_column_minwidth_css;beauty_column_screen;beauty_column_search;c056e3.0;c56efd.0;c6449f.0;c6449f.1;c7f518.0;c85f4a.0;d38c05.0;d38c05.1;d866fa.0;d866fa.1;df5d64.0;df5d64.1;e02cc1.0;e02cc1.1;e850ef.0;e850ef.1;ee35e6.0;ee7ac3.0;f0a112.0;f5bd55.0;f5bd55.1;favicons;fda1f4.0;overlay_base;promo-popup_theme_ffffff;react-organic-title\"\
+        };Ya.Serp.bmt={\"lb\":\"0op03o0pd0p20qc0p60ws01e02c01t01x01k0bt0gx0r802101s0ci0d2\"\
+        };});_borschik(\"m02Oh\")&&function(e,t){var a=function(e){return Boolean(\"\
+        /search/\"!==e.pathname&&/^(www\\.)?yandex\\.(ru|kz|by|ua|com|com\\.tr|net|fr)$/.test(e.hostname))},n=function(){var\
+        \ e=window.location,t=Ya.headerData&&Ya.headerData.value;if(!t)try{t=decodeURIComponent((e.search.match(/[?&]text=([^&]*)/)||[])[1])}catch(a){window.logSerpJsError(a)}t&&(document.cookie=\"\
+        lsq=\"+encodeURIComponent(t)+\";expires=\"+new Date(Date.now()+6e4).toUTCString()+\"\
+        ;domain=.\"+e.hostname.replace(/^www\\./,\"\")+\";path=/;secure\")};window.w=function(t){e.apply(this,arguments),t&&t.hostname&&t.pathname&&a(t)&&n()};var\
+        \ o=function(e){t.apply(this,arguments),e&&e.hostname&&e.pathname&&e.addEventListener(\"\
+        click\",(function t(o){if(this!==e||o.button)return{};var r=document.createElement(\"\
+        a\");r.href=e.realHref,a(r)&&n(),this.removeEventListener(\"click\",t)}))};o.adAttrName=t.adAttrName,o.dataCounterAttrName=t.dataCounterAttrName,o.raa=t.adAttrName,window.rc=o}(window.w,window.rc);});</script><noscript><i\
+        \ style=\"background:url('//yandex.com/clck/click/reqid=1620686514133827-228575849588484563100145-production-app-host-vla-web-yp-107/path=690.627/vars=143=1119.1034.153/*')\"\
+        ></i><link type=\"text/css\" rel=stylesheet href=\"//yastatic.net/s3/web4static/_/v2/i12y_LBCRB7ewPzLRLGUlxdH7fc.css\"\
+        ></noscript><script nonce=6341>var MOUSE_TRACKING_SETTINGS={}</script><script\
+        \ src=\"//yastatic.net/s3/web4static/_/v2/hFq5xGCHD4Yj_l5xv3WOxHhSeEE.js\"\
+        \ crossorigin=\"\" async></script><div class=\"unread-letters-updater i-bem\"\
+        \ data-bem='{\"unread-letters-updater\":{\"enabled\":true}}'></div><div class=\"\
+        verified-tooltip verified-tooltip_view_default light-popup light-popup_animated_yes\
+        \ i-bem\" data-bem='{\"light-popup\":{\"target\":\"b-page\"}}'><div class=verified-tooltip__popup><div\
+        \ class=verified-tooltip__tail></div><div class=verified-tooltip__message></div></div></div><div\
+        \ class=\"b-counters serp i-bem\" data-bem='{\"b-counters\":{\"ajaxKey\":\"\
+        b-cntrs\"},\"serp\":{\"uniqId\":\"search\"}}'></div><div class=\"safety-filter\
+        \ i-bem\" data-bem='{\"safety-filter\":{\"sk\":\"y93229e369d452d6356e1811b170618c5\"\
+        }}'></div><div class=\"offer-reviews-tooltip offer-reviews-tooltip_view_default\
+        \ offer-reviews-tooltip_theme_dark light-popup light-popup_autoclosable_yes\
+        \ light-popup_autoclosable-scrollresize_yes light-popup_animated_yes i-bem\"\
+        \ data-bem='{\"light-popup\":{\"target\":\"b-page\"}}'><div class=offer-reviews-tooltip__popup><div\
+        \ class=offer-reviews-tooltip__tail></div><div class=offer-reviews-tooltip__message></div><a\
+        \ class=offer-reviews-tooltip__link target=_blank></a></div></div><div class=\"\
+        detect-scripts i-bem\" data-bem='{\"detect-scripts\":{\"host\":\"csp.yandex.net\"\
+        }}'></div>"
+    headers:
+      Accept-CH: Viewport-Width, DPR, Device-Memory, RTT, Downlink, ECT
+      Accept-CH-Lifetime: '31536000'
+      Cache-Control: private, max-age=300, no-transform
+      Content-Encoding: gzip
+      Content-Security-Policy: 'child-src ''self'' data: blob: yabrowser: yandexadexchange.net
+        *.yandexadexchange.net *.kinopoisk.ru www.youtube.com video.khl.ru www.video.khl.ru
+        1tv.ru www.1tv.ru stream.1tv.ru www.stream.1tv.ru player.vgtrk.com www.player.vgtrk.com
+        my.ntv.ru www.my.ntv.ru www.ntv.ru otr.webcaster.pro www.otr.webcaster.pro
+        news.sportbox.ru yabs.yandex.ru paymentcard.yamoney.ru widget.bookform.ru
+        *.turbopages.org *.turbo.site mc.yandex.md yoomoney.ru yandex.com *.yandex.com
+        yandex.ru *.yandex.ru yastat.net yastatic.net *.yastatic.net yandex.net *.yandex.net;connect-src
+        ''self'' blob: wss://*.yandex.net wss://yandex.net wss://*.yandex.ru wss://yandex.ru
+        wss://*.yandex.com wss://yandex.com yandexmetrica.com:* mc.admetrica.ru mc.yandex.md
+        yandex.com *.yandex.com yandex.ru *.yandex.ru yastat.net yastatic.net *.yastatic.net
+        yandex.net *.yandex.net mc.yandex.com;default-src ''self'' blob: yandex.com
+        *.yandex.com yandex.ru *.yandex.ru yastat.net yastatic.net *.yastatic.net
+        yandex.net *.yandex.net;img-src * data: blob:;script-src ''self'' ''unsafe-inline''
+        ''unsafe-eval'' yandex.com *.yandex.com yandex.ru *.yandex.ru yastat.net yastatic.net
+        *.yastatic.net yandex.net *.yandex.net ''nonce-6341'' mc.yandex.com;style-src
+        blob: ''self'' ''unsafe-inline'' yandex.com *.yandex.com yandex.ru *.yandex.ru
+        yastat.net yastatic.net *.yastatic.net yandex.net *.yandex.net;frame-src ''self''
+        data: blob: yabrowser: yandexadexchange.net *.yandexadexchange.net *.kinopoisk.ru
+        www.youtube.com video.khl.ru www.video.khl.ru 1tv.ru www.1tv.ru stream.1tv.ru
+        www.stream.1tv.ru player.vgtrk.com www.player.vgtrk.com my.ntv.ru www.my.ntv.ru
+        www.ntv.ru otr.webcaster.pro www.otr.webcaster.pro news.sportbox.ru yabs.yandex.ru
+        paymentcard.yamoney.ru widget.bookform.ru *.turbopages.org *.turbo.site mc.yandex.md
+        yoomoney.ru yandex.com *.yandex.com yandex.ru *.yandex.ru yastat.net yastatic.net
+        *.yastatic.net yandex.net *.yandex.net mc.yandex.com;media-src ''self'' data:
+        blob: yandex.com *.yandex.com yandex.ru *.yandex.ru yastat.net yastatic.net
+        *.yastatic.net yandex.net *.yandex.net;frame-ancestors yandex.com *.yandex.com
+        yandex.ru *.yandex.ru sandbox.toloka.yandex.com sandbox.iframe-toloka.com
+        iframe-toloka.com yang.yandex-team.ru;report-uri https://csp.yandex.net/csp?from=web4%3Adesktop&project=web4&reqid=1620686514133827-228575849588484563100145-production-app-host-vla-web-yp-107&yandexuid=1848456311620686514&yandex_login=;'
+      Content-Type: text/html; charset=utf-8
+      Expires: Mon, 10 May 2021 22:46:54 GMT
+      NEL: '{"report_to": "network-errors", "max_age": 86400, "success_fraction":
+        0.001, "failure_fraction": 0.1}'
+      Report-To: '{ "group": "network-errors", "max_age": 86400, "endpoints": [ {
+        "url": "https://dr.yandex.net/nel"}]}'
+      Set-Cookie: i=iGFOm6+hyI/XW4tAIHn9G4E0Yoh0b+ISdqEDZoLSb5rr+wZsrmmuD7rmcHhjcy8uTBI2QONvD9w58c8Rcxrbu5LObv4=;
+        Expires=Wed, 10-May-2023 22:41:54 GMT; Domain=.yandex.com; Path=/; Secure;
+        HttpOnly
+      Strict-Transport-Security: max-age=31536000; includeSubDomains
+      Transfer-Encoding: chunked
+      X-Content-Type-Options: nosniff
+      X-Frame-Options: DENY
+      X-Yandex-Items-Count: '15'
+      X-Yandex-Req-Id: 1620686514133827-228575849588484563100145-production-app-host-vla-web-yp-107
+      X-Yandex-STS: '1'
+    status:
+      code: 200
+      message: Ok
+    url: https://yandex.com/search/?text=Hello&p=1
+version: 1
