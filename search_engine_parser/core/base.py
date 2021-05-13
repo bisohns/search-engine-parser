@@ -304,5 +304,5 @@ class BaseSearch:
         # Pages can only be from 1-N
         if page == 0:
             page = 1
-        soup = await self.get_soup(self.get_search_url(query, page, **kwargs), cache=cache, proxy=proxy, proxy_auth=(proxy_user, proxy_password))
+        soup = await self.get_soup(self.get_search_url(query, page, **kwargs), cache=cache, proxy=proxy, proxy_auth=proxy_auth)
         return self.get_results(soup, **kwargs)
