@@ -252,11 +252,12 @@ class BaseSearch:
             search_results = self.parse_result(results, **kwargs)
         # AttributeError occurs as it cannot pass the returned soup
         except AttributeError as e:
-            raise NoResultsOrTrafficError(
-                "The returned results could not be parsed. This might be due to site updates or "
-                "server errors. Drop an issue at https://github.com/bisoncorps/search-engine-parser"
-                " if this persists"
-                )
+        #    raise NoResultsOrTrafficError(
+        #        "The returned results could not be parsed. This might be due to site updates or "
+        #        "server errors. Drop an issue at https://github.com/bisoncorps/search-engine-parser"
+        #        " if this persists"
+        #        )
+            pass
 
         return search_results
 
