@@ -2,7 +2,7 @@
 
 <span><i>"If it is a search engine, then it can be parsed"</i> - some random guy</span>
 
-![Demo](assets/animate.gif)
+![Demo](https://github.com/bisoncorps/search-engine-parser/raw/master/assets/animate.gif)
 
 [![Python 3.6|3.7|3.8|3.9](https://img.shields.io/badge/python-3.5%7C3.6%7C3.7%7C3.8-blue)](https://www.python.org/downloads/)
 [![PyPI version](https://img.shields.io/pypi/v/search-engine-parser)](https://pypi.org/project/search-engine-parser/)
@@ -194,7 +194,7 @@ Result:
 'Preaching to the choir' originated in the USA in the 1970s. It is a variant of the earlier 'preaching to the converted', which dates from England in the late 1800s and has the same meaning. Origin - the full story 'Preaching to the choir' (also sometimes spelled quire) is of US origin.
 ```
 
-![Demo](assets/example.gif)
+![Demo](https://github.com/bisoncorps/search-engine-parser/raw/master/assets/example.gif)
 
 ```bash
 usage: pysearch [-h] [-V] [-e ENGINE] [--show-summary] [-u URL] [-p PAGE]
