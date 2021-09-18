@@ -15,7 +15,6 @@ install:
 script:
   - pytest -s
   - pylint search_engine_parser --exit-zero
-  - ./scripts/pre_deploy_test.sh
 
 after_success:
   - pysearch --version
@@ -32,6 +31,9 @@ jobs:
         on:
           tags: true
         skip_existing: true
+
+before_deploy:
+  - sed -i "s/.*__version__.*/__version__ = \"$TRAVIS_TAG\"/g" search_engine_parser/__init__.py
 
 after_deploy:
   - ./scripts/post_deploy_test.sh
