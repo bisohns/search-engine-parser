@@ -5,11 +5,13 @@ on:
       - master
     paths:
       - '**.py'
+      - 'requirements/**'
   pull_request:
     branches:
       - master
     paths:
       - '**.py'
+      - 'requirements/**'
 
 strategy:
   matrix:
