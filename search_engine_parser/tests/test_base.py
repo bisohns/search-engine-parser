@@ -3,7 +3,6 @@ import unittest
 from importlib import import_module
 from urllib.parse import urlparse
 from unittest.mock import patch, MagicMock
-
 import vcr
 from parameterized import parameterized_class
 

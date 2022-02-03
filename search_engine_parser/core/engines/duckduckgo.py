@@ -56,10 +56,17 @@ class Search(BaseSearch):
         if return_type in (ReturnType.FULL, ReturnType.LINK):
             link = None
             link_tag = single_result.find('a', class_="result__a")
-            rdict["links"] = link_tag.get('href')
-
+            if link_tag is not None:
+                rdict["links"] = link_tag.get('href')
+            else:
+                rdict['links'] = None
         if return_type in (ReturnType.FULL, ReturnType.DESCRIPTION):
             desc = single_result.find(class_='result__snippet')
-            rdict["descriptions"] = desc.text
+            if desc is not None:
+                rdict["descriptions"] = desc.text
+            else:
+                rdict["descriptions"] = ""
+        if rdict['links'] is None:
+            rdict = None
 
         return rdict
