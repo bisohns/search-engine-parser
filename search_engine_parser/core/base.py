@@ -149,7 +149,7 @@ class BaseSearch:
         search_results = SearchResult()
         for each in results:
             rdict = self.parse_single_result(each, **kwargs)
-            if rdict:
+            if rdict is not None:
                 search_results.append(rdict)
         return search_results
 
