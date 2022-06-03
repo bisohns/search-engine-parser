@@ -50,7 +50,9 @@ class Search(BaseSearch):
         rdict = SearchItem()
         if return_type in (ReturnType.FULL, return_type.TITLE):
             h3_tag = single_result.find('h3')
-            rdict["title"] = h3_tag.text
+	    # sometimes h3 tag is not found
+	    if h3_tag:
+                rdict["title"] = h3_tag.text
 
         if return_type in (ReturnType.FULL, ReturnType.LINK):
             link_tag = single_result.find('a')
