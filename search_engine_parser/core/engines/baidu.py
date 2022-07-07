@@ -50,8 +50,9 @@ class Search(BaseSearch):
         rdict = SearchItem()
         if return_type in (ReturnType.FULL, return_type.TITLE):
             h3_tag = single_result.find('h3')
-	    # sometimes h3 tag is not found
-	    if h3_tag:
+
+            # sometimes h3 tag is not found
+            if h3_tag:
                 rdict["title"] = h3_tag.text
 
         if return_type in (ReturnType.FULL, ReturnType.LINK):
@@ -60,6 +61,6 @@ class Search(BaseSearch):
             rdict["links"] = link_tag.get('href')
 
         if return_type in (ReturnType.FULL, return_type.DESCRIPTION):
-            desc = single_result.find('div', class_='c-abstract') 
-            rdict["descriptions"] = desc if desc else ''        
+            desc = single_result.find('div', class_='c-abstract')
+            rdict["descriptions"] = desc if desc else ''
             return rdict
