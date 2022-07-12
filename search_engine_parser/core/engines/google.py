@@ -46,7 +46,7 @@ class Search(BaseSearch):
         Parses Google Search Soup for results
         """
         # find all class_='g' => each result
-        return soup.find_all('div', class_="ZINbbc xpd O9g5cc uUPGi")
+        return soup.find_all('div', class_="Gx5Zad fP1Qef xpd EtOod pkphOe")
 
     def parse_single_result(self, single_result, return_type=ReturnType.FULL, **kwargs):
         """
