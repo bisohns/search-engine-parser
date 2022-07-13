@@ -13,20 +13,22 @@ on:
       - '**.py'
       - 'requirements/**'
 
-strategy:
-  matrix:
-    python: ["3.6", "3.7", "3.8", "3.9"]
-
 jobs:
   test:
+    strategy:
+      matrix:
+        python: ["3.6", "3.7", "3.8", "3.9"]
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
+
     - name: Set up Python 3.7
       uses: actions/setup-python@v1
       with:
         python-version: ${{ matrix.python }}
+
     - name: Install Dependencies
       run: pip install -r requirements/dev.txt
+
     - name: Install package
       run: pytest -s
