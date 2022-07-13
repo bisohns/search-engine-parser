@@ -2,27 +2,45 @@ name: Deploy to Pypi
 on:
   push:
     tags:
-      - '*'
+      - 'v*.*.*'
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
+
     - name: Set up Python 3.7
       uses: actions/setup-python@v1
       with:
         python-version: 3.7
+
     - name: Install Dependencies
       run: pip install -r requirements/dev.txt
+
     - name: Set env
       run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
+
     - name: update Package version
       run: sed -i "s/.*__version__.*/__version__ = \"${{ env.RELEASE_VERSION }}\"/g" search_engine_parser/__init__.py
+
     - name: Install pypa/build
       run: python -m pip install build --user
+
     - name: Build a binary wheel and a source tarball
       run: python -m build --sdist --wheel --outdir dist/ .
+
+    - name: Build Changelog
+      id: github_release
+      uses: mikepenz/release-changelog-builder-action@v3
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Create Release
+      uses: softprops/action-gh-release@v0.1.14
+      with:
+        body: ${{steps.github_release.outputs.changelog}}
+
     - name: Publish package
       uses: pypa/gh-action-pypi-publish@release/v1
       with:
