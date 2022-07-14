@@ -24,6 +24,14 @@ class Search(BaseSearch):
         params["FORM"] = "PERE"
         return params
 
+    def headers(self):
+        base_headers = super().headers()
+        base_headers.update({
+            "cookie": f"SRCHHPGUSR=SRCHLANG=en",
+            "accept-language": "en-US,en;q=0.9",
+        })
+        return base_headers
+
     def parse_soup(self, soup):
         """
         Parses Bing for a search query.
@@ -52,8 +60,10 @@ class Search(BaseSearch):
             rdict["links"] = link
 
         if return_type in (ReturnType.FULL, return_type.DESCRIPTION):
-            caption = single_result.find('div', class_='b_caption')
-            desc = caption.find('p')
+            for identifier in ({'name': 'p'}, {'name': 'div', "class_": 'b_snippetBigText'}):
+                desc = single_result.find(**identifier)
+                if desc:
+                    break
             rdict["descriptions"] = desc.text
 
         return rdict
