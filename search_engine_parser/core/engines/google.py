@@ -12,6 +12,9 @@ import urllib.parse as urlparse
 from search_engine_parser.core.base import BaseSearch, ReturnType, SearchItem
 
 
+EXTRA_PARAMS = ('hl', 'tbs')
+
+
 class Search(BaseSearch):
     """
     Searches Google for string
@@ -34,8 +37,9 @@ class Search(BaseSearch):
         params["q"] = query
         params["gbv"] = 1
         # additional parameters will be considered
-        if kwargs.get("hl"):
-    	    params["hl"] = kwargs.get("hl")
+        for param in EXTRA_PARAMS:
+            if kwargs.get(param):
+                params[param] = kwargs[param]
         return params
 
     def parse_url(self, url):
