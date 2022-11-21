@@ -1,5 +1,5 @@
 -r main.txt
-blessed==1.17.8
+blessed==1.17.9
 m2r==0.2.1
 parameterized==0.7.4
 pylint==2.5.3
