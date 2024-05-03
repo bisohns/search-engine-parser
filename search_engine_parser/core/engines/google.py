@@ -12,7 +12,7 @@ import urllib.parse as urlparse
 from search_engine_parser.core.base import BaseSearch, ReturnType, SearchItem
 
 
-EXTRA_PARAMS = ('hl', 'tbs')
+EXTRA_PARAMS = ('hl', 'tbs', 'safe')
 
 
 class Search(BaseSearch):
@@ -36,6 +36,7 @@ class Search(BaseSearch):
         params["start"] = (page-1) * 10
         params["q"] = query
         params["gbv"] = 1
+        params["safe"] = "active"
         # additional parameters will be considered
         for param in EXTRA_PARAMS:
             if kwargs.get(param):
