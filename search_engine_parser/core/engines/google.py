@@ -12,7 +12,7 @@ import urllib.parse as urlparse
 from search_engine_parser.core.base import BaseSearch, ReturnType, SearchItem
 
 
-EXTRA_PARAMS = ('hl', 'tbs')
+EXTRA_PARAMS = ('hl', 'tbs', 'safe')
 
 
 class Search(BaseSearch):
