@@ -2,10 +2,22 @@ import os
 import random
 import pickle
 import hashlib
+import logging
 import aiohttp
 from fake_useragent import UserAgent
 
 FILEPATH = os.path.dirname(os.path.abspath(__file__))
+
+# fake-useragent already recovers internally when its cache server is
+# unreachable or returns unexpected data (it falls back to querying the
+# cache server for raw JSON, see its utils.py:load()), but it logs that
+# recovery as a warning with a full traceback attached (exc_info=exc).
+# get_rand_user_agent() below is a second layer of defense on top of
+# that, so the traceback is just noise that led users to file bug
+# reports for something that was never actually failing (see
+# bisohns/search-engine-parser#159). Scoped to fake_useragent's own
+# logger only, so we don't hide warnings from anything else.
+logging.getLogger('fake_useragent').setLevel(logging.ERROR)
 
 # prevent caching
 USER_AGENT_LIST = [
